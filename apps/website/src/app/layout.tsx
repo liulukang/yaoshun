@@ -1,10 +1,12 @@
 import type {Metadata} from 'next';
 
+import {siteName} from '@/content/home-content';
+
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Yaoshun Toy Manufacturing',
-  description: 'OEM/ODM toy manufacturing website.'
+  title: siteName,
+  description: 'Premium multilingual toy manufacturer website.'
 };
 
 export default function RootLayout({children}: {children: React.ReactNode}) {

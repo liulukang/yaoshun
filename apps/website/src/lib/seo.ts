@@ -1,6 +1,6 @@
 import type {Metadata} from 'next';
 
-import {siteName} from '@/content/site-content';
+import {siteName} from '@/content/home-content';
 import type {Locale} from '@/types/content';
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://example.com';
@@ -8,10 +8,10 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://example.com';
 export function localePath(locale: Locale, path = ''): string {
   const normalized = path.startsWith('/') ? path : `/${path}`;
   if (normalized === '/') {
-    return locale === 'en' ? '/' : '/zh';
+    return locale === 'en' ? '/en/' : '/zh/';
   }
 
-  return locale === 'en' ? normalized : `/zh${normalized}`;
+  return locale === 'en' ? `/en${normalized}` : `/zh${normalized}`;
 }
 
 export function absoluteUrl(path: string): string {

@@ -22,7 +22,7 @@ export default async function LocaleLayout({children, params}: LocaleLayoutProps
   return (
     <div className="flex min-h-screen flex-col">
       <EnterpriseHeader locale={locale} />
-      <main className="section-shell flex-1 py-8 sm:py-10">{children}</main>
+      <main className="flex-1">{children}</main>
       <EnterpriseFooter locale={locale} />
     </div>
   );
