@@ -1,0 +1,44 @@
+{
+  "Nav": {
+    "home": "Home",
+    "company": "Company",
+    "products": "Products",
+    "certifications": "Certifications",
+    "rnd": "R&D",
+    "stories": "Success Stories",
+    "faq": "FAQ",
+    "contact": "Contact"
+  },
+  "Common": {
+    "viewDetails": "View details",
+    "contactUs": "Contact us",
+    "learnMore": "Learn more",
+    "replaceableCopy": "Replaceable copy: ready for your final approved wording.",
+    "keywords": "Target keywords",
+    "statusAvailable": "Available",
+    "statusInProgress": "In progress"
+  },
+  "Footer": {
+    "line": "OEM/ODM toy manufacturing for global B2B buyers.",
+    "rights": "All rights reserved."
+  },
+  "Cookie": {
+    "title": "Cookie Preferences",
+    "description": "We use essential cookies for website operation and optional analytics cookies for GA4 insights.",
+    "essential": "Essential only",
+    "acceptAll": "Accept all"
+  },
+  "InquiryForm": {
+    "title": "Send your inquiry",
+    "name": "Name",
+    "email": "Business Email",
+    "company": "Company",
+    "country": "Country/Region",
+    "product": "Interested Product",
+    "message": "Project details",
+    "consent": "I agree to the privacy policy and data processing terms.",
+    "submit": "Submit Inquiry",
+    "success": "Inquiry submitted successfully. We will contact you soon.",
+    "error": "Submission failed. Please try again."
+  }
+}
