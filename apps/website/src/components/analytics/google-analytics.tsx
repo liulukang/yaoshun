@@ -1,8 +1,10 @@
 'use client';
 
 import Script from 'next/script';
-import {usePathname, useSearchParams} from 'next/navigation';
-import {useEffect, useState} from 'react';
+import {usePathname} from 'next/navigation';
+import {useEffect, useMemo, useState} from 'react';
+
+import {pushDataLayerEvent} from '@/lib/gtag';
 
 const CONSENT_KEY = 'yaoshun_cookie_consent';
 
@@ -21,10 +23,15 @@ function readConsent(): ConsentState {
   return null;
 }
 
+function toSnakeCase(input: string): string {
+  return input.replace(/([a-z0-9])([A-Z])/g, '$1_$2').replace(/-/g, '_').toLowerCase();
+}
+
 export function GoogleAnalytics() {
-  const gaId = process.env.NEXT_PUBLIC_GA_ID;
+  const gtmId = process.env.NEXT_PUBLIC_GTM_ID?.trim() ?? '';
+  const gaId = process.env.NEXT_PUBLIC_GA_ID?.trim() ?? '';
+  const adsId = process.env.NEXT_PUBLIC_GOOGLE_ADS_ID?.trim() ?? '';
   const pathname = usePathname();
-  const searchParams = useSearchParams();
   const [consent, setConsent] = useState<ConsentState>(null);
 
   useEffect(() => {
@@ -39,33 +46,88 @@ export function GoogleAnalytics() {
   }, []);
 
   useEffect(() => {
-    if (!gaId || consent !== 'all' || typeof window === 'undefined') {
+    if (consent !== 'all' || typeof window === 'undefined') {
       return;
     }
 
-    const pagePath = `${pathname}${searchParams.toString() ? `?${searchParams.toString()}` : ''}`;
-    window.gtag?.('event', 'page_view', {
+    const pagePath = `${pathname}${window.location.search ?? ''}`;
+    pushDataLayerEvent('page_view', {
       page_path: pagePath,
-      page_location: window.location.href
+      page_location: window.location.href,
+      page_title: document.title
     });
-  }, [consent, gaId, pathname, searchParams]);
+  }, [consent, pathname]);
 
-  if (!gaId || consent !== 'all') {
+  useEffect(() => {
+    if (consent !== 'all' || typeof document === 'undefined') {
+      return;
+    }
+
+    const onClick = (event: MouseEvent) => {
+      const target = event.target as HTMLElement | null;
+      if (!target) {
+        return;
+      }
+
+      const trackNode = target.closest<HTMLElement>('[data-track-event]');
+      if (!trackNode) {
+        return;
+      }
+
+      const eventName = trackNode.dataset.trackEvent;
+      if (!eventName) {
+        return;
+      }
+
+      const payload: Record<string, string> = {};
+      Object.entries(trackNode.dataset).forEach(([key, value]) => {
+        if (key === 'trackEvent' || !value) {
+          return;
+        }
+
+        if (key.startsWith('track')) {
+          payload[toSnakeCase(key.slice('track'.length))] = value;
+        }
+      });
+
+      pushDataLayerEvent(eventName, payload);
+    };
+
+    document.addEventListener('click', onClick);
+
+    return () => {
+      document.removeEventListener('click', onClick);
+    };
+  }, [consent]);
+
+  const initScript = useMemo(() => {
+    return `
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({
+        event: 'tracking_bootstrap',
+        ga_id: '${gaId}',
+        ads_id: '${adsId}'
+      });
+      (function(w,d,s,l,i){
+        w[l]=w[l]||[];
+        w[l].push({'gtm.start': new Date().getTime(), event:'gtm.js'});
+        var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),
+            dl=l!='dataLayer'?'&l='+l:'';
+        j.async=true;
+        j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+        f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','${gtmId}');
+    `;
+  }, [adsId, gaId, gtmId]);
+
+  if (!gtmId || consent !== 'all') {
     return null;
   }
 
   return (
-    <>
-      <Script src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`} strategy="afterInteractive" />
-      <Script id="ga4-script" strategy="afterInteractive">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          window.gtag = gtag;
-          gtag('js', new Date());
-          gtag('config', '${gaId}', {send_page_view: false});
-        `}
-      </Script>
-    </>
+    <Script id="gtm-bootstrap" strategy="afterInteractive">
+      {initScript}
+    </Script>
   );
 }

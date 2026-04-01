@@ -1,4 +1,5 @@
 import type {
+  Locale,
   Certification,
   CompanyProfile,
   ContactInfo,
@@ -7,7 +8,13 @@ import type {
   ProductSpec
 } from '@/types/content';
 
-export const siteName = 'Yaoshun Toy Manufacturing';
+export const siteNameEn = 'yaoshun';
+export const siteNameZh = '尧顺';
+export const siteName = siteNameEn;
+
+export function getSiteName(locale: Locale): string {
+  return locale === 'zh' ? siteNameZh : siteNameEn;
+}
 
 export const seoKeywords = [
   'wall washer',
@@ -32,8 +39,8 @@ export const companyProfile: CompanyProfile = {
     zh: '成为国际玩具品牌值得长期合作的创新制造伙伴。'
   },
   summary: {
-    en: 'Founded in 2014, Yaoshun integrates product design, mold development, sampling and mass production for B2B buyers.',
-    zh: '耀顺成立于2014年，打通产品设计、模具开发、打样到量产的全流程，为B端买家提供稳定交付能力。'
+    en: 'Founded in 2014, yaoshun integrates product design, mold development, sampling and mass production for B2B buyers.',
+    zh: '尧顺成立于2014年，打通产品设计、模具开发、打样到量产的全流程，为B端买家提供稳定交付能力。'
   },
   coreStrengths: [
     {
@@ -81,7 +88,7 @@ export const certifications: Certification[] = [
       en: 'Core European toy safety standard set.',
       zh: '欧洲玩具安全核心标准体系。'
     },
-    status: 'available',
+    status: 'in-progress',
     etaDays: 20
   },
   {
@@ -90,6 +97,15 @@ export const certifications: Certification[] = [
     description: {
       en: 'Factory social responsibility audit report.',
       zh: '工厂社会责任验厂报告。'
+    },
+    status: 'in-progress'
+  },
+  {
+    id: 'icti',
+    name: 'ICTI',
+    description: {
+      en: 'Toy industry audit framework aligned with international brand sourcing requirements.',
+      zh: '面向国际品牌采购要求的玩具行业验厂体系。'
     },
     status: 'in-progress'
   },
@@ -294,9 +310,10 @@ export const faqItems: FaqItem[] = [
 ];
 
 export const contactInfo: ContactInfo = {
-  whatsapp: '+86 138 0000 0000',
-  linkedin: 'https://www.linkedin.com/company/yaoshun-toy',
-  email: 'sales@yaoshuntoy.com',
+  whatsapp: '+86 186 6552 7489',
+  phone: '+86 186 6552 7489',
+  linkedin: 'https://www.linkedin.com/company/lai-toys-manufacturing',
+  email: 'sales@lai-toys.com',
   address: {
     en: 'No. 88, Innovation Avenue, Chenghai District, Shantou, Guangdong, China',
     zh: '中国广东省汕头市澄海区创新大道88号'

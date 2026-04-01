@@ -56,6 +56,7 @@ export interface FaqItem {
 
 export interface ContactInfo {
   whatsapp: string;
+  phone: string;
   linkedin: string;
   email: string;
   address: LocalizedText;

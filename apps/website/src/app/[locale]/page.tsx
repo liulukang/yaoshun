@@ -1,8 +1,10 @@
 import type {Metadata} from 'next';
 
+import {JsonLd} from '@/components/seo/json-ld';
 import {EnterpriseHomepage} from '@/components/home/enterprise-homepage';
 import {homepageContent} from '@/content/home-content';
 import {createPageMetadata} from '@/lib/seo';
+import {organizationJsonLd, websiteJsonLd} from '@/lib/structured-data';
 import type {Locale} from '@/types/content';
 
 interface HomePageProps {
@@ -25,5 +27,10 @@ export async function generateMetadata({params}: HomePageProps): Promise<Metadat
 export default async function HomePage({params}: HomePageProps) {
   const {locale} = await params;
 
-  return <EnterpriseHomepage locale={locale} />;
+  return (
+    <>
+      <JsonLd data={[organizationJsonLd(locale), websiteJsonLd(locale)]} />
+      <EnterpriseHomepage locale={locale} />
+    </>
+  );
 }

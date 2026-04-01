@@ -1,6 +1,12 @@
 import type {Locale} from '@/types/content';
 
-export const siteName = 'Auralyn Toys';
+export const siteNameEn = 'yaoshun';
+export const siteNameZh = '尧顺';
+export const siteName = siteNameEn;
+
+export function getSiteName(locale: Locale): string {
+  return locale === 'zh' ? siteNameZh : siteNameEn;
+}
 
 export interface HomePageContent {
   nav: Array<{label: string; href: string}>;
@@ -97,434 +103,416 @@ export interface HomePageContent {
 export const homepageContent: Record<Locale, HomePageContent> = {
   zh: {
     nav: [
-      {label: '公司概览', href: '#company'},
-      {label: '核心优势', href: '#strengths'},
-      {label: '资质合规', href: '#compliance'},
-      {label: '产品方案', href: '#products'},
-      {label: '研发定制', href: '#capability'},
-      {label: '合作案例', href: '#stories'},
-      {label: 'FAQ', href: '#faq'},
-      {label: '联系咨询', href: '#contact'}
+      {label: '公司概览', href: 'company'},
+      {label: '资质合规', href: 'certifications'},
+      {label: '产品方案', href: 'products'},
+      {label: '研发定制', href: 'rnd'},
+      {label: '合作案例', href: 'success-stories'},
+      {label: 'FAQ', href: 'faq'},
+      {label: '联系咨询', href: 'contact'}
     ],
     hero: {
-      eyebrow: '玩具外贸官网首页概念版',
-      title: '年轻、明快、带点惊喜感的玩具品牌首页，也能同时打动全球采购商',
+      eyebrow: '玩具外贸官网',
+      title: '尧顺专注 OEM / ODM 玩具制造，服务全球采购与品牌客户',
       description:
-        '这版首页把传统制造官网里偏重、偏硬的表达，换成更有玩具品牌感的颜色、节奏和层次。它依然服务 B2B 采购决策，但第一眼的感受会更轻盈、更年轻，也更容易让人记住。',
+        '我们提供从产品开发、打样、量产到出货的一体化制造服务。页面内容围绕海外买家真实采购流程设计，帮助客户快速完成工厂评估并进入询盘。',
       primaryCta: '查看产品方案',
-      secondaryCta: '开始项目咨询',
-      badges: ['OEM / ODM 定制开发', 'CE / ASTM / EN71 合规导向', '支持中英双语切换', '适配 SEO 与外贸询盘转化'],
+      secondaryCta: '发起项目咨询',
+      badges: ['OEM / ODM 定制开发', '支持中英双语切换', '可提供 CE / ASTM / EN71 相关资料', 'SEO 关键词部署：wall washer / ai toys for kids / fort building kit'],
       metrics: [
-        {value: '12 年+', label: '玩具代工经验', detail: '覆盖欧美零售、礼品与教育渠道项目。'},
-        {value: '24h', label: '快速打样响应', detail: '重点 SKU 与定制项目可启动快速样品流程。'},
-        {value: '38 国', label: '市场服务经验', detail: '兼顾北美、欧洲、中东与东南亚渠道需求。'},
-        {value: '600k+', label: '月产能规划', detail: '支持大货排产、AQL 抽检与出货协同。'}
+        {value: '2014', label: '企业成立时间', detail: '持续服务外贸玩具客户。'},
+        {value: '6,000 m²', label: '厂房面积', detail: '覆盖生产、组装、包装与仓储区域。'},
+        {value: '50+', label: '员工人数', detail: '含生产、品质、工程与业务团队。'},
+        {value: '200 吨 / 月', label: '月产能力', detail: '支持常规订单与定制项目排产。'}
       ],
-      spotlightTitle: '首页核心叙事',
-      spotlightDescription:
-        '不是简单罗列工厂信息，而是按采购决策路径组织内容，让买家从“看起来靠谱”走到“值得发询盘”。',
-      spotlightPoints: [
-        '第一屏先传达品牌质感、产能规模与合规门槛。',
-        '中段用产品参数、OEM 流程与研发能力承接商业决策。',
-        '尾段用案例、FAQ 与即时联络方式促成询盘转化。'
-      ]
+      spotlightTitle: '采购决策路径',
+      spotlightDescription: '首页按“工厂实力 - 合规背书 - 产品参数 - 联系询盘”顺序组织，买家在一个页面即可完成核心判断。',
+      spotlightPoints: ['先看工厂规模、展厅与产线实拍，确认供应稳定性。', '再看认证、检测与验厂进度，评估项目风险。', '最后通过 WhatsApp 与邮件直连业务，进入打样和报价。']
     },
     company: {
       eyebrow: 'Company Profile',
-      title: '真实工厂感依旧重要，但呈现方式可以更轻、更有品牌表情',
-      description:
-        '首页信息架构围绕海外客户最在意的三件事展开：你是不是稳定工厂、你能不能做复杂定制、你是否具备长期合作所需的合规与交付能力。',
+      title: '2014 年成立的玩具制造工厂，专注海外 OEM / ODM 项目',
+      description: '外贸 B 端买家最关注的是工厂稳定性、合规能力与执行效率。我们把这些信息前置展示，帮助客户更快判断合作可行性。',
       facts: [
-        {label: '成立时间', value: '2014' },
-        {label: '厂房面积', value: '18,000 m²' },
-        {label: '员工人数', value: '260+' },
-        {label: '月产能', value: '600,000 pcs' }
+        {label: '成立时间', value: '2014'},
+        {label: '厂房面积', value: '6,000 m²'},
+        {label: '员工人数', value: '50+'},
+        {label: '月产能力', value: '200 吨'}
       ],
       cards: [
         {
-          title: '品牌基底',
-          description: '首页会围绕 Logo 主色、真实厂房影像与国际化排版气质建立视觉记忆点。'
+          title: '品牌与视觉资产',
+          description: '国内品牌视觉系统已确认，海外品牌注册正在推进，预计约 10 个月完成。'
         },
         {
-          title: '稳定制造',
-          description: '把成立年限、展厅、车间、质检实验区和出货节奏转化为买家可感知的规模语言。'
+          title: '工厂与展厅实拍',
+          description: '我们正在安排工厂与展厅高清拍摄，重点展示生产线、质检区与出货流程。'
         },
         {
-          title: '长期合作',
-          description: '通过使命、愿景与团队协同能力，传达企业不是只接单，而是能陪品牌一起迭代。'
+          title: '使命与愿景',
+          description: 'Mission：让玩具制造更可靠。Vision：成为全球玩具品牌长期稳定的 OEM / ODM 合作伙伴。'
         }
       ]
     },
     strengths: {
       eyebrow: 'Why Us',
-      title: '把“为什么选你”讲得更清楚，也讲得更有年轻品牌张力',
-      description: '我们把差异化卖点做成有节奏的高价值信息块，让采购、品牌和产品经理都能快速抓住重点。',
+      title: '我们能为海外买家稳定交付的四项核心能力',
+      description: '从打样速度到量产质量，每一项能力都对应采购决策中的关键问题。',
       items: [
-        {title: '24 小时样品响应机制', description: '对重点项目建立样品排期窗口，让客户看到你的配合效率。'},
-        {title: '10 年以上海外 OEM / ODM 协作经验', description: '不只制造，还懂包装、认证、运输与市场节奏。'},
-        {title: '自主设计与模具开发团队', description: '从概念草图、结构拆解到打样验证，缩短新品上市周期。'},
-        {title: '环保材料与标准化质检流程', description: '把原料合规、跌落测试、色牢度和抽检体系讲清楚。'}
+        {title: '24 小时打样响应', description: '重点项目建立优先打样窗口，缩短前期沟通与确认周期。'},
+        {title: '10 年以上外贸协作经验', description: '长期服务 OEM / ODM 项目，熟悉欧美客户对交付与合规的要求。'},
+        {title: '研发与模具协同能力', description: '支持结构评估、打样优化及模具开发，兼顾新品速度与量产可行性。'},
+        {title: '环保材料与过程质检', description: '原材料符合环保要求，执行 AQL 抽检与关键工序质量控制。'}
       ]
     },
     compliance: {
       eyebrow: 'Trust & Compliance',
-      title: '合规资质不是附属页，而是首页必须被看见的信任资产',
-      description: '玩具行业的成交起点往往不是设计，而是准入。首页需要提前释放认证、验厂和质量管理体系的可信度。',
+      title: '合规与信任信息在首页即可快速核验',
+      description: '玩具外贸合作首先看准入门槛。我们将认证、检测与验厂进度透明展示，减少买家决策不确定性。',
       certifications: [
-        {name: 'CE', detail: '欧盟玩具市场准入标准展示位，可放置证书编号与有效期。'},
-        {name: 'ASTM', detail: '美国市场安全测试标准，对北美买家是强决策信息。'},
-        {name: 'EN71', detail: '欧洲玩具安全核心规范，适合与检测报告摘要一起展示。'},
-        {name: '检测报告', detail: '支持上传 PDF 摘要、检测项目截图与批次适用范围说明。'}
+        {name: 'CE', detail: '欧盟市场项目可按产品类别提供 CE 相关测试与文件支持。'},
+        {name: 'ASTM', detail: '面向北美市场，可按客户要求提供 ASTM 对应测试资料。'},
+        {name: 'EN71', detail: '欧洲市场项目可提供 EN71 检测支持与批次对应说明。'},
+        {name: '检测报告', detail: '国际认证与检测报告可在项目确认后约 15-20 个工作日内提供。'}
       ],
       audits: [
-        {name: 'BSCI', detail: '强调工厂社会责任与供应链稳定性，帮助筛掉低质量竞争。'},
-        {name: 'ICTI', detail: '玩具行业强信任背书，尤其适合面向大型采购商与品牌客户。'},
-        {name: 'ISO9001', detail: '质量管理体系的长期承诺，强化交付一致性预期。'}
+        {name: 'BSCI', detail: '验厂项目已启动，结果将用于提升供应链透明度与客户信任。'},
+        {name: 'ICTI', detail: 'ICTI 审核推进中，目标是满足玩具行业主流品牌采购要求。'},
+        {name: 'ISO9001', detail: '质量体系持续完善中，确保订单执行过程稳定可追溯。'}
       ]
     },
     products: {
       eyebrow: 'Product Solutions',
-      title: '把产品能力做成更像品牌橱窗的展示，而不是一排冰冷参数',
-      description: '不是简单摆图，而是用高意向字段呈现产品价值：材质、年龄段、装箱率、CBM、MOQ、交期与定制方向。',
+      title: '核心产品与关键参数一页展示，方便买家快速评估',
+      description: '我们按外贸采购逻辑展示材质、适龄、装箱率、CBM、MOQ 与交期，减少重复沟通成本。',
       items: [
         {
-          name: 'AI 智能陪伴玩具',
-          tagline: '面向教育互动与情绪陪伴场景的高附加值玩具方案',
+          name: 'AI Toys for Kids 互动陪伴犬',
+          tagline: '适用于教育互动与家庭陪伴场景',
           image: '/images/products/ai-smart-pup.svg',
-          specs: ['材质：ABS + 毛绒 + 硅胶', '适龄：3+', 'MOQ：1000 pcs', '交期：35 days'],
-          detail: '支持多语言故事包、品牌音色定制与包装本地化，适合做礼盒套装与品牌联名。'
+          specs: ['材质：ABS + 毛绒 + 硅胶', '适龄：3+', 'MOQ：1000 pcs', '交期：35 天'],
+          detail: '支持语音包、本地化包装与品牌外观定制，可用于礼盒与零售渠道。'
         },
         {
-          name: 'STEM 城堡搭建套装',
-          tagline: '适合零售渠道与教育场景的结构拼搭类玩具',
+          name: 'Fort Building Kit 城堡搭建套装',
+          tagline: '面向 STEM 教育与创意拼搭市场',
           image: '/images/products/fort-kit.svg',
           specs: ['材质：PP + ABS', '装箱：8 sets / carton', 'CBM：0.126', 'MOQ：800 sets'],
-          detail: '可做 OEM 配色、说明书本地化与零售包装升级，兼顾玩法与物流利润率。'
+          detail: '支持 OEM 配色、说明书本地化及包装升级，兼顾玩法体验与物流效率。'
         },
         {
-          name: '故事投影夜灯系列',
-          tagline: '将氛围照明、睡前故事与礼品属性整合的畅销方向',
+          name: 'Wall Washer 故事投影夜灯',
+          tagline: '结合灯光氛围与睡前故事的热门品类',
           image: '/images/products/wall-washer.svg',
-          specs: ['材质：ABS + 光学镜片', '适龄：3+', '装箱：24 pcs / carton', '交期：28 days'],
-          detail: '支持图卡内容替换、IP 本地化与跌落测试需求，适合礼赠与商超陈列场景。'
+          specs: ['材质：ABS + 光学镜片', '适龄：3+', '装箱：24 pcs / carton', '交期：28 天'],
+          detail: '可定制图卡内容与外观结构，支持跌落测试与运输包装优化。'
         }
       ]
     },
     capability: {
       eyebrow: 'OEM / ODM Capability',
-      title: '把定制开发流程做成买家愿意继续聊下去的理由',
-      description: '首页直接给出研发与定制能力路径，让客户知道从想法到出货，你们每一步都能接住。',
+      title: '定制开发流程透明，项目从需求到出货可追踪',
+      description: '针对外贸项目，我们把关键节点拆解为可执行流程，确保进度、质量和沟通节奏一致。',
       workflow: [
-        {step: '01 需求共创', detail: '梳理目标市场、年龄段、价位带、包装方式与认证要求。'},
-        {step: '02 结构与模具评估', detail: '从功能、材料与量产可行性出发，降低后续返工成本。'},
-        {step: '03 打样与测试', detail: '建立样品确认、包装同步和关键风险前置验证机制。'},
-        {step: '04 量产与交付', detail: '以排产、抽检、装柜与物流节奏保证大货稳定输出。'}
+        {step: '01 需求确认', detail: '明确目标市场、适龄、价格区间、包装要求和合规标准。'},
+        {step: '02 结构与模具评估', detail: '完成结构可行性、材料选择和模具方案评估。'},
+        {step: '03 打样与验证', detail: '进行样品确认、包装同步和关键测试项验证。'},
+        {step: '04 量产与交付', detail: '执行排产、AQL 抽检、装柜和出运，保障交期稳定。'}
       ],
-      highlights: [
-        '每年可规划多组新品方向，适合长期 ODM 合作。',
-        '支持结构设计、外观优化、包装提案与样机验证。',
-        '首页可进一步延展至模具能力、设计软件与案例图库。'
-      ]
+      highlights: ['支持 OEM 外观与包装定制，也可承接 ODM 开发合作。', '工程团队可配合挤出设备（Extruder）相关部件的工艺评估。', '可根据年度规划协同客户推进新品迭代。']
     },
     showroom: {
       eyebrow: 'Factory & Showroom',
-      title: '真实工厂、真实展厅、真实出货画面，远比空泛口号更有说服力',
-      description: '这一屏专门为“无法到场看厂”的海外买家准备，用视觉细节建立真实感和代入感。',
+      title: '真实工厂与出货场景，是外贸买家判断合作风险的关键',
+      description: '针对无法实地验厂的海外客户，我们在官网重点展示展厅、产线与出货细节。',
       spaces: [
-        {title: '展厅氛围', detail: '展示多品类陈列、系列化陈设与新品样墙，营造成熟品牌感。'},
-        {title: '生产现场', detail: '展示注塑、装配、质检与包装线，体现产线完整度与管理秩序。'},
-        {title: '出货与验货', detail: '展示大货整柜、抽检记录与外箱堆码细节，强化交付可信度。'}
+        {title: '展厅陈列', detail: '集中展示 AI 玩具、搭建套装与投影类产品系列，便于买家快速筛选方向。'},
+        {title: '生产现场', detail: '覆盖注塑、组装、质检与包装工序，体现交付组织能力。'},
+        {title: '验货与装柜', detail: '展示抽检记录、外箱堆码与整柜出货流程，提升采购信心。'}
       ]
     },
     stories: {
       eyebrow: 'Success Stories',
-      title: '案例和合作经历，是帮助买家降低试错成本的最快方式',
-      description: '首页用简洁但有分量的案例摘要，传达你曾经服务过什么类型的客户、解决过什么问题。',
+      title: '真实项目结果，帮助新客户更快建立合作信心',
+      description: '我们整理了近年的典型合作场景，展示项目执行速度、质量控制和复购表现。',
       items: [
         {
-          title: '欧洲精品零售项目',
-          result: '90 天上市周期压缩到 55 天',
-          detail: '通过样品与包装并行推进，帮助客户赶上秋冬档期。'
+          title: '欧洲连锁玩具渠道项目',
+          result: '首单 2 x 40HQ 按期交付',
+          detail: '通过排产与包装同步推进，在销售季前完成出运。'
         },
         {
-          title: '北美节日礼品渠道项目',
-          result: '连续两季稳定复购',
-          detail: '通过 AQL 抽检与跌落测试标准，降低退货与售后风险。'
+          title: '北美教育玩具新品项目',
+          result: '8 周完成打样到首批量产',
+          detail: '研发、打样与测试并行，帮助客户压缩上市周期。'
         },
         {
-          title: '中东连锁渠道 ODM 项目',
-          result: '实现多语言包装与内容本地化',
-          detail: '首页可以继续承接品牌 Logo、展会图与大货实拍进行深度背书。'
+          title: '中东礼品渠道 ODM 项目',
+          result: '实现本地化包装与语言版本切换',
+          detail: '结合市场偏好完成外观与包装调整，项目进入持续复购。'
         }
       ]
     },
     faq: {
       eyebrow: 'FAQ',
-      title: '先回答买家最常问的问题，再减少低质量沟通成本',
-      description: 'MOQ、交期、打样费、OEM 支持、质保与认证，是首页尾段最适合承接转化的高频问题。',
+      title: '高频问题先答清楚，减少反复沟通成本',
+      description: '以下问题覆盖外贸买家最常关注的 MOQ、交期、打样、合规和定制能力。',
       items: [
         {
           question: '常规 MOQ 是多少？',
-          answer: '多数项目根据结构复杂度和包装方案，起订量集中在 800 至 1200 件之间。'
+          answer: '标准产品多在 800-1200 件起订，具体以结构复杂度和包装要求为准。'
         },
         {
-          question: '打样周期和量产交期如何安排？',
-          answer: '打样通常 7 至 15 天，样品确认后常规量产交期为 28 至 35 天。'
+          question: '打样和量产交期如何安排？',
+          answer: '打样通常 7-15 天，样品确认后量产交期一般为 28-35 天。'
         },
         {
-          question: '是否支持 OEM / ODM 与私模开发？',
-          answer: '支持从外观、结构、包装到品牌元素的深度定制，也可协同模具开发。'
+          question: '是否支持 OEM / ODM？',
+          answer: '支持 OEM 外观与包装定制，也可承接 ODM 研发与模具协同开发。'
         },
         {
-          question: '能否提供认证与验厂资料？',
-          answer: '可以在沟通阶段按项目类型提供证书、检测报告和验厂摘要材料。'
+          question: '认证和检测资料多久可提供？',
+          answer: 'CE、ASTM、EN71 相关资料可在项目确认后约 15-20 个工作日内配合提供。'
         }
       ]
     },
     contact: {
       eyebrow: 'Inquiry & Launch',
-      title: '让好感和兴趣别停在浏览里，顺手就能进入询盘',
-      description: '首页底部建议放即时联系渠道、项目启动资料清单与法律合规提示，让询盘在最短路径内发生。',
+      title: '从浏览到询盘，直接进入项目沟通',
+      description: '欢迎通过即时通讯或邮件提交需求，我们将在 1 个工作日内回复产品建议与报价路径。',
       channels: [
-        {label: 'WhatsApp', value: '+86 138 0000 0000', href: 'https://wa.me/8613800000000'},
-        {label: 'LinkedIn', value: 'Auralyn Toys', href: 'https://www.linkedin.com/'},
-        {label: 'Email', value: 'sales@auralyn-toys.com', href: 'mailto:sales@auralyn-toys.com'}
+        {label: 'WhatsApp', value: '+86 186 6552 7489', href: 'https://wa.me/8618665527489'},
+        {label: 'LinkedIn', value: 'yaoshun Manufacturing', href: 'https://www.linkedin.com/company/lai-toys-manufacturing'},
+        {label: 'Email', value: 'sales@lai-toys.com', href: 'mailto:sales@lai-toys.com'}
       ],
-      checklistTitle: '启动官网定制前建议准备',
-      checklist: [
-        '矢量 Logo、品牌色与 2 至 3 个参考网站',
-        '工厂 / 展厅高清实拍原片',
-        '认证证书、检测报告与验厂文件',
-        '产品规格表、CBM、装箱率与 MOQ 数据',
-        '专业英文文案、SEO 关键词与隐私政策'
-      ],
-      notice: '当前首页文案与数据为高质感演示版，正式上线前建议替换为企业真实资料与授权案例。'
+      checklistTitle: '项目启动资料清单',
+      checklist: ['矢量 Logo 与品牌主色', '工厂 / 展厅高清实拍原片', 'CE / ASTM / EN71 与检测报告', '产品规格表（材质、尺寸、装箱率、CBM）', 'SEO 关键词、隐私政策与社媒账号'],
+      notice: '如需查看证书、检测报告或验厂进度，请在询盘中注明目标市场与产品型号。'
     },
     footer: {
-      summary: '面向全球玩具采购商的 OEM / ODM 制造合作伙伴，把品牌年轻感、合规性与稳定交付放在同一张首页里。',
-      legal: ['支持 HTTPS / SSL 部署', '可补充 GDPR 隐私政策与 Cookie 合规模块', '适配 Google SEO 基础信息埋点'],
-      copyright: 'Auralyn Toys. All rights reserved.'
+      summary: '尧顺面向全球采购商提供 OEM / ODM 玩具制造服务，强调合规、质量与稳定交付。',
+      legal: ['支持 HTTPS / SSL 部署', '支持 GDPR 隐私政策与 Cookie 合规模块', '支持欧代与德国包装法相关页面信息展示'],
+      copyright: '尧顺. All rights reserved.'
     },
     seo: {
-      title: 'Auralyn Toys | 玩具外贸官网首页',
-      description: '大气、多语言、适合玩具外贸 OEM / ODM 企业的官网首页方案，突出合规、产品参数、研发定制与询盘转化。',
-      keywords: ['玩具外贸官网', 'toy manufacturer website', 'OEM ODM toy supplier', 'CE ASTM EN71 toys', 'multilingual B2B website']
+      title: '尧顺 | 玩具 OEM / ODM 制造商',
+      description: '尧顺提供玩具外贸 OEM / ODM 制造服务，涵盖 AI Toys for Kids、Fort Building Kit、Wall Washer 系列及合规交付支持。',
+      keywords: ['wall washer', 'ai toys for kids', 'fort building kit', 'toy manufacturer website', 'extruder']
     }
   },
   en: {
     nav: [
-      {label: 'Company', href: '#company'},
-      {label: 'Strengths', href: '#strengths'},
-      {label: 'Compliance', href: '#compliance'},
-      {label: 'Products', href: '#products'},
-      {label: 'Capability', href: '#capability'},
-      {label: 'Stories', href: '#stories'},
-      {label: 'FAQ', href: '#faq'},
-      {label: 'Contact', href: '#contact'}
+      {label: 'Company', href: 'company'},
+      {label: 'Compliance', href: 'certifications'},
+      {label: 'Products', href: 'products'},
+      {label: 'R&D', href: 'rnd'},
+      {label: 'Stories', href: 'success-stories'},
+      {label: 'FAQ', href: 'faq'},
+      {label: 'Contact', href: 'contact'}
     ],
     hero: {
-      eyebrow: 'Toy Manufacturing Homepage Concept',
-      title: 'A younger, brighter toy-manufacturer homepage that still feels ready for serious global buyers',
+      eyebrow: 'Toy Export Website',
+      title: 'yaoshun is an OEM / ODM toy manufacturer for global sourcing and brand partners',
       description:
-        'This version replaces the heavy industrial tone with a lighter, more playful brand language. It still supports B2B decision-making, but the first impression feels fresher, faster and far more memorable.',
-      primaryCta: 'Explore product solutions',
-      secondaryCta: 'Start an inquiry',
-      badges: ['OEM / ODM custom development', 'CE / ASTM / EN71 compliance-oriented', 'English and Chinese language switch', 'Built for SEO and inquiry conversion'],
+        'We provide integrated support from product development and sampling to mass production and shipment. The homepage is structured around real B2B buying decisions so sourcing teams can evaluate and inquire faster.',
+      primaryCta: 'Explore Products',
+      secondaryCta: 'Start Inquiry',
+      badges: ['OEM / ODM custom development', 'English / Chinese bilingual support', 'CE / ASTM / EN71 documentation support', 'SEO keywords deployed: wall washer / ai toys for kids / fort building kit'],
       metrics: [
-        {value: '12+ years', label: 'OEM background', detail: 'Serving retail, gifting and educational toy programs.'},
-        {value: '24h', label: 'Sample response', detail: 'Fast-start workflow for priority SKU and custom projects.'},
-        {value: '38 markets', label: 'Export-facing know-how', detail: 'Supporting North America, Europe, Middle East and Southeast Asia.'},
-        {value: '600k+', label: 'Monthly capacity plan', detail: 'Ready for scheduling, AQL inspection and shipment alignment.'}
+        {value: '2014', label: 'Established', detail: 'Focused on toy export manufacturing.'},
+        {value: '6,000 m²', label: 'Facility Area', detail: 'Production, assembly, packing and warehouse zones.'},
+        {value: '50+', label: 'Team Size', detail: 'Engineering, QA, production and sales teams.'},
+        {value: '200 tons / month', label: 'Monthly Capacity', detail: 'Supports both standard and custom projects.'}
       ],
-      spotlightTitle: 'Homepage storytelling logic',
+      spotlightTitle: 'Sourcing Decision Flow',
       spotlightDescription:
-        'The page is structured around the real purchasing path, so buyers move naturally from initial trust to product interest to direct inquiry.',
+        'The page follows a clear sequence: factory strength, compliance proof, product specs and direct inquiry channels.',
       spotlightPoints: [
-        'The opening screen communicates brand quality, capacity scale and compliance confidence.',
-        'The middle sections translate product specs, OEM workflow and R&D depth into business value.',
-        'The final sections use stories, FAQ and direct channels to shorten the inquiry path.'
+        'Review factory scale, showroom and production visuals first.',
+        'Check certification readiness and audit progress next.',
+        'Connect directly via WhatsApp or email to start sampling and quotation.'
       ]
     },
     company: {
       eyebrow: 'Company Profile',
-      title: 'Factory credibility still matters, but it can be presented with much more energy',
+      title: 'Established in 2014, focused on export-oriented toy manufacturing',
       description:
-        'The homepage is built around what serious toy buyers care about most: whether you are a stable manufacturer, whether you can handle custom development and whether your operation is compliant enough for long-term cooperation.',
+        'Serious B2B buyers evaluate stability, compliance readiness and execution speed first. We surface those details clearly on the homepage.',
       facts: [
         {label: 'Established', value: '2014'},
-        {label: 'Facility Area', value: '18,000 m²'},
-        {label: 'Team Size', value: '260+'},
-        {label: 'Monthly Capacity', value: '600,000 pcs'}
+        {label: 'Facility Area', value: '6,000 m²'},
+        {label: 'Team Size', value: '50+'},
+        {label: 'Monthly Capacity', value: '200 tons'}
       ],
       cards: [
         {
-          title: 'Brand foundation',
-          description: 'The homepage can be built around your logo system, authentic factory imagery and an international visual tone.'
+          title: 'Brand & Visual Assets',
+          description: 'Domestic brand assets are finalized. International brand registration is in progress and expected in about 10 months.'
         },
         {
-          title: 'Stable manufacturing',
-          description: 'Factory age, showroom presence, production lines, QA lab and shipment rhythm all become visible proof points.'
+          title: 'Factory & Showroom Materials',
+          description: 'High-resolution factory and showroom photography is being arranged to present production and QA workflows transparently.'
         },
         {
-          title: 'Long-term partnership',
-          description: 'Mission, vision and cross-functional collaboration help buyers see you as a partner, not only a supplier.'
+          title: 'Mission & Vision',
+          description: 'Mission: Make toy manufacturing more reliable. Vision: Become a long-term OEM / ODM partner for global toy brands.'
         }
       ]
     },
     strengths: {
       eyebrow: 'Why Us',
-      title: 'Your differentiation should feel sharper, younger and easier to remember',
-      description: 'Each selling point is packaged as a premium information block so buyers, brand teams and product managers can understand your edge quickly.',
+      title: 'Four capabilities that matter most to toy sourcing teams',
+      description: 'Each point addresses a key buyer concern: speed, reliability, engineering and quality consistency.',
       items: [
-        {title: '24-hour sample response window', description: 'A visible sign of speed and coordination for buyers under launch pressure.'},
-        {title: '10+ years of overseas OEM / ODM collaboration', description: 'Not only manufacturing, but packaging, testing, freight and market timing awareness.'},
-        {title: 'In-house design and mold development team', description: 'From concept sketch to structural validation, shortening the path to launch.'},
-        {title: 'Eco-compliant materials and standardized QA', description: 'Clear messaging around raw material standards, drop test and inspection logic.'}
+        {title: '24-hour sampling response', description: 'Priority projects can enter an accelerated sample scheduling window.'},
+        {title: '10+ years of export collaboration', description: 'Long-term OEM / ODM execution for overseas customers with practical delivery discipline.'},
+        {title: 'R&D and tooling coordination', description: 'Supports structure evaluation, sample optimization and mold-development cooperation.'},
+        {title: 'Eco-compliant materials with QA control', description: 'Material compliance and AQL-based inspection are embedded into production flow.'}
       ]
     },
     compliance: {
       eyebrow: 'Trust & Compliance',
-      title: 'Compliance assets should be visible on the homepage, not buried on a secondary page',
-      description: 'In toys, access often comes before creativity. The homepage should surface certification, audit and quality-system confidence early in the journey.',
+      title: 'Compliance and trust information is visible from the first screen',
+      description: 'Toy sourcing decisions depend on market-entry compliance. We keep certification support and audit progress transparent.',
       certifications: [
-        {name: 'CE', detail: 'A dedicated visual slot for EU market compliance, certificate number and validity window.'},
-        {name: 'ASTM', detail: 'A core decision signal for North American buyers reviewing safety readiness.'},
-        {name: 'EN71', detail: 'The essential European toy safety framework, ideal with testing report highlights.'},
-        {name: 'Lab Reports', detail: 'Ready to present PDF summaries, test snapshots and batch applicability notes.'}
+        {name: 'CE', detail: 'CE-related support is available according to product category and destination market.'},
+        {name: 'ASTM', detail: 'ASTM testing documentation can be prepared for North American projects.'},
+        {name: 'EN71', detail: 'EN71 testing support can be aligned with EU project requirements.'},
+        {name: 'Lab Reports', detail: 'Certification and test reports can be provided in about 15-20 working days after project confirmation.'}
       ],
       audits: [
-        {name: 'BSCI', detail: 'Signals social responsibility and supply-chain seriousness.'},
-        {name: 'ICTI', detail: 'A strong trust marker for toy brands and larger procurement teams.'},
-        {name: 'ISO9001', detail: 'Shows long-term commitment to quality consistency and process discipline.'}
+        {name: 'BSCI', detail: 'Audit process is underway to strengthen supply-chain transparency.'},
+        {name: 'ICTI', detail: 'ICTI preparation is in progress to meet toy-industry sourcing expectations.'},
+        {name: 'ISO9001', detail: 'Quality system is being refined for stable and traceable project execution.'}
       ]
     },
     products: {
       eyebrow: 'Product Solutions',
-      title: 'Turn product capability into a brand showcase instead of a cold specification wall',
-      description: 'Instead of a shallow gallery, the section highlights the fields B2B buyers care about most: material, age range, carton rate, CBM, MOQ, lead time and customization direction.',
+      title: 'Core products with structured specs for faster buyer decisions',
+      description: 'Material, age range, carton data, CBM, MOQ and lead time are displayed in a sourcing-friendly format.',
       items: [
         {
-          name: 'AI Interactive Companion Toys',
-          tagline: 'A higher-value direction for educational and emotional interaction programs',
+          name: 'AI Toys for Kids Companion Dog',
+          tagline: 'Designed for educational and family-interaction scenarios',
           image: '/images/products/ai-smart-pup.svg',
           specs: ['Material: ABS + plush + silicone', 'Age: 3+', 'MOQ: 1000 pcs', 'Lead Time: 35 days'],
-          detail: 'Supports multilingual story packs, mascot voice customization and localized packaging programs.'
+          detail: 'Supports localized voice packs, packaging customization and branded appearance updates.'
         },
         {
-          name: 'STEM Fort Building Set',
-          tagline: 'Structured play for retail and educational channels',
+          name: 'Fort Building Kit',
+          tagline: 'A STEM-focused construction set for retail and education channels',
           image: '/images/products/fort-kit.svg',
           specs: ['Material: PP + ABS', 'Carton: 8 sets / carton', 'CBM: 0.126', 'MOQ: 800 sets'],
-          detail: 'Suitable for OEM colorways, instruction localization and retail-ready packaging upgrades.'
+          detail: 'Suitable for OEM colorways, localized instructions and retail packaging adaptation.'
         },
         {
-          name: 'Story Projector Night Light',
-          tagline: 'A commercial blend of ambient lighting, bedtime storytelling and gifting appeal',
+          name: 'Wall Washer Story Projector',
+          tagline: 'A toy-lighting hybrid for bedtime storytelling and gifting programs',
           image: '/images/products/wall-washer.svg',
           specs: ['Material: ABS + optical lens', 'Age: 3+', 'Carton: 24 pcs / carton', 'Lead Time: 28 days'],
-          detail: 'Supports localized reel content, IP adaptation and drop-test-oriented packaging needs.'
+          detail: 'Supports reel-content localization, housing customization and drop-test-ready packaging.'
         }
       ]
     },
     capability: {
       eyebrow: 'OEM / ODM Capability',
-      title: 'Make the development workflow itself a reason for buyers to keep talking',
-      description: 'The homepage can map your R&D and manufacturing process clearly, showing that every stage from idea to shipment is covered.',
+      title: 'Transparent development flow from requirement to shipment',
+      description: 'Each stage is organized for clear progress tracking and consistent quality control in export projects.',
       workflow: [
-        {step: '01 Requirement Alignment', detail: 'Define market, age group, target price, packaging type and certification scope.'},
-        {step: '02 Structure and Tooling Review', detail: 'Evaluate function, material and mass-production feasibility early.'},
-        {step: '03 Sampling and Validation', detail: 'Run sample confirmation, packaging sync and key-risk checks in parallel.'},
-        {step: '04 Production and Delivery', detail: 'Control scheduling, inspection, loading and shipping cadence for stable execution.'}
+        {step: '01 Requirement Confirmation', detail: 'Confirm market, age range, target price, packaging format and compliance scope.'},
+        {step: '02 Structure & Tooling Review', detail: 'Evaluate structure feasibility, material selection and tooling plan.'},
+        {step: '03 Sampling & Validation', detail: 'Run sample approval, packaging sync and key testing checks.'},
+        {step: '04 Production & Delivery', detail: 'Execute scheduling, AQL inspection, container loading and shipment control.'}
       ],
       highlights: [
-        'Multiple new product directions can be planned every year for ODM cooperation.',
-        'Supports structural design, visual refinement, packaging proposals and prototype validation.',
-        'The section can later expand with tooling detail, software stack and project gallery assets.'
+        'Supports both OEM appearance customization and ODM co-development.',
+        'Engineering team can coordinate process reviews for Extruder-related components when required.',
+        'New-product planning can be aligned with annual sourcing calendars.'
       ]
     },
     showroom: {
       eyebrow: 'Factory & Showroom',
-      title: 'Real factory scenes, showroom atmosphere and shipment details speak louder than generic claims',
-      description: 'This section is designed specifically for overseas buyers who cannot visit the factory in person.',
+      title: 'Real factory and shipment visuals build trust faster than claims',
+      description: 'For overseas customers who cannot visit onsite, this section provides practical visual proof of operations.',
       spaces: [
-        {title: 'Showroom Presence', detail: 'Display category depth, curated presentation and new-product walls to create a mature brand impression.'},
-        {title: 'Production Floor', detail: 'Show injection, assembly, QA and packing lines to communicate operational completeness.'},
-        {title: 'Inspection and Shipment', detail: 'Use container loading, carton stacking and inspection records to reinforce delivery trust.'}
+        {title: 'Showroom Display', detail: 'Highlights AI toys, building kits and projector lines for quick category evaluation.'},
+        {title: 'Production Floor', detail: 'Covers injection, assembly, QA and packing workflows with operational context.'},
+        {title: 'Inspection & Shipment', detail: 'Shows inspection records, carton stacking and container loading standards.'}
       ]
     },
     stories: {
       eyebrow: 'Success Stories',
-      title: 'Past cooperation reduces perceived risk faster than almost anything else',
-      description: 'Short but meaningful case summaries show what kind of customers you served and what business problems you solved.',
+      title: 'Practical project outcomes help buyers evaluate risk quickly',
+      description: 'Recent cooperation cases show execution speed, quality control and reorder performance.',
       items: [
         {
-          title: 'European Specialty Retail Program',
-          result: 'Launch cycle reduced from 90 days to 55 days',
-          detail: 'Sample and packaging tracks moved in parallel to capture the seasonal window.'
+          title: 'European Chain Retail Program',
+          result: 'First order of 2 x 40HQ delivered on schedule',
+          detail: 'Production scheduling and packaging preparation were executed in parallel.'
         },
         {
-          title: 'North America Holiday Gifting Program',
-          result: 'Stable repeat orders across two seasons',
-          detail: 'AQL and drop-test discipline lowered return risk and after-sales pressure.'
+          title: 'North America Education Launch',
+          result: 'From sample to first production batch in 8 weeks',
+          detail: 'R&D, sampling and testing workflows were synchronized for faster market entry.'
         },
         {
-          title: 'Middle East ODM Chain Project',
-          result: 'Localized packaging and content delivery',
-          detail: 'This area can later host approved logos, fair photos and shipment visuals.'
+          title: 'Middle East Gift ODM Project',
+          result: 'Localized packaging and bilingual content delivered',
+          detail: 'Product appearance and packaging were adapted for local channel preferences.'
         }
       ]
     },
     faq: {
       eyebrow: 'FAQ',
-      title: 'Answer the common questions early and reduce low-value back-and-forth',
-      description: 'MOQ, lead time, sample fee, OEM support, warranty and certification are ideal conversion questions for the closing part of the page.',
+      title: 'Answer key sourcing questions early to improve inquiry quality',
+      description: 'These are the most common B2B questions around MOQ, lead time, customization and compliance support.',
       items: [
         {
           question: 'What is your standard MOQ?',
-          answer: 'Most programs begin from 800 to 1200 units depending on structure complexity and packaging type.'
+          answer: 'Most projects start from 800-1200 units, depending on structure complexity and packaging requirements.'
         },
         {
-          question: 'How do sampling and production lead times work?',
-          answer: 'Sampling is typically 7 to 15 days, and mass production usually runs 28 to 35 days after approval.'
+          question: 'How long are sampling and production lead times?',
+          answer: 'Sampling usually takes 7-15 days. Mass production is typically 28-35 days after sample approval.'
         },
         {
-          question: 'Do you support OEM, ODM and private tooling?',
-          answer: 'Yes. We can support deep customization across appearance, structure, packaging and brand elements.'
+          question: 'Do you support OEM and ODM projects?',
+          answer: 'Yes. We support OEM appearance/packaging customization and ODM co-development with tooling coordination.'
         },
         {
-          question: 'Can you provide certification and audit documents?',
-          answer: 'Yes. Relevant certificates, reports and audit summaries can be shared according to project scope.'
+          question: 'When can certification and test documents be provided?',
+          answer: 'CE, ASTM and EN71-related documentation can typically be prepared within 15-20 working days after project confirmation.'
         }
       ]
     },
     contact: {
       eyebrow: 'Inquiry & Launch',
-      title: 'Keep the momentum alive and turn interest into inquiry in one move',
-      description: 'The closing area is built to combine instant channels, a project-material checklist and legal trust signals so inquiries happen with less friction.',
+      title: 'Move from browsing to inquiry with direct communication channels',
+      description: 'Share your product requirement and target market. Our team will respond within one business day with a practical quotation path.',
       channels: [
-        {label: 'WhatsApp', value: '+86 138 0000 0000', href: 'https://wa.me/8613800000000'},
-        {label: 'LinkedIn', value: 'Auralyn Toys', href: 'https://www.linkedin.com/'},
-        {label: 'Email', value: 'sales@auralyn-toys.com', href: 'mailto:sales@auralyn-toys.com'}
+        {label: 'WhatsApp', value: '+86 186 6552 7489', href: 'https://wa.me/8618665527489'},
+        {label: 'LinkedIn', value: 'yaoshun Manufacturing', href: 'https://www.linkedin.com/company/lai-toys-manufacturing'},
+        {label: 'Email', value: 'sales@lai-toys.com', href: 'mailto:sales@lai-toys.com'}
       ],
-      checklistTitle: 'Recommended inputs before website production',
+      checklistTitle: 'Project kickoff material checklist',
       checklist: [
-        'Vector logo, brand colors and 2 to 3 benchmark websites',
-        'High-resolution factory and showroom photography',
-        'Certificates, lab reports and audit files',
-        'Product specification sheets, CBM, carton data and MOQ',
-        'Professional English copy, SEO keywords and privacy policy'
+        'Vector logo and brand color standards',
+        'High-resolution factory and showroom photos',
+        'CE / ASTM / EN71 files and lab reports',
+        'Product specification sheets (material, size, carton rate, CBM)',
+        'SEO keywords, privacy policy and social account links'
       ],
-      notice: 'The current wording and figures are premium demo content. Replace them with approved corporate assets before launch.'
+      notice: 'Please include target market and product model in your inquiry if you need certification files or audit-progress details.'
     },
     footer: {
-      summary: 'An OEM / ODM manufacturing partner for global toy buyers, balancing youthful brand energy with compliance and dependable delivery.',
-      legal: ['Ready for HTTPS / SSL deployment', 'Can be extended with GDPR privacy and cookie compliance modules', 'Structured for Google SEO essentials'],
-      copyright: 'Auralyn Toys. All rights reserved.'
+      summary: 'yaoshun serves global toy buyers with OEM / ODM manufacturing focused on compliance, quality and reliable delivery.',
+      legal: ['HTTPS / SSL deployment ready', 'GDPR privacy and cookie compliance supported', 'EU representative and German Packaging Act information can be published'],
+      copyright: 'yaoshun. All rights reserved.'
     },
     seo: {
-      title: 'Auralyn Toys | Toy Manufacturer Homepage',
-      description: 'A premium multilingual homepage concept for toy OEM and ODM manufacturers, focused on compliance, product depth, R&D capability and inquiry conversion.',
-      keywords: ['toy manufacturer website', 'OEM ODM toy supplier', 'multilingual B2B website', 'CE ASTM EN71 toys', 'toy factory homepage']
+      title: 'yaoshun | OEM / ODM Toy Manufacturer',
+      description: 'yaoshun provides export-oriented OEM / ODM toy manufacturing, including AI Toys for Kids, Fort Building Kit and Wall Washer product programs.',
+      keywords: ['wall washer', 'ai toys for kids', 'fort building kit', 'toy manufacturer website', 'extruder']
     }
   }
 };

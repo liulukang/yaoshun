@@ -1,7 +1,11 @@
 import {notFound} from 'next/navigation';
+import {NextIntlClientProvider} from 'next-intl';
+import {getMessages, setRequestLocale} from 'next-intl/server';
 
+import {GoogleAnalytics} from '@/components/analytics/google-analytics';
 import {EnterpriseFooter} from '@/components/layout/enterprise-footer';
 import {EnterpriseHeader} from '@/components/layout/enterprise-header';
+import {CookieBanner} from '@/components/ui/cookie-banner';
 
 interface LocaleLayoutProps {
   children: React.ReactNode;
@@ -19,11 +23,18 @@ export default async function LocaleLayout({children, params}: LocaleLayoutProps
     notFound();
   }
 
+  setRequestLocale(locale);
+  const messages = await getMessages({locale});
+
   return (
-    <div className="flex min-h-screen flex-col">
-      <EnterpriseHeader locale={locale} />
-      <main className="flex-1">{children}</main>
-      <EnterpriseFooter locale={locale} />
-    </div>
+    <NextIntlClientProvider locale={locale} messages={messages}>
+      <div className="flex min-h-screen flex-col">
+        <GoogleAnalytics />
+        <EnterpriseHeader locale={locale} />
+        <main className="flex-1">{children}</main>
+        <EnterpriseFooter locale={locale} />
+        <CookieBanner />
+      </div>
+    </NextIntlClientProvider>
   );
 }

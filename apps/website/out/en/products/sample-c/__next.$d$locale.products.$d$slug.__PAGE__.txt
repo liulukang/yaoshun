@@ -1,5 +1,0 @@
-1:"$Sreact.fragment"
-2:I[475,[],"OutletBoundary"]
-3:"$Sreact.suspense"
-0:{"rsc":["$","$1","c",{"children":[["$","section",null,{"className":"glass-card p-8","children":[["$","h1",null,{"className":"font-heading text-3xl font-bold text-brand-900","children":"Product Detail"}],["$","p",null,{"className":"mt-3 text-slate-700","children":["Slug: ","sample-c"]}],["$","p",null,{"className":"mt-1 text-slate-700","children":"Business logic has been cleared."}]]}],null,["$","$L2",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@4"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"DAbrgNwmTNbDVc8T3Vdjt"}
-4:null

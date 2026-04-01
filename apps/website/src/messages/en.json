@@ -32,13 +32,19 @@
     "title": "Send your inquiry",
     "name": "Name",
     "email": "Business Email",
+    "phone": "Phone / WhatsApp",
     "company": "Company",
     "country": "Country/Region",
     "product": "Interested Product",
     "message": "Project details",
     "consent": "I agree to the privacy policy and data processing terms.",
+    "consentRequired": "Please agree to the privacy policy before submitting.",
     "submit": "Submit Inquiry",
+    "submitting": "Submitting...",
     "success": "Inquiry submitted successfully. We will contact you soon.",
-    "error": "Submission failed. Please try again."
+    "error": "Submission failed. Please try again.",
+    "tooFast": "Please take a few seconds to complete the form before submitting.",
+    "rateLimited": "You just submitted an inquiry. Please wait a moment and try again.",
+    "missingEndpoint": "Form endpoint is not configured yet. Please set NEXT_PUBLIC_FORM_ENDPOINT."
   }
 }

@@ -7,7 +7,7 @@
     "build": "next build --webpack",
     "start": "next start",
     "lint": "next lint",
-    "typecheck": "rm -f tsconfig.tsbuildinfo && tsc --noEmit"
+    "typecheck": "next typegen && rm -f tsconfig.tsbuildinfo && tsc --noEmit"
   },
   "dependencies": {
     "lucide-react": "^0.577.0",
