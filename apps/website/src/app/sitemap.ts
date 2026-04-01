@@ -1,55 +1,32 @@
 import type {MetadataRoute} from 'next';
 
-import {products} from '@/content/site-content';
-import {locales} from '@/i18n/config';
-import {absoluteUrl, localePath} from '@/lib/seo';
+import {products} from '@/data/site';
+import {locales} from '@/lib/i18n';
+import {routePathMap} from '@/lib/routes';
 
-export const dynamic = 'force-static';
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://example.com';
 
-const pageSlugs = ['', 'company', 'products', 'certifications', 'rnd', 'success-stories', 'faq', 'contact', 'privacy'];
-
-function url(path: string): string {
-  return absoluteUrl(path);
-}
-
-function localizedAlternates(path: string): Record<string, string> {
-  return Object.fromEntries(locales.map((locale) => [locale, url(localePath(locale, path))]));
+function withBase(path: string): string {
+  return `${baseUrl}${path}`;
 }
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
+  const routes = Object.values(routePathMap);
   const entries: MetadataRoute.Sitemap = [];
 
-  for (const slug of pageSlugs) {
-    const pagePath = slug ? `/${slug}` : '/';
-    const alternates = localizedAlternates(pagePath);
-
-    for (const locale of locales) {
-      const localizedPath = localePath(locale, pagePath);
-
+  for (const locale of locales) {
+    for (const route of routes) {
       entries.push({
-        url: url(localizedPath),
-        lastModified: now,
-        alternates: {
-          languages: alternates
-        }
+        url: withBase(`/${locale}${route}`),
+        lastModified: now
       });
     }
-  }
 
-  for (const product of products) {
-    const productPath = `/products/${product.slug}`;
-    const alternates = localizedAlternates(productPath);
-
-    for (const locale of locales) {
-      const localizedPath = localePath(locale, productPath);
-
+    for (const product of products) {
       entries.push({
-        url: url(localizedPath),
-        lastModified: now,
-        alternates: {
-          languages: alternates
-        }
+        url: withBase(`/${locale}/products/${product.slug}`),
+        lastModified: now
       });
     }
   }

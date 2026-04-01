@@ -5,32 +5,66 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        brand: {
-          50: '#f5f8ff',
-          100: '#e8f0ff',
-          200: '#c6dcff',
-          300: '#9dbfff',
-          400: '#6a97ff',
-          500: '#3f6ffc',
-          600: '#2f54d4',
-          700: '#2643a9',
-          800: '#243b87',
-          900: '#24366f'
-        },
-        accent: {
-          100: '#fff5de',
-          300: '#ffd66b',
-          500: '#ffb703',
-          700: '#f48c06'
-        },
-        mint: '#7bdcb5',
-        coral: '#ff8a80'
+        primary: '#00113a',
+        'primary-container': '#002366',
+        'primary-fixed': '#dbe1ff',
+        'primary-fixed-dim': '#b3c5ff',
+        secondary: '#904d00',
+        'secondary-container': '#fd8b00',
+        'secondary-fixed': '#ffdcc3',
+        'secondary-fixed-dim': '#ffb77d',
+        tertiary: '#705d00',
+        'tertiary-container': '#c9a900',
+        'tertiary-fixed': '#ffe16d',
+        'tertiary-fixed-dim': '#e9c400',
+        background: '#f8f9fa',
+        surface: '#f8f9fa',
+        'surface-bright': '#f8f9fa',
+        'surface-dim': '#d9dadb',
+        'surface-container-lowest': '#ffffff',
+        'surface-container-low': '#f3f4f5',
+        'surface-container': '#edeeef',
+        'surface-container-high': '#e7e8e9',
+        'surface-container-highest': '#e1e3e4',
+        'surface-variant': '#e1e3e4',
+        outline: '#757682',
+        'outline-variant': '#c5c6d2',
+        'on-primary': '#ffffff',
+        'on-primary-container': '#758dd5',
+        'on-primary-fixed': '#00174a',
+        'on-primary-fixed-variant': '#2a4386',
+        'on-secondary': '#ffffff',
+        'on-secondary-container': '#603100',
+        'on-secondary-fixed': '#2f1500',
+        'on-secondary-fixed-variant': '#6e3900',
+        'on-tertiary': '#ffffff',
+        'on-tertiary-container': '#4c3f00',
+        'on-tertiary-fixed': '#221b00',
+        'on-tertiary-fixed-variant': '#544600',
+        'on-surface': '#191c1d',
+        'on-surface-variant': '#444650',
+        'on-background': '#191c1d',
+        'surface-tint': '#435b9f',
+        error: '#ba1a1a',
+        'error-container': '#ffdad6',
+        'on-error': '#ffffff',
+        'on-error-container': '#93000a',
+        'inverse-surface': '#2e3132',
+        'inverse-on-surface': '#f0f1f2',
+        'inverse-primary': '#b3c5ff'
       },
-      boxShadow: {
-        soft: '0 14px 36px rgba(31, 71, 136, 0.14)'
+      fontFamily: {
+        headline: ['Manrope', 'Avenir Next', 'Segoe UI', 'sans-serif'],
+        body: ['Manrope', 'Avenir Next', 'PingFang SC', 'Segoe UI', 'Microsoft YaHei', 'sans-serif'],
+        label: ['Inter', 'Avenir Next', 'Segoe UI', 'sans-serif']
       },
       borderRadius: {
-        xl2: '1.25rem'
+        xl2: '1.5rem',
+        xl3: '2rem'
+      },
+      boxShadow: {
+        float: '0 24px 60px rgba(0, 17, 58, 0.12)',
+        panel: '0 18px 44px rgba(0, 17, 58, 0.08)'
       }
     }
   },

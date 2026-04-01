@@ -1,0 +1,14 @@
+<svg width="1200" height="1200" viewBox="0 0 1200 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="1200" rx="36" fill="#FFF7ED"/>
+  <rect x="112" y="820" width="976" height="180" rx="36" fill="#FDE68A"/>
+  <rect x="190" y="482" width="176" height="338" rx="28" fill="#D97706"/>
+  <rect x="410" y="322" width="210" height="498" rx="28" fill="#F59E0B"/>
+  <rect x="664" y="214" width="210" height="606" rx="28" fill="#FDBA74"/>
+  <rect x="920" y="564" width="114" height="256" rx="28" fill="#B45309"/>
+  <circle cx="268" cy="924" r="30" fill="#92400E"/>
+  <circle cx="438" cy="924" r="30" fill="#92400E"/>
+  <circle cx="732" cy="924" r="30" fill="#92400E"/>
+  <circle cx="962" cy="924" r="30" fill="#92400E"/>
+  <text x="108" y="144" fill="#7C2D12" font-family="Arial, sans-serif" font-size="72" font-weight="700">Toy System</text>
+  <text x="112" y="214" fill="#9A3412" font-family="Arial, sans-serif" font-size="28">Interlocking learning placeholder</text>
+</svg>

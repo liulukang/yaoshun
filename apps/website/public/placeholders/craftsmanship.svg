@@ -1,0 +1,9 @@
+<svg width="960" height="960" viewBox="0 0 960 960" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="960" height="960" rx="32" fill="#FFF7ED"/>
+  <path d="M226 698C226 546 350 422 502 422H720V650C720 750 640 830 540 830H226V698Z" fill="#EA580C"/>
+  <path d="M232 782L360 650L492 782" stroke="#FDBA74" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="188" y="188" width="318" height="164" rx="28" fill="#7C2D12"/>
+  <rect x="550" y="188" width="222" height="222" rx="111" fill="#FED7AA"/>
+  <text x="182" y="286" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="52" font-weight="700">Craft</text>
+  <text x="180" y="878" fill="#7C2D12" font-family="Arial, sans-serif" font-size="60" font-weight="700">Execution Integrity</text>
+</svg>

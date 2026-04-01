@@ -1,10 +1,10 @@
 {
-  "name": "yaoshun",
-  "short_name": "yaoshun",
-  "start_url": "/",
+  "name": "Dongguan Yaoshun Technology Co., Ltd.",
+  "short_name": "Yaoshun",
+  "start_url": "/en",
   "display": "standalone",
-  "background_color": "#fffaf6",
-  "theme_color": "#ff7f66",
+  "background_color": "#f8f9fa",
+  "theme_color": "#00113a",
   "icons": [
     {
       "src": "/favicon.svg",

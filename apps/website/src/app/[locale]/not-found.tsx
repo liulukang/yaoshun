@@ -1,15 +1,10 @@
-import Link from 'next/link';
-
-export default function LocaleNotFound() {
+export default function NotFound() {
   return (
-    <section className="section-shell py-20">
-      <div className="panel-card mx-auto max-w-2xl text-center">
-        <h1 className="font-heading text-4xl font-bold text-[#1d2340]">404</h1>
-        <p className="mt-3 text-sm leading-7 text-[#5c6384]">Page not found.</p>
-        <Link href="/" className="mt-6 inline-flex rounded-full bg-[linear-gradient(135deg,#1fd1c2,#0ea5e9)] px-5 py-2 text-sm font-semibold text-white">
-          Back Home
-        </Link>
+    <div className="desktop-shell px-4 py-20 sm:px-6 sm:py-24 xl:px-8 xl:py-32">
+      <div className="rounded-[2rem] bg-surface-container-low p-6 text-center shadow-panel sm:p-8 lg:p-12">
+        <p className="font-label text-xs font-bold uppercase tracking-[0.24em] text-secondary">404</p>
+        <h1 className="mt-3 font-headline text-3xl font-extrabold tracking-tighter text-primary sm:mt-4 sm:text-4xl">Page not found</h1>
       </div>
-    </section>
+    </div>
   );
 }

@@ -1,26 +1,21 @@
 import type {Metadata} from 'next';
 
-import {siteName} from '@/content/home-content';
-
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: siteName,
-  description: 'Premium multilingual toy manufacturer website.',
-  icons: {
-    icon: [{url: '/favicon.svg', type: 'image/svg+xml'}],
-    shortcut: '/favicon.svg',
-    apple: '/favicon.svg'
-  },
-  manifest: '/site.webmanifest'
+  title: 'Dongguan Yaoshun Technology Co., Ltd.',
+  description: 'Desktop-first bilingual manufacturing website rebuilt from stitch prototypes.'
 };
 
 export default function RootLayout({children}: {children: React.ReactNode}) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className="bg-slate-50 text-slate-900 antialiased">
-        {children}
-      </body>
+      <head>
+        <link href="https://fonts.googleapis.com" rel="preconnect" />
+        <link crossOrigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+      </head>
+      <body>{children}</body>
     </html>
   );
 }
