@@ -4,10 +4,13 @@ import {ArrowRight, Globe2, MessageCircleMore} from 'lucide-react';
 import {InquiryForm} from '@/components/forms/inquiry-form';
 import type {HomeSectionRenderProps} from '@/components/page-builder/section-registry';
 import {localeBasePath} from '@/components/page-builder/helpers';
+import {contactSectionCopy} from '@/content/page-copy';
+import {getLocalizedValue} from '@/lib/locale';
 import {SectionHeading} from '@/components/ui/section-heading';
 
 export function ContactCtaGlass({content, locale}: HomeSectionRenderProps) {
   const basePath = localeBasePath(locale);
+  const copy = getLocalizedValue(contactSectionCopy, locale);
 
   return (
     <div className="contact-panel">
@@ -50,7 +53,7 @@ export function ContactCtaGlass({content, locale}: HomeSectionRenderProps) {
             data-track-location="home_contact_submit"
             className="mt-7 inline-flex items-center gap-2 rounded-full bg-[linear-gradient(135deg,#1fd1c2,#0ea5e9)] px-5 py-2.5 text-sm font-semibold text-white"
           >
-            {locale === 'zh' ? '前往提交需求' : 'Go to Inquiry Form'}
+            {copy.goToInquiryForm}
             <ArrowRight className="h-4 w-4" />
           </Link>
         </div>
@@ -63,6 +66,7 @@ export function ContactCtaGlass({content, locale}: HomeSectionRenderProps) {
 
 export function ContactCtaSplit({content, locale}: HomeSectionRenderProps) {
   const basePath = localeBasePath(locale);
+  const copy = getLocalizedValue(contactSectionCopy, locale);
 
   return (
     <div className="grid gap-6 lg:grid-cols-[1.05fr_0.95fr]">
@@ -87,8 +91,8 @@ export function ContactCtaSplit({content, locale}: HomeSectionRenderProps) {
 
       <div className="space-y-6">
         <article className="panel-card">
-          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[#ff6b57]">{locale === 'zh' ? 'Quick Brief' : 'Quick Brief'}</p>
-          <h3 className="mt-3 font-heading text-2xl text-[#1d2340]">{locale === 'zh' ? '两分钟准备询盘信息' : 'Prepare Inquiry In Two Minutes'}</h3>
+          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[#ff6b57]">{copy.quickBrief}</p>
+          <h3 className="mt-3 font-heading text-2xl text-[#1d2340]">{copy.prepareInquiryInTwoMinutes}</h3>
           <div className="mt-5 space-y-3">
             {content.contact.checklist.map((item) => (
               <div key={item} className="glass-list-item">
@@ -103,7 +107,7 @@ export function ContactCtaSplit({content, locale}: HomeSectionRenderProps) {
             data-track-location="home_contact_submit"
             className="mt-6 inline-flex items-center gap-2 rounded-full bg-[linear-gradient(135deg,#ff6b57,#ffaf68)] px-5 py-2.5 text-sm font-semibold text-white"
           >
-            {locale === 'zh' ? '打开联系页面' : 'Open Contact Page'}
+            {copy.openContactPage}
             <ArrowRight className="h-4 w-4" />
           </Link>
         </article>

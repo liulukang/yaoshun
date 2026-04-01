@@ -1,16 +1,13 @@
 import type {MetadataRoute} from 'next';
 
-import {absoluteUrl} from '@/lib/seo';
+import {absoluteUrl, fallbackSiteUrl} from '@/lib/seo';
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://example.com';
-const rawBasePath = process.env.NEXT_PUBLIC_BASE_PATH?.trim() ?? '';
-const basePath = rawBasePath ? (rawBasePath.startsWith('/') ? rawBasePath : `/${rawBasePath}`) : '';
-const sitemapPath = `${basePath || ''}/sitemap.xml`;
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? fallbackSiteUrl;
 const host = (() => {
   try {
     return new URL(siteUrl).origin;
   } catch {
-    return 'https://example.com';
+    return fallbackSiteUrl;
   }
 })();
 
@@ -21,11 +18,11 @@ export default function robots(): MetadataRoute.Robots {
     rules: [
       {
         userAgent: '*',
-        allow: `${basePath || '/'}`,
+        allow: '/',
         disallow: ['/api/']
       }
     ],
-    sitemap: absoluteUrl(sitemapPath),
+    sitemap: absoluteUrl('/sitemap.xml'),
     host
   };
 }

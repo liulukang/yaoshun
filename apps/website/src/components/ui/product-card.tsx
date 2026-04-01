@@ -3,11 +3,11 @@ import {useTranslations} from 'next-intl';
 
 import {Link} from '@/i18n/navigation';
 import {getLocalizedText} from '@/lib/locale';
-import type {ProductSpec} from '@/types/content';
+import type {Locale, ProductSpec} from '@/types/content';
 
 interface ProductCardProps {
   product: ProductSpec;
-  locale: 'en' | 'zh';
+  locale: Locale;
 }
 
 export function ProductCard({product, locale}: ProductCardProps) {

@@ -1,34 +1,14 @@
 import type {Metadata} from 'next';
 
 import {siteName} from '@/content/home-content';
+import {getLocalizedPath, locales, openGraphLocales} from '@/i18n/config';
 import type {Locale} from '@/types/content';
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://example.com';
-const rawBasePath = process.env.NEXT_PUBLIC_BASE_PATH?.trim() ?? '';
-const basePath = rawBasePath ? (rawBasePath.startsWith('/') ? rawBasePath : `/${rawBasePath}`) : '';
-
-function withBasePath(path: string): string {
-  if (!basePath) {
-    return path;
-  }
-
-  if (path === '/') {
-    return `${basePath}/`;
-  }
-
-  return `${basePath}${path}`;
-}
+export const fallbackSiteUrl = 'https://www.19931015.xyz';
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? fallbackSiteUrl;
 
 export function localePath(locale: Locale, path = ''): string {
-  const normalized = path.startsWith('/') ? path : `/${path}`;
-  const localizedRoot = locale === 'en' ? '/en/' : '/zh/';
-
-  if (normalized === '/') {
-    return withBasePath(localizedRoot);
-  }
-
-  const localizedPath = locale === 'en' ? `/en${normalized}` : `/zh${normalized}`;
-  return withBasePath(localizedPath);
+  return getLocalizedPath(locale, path);
 }
 
 export function absoluteUrl(path: string): string {
@@ -51,6 +31,7 @@ export function createPageMetadata({
   keywords = []
 }: LocalizedMetaInput): Metadata {
   const localizedPath = localePath(locale, path);
+  const languageAlternates = Object.fromEntries(locales.map((localeKey) => [localeKey, localePath(localeKey, path)]));
 
   return {
     title,
@@ -59,17 +40,14 @@ export function createPageMetadata({
     metadataBase: new URL(siteUrl),
     alternates: {
       canonical: localizedPath,
-      languages: {
-        en: localePath('en', path),
-        zh: localePath('zh', path)
-      }
+      languages: languageAlternates
     },
     openGraph: {
       title,
       description,
       url: absoluteUrl(localizedPath),
       siteName,
-      locale: locale === 'en' ? 'en_US' : 'zh_CN',
+      locale: openGraphLocales[locale],
       type: 'website'
     },
     twitter: {

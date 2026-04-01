@@ -4,10 +4,13 @@ import {ArrowRight} from 'lucide-react';
 
 import type {HomeSectionRenderProps} from '@/components/page-builder/section-registry';
 import {localeBasePath} from '@/components/page-builder/helpers';
+import {productsSectionCopy} from '@/content/page-copy';
+import {getLocalizedValue} from '@/lib/locale';
 import {SectionHeading} from '@/components/ui/section-heading';
 
 export function ProductsCards({content, locale}: HomeSectionRenderProps) {
   const basePath = localeBasePath(locale);
+  const copy = getLocalizedValue(productsSectionCopy, locale);
 
   return (
     <div>
@@ -34,7 +37,7 @@ export function ProductsCards({content, locale}: HomeSectionRenderProps) {
                 data-track-location="home_products"
                 className="inline-flex items-center gap-2 text-sm font-semibold text-[#1d7fb8]"
               >
-                {locale === 'zh' ? '查看全部产品' : 'View all products'}
+                {copy.viewAllProducts}
                 <ArrowRight className="h-4 w-4" />
               </Link>
             </div>
@@ -47,6 +50,7 @@ export function ProductsCards({content, locale}: HomeSectionRenderProps) {
 
 export function ProductsShowcase({content, locale}: HomeSectionRenderProps) {
   const basePath = localeBasePath(locale);
+  const copy = getLocalizedValue(productsSectionCopy, locale);
 
   return (
     <div className="grid gap-6 lg:grid-cols-[1.1fr_0.9fr]">
@@ -64,7 +68,7 @@ export function ProductsShowcase({content, locale}: HomeSectionRenderProps) {
       </article>
 
       <article className="panel-card checklist-card">
-        <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[#ff6b57]">{locale === 'zh' ? 'Featured Product' : 'Featured Product'}</p>
+        <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[#ff6b57]">{copy.featuredProduct}</p>
         <h3 className="mt-3 font-heading text-2xl text-[#1d2340]">{content.products.items[2]?.name ?? content.products.items[0]?.name}</h3>
         <p className="mt-3 text-sm leading-7 text-[#5f6788]">{content.products.items[2]?.detail ?? content.products.items[0]?.detail}</p>
         <div className="mt-5 space-y-3">
@@ -80,7 +84,7 @@ export function ProductsShowcase({content, locale}: HomeSectionRenderProps) {
           data-track-location="home_products"
           className="mt-6 inline-flex items-center gap-2 rounded-full bg-[linear-gradient(135deg,#1fd1c2,#0ea5e9)] px-5 py-2.5 text-sm font-semibold text-white"
         >
-          {locale === 'zh' ? '进入产品中心' : 'Explore Product Center'}
+          {copy.exploreProductCenter}
           <ArrowRight className="h-4 w-4" />
         </Link>
       </article>

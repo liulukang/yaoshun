@@ -62,12 +62,6 @@ export function InquiryForm({locale, source = 'website-contact-form', formName =
       return;
     }
 
-    if (!formData.get('consent')) {
-      setStatus('error');
-      setErrorMessage(t('consentRequired'));
-      return;
-    }
-
     formData.append('locale', locale);
     formData.append('source', source);
 
@@ -119,28 +113,8 @@ export function InquiryForm({locale, source = 'website-contact-form', formName =
         </label>
 
         <label className="space-y-2 text-sm text-[#5f6788]">
-          <span>{t('company')}</span>
-          <input name="company" required className="w-full rounded-2xl border border-[#d9deef] bg-white px-4 py-2.5 text-sm text-[#1d2340]" />
-        </label>
-
-        <label className="space-y-2 text-sm text-[#5f6788]">
           <span>{t('email')}</span>
           <input type="email" name="email" required className="w-full rounded-2xl border border-[#d9deef] bg-white px-4 py-2.5 text-sm text-[#1d2340]" />
-        </label>
-
-        <label className="space-y-2 text-sm text-[#5f6788]">
-          <span>{t('phone')}</span>
-          <input name="phone" className="w-full rounded-2xl border border-[#d9deef] bg-white px-4 py-2.5 text-sm text-[#1d2340]" />
-        </label>
-
-        <label className="space-y-2 text-sm text-[#5f6788]">
-          <span>{t('country')}</span>
-          <input name="country" required className="w-full rounded-2xl border border-[#d9deef] bg-white px-4 py-2.5 text-sm text-[#1d2340]" />
-        </label>
-
-        <label className="space-y-2 text-sm text-[#5f6788]">
-          <span>{t('product')}</span>
-          <input name="product" className="w-full rounded-2xl border border-[#d9deef] bg-white px-4 py-2.5 text-sm text-[#1d2340]" />
         </label>
       </div>
 
@@ -152,11 +126,6 @@ export function InquiryForm({locale, source = 'website-contact-form', formName =
       <label className="hidden" aria-hidden="true">
         <span>Website</span>
         <input tabIndex={-1} autoComplete="off" name="website" />
-      </label>
-
-      <label className="flex items-start gap-2 text-sm text-[#5f6788]">
-        <input type="checkbox" name="consent" required className="mt-1" />
-        <span>{t('consent')}</span>
       </label>
 
       <button

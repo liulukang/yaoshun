@@ -6,6 +6,7 @@ import {GoogleAnalytics} from '@/components/analytics/google-analytics';
 import {EnterpriseFooter} from '@/components/layout/enterprise-footer';
 import {EnterpriseHeader} from '@/components/layout/enterprise-header';
 import {CookieBanner} from '@/components/ui/cookie-banner';
+import {isLocale, locales} from '@/i18n/config';
 
 interface LocaleLayoutProps {
   children: React.ReactNode;
@@ -13,13 +14,13 @@ interface LocaleLayoutProps {
 }
 
 export function generateStaticParams(): Array<{locale: string}> {
-  return [{locale: 'en'}, {locale: 'zh'}];
+  return locales.map((locale) => ({locale}));
 }
 
 export default async function LocaleLayout({children, params}: LocaleLayoutProps) {
   const {locale} = await params;
 
-  if (locale !== 'en' && locale !== 'zh') {
+  if (!isLocale(locale)) {
     notFound();
   }
 

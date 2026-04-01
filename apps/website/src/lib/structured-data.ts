@@ -1,4 +1,5 @@
 import {faqItems, siteName} from '@/content/site-content';
+import {locales} from '@/i18n/config';
 import {getLocalizedText} from '@/lib/locale';
 import {absoluteUrl, localePath} from '@/lib/seo';
 import type {ProductSpec} from '@/types/content';
@@ -14,7 +15,7 @@ export function organizationJsonLd(locale: Locale): Record<string, unknown> {
       {
         '@type': 'ContactPoint',
         contactType: 'sales',
-        availableLanguage: ['en', 'zh']
+        availableLanguage: locales
       }
     ]
   };

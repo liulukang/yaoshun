@@ -1,6 +1,6 @@
 ---
 name: fast-web-builder
-description: 从 0 到 1 新建企业官网多页面项目的通用 skill。默认技术栈为 Next.js App Router + TypeScript + Tailwind + next-intl，静态导出优先，支持 SEO、GTM/GA/Google Ads、联系我们留资、GitHub Actions + Pages、Docker + Nginx，并通过 section 变体注册表实现页面结构多样化与可扩展架构。
+description: 从 0 到 1 新建企业官网多页面项目的通用 skill。默认技术栈为 Next.js App Router + TypeScript + Tailwind + next-intl，支持 SEO、GTM/GA/Google Ads、联系我们留资、Vercel 或 Docker + Nginx 部署，并通过 section 变体注册表实现页面结构多样化与可扩展架构。
 ---
 
 # Fast Web Builder
@@ -20,14 +20,14 @@ description: 从 0 到 1 新建企业官网多页面项目的通用 skill。默�
 
 - 站点类型：企业官网 + 协议页（隐私政策）
 - 技术栈：Next.js App Router + TS + Tailwind + next-intl
-- 部署策略：静态导出优先（`output: export`）
+- 部署策略：标准 Next.js 构建与部署（不强制 `output: export`）
 - 架构策略：配置驱动 + 模块化 + Section Variant Registry
 
 ## 何时触发
 
 - 新建企业官网多页面
 - 需要移动端适配、SEO、埋点、广告转化
-- 需要 GitHub Pages、Docker、Nginx 静态部署
+- 需要 Vercel、Docker、Nginx 部署
 - 需要“页面结构多样化且可持续扩展”
 
 ## 默认强约束
@@ -89,14 +89,13 @@ description: 从 0 到 1 新建企业官网多页面项目的通用 skill。默�
 
 ## 部署规范
 
-- GitHub Pages：项目站点模式（`/<repo>/`），需要 `NEXT_PUBLIC_BASE_PATH`。
-- GitHub Actions：标准 pages workflow（build -> upload artifact -> deploy）。
+- Vercel：使用标准 Next.js 部署流程，确保生产环境变量完整。
 - Docker：多阶段构建 + Nginx 静态托管。
 - Nginx：gzip、缓存分级、安全头、`/healthz`、404 处理。
 
 参考：
 
-- [references/04-deploy-pages-docker-nginx.md](references/04-deploy-pages-docker-nginx.md)
+- [references/04-deploy-vercel-docker-nginx.md](references/04-deploy-vercel-docker-nginx.md)
 
 ## 验收
 

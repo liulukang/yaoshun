@@ -1,12 +1,7 @@
+export {getSiteName, siteName} from '@/content/site-brand';
+
+import {siteName} from '@/content/site-brand';
 import type {Locale} from '@/types/content';
-
-export const siteNameEn = 'yaoshun';
-export const siteNameZh = '尧顺';
-export const siteName = siteNameEn;
-
-export function getSiteName(locale: Locale): string {
-  return locale === 'zh' ? siteNameZh : siteNameEn;
-}
 
 export interface HomePageContent {
   nav: Array<{label: string; href: string}>;
@@ -104,7 +99,7 @@ export const homepageContent: Record<Locale, HomePageContent> = {
   zh: {
     nav: [
       {label: '公司概览', href: 'company'},
-      {label: '资质合规', href: 'certifications'},
+      {label: '资质中心', href: 'certifications'},
       {label: '产品方案', href: 'products'},
       {label: '研发定制', href: 'rnd'},
       {label: '合作案例', href: 'success-stories'},
@@ -113,14 +108,14 @@ export const homepageContent: Record<Locale, HomePageContent> = {
     ],
     hero: {
       eyebrow: '玩具外贸官网',
-      title: '尧顺专注 OEM / ODM 玩具制造，服务全球采购与品牌客户',
+      title: '东莞市尧顺科技有限公司，专注B端制造与加工服务',
       description:
-        '我们提供从产品开发、打样、量产到出货的一体化制造服务。页面内容围绕海外买家真实采购流程设计，帮助客户快速完成工厂评估并进入询盘。',
+        '我们提供从来样加工、包工包料到量产交付的一体化服务，主营拼插类玩具、PU管、PVC管，支持贴牌加工与开具专票。',
       primaryCta: '查看产品方案',
       secondaryCta: '发起项目咨询',
-      badges: ['OEM / ODM 定制开发', '支持中英双语切换', '可提供 CE / ASTM / EN71 相关资料', 'SEO 关键词部署：wall washer / ai toys for kids / fort building kit'],
+      badges: ['工商资质可查', 'ISO 9000 / CE 认证支持', '支持拿样与来样加工', '支持包工包料与贴牌加工'],
       metrics: [
-        {value: '2014', label: '企业成立时间', detail: '持续服务外贸玩具客户。'},
+        {value: '9年', label: '主营经验', detail: '持续服务B端制造与加工客户。'},
         {value: '6,000 m²', label: '厂房面积', detail: '覆盖生产、组装、包装与仓储区域。'},
         {value: '50+', label: '员工人数', detail: '含生产、品质、工程与业务团队。'},
         {value: '200 吨 / 月', label: '月产能力', detail: '支持常规订单与定制项目排产。'}
@@ -131,26 +126,26 @@ export const homepageContent: Record<Locale, HomePageContent> = {
     },
     company: {
       eyebrow: 'Company Profile',
-      title: '2014 年成立的玩具制造工厂，专注海外 OEM / ODM 项目',
-      description: '外贸 B 端买家最关注的是工厂稳定性、合规能力与执行效率。我们把这些信息前置展示，帮助客户更快判断合作可行性。',
+      title: '东莞市尧顺科技有限公司，9年B端制造经验',
+      description: '客户最关注的是主体资质、稳定交付与加工能力。我们将工商资质、认证信息与主营方向集中展示，便于快速评估合作可行性。',
       facts: [
-        {label: '成立时间', value: '2014'},
+        {label: '主营经验', value: '9年'},
         {label: '厂房面积', value: '6,000 m²'},
         {label: '员工人数', value: '50+'},
         {label: '月产能力', value: '200 吨'}
       ],
       cards: [
         {
-          title: '品牌与视觉资产',
-          description: '国内品牌视觉系统已确认，海外品牌注册正在推进，预计约 10 个月完成。'
+          title: '公司主体信息',
+          description: '公司名称：东莞市尧顺科技有限公司；地址：广东东莞茶山镇圆山路177号1号楼201室。'
         },
         {
-          title: '工厂与展厅实拍',
-          description: '我们正在安排工厂与展厅高清拍摄，重点展示生产线、质检区与出货流程。'
+          title: '主营业务',
+          description: '拼插类玩具、PU管、PVC管；支持来样加工、包工包料、拿样与贴牌加工。'
         },
         {
-          title: '使命与愿景',
-          description: 'Mission：让玩具制造更可靠。Vision：成为全球玩具品牌长期稳定的 OEM / ODM 合作伙伴。'
+          title: '资质与服务能力',
+          description: '可提供工商资质、ISO 9000 与 CE 认证资料，支持开具增值税专票。'
         }
       ]
     },
@@ -166,46 +161,46 @@ export const homepageContent: Record<Locale, HomePageContent> = {
       ]
     },
     compliance: {
-      eyebrow: 'Trust & Compliance',
-      title: '合规与信任信息在首页即可快速核验',
-      description: '玩具外贸合作首先看准入门槛。我们将认证、检测与验厂进度透明展示，减少买家决策不确定性。',
+      eyebrow: 'Qualification Center',
+      title: '资质中心信息前置展示，便于快速核验',
+      description: '围绕客户常见的合作审核需求，我们集中展示工商资质、质量认证与项目资料支持能力。',
       certifications: [
+        {name: '工商资质', detail: '可提供工商注册主体信息与基础资质材料。'},
+        {name: 'ISO 9000', detail: '可提供 ISO 9000 相关质量管理体系资料。'},
         {name: 'CE', detail: '欧盟市场项目可按产品类别提供 CE 相关测试与文件支持。'},
-        {name: 'ASTM', detail: '面向北美市场，可按客户要求提供 ASTM 对应测试资料。'},
-        {name: 'EN71', detail: '欧洲市场项目可提供 EN71 检测支持与批次对应说明。'},
-        {name: '检测报告', detail: '国际认证与检测报告可在项目确认后约 15-20 个工作日内提供。'}
+        {name: '检测报告', detail: '项目确认后可按需求配合提供检测与认证资料。'}
       ],
       audits: [
-        {name: 'BSCI', detail: '验厂项目已启动，结果将用于提升供应链透明度与客户信任。'},
-        {name: 'ICTI', detail: 'ICTI 审核推进中，目标是满足玩具行业主流品牌采购要求。'},
-        {name: 'ISO9001', detail: '质量体系持续完善中，确保订单执行过程稳定可追溯。'}
+        {name: '支持拿样', detail: '可按沟通方案提供样品，帮助客户快速完成前期验证。'},
+        {name: '来样加工', detail: '支持客户来样加工与工艺打样优化。'},
+        {name: '包工包料', detail: '支持包工包料整体交付，降低采购协同成本。'}
       ]
     },
     products: {
       eyebrow: 'Product Solutions',
-      title: '核心产品与关键参数一页展示，方便买家快速评估',
-      description: '我们按外贸采购逻辑展示材质、适龄、装箱率、CBM、MOQ 与交期，减少重复沟通成本。',
+      title: '工厂店主营产品与加工能力一页展示',
+      description: '围绕实际主营方向展示拼插玩具、塑料管材与挤出设备相关能力，帮助客户快速匹配合作方式。',
       items: [
         {
-          name: 'AI Toys for Kids 互动陪伴犬',
-          tagline: '适用于教育互动与家庭陪伴场景',
+          name: '拼插类益智玩具',
+          tagline: '适用于益智、科教、婴儿及过家家玩具方向',
           image: '/images/products/ai-smart-pup.svg',
-          specs: ['材质：ABS + 毛绒 + 硅胶', '适龄：3+', 'MOQ：1000 pcs', '交期：35 天'],
-          detail: '支持语音包、本地化包装与品牌外观定制，可用于礼盒与零售渠道。'
+          specs: ['材质：ABS / PP 工程塑胶', '支持拿样', '支持来样加工', '贴牌起订量：1000套'],
+          detail: '支持来样加工、来图加工、贴牌加工，可开具增值税专票。'
         },
         {
-          name: 'Fort Building Kit 城堡搭建套装',
-          tagline: '面向 STEM 教育与创意拼搭市场',
+          name: 'PU / PVC 管材与异型材',
+          tagline: '面向物流包装、绝缘材料、饮水用具等配套场景',
           image: '/images/products/fort-kit.svg',
-          specs: ['材质：PP + ABS', '装箱：8 sets / carton', 'CBM：0.126', 'MOQ：800 sets'],
-          detail: '支持 OEM 配色、说明书本地化及包装升级，兼顾玩法体验与物流效率。'
+          specs: ['材质：PU / PVC / TPU', '定制起订量：5000米', '采购周期：10天', '支持包工包料'],
+          detail: '适配 LED 灯条套管、医疗管、车身与家装封边条等产品需求。'
         },
         {
-          name: 'Wall Washer 故事投影夜灯',
-          tagline: '结合灯光氛围与睡前故事的热门品类',
+          name: '塑料机械与挤出设备',
+          tagline: '覆盖塑料机械、橡胶机械及相关工程塑胶配套',
           image: '/images/products/wall-washer.svg',
-          specs: ['材质：ABS + 光学镜片', '适龄：3+', '装箱：24 pcs / carton', '交期：28 天'],
-          detail: '可定制图卡内容与外观结构，支持跌落测试与运输包装优化。'
+          specs: ['工艺：注塑/挤塑/缠绕/滚塑', '设备：裁管机 / 牵引机', '支持来图加工', '合作方式灵活'],
+          detail: '提供注塑产品设计、开发、生产、销售、服务一体化能力。'
         }
       ]
     },
@@ -286,8 +281,8 @@ export const homepageContent: Record<Locale, HomePageContent> = {
         {label: 'Email', value: 'sales@lai-toys.com', href: 'mailto:sales@lai-toys.com'}
       ],
       checklistTitle: '项目启动资料清单',
-      checklist: ['矢量 Logo 与品牌主色', '工厂 / 展厅高清实拍原片', 'CE / ASTM / EN71 与检测报告', '产品规格表（材质、尺寸、装箱率、CBM）', 'SEO 关键词、隐私政策与社媒账号'],
-      notice: '如需查看证书、检测报告或验厂进度，请在询盘中注明目标市场与产品型号。'
+      checklist: ['主营方向（拼插玩具 / 管材 / 机械）', '合作方式（清加工 / 包工包料 / 来样加工 / 来图加工）', '起订量与交期要求', '是否需要贴牌加工与开票', '资质文件需求（工商资质 / ISO 9000 / CE）'],
+      notice: '如需查看企业诚信、税务评级或资质文件，请在询盘中注明具体用途。'
     },
     footer: {
       summary: '尧顺面向全球采购商提供 OEM / ODM 玩具制造服务，强调合规、质量与稳定交付。',
@@ -296,14 +291,14 @@ export const homepageContent: Record<Locale, HomePageContent> = {
     },
     seo: {
       title: '尧顺 | 玩具 OEM / ODM 制造商',
-      description: '尧顺提供玩具外贸 OEM / ODM 制造服务，涵盖 AI Toys for Kids、Fort Building Kit、Wall Washer 系列及合规交付支持。',
-      keywords: ['wall washer', 'ai toys for kids', 'fort building kit', 'toy manufacturer website', 'extruder']
+      description: '东莞市尧顺科技有限公司主营拼插类玩具、PU管、PVC管，支持来样加工、包工包料、贴牌加工与资质资料配合。',
+      keywords: ['东莞玩具', '拼插类玩具', 'PU管', 'PVC管', '来样加工', '包工包料', '支持贴牌加工', '可开专票', 'ISO 9000认证', 'CE认证']
     }
   },
   en: {
     nav: [
       {label: 'Company', href: 'company'},
-      {label: 'Compliance', href: 'certifications'},
+      {label: 'Qualification Center', href: 'certifications'},
       {label: 'Products', href: 'products'},
       {label: 'R&D', href: 'rnd'},
       {label: 'Stories', href: 'success-stories'},
@@ -311,106 +306,106 @@ export const homepageContent: Record<Locale, HomePageContent> = {
       {label: 'Contact', href: 'contact'}
     ],
     hero: {
-      eyebrow: 'Toy Export Website',
-      title: 'yaoshun is an OEM / ODM toy manufacturer for global sourcing and brand partners',
+      eyebrow: 'Factory Website',
+      title: 'Dongguan Yaoshun Technology Co., Ltd. | Factory Store and Processing Services',
       description:
-        'We provide integrated support from product development and sampling to mass production and shipment. The homepage is structured around real B2B buying decisions so sourcing teams can evaluate and inquire faster.',
-      primaryCta: 'Explore Products',
-      secondaryCta: 'Start Inquiry',
-      badges: ['OEM / ODM custom development', 'English / Chinese bilingual support', 'CE / ASTM / EN71 documentation support', 'SEO keywords deployed: wall washer / ai toys for kids / fort building kit'],
+        'We focus on interlocking toys, PU/PVC tubes, profiles, plastic machinery and engineering plastic products, with flexible processing and private-label support.',
+      primaryCta: 'View Factory Store',
+      secondaryCta: 'Send Inquiry',
+      badges: ['Business qualifications available', 'ISO 9000 and CE support', 'Sample and drawing-based processing support', 'Private-label and VAT invoice support'],
       metrics: [
-        {value: '2014', label: 'Established', detail: 'Focused on toy export manufacturing.'},
-        {value: '6,000 m²', label: 'Facility Area', detail: 'Production, assembly, packing and warehouse zones.'},
-        {value: '50+', label: 'Team Size', detail: 'Engineering, QA, production and sales teams.'},
-        {value: '200 tons / month', label: 'Monthly Capacity', detail: 'Supports both standard and custom projects.'}
+        {value: '2013', label: 'Company Established', detail: 'Approved and registered enterprise.'},
+        {value: '11-50', label: 'Production Staff', detail: 'Stable team for flexible processing and delivery.'},
+        {value: 'RMB 510K-1M', label: 'Monthly Output Value', detail: 'Supports ongoing factory-store and project orders.'},
+        {value: '10 days', label: 'Raw Material Lead Time', detail: 'Fast procurement cycle for common materials.'}
       ],
-      spotlightTitle: 'Sourcing Decision Flow',
+      spotlightTitle: 'Cooperation Decision Flow',
       spotlightDescription:
-        'The page follows a clear sequence: factory strength, compliance proof, product specs and direct inquiry channels.',
+        'The homepage follows a clear order: qualifications, factory profile, product categories and direct inquiry.',
       spotlightPoints: [
-        'Review factory scale, showroom and production visuals first.',
-        'Check certification readiness and audit progress next.',
-        'Connect directly via WhatsApp or email to start sampling and quotation.'
+        'Review business qualifications and trust profile first.',
+        'Check factory archive, processing methods and MOQ conditions.',
+        'Submit inquiry with your required category and processing model.'
       ]
     },
     company: {
       eyebrow: 'Company Profile',
-      title: 'Established in 2014, focused on export-oriented toy manufacturing',
+      title: 'Factory profile and capabilities at a glance',
       description:
-        'Serious B2B buyers evaluate stability, compliance readiness and execution speed first. We surface those details clearly on the homepage.',
+        'B2B customers usually evaluate legal qualifications, stable execution and category match first. We show those details clearly.',
       facts: [
-        {label: 'Established', value: '2014'},
-        {label: 'Facility Area', value: '6,000 m²'},
-        {label: 'Team Size', value: '50+'},
-        {label: 'Monthly Capacity', value: '200 tons'}
+        {label: 'Established', value: '2013'},
+        {label: 'Archive Date', value: '2016.08.26'},
+        {label: 'Annual Turnover', value: 'RMB 1.01M-5M'},
+        {label: 'Staff', value: '11-50'}
       ],
       cards: [
         {
-          title: 'Brand & Visual Assets',
-          description: 'Domestic brand assets are finalized. International brand registration is in progress and expected in about 10 months.'
+          title: 'Main Categories',
+          description: 'Interlocking toys, PU/PVC tubes, profiles, plastic machinery and accessories.'
         },
         {
-          title: 'Factory & Showroom Materials',
-          description: 'High-resolution factory and showroom photography is being arranged to present production and QA workflows transparently.'
+          title: 'Processing Models',
+          description: 'Labor processing, labor+material, sample-based processing and drawing-based processing.'
         },
         {
-          title: 'Mission & Vision',
-          description: 'Mission: Make toy manufacturing more reliable. Vision: Become a long-term OEM / ODM partner for global toy brands.'
+          title: 'Commercial Support',
+          description: 'Private-label support, VAT invoice availability, and qualification documents for onboarding.'
         }
       ]
     },
     strengths: {
       eyebrow: 'Why Us',
-      title: 'Four capabilities that matter most to toy sourcing teams',
-      description: 'Each point addresses a key buyer concern: speed, reliability, engineering and quality consistency.',
+      title: 'Four practical strengths for project execution',
+      description: 'Each point maps directly to common cooperation requirements.',
       items: [
-        {title: '24-hour sampling response', description: 'Priority projects can enter an accelerated sample scheduling window.'},
-        {title: '10+ years of export collaboration', description: 'Long-term OEM / ODM execution for overseas customers with practical delivery discipline.'},
-        {title: 'R&D and tooling coordination', description: 'Supports structure evaluation, sample optimization and mold-development cooperation.'},
-        {title: 'Eco-compliant materials with QA control', description: 'Material compliance and AQL-based inspection are embedded into production flow.'}
+        {title: 'Category Coverage', description: 'From toys to tubes and machinery-related plastic products.'},
+        {title: 'Flexible Processing', description: 'Supports multiple processing routes and cooperation models.'},
+        {title: 'Stable Procurement', description: 'Raw material procurement lead time is about 10 days.'},
+        {title: 'Qualification Ready', description: 'Business qualification, ISO 9000, CE and trust profile available.'}
       ]
     },
     compliance: {
-      eyebrow: 'Trust & Compliance',
-      title: 'Compliance and trust information is visible from the first screen',
-      description: 'Toy sourcing decisions depend on market-entry compliance. We keep certification support and audit progress transparent.',
+      eyebrow: 'Qualification Center',
+      title: 'Qualification and trust information shown up front',
+      description: 'This section centralizes legal, certification and enterprise-trust information.',
       certifications: [
-        {name: 'CE', detail: 'CE-related support is available according to product category and destination market.'},
-        {name: 'ASTM', detail: 'ASTM testing documentation can be prepared for North American projects.'},
-        {name: 'EN71', detail: 'EN71 testing support can be aligned with EU project requirements.'},
-        {name: 'Lab Reports', detail: 'Certification and test reports can be provided in about 15-20 working days after project confirmation.'}
+        {name: 'Entity Qualifications', detail: 'Business registration and subject qualification documents are available.'},
+        {name: 'ISO 9000', detail: 'Quality-management related documentation support is available.'},
+        {name: 'CE', detail: 'CE-related documentation can be provided per project category.'},
+        {name: 'Tax Rating', detail: 'Tax rating and trust profile information can be provided for review.'}
       ],
       audits: [
-        {name: 'BSCI', detail: 'Audit process is underway to strengthen supply-chain transparency.'},
-        {name: 'ICTI', detail: 'ICTI preparation is in progress to meet toy-industry sourcing expectations.'},
-        {name: 'ISO9001', detail: 'Quality system is being refined for stable and traceable project execution.'}
+        {name: 'Sample Support', detail: 'Sample requests are supported for project validation.'},
+        {name: 'Sample-Based Processing', detail: 'Sample and drawing-based processing are both supported.'},
+        {name: 'Labor + Material', detail: 'Integrated labor+material delivery is supported.'}
       ]
     },
     products: {
       eyebrow: 'Product Solutions',
-      title: 'Core products with structured specs for faster buyer decisions',
-      description: 'Material, age range, carton data, CBM, MOQ and lead time are displayed in a sourcing-friendly format.',
+      title: 'Factory-store categories and practical delivery conditions',
+      description: 'The page focuses on main categories, MOQ and processing capabilities.',
       items: [
         {
-          name: 'AI Toys for Kids Companion Dog',
-          tagline: 'Designed for educational and family-interaction scenarios',
+          name: 'Interlocking and Educational Toys',
+          tagline: 'For educational, baby and pretend-play toy channels',
           image: '/images/products/ai-smart-pup.svg',
-          specs: ['Material: ABS + plush + silicone', 'Age: 3+', 'MOQ: 1000 pcs', 'Lead Time: 35 days'],
-          detail: 'Supports localized voice packs, packaging customization and branded appearance updates.'
+          specs: ['Material: ABS / PP', 'Sample support: Yes', 'Private-label MOQ: 1000 sets', 'Processing: Sample / drawing based'],
+          detail: 'Supports private-label processing and VAT invoicing.'
         },
         {
-          name: 'Fort Building Kit',
-          tagline: 'A STEM-focused construction set for retail and education channels',
+          name: 'PU / PVC Tubes and Profiles',
+          tagline: 'For packaging, insulation and utility applications',
           image: '/images/products/fort-kit.svg',
-          specs: ['Material: PP + ABS', 'Carton: 8 sets / carton', 'CBM: 0.126', 'MOQ: 800 sets'],
-          detail: 'Suitable for OEM colorways, localized instructions and retail packaging adaptation.'
+          specs: ['Material: PU / PVC / TPU', 'Custom MOQ: 5000 meters', 'Lead time: 10 days', 'Model: Labor + material'],
+          detail: 'Supports LED sleeves, medical tubes and trim-strip scenarios.'
         },
         {
-          name: 'Wall Washer Story Projector',
-          tagline: 'A toy-lighting hybrid for bedtime storytelling and gifting programs',
+          name: 'Plastic Machinery and Extrusion Support',
+          tagline: 'Machinery and engineering-plastic matching services',
           image: '/images/products/wall-washer.svg',
-          specs: ['Material: ABS + optical lens', 'Age: 3+', 'Carton: 24 pcs / carton', 'Lead Time: 28 days'],
-          detail: 'Supports reel-content localization, housing customization and drop-test-ready packaging.'
+          specs: ['Processes: Injection / extrusion / winding / rotational', 'Equipment: Tube cutter / traction machine', 'Drawing-based processing: Yes', 'Tax invoice: 13% VAT'],
+          detail: 'Integrated design, development, production and after-service support.'
         }
       ]
     },
@@ -487,8 +482,8 @@ export const homepageContent: Record<Locale, HomePageContent> = {
     },
     contact: {
       eyebrow: 'Inquiry & Launch',
-      title: 'Move from browsing to inquiry with direct communication channels',
-      description: 'Share your product requirement and target market. Our team will respond within one business day with a practical quotation path.',
+      title: 'Move from category browsing to direct inquiry',
+      description: 'Share required category, processing model and MOQ. Our team will respond with practical cooperation details.',
       channels: [
         {label: 'WhatsApp', value: '+86 186 6552 7489', href: 'https://wa.me/8618665527489'},
         {label: 'LinkedIn', value: 'yaoshun Manufacturing', href: 'https://www.linkedin.com/company/lai-toys-manufacturing'},
@@ -496,23 +491,23 @@ export const homepageContent: Record<Locale, HomePageContent> = {
       ],
       checklistTitle: 'Project kickoff material checklist',
       checklist: [
-        'Vector logo and brand color standards',
-        'High-resolution factory and showroom photos',
-        'CE / ASTM / EN71 files and lab reports',
-        'Product specification sheets (material, size, carton rate, CBM)',
-        'SEO keywords, privacy policy and social account links'
+        'Required category (toys / tubes / machinery / accessories)',
+        'Cooperation model (labor-only / labor+material / sample-based / drawing-based)',
+        'MOQ and lead-time expectations',
+        'Whether private-label and invoice support are needed',
+        'Qualification document requirements (entity / ISO 9000 / CE / trust profile)'
       ],
-      notice: 'Please include target market and product model in your inquiry if you need certification files or audit-progress details.'
+      notice: 'Please mention your intended usage scenario if you need qualification or trust documents.'
     },
     footer: {
-      summary: 'yaoshun serves global toy buyers with OEM / ODM manufacturing focused on compliance, quality and reliable delivery.',
+      summary: 'yaoshun provides B2B processing and manufacturing services with clear qualification, category and cooperation information.',
       legal: ['HTTPS / SSL deployment ready', 'GDPR privacy and cookie compliance supported', 'EU representative and German Packaging Act information can be published'],
       copyright: 'yaoshun. All rights reserved.'
     },
     seo: {
-      title: 'yaoshun | OEM / ODM Toy Manufacturer',
-      description: 'yaoshun provides export-oriented OEM / ODM toy manufacturing, including AI Toys for Kids, Fort Building Kit and Wall Washer product programs.',
-      keywords: ['wall washer', 'ai toys for kids', 'fort building kit', 'toy manufacturer website', 'extruder']
+      title: 'yaoshun | Factory Store and Processing Services',
+      description: 'Dongguan Yaoshun provides interlocking toys, PU/PVC tubes, profile processing, machinery support and flexible B2B cooperation models.',
+      keywords: ['dongguan toys', 'interlocking toys', 'pu tube', 'pvc tube', 'sample-based processing', 'private-label processing', 'iso 9000', 'ce']
     }
   }
 };

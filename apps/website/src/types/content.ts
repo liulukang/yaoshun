@@ -1,4 +1,6 @@
-export type Locale = 'en' | 'zh';
+import type {Locale} from '@/i18n/config';
+
+export type {Locale};
 
 export type LocalizedText = Record<Locale, string>;
 
