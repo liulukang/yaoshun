@@ -21,7 +21,7 @@ pnpm dev
 
 ## 说明
 
-- 根目录 `.npmrc` 已切换为 `https://registry.npmmirror.com/`
+- 根目录 `.npmrc` 已切换 `https://registry.npmmirror.com/`
 - `apps/website`：`Next.js 16 + React 19 + next-intl + Tailwind CSS`
 - `apps/admin`：`React 19 + Vite 8 + Ant Design 6 + react-router-dom 7 + Zustand`
 - `apps/server`：`NestJS 11 + Prisma 7 + PostgreSQL`
