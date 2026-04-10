@@ -8,6 +8,9 @@
 - [ ] metadata / canonical / hreflang / sitemap / robots 正常。
 - [ ] 首页/FAQ/产品详情页结构化数据存在。
 - [ ] 360/390/414/768/1024+ 移动端布局可用。
+- [ ] 根路由 `/` 能根据已选语言或 `Accept-Language` 跳转到正确 locale。
+- [ ] locale 判断存在明确回退策略，且不依赖 `en|zh` 硬编码。
+- [ ] 多语言文案按页面/共享模块组织，不散落在 page 组件中。
 - [ ] 类型检查通过（如 `tsc --noEmit`）。
 - [ ] 生产构建通过并产出静态站点。
 - [ ] GitHub Pages workflow 可用。

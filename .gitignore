@@ -10,6 +10,7 @@ coverage
 *.log
 *.tsbuildinfo
 .env
+.env.production
 .env.local
 .env.*.local
 apps/server/uploads

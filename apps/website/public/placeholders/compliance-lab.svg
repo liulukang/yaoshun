@@ -8,8 +8,6 @@
     <rect x="1018" y="236" width="142" height="398" rx="24" fill="#CBD5E1"/>
   </g>
   <circle cx="1120" cy="270" r="86" fill="#F59E0B" fill-opacity="0.24"/>
-  <text x="172" y="186" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="74" font-weight="700">Compliance Lab</text>
-  <text x="176" y="246" fill="#CBD5E1" font-family="Arial, sans-serif" font-size="28">Testing and certification placeholder</text>
   <defs>
     <linearGradient id="g" x1="96" y1="110" x2="1304" y2="850" gradientUnits="userSpaceOnUse">
       <stop stop-color="#1E3A8A"/>

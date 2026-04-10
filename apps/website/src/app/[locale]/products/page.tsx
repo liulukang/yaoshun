@@ -3,13 +3,19 @@ import Link from 'next/link';
 
 import {PageLinks} from '@/components/page-links';
 import {ProductCard} from '@/components/product-card';
-import {companyProfile, pageLabels, products} from '@/data/site';
+import {pageLabels, products, productsPageContent} from '@/content/site';
 import {getLocaleFromParams, t} from '@/lib/i18n';
 import {buildMetadata} from '@/lib/metadata';
 
 export async function generateMetadata({params}: {params: Promise<{locale: string}>}): Promise<Metadata> {
   const locale = await getLocaleFromParams(params);
-  return buildMetadata(locale, `${t(locale, pageLabels.products)} | ${t(locale, companyProfile.companyName)}`, locale === 'en' ? 'Desktop-first catalog rebuilt from stitch with Yaoshun product and service lines.' : '按 stitch 桌面目录页重建，并替换为尧顺的产品与服务线。', 'products');
+  return buildMetadata(
+    locale,
+    t(locale, productsPageContent.seo.title),
+    t(locale, productsPageContent.seo.description),
+    'products',
+    t(locale, productsPageContent.seo.keywords)
+  );
 }
 
 export default async function ProductsPage({params}: {params: Promise<{locale: string}>}) {
@@ -17,7 +23,7 @@ export default async function ProductsPage({params}: {params: Promise<{locale: s
 
   return (
     <div className="desktop-shell px-4 pb-16 sm:px-6 sm:pb-20 xl:px-8">
-      <main className="pb-16 pt-8 sm:pb-20 sm:pt-10 md:pt-12">
+      <main className="pb-14 pt-8 sm:pb-16 sm:pt-10 md:pt-12">
         <div className="mb-8 sm:mb-10 md:mb-12">
           <nav className="mb-4 flex items-center gap-2 font-label text-xs uppercase tracking-widest text-outline">
             <Link className="hover:text-primary" href={`/${locale}`}>
@@ -26,93 +32,100 @@ export default async function ProductsPage({params}: {params: Promise<{locale: s
             <span>{'/'}</span>
             <span className="font-bold text-primary">{t(locale, pageLabels.products)}</span>
           </nav>
-          <div className="flex flex-col gap-4 sm:gap-6 md:flex-row md:items-end md:justify-between">
+
+          <div className="grid gap-5 rounded-[2rem] border border-outline-variant/20 bg-surface-container-low p-5 sm:p-6 lg:grid-cols-[minmax(0,1fr)_20rem] lg:gap-8 lg:p-10">
             <div>
-              <h1 className="font-headline text-4xl font-black tracking-tighter text-primary sm:text-5xl">{locale === 'en' ? 'Our Collection' : '产品目录'}</h1>
-              <p className="mt-2 max-w-xl text-sm font-medium leading-relaxed text-on-surface-variant sm:mt-3 sm:text-base">
-                {locale === 'en'
-                  ? 'Desktop catalog layout restored from stitch and updated with Yaoshun toy, profile, and engineering support programs.'
-                  : '按照 stitch 的桌面产品目录布局重建，并替换为尧顺的玩具、型材和工程支持项目。'}
-              </p>
+              <h1 className="max-w-[14ch] font-headline text-4xl font-black leading-[0.94] tracking-[-0.04em] text-primary sm:text-5xl">{t(locale, productsPageContent.hero.title)}</h1>
+              <p className="mt-3 max-w-2xl text-sm font-medium leading-relaxed text-on-surface-variant sm:mt-4 sm:text-base">{t(locale, productsPageContent.hero.description)}</p>
             </div>
-            <div className="flex items-center gap-3 rounded-xl bg-surface-container-low p-2 sm:gap-4">
-              <span className="px-3 font-label text-[10px] font-bold uppercase tracking-widest text-outline sm:px-4">{locale === 'en' ? 'Sort By' : '排序'}</span>
-              <select className="bg-transparent pr-6 font-headline text-xs font-bold text-primary outline-none sm:pr-8 sm:text-sm">
-                <option>{locale === 'en' ? 'Newest Arrivals' : '最新项目'}</option>
-                <option>{locale === 'en' ? 'Most Relevant' : '最相关'}</option>
-                <option>{locale === 'en' ? 'MOQ Focus' : '按起订量'}</option>
+            <div className="rounded-2xl border border-outline-variant/25 bg-white p-5 sm:p-6">
+              <p className="font-label text-[10px] font-bold uppercase tracking-[0.2em] text-secondary">{t(locale, productsPageContent.sort.label)}</p>
+              <select className="mt-2 w-full rounded-xl bg-surface-container-low px-3 py-2 text-sm font-bold text-primary outline-none">
+                {productsPageContent.sort.options.map((option) => (
+                  <option key={option.en}>{t(locale, option)}</option>
+                ))}
               </select>
+              <div className="mt-4 space-y-2.5">
+                {productsPageContent.catalogPillars.map((item) => (
+                  <div key={item.title.en} className="rounded-xl bg-surface-container-low px-3 py-2.5">
+                    <p className="text-xs font-bold text-primary">{t(locale, item.title)}</p>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         </div>
 
-        <div className="grid gap-8 sm:gap-10 lg:grid-cols-[280px_1fr] lg:gap-12">
-          <aside className="glass-panel h-fit rounded-[2rem] border border-white/40 p-5 shadow-float sm:p-6 lg:sticky lg:top-28 lg:p-8">
-            <div className="mb-6 flex items-center gap-2 sm:mb-8">
-              <div className="material-dot" />
-              <h2 className="font-headline text-lg font-extrabold tracking-tight text-primary">{locale === 'en' ? 'Refine Catalog' : '筛选目录'}</h2>
-            </div>
-            <div className="space-y-7 sm:space-y-8 lg:space-y-10">
+        <section className="mb-10 grid gap-4 sm:mb-12 sm:gap-5 lg:grid-cols-3">
+          {productsPageContent.catalogPillars.map((item) => (
+            <article key={item.title.en} className="rounded-[1.5rem] border border-outline-variant/20 bg-white p-5 shadow-panel sm:p-6">
+              <h2 className="font-headline text-2xl font-bold text-primary">{t(locale, item.title)}</h2>
+              <p className="mt-3 text-sm leading-relaxed text-on-surface-variant">{t(locale, item.text)}</p>
+            </article>
+          ))}
+        </section>
+
+        <section className="grid gap-8 sm:gap-10 lg:grid-cols-[280px_minmax(0,1fr)] lg:gap-10">
+          <aside className="h-fit rounded-[2rem] border border-outline-variant/20 bg-surface-container-low p-5 shadow-panel sm:p-6 lg:sticky lg:top-28 lg:p-8">
+            <h2 className="font-headline text-xl font-extrabold tracking-tight text-primary">{t(locale, productsPageContent.filters.title)}</h2>
+            <div className="mt-5 space-y-6">
               <section>
-                <h3 className="mb-4 font-label text-[10px] font-black uppercase tracking-widest text-primary">{locale === 'en' ? 'Material' : '材质'}</h3>
-                <div className="space-y-3 text-sm text-on-surface-variant">
-                  <label className="flex items-center gap-3"><input type="checkbox" /> ABS / PP</label>
-                  <label className="flex items-center gap-3"><input type="checkbox" /> PU / PVC / TPU</label>
-                  <label className="flex items-center gap-3"><input type="checkbox" /> {locale === 'en' ? 'Engineering Plastics' : '工程塑胶'}</label>
+                <h3 className="mb-3 font-label text-[10px] font-black uppercase tracking-widest text-primary">{t(locale, productsPageContent.filters.materialTitle)}</h3>
+                <div className="grid gap-2.5">
+                  {productsPageContent.filters.materialOptions.map((option) => (
+                    <div key={option.en} className="rounded-xl bg-white px-3 py-2.5 text-sm text-on-surface-variant">{t(locale, option)}</div>
+                  ))}
                 </div>
               </section>
               <section>
-                <h3 className="mb-4 font-label text-[10px] font-black uppercase tracking-widest text-primary">{locale === 'en' ? 'Cooperation' : '合作方式'}</h3>
-                <div className="grid gap-2">
-                  <button className="flex items-center justify-between rounded-xl bg-secondary-container px-4 py-2 text-sm font-bold text-white">
-                    <span>OEM / ODM</span>
-                    <span>24</span>
-                  </button>
-                  <button className="flex items-center justify-between rounded-xl bg-surface-container px-4 py-2 text-sm font-bold text-primary">
-                    <span>{locale === 'en' ? 'Sample-Based' : '来样加工'}</span>
-                    <span>18</span>
-                  </button>
-                  <button className="flex items-center justify-between rounded-xl bg-surface-container px-4 py-2 text-sm font-bold text-primary">
-                    <span>{locale === 'en' ? 'Material-Inclusive' : '包工包料'}</span>
-                    <span>12</span>
-                  </button>
+                <h3 className="mb-3 font-label text-[10px] font-black uppercase tracking-widest text-primary">{t(locale, productsPageContent.filters.cooperationTitle)}</h3>
+                <div className="grid gap-2.5">
+                  {productsPageContent.filters.cooperationOptions.map((option) => (
+                    <div key={option.count} className="flex items-center justify-between rounded-xl bg-white px-3 py-2.5 text-sm font-bold text-primary">
+                      <span>{t(locale, option.label)}</span>
+                      <span className="text-secondary">{option.count}</span>
+                    </div>
+                  ))}
                 </div>
               </section>
               <section>
-                <h3 className="mb-4 font-label text-[10px] font-black uppercase tracking-widest text-primary">{locale === 'en' ? 'Compliance' : '合规'}</h3>
+                <h3 className="mb-3 font-label text-[10px] font-black uppercase tracking-widest text-primary">{t(locale, productsPageContent.filters.complianceTitle)}</h3>
                 <div className="flex flex-wrap gap-2">
-                  {['ASTM', 'EN71', 'ISO 9000', 'CE'].map((item) => (
-                    <span key={item} className="rounded-lg border border-outline-variant bg-white/60 px-3 py-1 font-label text-[9px] font-bold uppercase text-primary">
+                  {productsPageContent.filters.complianceTags.map((item) => (
+                    <span key={item} className="rounded-lg border border-outline-variant bg-white px-3 py-1 font-label text-[9px] font-bold uppercase text-primary">
                       {item}
                     </span>
                   ))}
                 </div>
               </section>
-              <section>
-                <h3 className="mb-4 font-label text-[10px] font-black uppercase tracking-widest text-primary">{locale === 'en' ? 'Min. Order' : '最小起订量'}</h3>
-                <input className="h-1.5 w-full accent-secondary" max="5000" min="100" step="100" type="range" />
-                <div className="mt-2 flex justify-between font-label text-[10px] font-bold uppercase text-outline">
-                  <span>100</span>
-                  <span className="text-secondary">5000+</span>
-                </div>
-              </section>
-              <button className="w-full rounded-2xl bg-primary py-4 text-sm font-bold text-white shadow-lg">{locale === 'en' ? 'Apply Filters' : '应用筛选'}</button>
             </div>
           </aside>
 
-          <section className="grid gap-x-6 gap-y-8 sm:gap-x-8 sm:gap-y-10 lg:gap-y-12 md:grid-cols-2 xl:grid-cols-3">
+          <section className="grid gap-x-6 gap-y-8 sm:gap-x-8 sm:gap-y-10 lg:gap-y-12 md:grid-cols-2 2xl:grid-cols-3">
             {products.map((product) => (
               <ProductCard key={product.slug} locale={locale} product={product} />
             ))}
           </section>
-        </div>
+        </section>
+
+        <section className="mt-12 sm:mt-16 lg:mt-20">
+          <h2 className="font-headline text-3xl font-extrabold text-primary sm:text-4xl">{t(locale, productsPageContent.sourcingSection.title)}</h2>
+          <div className="mt-6 grid gap-4 sm:mt-8 sm:gap-5 md:grid-cols-2 xl:grid-cols-4">
+            {productsPageContent.sourcingSection.cards.map((item) => (
+              <article key={item.title.en} className="rounded-[1.25rem] bg-surface-container-low p-5 sm:p-6">
+                <h3 className="font-headline text-xl font-bold text-primary">{t(locale, item.title)}</h3>
+                <p className="mt-3 text-sm leading-relaxed text-on-surface-variant">{t(locale, item.text)}</p>
+              </article>
+            ))}
+          </div>
+        </section>
       </main>
 
       <PageLinks
-        description={{en: 'Go deeper into the factory system, compliance documents, or a direct quotation request.', zh: '继续进入工厂系统、资质文档或直接报价。'}}
+        description={productsPageContent.journey.description}
         locale={locale}
         route="products"
-        title={{en: 'Continue Through The Product Journey', zh: '继续完成产品浏览路径'}}
+        title={productsPageContent.journey.title}
       />
     </div>
   );

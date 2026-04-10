@@ -17,8 +17,6 @@
   </g>
   <circle cx="1332" cy="228" r="112" fill="#FD8B00" fill-opacity="0.18"/>
   <circle cx="1274" cy="278" r="72" fill="#FFE16D" fill-opacity="0.3"/>
-  <text x="160" y="156" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="86" font-weight="700">Factory Floor</text>
-  <text x="164" y="220" fill="#B9C7F2" font-family="Arial, sans-serif" font-size="30">Manufacturing capability placeholder</text>
   <defs>
     <linearGradient id="bg" x1="68" y1="72" x2="1532" y2="888" gradientUnits="userSpaceOnUse">
       <stop stop-color="#10245F"/>

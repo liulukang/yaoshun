@@ -1,15 +1,20 @@
 import type {Metadata} from 'next';
-import Image from 'next/image';
 
 import {PageLinks} from '@/components/page-links';
 import {SectionHeading} from '@/components/section-heading';
-import {companyProfile, complianceContent, pageLabels} from '@/data/site';
+import {complianceContent} from '@/content/site';
 import {getLocaleFromParams, t} from '@/lib/i18n';
 import {buildMetadata} from '@/lib/metadata';
 
 export async function generateMetadata({params}: {params: Promise<{locale: string}>}): Promise<Metadata> {
   const locale = await getLocaleFromParams(params);
-  return buildMetadata(locale, `${t(locale, pageLabels.compliance)} | ${t(locale, companyProfile.companyName)}`, t(locale, complianceContent.hero.description), 'compliance');
+  return buildMetadata(
+    locale,
+    t(locale, complianceContent.seo.title),
+    t(locale, complianceContent.seo.description),
+    'compliance',
+    t(locale, complianceContent.seo.keywords)
+  );
 }
 
 export default async function CompliancePage({params}: {params: Promise<{locale: string}>}) {
@@ -17,23 +22,12 @@ export default async function CompliancePage({params}: {params: Promise<{locale:
 
   return (
     <div className="desktop-shell px-4 pb-16 sm:px-6 sm:pb-20 xl:px-8">
-      <section className="py-12 sm:py-14 md:py-24">
-        <div className="grid grid-cols-12 items-end gap-4 sm:gap-6">
-          <div className="col-span-12 lg:col-span-7">
+      <section className="py-12 sm:py-14 md:py-20">
+        <div className="grid grid-cols-12 items-center gap-4 sm:gap-6">
+          <div className="col-span-12">
             <span className="block font-label text-xs font-bold uppercase tracking-[0.18em] text-secondary sm:text-sm sm:tracking-[0.2em]">{t(locale, complianceContent.hero.eyebrow)}</span>
-            <h1 className="mt-3 font-headline text-4xl font-extrabold leading-[0.95] tracking-tighter text-primary sm:text-5xl md:mt-4 md:text-7xl lg:text-8xl">{t(locale, complianceContent.hero.title)}</h1>
-            <p className="mt-4 max-w-2xl text-base leading-relaxed text-on-surface-variant sm:mt-6 sm:text-lg lg:mt-8 lg:text-xl">{t(locale, complianceContent.hero.description)}</p>
-          </div>
-          <div className="relative col-span-12 hidden lg:col-span-5 lg:block">
-            <div className="relative aspect-square rotate-3 overflow-hidden rounded-xl bg-primary-container transition-transform duration-500 hover:rotate-0">
-              <Image alt={t(locale, companyProfile.companyName)} className="h-full w-full object-cover opacity-80 mix-blend-overlay" fill sizes="40vw" src={complianceContent.hero.image} />
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="glass-panel rounded-xl border border-white/20 p-8 shadow-2xl">
-                  <div className="h-12 w-12 rounded-full bg-primary" />
-                  <p className="mt-4 font-label text-lg font-bold uppercase tracking-wider text-primary">{locale === 'en' ? 'Zero-Risk Protocol' : '风险资料预备'}</p>
-                </div>
-              </div>
-            </div>
+            <h1 className="mt-3 max-w-[13ch] font-headline text-4xl font-black leading-[0.92] tracking-[-0.04em] text-primary sm:text-5xl md:mt-4 md:max-w-[14ch] md:text-6xl lg:text-7xl">{t(locale, complianceContent.hero.title)}</h1>
+            <p className="mt-4 max-w-4xl text-base font-medium leading-relaxed text-on-surface-variant sm:mt-6 sm:text-lg lg:mt-8 lg:text-xl">{t(locale, complianceContent.hero.description)}</p>
           </div>
         </div>
       </section>
@@ -42,10 +36,10 @@ export default async function CompliancePage({params}: {params: Promise<{locale:
         <div className="px-4 sm:px-6 md:px-10">
           <div className="mb-8 flex flex-col gap-3 sm:mb-10 sm:gap-4 md:mb-16 md:flex-row md:items-end md:justify-between">
             <div>
-              <h2 className="text-3xl font-bold tracking-tight text-primary sm:text-4xl">{locale === 'en' ? 'Active Documents & Certificates' : '可提供资料与证书'}</h2>
-              <p className="mt-2 text-sm leading-relaxed text-on-surface-variant sm:text-base">{locale === 'en' ? 'Verified materials for buyer onboarding, due diligence, and market review.' : '适用于客户准入、尽调与市场审核的资料集合。'}</p>
+              <h2 className="text-3xl font-bold tracking-tight text-primary sm:text-4xl">{t(locale, complianceContent.certificatesSection.title)}</h2>
+              <p className="mt-2 text-sm leading-relaxed text-on-surface-variant sm:text-base">{t(locale, complianceContent.certificatesSection.description)}</p>
             </div>
-            <span className="font-label text-xs font-semibold uppercase tracking-widest italic text-outline">{locale === 'en' ? 'Updated from preserved profile' : '基于保留企业资料整理'}</span>
+            <span className="font-label text-xs font-semibold uppercase tracking-widest italic text-outline">{t(locale, complianceContent.certificatesSection.note)}</span>
           </div>
 
           <div className="grid gap-4 sm:gap-6 lg:gap-8 md:grid-cols-2 lg:grid-cols-3">
@@ -69,33 +63,27 @@ export default async function CompliancePage({params}: {params: Promise<{locale:
           <div>
             <SectionHeading
               invert
+              description={complianceContent.tradeSection.description}
               locale={locale}
-              title={{en: 'Global Shipping & Trade Expertise', zh: '全球发货与贸易沟通支持'}}
-              description={{en: 'This block keeps the visual weight of the stitch compliance logistics section, but the messaging is aligned to Yaoshun’s quote and buyer review process.', zh: '保留 stitch 合规页中物流区块的视觉重量，同时将内容调整为尧顺当前的报价与客户审核路径。'}}
+              title={complianceContent.tradeSection.title}
             />
           </div>
           <div className="grid gap-4 sm:gap-6 md:grid-cols-3">
-            <div className="rounded-[1.5rem] bg-white/10 p-5 backdrop-blur sm:p-6 lg:p-8">
-              <h4 className="font-bold">{locale === 'en' ? 'Document Readiness' : '资料准备'}</h4>
-              <p className="mt-3 text-sm text-white/70">{locale === 'en' ? 'Business credentials, credit files, annual reports, and tax rating support.' : '工商资质、信用资料、年报与税务评级支持。'}</p>
-            </div>
-            <div className="rounded-[1.5rem] bg-white/10 p-5 backdrop-blur sm:p-6 lg:p-8">
-              <h4 className="font-bold">{locale === 'en' ? 'Testing Pathways' : '测试路径'}</h4>
-              <p className="mt-3 text-sm text-white/70">{locale === 'en' ? 'EN71, ASTM, ISO 9000, and CE-related file organization.' : '围绕 EN71、ASTM、ISO 9000 与 CE 的资料组织。'}</p>
-            </div>
-            <div className="rounded-[1.5rem] bg-white/10 p-5 backdrop-blur sm:p-6 lg:p-8">
-              <h4 className="font-bold">{locale === 'en' ? 'Buyer Review Support' : '客户审核支持'}</h4>
-              <p className="mt-3 text-sm text-white/70">{locale === 'en' ? 'Useful for procurement onboarding and repeated compliance submissions.' : '适合采购准入与持续合规留档。'}</p>
-            </div>
+            {complianceContent.tradeSection.cards.map((item) => (
+              <div key={t(locale, item.title)} className="rounded-[1.5rem] bg-white/10 p-5 backdrop-blur sm:p-6 lg:p-8">
+                <h4 className="font-bold">{t(locale, item.title)}</h4>
+                <p className="mt-3 text-sm text-white/70">{t(locale, item.text)}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
 
       <PageLinks
-        description={{en: 'Continue into FAQ, direct inquiry, or privacy handling for form data.', zh: '继续查看 FAQ、提交询盘，或了解表单数据的隐私处理方式。'}}
+        description={complianceContent.journey.description}
         locale={locale}
         route="compliance"
-        title={{en: 'Next Compliance-Adjacent Pages', zh: '接下来建议查看'}}
+        title={complianceContent.journey.title}
       />
     </div>
   );

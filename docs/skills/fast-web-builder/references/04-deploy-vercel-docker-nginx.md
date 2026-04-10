@@ -4,7 +4,7 @@
 
 - 使用标准 Next.js 构建与部署流程。
 - 生产环境配置完整站点域名：`NEXT_PUBLIC_SITE_URL=https://<your-domain>`。
-- 环境变量在项目级统一管理（GTM、表单提交、统计等）。
+- 环境变量在项目级统一管理，仅保留实际使用项，例如站点域名、GA、Google Ads 与搜索引擎验证。
 
 ## Docker
 

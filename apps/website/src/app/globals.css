@@ -1,6 +1,5 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+@config "../../tailwind.config.ts";
 
 :root {
   color-scheme: light;
@@ -23,9 +22,11 @@ body {
   box-sizing: border-box;
 }
 
-a {
+a,
+a[href] {
   color: inherit;
   text-decoration: none;
+  cursor: pointer;
 }
 
 img {
@@ -38,6 +39,15 @@ input,
 select,
 textarea {
   font: inherit;
+}
+
+button,
+[role='button'] {
+  cursor: pointer;
+}
+
+[data-track-event] {
+  cursor: pointer;
 }
 
 .site-page {
@@ -57,7 +67,15 @@ textarea {
 
 .desktop-shell {
   width: 100%;
+  max-width: 1280px;
   margin-inline: auto;
+}
+
+.full-bleed {
+  width: 100vw;
+  max-width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
 }
 
 .section-divider {

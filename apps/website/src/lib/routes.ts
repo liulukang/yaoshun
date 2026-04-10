@@ -1,15 +1,17 @@
-import type {Locale} from '@/lib/i18n';
+import { getLocalePattern, type Locale } from "@/lib/i18n";
 
 export const routePathMap = {
-  home: '',
-  company: '/company',
-  oemOdm: '/oem-odm',
-  products: '/products',
-  factory: '/factory',
-  compliance: '/compliance',
-  faq: '/faq',
-  contact: '/contact',
-  privacy: '/privacy'
+  home: "",
+  about: "/about",
+  solutions: "/solutions",
+  products: "/products",
+  news: "/news",
+  factory: "/factory",
+  compliance: "/compliance",
+  faq: "/faq",
+  contact: "/contact",
+  privacy: "/privacy",
+  terms: "/terms",
 } as const;
 
 export type RouteKey = keyof typeof routePathMap;
@@ -23,5 +25,11 @@ export function productPath(locale: Locale, slug: string): string {
 }
 
 export function replaceLocaleInPath(pathname: string, locale: Locale): string {
-  return pathname.replace(/^\/(en|zh)(?=\/|$)/, `/${locale}`);
+  const pattern = getLocalePattern();
+
+  if (pattern.test(pathname)) {
+    return pathname.replace(pattern, `/${locale}`);
+  }
+
+  return `/${locale}${pathname === "/" ? "" : pathname}`;
 }
