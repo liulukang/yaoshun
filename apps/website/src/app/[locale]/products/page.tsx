@@ -24,7 +24,7 @@ export default async function ProductsPage({params}: {params: Promise<{locale: s
   return (
     <div className="desktop-shell px-4 pb-16 sm:px-6 sm:pb-20 xl:px-8">
       <main className="pb-14 pt-8 sm:pb-16 sm:pt-10 md:pt-12">
-        <div className="mb-8 sm:mb-10 md:mb-12">
+        <div className="mb-6 sm:mb-8">
           <nav className="mb-4 flex items-center gap-2 font-label text-xs uppercase tracking-widest text-outline">
             <Link className="hover:text-primary" href={`/${locale}`}>
               {t(locale, pageLabels.home)}
@@ -32,38 +32,7 @@ export default async function ProductsPage({params}: {params: Promise<{locale: s
             <span>{'/'}</span>
             <span className="font-bold text-primary">{t(locale, pageLabels.products)}</span>
           </nav>
-
-          <div className="grid gap-5 rounded-[2rem] border border-outline-variant/20 bg-surface-container-low p-5 sm:p-6 lg:grid-cols-[minmax(0,1fr)_20rem] lg:gap-8 lg:p-10">
-            <div>
-              <h1 className="max-w-[14ch] font-headline text-4xl font-black leading-[0.94] tracking-[-0.04em] text-primary sm:text-5xl">{t(locale, productsPageContent.hero.title)}</h1>
-              <p className="mt-3 max-w-2xl text-sm font-medium leading-relaxed text-on-surface-variant sm:mt-4 sm:text-base">{t(locale, productsPageContent.hero.description)}</p>
-            </div>
-            <div className="rounded-2xl border border-outline-variant/25 bg-white p-5 sm:p-6">
-              <p className="font-label text-[10px] font-bold uppercase tracking-[0.2em] text-secondary">{t(locale, productsPageContent.sort.label)}</p>
-              <select className="mt-2 w-full rounded-xl bg-surface-container-low px-3 py-2 text-sm font-bold text-primary outline-none">
-                {productsPageContent.sort.options.map((option) => (
-                  <option key={option.en}>{t(locale, option)}</option>
-                ))}
-              </select>
-              <div className="mt-4 space-y-2.5">
-                {productsPageContent.catalogPillars.map((item) => (
-                  <div key={item.title.en} className="rounded-xl bg-surface-container-low px-3 py-2.5">
-                    <p className="text-xs font-bold text-primary">{t(locale, item.title)}</p>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
         </div>
-
-        <section className="mb-10 grid gap-4 sm:mb-12 sm:gap-5 lg:grid-cols-3">
-          {productsPageContent.catalogPillars.map((item) => (
-            <article key={item.title.en} className="rounded-[1.5rem] border border-outline-variant/20 bg-white p-5 shadow-panel sm:p-6">
-              <h2 className="font-headline text-2xl font-bold text-primary">{t(locale, item.title)}</h2>
-              <p className="mt-3 text-sm leading-relaxed text-on-surface-variant">{t(locale, item.text)}</p>
-            </article>
-          ))}
-        </section>
 
         <section className="grid gap-8 sm:gap-10 lg:grid-cols-[280px_minmax(0,1fr)] lg:gap-10">
           <aside className="h-fit rounded-[2rem] border border-outline-variant/20 bg-surface-container-low p-5 shadow-panel sm:p-6 lg:sticky lg:top-28 lg:p-8">

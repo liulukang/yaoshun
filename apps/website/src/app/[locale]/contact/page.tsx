@@ -30,34 +30,45 @@ export default async function ContactPage({params}: {params: Promise<{locale: st
   return (
     <div className="desktop-shell px-4 pb-16 sm:px-6 sm:pb-20 xl:px-8">
       <main className="pb-16 pt-20 sm:pb-20 sm:pt-24">
+        <section className="mb-10 sm:mb-12 lg:mb-14">
+          <span className="inline-block rounded-full bg-primary-fixed px-4 py-1.5 font-label text-xs font-bold uppercase tracking-widest text-on-primary-fixed">{t(locale, contactContent.hero.eyebrow)}</span>
+          <h1 className="hero-title mt-4 max-w-5xl font-headline text-4xl font-extrabold leading-[1.02] tracking-tighter text-primary sm:text-5xl lg:text-6xl">{t(locale, contactContent.hero.title)}</h1>
+          <p className="mt-4 max-w-4xl text-base leading-relaxed text-on-surface-variant sm:text-lg">{t(locale, contactContent.hero.description)}</p>
+        </section>
+
         <section className="grid gap-10 lg:grid-cols-12 lg:gap-12">
-          <div className="space-y-8 lg:col-span-7 lg:space-y-10">
-            <div>
-              <span className="inline-block rounded-full bg-primary-fixed px-4 py-1.5 font-label text-xs font-bold uppercase tracking-widest text-on-primary-fixed">{t(locale, contactContent.hero.eyebrow)}</span>
-              <h1 className="hero-title mt-4 font-headline text-4xl font-extrabold leading-[1.02] tracking-tighter text-primary sm:text-5xl lg:text-6xl">{t(locale, contactContent.hero.title)}</h1>
-              <p className="mt-4 max-w-3xl text-base leading-relaxed text-on-surface-variant sm:text-lg">{t(locale, contactContent.hero.description)}</p>
+          <aside className="rounded-[2rem] bg-primary p-6 text-white shadow-panel sm:p-8 lg:col-span-5">
+            <p className="font-label text-xs font-bold uppercase tracking-[0.2em] text-primary-fixed">{t(locale, contactContent.businessIdentityLabel)}</p>
+            <div className="mt-4 space-y-4">
+              {businessIdentity.map((item) => (
+                <div key={t(locale, item.label)} className="rounded-xl bg-white/10 p-4">
+                  <p className="font-label text-[10px] font-bold uppercase tracking-[0.18em] text-primary-fixed">{t(locale, item.label)}</p>
+                  <p className="mt-2 text-sm font-semibold leading-relaxed text-white">{t(locale, item.value)}</p>
+                </div>
+              ))}
             </div>
+          </aside>
 
-            <div className="rounded-[1.5rem] border border-outline-variant/20 bg-surface-container-low p-5 sm:p-6 lg:p-8">
-              <h2 className="font-headline text-2xl font-bold text-primary sm:text-3xl">{t(locale, contactContent.responseGoal.title)}</h2>
-              <p className="mt-3 text-sm leading-relaxed text-on-surface-variant sm:text-base">{t(locale, contactContent.responseGoal.text)}</p>
-            </div>
-
-            <div>
-              <h2 className="font-headline text-2xl font-bold text-primary sm:text-3xl">{t(locale, contactContent.serviceCommitmentSection.title)}</h2>
-              <div className="mt-5 grid gap-4 md:grid-cols-3">
-                {contactContent.serviceCommitmentSection.items.map((item) => (
-                  <article key={t(locale, item.title)} className="rounded-[1.25rem] border border-outline-variant/20 bg-white p-5 shadow-panel">
-                    <h3 className="font-headline text-lg font-bold text-primary">{t(locale, item.title)}</h3>
-                    <p className="mt-2 text-sm leading-relaxed text-on-surface-variant">{t(locale, item.text)}</p>
-                  </article>
-                ))}
-              </div>
-            </div>
-          </div>
-
-          <div className="lg:col-span-5 lg:sticky lg:top-28">
+          <div className="lg:col-span-7 lg:sticky lg:top-28">
             <QuoteForm locale={locale} />
+          </div>
+        </section>
+
+        <section className="mt-12 grid gap-6 lg:mt-16 lg:grid-cols-12 lg:gap-8">
+          <div className="rounded-[1.5rem] border border-outline-variant/20 bg-surface-container-low p-5 sm:p-6 lg:col-span-5 lg:p-8">
+            <h2 className="font-headline text-2xl font-bold text-primary sm:text-3xl">{t(locale, contactContent.responseGoal.title)}</h2>
+            <p className="mt-3 text-sm leading-relaxed text-on-surface-variant sm:text-base">{t(locale, contactContent.responseGoal.text)}</p>
+          </div>
+          <div className="lg:col-span-7">
+            <h2 className="font-headline text-2xl font-bold text-primary sm:text-3xl">{t(locale, contactContent.serviceCommitmentSection.title)}</h2>
+            <div className="mt-5 grid gap-4 md:grid-cols-3">
+              {contactContent.serviceCommitmentSection.items.map((item) => (
+                <article key={t(locale, item.title)} className="rounded-[1.25rem] border border-outline-variant/20 bg-white p-5 shadow-panel">
+                  <h3 className="font-headline text-lg font-bold text-primary">{t(locale, item.title)}</h3>
+                  <p className="mt-2 text-sm leading-relaxed text-on-surface-variant">{t(locale, item.text)}</p>
+                </article>
+              ))}
+            </div>
           </div>
         </section>
 
@@ -78,8 +89,8 @@ export default async function ContactPage({params}: {params: Promise<{locale: st
           </div>
         </section>
 
-        <section className="mt-12 grid gap-6 lg:mt-16 lg:grid-cols-12 lg:gap-8">
-          <div className="rounded-[2rem] border border-outline-variant/20 bg-white p-6 shadow-panel sm:p-8 lg:col-span-7">
+        <section className="mt-12 grid gap-6 lg:mt-16 lg:gap-8">
+          <div className="rounded-[2rem] border border-outline-variant/20 bg-white p-6 shadow-panel sm:p-8">
             <h2 className="font-headline text-2xl font-bold text-primary sm:text-3xl">{t(locale, contactContent.quoteChecklistSection.title)}</h2>
             <p className="mt-3 text-sm leading-relaxed text-on-surface-variant sm:text-base">{t(locale, contactContent.quoteChecklistSection.description)}</p>
             <div className="mt-5 grid gap-4 sm:mt-6 sm:gap-5 md:grid-cols-2">
@@ -91,18 +102,6 @@ export default async function ContactPage({params}: {params: Promise<{locale: st
               ))}
             </div>
           </div>
-
-          <aside className="rounded-[2rem] bg-primary p-6 text-white shadow-panel sm:p-8 lg:col-span-5">
-            <p className="font-label text-xs font-bold uppercase tracking-[0.2em] text-primary-fixed">{t(locale, contactContent.businessIdentityLabel)}</p>
-            <div className="mt-4 space-y-4">
-              {businessIdentity.map((item) => (
-                <div key={t(locale, item.label)} className="rounded-xl bg-white/10 p-4">
-                  <p className="font-label text-[10px] font-bold uppercase tracking-[0.18em] text-primary-fixed">{t(locale, item.label)}</p>
-                  <p className="mt-2 text-sm font-semibold leading-relaxed text-white">{t(locale, item.value)}</p>
-                </div>
-              ))}
-            </div>
-          </aside>
         </section>
 
         <section className="mt-12 sm:mt-16 lg:mt-20">

@@ -15,32 +15,32 @@ pnpm dev:website
 pnpm --filter @yaoshun/website build
 ```
 
-Available build targets:
+## Environment Config
+
+Website runtime config is loaded directly from `apps/website/.env`:
 
 ```bash
-pnpm --filter @yaoshun/website build:development
-pnpm --filter @yaoshun/website build:preview
-pnpm --filter @yaoshun/website build:production
+NEXT_PUBLIC_SITE_URL=http://localhost:3000
+NEXT_PUBLIC_GOOGLE_ANALYTICS_ID=
+NEXT_PUBLIC_GOOGLE_ADS_ID=
+NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION=
 ```
-
-## App Config
-
-This project no longer depends on deployment environment variables for site URL or tracking IDs.
-Application config lives in:
-
-```bash
-src/config/app-config.development.ts
-src/config/app-config.preview.ts
-src/config/app-config.production.ts
-```
-
-The selected target is copied into `src/config/app-config.generated.ts` by the build command before `next build`.
 
 ## Vercel
 
-Use different Build Commands for different environments:
+Use environment-specific `.env` values on your deployment platform.
+
+## Contact Form -> Tawk Ticket
+
+The contact form now submits to `POST /api/contact-form`, and the server sends an email to your Tawk ticket inbox.
+
+Create `apps/website/.env` (you can copy from `.env.example`) and configure:
 
 ```bash
-pnpm --filter @yaoshun/website build:preview
-pnpm --filter @yaoshun/website build:production
+TAWK_TICKET_EMAIL=ticket+xxxxxx@tawk.to
+EMAIL_HOST=smtp.your-provider.com
+EMAIL_PORT=465
+EMAIL_USER=your-email-account
+EMAIL_PASS=your-email-password-or-app-password
+EMAIL_FROM=sales@your-domain.com
 ```

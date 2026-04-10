@@ -79,7 +79,7 @@ export default async function FaqPage({
             </div>
           </div>
 
-          <aside className="space-y-6 sm:space-y-8 lg:sticky lg:top-28">
+          <aside className="space-y-6 sm:space-y-8">
             <div className="rounded-2xl border border-outline-variant/10 bg-surface-container-lowest p-5 shadow-panel sm:p-6 lg:p-8">
               <h3 className="font-headline text-xl font-bold text-primary">{t(locale, faqContent.sidebar.primaryContactTitle)}</h3>
               <div className="mt-4 space-y-3 sm:mt-6 sm:space-y-4">

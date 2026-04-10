@@ -12,11 +12,26 @@ type QuoteFormProps = {
 
 export function QuoteForm({locale}: QuoteFormProps) {
   const [hasStarted, setHasStarted] = useState(false);
+  const [submitState, setSubmitState] = useState<'idle' | 'submitting' | 'success' | 'error'>('idle');
   const supportText = t(locale, sharedUi.quoteForm.support)
     .replace('{email}', companyProfile.email)
     .replace('{whatsapp}', companyProfile.whatsapp);
+  const submitFeedback =
+    locale === 'zh'
+      ? {
+          success: '提交成功，已通过邮件创建 Tawk 工单，我们会尽快联系你。',
+          error: '提交失败，请稍后重试或直接通过邮箱/WhatsApp 联系我们。'
+        }
+      : {
+          success: 'Submitted successfully. A Tawk ticket has been created via email and our team will follow up soon.',
+          error: 'Submission failed. Please try again or contact us directly via email/WhatsApp.'
+        };
 
   function handleFirstInteraction() {
+    if (submitState !== 'idle') {
+      setSubmitState('idle');
+    }
+
     if (hasStarted) {
       return;
     }
@@ -28,28 +43,55 @@ export function QuoteForm({locale}: QuoteFormProps) {
     });
   }
 
-  function handleSubmit(event: FormEvent<HTMLFormElement>) {
+  async function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
+    setSubmitState('submitting');
+    const formElement = event.currentTarget;
 
-    const formData = new FormData(event.currentTarget);
+    const formData = new FormData(formElement);
     const name = String(formData.get('name') ?? '').trim();
-    const company = String(formData.get('company') ?? '').trim();
     const email = String(formData.get('email') ?? '').trim();
-    const country = String(formData.get('country') ?? '').trim();
-    const quantity = String(formData.get('quantity') ?? '').trim();
     const message = String(formData.get('message') ?? '').trim();
+    const leadId = `lead-${Date.now().toString(36)}`;
+    let ticketDelivered = false;
+
+    try {
+      const response = await fetch('/api/contact-form', {
+        method: 'POST',
+        headers: {
+          'content-type': 'application/json'
+        },
+        body: JSON.stringify({
+          name,
+          email,
+          message,
+          locale
+        })
+      });
+
+      ticketDelivered = response.ok;
+    } catch {
+      ticketDelivered = false;
+    }
 
     trackEvent('generate_lead', {
       form_location: 'contact_page',
       locale,
       has_name: Boolean(name),
-      has_company: Boolean(company),
       has_email: Boolean(email),
-      has_country: Boolean(country),
-      has_quantity: Boolean(quantity),
       has_message: Boolean(message),
       message_length: message.length,
+      lead_id: leadId,
+      tawk_ticket_delivered: ticketDelivered,
     });
+
+    if (ticketDelivered) {
+      setSubmitState('success');
+      formElement.reset();
+      return;
+    }
+
+    setSubmitState('error');
   }
 
   return (
@@ -70,36 +112,28 @@ export function QuoteForm({locale}: QuoteFormProps) {
         </div>
 
         <form className="space-y-5 sm:space-y-6" onSubmit={handleSubmit}>
-          <div className="grid gap-5 md:grid-cols-2 sm:gap-6">
-            <label className="space-y-2">
-              <span className="ml-1 block font-label text-xs font-semibold text-primary sm:text-sm">{t(locale, sharedUi.quoteForm.fields.name.label)}</span>
-              <input className="w-full rounded-xl bg-surface-container-highest px-4 py-3 text-sm outline-none ring-0 transition-all focus:ring-2 focus:ring-secondary sm:px-6 sm:py-4 sm:text-base" name="name" onFocus={handleFirstInteraction} placeholder={t(locale, sharedUi.quoteForm.fields.name.placeholder)} type="text" />
-            </label>
-            <label className="space-y-2">
-              <span className="ml-1 block font-label text-xs font-semibold text-primary sm:text-sm">{t(locale, sharedUi.quoteForm.fields.company.label)}</span>
-              <input className="w-full rounded-xl bg-surface-container-highest px-4 py-3 text-sm outline-none ring-0 transition-all focus:ring-2 focus:ring-secondary sm:px-6 sm:py-4 sm:text-base" name="company" onFocus={handleFirstInteraction} placeholder={t(locale, sharedUi.quoteForm.fields.company.placeholder)} type="text" />
-            </label>
-            <label className="space-y-2">
-              <span className="ml-1 block font-label text-xs font-semibold text-primary sm:text-sm">{t(locale, sharedUi.quoteForm.fields.email.label)}</span>
-              <input className="w-full rounded-xl bg-surface-container-highest px-4 py-3 text-sm outline-none ring-0 transition-all focus:ring-2 focus:ring-secondary sm:px-6 sm:py-4 sm:text-base" name="email" onFocus={handleFirstInteraction} placeholder={t(locale, sharedUi.quoteForm.fields.email.placeholder)} type="email" />
-            </label>
-            <label className="space-y-2">
-              <span className="ml-1 block font-label text-xs font-semibold text-primary sm:text-sm">{t(locale, sharedUi.quoteForm.fields.country.label)}</span>
-              <input className="w-full rounded-xl bg-surface-container-highest px-4 py-3 text-sm outline-none ring-0 transition-all focus:ring-2 focus:ring-secondary sm:px-6 sm:py-4 sm:text-base" name="country" onFocus={handleFirstInteraction} placeholder={t(locale, sharedUi.quoteForm.fields.country.placeholder)} type="text" />
-            </label>
-            <label className="space-y-2 md:col-span-2">
-              <span className="ml-1 block font-label text-xs font-semibold text-primary sm:text-sm">{t(locale, sharedUi.quoteForm.fields.quantity.label)}</span>
-              <input className="w-full rounded-xl bg-surface-container-highest px-4 py-3 text-sm outline-none ring-0 transition-all focus:ring-2 focus:ring-secondary sm:px-6 sm:py-4 sm:text-base" name="quantity" onFocus={handleFirstInteraction} placeholder={t(locale, sharedUi.quoteForm.fields.quantity.placeholder)} type="text" />
-            </label>
-          </div>
+          <label className="space-y-2">
+            <span className="ml-1 block font-label text-xs font-semibold text-primary sm:text-sm">{t(locale, sharedUi.quoteForm.fields.name.label)}</span>
+            <input className="w-full rounded-xl border border-outline-variant/45 bg-white px-4 py-3 text-sm outline-none ring-0 transition-all focus:border-secondary focus:ring-2 focus:ring-secondary/30 sm:px-6 sm:py-4 sm:text-base" name="name" onFocus={handleFirstInteraction} placeholder={t(locale, sharedUi.quoteForm.fields.name.placeholder)} required type="text" />
+          </label>
+          <label className="space-y-2">
+            <span className="ml-1 block font-label text-xs font-semibold text-primary sm:text-sm">{t(locale, sharedUi.quoteForm.fields.email.label)}</span>
+            <input className="w-full rounded-xl border border-outline-variant/45 bg-white px-4 py-3 text-sm outline-none ring-0 transition-all focus:border-secondary focus:ring-2 focus:ring-secondary/30 sm:px-6 sm:py-4 sm:text-base" name="email" onFocus={handleFirstInteraction} placeholder={t(locale, sharedUi.quoteForm.fields.email.placeholder)} required type="email" />
+          </label>
           <label className="space-y-2">
             <span className="ml-1 block font-label text-xs font-semibold text-primary sm:text-sm">{t(locale, sharedUi.quoteForm.fields.message.label)}</span>
-            <textarea className="w-full rounded-xl bg-surface-container-highest px-4 py-3 text-sm outline-none ring-0 transition-all focus:ring-2 focus:ring-secondary sm:px-6 sm:py-4 sm:text-base" name="message" onFocus={handleFirstInteraction} placeholder={t(locale, sharedUi.quoteForm.fields.message.placeholder)} rows={5} />
+            <textarea className="w-full rounded-xl border border-outline-variant/45 bg-white px-4 py-3 text-sm outline-none ring-0 transition-all focus:border-secondary focus:ring-2 focus:ring-secondary/30 sm:px-6 sm:py-4 sm:text-base" name="message" onFocus={handleFirstInteraction} placeholder={t(locale, sharedUi.quoteForm.fields.message.placeholder)} required rows={6} />
           </label>
-          <button className="flex w-full items-center justify-center gap-3 rounded-full bg-secondary py-4 text-base font-bold text-white shadow-lg transition-all hover:scale-[1.01] hover:bg-on-secondary-fixed-variant sm:py-5 sm:text-lg" data-track-event="quote_form_submit_click" data-track-label="contact_form" data-track-location="contact_page" type="submit">
+          <button className="flex w-full items-center justify-center gap-3 rounded-full bg-secondary py-4 text-base font-bold text-white shadow-lg transition-all hover:scale-[1.01] hover:bg-on-secondary-fixed-variant disabled:cursor-not-allowed disabled:opacity-70 sm:py-5 sm:text-lg" data-track-event="quote_form_submit_click" data-track-label="contact_form" data-track-location="contact_page" disabled={submitState === 'submitting'} type="submit">
             {t(locale, sharedUi.quoteForm.submit)}
             <span>{'->'}</span>
           </button>
+          {submitState === 'success' ? (
+            <p className="rounded-xl border border-emerald-200 bg-emerald-50 px-4 py-3 text-sm leading-relaxed text-emerald-700">{submitFeedback.success}</p>
+          ) : null}
+          {submitState === 'error' ? (
+            <p className="rounded-xl border border-red-200 bg-red-50 px-4 py-3 text-sm leading-relaxed text-red-700">{submitFeedback.error}</p>
+          ) : null}
           <p className="text-center text-[11px] leading-relaxed text-outline sm:text-xs">{supportText}</p>
         </form>
       </div>

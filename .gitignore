@@ -9,10 +9,6 @@ dist
 coverage
 *.log
 *.tsbuildinfo
-.env
-.env.production
-.env.local
-.env.*.local
 apps/server/uploads
 apps/server/prisma/dev.db
 apps/server/prisma/dev.db-journal
