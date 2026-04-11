@@ -17,6 +17,12 @@ export type Product = {
   specs: Array<{ label: LocalizedText; value: LocalizedText }>;
   seoKeywords: LocalizedKeywords;
   image: string;
+  gallery?: string[];
+  videos?: string[];
+  sourceUrl?: string;
+  sourcePrice?: string;
+  sourceMinimumOrder?: string;
+  sourceShippingLocation?: string;
 };
 
 export const pageLabels: Record<RouteKey, LocalizedText> = {
@@ -140,13 +146,9 @@ export const sharedUi = {
     localeMenuLabel: { en: "Language / Region", zh: "语言 / 地区" },
     footerQuickLinks: { en: "Quick Links", zh: "快速链接" },
     footerContact: { en: "Contact", zh: "联系信息" },
-    footerStayConnected: { en: "Business Identity", zh: "企业信息" },
-    footerRegisteredNameLabel: { en: "Registered Name", zh: "企业名称" },
     footerSalesChannelLabel: { en: "Sales Channel", zh: "业务渠道" },
     footerWhatsappLabel: { en: "WhatsApp", zh: "WhatsApp" },
-    footerLinkedinLabel: { en: "LinkedIn", zh: "LinkedIn" },
     footerWebsiteLabel: { en: "Web", zh: "官网" },
-    footerMailLabel: { en: "Mail", zh: "邮箱" },
   },
 };
 
@@ -220,10 +222,9 @@ export const companyProfile = {
     { en: "Chinese", zh: "中文" },
   ],
   foundedYear: "2006",
-  email: "sales@lai-toys.com",
-  phone: "+86 186 6552 7489",
-  whatsapp: "+86 186 6552 7489",
-  linkedin: "https://www.linkedin.com/company/lai-toys-manufacturing",
+  email: "lianli@gmail.com",
+  phone: "18780083256",
+  whatsapp: "18780083256",
   website: "https://www.19931015.xyz/",
   address: {
     en: "Room 201, Building 1, No.177 Yuanshan Road, Chashan Town, Dongguan, Guangdong, China",
@@ -231,18 +232,18 @@ export const companyProfile = {
   },
 };
 
-export const placeholderImages = {
-  companyHero: "/placeholders/company-hero.svg",
-  factoryHero: "/placeholders/factory-hero.svg",
-  factoryFloor: "/placeholders/factory-floor.svg",
-  toyLearning: "/placeholders/toy-learning.svg",
-  profileSeries: "/placeholders/profile-extrusion.svg",
-  engineeringSupport: "/placeholders/engineering-support.svg",
-  rdLab: "/placeholders/rd-lab.svg",
-  craftsmanship: "/placeholders/craftsmanship.svg",
-  complianceLab: "/placeholders/compliance-lab.svg",
-  oemWorkflow: "/placeholders/oem-workflow.svg",
-  projectEngineering: "/placeholders/project-engineering.svg",
+export const visualAssets = {
+  companyHero: "/media/products/diy-abs-pp-601805200838/image-01.jpg",
+  factoryHero: "/media/products/tpu-pu-2-25mm-557976337753/image-01.jpg",
+  factoryFloor: "/media/products/1-63-abs-559936687910/image-01.jpg",
+  toyLearning: "/media/products/diy-ys130pcs-841781121486/image-01.jpg",
+  profileSeries: "/media/products/pvc-pvc-pvc-pvc-pvc-602308826913/image-01.jpg",
+  engineeringSupport: "/media/products/etfe-ptfe-5-8mm-805276190504/image-01.jpg",
+  rdLab: "/media/products/pla-pbs-633575053030/image-01.jpg",
+  craftsmanship: "/media/products/ys130pcs-diy-861495406277/image-01.jpg",
+  complianceLab: "/media/products/fort-building-kit-diy-stem-868461818446/image-01.jpg",
+  oemWorkflow: "/media/products/diy-stem-fort-building-kid-850300052500/image-01.jpg",
+  projectEngineering: "/media/products/pla-pbs-80-633568985797/image-01.jpg",
 } as const;
 
 export const siteStats = [

@@ -1,6 +1,7 @@
-import { placeholderImages, type Product } from "@/content/site/shared";
+import { importedProducts } from "@/content/site/products.generated";
+import { visualAssets, type Product } from "@/content/site/shared";
 
-export const products: Product[] = [
+const fallbackProducts: Product[] = [
   {
     slug: "interlocking-learning-set",
     title: { en: "DIY Children Toy Series", zh: "DIY 儿童玩具系列" },
@@ -66,7 +67,7 @@ export const products: Product[] = [
       ],
       zh: ["DIY儿童玩具厂家", "益智玩具供应商", "玩具OEM ODM厂家", "定制玩具生产", "塑胶玩具工厂"],
     },
-    image: placeholderImages.toyLearning,
+    image: visualAssets.toyLearning,
   },
   {
     slug: "pretend-play-kit",
@@ -135,7 +136,7 @@ export const products: Product[] = [
       ],
       zh: ["AI智能玩具厂家", "机器人塑胶配件", "精密注塑工厂", "智能玩具塑胶件", "智能玩具OEM ODM"],
     },
-    image: placeholderImages.toyLearning,
+    image: visualAssets.toyLearning,
   },
   {
     slug: "pu-pvc-profile-series",
@@ -205,7 +206,7 @@ export const products: Product[] = [
       ],
       zh: ["塑胶挤出型材厂家", "LED灯带塑胶配件", "医疗导管厂家", "定制塑胶型材", "多材料挤出工厂"],
     },
-    image: placeholderImages.profileSeries,
+    image: visualAssets.profileSeries,
   },
   {
     slug: "extrusion-support-line",
@@ -281,7 +282,7 @@ export const products: Product[] = [
       ],
       zh: ["塑胶挤出设备厂家", "挤出生产线供应商", "挤出机械工厂", "挤出辅机", "挤出设备技术支持"],
     },
-    image: placeholderImages.engineeringSupport,
+    image: visualAssets.engineeringSupport,
   },
   {
     slug: "custom-injection-extrusion-solutions",
@@ -345,9 +346,11 @@ export const products: Product[] = [
       ],
       zh: ["定制注塑产品", "定制挤出产品", "塑胶OEM ODM制造", "来图塑胶件", "来样塑胶产品开发"],
     },
-    image: placeholderImages.projectEngineering,
+    image: visualAssets.projectEngineering,
   },
 ];
+
+export const products: Product[] = importedProducts.length > 0 ? importedProducts : fallbackProducts;
 
 export const productsPageContent = {
   seo: {
@@ -449,14 +452,6 @@ export const productsPageContent = {
       }
     ]
   },
-  sort: {
-    label: {en: 'Sort By', zh: '排序'},
-    options: [
-      {en: 'Project Relevance', zh: '按项目匹配度'},
-      {en: 'Newest Updated', zh: '按最近更新'},
-      {en: 'MOQ Friendly', zh: '按 MOQ 友好度'}
-    ]
-  },
   filters: {
     title: {en: 'Catalog Notes', zh: '目录说明'},
     materialTitle: {en: 'Common Materials', zh: '常见材料'},
@@ -467,14 +462,12 @@ export const productsPageContent = {
     ],
     cooperationTitle: {en: 'Cooperation Types', zh: '合作类型'},
     cooperationOptions: [
-      {label: {en: 'OEM / ODM', zh: 'OEM / ODM'}, count: '24'},
-      {label: {en: 'Sample-Based', zh: '来样加工'}, count: '18'},
-      {label: {en: 'Design-Assisted', zh: '协同开发'}, count: '14'}
+      {label: {en: 'OEM / ODM', zh: 'OEM / ODM'}},
+      {label: {en: 'Sample-Based', zh: '来样加工'}},
+      {label: {en: 'Design-Assisted', zh: '协同开发'}}
     ],
     complianceTitle: {en: 'Common Standards', zh: '常见标准'},
-    complianceTags: ['ASTM', 'EN71', 'ISO 9000', 'CE'],
-    minOrderTitle: {en: 'Quantity Range', zh: '数量区间'},
-    applyAction: {en: 'Use As Reference', zh: '作为参考'}
+    complianceTags: ['ASTM', 'EN71', 'ISO 9000', 'CE']
   },
   detail: {
     primaryAction: {en: 'Request Bulk Pricing', zh: '获取批量报价'},

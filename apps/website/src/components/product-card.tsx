@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 
 import {ProductVisual} from '@/components/icon-visuals';
@@ -20,7 +21,19 @@ export function ProductCard({locale, product}: ProductCardProps) {
       href={productPath(locale, product.slug)}
     >
       <div className="mb-4 transition-transform duration-500 group-hover:-translate-y-2 sm:mb-6">
-        <ProductVisual compact label={t(locale, product.badge)} slug={product.slug} />
+        <div className="relative aspect-[4/3] overflow-hidden rounded-[2rem] bg-surface-container-low shadow-xl">
+          {product.image ? (
+            <Image
+              alt={t(locale, product.title)}
+              className="object-cover transition-transform duration-500 group-hover:scale-105"
+              fill
+              sizes="(min-width: 1536px) 24rem, (min-width: 1024px) 40vw, (min-width: 768px) 45vw, 95vw"
+              src={product.image}
+            />
+          ) : (
+            <ProductVisual compact label={t(locale, product.badge)} slug={product.slug} />
+          )}
+        </div>
       </div>
       <div className="px-2">
         <div className="flex items-start justify-between gap-4">

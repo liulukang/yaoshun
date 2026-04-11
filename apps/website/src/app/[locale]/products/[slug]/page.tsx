@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import type {Metadata} from 'next';
 import Link from 'next/link';
 import {notFound} from 'next/navigation';
@@ -65,12 +66,17 @@ export default async function ProductDetailPage({
     notFound();
   }
 
+  const galleryImages = Array.from(
+    new Set([product.image, ...(product.gallery ?? [])].filter((item): item is string => Boolean(item)))
+  );
+  const productVideos = product.videos ?? [];
+
   const productStructuredData = {
     '@context': 'https://schema.org',
     '@type': 'Product',
     name: t(locale, product.title),
     description: t(locale, product.detail),
-    image: [toAbsoluteUrl(product.image)],
+    image: galleryImages.map((item) => toAbsoluteUrl(item)),
     brand: {
       '@type': 'Brand',
       name: t(locale, companyProfile.brandShort)
@@ -80,7 +86,16 @@ export default async function ProductDetailPage({
       name: t(locale, companyProfile.companyName)
     },
     material: t(locale, product.materials),
-    category: t(locale, product.badge)
+    category: t(locale, product.badge),
+    ...(productVideos.length > 0
+      ? {
+          video: productVideos.map((item) => ({
+            '@type': 'VideoObject',
+            name: t(locale, product.title),
+            contentUrl: toAbsoluteUrl(item)
+          }))
+        }
+      : {})
   };
 
   return (
@@ -90,14 +105,58 @@ export default async function ProductDetailPage({
         <section className="grid grid-cols-1 gap-8 sm:gap-10 lg:grid-cols-12 lg:gap-16">
           <div className="grid gap-3 sm:gap-4 lg:col-span-7 lg:grid-cols-6">
             <div className="overflow-hidden rounded-xl shadow-2xl lg:col-span-6">
-              <ProductVisual label={t(locale, product.badge)} slug={product.slug} />
+              {galleryImages[0] ? (
+                <div className="relative aspect-[4/3] bg-surface-container-low">
+                  <Image
+                    alt={t(locale, product.title)}
+                    className="object-cover"
+                    fill
+                    priority
+                    sizes="(min-width: 1280px) 56vw, (min-width: 1024px) 52vw, 100vw"
+                    src={galleryImages[0]}
+                  />
+                </div>
+              ) : (
+                <ProductVisual label={t(locale, product.badge)} slug={product.slug} />
+              )}
             </div>
             <div className="overflow-hidden rounded-xl lg:col-span-3">
-              <ProductVisual compact label={t(locale, productsPageContent.detail.highlightsTitle)} slug={product.slug} />
+              {galleryImages[1] ? (
+                <div className="relative aspect-[4/3] bg-surface-container-low">
+                  <Image
+                    alt={`${t(locale, product.title)} 2`}
+                    className="object-cover"
+                    fill
+                    sizes="(min-width: 1280px) 28vw, (min-width: 1024px) 24vw, 100vw"
+                    src={galleryImages[1]}
+                  />
+                </div>
+              ) : (
+                <ProductVisual compact label={t(locale, productsPageContent.detail.highlightsTitle)} slug={product.slug} />
+              )}
             </div>
             <div className="overflow-hidden rounded-xl lg:col-span-3">
-              <ProductVisual compact label={t(locale, productsPageContent.detail.applicationsTitle)} slug={product.slug} />
+              {galleryImages[2] ? (
+                <div className="relative aspect-[4/3] bg-surface-container-low">
+                  <Image
+                    alt={`${t(locale, product.title)} 3`}
+                    className="object-cover"
+                    fill
+                    sizes="(min-width: 1280px) 28vw, (min-width: 1024px) 24vw, 100vw"
+                    src={galleryImages[2]}
+                  />
+                </div>
+              ) : (
+                <ProductVisual compact label={t(locale, productsPageContent.detail.applicationsTitle)} slug={product.slug} />
+              )}
             </div>
+            {productVideos.slice(0, 1).map((video) => (
+              <div key={video} className="overflow-hidden rounded-xl border border-outline-variant/20 bg-black lg:col-span-6">
+                <video className="h-full w-full" controls preload="metadata">
+                  <source src={video} />
+                </video>
+              </div>
+            ))}
           </div>
 
           <div className="lg:col-span-5 lg:sticky lg:top-32 lg:self-start">
