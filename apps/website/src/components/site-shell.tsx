@@ -226,23 +226,36 @@ export function SiteShell({children, locale}: SiteShellProps) {
           <div className="grid gap-8 rounded-[2rem] border border-slate-200/80 bg-white/90 p-6 shadow-panel sm:p-8 lg:grid-cols-12 lg:gap-10 lg:p-10">
             <div className="lg:col-span-5">
               <p className="font-label text-xs font-bold uppercase tracking-[0.2em] text-secondary">
-                {locale === 'zh' ? '玩具制造合作伙伴' : 'Toy Manufacturing Partner'}
+                {t(locale, {
+                  zh: '玩具制造合作伙伴',
+                  en: 'Toy Manufacturing Partner',
+                })}
               </p>
               <h4 className="mt-3 font-headline text-2xl font-black tracking-tight text-primary sm:text-3xl">{t(locale, companyProfile.companyName)}</h4>
               <p className="mt-4 max-w-xl text-sm leading-relaxed text-slate-600 sm:text-base">
-                {locale === 'zh'
-                  ? '聚焦玩具 OEM/ODM 项目协同，覆盖打样、量产、包装与出口交付；塑胶与挤出能力按项目需求提供工艺配套。'
-                  : 'Focused on toy OEM/ODM collaboration from sampling to mass production, packaging, and export handoff, with plastic and extrusion as supporting processes.'}
+                {t(locale, {
+                  zh: '聚焦玩具 OEM/ODM 项目协同，覆盖打样、量产、包装与出口交付；塑胶与挤出能力按项目需求提供工艺配套。',
+                  en: 'Focused on toy OEM/ODM collaboration from sampling to mass production, packaging, and export handoff, with plastic and extrusion as supporting processes.',
+                })}
               </p>
               <div className="mt-5 flex flex-wrap gap-2.5">
                 <span className="rounded-full bg-primary-fixed px-3 py-1 font-label text-[10px] font-bold uppercase tracking-[0.16em] text-on-primary-fixed">
-                  {locale === 'zh' ? '始于 2006' : 'Since 2006'}
+                  {t(locale, {
+                    zh: '始于 2006',
+                    en: 'Since 2006',
+                  })}
                 </span>
                 <span className="rounded-full bg-secondary-fixed px-3 py-1 font-label text-[10px] font-bold uppercase tracking-[0.16em] text-on-secondary-fixed">
-                  {locale === 'zh' ? '玩具 OEM/ODM' : 'Toy OEM/ODM'}
+                  {t(locale, {
+                    zh: '玩具 OEM/ODM',
+                    en: 'Toy OEM/ODM',
+                  })}
                 </span>
                 <span className="rounded-full bg-surface-container-low px-3 py-1 font-label text-[10px] font-bold uppercase tracking-[0.16em] text-slate-700">
-                  {locale === 'zh' ? '全球交付支持' : 'Global Delivery'}
+                  {t(locale, {
+                    zh: '全球交付支持',
+                    en: 'Global Delivery',
+                  })}
                 </span>
               </div>
             </div>

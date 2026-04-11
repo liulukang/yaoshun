@@ -40,7 +40,7 @@ export default async function FactoryPage({params}: {params: Promise<{locale: st
             </div>
           </div>
           <aside className="rounded-[1.5rem] bg-white p-5 shadow-panel sm:p-6">
-            <p className="font-label text-[10px] font-bold uppercase tracking-[0.2em] text-secondary">{locale === 'zh' ? '工厂核心指标' : 'Factory Snapshot'}</p>
+            <p className="font-label text-[10px] font-bold uppercase tracking-[0.2em] text-secondary">{t(locale, {zh: '工厂核心指标', en: 'Factory Snapshot'})}</p>
             <div className="mt-4 grid gap-3">
               {factoryContent.metrics.slice(0, 3).map((item) => (
                 <div key={item.label.en} className="rounded-xl bg-surface-container-low px-3 py-2.5">

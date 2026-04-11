@@ -96,12 +96,16 @@ export default async function HomePage({params}: {params: Promise<{locale: strin
               href={localizedPath(locale, item.route as RouteKey)}
             >
               <p className="font-label text-[10px] font-bold uppercase tracking-[0.2em] text-outline">
-                {item.route === 'products' ? (locale === 'zh' ? '目录' : 'Catalog') : item.route === 'solutions' ? (locale === 'zh' ? '方案' : 'Solutions') : locale === 'zh' ? '报价' : 'Quote'}
+                {item.route === 'products'
+                  ? t(locale, {zh: '目录', en: 'Catalog'})
+                  : item.route === 'solutions'
+                    ? t(locale, {zh: '方案', en: 'Solutions'})
+                    : t(locale, {zh: '报价', en: 'Quote'})}
               </p>
               <h3 className="mt-3 font-headline text-2xl font-bold text-primary">{t(locale, item.title)}</h3>
               <p className="mt-3 text-sm leading-relaxed text-on-surface-variant">{t(locale, item.description)}</p>
               <div className="mt-5 inline-flex items-center gap-2 text-sm font-bold text-secondary transition-transform group-hover:translate-x-1">
-                {locale === 'zh' ? '查看详情' : 'View Detail'}
+                {t(locale, {zh: '查看详情', en: 'View Detail'})}
                 <span>{'->'}</span>
               </div>
             </Link>
@@ -115,7 +119,7 @@ export default async function HomePage({params}: {params: Promise<{locale: strin
           <div className="mt-8 grid gap-4 md:grid-cols-3">
             {homeContent.excellence.points.map((item) => (
               <article key={t(locale, item.title)} className="rounded-[1.25rem] border border-outline-variant/20 bg-surface-container-low p-5 sm:p-6">
-                <p className="font-label text-[11px] font-bold uppercase tracking-[0.18em] text-secondary">{locale === 'zh' ? '核心能力' : 'Core Strength'}</p>
+                <p className="font-label text-[11px] font-bold uppercase tracking-[0.18em] text-secondary">{t(locale, {zh: '核心能力', en: 'Core Strength'})}</p>
                 <h4 className="mt-2 font-headline text-xl font-bold text-primary">{t(locale, item.title)}</h4>
                 <p className="mt-3 text-sm leading-relaxed text-on-surface-variant">{t(locale, item.text)}</p>
               </article>

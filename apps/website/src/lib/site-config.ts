@@ -6,6 +6,7 @@ export const defaultOgImage = '/placeholders/company-hero.svg';
 
 export const googleAnalyticsId = (process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID || "").trim();
 export const googleAdsId = (process.env.NEXT_PUBLIC_GOOGLE_ADS_ID || "").trim();
+export const googleAdsLeadConversionSendTo = (process.env.NEXT_PUBLIC_GOOGLE_ADS_LEAD_CONVERSION_SEND_TO || "").trim();
 export const googleSiteVerification = (process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || "").trim();
 
 export function toAbsoluteUrl(path: string): string {

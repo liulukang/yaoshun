@@ -3,6 +3,7 @@ import { headers } from "next/headers";
 import { Analytics as VercelAnalytics } from "@vercel/analytics/next";
 
 import { AnalyticsEvents } from "@/components/analytics-events";
+import { CookieConsentBanner } from "@/components/cookie-consent-banner";
 import { TawkScript } from "@/components/tawk-script";
 import { TrackingScripts } from "@/components/tracking-scripts";
 import { defaultLocale, localeRegistry, matchSupportedLocale } from "@/lib/i18n";
@@ -119,6 +120,7 @@ export default async function RootLayout({
       <body>
         <TawkScript />
         <TrackingScripts />
+        <CookieConsentBanner />
         <AnalyticsEvents />
         {children}
         <VercelAnalytics />

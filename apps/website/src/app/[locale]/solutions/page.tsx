@@ -40,7 +40,7 @@ export default async function SolutionsPage({params}: {params: Promise<{locale: 
             </div>
           </div>
           <aside className="rounded-[1.5rem] bg-white p-5 shadow-panel sm:p-6">
-            <p className="font-label text-[10px] font-bold uppercase tracking-[0.2em] text-secondary">{locale === 'zh' ? '项目主线' : 'Mainline'}</p>
+            <p className="font-label text-[10px] font-bold uppercase tracking-[0.2em] text-secondary">{t(locale, {zh: '项目主线', en: 'Mainline'})}</p>
             <p className="mt-2 text-sm leading-relaxed text-on-surface-variant">{t(locale, solutionsContent.engineeringSpotlight.description)}</p>
             <div className="mt-4 grid gap-2.5">
               {solutionsContent.lifecycle.slice(0, 3).map((item) => (

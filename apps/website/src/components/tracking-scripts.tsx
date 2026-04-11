@@ -1,5 +1,6 @@
 import Script from 'next/script';
 
+import {cookieConsentStorageKey} from '@/lib/cookie-consent';
 import {googleAdsId, googleAnalyticsId} from '@/lib/site-config';
 
 function buildTrackingBootstrap() {
@@ -12,6 +13,24 @@ function buildTrackingBootstrap() {
     function gtag(){dataLayer.push(arguments);}
     window.gtag = gtag;
     gtag('js', new Date());
+    gtag('consent', 'default', {
+      ad_personalization: 'denied',
+      ad_storage: 'denied',
+      ad_user_data: 'denied',
+      analytics_storage: 'denied',
+      wait_for_update: 500
+    });
+    try {
+      var cookieConsentStatus = window.localStorage.getItem('${cookieConsentStorageKey}');
+      if (cookieConsentStatus === 'granted') {
+        gtag('consent', 'update', {
+          ad_personalization: 'granted',
+          ad_storage: 'granted',
+          ad_user_data: 'granted',
+          analytics_storage: 'granted'
+        });
+      }
+    } catch (error) {}
     ${configs}
   `;
 }

@@ -1,5 +1,7 @@
 'use client';
 
+import {googleAdsLeadConversionSendTo} from '@/lib/site-config';
+import {readCookieConsentStatus} from '@/lib/cookie-consent';
 import {getLocaleFromPathname} from '@/lib/i18n';
 
 declare global {
@@ -36,7 +38,11 @@ function parseDatasetValue(value: string): AnalyticsValue {
 }
 
 export function trackEvent(eventName: string, params: AnalyticsParams = {}) {
-  if (typeof window === 'undefined' || typeof window.gtag !== 'function') {
+  if (
+    typeof window === 'undefined'
+    || typeof window.gtag !== 'function'
+    || readCookieConsentStatus() !== 'granted'
+  ) {
     return;
   }
 
@@ -56,6 +62,39 @@ export function trackPageView(pathname: string, title?: string) {
     page_title: title ?? document.title,
     locale: locale ?? 'unknown',
   });
+}
+
+type GoogleAdsConversionOptions = {
+  currency?: string;
+  url?: string;
+  value?: number;
+};
+
+export function reportGoogleAdsLeadConversion(options: GoogleAdsConversionOptions = {}) {
+  if (
+    typeof window === 'undefined'
+    || typeof window.gtag !== 'function'
+    || !googleAdsLeadConversionSendTo
+    || readCookieConsentStatus() !== 'granted'
+  ) {
+    return true;
+  }
+
+  const {currency = 'CNY', url, value = 1} = options;
+  const callback = () => {
+    if (url) {
+      window.location.href = url;
+    }
+  };
+
+  window.gtag('event', 'conversion', {
+    send_to: googleAdsLeadConversionSendTo,
+    value,
+    currency,
+    event_callback: callback,
+  });
+
+  return false;
 }
 
 export function buildTrackedDatasetParams(dataset: DOMStringMap): AnalyticsParams {
