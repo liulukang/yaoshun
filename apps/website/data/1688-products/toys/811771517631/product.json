@@ -44,19 +44,23 @@
     "en": "Kids Fort Interlocking Outdoor Set"
   },
   "summary": {
-    "zh": "这是一款儿童积木帐篷拼插游戏套装，采用PP结构件，适用于家庭互动和室内外活动场景。\n\n产品产地为东莞茶山，适用于4-6岁儿童的拆装房子与创意拼搭玩法。",
-    "en": "This is a kids fort interlocking game set made with PP structural parts, suitable for family interaction and both indoor and outdoor activity scenarios.\n\nProduced in Chashan, Dongguan, it is suitable for ages 4-6 in detachable house and creative construction play."
+    "zh": "这是一款儿童积木帐篷拼插游戏套装，采用PP结构件，适用于家庭互动和室内外活动场景。",
+    "en": "This is a kids fort interlocking game set made with PP structural parts, suitable for family interaction and both indoor and outdoor activity scenarios."
   },
   "description": {
     "zh": [
-      "该款儿童积木帐篷户外拼插游戏套装采用模块化拼接结构，可围绕帐篷、通道和互动空间进行多形态搭建，适合持续创意构建。",
-      "产品支持室内外场景使用，适用于亲子互动、课程活动与小组游戏，可用于动手实践、手眼协调与协作玩法训练。",
-      "包装参数包含体积、重量和尺寸信息，便于渠道陈列、仓配管理与批量采购。"
+      "这是一款儿童积木帐篷拼插游戏套装，采用PP结构件，适用于家庭互动和室内外活动场景。",
+      "该款儿童积木帐篷户外拼插游戏套装采用模块化拼接结构，可围绕帐篷，通道和互动空间进行多形态搭建。",
+      "产品支持室内外场景使用，适用于亲子互动，课程活动与小组游戏，可用于动手实践，手眼协调与协作玩法训练。",
+      "关键参数包括宽(cm)28、拼砌玩具类型拆装房子、材质PP。",
+      "包装参数支持体积(cm³)14784、宽(cm)28。"
     ],
     "en": [
-      "This kids fort interlocking outdoor set uses a modular interlocking structure and supports multiple layouts around tents, tunnels, and interactive spaces for continuous creative construction play.",
-      "It supports indoor and outdoor scenarios and is suitable for parent-child interaction, classroom activities, and group play, helping with hands-on practice, hand-eye coordination, and collaborative use cases.",
-      "Packaging data includes volume, weight, and size information for channel display, warehouse operations, and bulk procurement."
+      "This is a kids fort interlocking game set made with PP structural parts, suitable for family interaction and both indoor and outdoor activity scenarios.",
+      "This is a kids fort interlocking game set made with PP structural parts.",
+      "This kids fort interlocking outdoor set uses a modular interlocking structure and supports multiple layouts around tents, tunnels.",
+      "It supports indoor and outdoor scenarios and is suitable for parent-child interaction, classroom activities, and group play.",
+      "Key specs include 3C Category: Other Toys for Under 14; Width (cm): 28; Building Type: Detachable House Build."
     ]
   },
   "priceTiers": [
@@ -253,19 +257,19 @@
     }
   ],
   "images": [
-    "./images/image-001.jpg",
-    "./images/image-002.jpg",
-    "./images/image-003.jpg",
-    "./images/image-004.jpg",
-    "./images/image-005.jpg",
-    "./images/image-006.jpg",
-    "./images/image-007.jpg",
-    "./images/image-008.jpg",
-    "./images/image-024.jpg"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/811771517631/images/image-001.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/811771517631/images/image-002.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/811771517631/images/image-003.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/811771517631/images/image-004.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/811771517631/images/image-005.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/811771517631/images/image-006.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/811771517631/images/image-007.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/811771517631/images/image-008.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/811771517631/images/image-024.jpg"
   ],
   "videos": [
-    "./videos/video-001.mp4",
-    "./videos/video-002.mp4"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/811771517631/videos/video-001.mp4",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/811771517631/videos/video-002.mp4"
   ],
   "sourceUrl": "https://detail.1688.com/offer/811771517631.html"
 }

@@ -39,19 +39,21 @@
     "en": "DIY Educational Fort Building Set"
   },
   "summary": {
-    "zh": "这是一款面向儿童科教拼搭场景的DIY帐篷积木套装，采用PP杆件与连接结构，可搭建多种空间造型，适用于家庭互动和课堂活动。\n\n品牌为尧顺，产地东莞茶山，并包含实用新型专利/著作权申请信息，支持渠道资料归档与长期供货。",
-    "en": "This is a DIY educational fort building set for children’s construction-learning scenarios. It uses PP rods and connectors to build multiple spatial structures for family interaction and classroom activities.\n\nBrand: Yaoshun. Origin: Chashan, Dongguan. Utility-model patent/copyright filing information is included for channel documentation and long-term supply."
+    "zh": "这是一款面向儿童科教拼搭场景的DIY帐篷积木套装，采用PP杆件与连接结构，可搭建多种空间造型，适用于家庭互动和课堂活动。",
+    "en": "This is a DIY educational fort building set for children’s construction-learning scenarios."
   },
   "description": {
     "zh": [
-      "该款DIY拼插帐篷科教积木套装以杆件与连接球结构为核心，支持孩子搭建帐篷、房屋与堡垒等多种形态，适合创意拼装和团队协作活动。",
-      "产品主材为PP，支持反复拆装。通过拼搭过程可用于空间认知、动手训练与亲子互动。品牌为尧顺，适用于家庭零售和教育活动场景。",
-      "商品采用彩盒包装，包含专利及著作权信息（实用新型，申请时间2010-1-1），便于跨境和渠道客户进行合规资料留存。"
+      "这是一款面向儿童科教拼搭场景的DIY帐篷积木套装，采用PP杆件与连接结构，可搭建多种空间造型。",
+      "该款DIY拼插帐篷科教积木套装以杆件与连接球结构为核心，支持孩子搭建帐篷，房屋与堡垒等多种形态。",
+      "产品主材为PP，支持反复拆装，通过拼搭过程可用于空间认知，动手训练与亲子互动，适用于家庭零售和教育活动场景。",
+      "关键参数包括产品类型DIY拼插帐篷科教积木玩具、材质PP、拼砌玩具类型拆装房子。"
     ],
     "en": [
-      "This DIY educational fort set is based on a rod-and-connector system and lets children build tents, houses, and fort-like structures for creative construction and team-play activities.",
-      "The product uses PP material and supports repeated assembly. The building process helps with spatial awareness, hands-on practice, and parent-child interaction. Brand: Yaoshun.",
-      "Packed in a color box, the item includes patent/copyright data (utility model, filing date 2010-1-1), which is useful for cross-border and channel compliance documentation."
+      "This is a DIY educational fort building set for children’s construction-learning scenarios.",
+      "This DIY educational fort set is based on a rod-and-connector system and lets children build tents, houses.",
+      "The product uses PP material and supports repeated assembly.",
+      "Key specs include Product Type: DIY Educational Fort Building Toy; Material: PP; Construction Type: Build-and-Rebuild House."
     ]
   },
   "priceTiers": [
@@ -245,15 +247,15 @@
     }
   ],
   "images": [
-    "./images/image-001.jpg",
-    "./images/image-002.jpg",
-    "./images/image-003.jpg",
-    "./images/image-004.jpg",
-    "./images/image-005.jpg",
-    "./images/image-006.jpg"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/861469238940/images/image-001.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/861469238940/images/image-002.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/861469238940/images/image-003.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/861469238940/images/image-004.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/861469238940/images/image-005.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/861469238940/images/image-006.jpg"
   ],
   "videos": [
-    "./videos/video-001.mp4"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/861469238940/videos/video-001.mp4"
   ],
   "sourceUrl": "https://detail.1688.com/offer/861469238940.html"
 }

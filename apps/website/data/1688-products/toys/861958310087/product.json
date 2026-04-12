@@ -39,19 +39,21 @@
     "en": "DIY Indoor Fort Bead Building Set"
   },
   "summary": {
-    "zh": "这是一款面向室内互动场景的DIY堡垒插珠拼搭套装，支持通过杆件与连接件快速搭建游戏帐篷与堡垒结构，适合家庭亲子和小组互动活动。\n\n品牌为其他，材质为PP，产地深圳，支持DIY玩法，适用于常规儿童玩具渠道。",
-    "en": "This is a DIY indoor fort building set designed for interactive play scenarios. Using rods and connectors, children can quickly build play tents and fort structures for family and group activities.\n\nBrand: Other. Material: PP. Origin: Shenzhen. The item supports DIY play and is suitable for standard children’s toy channels."
+    "zh": "这是一款面向室内互动场景的DIY堡垒插珠拼搭套装，支持通过杆件与连接件快速搭建游戏帐篷与堡垒结构，适合家庭亲子和小组互动活动。",
+    "en": "This is a DIY indoor fort building set designed for interactive play scenarios."
   },
   "description": {
     "zh": [
-      "该款DIY室内堡垒插珠帐篷拼搭套装采用杆件与连接球组合结构，适合搭建帐篷、堡垒与通道等空间造型，便于开展儿童互动游戏。",
-      "产品主材为PP，支持反复拆装与DIY重构。可用于亲子互动、课堂活动和儿童活动区布置，强调动手参与和创意表达。",
-      "商品采用彩盒包装，积木净重3.2KG，适用于电商零售和渠道采购场景。"
+      "这是一款面向室内互动场景的DIY堡垒插珠拼搭套装，支持通过杆件与连接件快速搭建游戏帐篷与堡垒结构。",
+      "该款DIY室内堡垒插珠帐篷拼搭套装采用杆件与连接球组合结构，适合搭建帐篷，堡垒与通道等空间造型。",
+      "产品主材为PP，支持反复拆装与DIY重构，可用于亲子互动，课堂活动和儿童活动区布置，强调动手参与和创意表达。",
+      "关键参数包括产品类型DIY室内堡垒插珠拼搭玩具、塑料材质分类PP、塑料积木类型大颗粒。"
     ],
     "en": [
+      "This is a DIY indoor fort building set designed for interactive play scenarios.",
       "This DIY indoor fort set uses a rod-and-connector-ball structure to build tents, forts, and tunnel-like shapes for children’s interactive play.",
-      "The main material is PP, and the set supports repeated assembly and DIY reconfiguration. It fits parent-child interaction, classroom activities, and kids activity-area setups.",
-      "Packed in a color box with a 3.2kg net block weight, the product is suitable for e-commerce retail and channel procurement."
+      "The main material is PP, and the set supports repeated assembly and DIY reconfiguration.",
+      "Key specs include Product Type: DIY Indoor Fort Building Toy; Plastic Material: PP; Block Type: Large-size Blocks."
     ]
   },
   "priceTiers": [
@@ -218,11 +220,11 @@
     }
   ],
   "images": [
-    "./images/image-001.jpg",
-    "./images/image-002.jpg",
-    "./images/image-003.jpg",
-    "./images/image-004.jpg",
-    "./images/image-005.jpg"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/861958310087/images/image-001.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/861958310087/images/image-002.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/861958310087/images/image-003.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/861958310087/images/image-004.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/861958310087/images/image-005.jpg"
   ],
   "videos": [],
   "sourceUrl": "https://detail.1688.com/offer/861958310087.html"

@@ -39,19 +39,21 @@
     "en": "Kids Bead Fort Building Set"
   },
   "summary": {
-    "zh": "这是一款面向儿童拼搭与互动场景的插珠帐篷积木套装，采用杆件与连接球组合结构，可用于在室内外快速搭建城堡、帐篷和通道等造型，适合亲子互动与课堂活动。\n\n产品品牌为尧顺，材质为塑料/塑胶，适用年龄集中在4-6岁，支持反复拆装使用。",
-    "en": "This is a kids fort-building set designed for creative construction and interaction. With rods and connector balls, children can quickly build castles, tents, and tunnel-like shapes for indoor or outdoor play, parent-child activities, and classroom use.\n\nBrand: Yaoshun. Material: plastic. The main age range is 4-6 years old, and the set supports repeated assembly and reconfiguration."
+    "zh": "这是一款面向儿童拼搭与互动场景的插珠帐篷积木套装，采用杆件与连接球组合结构，可用于在室内外快速搭建城堡、帐篷和通道等造型，适合亲子互动与课堂活动。",
+    "en": "This is a kids fort-building set designed for creative construction and interaction."
   },
   "description": {
     "zh": [
-      "该款儿童插珠帐篷拼搭积木套装采用“杆件+连接球”组合结构，可在较短时间内搭建出帐篷、房屋、城堡等多种空间造型，适合家庭客厅、儿童活动区和教学空间使用。",
-      "产品强调动手拼装与空间构建过程，孩子在拆装和重构中可以进行创意表达与亲子协作。材质为塑料/塑胶，结构轻便，便于重复拼搭和收纳整理。",
-      "该商品提供彩盒包装与本地素材图，适合零售、电商上架和活动课程配套采购。对于需要持续供货的渠道客户，也可按组合方案进行批量配置。"
+      "这是一款面向儿童拼搭与互动场景的插珠帐篷积木套装，采用杆件与连接球组合结构，可用于在室内外快速搭建城堡。",
+      "该款儿童插珠帐篷拼搭积木套装采用“杆件+连接球”组合结构，可在较短时间内搭建出帐篷，房屋，城堡等多种空间造型。",
+      "产品强调动手拼装与空间构建过程，孩子在拆装和重构中可以进行创意表达与亲子协作，材质为塑料/塑胶，结构轻便。",
+      "关键参数包括产品类型儿童插珠帐篷拼搭玩具、材质塑料/塑胶、拼砌玩具类型拆装房子。"
     ],
     "en": [
-      "This kids bead-fort building set uses a rod-and-connector structure to create tents, houses, castles, and other spatial shapes in a short setup time. It fits living rooms, play areas, and classroom environments.",
-      "The product focuses on hands-on construction and spatial play. Children can assemble, disassemble, and rebuild different structures for creative expression and parent-child interaction. The plastic material keeps it lightweight and suitable for repeated use.",
-      "With color-box packaging and local image assets, this item is suitable for retail, e-commerce listing, and educational activity procurement. It can also be configured for batch supply based on channel needs."
+      "This is a kids fort-building set designed for creative construction and interaction.",
+      "This kids bead-fort building set uses a rod-and-connector structure to create tents, houses, castles, and other spatial shapes in a short setup time.",
+      "The product focuses on hands-on construction and spatial play.",
+      "Key specs include Product Type: Kids Fort Building Toy; Material: Plastic; Construction Type: Build-and-Rebuild House."
     ]
   },
   "priceTiers": [
@@ -245,17 +247,17 @@
     }
   ],
   "images": [
-    "./images/image-001.jpg",
-    "./images/image-002.jpg",
-    "./images/image-003.jpg",
-    "./images/image-004.jpg",
-    "./images/image-005.jpg",
-    "./images/image-006.jpg",
-    "./images/image-022.jpg"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/849361060937/images/image-001.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/849361060937/images/image-002.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/849361060937/images/image-003.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/849361060937/images/image-004.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/849361060937/images/image-005.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/849361060937/images/image-006.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/849361060937/images/image-022.jpg"
   ],
   "videos": [
-    "./videos/video-001.mp4",
-    "./videos/video-002.mp4"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/849361060937/videos/video-001.mp4",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/849361060937/videos/video-002.mp4"
   ],
   "sourceUrl": "https://detail.1688.com/offer/849361060937.html"
 }

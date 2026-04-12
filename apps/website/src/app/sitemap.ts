@@ -1,6 +1,6 @@
 import type {MetadataRoute} from 'next';
 
-import {products} from '@/content/site';
+import {products} from '@/content/site/products.server';
 import {localeRegistry, locales} from '@/lib/i18n';
 import {routePathMap} from '@/lib/routes';
 import {siteUrl} from '@/lib/site-config';
@@ -32,10 +32,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
 
     for (const product of products) {
+      if (!product.offerId) continue;
       entries.push({
-        url: withBase(`/${locale}/products/${product.slug}`),
+        url: withBase(`/${locale}/products/${product.offerId}`),
         lastModified: now,
-        alternates: buildAlternates(`/products/${product.slug}`),
+        alternates: buildAlternates(`/products/${product.offerId}`),
         changeFrequency: 'monthly',
         priority: 0.7
       });

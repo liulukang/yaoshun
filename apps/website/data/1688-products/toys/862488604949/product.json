@@ -39,19 +39,21 @@
     "en": "YS Kids DIY Fort Building Set"
   },
   "summary": {
-    "zh": "这是一款面向跨境渠道的YS儿童DIY插珠帐篷拼搭套装，支持多场景搭建与互动玩法，适用于家庭、课堂与活动空间布置。\n\n品牌为尧顺，产地东莞茶山，支持加工定制与导购视频展示，适合渠道批量供货。",
-    "en": "This is a YS kids DIY fort set designed for cross-border channels. It supports multi-scene construction and interactive play for homes, classrooms, and activity-space setups.\n\nBrand: Yaoshun. Origin: Chashan, Dongguan. Custom processing and guide video support are available for channel bulk supply."
+    "zh": "这是一款YS儿童DIY插珠帐篷拼搭套装，支持多场景搭建与互动玩法，适用于家庭、课堂与活动空间布置。",
+    "en": "This is a YS kids DIY fort set that supports multi-scene construction and interactive play for homes, classrooms, and activity-space setups."
   },
   "description": {
     "zh": [
-      "该款YS儿童DIY插珠帐篷拼搭套装采用杆件与连接球组合结构，适合搭建帐篷、堡垒和游戏空间，便于在家庭和教学场景中开展互动活动。",
-      "产品支持加工定制与多功能组合，可按渠道需求进行配置。品牌为尧顺，定位跨境供货，适用于电商和分销渠道上架。",
-      "商品采用彩盒包装，规格为65夜光杆+35紫色多边球，包装重量2300g，适合批量采购和长期供货。"
+      "这是一款YS儿童DIY插珠帐篷拼搭套装，支持多场景搭建与互动玩法，适用于家庭、课堂与活动空间布置。",
+      "该款YS儿童DIY插珠帐篷拼搭套装采用杆件与连接球组合结构，适合搭建帐篷，堡垒和游戏空间。",
+      "商品采用彩盒包装，规格为65夜光杆+35紫色多边球，包装重量2300g，适合批量采购和长期供货。",
+      "关键参数包括产品类型YS儿童DIY插珠帐篷拼搭玩具、功能其它、加工定制是。"
     ],
     "en": [
+      "This is a YS kids DIY fort set that supports multi-scene construction and interactive play for homes, classrooms, and activity-space setups.",
       "This YS kids DIY set uses a rod-and-connector structure to build tents, forts, and playable spaces for interactive home and educational scenarios.",
-      "The product supports custom processing and multi-function configuration based on channel requirements. Brand: Yaoshun. It is positioned for cross-border supply and channel listing.",
-      "Packed in a color box, the configuration is 65 glow rods + 35 purple connector balls with a 2300g package weight, suitable for bulk procurement and long-term supply."
+      "Packed in a color box, the configuration is 65 glow rods + 35 purple connector balls with a 2300g package weight.",
+      "Key specs include Product Type: YS Kids DIY Fort Building Toy; Function: Other; Custom Processing: Yes."
     ]
   },
   "priceTiers": [
@@ -238,15 +240,15 @@
     }
   ],
   "images": [
-    "./images/image-001.jpg",
-    "./images/image-002.jpg",
-    "./images/image-003.jpg",
-    "./images/image-004.jpg",
-    "./images/image-005.jpg",
-    "./images/image-006.jpg"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/862488604949/images/image-001.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/862488604949/images/image-002.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/862488604949/images/image-003.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/862488604949/images/image-004.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/862488604949/images/image-005.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/862488604949/images/image-006.jpg"
   ],
   "videos": [
-    "./videos/video-001.mp4"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/862488604949/videos/video-001.mp4"
   ],
   "sourceUrl": "https://detail.1688.com/offer/862488604949.html"
 }

@@ -44,19 +44,23 @@
     "en": "Kids Interlocking Tent Building Set"
   },
   "summary": {
-    "zh": "这是一款面向儿童拼插搭建场景的帐篷套装，适用于家庭亲子互动、课堂活动和主题游戏空间布置。产品支持搭建与拆装，适合连续的创意构建玩法。\n\n品牌为尧顺，产地广东东莞茶山，内帐材料为PP，帐篷结构为双层帐。",
-    "en": "This is a tent-style interlocking building set for children, suitable for family interaction, classroom activities, and themed play-area setup. It supports assembly and disassembly for repeatable creative construction play.\n\nBrand: Yaoshun. Origin: Chashan, Dongguan, Guangdong. Inner-tent material is PP, and the tent structure is double-layer."
+    "zh": "这是一款面向儿童拼插搭建场景的帐篷套装，适用于家庭亲子互动、课堂活动和主题游戏空间布置。",
+    "en": "This is a tent-style interlocking building set for children, suitable for family interaction, classroom activities, and themed play-area setup."
   },
   "description": {
     "zh": [
-      "该款儿童拼插帐篷搭建套装以可拼接结构为核心，适合围绕帐篷、通道与互动空间进行多形态搭建。产品支持搭建后重复拆装，便于在不同活动场景中灵活使用。",
-      "产品可用于家庭亲子游戏、幼教活动和课程化互动道具场景，通过拼搭过程帮助提升空间认知、协作能力与动手实践体验。",
-      "包装提供体积与重量等关键参数，便于渠道做仓配和上架管理。适合长期供货与项目化采购协同。"
+      "这是一款面向儿童拼插搭建场景的帐篷套装，适用于家庭亲子互动、课堂活动和主题游戏空间布置。",
+      "该款儿童拼插帐篷搭建套装以可拼接结构为核心，适合围绕帐篷，通道与互动空间进行多形态搭建。",
+      "产品可用于家庭亲子游戏，幼教活动和课程化互动道具场景，通过拼搭过程帮助提升空间认知，协作能力与动手实践体验。",
+      "关键参数包括内帐材料PP、外帐材质涤纶、外帐防水指数小于1000mm。",
+      "包装参数支持体积(cm³)15180、宽(cm)11.50。"
     ],
     "en": [
-      "This kids interlocking tent building set is designed around a modular construction structure and supports multiple layout forms for tents, tunnels, and interactive play spaces. The set supports repeated assembly and disassembly for flexible scenario use.",
-      "It is suitable for family parent-child play, preschool activities, and structured educational props. The building process helps improve spatial awareness, collaboration, and hands-on practice.",
-      "Packaging includes key volume and weight data for channel warehousing and listing management, and is suitable for long-term supply and project-based procurement."
+      "This is a tent-style interlocking building set for children, suitable for family interaction, classroom activities, and themed play-area setup.",
+      "This kids interlocking tent building set is designed around a modular construction structure and supports multiple layout forms for tents, tunnels.",
+      "It is suitable for family parent-child play, preschool activities, and structured educational props.",
+      "Key specs include Inner Tent Material: PP; Outer Tent Material: Polyester; Outer Tent Waterproof Index: Less than 1000 mm.",
+      "Packaging supports Volume (cm³): 15180; Width (cm): 11.50."
     ]
   },
   "priceTiers": [
@@ -283,17 +287,17 @@
     }
   ],
   "images": [
-    "./images/image-001.jpg",
-    "./images/image-002.jpg",
-    "./images/image-003.jpg",
-    "./images/image-004.jpg",
-    "./images/image-005.jpg",
-    "./images/image-006.jpg",
-    "./images/image-022.jpg"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/675063377407/images/image-001.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/675063377407/images/image-002.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/675063377407/images/image-003.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/675063377407/images/image-004.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/675063377407/images/image-005.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/675063377407/images/image-006.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/675063377407/images/image-022.jpg"
   ],
   "videos": [
-    "./videos/video-001.mp4",
-    "./videos/video-002.mp4"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/675063377407/videos/video-001.mp4",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/675063377407/videos/video-002.mp4"
   ],
   "sourceUrl": "https://detail.1688.com/offer/675063377407.html"
 }

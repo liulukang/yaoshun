@@ -30,18 +30,20 @@
   },
   "summary": {
     "zh": "该产品为TPU管材，主要材质为TPU，适用于弹性防护与导流等应用场景，支持规格定制与批量供货。",
-    "en": "This tpu tube is primarily made from TPU and is suitable for elastic protection and flow routing applications. Custom dimensions and bulk supply are supported."
+    "en": "This tpu tube is primarily made from TPU and is suitable for elastic protection and flow routing applications."
   },
   "description": {
     "zh": [
-      "TPU管材面向工业与消费品配套场景，可用于防护、包覆、导向和连接等需求。",
-      "主要材质为TPU，可按项目要求匹配尺寸、壁厚、长度和结构形式，适配不同应用工况。",
-      "包装与交付可按需求配置（如尺寸 12*14*4.5），支持稳定供货与长期项目协同。"
+      "该产品为TPU管材，主要材质为TPU，适用于弹性防护与导流等应用场景，支持规格定制与批量供货。",
+      "TPU管材面向工业与消费品配套场景，可用于防护，包覆，导向和连接等需求。",
+      "关键参数包括光通量80LM（LM）、发光角度30度（度）、可否调光可以。",
+      "包装参数支持尺寸12*14*4.5。"
     ],
     "en": [
+      "This tpu tube is primarily made from TPU and is suitable for elastic protection and flow routing applications.",
       "This tpu tube is designed for industrial and consumer assembly programs requiring protection, covering, guidance, and connection functions.",
-      "The primary material is TPU, and dimensions such as outer diameter, wall thickness, length, and profile form can be aligned to project requirements.",
-      "Packaging and delivery can be configured as needed (for example: Size 12*14*4.5), supporting stable supply and long-term project coordination."
+      "Key specs include Specification: Amazon , Aliexpress; Specification: Europe , North America; Specification: 80lm（lm）.",
+      "Packaging supports Size: 12*14*4.5."
     ]
   },
   "priceTiers": [
@@ -195,17 +197,17 @@
     }
   ],
   "images": [
-    "./images/image-001.jpg",
-    "./images/image-002.jpg",
-    "./images/image-003.jpg",
-    "./images/image-004.jpg",
-    "./images/image-005.jpg",
-    "./images/image-006.jpg",
-    "./images/image-016.jpg"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/tubes/709678328333/images/image-001.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/tubes/709678328333/images/image-002.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/tubes/709678328333/images/image-003.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/tubes/709678328333/images/image-004.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/tubes/709678328333/images/image-005.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/tubes/709678328333/images/image-006.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/tubes/709678328333/images/image-016.jpg"
   ],
   "videos": [
-    "./videos/video-001.mp4",
-    "./videos/video-002.mp4"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/tubes/709678328333/videos/video-001.mp4",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/tubes/709678328333/videos/video-002.mp4"
   ],
   "sourceUrl": "https://detail.1688.com/offer/709678328333.html"
 }

@@ -49,19 +49,23 @@
     "en": "Kids 69-piece Fort Building Set"
   },
   "summary": {
-    "zh": "这是一款儿童插珠帐篷拼搭玩具，采用PP材质和杆球组合结构，支持拆装房子、帐篷等多种创意搭建玩法，适用于家庭互动、课堂活动与亲子游戏场景。\n\n品牌为LONDY，产地东莞茶山，具备实用新型相关知识产权，支持500套起彩盒定制。",
-    "en": "This is a kids bead-and-rod fort building toy made of PP material. It supports detachable house and tent-style builds for family interaction, classroom activities, and parent-child play scenarios.\n\nBrand: LONDY. Origin: Chashan, Dongguan. The product is associated with utility-model intellectual property and supports color-box customization from 500 sets."
+    "zh": "这是一款儿童插珠帐篷拼搭玩具，采用PP材质和杆球组合结构，支持拆装房子、帐篷等多种创意搭建玩法，适用于家庭互动、课堂活动与亲子游戏场景。",
+    "en": "This is a kids bead-and-rod fort building toy made of PP material."
   },
   "description": {
     "zh": [
-      "该款儿童69件插珠帐篷拼搭套装采用杆件与连接球组合结构，能够快速搭建帐篷、房屋和通道等形态，适合儿童进行连续的创意构建体验。",
-      "产品定位于亲子互动与益智训练场景，可用于家庭游戏、课堂活动和兴趣课程。通过反复拼搭可支持空间认知、动手动脑与协作类玩法。",
-      "包装为彩盒，提供标准化尺寸与体积参数，便于渠道陈列和仓配管理。支持500套起定制彩盒，适合批量项目采购。"
+      "这是一款儿童插珠帐篷拼搭玩具，采用PP材质和杆球组合结构，支持拆装房子，帐篷等多种创意搭建玩法，适用于家庭互动。",
+      "这是一款儿童插珠帐篷拼搭玩具，采用PP材质和杆球组合结构，支持拆装房子，帐篷等多种创意搭建玩法。",
+      "该款儿童69件插珠帐篷拼搭套装采用杆件与连接球组合结构，能够快速搭建帐篷，房屋和通道等形态。",
+      "产品定位于亲子互动与益智训练场景，可用于家庭游戏，课堂活动和兴趣课程，通过反复拼搭可支持空间认知。",
+      "关键参数包括产品类型儿童插珠帐篷拼搭玩具、材质PP、拼砌玩具类型拆装房子。"
     ],
     "en": [
-      "This 69-piece kids fort building set uses a rod-and-connector-ball structure that enables quick construction of tents, houses, and tunnel-style layouts for continuous creative play.",
-      "It is positioned for parent-child interaction and educational play scenarios, including home activities, classroom sessions, and hobby programs. Repeated building supports spatial cognition, hands-on practice, and collaborative play.",
-      "The set uses color-box packaging and provides standardized size and volume data for channel display and warehouse operations. Color-box customization is supported from 500 sets for batch procurement projects."
+      "This is a kids bead-and-rod fort building toy made of PP material.",
+      "This 69-piece kids fort building set uses a rod-and-connector-ball structure that enables quick construction of tents, houses.",
+      "It is positioned for parent-child interaction and educational play scenarios, including home activities, classroom sessions, and hobby programs.",
+      "Key specs include Product Type: Kids Bead-and-rod Fort Building Toy; Material: PP; Building Type: Detachable House Build.",
+      "Packaging supports Packaging: Color Box; Specification: LONDY-2569."
     ]
   },
   "priceTiers": [
@@ -285,17 +289,17 @@
     }
   ],
   "images": [
-    "./images/image-001.jpg",
-    "./images/image-002.jpg",
-    "./images/image-003.jpg",
-    "./images/image-004.jpg",
-    "./images/image-005.jpg",
-    "./images/image-006.jpg",
-    "./images/image-022.jpg"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/1040664912873/images/image-001.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/1040664912873/images/image-002.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/1040664912873/images/image-003.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/1040664912873/images/image-004.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/1040664912873/images/image-005.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/1040664912873/images/image-006.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/1040664912873/images/image-022.jpg"
   ],
   "videos": [
-    "./videos/video-001.mp4",
-    "./videos/video-002.mp4"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/1040664912873/videos/video-001.mp4",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/1040664912873/videos/video-002.mp4"
   ],
   "sourceUrl": "https://detail.1688.com/offer/1040664912873.html"
 }

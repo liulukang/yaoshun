@@ -44,19 +44,21 @@
     "en": "DIY Crazy Fort Building Set"
   },
   "summary": {
-    "zh": "这是一款儿童DIY插珠堡垒拼搭玩具，采用PP结构件，适用于家庭亲子互动、课程活动和创意搭建场景。\n\n品牌为尧顺，产地东莞茶山，适用年龄集中在4-6岁阶段，支持多次拆装与重复使用。",
-    "en": "This is a kids DIY bead-and-rod fort building toy made with PP structural parts, suitable for parent-child interaction, classroom activities, and creative construction scenarios.\n\nBrand: Yaoshun. Origin: Chashan, Dongguan. It is mainly positioned for ages 4-6 and supports repeated assembly and reuse."
+    "zh": "这是一款儿童DIY插珠堡垒拼搭玩具，采用PP结构件，适用于家庭亲子互动、课程活动和创意搭建场景。",
+    "en": "This is a kids DIY bead-and-rod fort building toy made with PP structural parts, suitable for parent-child interaction, classroom activities, and creative construction scenarios."
   },
   "description": {
     "zh": [
-      "该款DIY插珠疯狂堡垒拼搭套装以拼接结构为核心，可围绕堡垒、通道和互动空间进行多形态搭建，适合儿童持续进行创意构建。",
-      "产品面向亲子互动与启蒙益智场景，适用于家庭游戏、幼教活动和小组协作玩法，支持反复拆装使用。",
-      "包装方式为其它常规形式，规格为1-1.5M，便于按渠道需求进行灵活配置与采购。"
+      "这是一款儿童DIY插珠堡垒拼搭玩具，采用PP结构件，适用于家庭亲子互动、课程活动和创意搭建场景。",
+      "该款DIY插珠疯狂堡垒拼搭套装以拼接结构为核心，可围绕堡垒，通道和互动空间进行多形态搭建。",
+      "关键参数包括拼砌玩具类型拆装房子、是否有动漫形象否、材质PP。",
+      "包装参数支持包装方式其它、规格1-1.5M。"
     ],
     "en": [
-      "This DIY crazy fort building set is based on an interlocking structure and supports multiple layouts around forts, tunnels, and interactive spaces for continuous creative play.",
-      "It is designed for parent-child interaction and early educational play, and can be used in home games, preschool activities, and small-group collaborative scenarios with repeated assembly.",
-      "The packaging uses a general packaging format with a 1-1.5M specification, suitable for flexible channel configuration and procurement."
+      "This is a kids DIY bead-and-rod fort building toy made with PP structural parts, suitable for parent-child interaction, classroom activities.",
+      "This DIY crazy fort building set is based on an interlocking structure and supports multiple layouts around forts, tunnels.",
+      "Key specs include 3C Category: Other Toys for Under 14; Building Type: Detachable House Build; Character IP: No.",
+      "Packaging supports Packaging: Other; Specification: 1-1.5 m."
     ]
   },
   "priceTiers": [
@@ -213,17 +215,17 @@
     }
   ],
   "images": [
-    "./images/image-001.jpg",
-    "./images/image-002.jpg",
-    "./images/image-003.jpg",
-    "./images/image-004.jpg",
-    "./images/image-005.jpg",
-    "./images/image-006.jpg",
-    "./images/image-016.jpg"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/785527944304/images/image-001.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/785527944304/images/image-002.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/785527944304/images/image-003.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/785527944304/images/image-004.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/785527944304/images/image-005.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/785527944304/images/image-006.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/785527944304/images/image-016.jpg"
   ],
   "videos": [
-    "./videos/video-001.mp4",
-    "./videos/video-002.mp4"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/785527944304/videos/video-001.mp4",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/785527944304/videos/video-002.mp4"
   ],
   "sourceUrl": "https://detail.1688.com/offer/785527944304.html"
 }

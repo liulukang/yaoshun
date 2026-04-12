@@ -9,26 +9,26 @@ import {buildMetadata} from '@/lib/metadata';
 
 const ABOUT_MEDIA = {
   hero: [
-    '/api/1688-products/679906666095/images/image-001.jpg',
-    '/api/1688-products/615665845646/images/image-002.jpg',
-    '/api/1688-products/616855540047/images/image-002.jpg',
+    'https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/equipment/679906666095/images/image-001.jpg',
+    'https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/equipment/615665845646/images/image-002.jpg',
+    'https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/equipment/616855540047/images/image-002.jpg',
   ],
   integrated: [
-    '/api/1688-products/618549405409/images/image-002.jpg',
-    '/api/1688-products/557949739153/images/image-001.jpg',
-    '/api/1688-products/654508208361/images/image-001.jpg',
+    'https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/equipment/618549405409/images/image-002.jpg',
+    'https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/tubes/557949739153/images/image-001.jpg',
+    'https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/tubes/654508208361/images/image-001.jpg',
   ],
-  values: '/api/1688-products/568719941830/images/image-001.jpg',
+  values: 'https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/tubes/568719941830/images/image-001.jpg',
   rnd: [
-    '/api/1688-products/615665845646/images/image-003.jpg',
-    '/api/1688-products/616855540047/images/image-003.jpg',
-    '/api/1688-products/618549405409/images/image-003.jpg',
-    '/api/1688-products/557346886779/images/image-001.jpg',
+    'https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/equipment/615665845646/images/image-003.jpg',
+    'https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/equipment/616855540047/images/image-003.jpg',
+    'https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/equipment/618549405409/images/image-003.jpg',
+    'https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/tubes/557346886779/images/image-001.jpg',
   ],
   technology: [
-    '/api/1688-products/679906666095/images/image-002.jpg',
-    '/api/1688-products/602070261228/images/image-001.jpg',
-    '/api/1688-products/576133583262/images/image-001.jpg',
+    'https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/equipment/679906666095/images/image-002.jpg',
+    'https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/tubes/602070261228/images/image-001.jpg',
+    'https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/tubes/576133583262/images/image-001.jpg',
   ],
 } as const;
 
@@ -62,7 +62,10 @@ export default async function AboutPage({params}: {params: Promise<{locale: stri
         <div className="mt-6 grid gap-4 sm:mt-8 sm:gap-5 lg:grid-cols-[1.3fr_0.7fr]">
           <article className="relative aspect-[16/10] overflow-hidden rounded-[1.75rem] shadow-2xl">
             <Image
-              alt={locale === 'zh' ? '工厂设备与生产能力展示' : 'Factory equipment and production capability'}
+              alt={t(locale, {
+                zh: '工厂设备与生产能力展示',
+                en: 'Factory equipment and production capability',
+              })}
               className="object-cover"
               fill
               priority
@@ -74,7 +77,10 @@ export default async function AboutPage({params}: {params: Promise<{locale: stri
             {ABOUT_MEDIA.hero.slice(1).map((image, index) => (
               <article key={image} className="relative aspect-[16/10] overflow-hidden rounded-[1.5rem] shadow-xl">
                 <Image
-                  alt={locale === 'zh' ? `企业能力展示 ${index + 2}` : `Enterprise capability ${index + 2}`}
+                  alt={t(locale, {
+                    zh: `企业能力展示 ${index + 2}`,
+                    en: `Enterprise capability ${index + 2}`,
+                  })}
                   className="object-cover"
                   fill
                   sizes="(min-width: 1280px) 28vw, (min-width: 640px) 46vw, 100vw"
@@ -158,7 +164,10 @@ export default async function AboutPage({params}: {params: Promise<{locale: stri
           <article className="overflow-hidden rounded-[1.5rem] border border-outline-variant/20 bg-white shadow-panel">
             <div className="relative aspect-[4/5]">
               <Image
-                alt={locale === 'zh' ? '工厂生产细节' : 'Factory production details'}
+                alt={t(locale, {
+                  zh: '工厂生产细节',
+                  en: 'Factory production details',
+                })}
                 className="object-cover"
                 fill
                 sizes="(min-width: 1280px) 22vw, (min-width: 1024px) 28vw, 100vw"
@@ -167,12 +176,13 @@ export default async function AboutPage({params}: {params: Promise<{locale: stri
             </div>
             <div className="p-5 sm:p-6">
               <p className="font-label text-xs font-bold uppercase tracking-widest text-secondary">
-                {locale === 'zh' ? '生产现场' : 'Production Scene'}
+                {t(locale, {zh: '生产现场', en: 'Production Scene'})}
               </p>
               <p className="mt-2 text-sm leading-relaxed text-on-surface-variant">
-                {locale === 'zh'
-                  ? '所有流程围绕稳定交付与长期协作来组织，减少跨环节信息损耗。'
-                  : 'Execution is organized around stable delivery and long-term collaboration with reduced cross-team loss.'}
+                {t(locale, {
+                  zh: '所有流程围绕稳定交付与长期协作来组织，减少跨环节信息损耗。',
+                  en: 'Execution is organized around stable delivery and long-term collaboration with reduced cross-team loss.',
+                })}
               </p>
             </div>
           </article>
@@ -189,7 +199,10 @@ export default async function AboutPage({params}: {params: Promise<{locale: stri
           {ABOUT_MEDIA.rnd.map((image, index) => (
             <article key={image} className="relative aspect-[4/3] overflow-hidden rounded-xl shadow-lg">
               <Image
-                alt={locale === 'zh' ? `协同团队场景 ${index + 1}` : `Collaborative team scene ${index + 1}`}
+                alt={t(locale, {
+                  zh: `协同团队场景 ${index + 1}`,
+                  en: `Collaborative team scene ${index + 1}`,
+                })}
                 className="object-cover"
                 fill
                 sizes="(min-width: 1280px) 18vw, (min-width: 640px) 23vw, 48vw"

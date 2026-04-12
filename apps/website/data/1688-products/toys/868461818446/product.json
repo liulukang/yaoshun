@@ -39,19 +39,23 @@
     "en": "Fort Building Kit Large Block Set"
   },
   "summary": {
-    "zh": "这是一款面向儿童创意拼搭与互动场景的大型堡垒积木套装，适用于家庭、教学活动和主题展示空间，可通过杆件与连接件组合形成多种结构。\n\n品牌为尧顺，产地中国东莞，支持导购视频和跨境渠道资料配置，适合出口类渠道供货。",
-    "en": "This is a large fort-building block set for children’s creative construction and interaction scenarios. It fits home use, educational activities, and themed display spaces through rod-and-connector structures.\n\nBrand: Yaoshun. Origin: Dongguan, China. Guide video support and cross-border channel documentation are available for export-oriented supply."
+    "zh": "这是一款面向儿童创意拼搭与互动场景的大型堡垒积木套装，适用于家庭、教学活动和主题展示空间，可通过杆件与连接件组合形成多种结构。",
+    "en": "This is a large fort-building block set for children’s creative construction and interaction scenarios."
   },
   "description": {
     "zh": [
-      "该款Fort Building Kit大型拼搭积木套装以杆件和连接球为核心结构，支持搭建帐篷、堡垒和创意空间造型，适用于亲子互动和小组活动。",
-      "产品定位儿童拼搭类玩具，支持多功能玩法和重复拆装。品牌为尧顺，可用于教学活动、零售陈列和互动体验区布置。",
-      "商品采用彩盒包装，规格为yg100pcs，配套体积与重量信息完整，适合出口渠道和批量采购。"
+      "这是一款面向儿童创意拼搭与互动场景的大型堡垒积木套装，适用于家庭，教学活动和主题展示空间。",
+      "该款FortBuildingKit大型拼搭积木套装以杆件和连接球为核心结构，支持搭建帐篷，堡垒和创意空间造型。",
+      "产品定位儿童拼搭类玩具，支持多功能玩法和重复拆装，可用于教学活动，零售陈列和互动体验区布置。",
+      "关键参数包括产品类型大型堡垒拼搭积木玩具、功能其他、是否多功能是。",
+      "包装参数支持包装方式彩盒、包装体积(cm³)10803.750。"
     ],
     "en": [
-      "This Fort Building Kit large block set uses rods and connector balls to build tents, forts, and creative spatial structures for parent-child and group activities.",
-      "The product is positioned as a children’s construction toy with multi-function play and repeatable assembly. Brand: Yaoshun. It can be used in educational activities, retail display, and interactive play zones.",
-      "Packed in a color box with complete volume and weight data, model yg100pcs is suitable for export channels and bulk procurement."
+      "This is a large fort-building block set for children’s creative construction and interaction scenarios.",
+      "This Fort Building Kit large block set uses rods and connector balls to build tents, forts.",
+      "The product is positioned as a children’s construction toy with multi-function play and repeatable assembly.",
+      "Key specs include Product Type: Large Fort Building Block Toy; Function: Other; 3C Category: Other Toys for Under 14.",
+      "Packaging supports Packaging: Color Box; Package Volume (cm³): 10803.750."
     ]
   },
   "priceTiers": [
@@ -258,15 +262,15 @@
     }
   ],
   "images": [
-    "./images/image-001.jpg",
-    "./images/image-002.jpg",
-    "./images/image-003.jpg",
-    "./images/image-004.jpg",
-    "./images/image-005.jpg",
-    "./images/image-006.jpg"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/868461818446/images/image-001.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/868461818446/images/image-002.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/868461818446/images/image-003.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/868461818446/images/image-004.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/868461818446/images/image-005.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/868461818446/images/image-006.jpg"
   ],
   "videos": [
-    "./videos/video-001.mp4"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/868461818446/videos/video-001.mp4"
   ],
   "sourceUrl": "https://detail.1688.com/offer/868461818446.html"
 }

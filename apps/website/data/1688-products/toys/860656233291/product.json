@@ -39,19 +39,23 @@
     "en": "Kids Tent Playhouse Building Set"
   },
   "summary": {
-    "zh": "这是一款面向儿童创意拼搭场景的帐篷游戏屋套装，采用插珠连接结构，可在家庭、课堂与活动空间中搭建堡垒和帐篷造型，适合亲子互动与小组协作游戏。\n\n产品品牌为尧顺，材质为塑料/塑胶，产地东莞茶山，常用货号为帐篷球158，支持标准化渠道供货。",
-    "en": "This is a kids tent playhouse building set for creative construction play. Using a bead-and-rod connection structure, children can build forts and tent shapes in homes, classrooms, and activity spaces for parent-child and group interaction.\n\nBrand: Yaoshun. Material: plastic. Origin: Chashan, Dongguan. A common model is Tent Ball 158, suitable for standardized channel supply."
+    "zh": "这是一款面向儿童创意拼搭场景的帐篷游戏屋套装，采用插珠连接结构，可在家庭、课堂与活动空间中搭建堡垒和帐篷造型，适合亲子互动与小组协作游戏。",
+    "en": "This is a kids tent playhouse building set for creative construction play."
   },
   "description": {
     "zh": [
-      "该款儿童帐篷游戏屋拼搭套装以杆件与连接球组合结构为核心，可搭建帐篷、房屋与堡垒等多种空间造型，适用于家庭、课堂和活动区场景。",
-      "产品支持反复拆装与形态重构，便于孩子在拼搭过程中进行空间认知和互动协作。材质为塑料/塑胶，兼顾结构稳定和轻便收纳。",
-      "商品采用彩盒包装，货号为帐篷球158，可用于零售、电商上架和活动项目配套采购，支持稳定供货。"
+      "这是一款面向儿童创意拼搭场景的帐篷游戏屋套装，采用插珠连接结构，可在家庭，课堂与活动空间中搭建堡垒和帐篷造型。",
+      "该款儿童帐篷游戏屋拼搭套装以杆件与连接球组合结构为核心，可搭建帐篷，房屋与堡垒等多种空间造型，适用于家庭。",
+      "产品支持反复拆装与形态重构，便于孩子在拼搭过程中进行空间认知和互动协作，材质为塑料/塑胶。",
+      "关键参数包括产品类型儿童帐篷游戏屋拼搭玩具、材质塑料/塑胶、拼砌玩具类型其它。",
+      "包装参数支持包装方式彩盒、包装体积(cm³)17204。"
     ],
     "en": [
-      "This kids tent playhouse set is based on a rod-and-connector system and can be assembled into tents, houses, and fort-like structures for home, classroom, and activity-area use.",
-      "It supports repeated assembly and reconfiguration, helping children develop spatial awareness and collaborative play habits during the building process. The plastic material balances structural stability and easy storage.",
-      "Packed in a color box, model Tent Ball 158 is suitable for retail, e-commerce listing, and event project procurement with stable supply capability."
+      "This is a kids tent playhouse building set for creative construction play.",
+      "This kids tent playhouse set is based on a rod-and-connector system and can be assembled into tents, houses, and fort-like structures for home.",
+      "It supports repeated assembly and reconfiguration.",
+      "Key specs include Product Type: Kids Tent Playhouse Building Toy; Material: Plastic; Construction Type: Other Construction Type.",
+      "Packaging supports Packaging: Color Box; Package Volume (cm³): 17204."
     ]
   },
   "priceTiers": [
@@ -248,17 +252,17 @@
     }
   ],
   "images": [
-    "./images/image-001.jpg",
-    "./images/image-002.jpg",
-    "./images/image-003.jpg",
-    "./images/image-004.jpg",
-    "./images/image-005.jpg",
-    "./images/image-006.jpg",
-    "./images/image-022.jpg"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/860656233291/images/image-001.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/860656233291/images/image-002.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/860656233291/images/image-003.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/860656233291/images/image-004.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/860656233291/images/image-005.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/860656233291/images/image-006.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/860656233291/images/image-022.jpg"
   ],
   "videos": [
-    "./videos/video-001.mp4",
-    "./videos/video-002.mp4"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/860656233291/videos/video-001.mp4",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/860656233291/videos/video-002.mp4"
   ],
   "sourceUrl": "https://detail.1688.com/offer/860656233291.html"
 }

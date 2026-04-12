@@ -39,19 +39,23 @@
     "en": "Kids Fort Tent Building Set"
   },
   "summary": {
-    "zh": "这是一款面向儿童创意拼搭与亲子互动的堡垒帐篷积木套装，采用杆件与连接球组合，可用于家庭、课堂和活动空间中的快速造型搭建。\n\n产品品牌为尧顺，材质为塑料/塑胶，产地东莞茶山，并包含专利/著作权申请信息，适合跨境渠道和长期供货场景。",
-    "en": "This is a kids fort-tent building set designed for creative construction and parent-child interaction. With rods and connector balls, it supports quick shape building for homes, classrooms, and activity spaces.\n\nBrand: Yaoshun. Material: plastic. Origin: Chashan, Dongguan. Patent/copyright filing information is included, making it suitable for cross-border channels and long-term supply projects."
+    "zh": "这是一款面向儿童创意拼搭与亲子互动的堡垒帐篷积木套装，采用杆件与连接球组合，可用于家庭、课堂和活动空间中的快速造型搭建。",
+    "en": "This is a kids fort-tent building set designed for creative construction and parent-child interaction."
   },
   "description": {
     "zh": [
-      "该款儿童堡垒帐篷拼搭积木套装采用插珠式拼接结构，支持孩子自由组合搭建帐篷、城堡和主题空间，适用于家庭亲子互动和小组协作游戏场景。",
-      "产品以塑料/塑胶材质为主，强调可重复拆装和形态变换，适合用于课堂活动、节庆布景和儿童活动区陈列。品牌为尧顺，产地东莞茶山。",
-      "商品采用彩盒包装，便于零售与跨境渠道流通。该款记录包含专利及著作权申请时间信息，可满足渠道选品中的合规与资料归档需求。"
+      "这是一款面向儿童创意拼搭与亲子互动的堡垒帐篷积木套装，采用杆件与连接球组合，可用于家庭。",
+      "该款儿童堡垒帐篷拼搭积木套装采用插珠式拼接结构，支持孩子自由组合搭建帐篷，城堡和主题空间。",
+      "产品以塑料/塑胶材质为主，强调可重复拆装和形态变换，适合用于课堂活动，节庆布景和儿童活动区陈列。",
+      "关键参数包括产品类型儿童堡垒帐篷拼搭玩具、材质塑料/塑胶、拼砌玩具类型其它。",
+      "包装参数支持包装方式彩盒、包装体积(cm³)17204。"
     ],
     "en": [
-      "This kids fort-tent set uses a bead-and-rod connection design, allowing children to build tents, castles, and themed spaces freely. It works well for parent-child activities and group play scenarios.",
-      "The product is mainly made of plastic and supports repeated assembly and shape transformation, making it suitable for classroom activities, seasonal display setups, and children’s play-area presentation. Brand: Yaoshun. Origin: Chashan, Dongguan.",
-      "Packed in a color box, the item is convenient for retail and cross-border distribution. Patent and copyright filing time is included in the product record for channel documentation and compliance reference."
+      "This is a kids fort-tent building set designed for creative construction and parent-child interaction.",
+      "This kids fort-tent set uses a bead-and-rod connection design, allowing children to build tents, castles, and themed spaces freely.",
+      "The product is mainly made of plastic and supports repeated assembly and shape transformation, making it suitable for classroom activities.",
+      "Key specs include Product Type: Kids Fort Tent Building Toy; Material: Plastic; Construction Type: Other Construction Type.",
+      "Packaging supports Packaging: Color Box; Package Volume (cm³): 17204."
     ]
   },
   "priceTiers": [
@@ -248,17 +252,17 @@
     }
   ],
   "images": [
-    "./images/image-001.jpg",
-    "./images/image-002.jpg",
-    "./images/image-003.jpg",
-    "./images/image-004.jpg",
-    "./images/image-005.jpg",
-    "./images/image-006.jpg",
-    "./images/image-022.jpg"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/850442565822/images/image-001.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/850442565822/images/image-002.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/850442565822/images/image-003.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/850442565822/images/image-004.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/850442565822/images/image-005.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/850442565822/images/image-006.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/850442565822/images/image-022.jpg"
   ],
   "videos": [
-    "./videos/video-001.mp4",
-    "./videos/video-002.mp4"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/850442565822/videos/video-001.mp4",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/850442565822/videos/video-002.mp4"
   ],
   "sourceUrl": "https://detail.1688.com/offer/850442565822.html"
 }

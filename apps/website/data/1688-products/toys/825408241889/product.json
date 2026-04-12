@@ -44,19 +44,21 @@
     "en": "DIY Glow Fort Building Block Set"
   },
   "summary": {
-    "zh": "这是一款DIY夜光插珠帐篷拼搭积木套装，采用PP结构件，适用于亲子互动、课堂活动和创意搭建场景。\n\n品牌为尧顺，产地东莞，支持夜光主题展示和拆装房子类玩法。",
-    "en": "This is a DIY glow fort building block set using PP structural parts, suitable for parent-child interaction, classroom activities, and creative construction scenarios.\n\nBrand: Yaoshun. Origin: Dongguan. It supports glow-themed display and detachable-house style play."
+    "zh": "这是一款DIY夜光插珠帐篷拼搭积木套装，采用PP结构件，适用于亲子互动、课堂活动和创意搭建场景。",
+    "en": "This is a DIY glow fort building block set using PP structural parts, suitable for parent-child interaction, classroom activities, and creative construction scenarios."
   },
   "description": {
     "zh": [
-      "该款DIY夜光插珠帐篷拼搭积木套装采用模块化拼接结构，可用于帐篷、通道和互动空间等多形态搭建，适合儿童持续创意构建。",
-      "产品兼顾日常拼搭与夜光氛围展示，适用于亲子互动、课程教具与活动场景，支持重复拆装和组合。",
-      "包装为彩盒，彩盒尺寸43*26*11cm，杆子尺寸40cm，18孔规格结构，便于渠道上架和项目采购。"
+      "这是一款DIY夜光插珠帐篷拼搭积木套装，采用PP结构件，适用于亲子互动、课堂活动和创意搭建场景。",
+      "该款DIY夜光插珠帐篷拼搭积木套装采用模块化拼接结构，可用于帐篷，通道和互动空间等多形态搭建。",
+      "产品兼顾日常拼搭与夜光氛围展示，适用于亲子互动，课程教具与活动场景，支持重复拆装和组合。",
+      "关键参数包括拼砌玩具类型拆装房子、是否有动漫形象否、材质PP。"
     ],
     "en": [
-      "This DIY glow fort building block set uses a modular interlocking structure and supports multiple layouts such as tents, tunnels, and interactive spaces for continuous creative construction play.",
-      "It combines everyday construction play with glow visual effects and is suitable for parent-child interaction, educational props, and event scenarios, with repeatable assembly support.",
-      "The set uses color-box packaging with a 43*26*11 cm box size, 40 cm rods, and an 18-hole structure specification, suitable for channel listing and project procurement."
+      "This is a DIY glow fort building block set using PP structural parts, suitable for parent-child interaction, classroom activities.",
+      "This DIY glow fort building block set uses a modular interlocking structure and supports multiple layouts such as tents, tunnels.",
+      "It combines everyday construction play with glow visual effects and is suitable for parent-child interaction, educational props, and event scenarios.",
+      "Key specs include Building Type: Detachable House Build; Character IP: No; Material: PP."
     ]
   },
   "priceTiers": [
@@ -240,16 +242,16 @@
     }
   ],
   "images": [
-    "./images/image-001.jpg",
-    "./images/image-002.jpg",
-    "./images/image-003.jpg",
-    "./images/image-004.jpg",
-    "./images/image-005.jpg",
-    "./images/image-006.jpg",
-    "./images/image-007.jpg"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/825408241889/images/image-001.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/825408241889/images/image-002.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/825408241889/images/image-003.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/825408241889/images/image-004.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/825408241889/images/image-005.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/825408241889/images/image-006.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/825408241889/images/image-007.jpg"
   ],
   "videos": [
-    "./videos/video-001.mp4"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/825408241889/videos/video-001.mp4"
   ],
   "sourceUrl": "https://detail.1688.com/offer/825408241889.html"
 }

@@ -39,19 +39,21 @@
     "en": "Kids Parent-child DIY Castle Building Set"
   },
   "summary": {
-    "zh": "这是一款面向亲子互动与创意拼搭场景的DIY城堡积木套装，适用于家庭游戏、活动课程和儿童互动空间搭建。\n\n品牌为尧顺，材质为PP，产地广东，支持加工定制与LOGO贴牌，定位外贸渠道供货。",
-    "en": "This is a DIY castle building set designed for parent-child interaction and creative construction scenarios, suitable for home play, activity classes, and kids interactive space setup.\n\nBrand: Yaoshun. Material: PP. Origin: Guangdong. It supports custom processing and logo private labeling, and is positioned for export channel supply."
+    "zh": "这是一款面向亲子互动与创意拼搭场景的DIY城堡积木套装，适用于家庭游戏、活动课程和儿童互动空间搭建。",
+    "en": "This is a DIY castle building set designed for parent-child interaction and creative construction scenarios, suitable for home play, activity classes, and kids interactive space setup."
   },
   "description": {
     "zh": [
-      "该款儿童亲子互动DIY城堡拼搭套装采用杆件与连接球组合结构，可搭建多种空间造型，适合家庭互动、课堂活动和节庆布置场景。",
-      "产品主材为PP，支持DIY玩法和重复拆装。品牌为尧顺，可按渠道需求进行加工定制及LOGO贴牌，便于跨境渠道建立差异化SKU。",
-      "商品采用彩盒包装，积木净重1.9kg，规格40*29*6.5，适合电商上架及批量采购。"
+      "这是一款面向亲子互动与创意拼搭场景的DIY城堡积木套装，适用于家庭游戏、活动课程和儿童互动空间搭建。",
+      "该款儿童亲子互动DIY城堡拼搭套装采用杆件与连接球组合结构，可搭建多种空间造型，适合家庭互动。",
+      "商品采用彩盒包装，积木净重1.9kg，规格40*29*6.5，适合电商上架及批量采购。",
+      "关键参数包括产品类型儿童亲子互动DIY城堡拼搭玩具、塑料材质分类PP、功能DIY。"
     ],
     "en": [
-      "This kids parent-child DIY castle set uses a rod-and-connector structure to build multiple spatial shapes, suitable for home interaction, classroom activities, and seasonal event setups.",
-      "The product uses PP material, supports DIY play, and allows repeated assembly. Brand: Yaoshun. It supports custom processing and private-logo labeling for differentiated cross-border SKUs.",
-      "Packed in a color box with a 1.9kg net block weight and 40*29*6.5 specification, it is suitable for e-commerce listing and bulk procurement."
+      "This is a DIY castle building set designed for parent-child interaction and creative construction scenarios, suitable for home play, activity classes.",
+      "This kids parent-child DIY castle set uses a rod-and-connector structure to build multiple spatial shapes, suitable for home interaction.",
+      "Packed in a color box with a 1.9kg net block weight and 40*29*6.5 specification, it is suitable for e-commerce listing and bulk procurement.",
+      "Key specs include Product Type: Kids Parent-child DIY Castle Toy; Plastic Material: PP; Function: DIY."
     ]
   },
   "priceTiers": [
@@ -228,16 +230,16 @@
     }
   ],
   "images": [
-    "./images/image-001.jpg",
-    "./images/image-002.jpg",
-    "./images/image-003.jpg",
-    "./images/image-004.jpg",
-    "./images/image-005.jpg",
-    "./images/image-006.jpg",
-    "./images/image-007.jpg"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/899415962726/images/image-001.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/899415962726/images/image-002.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/899415962726/images/image-003.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/899415962726/images/image-004.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/899415962726/images/image-005.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/899415962726/images/image-006.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/899415962726/images/image-007.jpg"
   ],
   "videos": [
-    "./videos/video-001.mp4"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/899415962726/videos/video-001.mp4"
   ],
   "sourceUrl": "https://detail.1688.com/offer/899415962726.html"
 }

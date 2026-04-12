@@ -30,18 +30,20 @@
   },
   "summary": {
     "zh": "该产品为LED灯带套管，主要材质为TPU，适用于LED灯带包覆与防水等应用场景，支持规格定制与批量供货。",
-    "en": "This led strip sleeve tube is primarily made from TPU and is suitable for LED strip covering and waterproofing applications. Custom dimensions and bulk supply are supported."
+    "en": "This led strip sleeve tube is primarily made from TPU and is suitable for LED strip covering and waterproofing applications."
   },
   "description": {
     "zh": [
-      "LED灯带套管面向工业与消费品配套场景，可用于防护、包覆、导向和连接等需求。",
-      "主要材质为TPU，可按项目要求匹配尺寸、壁厚、长度和结构形式，适配不同应用工况。",
-      "包装与交付可按需求配置（如最小包装 5米，尺寸 可定制（mm），重量 0.3（g）），支持稳定供货与长期项目协同。"
+      "该产品为LED灯带套管，主要材质为TPU，适用于LED灯带包覆与防水等应用场景，支持规格定制与批量供货。",
+      "LED灯带套管面向工业与消费品配套场景，可用于防护，包覆，导向和连接等需求。",
+      "主要材质为TPU，可按项目要求匹配尺寸，壁厚，长度和结构形式，适配不同应用工况。",
+      "关键参数包括LED灯珠型号3528、LED灯珠颗数48（颗/米）、光束角30（度）。"
     ],
     "en": [
-      "This led strip sleeve tube is designed for industrial and consumer assembly programs requiring protection, covering, guidance, and connection functions.",
+      "This led strip sleeve tube is primarily made from TPU and is suitable for LED strip covering and waterproofing applications.",
+      "This led strip sleeve tube is designed for industrial and consumer assembly programs requiring protection, covering, guidance.",
       "The primary material is TPU, and dimensions such as outer diameter, wall thickness, length, and profile form can be aligned to project requirements.",
-      "Packaging and delivery can be configured as needed (for example: Specification Item 5 M, Size （mm）, Weight 0.3（g）), supporting stable supply and long-term project coordination."
+      "Key specs include LED Model: 3528; LED: 48（ / ）; Specification: Refer to Chinese value."
     ]
   },
   "priceTiers": [
@@ -218,18 +220,18 @@
     }
   ],
   "images": [
-    "./images/image-001.jpg",
-    "./images/image-002.jpg",
-    "./images/image-003.jpg",
-    "./images/image-004.jpg",
-    "./images/image-005.jpg",
-    "./images/image-006.jpg",
-    "./images/image-007.jpg",
-    "./images/image-017.jpg"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/tubes/568748422321/images/image-001.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/tubes/568748422321/images/image-002.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/tubes/568748422321/images/image-003.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/tubes/568748422321/images/image-004.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/tubes/568748422321/images/image-005.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/tubes/568748422321/images/image-006.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/tubes/568748422321/images/image-007.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/tubes/568748422321/images/image-017.jpg"
   ],
   "videos": [
-    "./videos/video-001.mp4",
-    "./videos/video-002.mp4"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/tubes/568748422321/videos/video-001.mp4",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/tubes/568748422321/videos/video-002.mp4"
   ],
   "sourceUrl": "https://detail.1688.com/offer/568748422321.html"
 }

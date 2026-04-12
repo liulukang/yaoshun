@@ -39,19 +39,21 @@
     "en": "Large Kids Fort Building Set"
   },
   "summary": {
-    "zh": "这是一款面向儿童拼搭教育与互动场景的大型堡垒积木套装，采用杆件与连接件组合，可快速搭建房屋、帐篷与通道等立体结构，适合家庭和课堂使用。\n\n品牌为尧顺，材质为PP，产地中国，支持导购视频与批量供货，适配跨境与常规渠道。",
-    "en": "This is a large kids fort building set designed for construction learning and interactive play. With rods and connectors, it can quickly build houses, tents, and tunnel-like structures for home and classroom use.\n\nBrand: Yaoshun. Material: PP. Origin: China. Guide videos and bulk supply support are available for export and standard channels."
+    "zh": "这是一款面向儿童拼搭教育与互动场景的大型堡垒积木套装，采用杆件与连接件组合，可快速搭建房屋、帐篷与通道等立体结构，适合家庭和课堂使用。",
+    "en": "This is a large kids fort building set designed for construction learning and interactive play."
   },
   "description": {
     "zh": [
-      "该款大型儿童堡垒拼搭积木套装以“杆件+连接球”结构为核心，能够组合出多种空间造型，适合进行创意拼搭、角色互动和小组协作活动。",
-      "产品主材为PP，结构轻便且支持反复拆装。搭建过程可用于空间认知、动手训练和亲子互动，适用于家庭、幼教课堂和活动区布置。",
-      "商品采用彩盒包装，支持导购视频展示，可用于电商上架和渠道批量采购。产地信息与进口地信息完整，便于渠道归档管理。"
+      "这是一款面向儿童拼搭教育与互动场景的大型堡垒积木套装，采用杆件与连接件组合，可快速搭建房屋，帐篷与通道等立体结构。",
+      "这是一款面向儿童拼搭教育与互动场景的大型堡垒积木套装，采用杆件与连接件组合，可快速搭建房屋。",
+      "该款大型儿童堡垒拼搭积木套装以“杆件+连接球”结构为核心，能够组合出多种空间造型，适合进行创意拼搭。",
+      "产品主材为PP，结构轻便且支持反复拆装，搭建过程可用于空间认知，动手训练和亲子互动，适用于家庭。"
     ],
     "en": [
-      "This large kids fort set is built on a rod-and-connector-ball system and supports multiple spatial structures for creative construction, role-based interaction, and group collaboration activities.",
-      "The product uses PP material and supports repeated assembly. The building process helps with spatial awareness, hands-on practice, and parent-child interaction in home, preschool, and activity-area scenarios.",
-      "Packed in a color box and supported by guide video content, this item is suitable for e-commerce listing and channel bulk procurement. Origin and import-location data are retained for channel documentation."
+      "This is a large kids fort building set designed for construction learning and interactive play.",
+      "This large kids fort set is built on a rod-and-connector-ball system and supports multiple spatial structures for creative construction.",
+      "The product uses PP material and supports repeated assembly.",
+      "Key specs include Product Type: Large Kids Fort Building Toy; Material: PP; Construction Type: Build-and-Rebuild House."
     ]
   },
   "priceTiers": [
@@ -245,17 +247,17 @@
     }
   ],
   "images": [
-    "./images/image-001.jpg",
-    "./images/image-002.jpg",
-    "./images/image-003.jpg",
-    "./images/image-004.jpg",
-    "./images/image-005.jpg",
-    "./images/image-006.jpg",
-    "./images/image-022.jpg"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/861011819353/images/image-001.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/861011819353/images/image-002.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/861011819353/images/image-003.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/861011819353/images/image-004.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/861011819353/images/image-005.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/861011819353/images/image-006.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/861011819353/images/image-022.jpg"
   ],
   "videos": [
-    "./videos/video-001.mp4",
-    "./videos/video-002.mp4"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/861011819353/videos/video-001.mp4",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/861011819353/videos/video-002.mp4"
   ],
   "sourceUrl": "https://detail.1688.com/offer/861011819353.html"
 }

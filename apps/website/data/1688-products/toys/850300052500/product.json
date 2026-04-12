@@ -39,19 +39,21 @@
     "en": "Kids DIY Fort Building Set (120PCS)"
   },
   "summary": {
-    "zh": "这是一款面向儿童创意拼搭的DIY插珠帐篷套装，采用杆件与连接球组合，可搭建帐篷、城堡等立体造型，适用于亲子互动、课堂游戏与活动空间布置。\n\n产品品牌为尧顺，主要材质为PP，常用规格为YG120PCS，支持外贸渠道与电商场景配套供货。",
-    "en": "This is a DIY fort-building set for children’s creative construction play. Using rods and connector balls, it can be assembled into tents, castles, and other 3D shapes for parent-child interaction, classroom games, and play-area setup.\n\nBrand: Yaoshun. Main material: PP. A common configuration is YG120PCS, suitable for export channels and e-commerce supply."
+    "zh": "这是一款面向儿童创意拼搭的DIY插珠帐篷套装，采用杆件与连接球组合，可搭建帐篷、城堡等立体造型，适用于亲子互动、课堂游戏与活动空间布置。",
+    "en": "This is a DIY fort-building set for children’s creative construction play."
   },
   "description": {
     "zh": [
-      "该款儿童DIY插珠帐篷拼搭套装以“杆件+连接球”结构为核心，孩子可根据空间与主题需求自由搭建帐篷、城堡和通道造型，适用于家庭与教学场景。",
-      "产品主材为PP，配置包含YG120PCS规格，兼顾轻量化与结构稳定性，便于重复拆装与形态重构。导购视频可用于渠道展示和上架说明。",
-      "商品采用彩盒包装，适合跨境电商与线下渠道批量采购。可结合年龄段和市场定位进行组合配置，支持持续供货。"
+      "这是一款面向儿童创意拼搭的DIY插珠帐篷套装，采用杆件与连接球组合，可搭建帐篷，城堡等立体造型，适用于亲子互动。",
+      "这是一款面向儿童创意拼搭的DIY插珠帐篷套装，采用杆件与连接球组合，可搭建帐篷，城堡等立体造型。",
+      "该款儿童DIY插珠帐篷拼搭套装以“杆件+连接球”结构为核心，孩子可根据空间与主题需求自由搭建帐篷。",
+      "适用于亲子互动，课堂游戏与活动空间布置，支持多场景应用与批量交付。"
     ],
     "en": [
-      "This kids DIY fort set is built around a rod-and-connector system. Children can freely create tents, castles, and tunnel-like structures based on space and play themes, making it suitable for home and educational use.",
-      "The main material is PP, with a YG120PCS configuration that balances lightweight handling and structural stability. It supports repeated assembly and reconfiguration, and guide videos are available for channel presentation.",
-      "The item is packed in a color box and fits cross-border e-commerce and offline bulk procurement. Configurations can be adjusted by age group and market positioning for long-term supply."
+      "This is a DIY fort-building set for children’s creative construction play.",
+      "This kids DIY fort set is built around a rod-and-connector system.",
+      "Suitable for family interaction, classroom activities, and creative building scenarios with repeatable use.",
+      "Key specs include Product Type: Kids DIY Fort Building Toy; Material: PP; Construction Type: Build-and-Rebuild House."
     ]
   },
   "priceTiers": [
@@ -238,15 +240,15 @@
     }
   ],
   "images": [
-    "./images/image-001.jpg",
-    "./images/image-002.jpg",
-    "./images/image-003.jpg",
-    "./images/image-004.jpg",
-    "./images/image-005.jpg",
-    "./images/image-006.jpg"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/850300052500/images/image-001.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/850300052500/images/image-002.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/850300052500/images/image-003.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/850300052500/images/image-004.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/850300052500/images/image-005.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/850300052500/images/image-006.jpg"
   ],
   "videos": [
-    "./videos/video-001.mp4"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/850300052500/videos/video-001.mp4"
   ],
   "sourceUrl": "https://detail.1688.com/offer/850300052500.html"
 }

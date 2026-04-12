@@ -44,19 +44,23 @@
     "en": "DIY Kids Fort Castle Building Set"
   },
   "summary": {
-    "zh": "这是一款儿童DIY插珠帐篷城堡拼搭套装，支持围绕帐篷、通道和互动空间进行多形态搭建，适用于家庭、课堂和活动场景。\n\n品牌为尧顺，产地中国东莞，内帐材料PP，支持反复拆装和创意重构。",
-    "en": "This is a kids DIY bead-and-rod fort castle building set that supports multiple layout forms for tents, tunnels, and interactive spaces in family, classroom, and event scenarios.\n\nBrand: Yaoshun. Origin: Dongguan, China. The inner-tent material is PP, and the set supports repeated assembly and creative reconfiguration."
+    "zh": "这是一款儿童DIY插珠帐篷城堡拼搭套装，支持围绕帐篷、通道和互动空间进行多形态搭建，适用于家庭、课堂和活动场景。",
+    "en": "This is a kids DIY bead-and-rod fort castle building set that supports multiple layout forms for tents, tunnels, and interactive spaces in family, classroom, and event scenarios."
   },
   "description": {
     "zh": [
-      "该款DIY插珠儿童帐篷城堡拼搭套装以模块化结构搭建为核心，孩子可围绕城堡、帐篷和通道主题自由组合，形成持续的创意互动玩法。",
-      "产品适用于亲子互动、课堂教具和室内外活动空间搭建，可用于空间认知、协作训练与动手实践场景，支持多次拆装重复使用。",
-      "包装提供体积、重量与规格参数，便于渠道陈列、仓配管理和项目采购，适合长期供货协同。"
+      "这是一款儿童DIY插珠帐篷城堡拼搭套装，支持围绕帐篷、通道和互动空间进行多形态搭建，适用于家庭、课堂和活动场景。",
+      "这是一款儿童DIY插珠帐篷城堡拼搭套装，支持围绕帐篷，通道和互动空间进行多形态搭建，适用于家庭。",
+      "该款DIY插珠儿童帐篷城堡拼搭套装以模块化结构搭建为核心，孩子可围绕城堡，帐篷和通道主题自由组合。",
+      "产品适用于亲子互动，课堂教具和室内外活动空间搭建，可用于空间认知，协作训练与动手实践场景。",
+      "关键参数包括内帐材料PP、外帐材质涤纶、外帐防水指数小于1000mm。"
     ],
     "en": [
-      "This DIY kids fort castle building set is based on a modular construction structure, allowing children to freely build castle, tent, and tunnel themes for continuous creative interaction.",
-      "It is suitable for parent-child interaction, classroom props, and indoor/outdoor play-space setup, supporting spatial learning, collaboration training, and hands-on practice with repeatable assembly.",
-      "Packaging includes volume, weight, and specification data for channel display, warehouse operations, and project procurement, making it suitable for long-term supply coordination."
+      "This is a kids DIY bead-and-rod fort castle building set that supports multiple layout forms for tents, tunnels, and interactive spaces in family, classroom.",
+      "This is a kids DIY bead-and-rod fort castle building set that supports multiple layout forms for tents, tunnels, and interactive spaces in family.",
+      "This DIY kids fort castle building set is based on a modular construction structure, allowing children to freely build castle, tent.",
+      "It is suitable for parent-child interaction, classroom props, and indoor/outdoor play-space setup, supporting spatial learning, collaboration training.",
+      "Key specs include Inner Tent Material: PP; Outer Tent Material: Polyester; Outer Tent Waterproof Index: Less than 1000 mm."
     ]
   },
   "priceTiers": [
@@ -283,17 +287,17 @@
     }
   ],
   "images": [
-    "./images/image-001.jpg",
-    "./images/image-002.jpg",
-    "./images/image-003.jpg",
-    "./images/image-004.jpg",
-    "./images/image-005.jpg",
-    "./images/image-006.jpg",
-    "./images/image-021.jpg"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/675246460400/images/image-001.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/675246460400/images/image-002.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/675246460400/images/image-003.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/675246460400/images/image-004.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/675246460400/images/image-005.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/675246460400/images/image-006.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/675246460400/images/image-021.jpg"
   ],
   "videos": [
-    "./videos/video-001.mp4",
-    "./videos/video-002.mp4"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/675246460400/videos/video-001.mp4",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/675246460400/videos/video-002.mp4"
   ],
   "sourceUrl": "https://detail.1688.com/offer/675246460400.html"
 }

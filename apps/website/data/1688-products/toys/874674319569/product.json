@@ -39,19 +39,21 @@
     "en": "Kids Tent Playhouse Bead Building Set"
   },
   "summary": {
-    "zh": "这是一款面向跨境渠道的儿童帐篷游戏屋插珠拼搭套装，适用于家庭互动、活动空间搭建和课堂游戏场景，可组合多种结构形态。\n\n品牌为其他，材质为塑料/塑胶，产地东莞茶山，主要适配eBay、亚马逊和速卖通等平台销售。",
-    "en": "This is a cross-border oriented kids tent playhouse bead-building set for family interaction, activity-space setup, and classroom game scenarios, with flexible structure combinations.\n\nBrand: Other. Material: plastic. Origin: Chashan, Dongguan. It is mainly positioned for platforms such as eBay, Amazon, and AliExpress."
+    "zh": "这是一款儿童帐篷游戏屋插珠拼搭套装，适用于家庭互动、活动空间搭建和课堂游戏场景，可组合多种结构形态。",
+    "en": "This is a kids tent playhouse bead-building set for family interaction, activity-space setup, and classroom game scenarios, with flexible structure combinations."
   },
   "description": {
     "zh": [
-      "该款儿童帐篷游戏屋插珠拼搭套装采用杆件与连接球组合结构，可用于搭建帐篷、房屋与游戏空间，适合家庭和活动场景中的互动玩法。",
-      "产品主材为塑料/塑胶，支持多次拆装和重构。主要面向跨境电商渠道，覆盖欧洲、南美、东南亚、北美和中东等区域市场。",
-      "商品采用彩盒包装，包装重量3200g。该条目中的“专利及著作权申请时间”源数据为异常值，已按原始信息保留为未标注说明。"
+      "这是一款儿童帐篷游戏屋插珠拼搭套装，适用于家庭互动、活动空间搭建和课堂游戏场景，可组合多种结构形态。",
+      "该款儿童帐篷游戏屋插珠拼搭套装采用杆件与连接球组合结构，可用于搭建帐篷，房屋与游戏空间。",
+      "关键参数包括拼砌玩具类型其它、是否有动漫形象否、材质塑料/塑胶。",
+      "包装参数支持包装方式彩盒、重量(g)3200。"
     ],
     "en": [
-      "This kids tent playhouse bead set uses rods and connector balls to build tents, house-like structures, and interactive play spaces for home and event scenarios.",
-      "The product is made of plastic and supports repeated assembly and reconfiguration. It is mainly positioned for cross-border e-commerce channels across Europe, South America, Southeast Asia, North America, and the Middle East.",
-      "Packed in a color box with a 3200g package weight. The original patent filing-time field contains an abnormal source value and is retained as unspecified for data integrity."
+      "This is a kids tent playhouse bead-building set for family interaction, activity-space setup, and classroom game scenarios, with flexible structure combinations.",
+      "This is a kids tent playhouse bead-building set for family interaction, activity-space setup, and classroom game scenarios.",
+      "This kids tent playhouse bead set uses rods and connector balls to build tents, house-like structures.",
+      "Key specs include Construction Type: Other Construction Type; Character IP: No; Material: Plastic."
     ]
   },
   "priceTiers": [
@@ -215,15 +217,15 @@
     }
   ],
   "images": [
-    "./images/image-001.jpg",
-    "./images/image-002.jpg",
-    "./images/image-003.jpg",
-    "./images/image-004.jpg",
-    "./images/image-005.jpg",
-    "./images/image-006.jpg"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/874674319569/images/image-001.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/874674319569/images/image-002.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/874674319569/images/image-003.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/874674319569/images/image-004.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/874674319569/images/image-005.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/874674319569/images/image-006.jpg"
   ],
   "videos": [
-    "./videos/video-001.mp4"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/874674319569/videos/video-001.mp4"
   ],
   "sourceUrl": "https://detail.1688.com/offer/874674319569.html"
 }

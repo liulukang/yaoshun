@@ -39,19 +39,21 @@
     "en": "Kids Glow DIY Bead Fort Set"
   },
   "summary": {
-    "zh": "这是一款儿童夜光DIY插珠帐篷拼搭套装，适合家庭互动、课堂活动和创意空间搭建，支持反复拼装与形态重构。\n\n品牌为尧顺，材质为PP，产地东莞茶山，货号YG130pcs，可用于常规渠道供货。",
-    "en": "This is a kids glow DIY bead-fort building set suitable for home interaction, classroom activities, and creative space setup, with support for repeated assembly and shape reconfiguration.\n\nBrand: Yaoshun. Material: PP. Origin: Chashan, Dongguan. Model YG130pcs is suitable for regular channel supply."
+    "zh": "这是一款儿童夜光DIY插珠帐篷拼搭套装，适合家庭互动、课堂活动和创意空间搭建，支持反复拼装与形态重构。",
+    "en": "This is a kids glow DIY bead-fort building set suitable for home interaction, classroom activities, and creative space setup, with support for repeated assembly and shape reconfiguration."
   },
   "description": {
     "zh": [
-      "该款儿童夜光DIY插珠帐篷拼搭套装采用杆件与连接球组合结构，可快速搭建帐篷、堡垒与通道等造型，适合创意互动玩法。",
-      "产品主材为PP，支持反复拆装。夜光杆件可在暗光环境下增强视觉效果，适用于亲子互动、课堂展示和主题活动场景。",
-      "商品采用彩盒包装，包装重量3100g，规格为夜光杆子86+44普通球，支持渠道批量采购。"
+      "这是一款儿童夜光DIY插珠帐篷拼搭套装，适合家庭互动、课堂活动和创意空间搭建，支持反复拼装与形态重构。",
+      "该款儿童夜光DIY插珠帐篷拼搭套装采用杆件与连接球组合结构，可快速搭建帐篷，堡垒与通道等造型。",
+      "产品主材为PP，支持反复拆装，夜光杆件可在暗光环境下增强视觉效果，适用于亲子互动，课堂展示和主题活动场景。",
+      "关键参数包括产品类型儿童夜光DIY插珠帐篷拼搭玩具、材质PP、拼砌玩具类型拆装房子。"
     ],
     "en": [
+      "This is a kids glow DIY bead-fort building set suitable for home interaction, classroom activities, and creative space setup.",
       "This kids glow DIY fort set uses a rod-and-connector structure to quickly build tents, forts, and tunnel-style shapes for creative interactive play.",
-      "The main material is PP and supports repeated assembly. Glow rods improve visual impact in low-light settings, suitable for parent-child interaction, classroom display, and themed activities.",
-      "The item comes in a color box with a 3100g package weight and a specification of 86 glow rods + 44 standard balls, suitable for bulk channel procurement."
+      "The main material is PP and supports repeated assembly.",
+      "Key specs include Product Type: Kids Glow DIY Bead Fort Toy; Material: PP; Construction Type: Build-and-Rebuild House."
     ]
   },
   "priceTiers": [
@@ -228,15 +230,15 @@
     }
   ],
   "images": [
-    "./images/image-001.jpg",
-    "./images/image-002.jpg",
-    "./images/image-003.jpg",
-    "./images/image-004.jpg",
-    "./images/image-005.jpg",
-    "./images/image-006.jpg"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/874710655257/images/image-001.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/874710655257/images/image-002.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/874710655257/images/image-003.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/874710655257/images/image-004.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/874710655257/images/image-005.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/874710655257/images/image-006.jpg"
   ],
   "videos": [
-    "./videos/video-001.mp4"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/874710655257/videos/video-001.mp4"
   ],
   "sourceUrl": "https://detail.1688.com/offer/874710655257.html"
 }

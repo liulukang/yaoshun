@@ -44,19 +44,23 @@
     "en": "DIY Fort Castle Building Set"
   },
   "summary": {
-    "zh": "这是一款DIY插珠帐篷城堡拼搭套装，采用PP结构件，适用于家庭互动、课堂活动和创意搭建场景。\n\n品牌为尧顺，产地东莞茶山，适合拼装积木与城堡主题搭建玩法。",
-    "en": "This is a DIY fort castle building set made with PP structural parts, suitable for family interaction, classroom activities, and creative construction scenarios.\n\nBrand: Yaoshun. Origin: Chashan, Dongguan. It is suitable for assembly blocks and castle-themed building play."
+    "zh": "这是一款DIY插珠帐篷城堡拼搭套装，采用PP结构件，适用于家庭互动、课堂活动和创意搭建场景。",
+    "en": "This is a DIY fort castle building set made with PP structural parts, suitable for family interaction, classroom activities, and creative construction scenarios."
   },
   "description": {
     "zh": [
-      "该款DIY插珠帐篷城堡拼搭套装采用模块化拼接结构，可围绕城堡、帐篷和通道进行多形态搭建，适合儿童持续创意构建。",
-      "产品适用于亲子互动、课程教具和活动场景布置，可用于动手能力、手眼协调和协作玩法训练。",
-      "包装参数包含体积、重量和尺寸信息，便于渠道陈列、仓配管理和项目采购。"
+      "这是一款DIY插珠帐篷城堡拼搭套装，采用PP结构件，适用于家庭互动、课堂活动和创意搭建场景。",
+      "该款DIY插珠帐篷城堡拼搭套装采用模块化拼接结构，可围绕城堡，帐篷和通道进行多形态搭建，适合儿童持续创意构建。",
+      "产品适用于亲子互动，课程教具和活动场景布置，可用于动手能力，手眼协调和协作玩法训练。",
+      "关键参数包括宽(cm)26、拼砌玩具类型拼装积木、是否有动漫形象否。",
+      "包装参数支持体积(cm³)12298、包装方式彩盒。"
     ],
     "en": [
-      "This DIY fort castle building set uses a modular interlocking structure and supports multiple layouts around castles, tents, and tunnels for continuous creative construction play.",
-      "It is suitable for parent-child interaction, educational props, and event-space setup, helping develop hands-on ability, hand-eye coordination, and collaborative play skills.",
-      "Packaging includes volume, weight, and size data for channel display, warehouse operations, and project procurement."
+      "This is a DIY fort castle building set made with PP structural parts, suitable for family interaction, classroom activities, and creative construction scenarios.",
+      "This is a DIY fort castle building set made with PP structural parts, suitable for family interaction, classroom activities.",
+      "This DIY fort castle building set uses a modular interlocking structure and supports multiple layouts around castles, tents.",
+      "It is suitable for parent-child interaction, educational props, and event-space setup, helping develop hands-on ability, hand-eye coordination.",
+      "Key specs include 3C Category: Other Toys for Under 14; Width (cm): 26; Toy: Assembly Building Blocks."
     ]
   },
   "priceTiers": [
@@ -280,16 +284,16 @@
     }
   ],
   "images": [
-    "./images/image-001.jpg",
-    "./images/image-002.jpg",
-    "./images/image-003.jpg",
-    "./images/image-004.jpg",
-    "./images/image-005.jpg",
-    "./images/image-020.jpg"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/833242578525/images/image-001.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/833242578525/images/image-002.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/833242578525/images/image-003.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/833242578525/images/image-004.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/833242578525/images/image-005.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/833242578525/images/image-020.jpg"
   ],
   "videos": [
-    "./videos/video-001.mp4",
-    "./videos/video-002.mp4"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/833242578525/videos/video-001.mp4",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/833242578525/videos/video-002.mp4"
   ],
   "sourceUrl": "https://detail.1688.com/offer/833242578525.html"
 }

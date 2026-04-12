@@ -44,19 +44,23 @@
     "en": "Kids Fort Building Playhouse Set"
   },
   "summary": {
-    "zh": "这是一款儿童积木帐篷建筑游戏屋套装，采用PP结构件，适用于家庭互动、课程活动和创意拼搭场景。\n\n产地为东莞茶山，适用年龄段为4-6岁，支持拆装重构与多场景使用。",
-    "en": "This is a kids fort building playhouse set made with PP structural parts, suitable for family interaction, educational activities, and creative construction scenarios.\n\nProduced in Chashan, Dongguan, it is designed for ages 4-6 and supports repeatable assembly and multi-scenario use."
+    "zh": "这是一款儿童积木帐篷建筑游戏屋套装，采用PP结构件，适用于家庭互动、课程活动和创意拼搭场景。",
+    "en": "This is a kids fort building playhouse set made with PP structural parts, suitable for family interaction, educational activities, and creative construction scenarios."
   },
   "description": {
     "zh": [
-      "该款儿童积木帐篷建筑游戏屋套装采用模块化拼插结构，可用于帐篷、通道和互动空间等形态搭建，适合儿童持续创意构建。",
-      "产品适用于亲子互动、启蒙教学和活动空间布置，通过拼搭过程帮助提升手眼协调、动手能力与协作体验。",
-      "包装为彩盒，配套体积与尺寸参数完整，便于渠道上架、仓配管理和项目采购。"
+      "这是一款儿童积木帐篷建筑游戏屋套装，采用PP结构件，适用于家庭互动、课程活动和创意拼搭场景。",
+      "该款儿童积木帐篷建筑游戏屋套装采用模块化拼插结构，可用于帐篷，通道和互动空间等形态搭建，适合儿童持续创意构建。",
+      "产品适用于亲子互动，启蒙教学和活动空间布置，通过拼搭过程帮助提升手眼协调，动手能力与协作体验。",
+      "关键参数包括宽(cm)34、拼砌玩具类型拆装房子、材质PP。",
+      "包装参数支持体积(cm³)11696、包装方式彩盒。"
     ],
     "en": [
-      "This kids fort building playhouse set uses a modular interlocking structure and supports layouts such as tents, tunnels, and interactive spaces for continuous creative construction play.",
-      "It is suitable for parent-child interaction, early educational activities, and event-space setup, helping improve hand-eye coordination, hands-on ability, and collaborative experience.",
-      "The set uses color-box packaging with complete volume and size data for channel listing, warehouse operations, and project procurement."
+      "This is a kids fort building playhouse set made with PP structural parts, suitable for family interaction, educational activities.",
+      "This kids fort building playhouse set uses a modular interlocking structure and supports layouts such as tents, tunnels.",
+      "It is suitable for parent-child interaction, early educational activities, and event-space setup, helping improve hand-eye coordination.",
+      "Key specs include 3C Category: Other Toys for Under 14; Width (cm): 34; Building Type: Detachable House Build.",
+      "Packaging supports Volume (cm³): 11696; Packaging: Color Box."
     ]
   },
   "priceTiers": [
@@ -270,16 +274,16 @@
     }
   ],
   "images": [
-    "./images/image-002.jpg",
-    "./images/image-003.jpg",
-    "./images/image-004.jpg",
-    "./images/image-005.jpg",
-    "./images/image-006.jpg",
-    "./images/image-021.jpg"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/811948132786/images/image-002.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/811948132786/images/image-003.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/811948132786/images/image-004.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/811948132786/images/image-005.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/811948132786/images/image-006.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/811948132786/images/image-021.jpg"
   ],
   "videos": [
-    "./videos/video-001.mp4",
-    "./videos/video-002.mp4"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/811948132786/videos/video-001.mp4",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/811948132786/videos/video-002.mp4"
   ],
   "sourceUrl": "https://detail.1688.com/offer/811948132786.html"
 }

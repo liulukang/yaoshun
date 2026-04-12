@@ -39,19 +39,23 @@
     "en": "Kids Glow DIY Fort Building Set (130PCS)"
   },
   "summary": {
-    "zh": "这是一款面向儿童创意拼搭场景的夜光DIY帐篷套装，采用杆件与连接球结构，可在暗光环境下形成更强视觉效果，适合家庭互动、派对布景和课堂活动。\n\n品牌为尧顺，材质为PP，常用货号YG130pcs，支持反复拆装与多次重构。",
-    "en": "This is a glow-style DIY fort set for kids’ creative construction play. Using rods and connector balls, it delivers stronger visual effects in low-light environments for family interaction, party setups, and classroom activities.\n\nBrand: Yaoshun. Material: PP. Common model: YG130pcs. The set supports repeated assembly and reconfiguration."
+    "zh": "这是一款面向儿童创意拼搭场景的夜光DIY帐篷套装，采用杆件与连接球结构，可在暗光环境下形成更强视觉效果，适合家庭互动、派对布景和课堂活动。",
+    "en": "This is a glow-style DIY fort set for kids’ creative construction play."
   },
   "description": {
     "zh": [
-      "该款儿童夜光DIY帐篷拼搭套装采用“杆件+连接球”结构，支持快速搭建帐篷、堡垒与通道等造型，适合多场景创意拼装。",
-      "产品主材为PP，夜光杆件可在暗光环境中提升视觉表现，便于打造沉浸式互动玩法。支持反复拆装，可持续用于亲子互动与教学活动。",
-      "商品采用彩盒包装，货号YG130pcs，规格为夜光杆子86+44普通球，适合电商上架与渠道批量采购。"
+      "这是一款面向儿童创意拼搭场景的夜光DIY帐篷套装，采用杆件与连接球结构，可在暗光环境下形成更强视觉效果，适合家庭互动。",
+      "这是一款面向儿童创意拼搭场景的夜光DIY帐篷套装，采用杆件与连接球结构，可在暗光环境下形成更强视觉效果。",
+      "该款儿童夜光DIY帐篷拼搭套装采用“杆件+连接球”结构，支持快速搭建帐篷，堡垒与通道等造型。",
+      "产品主材为PP，夜光杆件可在暗光环境中提升视觉表现，便于打造沉浸式互动玩法，支持反复拆装。",
+      "关键参数包括产品类型儿童夜光DIY帐篷拼搭玩具、材质PP、拼砌玩具类型拆装房子。"
     ],
     "en": [
+      "This is a glow-style DIY fort set for kids’ creative construction play.",
       "This kids glow DIY set uses a rod-and-connector structure to quickly build tents, forts, and tunnel-like shapes for multi-scene creative play.",
-      "The main material is PP, and glow rods improve visual impact in low-light environments for immersive interaction. It supports repeated assembly for long-term parent-child and educational use.",
-      "Packed in a color box, model YG130pcs includes 86 glow rods and 44 standard connector balls, suitable for e-commerce listing and channel bulk procurement."
+      "The main material is PP, and glow rods improve visual impact in low-light environments for immersive interaction.",
+      "Key specs include Product Type: Kids Glow DIY Fort Building Toy; Material: PP; Construction Type: Build-and-Rebuild House.",
+      "Packaging supports Packaging: Color Box; Package Volume (cm³): 12298."
     ]
   },
   "priceTiers": [
@@ -248,17 +252,17 @@
     }
   ],
   "images": [
-    "./images/image-001.jpg",
-    "./images/image-002.jpg",
-    "./images/image-003.jpg",
-    "./images/image-004.jpg",
-    "./images/image-005.jpg",
-    "./images/image-006.jpg",
-    "./images/image-022.jpg"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/861256582814/images/image-001.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/861256582814/images/image-002.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/861256582814/images/image-003.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/861256582814/images/image-004.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/861256582814/images/image-005.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/861256582814/images/image-006.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/861256582814/images/image-022.jpg"
   ],
   "videos": [
-    "./videos/video-001.mp4",
-    "./videos/video-002.mp4"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/861256582814/videos/video-001.mp4",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/861256582814/videos/video-002.mp4"
   ],
   "sourceUrl": "https://detail.1688.com/offer/861256582814.html"
 }

@@ -39,19 +39,21 @@
     "en": "Export DIY Fort Building Set"
   },
   "summary": {
-    "zh": "这是一款面向跨境渠道的儿童DIY插珠帐篷拼搭套装，采用PP材质与拼装积木结构，适合在家庭互动、课堂活动和派对空间中搭建城堡与帐篷造型。\n\n产品品牌为尧顺，原产地中国，覆盖多区域出口市场，支持视频导购与自有品牌授权，定位外贸供货。",
-    "en": "This is an export-oriented DIY fort building set for kids, using PP material and a modular assembly structure. It is suitable for building castle and tent shapes in home interaction, classroom activities, and party-space setups.\n\nBrand: Yaoshun. Origin: China. The product is targeted at multiple overseas markets, supports guide video usage and own-brand authorization, and is positioned for export supply."
+    "zh": "这是一款儿童DIY插珠帐篷拼搭套装，采用PP材质与拼装积木结构，适合在家庭互动、课堂活动和派对空间中搭建城堡与帐篷造型。",
+    "en": "This is a DIY fort building set for kids using PP material and a modular assembly structure, suitable for building castle and tent shapes in home interaction, classroom activities, and party-space setups."
   },
   "description": {
     "zh": [
-      "该款跨境DIY插珠帐篷拼搭套装采用杆件与连接球组合设计，可快速搭建帐篷、房屋、城堡等多种结构，适合儿童在室内外进行创意拼搭与协作游戏。",
-      "产品材质为PP，支持反复拆装和形态重构。通过拼装过程可用于动手训练、空间认知和亲子互动，适合家庭零售与教育活动配套使用。",
-      "该商品主要面向外贸渠道，覆盖非洲、欧洲、南美、东南亚、北美、东北亚和中东等市场。支持导购视频与品牌授权信息，可用于跨境电商上架与项目采购。"
+      "这是一款儿童DIY插珠帐篷拼搭套装，采用PP材质与拼装积木结构，适合在家庭互动。",
+      "产品材质为PP，支持反复拆装和形态重构，通过拼装过程可用于动手训练，空间认知和亲子互动。",
+      "适用于家庭互动，课堂活动和创意搭建场景，支持长期重复使用。",
+      "关键参数包括材质PP、拼砌玩具类型拼装积木、是否有动漫形象否。"
     ],
     "en": [
-      "This export DIY fort set uses a rod-and-connector design to quickly build tents, houses, castles, and other structures, making it suitable for children’s creative construction and collaborative play indoors or outdoors.",
-      "The product is made of PP and supports repeated assembly and shape reconfiguration. The building process can be used for hands-on practice, spatial learning, and parent-child interaction in both home retail and educational setups.",
-      "This item is mainly positioned for export channels across Africa, Europe, South America, Southeast Asia, North America, Northeast Asia, and the Middle East. Guide videos and own-brand authorization details are included for cross-border e-commerce listing and project procurement."
+      "This is a DIY fort building set for kids using PP material and a modular assembly structure, suitable for building castle and tent shapes in home interaction.",
+      "This is a DIY fort building set for kids using PP material and a modular assembly structure.",
+      "The product is made of PP and supports repeated assembly and shape reconfiguration.",
+      "Suitable for building castle and tent shapes in home interaction, classroom activities."
     ]
   },
   "priceTiers": [
@@ -228,15 +230,15 @@
     }
   ],
   "images": [
-    "./images/image-001.jpg",
-    "./images/image-002.jpg",
-    "./images/image-003.jpg",
-    "./images/image-004.jpg",
-    "./images/image-005.jpg",
-    "./images/image-006.jpg"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/851187570081/images/image-001.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/851187570081/images/image-002.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/851187570081/images/image-003.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/851187570081/images/image-004.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/851187570081/images/image-005.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/851187570081/images/image-006.jpg"
   ],
   "videos": [
-    "./videos/video-001.mp4"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/851187570081/videos/video-001.mp4"
   ],
   "sourceUrl": "https://detail.1688.com/offer/851187570081.html"
 }

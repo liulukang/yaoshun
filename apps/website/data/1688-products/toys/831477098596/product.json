@@ -44,19 +44,23 @@
     "en": "New Kids Fort Building Set"
   },
   "summary": {
-    "zh": "这是一款新款儿童插珠帐篷拼搭套装，采用PP结构件，适用于家庭互动、课堂活动和创意搭建场景。\n\n产地东莞，适合4-6岁儿童进行拆装房子和亲子拼搭玩法。",
-    "en": "This is a new kids fort building set made with PP structural parts, suitable for family interaction, classroom activities, and creative construction scenarios.\n\nProduced in Dongguan, it is suitable for ages 4-6 in detachable-house and parent-child building play."
+    "zh": "这是一款新款儿童插珠帐篷拼搭套装，采用PP结构件，适用于家庭互动、课堂活动和创意搭建场景。",
+    "en": "This is a new kids fort building set made with PP structural parts, suitable for family interaction, classroom activities, and creative construction scenarios."
   },
   "description": {
     "zh": [
-      "该款新款儿童插珠帐篷拼搭套装采用模块化拼接结构，可围绕帐篷、通道和互动空间进行多形态搭建，适合儿童持续创意构建。",
-      "产品适用于亲子互动、课程教具和活动场景布置，支持动手能力、手眼协调和协作玩法训练。",
-      "包装参数包含体积、重量和尺寸信息，便于渠道陈列、仓配管理和项目采购。"
+      "这是一款新款儿童插珠帐篷拼搭套装，采用PP结构件，适用于家庭互动、课堂活动和创意搭建场景。",
+      "该款新款儿童插珠帐篷拼搭套装采用模块化拼接结构，可围绕帐篷，通道和互动空间进行多形态搭建。",
+      "产品适用于亲子互动，课程教具和活动场景布置，支持动手能力，手眼协调和协作玩法训练。",
+      "关键参数包括宽(cm)11、拼砌玩具类型拆装房子、是否有动漫形象否。",
+      "包装参数支持体积(cm³)13156、包装方式彩盒。"
     ],
     "en": [
-      "This new kids fort building set uses a modular interlocking structure and supports multiple layouts around tents, tunnels, and interactive spaces for continuous creative construction play.",
-      "It is suitable for parent-child interaction, educational props, and event-space setup, helping develop hands-on ability, hand-eye coordination, and collaborative play.",
-      "Packaging includes volume, weight, and size data for channel display, warehouse operations, and project procurement."
+      "This is a new kids fort building set made with PP structural parts, suitable for family interaction, classroom activities, and creative construction scenarios.",
+      "This is a new kids fort building set made with PP structural parts, suitable for family interaction, classroom activities.",
+      "This new kids fort building set uses a modular interlocking structure and supports multiple layouts around tents, tunnels.",
+      "It is suitable for parent-child interaction, educational props, and event-space setup, helping develop hands-on ability, hand-eye coordination.",
+      "Key specs include Width (cm): 11; Building Type: Detachable House Build; Character IP: No."
     ]
   },
   "priceTiers": [
@@ -270,14 +274,14 @@
     }
   ],
   "images": [
-    "./images/image-001.jpg",
-    "./images/image-002.jpg",
-    "./images/image-003.jpg",
-    "./images/image-004.jpg",
-    "./images/image-005.jpg"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/831477098596/images/image-001.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/831477098596/images/image-002.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/831477098596/images/image-003.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/831477098596/images/image-004.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/831477098596/images/image-005.jpg"
   ],
   "videos": [
-    "./videos/video-001.mp4"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/831477098596/videos/video-001.mp4"
   ],
   "sourceUrl": "https://detail.1688.com/offer/831477098596.html"
 }

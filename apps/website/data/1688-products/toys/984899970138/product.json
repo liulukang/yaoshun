@@ -39,19 +39,21 @@
     "en": "Kids Castle House DIY Building Set"
   },
   "summary": {
-    "zh": "这是一款面向跨境渠道的儿童城堡房子DIY拼插组装套装，适用于家庭互动、课堂活动和儿童游戏区空间搭建。\n\n品牌为其他，产品类别为益智类，主要适配速卖通、独立站和LAZADA等渠道，重点销售区域覆盖东南亚、北美、东北亚和中东。",
-    "en": "This is a kids castle-house DIY building set designed for cross-border channels, suitable for family interaction, classroom activities, and children’s play-area setup.\n\nBrand: Other. Category: educational toy. It is mainly positioned for AliExpress, independent sites, and LAZADA, with key markets in Southeast Asia, North America, Northeast Asia, and the Middle East."
+    "zh": "这是一款儿童城堡房子DIY拼插组装套装，适用于家庭互动、课堂活动和儿童游戏区空间搭建。",
+    "en": "This is a kids castle-house DIY building set, suitable for family interaction, classroom activities, and children’s play-area setup."
   },
   "description": {
     "zh": [
-      "该款儿童城堡房子DIY拼插组装套装采用插珠式拼搭结构，可用于搭建帐篷、房屋和创意活动空间，适合亲子互动和教学场景使用。",
-      "产品定位益智类拼搭玩具，强调动手参与和空间构建。主要面向跨境电商平台供货，便于多地区市场进行同款分销。",
-      "商品采用彩盒包装，外箱参考尺寸45 x 35 x 9cm，包装重量1500g。原始“专利及著作权申请时间”字段为异常值，已保留为未标注说明。"
+      "这是一款儿童城堡房子DIY拼插组装套装，适用于家庭互动、课堂活动和儿童游戏区空间搭建。",
+      "该款儿童城堡房子DIY拼插组装套装采用插珠式拼搭结构，可用于搭建帐篷，房屋和创意活动空间。",
+      "适用于家庭互动，课堂活动和儿童游戏区空间搭建，支持多场景应用与批量交付。",
+      "关键参数包括产品类别益智类、拼砌玩具类型其它、是否有动漫形象否。"
     ],
     "en": [
-      "This kids castle-house DIY set uses a bead-style building structure and can be assembled into tents, house-like forms, and creative activity spaces for parent-child and educational scenarios.",
-      "The product is positioned as an educational construction toy with a focus on hands-on participation and spatial building. It is mainly supplied to cross-border e-commerce platforms for multi-region distribution.",
-      "It comes in a color box with a reference carton size of 45 x 35 x 9cm and a package weight of 1500g. The original patent filing-time field contains an abnormal value and is retained as unspecified."
+      "This is a kids castle-house DIY building set, suitable for family interaction, classroom activities, and children’s play-area setup.",
+      "This kids castle-house DIY set uses a bead-style building structure and can be assembled into tents, house-like forms.",
+      "Suitable for family interaction, classroom activities, and children’s play-area setup with multi-scenario use support and scalable delivery.",
+      "Key specs include Product Category: Educational; Construction Type: Other Construction Type; Character IP: No."
     ]
   },
   "priceTiers": [
@@ -238,15 +240,15 @@
     }
   ],
   "images": [
-    "./images/image-001.jpg",
-    "./images/image-002.jpg",
-    "./images/image-003.jpg",
-    "./images/image-004.jpg",
-    "./images/image-005.jpg",
-    "./images/image-006.jpg"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/984899970138/images/image-001.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/984899970138/images/image-002.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/984899970138/images/image-003.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/984899970138/images/image-004.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/984899970138/images/image-005.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/984899970138/images/image-006.jpg"
   ],
   "videos": [
-    "./videos/video-001.mp4"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/984899970138/videos/video-001.mp4"
   ],
   "sourceUrl": "https://detail.1688.com/offer/984899970138.html"
 }

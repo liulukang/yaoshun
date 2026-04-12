@@ -44,19 +44,21 @@
     "en": "DIY Kids Fort Rod Support Connector"
   },
   "summary": {
-    "zh": "这是一款用于儿童DIY帐篷拼搭结构的连接支撑配件，主要材质为PP，适合与帐篷杆、连接件组合使用，支持多种拼搭结构扩展。\n\n品牌为尧顺，产地东莞茶山，型号123D，适用于14岁以下塑胶玩具相关场景。",
-    "en": "This is a structural support connector component for kids DIY fort building systems. It is mainly made of PP and is designed to work with rods and joint parts for multiple construction extensions.\n\nBrand: Yaoshun. Origin: Chashan, Dongguan. Model: 123D. It is categorized under plastic toys for under-14 use scenarios."
+    "zh": "这是一款用于儿童DIY帐篷拼搭结构的连接支撑配件，主要材质为PP，适合与帐篷杆、连接件组合使用，支持多种拼搭结构扩展。",
+    "en": "This is a structural support connector component for kids DIY fort building systems."
   },
   "description": {
     "zh": [
-      "该款DIY儿童帐篷杆连接支撑件为拼搭结构配件，主要用于连接与固定帐篷杆件，帮助形成稳定的框架结构。PP材质具备轻量和耐用特性，便于批量配套与装配使用。",
-      "产品适用于家庭拼搭、教学活动和儿童益智互动场景，可作为帐篷类拼搭产品的标准化结构件。通过不同数量组合，可支持多种形态扩展和方案定制。",
-      "包装支持彩盒、OPP袋和手提礼盒等形式，便于面向不同渠道做差异化出货。配套规格信息清晰，适合长期供货与项目采购。"
+      "这是一款用于儿童DIY帐篷拼搭结构的连接支撑配件，主要材质为PP，适合与帐篷杆，连接件组合使用。",
+      "该款DIY儿童帐篷杆连接支撑件为拼搭结构配件，主要用于连接与固定帐篷杆件，帮助形成稳定的框架结构。",
+      "产品适用于家庭拼搭，教学活动和儿童益智互动场景，可作为帐篷类拼搭产品的标准化结构件，通过不同数量组合。",
+      "关键参数包括名称DIY玩具帐篷、型号123D、玩具材质PP。"
     ],
     "en": [
-      "This DIY kids fort rod support connector is a structural accessory used to connect and stabilize rods in fort-building frames. The PP material offers lightweight handling and durability for bulk matching and assembly.",
-      "It is suitable for home construction play, classroom activities, and educational interaction scenarios, and can be used as a standardized component for fort-style building products. Different quantity combinations support multiple structure extensions.",
-      "Packaging options include color box, OPP bag, and carry gift box, making it suitable for differentiated channel fulfillment. Clear specification data supports long-term supply and project procurement."
+      "This is a structural support connector component for kids DIY fort building systems.",
+      "This DIY kids fort rod support connector is a structural accessory used to connect and stabilize rods in fort-building frames.",
+      "It is suitable for home construction play, classroom activities, and educational interaction scenarios.",
+      "Key specs include Product Name: DIY Toy Fort; Model: 123D; Material: PP."
     ]
   },
   "priceTiers": [
@@ -230,14 +232,14 @@
     }
   ],
   "images": [
-    "./images/image-002.jpg",
-    "./images/image-003.jpg",
-    "./images/image-004.jpg",
-    "./images/image-005.jpg",
-    "./images/image-006.jpg"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/601805200838/images/image-002.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/601805200838/images/image-003.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/601805200838/images/image-004.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/601805200838/images/image-005.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/601805200838/images/image-006.jpg"
   ],
   "videos": [
-    "./videos/video-001.mp4"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/601805200838/videos/video-001.mp4"
   ],
   "sourceUrl": "https://detail.1688.com/offer/601805200838.html"
 }

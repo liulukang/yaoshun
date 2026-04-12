@@ -4,34 +4,39 @@
   "priority": 2050,
   "tags": [
     {
-      "key": "tubes",
-      "zh": "管材",
-      "en": "Tubes"
+      "key": "equipment",
+      "zh": "设备",
+      "en": "Equipment"
     },
     {
-      "key": "tubes-equipment",
-      "zh": "管材-设备",
-      "en": "Tubes - Equipment"
+      "key": "equipment-extrusion",
+      "zh": "设备-挤出",
+      "en": "Equipment - Extrusion"
+    },
+    {
+      "key": "equipment-meltblown",
+      "zh": "设备-熔喷布产线",
+      "en": "Equipment - Meltblown Line"
     }
   ],
   "title": {
-    "zh": "口罩90熔喷布专用挤出机0.2-0.5布管材",
-    "en": "Extrusion Equipment"
+    "zh": "口罩熔喷布专用挤出机（0.2-0.5布幅）",
+    "en": "Dedicated Extrusion Machine for Meltblown Mask Fabric (0.2-0.5 Width)"
   },
   "summary": {
-    "zh": "该产品为挤出设备，主要材质为塑料，适用于口罩专用 无纺布，等应用场景，支持规格定制与批量供货。",
-    "en": "This extrusion equipment is primarily made from Plastic and is suitable for None applications. Custom dimensions and bulk supply are supported."
+    "zh": "该设备为口罩熔喷布专用挤出机，适用于0.2-0.5规格布材生产，支持按规格定制与批量供货。",
+    "en": "This machine is a dedicated extruder for meltblown mask fabric and is suitable for 0.2-0.5 specification material production."
   },
   "description": {
     "zh": [
-      "挤出设备面向工业与消费品配套场景，可用于防护、包覆、导向和连接等需求。",
-      "主要材质为塑料，可按项目要求匹配尺寸、壁厚、长度和结构形式，适配不同应用工况。",
-      "包装与交付可按需求配置（如重量(g) 2000000），支持稳定供货与长期项目协同。"
+      "该设备为口罩熔喷布专用挤出机，适用于0.2-0.5规格布材生产，支持按规格定制与批量供货。",
+      "挤出设备面向工业与消费品配套场景，可用于防护，包覆，导向和连接等需求。",
+      "关键参数包括产品用途口罩专用无纺布、货号666。"
     ],
     "en": [
+      "This machine is a dedicated extruder for meltblown mask fabric and is suitable for 0.2-0.5 specification material production.",
       "This extrusion equipment is designed for industrial and consumer assembly programs requiring protection, covering, guidance, and connection functions.",
-      "The primary material is Plastic, and dimensions such as outer diameter, wall thickness, length, and profile form can be aligned to project requirements.",
-      "Packaging and delivery can be configured as needed (for example: Weight (g) 2000000), supporting stable supply and long-term project coordination."
+      "Key specs include Application: Mask-dedicated nonwoven fabric; Item No.: 666."
     ]
   },
   "priceTiers": [
@@ -50,8 +55,8 @@
         "en": "Application"
       },
       "value": {
-        "zh": "口罩专用 无纺布，",
-        "en": "None"
+        "zh": "口罩专用无纺布",
+        "en": "Mask-dedicated nonwoven fabric"
       }
     },
     {
@@ -88,16 +93,16 @@
     }
   ],
   "images": [
-    "./images/image-002.jpg",
-    "./images/image-003.jpg",
-    "./images/image-004.jpg",
-    "./images/image-005.jpg",
-    "./images/image-006.jpg"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/equipment/616855540047/images/image-002.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/equipment/616855540047/images/image-003.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/equipment/616855540047/images/image-004.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/equipment/616855540047/images/image-005.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/equipment/616855540047/images/image-006.jpg"
   ],
   "videos": [
-    "./videos/video-001.mp4",
-    "./videos/video-002.mp4",
-    "./videos/video-003.mp4"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/equipment/616855540047/videos/video-001.mp4",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/equipment/616855540047/videos/video-002.mp4",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/equipment/616855540047/videos/video-003.mp4"
   ],
   "sourceUrl": "https://detail.1688.com/offer/616855540047.html"
 }

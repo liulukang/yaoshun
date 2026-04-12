@@ -1,54 +1,25 @@
-import fs from "node:fs/promises";
-import path from "node:path";
-
 import type { Metadata } from "next";
 import Link from "next/link";
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 
 import { PageLinks } from "@/components/page-links";
 import { ProductMediaGallery } from "@/components/product-media-gallery";
 import { ProductVisual } from "@/components/icon-visuals";
 import { StructuredData } from "@/components/structured-data";
-import { companyProfile, products, productsPageContent } from "@/content/site";
-import type { Product, ProductModule } from "@/content/site/shared";
+import { companyProfile, productsPageContent } from "@/content/site";
+import {
+  products,
+  type ProductJson,
+  type ProductJsonLocalizedList,
+  type ProductJsonLocalizedText,
+  type ProductJsonPair,
+  type ProductJsonPriceTier,
+} from "@/content/site/products.server";
+import type { ProductModule } from "@/content/site/shared";
 import { type Locale, getLocaleFromParams, locales, t } from "@/lib/i18n";
 import { buildMetadata } from "@/lib/metadata";
 import { localizedPath } from "@/lib/routes";
 import { toAbsoluteUrl } from "@/lib/site-config";
-
-type SnapshotLocalizedText = Partial<Record<Locale, string>>;
-type SnapshotLocalizedList = Partial<Record<Locale, string[]>>;
-type ProductSnapshotTag = {
-  key: string;
-  zh: string;
-  en: string;
-};
-type ProductSnapshotPair = {
-  key: SnapshotLocalizedText;
-  value: SnapshotLocalizedText;
-};
-type ProductSnapshotPriceTier = {
-  quantity: SnapshotLocalizedText;
-  price: string;
-};
-type ProductSnapshot = {
-  offerId: string;
-  module: ProductModule;
-  priority: number;
-  tags: ProductSnapshotTag[];
-  title: SnapshotLocalizedText;
-  summary: SnapshotLocalizedText;
-  description: SnapshotLocalizedList;
-  priceTiers: ProductSnapshotPriceTier[];
-  attributes: ProductSnapshotPair[];
-  packaging: ProductSnapshotPair[];
-  images: string[];
-  videos: string[];
-  sourceUrl?: string;
-};
-
-const DATA_ROOT = path.join(process.cwd(), "data/1688-products");
-const MODULES: ProductModule[] = ["toys", "tubes", "equipment"];
 
 const detailPageCopy = {
   module: {
@@ -67,20 +38,10 @@ const detailPageCopy = {
   emptyData: { zh: "暂无数据", en: "No data yet" },
 };
 
-function parseJsonSafely<T>(raw: string): T | null {
-  try {
-    return JSON.parse(raw) as T;
-  } catch {
-    return null;
-  }
-}
-
-function normalizeMediaUrl(offerId: string, kind: "images" | "videos", input: string): string {
-  if (!input) return "";
-  if (input.startsWith("/api/1688-products/")) return input;
-  const filename = input.replace(/\\/g, "/").split("/").filter(Boolean).at(-1);
-  if (!filename) return "";
-  return `/api/1688-products/${offerId}/${kind}/${filename}`;
+function normalizeMediaUrl(input: string): string {
+  const normalized = String(input || "").replace(/\\/g, "/").trim();
+  if (!normalized) return "";
+  return /^https?:\/\//i.test(normalized) ? normalized : "";
 }
 
 function uniqueMedia(items: string[]): string[] {
@@ -94,9 +55,28 @@ function splitParagraphs(text: string): string[] {
     .filter(Boolean);
 }
 
+function groupByCount<T>(items: T[], size: number): T[][] {
+  if (size <= 0) return [items];
+  const rows: T[][] = [];
+  for (let index = 0; index < items.length; index += size) {
+    rows.push(items.slice(index, index + size));
+  }
+  return rows;
+}
+
+function toDetailHighlights(items: string[]): string[] {
+  return Array.from(
+    new Set(
+      items
+        .map((item) => item.replace(/\s+/g, " ").trim())
+        .filter(Boolean)
+    )
+  );
+}
+
 function localizeText(
   locale: Locale,
-  value: SnapshotLocalizedText | undefined,
+  value: ProductJsonLocalizedText | undefined,
   fallback: string
 ): string {
   if (!value) return fallback;
@@ -105,7 +85,7 @@ function localizeText(
 
 function localizeList(
   locale: Locale,
-  value: SnapshotLocalizedList | Partial<Record<Locale, string | string[]>> | undefined,
+  value: ProductJsonLocalizedList | Partial<Record<Locale, string | string[]>> | undefined,
   fallback: string[]
 ): string[] {
   if (!value) return fallback;
@@ -122,42 +102,26 @@ function localizeList(
   return fallback;
 }
 
-async function readProductSnapshot(product: Product): Promise<ProductSnapshot | null> {
-  if (!product.offerId) return null;
-
-  const fileCandidates = [
-    path.join(DATA_ROOT, product.offerId, "product.json"),
-    ...MODULES.map((moduleName) => path.join(DATA_ROOT, moduleName, product.offerId!, "product.json")),
-  ];
-
-  for (const filePath of fileCandidates) {
-    try {
-      const raw = await fs.readFile(filePath, "utf8");
-      const parsed = parseJsonSafely<ProductSnapshot>(raw);
-      if (parsed?.offerId) {
-        return parsed;
-      }
-    } catch {
-      // continue probing candidates
-    }
-  }
-
-  return null;
-}
-
 function moduleLabel(locale: Locale, module: ProductModule): string {
   return t(locale, detailPageCopy.module[module]);
 }
 
-function getTagLabel(locale: Locale, tag: ProductSnapshotTag): string {
-  return locale === "zh" ? tag.zh : tag.en;
+function getTagLabel(locale: Locale, tag: { key?: string; zh?: string; en?: string }): string {
+  return localizeText(
+    locale,
+    {
+      zh: tag.zh,
+      en: tag.en,
+    },
+    tag.en || tag.zh || tag.key || ""
+  );
 }
 
-function getPairLabel(locale: Locale, pair: ProductSnapshotPair): string {
+function getPairLabel(locale: Locale, pair: ProductJsonPair): string {
   return localizeText(locale, pair.key, "");
 }
 
-function getPairValue(locale: Locale, pair: ProductSnapshotPair): string {
+function getPairValue(locale: Locale, pair: ProductJsonPair): string {
   return localizeText(locale, pair.value, "");
 }
 
@@ -169,21 +133,31 @@ function isEquipmentTag(tag: { key?: string; zh?: string; en?: string }): boolea
   );
 }
 
-function resolveDisplayModule(snapshot: ProductSnapshot | null, product: Product): ProductModule {
-  if (snapshot?.module === "equipment" || product.module === "equipment") {
+function resolveDisplayModule(product: ProductJson): ProductModule {
+  if (product.module === "equipment") {
     return "equipment";
   }
 
-  const tags = snapshot?.tags?.length ? snapshot.tags : product.tags;
+  const tags = product.tags ?? [];
   if (tags.some((tag) => isEquipmentTag(tag))) {
     return "equipment";
   }
 
-  return snapshot?.module ?? product.module;
+  return product.module === "toys" ? "toys" : "tubes";
+}
+
+function findProductBySlug(slug: string): ProductJson | undefined {
+  const exact = products.find((item) => item.offerId === slug);
+  if (exact) return exact;
+  return products.find((item) => item.offerId && slug.endsWith(`-${item.offerId}`));
 }
 
 export function generateStaticParams() {
-  return locales.flatMap((locale) => products.map((product) => ({ locale, slug: product.slug })));
+  return locales.flatMap((locale) =>
+    products
+      .filter((product) => Boolean(product.offerId))
+      .map((product) => ({ locale, slug: product.offerId as string }))
+  );
 }
 
 export async function generateMetadata({
@@ -193,7 +167,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { slug } = await params;
   const locale = await getLocaleFromParams(params as Promise<{locale: string}>);
-  const product = products.find((item) => item.slug === slug);
+  const product = findProductBySlug(slug);
 
   if (!product) {
     return buildMetadata(
@@ -205,27 +179,27 @@ export async function generateMetadata({
     );
   }
 
-  const snapshot = await readProductSnapshot(product);
-  const productName = localizeText(locale, snapshot?.title, t(locale, product.title));
+  const productId = product.offerId || slug;
+  const productName = localizeText(locale, product.title, productId);
   const descriptionSource = localizeList(
     locale,
-    snapshot?.description,
-    splitParagraphs(localizeText(locale, snapshot?.summary, t(locale, product.summary)))
+    product.description,
+    splitParagraphs(localizeText(locale, product.summary, productName))
   );
   const description = descriptionSource.join(" ").trim() || t(locale, productsPageContent.seo.description);
   const title = t(locale, productsPageContent.seo.detailTitleTemplate).replace("{product}", productName);
   const keywordTags =
-    snapshot?.tags
+    (product.tags ?? [])
       ?.map((item) => getTagLabel(locale, item))
       .filter(Boolean)
-      .slice(0, 10) ?? [];
-  const keywords = keywordTags.length > 0 ? keywordTags : t(locale, product.seoKeywords);
+      .slice(0, 10);
+  const keywords = keywordTags.length > 0 ? keywordTags : [productName];
 
   return buildMetadata(
     locale,
     title,
     description,
-    `products/${product.slug}`,
+    `products/${productId}`,
     keywords
   );
 }
@@ -237,32 +211,32 @@ export default async function ProductDetailPage({
 }) {
   const { slug } = await params;
   const locale = await getLocaleFromParams(params as Promise<{locale: string}>);
-  const product = products.find((item) => item.slug === slug);
+  const product = findProductBySlug(slug);
 
   if (!product) {
     notFound();
   }
+  if (!product.offerId) {
+    notFound();
+  }
+  if (slug !== product.offerId) {
+    redirect(localizedPath(locale, "products") + `/${product.offerId}`);
+  }
 
-  const snapshot = await readProductSnapshot(product);
-  const localizedTitle = localizeText(locale, snapshot?.title, t(locale, product.title));
-  const localizedSummary = localizeText(locale, snapshot?.summary, t(locale, product.summary));
+  const localizedTitle = localizeText(locale, product.title, product.offerId);
+  const localizedSummary = localizeText(locale, product.summary, localizedTitle);
   const summaryParagraphs = splitParagraphs(localizedSummary);
-  const descriptionParagraphs = localizeList(locale, snapshot?.description, summaryParagraphs);
-  const galleryImages = uniqueMedia(
-    snapshot?.offerId
-      ? (snapshot.images ?? []).map((item) => normalizeMediaUrl(snapshot.offerId, "images", item))
-      : [product.image, ...(product.gallery ?? [])]
-  );
-  const productVideos = uniqueMedia(
-    snapshot?.offerId
-      ? (snapshot.videos ?? []).map((item) => normalizeMediaUrl(snapshot.offerId, "videos", item))
-      : product.videos ?? []
-  );
-  const tagItems = snapshot?.tags?.length ? snapshot.tags : product.tags;
-  const priceTiers = snapshot?.priceTiers ?? [];
-  const attributes = snapshot?.attributes ?? [];
-  const packaging = snapshot?.packaging ?? [];
-  const displayModule = resolveDisplayModule(snapshot, product);
+  const descriptionParagraphs = localizeList(locale, product.description, summaryParagraphs);
+  const detailHighlights = toDetailHighlights(descriptionParagraphs);
+  const galleryImages = uniqueMedia((product.images ?? []).map((item) => normalizeMediaUrl(item)));
+  const productVideos = uniqueMedia((product.videos ?? []).map((item) => normalizeMediaUrl(item)));
+  const tagItems = product.tags ?? [];
+  const priceTiers: ProductJsonPriceTier[] = product.priceTiers ?? [];
+  const attributes: ProductJsonPair[] = product.attributes ?? [];
+  const packaging: ProductJsonPair[] = product.packaging ?? [];
+  const attributeRows = groupByCount(attributes, 2);
+  const packagingRows = groupByCount(packaging, 2);
+  const displayModule = resolveDisplayModule(product);
 
   const productStructuredData = {
     "@context": "https://schema.org",
@@ -313,90 +287,135 @@ export default async function ProductDetailPage({
               />
             ) : (
               <div className="overflow-hidden rounded-xl shadow-2xl">
-                <ProductVisual label={moduleLabel(locale, displayModule)} slug={product.slug} />
+                <ProductVisual label={moduleLabel(locale, displayModule)} slug={product.offerId} />
               </div>
             )}
           </div>
 
           <div className="lg:col-span-5 lg:sticky lg:top-32 lg:self-start">
-            <span className="font-label text-xs font-bold uppercase tracking-widest text-secondary sm:text-sm">
-              {moduleLabel(locale, displayModule)}
-            </span>
-            <h1 className="mt-2 font-headline text-3xl font-extrabold leading-none tracking-tighter text-primary sm:text-5xl lg:text-6xl">
-              {localizedTitle}
-            </h1>
-            <div className="mt-4 flex flex-wrap gap-2 sm:mt-6 lg:mt-8">
-              {tagItems.slice(0, 8).map((tag) => (
-                <span
-                  key={tag.key}
-                  className="rounded-full bg-primary-fixed px-3 py-1 text-xs font-semibold text-primary sm:text-sm"
-                >
-                  {getTagLabel(locale, tag)}
-                </span>
-              ))}
-            </div>
-            <div className="mt-5 space-y-3 text-base leading-relaxed text-on-surface-variant sm:mt-6 lg:text-lg">
-              {summaryParagraphs.map((item) => (
-                <p key={item}>{item}</p>
-              ))}
-            </div>
+            <div className="rounded-[1.75rem] border border-outline-variant/20 bg-surface p-5 shadow-panel sm:p-6 lg:p-7">
+              <span className="font-label text-xs font-bold uppercase tracking-widest text-secondary sm:text-sm">
+                {moduleLabel(locale, displayModule)}
+              </span>
+              <h1 className="mt-3 font-headline text-2xl font-extrabold leading-[1.12] tracking-tight text-primary sm:text-3xl lg:text-4xl">
+                {localizedTitle}
+              </h1>
+              <div className="mt-5 flex flex-wrap gap-2">
+                {tagItems.slice(0, 8).map((tag) => (
+                  <span
+                    key={tag.key}
+                    className="rounded-full bg-primary-fixed px-3 py-1 text-xs font-semibold text-primary sm:text-sm"
+                  >
+                    {getTagLabel(locale, tag)}
+                  </span>
+                ))}
+              </div>
+              <div className="mt-5 space-y-3 text-base leading-relaxed text-on-surface-variant lg:text-lg">
+                {summaryParagraphs.map((item) => (
+                  <p key={item}>{item}</p>
+                ))}
+              </div>
 
-            <div className="mt-8 rounded-xl bg-surface-container-low p-4 sm:mt-10 sm:p-5 lg:mt-12 lg:p-6">
-              <h3 className="font-label text-xs font-bold uppercase tracking-widest text-outline">
-                {t(locale, detailPageCopy.priceTiersTitle)}
-              </h3>
-              {priceTiers.length > 0 ? (
-                <div className="mt-4 grid gap-3 sm:mt-5 sm:gap-4">
-                  {priceTiers.map((tier, index) => (
-                    <div key={`${tier.price}-${index}`} className="rounded-xl bg-white/80 p-4">
-                      <p className="text-xs uppercase tracking-widest text-outline">
-                        {t(locale, detailPageCopy.priceTierQty)}
-                      </p>
-                      <p className="mt-1 text-sm font-semibold text-primary">
-                        {localizeText(locale, tier.quantity, t(locale, detailPageCopy.emptyData))}
-                      </p>
-                      <p className="mt-3 text-xs uppercase tracking-widest text-outline">
-                        {t(locale, detailPageCopy.priceTierPrice)}
-                      </p>
-                      <p className="mt-1 text-lg font-bold text-primary">{tier.price || t(locale, detailPageCopy.emptyData)}</p>
-                    </div>
-                  ))}
+              <div className="mt-6 rounded-xl border border-outline-variant/20 bg-surface-container-low p-3 sm:p-4">
+                <div className="flex items-center justify-between gap-3">
+                  <h3 className="font-label text-xs font-bold uppercase tracking-widest text-outline">
+                    {t(locale, detailPageCopy.priceTiersTitle)}
+                  </h3>
+                  {priceTiers.length > 0 ? (
+                    <span className="inline-flex items-center rounded-full bg-primary/10 px-2.5 py-1 text-[11px] font-semibold text-primary">
+                      {t(locale, {
+                        zh: `${priceTiers.length}档报价`,
+                        en: `${priceTiers.length} tiers`,
+                      })}
+                    </span>
+                  ) : null}
                 </div>
-              ) : (
-                <p className="mt-4 text-sm text-on-surface-variant">{t(locale, detailPageCopy.emptyData)}</p>
-              )}
-            </div>
+                {priceTiers.length > 0 ? (
+                  <div className="mt-3 grid gap-2 sm:grid-cols-2">
+                    {priceTiers.map((tier, index) => (
+                      <div
+                        key={`${tier.price}-${index}`}
+                        className={`rounded-lg border px-3 py-2.5 sm:px-3.5 ${
+                          index === 0
+                            ? "border-outline-variant/20 bg-white/90"
+                            : "border-primary/25 bg-primary/5"
+                        }`}
+                      >
+                        <div className="flex items-center justify-between gap-2">
+                          <p className="text-[10px] font-bold uppercase tracking-[0.12em] text-outline">
+                            {t(locale, {
+                              zh: `档位 ${index + 1}`,
+                              en: `Tier ${index + 1}`,
+                            })}
+                          </p>
+                          {index === priceTiers.length - 1 ? (
+                            <span className="rounded-full bg-primary px-2 py-0.5 text-[10px] font-semibold !text-white">
+                              {t(locale, {zh: "推荐", en: "Best"})}
+                            </span>
+                          ) : null}
+                        </div>
+                        <p className="mt-2 text-[10px] uppercase tracking-[0.12em] text-outline">
+                          {t(locale, detailPageCopy.priceTierQty)}
+                        </p>
+                        <p className="mt-0.5 text-sm font-semibold leading-tight text-primary">
+                          {localizeText(locale, tier.quantity, t(locale, detailPageCopy.emptyData))}
+                        </p>
+                        <div className="mt-2 border-t border-outline-variant/15 pt-2">
+                          <p className="text-[10px] uppercase tracking-[0.12em] text-outline">
+                            {t(locale, detailPageCopy.priceTierPrice)}
+                          </p>
+                          <p className="mt-0.5 text-base font-extrabold leading-tight text-primary sm:text-lg">
+                            {tier.price || t(locale, detailPageCopy.emptyData)}
+                          </p>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                ) : (
+                  <p className="mt-3 text-sm text-on-surface-variant">{t(locale, detailPageCopy.emptyData)}</p>
+                )}
+              </div>
 
-            <div className="mt-8 flex flex-col gap-3 sm:mt-10 sm:gap-4 lg:mt-12">
-              <Link className="flex items-center justify-center gap-3 rounded-full bg-secondary py-4 text-base font-bold text-white shadow-lg transition-all hover:bg-on-secondary-fixed-variant sm:py-5 sm:text-xl" data-track-event="product_cta_click" data-track-label={product.slug} data-track-location="product_detail_contact" href={localizedPath(locale, "contact")}>
-                {t(locale, productsPageContent.detail.primaryAction)}
-                <span>{"->"}</span>
-              </Link>
-              <Link className="rounded-full border-2 border-outline-variant py-3.5 text-center text-base font-bold text-primary transition-colors hover:bg-surface-container-high sm:py-4 sm:text-lg" data-track-event="product_cta_click" data-track-label={product.slug} data-track-location="product_detail_compliance" href={localizedPath(locale, "compliance")}>
-                {t(locale, productsPageContent.detail.secondaryAction)}
-              </Link>
+              <div className="mt-5">
+                <Link className="flex w-full items-center justify-center gap-2.5 rounded-full bg-primary py-3 text-sm font-bold !text-white shadow-lg transition-all hover:opacity-95 sm:py-3.5 sm:text-base" data-track-event="product_cta_click" data-track-label={product.offerId} data-track-location="product_detail_contact" href={localizedPath(locale, "contact")}>
+                  {t(locale, productsPageContent.detail.primaryAction)}
+                  <span>{"->"}</span>
+                </Link>
+              </div>
             </div>
-
           </div>
         </section>
 
-        <section className="mt-14 rounded-[2rem] bg-primary py-12 sm:mt-16 sm:py-14 lg:mt-24 lg:py-20">
-          <div className="px-4 sm:px-6 md:px-12">
+        <section className="mt-14 rounded-[2rem] bg-primary py-7 sm:mt-16 sm:py-9 lg:mt-20 lg:py-11">
+          <div className="px-4 sm:px-6 md:px-10 lg:px-12">
             <h2 className="font-headline text-3xl font-extrabold tracking-tighter text-white sm:text-4xl lg:text-5xl">
               {t(locale, detailPageCopy.descriptionTitle)}
             </h2>
-            <div className="mt-6 space-y-4 text-base leading-relaxed text-on-primary-container sm:mt-8 sm:text-lg lg:mt-10">
-              {descriptionParagraphs.length > 0 ? (
-                descriptionParagraphs.map((item) => <p key={item}>{item}</p>)
+            <div className="mt-5 sm:mt-6">
+              {detailHighlights.length > 0 ? (
+                <ul className="grid gap-2.5 sm:gap-3 lg:grid-cols-2">
+                  {detailHighlights.map((item, index) => (
+                    <li key={`${item}-${index}`} className="rounded-lg border border-white/15 bg-white/[0.08] px-3.5 py-3 sm:px-4">
+                      <div className="flex items-start gap-2.5">
+                        <span className="inline-flex h-5 min-w-5 items-center justify-center rounded-full bg-primary-fixed px-1 text-[10px] font-bold leading-none text-primary">
+                          {String(index + 1).padStart(2, "0")}
+                        </span>
+                        <p className="pt-0.5 text-sm leading-relaxed text-on-primary-container sm:text-base">{item}</p>
+                      </div>
+                    </li>
+                  ))}
+                </ul>
               ) : (
-                <p>{t(locale, detailPageCopy.emptyData)}</p>
+                <p className="text-sm leading-relaxed text-on-primary-container sm:text-base">
+                  {t(locale, detailPageCopy.emptyData)}
+                </p>
               )}
             </div>
           </div>
         </section>
 
         <section className="mt-14 sm:mt-16 lg:mt-24">
-          <div className="mb-8 max-w-2xl sm:mb-10 lg:mb-12">
+          <div className="mb-6 max-w-2xl sm:mb-8 lg:mb-10">
             <span className="font-label text-xs font-bold uppercase tracking-widest text-secondary sm:text-sm">
               {t(locale, detailPageCopy.summaryTitle)}
             </span>
@@ -404,20 +423,34 @@ export default async function ProductDetailPage({
               {t(locale, detailPageCopy.attributesTitle)}
             </h2>
           </div>
-          <div className="grid gap-4 sm:gap-6 md:grid-cols-2">
+          <div className="overflow-hidden rounded-2xl border border-outline-variant/25 bg-surface-container-lowest">
             {attributes.length > 0 ? (
-              attributes.map((item, index) => (
-                <div key={`${getPairLabel(locale, item)}-${index}`} className="rounded-xl bg-surface-container p-5 sm:p-6 lg:p-8">
-                  <p className="font-label text-xs font-bold uppercase tracking-widest text-outline">
-                    {getPairLabel(locale, item) || t(locale, detailPageCopy.emptyData)}
-                  </p>
-                  <p className="mt-3 text-base font-semibold leading-relaxed text-primary sm:text-lg">
-                    {getPairValue(locale, item) || t(locale, detailPageCopy.emptyData)}
-                  </p>
-                </div>
-              ))
+              <div className="divide-y divide-outline-variant/20">
+                {attributeRows.map((row, rowIndex) => (
+                  <div key={`attr-row-${rowIndex}`} className="grid md:grid-cols-2">
+                    {row.map((item, itemIndex) => (
+                      <div
+                        key={`${getPairLabel(locale, item)}-${itemIndex}`}
+                        className={`px-3 py-2.5 sm:px-4 ${
+                          rowIndex % 2 === 0 ? "bg-surface-container-lowest" : "bg-surface-container-low"
+                        } ${itemIndex === 1 ? "md:border-l md:border-outline-variant/20" : ""}`}
+                      >
+                        <p className="font-label text-[10px] font-bold uppercase tracking-[0.12em] text-outline sm:text-[11px]">
+                          {getPairLabel(locale, item) || t(locale, detailPageCopy.emptyData)}
+                        </p>
+                        <p className="mt-1 break-words text-sm font-semibold leading-tight text-primary sm:text-[15px]">
+                          {getPairValue(locale, item) || t(locale, detailPageCopy.emptyData)}
+                        </p>
+                      </div>
+                    ))}
+                    {row.length === 1 ? (
+                      <div className="hidden md:block md:border-l md:border-outline-variant/20" />
+                    ) : null}
+                  </div>
+                ))}
+              </div>
             ) : (
-              <div className="rounded-xl bg-surface-container p-5 sm:p-6 lg:p-8">
+              <div className="px-4 py-3 sm:px-5 sm:py-4">
                 <p className="text-base text-on-surface-variant">{t(locale, detailPageCopy.emptyData)}</p>
               </div>
             )}
@@ -425,25 +458,39 @@ export default async function ProductDetailPage({
         </section>
 
         <section className="mt-14 sm:mt-16 lg:mt-24">
-          <div className="mb-8 max-w-2xl sm:mb-10 lg:mb-12">
+          <div className="mb-6 max-w-2xl sm:mb-8 lg:mb-10">
             <h2 className="font-headline text-3xl font-extrabold tracking-tighter text-primary sm:text-4xl lg:text-5xl">
               {t(locale, detailPageCopy.packagingTitle)}
             </h2>
           </div>
-          <div className="grid gap-4 sm:gap-6 md:grid-cols-2">
+          <div className="overflow-hidden rounded-2xl border border-outline-variant/25 bg-surface-container">
             {packaging.length > 0 ? (
-              packaging.map((item, index) => (
-                <div key={`${getPairLabel(locale, item)}-${index}`} className="rounded-xl bg-surface-container-highest p-5 sm:p-6 lg:p-8">
-                  <p className="font-label text-xs font-bold uppercase tracking-widest text-outline">
-                    {getPairLabel(locale, item) || t(locale, detailPageCopy.emptyData)}
-                  </p>
-                  <p className="mt-3 text-base font-semibold leading-relaxed text-primary sm:text-lg">
-                    {getPairValue(locale, item) || t(locale, detailPageCopy.emptyData)}
-                  </p>
-                </div>
-              ))
+              <div className="divide-y divide-outline-variant/20">
+                {packagingRows.map((row, rowIndex) => (
+                  <div key={`pack-row-${rowIndex}`} className="grid md:grid-cols-2">
+                    {row.map((item, itemIndex) => (
+                      <div
+                        key={`${getPairLabel(locale, item)}-${itemIndex}`}
+                        className={`px-3 py-2.5 sm:px-4 ${
+                          rowIndex % 2 === 0 ? "bg-surface-container" : "bg-surface-container-high"
+                        } ${itemIndex === 1 ? "md:border-l md:border-outline-variant/20" : ""}`}
+                      >
+                        <p className="font-label text-[10px] font-bold uppercase tracking-[0.12em] text-outline sm:text-[11px]">
+                          {getPairLabel(locale, item) || t(locale, detailPageCopy.emptyData)}
+                        </p>
+                        <p className="mt-1 break-words text-sm font-semibold leading-tight text-primary sm:text-[15px]">
+                          {getPairValue(locale, item) || t(locale, detailPageCopy.emptyData)}
+                        </p>
+                      </div>
+                    ))}
+                    {row.length === 1 ? (
+                      <div className="hidden md:block md:border-l md:border-outline-variant/20" />
+                    ) : null}
+                  </div>
+                ))}
+              </div>
             ) : (
-              <div className="rounded-xl bg-surface-container-highest p-5 sm:p-6 lg:p-8">
+              <div className="px-4 py-3 sm:px-5 sm:py-4">
                 <p className="text-base text-on-surface-variant">{t(locale, detailPageCopy.emptyData)}</p>
               </div>
             )}

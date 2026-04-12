@@ -25,18 +25,18 @@
   },
   "summary": {
     "zh": "该产品为塑料管材，主要材质为PP，适用于电池护套等应用场景，支持规格定制与批量供货。",
-    "en": "This plastic tube is primarily made from PP and is suitable for protection, covering, and connection applications. Custom dimensions and bulk supply are supported."
+    "en": "This plastic tube is primarily made from PP and is suitable for protection, covering, and connection applications."
   },
   "description": {
     "zh": [
-      "塑料管材面向工业与消费品配套场景，可用于防护、包覆、导向和连接等需求。",
-      "主要材质为PP，可按项目要求匹配尺寸、壁厚、长度和结构形式，适配不同应用工况。",
-      "包装与交付可按需求配置（如重量(g) 3），支持稳定供货与长期项目协同。"
+      "该产品为塑料管材，主要材质为PP，适用于电池护套等应用场景，支持规格定制与批量供货。",
+      "塑料管材面向工业与消费品配套场景，可用于防护，包覆，导向和连接等需求。",
+      "关键参数包括产品类型pp管、原料牌号20171211、应用领域电池护套。"
     ],
     "en": [
+      "This plastic tube is primarily made from PP and is suitable for protection, covering, and connection applications.",
       "This plastic tube is designed for industrial and consumer assembly programs requiring protection, covering, guidance, and connection functions.",
-      "The primary material is PP, and dimensions such as outer diameter, wall thickness, length, and profile form can be aligned to project requirements.",
-      "Packaging and delivery can be configured as needed (for example: Weight (g) 3), supporting stable supply and long-term project coordination."
+      "Key specs include Product Type: Pp; Material Grade: 20171211; Application: Refer to Chinese value."
     ]
   },
   "priceTiers": [
@@ -150,11 +150,11 @@
     }
   ],
   "images": [
-    "./images/image-001.jpg",
-    "./images/image-002.jpg",
-    "./images/image-003.jpg",
-    "./images/image-004.jpg",
-    "./images/image-005.jpg"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/tubes/558021230257/images/image-001.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/tubes/558021230257/images/image-002.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/tubes/558021230257/images/image-003.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/tubes/558021230257/images/image-004.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/tubes/558021230257/images/image-005.jpg"
   ],
   "videos": [],
   "sourceUrl": "https://detail.1688.com/offer/558021230257.html"

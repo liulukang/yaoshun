@@ -44,19 +44,21 @@
     "en": "Fort Building Kit Large Construction Set"
   },
   "summary": {
-    "zh": "这是一款儿童大型堡垒拼搭套装，采用PP结构件，适用于家庭互动、课堂活动和创意搭建场景。\n\n品牌为尧顺，产地中国东莞，支持跨境供货，适合围绕帐篷与房屋主题进行组合搭建。",
-    "en": "This is a large fort construction set for children, built with PP structural parts and suitable for family interaction, classroom activities, and creative building scenarios.\n\nBrand: Yaoshun. Origin: Dongguan, China. It supports cross-border supply and is suitable for tent- and house-themed modular construction."
+    "zh": "这是一款儿童大型堡垒拼搭套装，采用PP结构件，适用于家庭互动、课堂活动和创意搭建场景。",
+    "en": "This is a large fort construction set for children, built with PP structural parts and suitable for family interaction, classroom activities, and creative building scenarios."
   },
   "description": {
     "zh": [
-      "该款Fort Building Kit大型堡垒拼搭套装采用拼插结构设计，可围绕帐篷、房屋和互动空间进行多形态组合，适合持续创意构建。",
-      "产品适用于亲子互动、课程教具和活动空间布置，支持多次拆装与重复使用，可用于空间认知和协作训练场景。",
-      "包装为彩盒，规格2M，单套重量参数明确，便于渠道上架、仓配管理和项目采购。"
+      "这是一款儿童大型堡垒拼搭套装，采用PP结构件，适用于家庭互动、课堂活动和创意搭建场景。",
+      "该款FortBuildingKit大型堡垒拼搭套装采用拼插结构设计，可围绕帐篷，房屋和互动空间进行多形态组合。",
+      "产品适用于亲子互动，课程教具和活动空间布置，支持多次拆装与重复使用，可用于空间认知和协作训练场景。",
+      "关键参数包括内帐材料PP、帐底材质PP、拼砌玩具类型拆装房子。"
     ],
     "en": [
-      "This Fort Building Kit large construction set uses an interlocking structure and supports multiple layouts around tents, houses, and interactive spaces for continuous creative play.",
-      "It is suitable for parent-child interaction, educational props, and event-space setup, with repeatable assembly for spatial learning and collaborative activities.",
-      "The set uses color-box packaging with a 2M specification and clear unit-weight data, making it suitable for channel listing, warehouse operations, and project procurement."
+      "This is a large fort construction set for children, built with PP structural parts and suitable for family interaction, classroom activities.",
+      "This Fort Building Kit large construction set uses an interlocking structure and supports multiple layouts around tents, houses.",
+      "It is suitable for parent-child interaction, educational props, and event-space setup.",
+      "Key specs include 3C Category: Wooden Toys for Under 14; Inner Tent Material: PP; Material: PP."
     ]
   },
   "priceTiers": [
@@ -223,17 +225,17 @@
     }
   ],
   "images": [
-    "./images/image-001.jpg",
-    "./images/image-002.jpg",
-    "./images/image-003.jpg",
-    "./images/image-004.jpg",
-    "./images/image-005.jpg",
-    "./images/image-006.jpg",
-    "./images/image-022.jpg"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/787633833720/images/image-001.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/787633833720/images/image-002.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/787633833720/images/image-003.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/787633833720/images/image-004.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/787633833720/images/image-005.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/787633833720/images/image-006.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/787633833720/images/image-022.jpg"
   ],
   "videos": [
-    "./videos/video-001.mp4",
-    "./videos/video-002.mp4"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/787633833720/videos/video-001.mp4",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/787633833720/videos/video-002.mp4"
   ],
   "sourceUrl": "https://detail.1688.com/offer/787633833720.html"
 }

@@ -39,19 +39,23 @@
     "en": "Customer-exclusive DIY Fort Building Set"
   },
   "summary": {
-    "zh": "这是一款面向客户专享渠道的DIY帐篷堡垒拼搭套装，适用于家庭互动、课程活动和创意空间搭建，支持多规格组合。\n\n产品材质为塑料/塑胶，含外观设计相关专利字段，产地东莞茶山，适合按渠道需求进行规格分层供货。",
-    "en": "This is a customer-exclusive DIY fort building set designed for family interaction, activity classes, and creative space setup, with multiple specification options.\n\nMaterial: plastic. It includes appearance-design patent information and is produced in Chashan, Dongguan, suitable for tiered channel supply by specification."
+    "zh": "这是一款面向客户专享渠道的DIY帐篷堡垒拼搭套装，适用于家庭互动、课程活动和创意空间搭建，支持多规格组合。",
+    "en": "This is a customer-exclusive DIY fort building set designed for family interaction, activity classes, and creative space setup, with multiple specification options."
   },
   "description": {
     "zh": [
-      "该款客户专享DIY帐篷堡垒拼搭套装采用插珠式结构，可搭建帐篷、堡垒和互动游戏空间，适合儿童创意拼搭场景。",
-      "产品提供多档体积、尺寸与重量参数，便于渠道根据价格带和玩法定位配置不同SKU。材质为塑料/塑胶，支持重复拆装和组合重构。",
-      "商品采用彩盒包装，规格详情可咨询客服，适用于电商上架、跨境分销和项目型采购。"
+      "这是一款面向客户专享渠道的DIY帐篷堡垒拼搭套装，适用于家庭互动、课程活动和创意空间搭建，支持多规格组合。",
+      "该款客户专享DIY帐篷堡垒拼搭套装采用插珠式结构，可搭建帐篷，堡垒和互动游戏空间，适合儿童创意拼搭场景。",
+      "产品提供多档体积，尺寸与重量参数，便于渠道根据价格带和玩法定位配置不同SKU，材质为塑料/塑胶。",
+      "关键参数包括产品类型客户专享DIY帐篷堡垒拼搭玩具、材质塑料/塑胶、拼砌玩具类型其它。",
+      "包装参数支持包装方式彩盒、包装体积(cm³)7800 / 11696 / 12298 / 14850。"
     ],
     "en": [
-      "This customer-exclusive DIY fort set uses a bead-based structure to build tents, forts, and interactive play spaces for children’s creative construction scenarios.",
-      "Multiple volume, size, and weight options are provided so channels can configure different SKUs by pricing tier and play positioning. The plastic material supports repeated assembly and reconfiguration.",
-      "The item is packed in a color box and detailed variant specifications are available via customer service, suitable for e-commerce listing, cross-border distribution, and project procurement."
+      "This is a customer-exclusive DIY fort building set designed for family interaction, activity classes, and creative space setup, with multiple specification options.",
+      "This is a customer-exclusive DIY fort building set designed for family interaction, activity classes, and creative space setup.",
+      "This customer-exclusive DIY fort set uses a bead-based structure to build tents, forts.",
+      "Multiple volume, size, and weight options are provided so channels can configure different SKUs by pricing tier and play positioning.",
+      "Key specs include Product Type: Customer-exclusive DIY Fort Building Toy; Material: Plastic; Construction Type: Other Construction Type."
     ]
   },
   "priceTiers": [
@@ -282,22 +286,22 @@
     }
   ],
   "images": [
-    "./images/image-001.jpg",
-    "./images/image-002.jpg",
-    "./images/image-003.jpg",
-    "./images/image-004.jpg",
-    "./images/image-005.jpg",
-    "./images/image-006.jpg",
-    "./images/image-007.jpg",
-    "./images/image-008.jpg",
-    "./images/image-009.jpg",
-    "./images/image-010.jpg",
-    "./images/image-011.jpg",
-    "./images/image-012.jpg",
-    "./images/image-013.jpg"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/996665252600/images/image-001.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/996665252600/images/image-002.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/996665252600/images/image-003.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/996665252600/images/image-004.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/996665252600/images/image-005.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/996665252600/images/image-006.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/996665252600/images/image-007.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/996665252600/images/image-008.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/996665252600/images/image-009.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/996665252600/images/image-010.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/996665252600/images/image-011.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/996665252600/images/image-012.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/996665252600/images/image-013.jpg"
   ],
   "videos": [
-    "./videos/video-001.mp4"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/996665252600/videos/video-001.mp4"
   ],
   "sourceUrl": "https://detail.1688.com/offer/996665252600.html"
 }

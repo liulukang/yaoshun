@@ -49,19 +49,23 @@
     "en": "DIY Fort Castle Building Block Set"
   },
   "summary": {
-    "zh": "这是一款面向7-14岁儿童的DIY拼插城堡帐篷积木套装，采用PP材质与大颗粒结构，强调拼装、搭建和脑力开发等互动玩法。\n\n品牌为LONDY，支持多场景拼插组合，适用于家庭互动、兴趣活动与课程化益智训练。",
-    "en": "This is a DIY fort-and-castle building block set for children aged 7-14. It uses PP material and a large-block structure, focusing on assembly play, building interaction, and cognitive development activities.\n\nBrand: LONDY. The set supports multiple build combinations and is suitable for family interaction, hobby sessions, and structured educational play."
+    "zh": "这是一款DIY拼插城堡帐篷积木套装，采用PP材质与大颗粒结构，强调拼装、搭建和脑力开发等互动玩法。",
+    "en": "This is a DIY fort-and-castle building block set using PP material and a large-block structure, focusing on assembly play, building interaction, and cognitive development activities."
   },
   "description": {
     "zh": [
-      "该款DIY拼插城堡帐篷积木套装以大颗粒拼插结构为核心，支持多种形态搭建。孩子可围绕城堡、帐篷与通道主题进行自由组合，形成连续的创意构建体验。",
-      "产品面向7-14岁儿童，玩法覆盖拼装、组装、拼插与益智训练。可用于家庭互动、兴趣课程和团队协作活动，帮助提升空间认知与动手能力。",
-      "包装采用彩盒，配套多尺寸杆件与连接球，便于做标准化出货和渠道陈列。适合常规零售及活动场景使用。"
+      "这是一款DIY拼插城堡帐篷积木套装，采用PP材质与大颗粒结构，强调拼装、搭建和脑力开发等互动玩法。",
+      "该款DIY拼插城堡帐篷积木套装以大颗粒拼插结构为核心，支持多种形态搭建，孩子可围绕城堡。",
+      "包装采用彩盒，配套多尺寸杆件与连接球，便于做标准化出货和渠道陈列，适合常规零售及活动场景使用。",
+      "关键参数包括产品类型DIY拼插城堡帐篷积木、材质PP、功能拼装、组装、DIY、益智、拼插、搭建、脑力开发、智能拼装。",
+      "包装参数支持包装方式彩盒、杆子尺寸42.5cm/28.3cm/12cm/7.5cm。"
     ],
     "en": [
-      "This DIY fort-and-castle building set uses a large interlocking block structure and supports multiple build forms. Children can freely create castle, tent, and tunnel themes for continuous creative construction play.",
-      "Designed for ages 7-14, the play modes include assembly, interlocking, and educational building activities. It fits family interaction, hobby classes, and team-based activities, helping improve spatial understanding and hands-on skills.",
-      "The product is packed in a color box and includes rods in multiple sizes with connector balls, which supports standardized shipping and channel display. It is suitable for both regular retail and event-based play scenarios."
+      "This is a DIY fort-and-castle building block set using PP material and a large-block structure, focusing on assembly play, building interaction.",
+      "This DIY fort-and-castle building set uses a large interlocking block structure and supports multiple build forms.",
+      "Designed for ages 7-14, the play modes include assembly, interlocking, and educational building activities.",
+      "Key specs include Product Type: DIY Fort Castle Building Blocks; Material: PP; Functions: Assembly, DIY, interlocking, construction, and cognitive development play.",
+      "Packaging supports Packaging: Color Box; Rod Sizes: 42.5 cm / 28.3 cm / 12 cm / 7.5 cm."
     ]
   },
   "priceTiers": [
@@ -265,15 +269,15 @@
     }
   ],
   "images": [
-    "./images/image-001.jpg",
-    "./images/image-002.jpg",
-    "./images/image-003.jpg",
-    "./images/image-004.jpg",
-    "./images/image-005.jpg",
-    "./images/image-006.jpg"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/1038876670686/images/image-001.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/1038876670686/images/image-002.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/1038876670686/images/image-003.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/1038876670686/images/image-004.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/1038876670686/images/image-005.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/1038876670686/images/image-006.jpg"
   ],
   "videos": [
-    "./videos/video-001.mp4"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/1038876670686/videos/video-001.mp4"
   ],
   "sourceUrl": "https://detail.1688.com/offer/1038876670686.html"
 }

@@ -1,4 +1,5 @@
-import {companyProfile, pageLabels, products} from '@/content/site';
+import {companyProfile, pageLabels} from '@/content/site';
+import {products} from '@/content/site/products.server';
 import {localeRegistry, t, type Locale} from '@/lib/i18n';
 import {localizedPath} from '@/lib/routes';
 import {siteUrl, toAbsoluteUrl} from '@/lib/site-config';
@@ -9,6 +10,11 @@ type StructuredDataProps = {
 
 export function StructuredData({data}: StructuredDataProps) {
   return <script dangerouslySetInnerHTML={{__html: JSON.stringify(data)}} type="application/ld+json" />;
+}
+
+function localizeProductTitle(locale: Locale, value: Partial<Record<Locale, string>> | undefined, fallback: string): string {
+  if (!value) return fallback;
+  return value[locale] || value.en || value.zh || fallback;
 }
 
 export function SiteStructuredData({locale}: {locale: Locale}) {
@@ -46,11 +52,13 @@ export function SiteStructuredData({locale}: {locale: Locale}) {
       '@type': 'OfferCatalog',
       name: t(locale, pageLabels.products),
       url: localizedProducts,
-      itemListElement: products.map((product) => ({
-        '@type': 'ListItem',
-        name: t(locale, product.title),
-        url: `${siteUrl}${localizedPath(locale, 'products')}/${product.slug}`
-      }))
+      itemListElement: products
+        .filter((product) => Boolean(product.offerId))
+        .map((product) => ({
+          '@type': 'ListItem',
+          name: localizeProductTitle(locale, product.title, product.offerId as string),
+          url: `${siteUrl}${localizedPath(locale, 'products')}/${product.offerId}`
+        }))
     },
     contactPoint: [
       {

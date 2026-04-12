@@ -8,16 +8,11 @@
     "build": "next build --webpack",
     "start": "next start",
     "lint": "eslint .",
-    "typecheck": "next typegen && rm -f tsconfig.tsbuildinfo && tsc --noEmit",
-    "products:1688:compact": "node scripts/compact-1688-products.mjs",
-    "products:1688:generate": "node scripts/import-1688-archives.mjs",
-    "scrape:1688": "node scripts/scrape-1688-details.mjs",
-    "scrape:1688:install-browser": "playwright install chromium",
-    "scrape:1688:login": "node scripts/create-1688-storage-state.mjs",
-    "scrape:1688:status": "node scripts/build-1688-sync-status.mjs"
+    "typecheck": "next typegen && rm -f tsconfig.tsbuildinfo && tsc --noEmit"
   },
   "dependencies": {
     "@vercel/analytics": "^1.5.0",
+    "@vercel/blob": "^2.3.3",
     "lucide-react": "^0.542.0",
     "next": "16.2.2",
     "nodemailer": "^8.0.5",

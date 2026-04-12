@@ -39,19 +39,23 @@
     "en": "YS Kids DIY Fort Building Set"
   },
   "summary": {
-    "zh": "这是一款面向儿童创意拼搭场景的DIY插珠帐篷套装，采用杆件与连接球结构，可组合搭建帐篷、城堡与通道造型，适合亲子互动与课堂活动。\n\n品牌为尧顺，材质为PP，产地东莞茶山，包含专利申请时间信息，支持渠道长期供货。",
-    "en": "This is a DIY fort-building set for kids’ creative construction scenarios. It uses rods and connector balls to build tents, castles, and tunnel-like shapes for parent-child interaction and classroom activities.\n\nBrand: Yaoshun. Material: PP. Origin: Chashan, Dongguan. Patent filing date information is included for channel documentation and long-term supply."
+    "zh": "这是一款面向儿童创意拼搭场景的DIY插珠帐篷套装，采用杆件与连接球结构，可组合搭建帐篷、城堡与通道造型，适合亲子互动与课堂活动。",
+    "en": "This is a DIY fort-building set for kids’ creative construction scenarios."
   },
   "description": {
     "zh": [
-      "该款YS儿童DIY插珠帐篷拼搭套装采用“杆件+连接球”结构，支持搭建帐篷、房屋和堡垒等多种形态，适合家庭与教学场景中的互动玩法。",
-      "产品主材为PP，支持反复拆装和重构，能够用于空间认知、动手训练与亲子协作活动。品牌为尧顺，应用场景覆盖零售与教育配套。",
-      "商品采用彩盒包装，规格为绿色杆子86+44橙色球，并保留专利申请时间等资料字段，便于渠道整理与批量采购。"
+      "这是一款面向儿童创意拼搭场景的DIY插珠帐篷套装，采用杆件与连接球结构，可组合搭建帐篷，城堡与通道造型。",
+      "该款YS儿童DIY插珠帐篷拼搭套装采用“杆件+连接球”结构，支持搭建帐篷，房屋和堡垒等多种形态。",
+      "产品主材为PP，支持反复拆装和重构，能够用于空间认知，动手训练与亲子协作活动，应用场景覆盖零售与教育配套。",
+      "关键参数包括产品类型儿童DIY插珠帐篷拼搭玩具、材质PP、拼砌玩具类型拆装房子。",
+      "包装参数支持包装方式彩盒、包装体积(cm³)12298。"
     ],
     "en": [
-      "This YS kids DIY fort set uses a rod-and-connector structure to build tents, houses, and fortress-style shapes, making it suitable for interactive home and educational scenarios.",
-      "The main material is PP and the set supports repeated assembly and reconfiguration for spatial learning, hands-on practice, and parent-child collaboration. Brand: Yaoshun.",
-      "Packed in a color box, the configuration is 86 green rods + 44 orange connector balls. Patent filing date details are retained for channel documentation and bulk procurement workflows."
+      "This is a DIY fort-building set for kids’ creative construction scenarios.",
+      "This YS kids DIY fort set uses a rod-and-connector structure to build tents, houses, and fortress-style shapes.",
+      "The main material is PP and the set supports repeated assembly and reconfiguration for spatial learning, hands-on practice.",
+      "Key specs include Product Type: Kids DIY Fort Building Toy; Material: PP; Construction Type: Build-and-Rebuild House.",
+      "Packaging supports Packaging: Color Box; Package Volume (cm³): 12298."
     ]
   },
   "priceTiers": [
@@ -255,15 +259,15 @@
     }
   ],
   "images": [
-    "./images/image-001.jpg",
-    "./images/image-002.jpg",
-    "./images/image-003.jpg",
-    "./images/image-004.jpg",
-    "./images/image-005.jpg",
-    "./images/image-006.jpg"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/861495406277/images/image-001.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/861495406277/images/image-002.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/861495406277/images/image-003.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/861495406277/images/image-004.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/861495406277/images/image-005.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/861495406277/images/image-006.jpg"
   ],
   "videos": [
-    "./videos/video-001.mp4"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/861495406277/videos/video-001.mp4"
   ],
   "sourceUrl": "https://detail.1688.com/offer/861495406277.html"
 }

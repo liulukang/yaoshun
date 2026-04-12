@@ -30,18 +30,18 @@
   },
   "summary": {
     "zh": "该产品为TPU管材，主要材质为TPU，适用于电线护套等应用场景，支持规格定制与批量供货。",
-    "en": "This tpu tube is primarily made from TPU and is suitable for elastic protection and flow routing applications. Custom dimensions and bulk supply are supported."
+    "en": "This tpu tube is primarily made from TPU and is suitable for elastic protection and flow routing applications."
   },
   "description": {
     "zh": [
-      "TPU管材面向工业与消费品配套场景，可用于防护、包覆、导向和连接等需求。",
-      "主要材质为TPU，可按项目要求匹配尺寸、壁厚、长度和结构形式，适配不同应用工况。",
-      "包装与交付可按需求配置（如重量(g) 900），支持稳定供货与长期项目协同。"
+      "该产品为TPU管材，主要材质为TPU，适用于电线护套等应用场景，支持规格定制与批量供货。",
+      "TPU管材面向工业与消费品配套场景，可用于防护，包覆，导向和连接等需求。",
+      "关键参数包括产品类型tpu弹簧管、原料牌号85、应用领域电线护套。"
     ],
     "en": [
+      "This tpu tube is primarily made from TPU and is suitable for elastic protection and flow routing applications.",
       "This tpu tube is designed for industrial and consumer assembly programs requiring protection, covering, guidance, and connection functions.",
-      "The primary material is TPU, and dimensions such as outer diameter, wall thickness, length, and profile form can be aligned to project requirements.",
-      "Packaging and delivery can be configured as needed (for example: Weight (g) 900), supporting stable supply and long-term project coordination."
+      "Key specs include Product Type: TPU; Material Grade: 85; Application: Cable Sleeve."
     ]
   },
   "priceTiers": [
@@ -145,11 +145,11 @@
     }
   ],
   "images": [
-    "./images/image-001.jpg",
-    "./images/image-002.jpg",
-    "./images/image-003.jpg",
-    "./images/image-004.jpg",
-    "./images/image-005.jpg"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/tubes/602444039988/images/image-001.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/tubes/602444039988/images/image-002.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/tubes/602444039988/images/image-003.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/tubes/602444039988/images/image-004.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/tubes/602444039988/images/image-005.jpg"
   ],
   "videos": [],
   "sourceUrl": "https://detail.1688.com/offer/602444039988.html"

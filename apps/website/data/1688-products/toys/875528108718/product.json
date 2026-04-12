@@ -39,19 +39,21 @@
     "en": "DIY Bead Fort Castle Building Set"
   },
   "summary": {
-    "zh": "这是一款面向儿童DIY拼搭场景的插珠帐篷城堡积木套装，适用于家庭互动、课堂活动与主题展示空间，可进行多次拆装重构。\n\n品牌为尧顺，产地中国东莞茶山，支持加工定制，适合常规渠道供货与活动配套。",
-    "en": "This is a DIY bead-fort castle set for children’s construction scenarios. It fits family interaction, classroom activities, and themed display spaces with repeatable assembly and reconfiguration.\n\nBrand: Yaoshun. Origin: Chashan, Dongguan, China. Custom processing is supported for regular channel supply and activity projects."
+    "zh": "这是一款面向儿童DIY拼搭场景的插珠帐篷城堡积木套装，适用于家庭互动、课堂活动与主题展示空间，可进行多次拆装重构。",
+    "en": "This is a DIY bead-fort castle set for children’s construction scenarios."
   },
   "description": {
     "zh": [
-      "该款DIY插珠帐篷城堡拼搭积木套装采用杆件与连接球组合结构，可搭建帐篷、城堡与游戏空间，适用于儿童创意拼搭与互动活动。",
-      "产品支持加工定制与重复拆装，能够按渠道需求进行组合配置。品牌为尧顺，定位儿童拼搭玩具及教学互动场景使用。",
-      "商品采用彩盒包装，包装重量2300g，积木净重0.05KG，规格YG100PCS，适合电商和渠道批量采购。"
+      "这是一款面向儿童DIY拼搭场景的插珠帐篷城堡积木套装，适用于家庭互动、课堂活动与主题展示空间，可进行多次拆装重构。",
+      "这是一款面向儿童DIY拼搭场景的插珠帐篷城堡积木套装，适用于家庭互动，课堂活动与主题展示空间。",
+      "该款DIY插珠帐篷城堡拼搭积木套装采用杆件与连接球组合结构，可搭建帐篷，城堡与游戏空间。",
+      "产品支持加工定制与重复拆装，能够按渠道需求进行组合配置，定位儿童拼搭玩具及教学互动场景使用。"
     ],
     "en": [
-      "This DIY bead fort castle set uses a rod-and-connector system to build tents, castles, and play spaces for children’s creative construction and interactive activities.",
-      "The product supports custom processing and repeated assembly, allowing flexible configuration for channel needs. Brand: Yaoshun, positioned for kids construction play and educational interaction scenarios.",
-      "Packed in a color box with a 2300g package weight, 0.05kg net block weight, and YG100PCS specification, it is suitable for e-commerce and channel bulk procurement."
+      "This is a DIY bead-fort castle set for children’s construction scenarios.",
+      "This DIY bead fort castle set uses a rod-and-connector system to build tents, castles.",
+      "The product supports custom processing and repeated assembly.",
+      "Key specs include Product Type: DIY Bead Fort Castle Toy; Function: DIY; Custom Processing: Yes."
     ]
   },
   "priceTiers": [
@@ -238,14 +240,14 @@
     }
   ],
   "images": [
-    "./images/image-002.jpg",
-    "./images/image-003.jpg",
-    "./images/image-004.jpg",
-    "./images/image-005.jpg",
-    "./images/image-006.jpg"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/875528108718/images/image-002.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/875528108718/images/image-003.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/875528108718/images/image-004.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/875528108718/images/image-005.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/875528108718/images/image-006.jpg"
   ],
   "videos": [
-    "./videos/video-001.mp4"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/875528108718/videos/video-001.mp4"
   ],
   "sourceUrl": "https://detail.1688.com/offer/875528108718.html"
 }

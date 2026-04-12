@@ -243,17 +243,17 @@ export const companyProfile = {
 };
 
 export const visualAssets = {
-  companyHero: "/api/1688-products/601805200838/images/image-002.jpg",
-  factoryHero: "/api/1688-products/557976337753/images/image-001.jpg",
-  factoryFloor: "/api/1688-products/559936687910/images/image-001.jpg",
-  toyLearning: "/api/1688-products/841781121486/images/image-001.jpg",
-  profileSeries: "/api/1688-products/602308826913/images/image-001.jpg",
-  engineeringSupport: "/api/1688-products/805276190504/images/image-001.jpg",
-  rdLab: "/api/1688-products/633575053030/images/image-002.jpg",
-  craftsmanship: "/api/1688-products/861495406277/images/image-001.jpg",
-  complianceLab: "/api/1688-products/868461818446/images/image-001.jpg",
-  oemWorkflow: "/api/1688-products/850300052500/images/image-001.jpg",
-  projectEngineering: "/api/1688-products/633568985797/images/image-001.jpg",
+  companyHero: "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/601805200838/images/image-002.jpg",
+  factoryHero: "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/tubes/557976337753/images/image-001.jpg",
+  factoryFloor: "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/tubes/559936687910/images/image-001.jpg",
+  toyLearning: "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/841781121486/images/image-001.jpg",
+  profileSeries: "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/tubes/602308826913/images/image-001.jpg",
+  engineeringSupport: "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/tubes/805276190504/images/image-001.jpg",
+  rdLab: "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/tubes/633575053030/images/image-002.jpg",
+  craftsmanship: "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/861495406277/images/image-001.jpg",
+  complianceLab: "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/868461818446/images/image-001.jpg",
+  oemWorkflow: "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/850300052500/images/image-001.jpg",
+  projectEngineering: "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/tubes/633568985797/images/image-001.jpg",
 } as const;
 
 export const siteStats = [

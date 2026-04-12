@@ -30,18 +30,20 @@
   },
   "summary": {
     "zh": "该产品为塑料管材，主要材质为PTFE/ETFE，适用于电线护套等应用场景，支持规格定制与批量供货。",
-    "en": "This plastic tube is primarily made from PTFE/ETFE and is suitable for protection, covering, and connection applications. Custom dimensions and bulk supply are supported."
+    "en": "This plastic tube is primarily made from PTFE/ETFE and is suitable for protection, covering, and connection applications."
   },
   "description": {
     "zh": [
-      "塑料管材面向工业与消费品配套场景，可用于防护、包覆、导向和连接等需求。",
-      "主要材质为PTFE/ETFE，可按项目要求匹配尺寸、壁厚、长度和结构形式，适配不同应用工况。",
-      "包装与交付可按需求配置（如重量(g) 70），支持稳定供货与长期项目协同。"
+      "该产品为塑料管材，主要材质为PTFE/ETFE，适用于电线护套等应用场景，支持规格定制与批量供货。",
+      "塑料管材面向工业与消费品配套场景，可用于防护，包覆，导向和连接等需求。",
+      "关键参数包括公称压力30（Mpa）、公称外径-20MM（mm）、厂商尧顺。",
+      "包装参数支持重量(g)70。"
     ],
     "en": [
+      "This plastic tube is primarily made from PTFE/ETFE and is suitable for protection, covering, and connection applications.",
       "This plastic tube is designed for industrial and consumer assembly programs requiring protection, covering, guidance, and connection functions.",
-      "The primary material is PTFE/ETFE, and dimensions such as outer diameter, wall thickness, length, and profile form can be aligned to project requirements.",
-      "Packaging and delivery can be configured as needed (for example: Weight (g) 70), supporting stable supply and long-term project coordination."
+      "Key specs include Nominal Pressure: 30（mpa）; Nominal Outer Diameter: -20mm（mm）; Manufacturer: Yaoshun.",
+      "Packaging supports Weight (g): 70."
     ]
   },
   "priceTiers": [
@@ -188,15 +190,15 @@
     }
   ],
   "images": [
-    "./images/image-001.jpg",
-    "./images/image-002.jpg",
-    "./images/image-003.jpg",
-    "./images/image-004.jpg",
-    "./images/image-005.jpg",
-    "./images/image-006.jpg"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/tubes/805276190504/images/image-001.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/tubes/805276190504/images/image-002.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/tubes/805276190504/images/image-003.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/tubes/805276190504/images/image-004.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/tubes/805276190504/images/image-005.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/tubes/805276190504/images/image-006.jpg"
   ],
   "videos": [
-    "./videos/video-001.mp4"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/tubes/805276190504/videos/video-001.mp4"
   ],
   "sourceUrl": "https://detail.1688.com/offer/805276190504.html"
 }

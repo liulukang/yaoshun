@@ -39,19 +39,21 @@
     "en": "DIY Glow Fort Building Block Set"
   },
   "summary": {
-    "zh": "这是一款面向儿童创意拼搭场景的DIY插珠帐篷夜光套装，支持多功能拼接与自由搭建，适合家庭互动、课堂活动和主题布景使用。\n\n品牌为尧顺，产地东莞，支持DIY玩法与导购视频展示，包装规格清晰，便于渠道上架与采购。",
-    "en": "This is a DIY glow fort set for children’s creative construction scenarios. It supports multi-functional assembly and free-form building, suitable for home interaction, classroom activities, and themed display setups.\n\nBrand: Yaoshun. Origin: Dongguan. DIY play and guide video support are available, and packaging dimensions are clearly defined for channel listing and procurement."
+    "zh": "这是一款面向儿童创意拼搭场景的DIY插珠帐篷夜光套装，支持多功能拼接与自由搭建，适合家庭互动、课堂活动和主题布景使用。",
+    "en": "This is a DIY glow fort set for children’s creative construction scenarios."
   },
   "description": {
     "zh": [
-      "该款DIY插珠帐篷夜光拼搭积木套装采用杆件与连接球结构，可搭建帐篷、堡垒和主题空间，适合亲子互动和创意活动场景。",
-      "产品支持多功能拼装与DIY重构，包含夜光玩法特性，便于在室内活动或展示场景中增强视觉表现。适合动手训练与空间认知类活动。",
-      "商品采用彩盒包装，尺寸为43*26*11cm，杆子尺寸40cm，积木净重2.7KG。适用于零售、电商上架及批量采购。"
+      "这是一款面向儿童创意拼搭场景的DIY插珠帐篷夜光套装，支持多功能拼接与自由搭建，适合家庭互动。",
+      "该款DIY插珠帐篷夜光拼搭积木套装采用杆件与连接球结构，可搭建帐篷，堡垒和主题空间。",
+      "产品支持多功能拼装与DIY重构，包含夜光玩法特性，便于在室内活动或展示场景中增强视觉表现。",
+      "关键参数包括产品类型DIY夜光插珠帐篷拼搭玩具、材质未标注、功能其它。"
     ],
     "en": [
-      "This DIY glow fort block set uses rods and connector balls to build tents, forts, and themed spaces, making it suitable for parent-child interaction and creative activity scenarios.",
-      "It supports multi-functional assembly and DIY reconfiguration, with glow-play characteristics that improve visual presentation in indoor events and display setups. It is suitable for hands-on and spatial-learning activities.",
-      "The product uses color-box packaging with a 43*26*11cm box size, 40cm rod size, and a 2.7kg net block weight, fitting retail, e-commerce listing, and bulk procurement needs."
+      "This is a DIY glow fort set for children’s creative construction scenarios.",
+      "This DIY glow fort block set uses rods and connector balls to build tents, forts, and themed spaces.",
+      "It supports multi-functional assembly and DIY reconfiguration.",
+      "Key specs include Product Type: DIY Glow Fort Building Toy; Material: Not Specified; Function: Other."
     ]
   },
   "priceTiers": [
@@ -238,17 +240,17 @@
     }
   ],
   "images": [
-    "./images/image-001.jpg",
-    "./images/image-002.jpg",
-    "./images/image-003.jpg",
-    "./images/image-004.jpg",
-    "./images/image-005.jpg",
-    "./images/image-006.jpg",
-    "./images/image-007.jpg",
-    "./images/image-008.jpg"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/861323011971/images/image-001.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/861323011971/images/image-002.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/861323011971/images/image-003.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/861323011971/images/image-004.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/861323011971/images/image-005.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/861323011971/images/image-006.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/861323011971/images/image-007.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/861323011971/images/image-008.jpg"
   ],
   "videos": [
-    "./videos/video-001.mp4"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/861323011971/videos/video-001.mp4"
   ],
   "sourceUrl": "https://detail.1688.com/offer/861323011971.html"
 }

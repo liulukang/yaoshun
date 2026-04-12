@@ -30,18 +30,18 @@
   },
   "summary": {
     "zh": "该产品为塑料实心棒材，主要材质为ABS，适用于结构支撑与连接等应用场景，支持规格定制与批量供货。",
-    "en": "This plastic solid rod is primarily made from ABS and is suitable for structural support and connection applications. Custom dimensions and bulk supply are supported."
+    "en": "This plastic solid rod is primarily made from ABS and is suitable for structural support and connection applications."
   },
   "description": {
     "zh": [
-      "塑料实心棒材面向工业与消费品配套场景，可用于防护、包覆、导向和连接等需求。",
-      "主要材质为ABS，可按项目要求匹配尺寸、壁厚、长度和结构形式，适配不同应用工况。",
-      "包装与交付可按需求配置（如单件重量(g) 12），支持稳定供货与长期项目协同。"
+      "该产品为塑料实心棒材，主要材质为ABS，适用于结构支撑与连接等应用场景，支持规格定制与批量供货。",
+      "塑料实心棒材面向工业与消费品配套场景，可用于防护，包覆，导向和连接等需求。",
+      "关键参数包括型号ABS实心条、材料尼龙、加工定制是。"
     ],
     "en": [
+      "This plastic solid rod is primarily made from ABS and is suitable for structural support and connection applications.",
       "This plastic solid rod is designed for industrial and consumer assembly programs requiring protection, covering, guidance, and connection functions.",
-      "The primary material is ABS, and dimensions such as outer diameter, wall thickness, length, and profile form can be aligned to project requirements.",
-      "Packaging and delivery can be configured as needed (for example: Unit Weight (g) 12), supporting stable supply and long-term project coordination."
+      "Key specs include Model: ABS Solid Strip; Material: Nylon; Custom Processing: Yes."
     ]
   },
   "priceTiers": [
@@ -165,11 +165,11 @@
     }
   ],
   "images": [
-    "./images/image-001.jpg",
-    "./images/image-002.jpg",
-    "./images/image-003.jpg",
-    "./images/image-004.jpg",
-    "./images/image-005.jpg"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/tubes/557072788827/images/image-001.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/tubes/557072788827/images/image-002.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/tubes/557072788827/images/image-003.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/tubes/557072788827/images/image-004.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/tubes/557072788827/images/image-005.jpg"
   ],
   "videos": [],
   "sourceUrl": "https://detail.1688.com/offer/557072788827.html"

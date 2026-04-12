@@ -44,19 +44,23 @@
     "en": "Shape Learning Fort Building Set"
   },
   "summary": {
-    "zh": "这是一款图形早教主题的儿童堡垒拼搭套装，采用PP结构件，适用于家庭互动、课堂活动和创意拼插场景。\n\n品牌为尧顺，产地东莞茶山，支持拼插花园等主题搭建玩法。",
-    "en": "This is a shape-learning themed fort construction set for children, made with PP structural parts and suitable for family interaction, classroom activities, and creative interlocking scenarios.\n\nBrand: Yaoshun. Origin: Chashan, Dongguan. It supports themed layouts such as interlocking garden builds."
+    "zh": "这是一款图形早教主题的儿童堡垒拼搭套装，采用PP结构件，适用于家庭互动、课堂活动和创意拼插场景。",
+    "en": "This is a shape-learning themed fort construction set for children, made with PP structural parts and suitable for family interaction, classroom activities, and creative interlocking scenarios."
   },
   "description": {
     "zh": [
-      "该款图形早教堡垒积木拼搭套装采用模块化拼接结构，可用于堡垒、通道和互动空间等多形态搭建，适合儿童持续创意构建。",
-      "产品适用于亲子互动、课堂教具和主题活动场景，通过拼插过程提升图形认知、手眼协调和协作能力。",
-      "包装为彩盒，配套体积与尺寸参数完整，便于渠道上架、仓配管理和项目采购。"
+      "这是一款图形早教主题的儿童堡垒拼搭套装，采用PP结构件，适用于家庭互动、课堂活动和创意拼插场景。",
+      "该款图形早教堡垒积木拼搭套装采用模块化拼接结构，可用于堡垒，通道和互动空间等多形态搭建，适合儿童持续创意构建。",
+      "产品适用于亲子互动，课堂教具和主题活动场景，通过拼插过程提升图形认知，手眼协调和协作能力。",
+      "关键参数包括宽(cm)34、拼砌玩具类型拼插花园、是否有动漫形象否。",
+      "包装参数支持体积(cm³)11696、包装方式彩盒。"
     ],
     "en": [
-      "This shape-learning fort building set uses a modular interlocking structure and supports multiple layouts such as forts, tunnels, and interactive spaces for continuous creative construction play.",
-      "It is suitable for parent-child interaction, classroom props, and themed activities, helping improve shape recognition, hand-eye coordination, and collaborative ability.",
-      "The set uses color-box packaging with complete volume and size data for channel listing, warehouse operations, and project procurement."
+      "This is a shape-learning themed fort construction set for children, made with PP structural parts and suitable for family interaction, classroom activities.",
+      "This is a shape-learning themed fort construction set for children, made with PP structural parts and suitable for family interaction.",
+      "This shape-learning fort building set uses a modular interlocking structure and supports multiple layouts such as forts, tunnels.",
+      "It is suitable for parent-child interaction, classroom props, and themed activities, helping improve shape recognition, hand-eye coordination.",
+      "Key specs include Width (cm): 34; Building Type: Interlocking Garden; Character IP: No."
     ]
   },
   "priceTiers": [
@@ -273,16 +277,16 @@
     }
   ],
   "images": [
-    "./images/image-001.jpg",
-    "./images/image-002.jpg",
-    "./images/image-003.jpg",
-    "./images/image-004.jpg",
-    "./images/image-005.jpg",
-    "./images/image-006.jpg",
-    "./images/image-007.jpg"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/811322476360/images/image-001.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/811322476360/images/image-002.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/811322476360/images/image-003.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/811322476360/images/image-004.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/811322476360/images/image-005.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/811322476360/images/image-006.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/811322476360/images/image-007.jpg"
   ],
   "videos": [
-    "./videos/video-001.mp4"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/811322476360/videos/video-001.mp4"
   ],
   "sourceUrl": "https://detail.1688.com/offer/811322476360.html"
 }

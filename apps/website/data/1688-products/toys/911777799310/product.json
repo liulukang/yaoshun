@@ -39,19 +39,23 @@
     "en": "Educational DIY Kids Castle Fort Set"
   },
   "summary": {
-    "zh": "这是一款面向科教互动场景的DIY儿童城堡帐篷拼搭套装，采用插珠结构支持多形态空间搭建，适用于家庭互动和课程活动。\n\n品牌为尧顺，材质为PP，产地中国大陆，支持LOGO贴牌与加工定制，适合渠道采购。",
-    "en": "This is an educational DIY kids castle-fort building set that uses a bead-based structure for multi-shape spatial construction, suitable for family interaction and activity classes.\n\nBrand: Yaoshun. Material: PP. Origin: Mainland China. It supports logo private labeling and custom processing for channel procurement."
+    "zh": "这是一款面向科教互动场景的DIY儿童城堡帐篷拼搭套装，采用插珠结构支持多形态空间搭建，适用于家庭互动和课程活动。",
+    "en": "This is an educational DIY kids castle-fort building set that uses a bead-based structure for multi-shape spatial construction, suitable for family interaction and activity classes."
   },
   "description": {
     "zh": [
-      "该款科教DIY儿童城堡帐篷拼搭套装支持插珠结构拼装，可搭建帐篷、城堡与通道等空间造型，适合创意互动和课程道具场景。",
-      "产品材质为PP，支持加工定制和LOGO贴牌。品牌为尧顺，可用于亲子互动、课堂活动和渠道化SKU配置。",
-      "商品采用彩盒包装，体积7634.250cm³，外箱参考尺寸40.5 x 29 x 6.5cm，包装重量1800g，适合批量采购。"
+      "这是一款面向科教互动场景的DIY儿童城堡帐篷拼搭套装，采用插珠结构支持多形态空间搭建，适用于家庭互动和课程活动。",
+      "这是一款面向科教互动场景的DIY儿童城堡帐篷拼搭套装，采用插珠结构支持多形态空间搭建。",
+      "该款科教DIY儿童城堡帐篷拼搭套装支持插珠结构拼装，可搭建帐篷，城堡与通道等空间造型。",
+      "产品材质为PP，支持加工定制和LOGO贴牌，可用于亲子互动，课堂活动和渠道化SKU配置。",
+      "关键参数包括产品类型科教DIY儿童城堡帐篷拼搭玩具、塑料材质分类PP、塑料积木类型其他。"
     ],
     "en": [
-      "This educational DIY kids castle-fort set supports bead-based assembly for tents, castle structures, and tunnel-like spatial shapes, suitable for interactive play and class-prop scenarios.",
-      "The product uses PP material and supports custom processing with private-logo labeling. Brand: Yaoshun. It is suitable for parent-child interaction, classroom activities, and channel SKU planning.",
-      "Packed in a color box with a 7634.250cm³ package volume, reference carton size 40.5 x 29 x 6.5cm, and 1800g package weight, the item fits bulk procurement workflows."
+      "This is an educational DIY kids castle-fort building set that uses a bead-based structure for multi-shape spatial construction.",
+      "This educational DIY kids castle-fort set supports bead-based assembly for tents, castle structures, and tunnel-like spatial shapes.",
+      "The product uses PP material and supports custom processing with private-logo labeling.",
+      "Key specs include Product Type: Educational DIY Kids Castle Fort Toy; Plastic Material: PP; Block Type: Other.",
+      "Packaging supports Packaging: Color Box; Package Volume (cm³): 7634.250."
     ]
   },
   "priceTiers": [
@@ -248,15 +252,15 @@
     }
   ],
   "images": [
-    "./images/image-001.jpg",
-    "./images/image-002.jpg",
-    "./images/image-003.jpg",
-    "./images/image-004.jpg",
-    "./images/image-005.jpg",
-    "./images/image-006.jpg"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/911777799310/images/image-001.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/911777799310/images/image-002.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/911777799310/images/image-003.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/911777799310/images/image-004.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/911777799310/images/image-005.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/911777799310/images/image-006.jpg"
   ],
   "videos": [
-    "./videos/video-001.mp4"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/911777799310/videos/video-001.mp4"
   ],
   "sourceUrl": "https://detail.1688.com/offer/911777799310.html"
 }

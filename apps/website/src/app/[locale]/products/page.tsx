@@ -3,7 +3,8 @@ import Link from 'next/link';
 
 import {PageLinks} from '@/components/page-links';
 import {ProductCard} from '@/components/product-card';
-import {pageLabels, products, productsPageContent, productTags, type LocalizedTag, type Product} from '@/content/site';
+import {pageLabels, productsPageContent, type LocalizedTag} from '@/content/site';
+import {productTags, products, type ProductJson} from '@/content/site/products.server';
 import {getLocaleFromParams, t} from '@/lib/i18n';
 import {buildMetadata} from '@/lib/metadata';
 import {localizedPath} from '@/lib/routes';
@@ -28,32 +29,32 @@ const MODULE_FILTER_TAGS: LocalizedTag[] = [
 ];
 const MODULE_FILTER_KEY_SET = new Set(MODULE_FILTER_TAGS.map((item) => item.key));
 
-function isEquipmentProduct(product: Product): boolean {
+function isEquipmentProduct(product: ProductJson): boolean {
   if (product.module === 'equipment') return true;
-  return product.tags.some((tag) =>
+  return (product.tags ?? []).some((tag) =>
     tag.key.includes('equipment') ||
     tag.zh.includes('设备') ||
     /\bequipment\b/i.test(tag.en)
   );
 }
 
-function moduleFilterKeyFor(product: Product): 'toys' | 'tubes' | 'equipment' {
+function moduleFilterKeyFor(product: ProductJson): 'toys' | 'tubes' | 'equipment' {
   if (isEquipmentProduct(product)) return 'equipment';
   if (product.module === 'toys') return 'toys';
   return 'tubes';
 }
 
-function buildTagCountByKey(items: Product[]): Map<string, number> {
+function buildTagCountByKey(items: ProductJson[]): Map<string, number> {
   const counts = new Map<string, number>();
   for (const product of items) {
-    for (const tag of product.tags) {
+    for (const tag of product.tags ?? []) {
       counts.set(tag.key, (counts.get(tag.key) ?? 0) + 1);
     }
   }
   return counts;
 }
 
-function buildModuleCountByKey(items: Product[]): Map<string, number> {
+function buildModuleCountByKey(items: ProductJson[]): Map<string, number> {
   const counts = new Map<string, number>(
     MODULE_FILTER_TAGS.map((tag) => [tag.key, 0])
   );
@@ -120,7 +121,7 @@ export default async function ProductsPage({
   const filteredProducts = selectedTagItem
     ? MODULE_FILTER_KEY_SET.has(selectedTagItem.key)
       ? products.filter((product) => moduleFilterKeyFor(product) === selectedTagItem.key)
-      : products.filter((product) => product.tags.some((tag) => tag.key === selectedTagItem.key))
+      : products.filter((product) => (product.tags ?? []).some((tag) => tag.key === selectedTagItem.key))
     : products;
   const productsPath = localizedPath(locale, 'products');
   const currentFilterLabel = selectedTagItem
@@ -229,7 +230,7 @@ export default async function ProductsPage({
               {selectedTagItem && !selectedTagInGroups ? (
                 <section>
                   <h3 className="mb-3 font-label text-[10px] font-black uppercase tracking-widest text-primary">
-                    {locale === 'zh' ? '当前标签' : 'Current Tag'}
+                    {t(locale, {zh: '当前标签', en: 'Current Tag'})}
                   </h3>
                   <div className="grid gap-2.5">
                     <Link
@@ -253,12 +254,15 @@ export default async function ProductsPage({
           </aside>
 
           <section className="grid gap-x-6 gap-y-8 sm:gap-x-8 sm:gap-y-10 lg:gap-y-12 md:grid-cols-2 2xl:grid-cols-3">
-            {filteredProducts.map((product) => (
-              <ProductCard key={product.slug} locale={locale} product={product} />
+            {filteredProducts.map((product, index) => (
+              <ProductCard key={product.offerId ?? `product-${index}`} locale={locale} product={product} />
             ))}
             {filteredProducts.length === 0 ? (
               <div className="rounded-2xl border border-outline-variant bg-surface-container-low p-6 text-sm text-on-surface-variant md:col-span-2 2xl:col-span-3">
-                {locale === 'zh' ? '该标签下暂无商品，请切换其他标签。' : 'No products under this tag yet. Try another tag.'}
+                {t(locale, {
+                  zh: '该标签下暂无商品，请切换其他标签。',
+                  en: 'No products under this tag yet. Try another tag.',
+                })}
               </div>
             ) : null}
           </section>

@@ -2,7 +2,7 @@ const rawSiteUrl = (process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000")
 export const siteUrl = rawSiteUrl.replace(/\/+$/, "");
 export const siteName = 'Dongguan Yaoshun Technology Co., Ltd. | 东莞市尧顺科技有限公司';
 export const siteDescription = 'Dongguan Yaoshun Technology Co., Ltd. (东莞市尧顺科技有限公司), founded in 2006, focuses on plastic extrusion equipment, precision injection molding, AI smart toys, DIY children toys, plastic profiles, and OEM/ODM manufacturing support.';
-export const defaultOgImage = '/api/1688-products/601805200838/images/image-002.jpg';
+export const defaultOgImage = "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/601805200838/images/image-002.jpg";
 
 export const googleAnalyticsId = (process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID || "").trim();
 export const googleAdsId = (process.env.NEXT_PUBLIC_GOOGLE_ADS_ID || "").trim();

@@ -49,19 +49,21 @@
     "en": "DIY Fort Castle Building Set"
   },
   "summary": {
-    "zh": "这是一款儿童DIY插珠城堡帐篷拼搭套装，采用PP材质，适用于家庭互动、课堂活动和创意搭建场景。\n\n产品归类为14岁以下玩具，产地东莞茶山，覆盖欧洲、南美、东南亚、北美、东北亚和中东等市场。",
-    "en": "This is a kids DIY bead-and-rod fort castle building set made of PP material, suitable for family interaction, classroom activities, and creative construction scenarios.\n\nIt is categorized as an under-14 toy, produced in Chashan, Dongguan, and supplied to Europe, South America, Southeast Asia, North America, Northeast Asia, and the Middle East."
+    "zh": "这是一款儿童DIY插珠城堡帐篷拼搭套装，采用PP材质，适用于家庭互动、课堂活动和创意搭建场景。",
+    "en": "This is a kids DIY bead-and-rod fort castle building set made of PP material, suitable for family interaction, classroom activities, and creative construction scenarios."
   },
   "description": {
     "zh": [
-      "该款DIY插珠城堡帐篷拼搭套装采用模块化拼搭结构，支持围绕帐篷、城堡和通道进行多形态设计，适合儿童连续创意构建。",
-      "产品适用于亲子互动、课程教具和活动场景布置，可用于空间认知、动手能力和协作玩法训练。",
-      "包装为彩盒，规格为2-3M，配套重量参数清晰，便于渠道上架、仓配管理与项目采购。"
+      "这是一款儿童DIY插珠城堡帐篷拼搭套装，采用PP材质，适用于家庭互动、课堂活动和创意搭建场景。",
+      "该款DIY插珠城堡帐篷拼搭套装采用模块化拼搭结构，支持围绕帐篷，城堡和通道进行多形态设计。",
+      "产品适用于亲子互动，课程教具和活动场景布置，可用于空间认知，动手能力和协作玩法训练。",
+      "关键参数包括拼砌玩具类型拆装房子、是否有动漫形象否、材质PP。"
     ],
     "en": [
-      "This DIY fort castle building set uses a modular interlocking structure and supports multiple layout designs around tent, castle, and tunnel themes for continuous creative construction play.",
-      "It is suitable for parent-child interaction, educational props, and event setup scenarios, helping with spatial learning, hands-on practice, and collaborative play.",
-      "The set uses color-box packaging with a 2-3M specification and clear weight data, making it suitable for channel listing, warehouse operations, and project procurement."
+      "This is a kids DIY bead-and-rod fort castle building set made of PP material, suitable for family interaction, classroom activities.",
+      "This DIY fort castle building set uses a modular interlocking structure and supports multiple layout designs around tent, castle.",
+      "It is suitable for parent-child interaction, educational props, and event setup scenarios, helping with spatial learning, hands-on practice.",
+      "Key specs include 3C Category: Other Toys for Under 14; Building Type: Detachable House Build; Character IP: No."
     ]
   },
   "priceTiers": [
@@ -235,15 +237,15 @@
     }
   ],
   "images": [
-    "./images/image-001.jpg",
-    "./images/image-002.jpg",
-    "./images/image-003.jpg",
-    "./images/image-004.jpg",
-    "./images/image-005.jpg",
-    "./images/image-006.jpg"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/675893614602/images/image-001.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/675893614602/images/image-002.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/675893614602/images/image-003.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/675893614602/images/image-004.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/675893614602/images/image-005.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/675893614602/images/image-006.jpg"
   ],
   "videos": [
-    "./videos/video-001.mp4"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/675893614602/videos/video-001.mp4"
   ],
   "sourceUrl": "https://detail.1688.com/offer/675893614602.html"
 }

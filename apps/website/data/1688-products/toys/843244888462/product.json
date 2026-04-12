@@ -39,19 +39,23 @@
     "en": "Kids Fort Building Set"
   },
   "summary": {
-    "zh": "这是一款儿童插珠帐篷堡垒拼搭套装，采用塑料结构件，适用于家庭互动、课堂活动和创意搭建场景。\n\n品牌为尧顺，产地东莞茶山，含专利/著作权申请信息，适合亲子拼搭与拆装玩法。",
-    "en": "This is a kids fort building set using plastic structural parts, suitable for family interaction, classroom activities, and creative construction scenarios.\n\nBrand: Yaoshun. Origin: Chashan, Dongguan. It includes patent/copyright application information and is suitable for parent-child building and detachable play."
+    "zh": "这是一款儿童插珠帐篷堡垒拼搭套装，采用塑料结构件，适用于家庭互动、课堂活动和创意搭建场景。",
+    "en": "This is a kids fort building set using plastic structural parts, suitable for family interaction, classroom activities, and creative construction scenarios."
   },
   "description": {
     "zh": [
-      "该款儿童插珠帐篷堡垒拼搭套装采用模块化拼接结构，可围绕堡垒、帐篷和通道进行多形态搭建，适合儿童持续创意构建。",
-      "产品适用于亲子互动、课程教具和活动场景布置，可用于动手能力、手眼协调和协作玩法训练。",
-      "包装参数包含体积、重量和尺寸信息，便于渠道陈列、仓配管理和项目采购。"
+      "这是一款儿童插珠帐篷堡垒拼搭套装，采用塑料结构件，适用于家庭互动、课堂活动和创意搭建场景。",
+      "该款儿童插珠帐篷堡垒拼搭套装采用模块化拼接结构，可围绕堡垒，帐篷和通道进行多形态搭建，适合儿童持续创意构建。",
+      "产品适用于亲子互动，课程教具和活动场景布置，可用于动手能力，手眼协调和协作玩法训练。",
+      "关键参数包括宽(cm)34、拼砌玩具类型其它、是否有动漫形象否。",
+      "包装参数支持体积(cm³)17204、包装方式彩盒。"
     ],
     "en": [
-      "This kids fort building set uses a modular interlocking structure and supports multiple layouts around forts, tents, and tunnels for continuous creative construction play.",
-      "It is suitable for parent-child interaction, educational props, and event-space setup, helping develop hands-on ability, hand-eye coordination, and collaborative play skills.",
-      "Packaging includes volume, weight, and size data for channel display, warehouse operations, and project procurement."
+      "This is a kids fort building set using plastic structural parts, suitable for family interaction, classroom activities, and creative construction scenarios.",
+      "This is a kids fort building set using plastic structural parts, suitable for family interaction, classroom activities.",
+      "This kids fort building set uses a modular interlocking structure and supports multiple layouts around forts, tents.",
+      "It is suitable for parent-child interaction, educational props, and event-space setup, helping develop hands-on ability, hand-eye coordination.",
+      "Key specs include 3C: 14 Toy; Toy Product: 2021 04 14; Toy Product: Chashan, Dongguan."
     ]
   },
   "priceTiers": [
@@ -268,17 +272,17 @@
     }
   ],
   "images": [
-    "./images/image-001.jpg",
-    "./images/image-002.jpg",
-    "./images/image-003.jpg",
-    "./images/image-004.jpg",
-    "./images/image-005.jpg",
-    "./images/image-006.jpg",
-    "./images/image-022.jpg"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/843244888462/images/image-001.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/843244888462/images/image-002.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/843244888462/images/image-003.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/843244888462/images/image-004.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/843244888462/images/image-005.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/843244888462/images/image-006.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/843244888462/images/image-022.jpg"
   ],
   "videos": [
-    "./videos/video-001.mp4",
-    "./videos/video-002.mp4"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/843244888462/videos/video-001.mp4",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/843244888462/videos/video-002.mp4"
   ],
   "sourceUrl": "https://detail.1688.com/offer/843244888462.html"
 }

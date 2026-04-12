@@ -4,14 +4,19 @@
   "priority": 2049,
   "tags": [
     {
-      "key": "tubes",
-      "zh": "管材",
-      "en": "Tubes"
+      "key": "equipment",
+      "zh": "设备",
+      "en": "Equipment"
     },
     {
-      "key": "tubes-equipment",
-      "zh": "管材-设备",
-      "en": "Tubes - Equipment"
+      "key": "equipment-extrusion",
+      "zh": "设备-挤出",
+      "en": "Equipment - Extrusion"
+    },
+    {
+      "key": "equipment-meltblown",
+      "zh": "设备-熔喷布产线",
+      "en": "Equipment - Meltblown Line"
     },
     {
       "key": "cross-border-export",
@@ -30,23 +35,23 @@
     }
   ],
   "title": {
-    "zh": "急售熔喷布挤出机85流量95级熔喷生产线管材",
-    "en": "PE Extrusion Equipment"
+    "zh": "熔喷布挤出机（85流量，95级生产线）",
+    "en": "Meltblown Fabric Extrusion Machine (85 Throughput, 95 Grade Line)"
   },
   "summary": {
-    "zh": "该产品为挤出设备，主要材质为PE，适用于做pp.pe管，熔喷布，无纺布，各种材料管等应用场景，支持规格定制与批量供货。",
-    "en": "This extrusion equipment is primarily made from PE and is suitable for Pp.pe None applications. Custom dimensions and bulk supply are supported."
+    "zh": "该设备为熔喷布生产线挤出机，主要材质为PE，适用于PP/PE管、熔喷布、无纺布及各类材料管生产，支持规格定制与批量供货。",
+    "en": "This machine is an extrusion unit for meltblown production lines."
   },
   "description": {
     "zh": [
-      "挤出设备面向工业与消费品配套场景，可用于防护、包覆、导向和连接等需求。",
-      "主要材质为PE，可按项目要求匹配尺寸、壁厚、长度和结构形式，适配不同应用工况。",
-      "包装与交付可按需求配置（如重量(g) 1000000），支持稳定供货与长期项目协同。"
+      "该设备为熔喷布生产线挤出机，主要材质为PE，适用于PP/PE管，熔喷布，无纺布及各类材料管生产。",
+      "挤出设备面向工业与消费品配套场景，可用于防护，包覆，导向和连接等需求。",
+      "关键参数包括产品用途做PP/PE管、熔喷布、无纺布、各类材料管。"
     ],
     "en": [
+      "This machine is an extrusion unit for meltblown production lines.",
       "This extrusion equipment is designed for industrial and consumer assembly programs requiring protection, covering, guidance, and connection functions.",
-      "The primary material is PE, and dimensions such as outer diameter, wall thickness, length, and profile form can be aligned to project requirements.",
-      "Packaging and delivery can be configured as needed (for example: Weight (g) 1000000), supporting stable supply and long-term project coordination."
+      "Key specs include Application: PP/PE tubes, meltblown fabric, nonwoven fabric, and other material tubes."
     ]
   },
   "priceTiers": [
@@ -72,8 +77,8 @@
         "en": "Application"
       },
       "value": {
-        "zh": "做pp.pe管，熔喷布，无纺布，各种材料管",
-        "en": "Pp.pe None"
+        "zh": "做PP/PE管、熔喷布、无纺布、各类材料管",
+        "en": "PP/PE tubes, meltblown fabric, nonwoven fabric, and other material tubes"
       }
     },
     {
@@ -110,14 +115,14 @@
     }
   ],
   "images": [
-    "./images/image-002.jpg",
-    "./images/image-003.jpg",
-    "./images/image-004.jpg"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/equipment/615665845646/images/image-002.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/equipment/615665845646/images/image-003.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/equipment/615665845646/images/image-004.jpg"
   ],
   "videos": [
-    "./videos/video-001.mp4",
-    "./videos/video-002.mp4",
-    "./videos/video-003.mp4"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/equipment/615665845646/videos/video-001.mp4",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/equipment/615665845646/videos/video-002.mp4",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/equipment/615665845646/videos/video-003.mp4"
   ],
   "sourceUrl": "https://detail.1688.com/offer/615665845646.html"
 }

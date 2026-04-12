@@ -39,19 +39,23 @@
     "en": "Customer-exclusive Kids Castle DIY Set"
   },
   "summary": {
-    "zh": "这是一款面向客户专属渠道配置的儿童城堡房子DIY拼插套装，适用于亲子互动、课堂活动与创意空间搭建。\n\n产品提供多种杆球组合与包装尺寸，品牌为其他，材质为塑料/塑胶，产地广东东莞，适合跨境渠道定制化供货。",
-    "en": "This is a customer-exclusive kids castle-house DIY building set for parent-child interaction, classroom activities, and creative space setup.\n\nIt provides multiple rod-and-ball combinations and packaging sizes. Brand: Other. Material: plastic. Origin: Dongguan, Guangdong. Suitable for customized cross-border supply."
+    "zh": "这是一款面向客户专属渠道配置的儿童城堡房子DIY拼插套装，适用于亲子互动、课堂活动与创意空间搭建。",
+    "en": "This is a customer-exclusive kids castle-house DIY building set for parent-child interaction, classroom activities, and creative space setup."
   },
   "description": {
     "zh": [
-      "该款客户专属儿童城堡房子DIY拼插套装采用插珠拼搭结构，可搭建帐篷、房屋和堡垒等空间造型，支持多规格组合方案。",
-      "产品材质为塑料/塑胶，适用于动手训练、亲子互动和课堂活动。可根据渠道需求选择不同杆球配置，便于形成分层SKU。",
-      "包装体积、重量与尺寸提供多档参数，适合跨境电商和项目型采购。原始专利申请时间字段为“.”，已按未标注处理。"
+      "这是一款面向客户专属渠道配置的儿童城堡房子DIY拼插套装，适用于亲子互动、课堂活动与创意空间搭建。",
+      "该款客户专属儿童城堡房子DIY拼插套装采用插珠拼搭结构，可搭建帐篷，房屋和堡垒等空间造型，支持多规格组合方案。",
+      "产品材质为塑料/塑胶，适用于动手训练，亲子互动和课堂活动，可根据渠道需求选择不同杆球配置，便于形成分层SKU。",
+      "关键参数包括产品类别益智类、材质塑料/塑胶、拼砌玩具类型拆装房子。",
+      "包装参数支持包装方式彩盒、包装体积(cm³)10664 / 13717。"
     ],
     "en": [
-      "This customer-exclusive kids castle DIY set uses a bead-based construction structure to build tents, houses, and fort-like spaces with multiple specification options.",
-      "The product uses plastic material and is suitable for hands-on training, parent-child interaction, and classroom activities. Different rod-and-ball configurations are available for tiered channel SKUs.",
-      "Multiple package volume, weight, and size options are provided for cross-border e-commerce and project procurement. The original patent filing-time field is \".\" and is treated as unspecified."
+      "This is a customer-exclusive kids castle-house DIY building set for parent-child interaction, classroom activities, and creative space setup.",
+      "This customer-exclusive kids castle DIY set uses a bead-based construction structure to build tents, houses.",
+      "The product uses plastic material and is suitable for hands-on training, parent-child interaction, and classroom activities.",
+      "Key specs include Product Category: Educational; Material: Plastic; Construction Type: Build-and-Rebuild House.",
+      "Packaging supports Packaging: Color Box; Package Volume (cm³): 10664 / 13717."
     ]
   },
   "priceTiers": [
@@ -262,19 +266,19 @@
     }
   ],
   "images": [
-    "./images/image-001.jpg",
-    "./images/image-002.jpg",
-    "./images/image-003.jpg",
-    "./images/image-004.jpg",
-    "./images/image-005.jpg",
-    "./images/image-006.jpg",
-    "./images/image-007.jpg",
-    "./images/image-008.jpg",
-    "./images/image-009.jpg",
-    "./images/image-010.jpg"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/985607269811/images/image-001.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/985607269811/images/image-002.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/985607269811/images/image-003.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/985607269811/images/image-004.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/985607269811/images/image-005.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/985607269811/images/image-006.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/985607269811/images/image-007.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/985607269811/images/image-008.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/985607269811/images/image-009.jpg",
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/985607269811/images/image-010.jpg"
   ],
   "videos": [
-    "./videos/video-001.mp4"
+    "https://jl6cgijvh5fcsw1s.public.blob.vercel-storage.com/1688-products/toys/985607269811/videos/video-001.mp4"
   ],
   "sourceUrl": "https://detail.1688.com/offer/985607269811.html"
 }
