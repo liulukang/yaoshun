@@ -1,0 +1,252 @@
+{
+  "offerId": "850300052500",
+  "module": "toys",
+  "priority": 1031,
+  "tags": [
+    {
+      "key": "toys",
+      "zh": "玩具",
+      "en": "Toys"
+    },
+    {
+      "key": "toys-construction",
+      "zh": "玩具-拼搭",
+      "en": "Toys - Construction"
+    },
+    {
+      "key": "toys-diy",
+      "zh": "玩具-DIY",
+      "en": "Toys - DIY"
+    },
+    {
+      "key": "toys-fort-building",
+      "zh": "玩具-帐篷拼搭",
+      "en": "Toys - Fort Building"
+    },
+    {
+      "key": "toys-parent-child",
+      "zh": "玩具-亲子互动",
+      "en": "Toys - Parent Child"
+    },
+    {
+      "key": "cross-border-export",
+      "zh": "跨境外贸",
+      "en": "Cross-border Export"
+    }
+  ],
+  "title": {
+    "zh": "儿童DIY插珠帐篷拼搭套装（120PCS）",
+    "en": "Kids DIY Fort Building Set (120PCS)"
+  },
+  "summary": {
+    "zh": "这是一款面向儿童创意拼搭的DIY插珠帐篷套装，采用杆件与连接球组合，可搭建帐篷、城堡等立体造型，适用于亲子互动、课堂游戏与活动空间布置。\n\n产品品牌为尧顺，主要材质为PP，常用规格为YG120PCS，支持外贸渠道与电商场景配套供货。",
+    "en": "This is a DIY fort-building set for children’s creative construction play. Using rods and connector balls, it can be assembled into tents, castles, and other 3D shapes for parent-child interaction, classroom games, and play-area setup.\n\nBrand: Yaoshun. Main material: PP. A common configuration is YG120PCS, suitable for export channels and e-commerce supply."
+  },
+  "description": {
+    "zh": [
+      "该款儿童DIY插珠帐篷拼搭套装以“杆件+连接球”结构为核心，孩子可根据空间与主题需求自由搭建帐篷、城堡和通道造型，适用于家庭与教学场景。",
+      "产品主材为PP，配置包含YG120PCS规格，兼顾轻量化与结构稳定性，便于重复拆装与形态重构。导购视频可用于渠道展示和上架说明。",
+      "商品采用彩盒包装，适合跨境电商与线下渠道批量采购。可结合年龄段和市场定位进行组合配置，支持持续供货。"
+    ],
+    "en": [
+      "This kids DIY fort set is built around a rod-and-connector system. Children can freely create tents, castles, and tunnel-like structures based on space and play themes, making it suitable for home and educational use.",
+      "The main material is PP, with a YG120PCS configuration that balances lightweight handling and structural stability. It supports repeated assembly and reconfiguration, and guide videos are available for channel presentation.",
+      "The item is packed in a color box and fits cross-border e-commerce and offline bulk procurement. Configurations can be adjusted by age group and market positioning for long-term supply."
+    ]
+  },
+  "priceTiers": [
+    {
+      "quantity": {
+        "zh": "≥500盒",
+        "en": ">=500 Boxes"
+      },
+      "price": "¥89"
+    }
+  ],
+  "attributes": [
+    {
+      "key": {
+        "zh": "品牌",
+        "en": "Brand"
+      },
+      "value": {
+        "zh": "尧顺",
+        "en": "Yaoshun"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "儿童DIY插珠帐篷拼搭玩具",
+        "en": "Kids DIY Fort Building Toy"
+      }
+    },
+    {
+      "key": {
+        "zh": "材质",
+        "en": "Material"
+      },
+      "value": {
+        "zh": "PP",
+        "en": "PP"
+      }
+    },
+    {
+      "key": {
+        "zh": "拼砌玩具类型",
+        "en": "Construction Type"
+      },
+      "value": {
+        "zh": "拆装房子",
+        "en": "Build-and-Rebuild House"
+      }
+    },
+    {
+      "key": {
+        "zh": "3C配置类别",
+        "en": "3C Category"
+      },
+      "value": {
+        "zh": "14岁以下其它玩具",
+        "en": "Other Toys for Under 14"
+      }
+    },
+    {
+      "key": {
+        "zh": "适用年龄",
+        "en": "Age Range"
+      },
+      "value": {
+        "zh": "少年（7-14岁）",
+        "en": "Youth (7-14 Years)"
+      }
+    },
+    {
+      "key": {
+        "zh": "能力培养",
+        "en": "Development Focus"
+      },
+      "value": {
+        "zh": "情感、视觉、智力开发、动手动脑、手眼协调、亲子交流",
+        "en": "Emotion, visual learning, cognitive growth, hands-on skills, hand-eye coordination, parent-child interaction"
+      }
+    },
+    {
+      "key": {
+        "zh": "货号",
+        "en": "Model No."
+      },
+      "value": {
+        "zh": "YG120PCS",
+        "en": "YG120PCS"
+      }
+    },
+    {
+      "key": {
+        "zh": "产地",
+        "en": "Origin"
+      },
+      "value": {
+        "zh": "中国东莞",
+        "en": "Dongguan, China"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否专供外贸",
+        "en": "Export Supply"
+      },
+      "value": {
+        "zh": "否",
+        "en": "No"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否有导购视频",
+        "en": "Guide Video"
+      },
+      "value": {
+        "zh": "是",
+        "en": "Available"
+      }
+    }
+  ],
+  "packaging": [
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color Box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装体积(cm³)",
+        "en": "Package Volume (cm³)"
+      },
+      "value": {
+        "zh": "11974.375",
+        "en": "11974.375"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸(cm)",
+        "en": "Carton Size (cm)"
+      },
+      "value": {
+        "zh": "42.5 x 24.5 x 11.5",
+        "en": "42.5 x 24.5 x 11.5"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装重量(g)",
+        "en": "Package Weight (g)"
+      },
+      "value": {
+        "zh": "2900",
+        "en": "2900"
+      }
+    },
+    {
+      "key": {
+        "zh": "规格",
+        "en": "Specification"
+      },
+      "value": {
+        "zh": "YG120PCS",
+        "en": "YG120PCS"
+      }
+    },
+    {
+      "key": {
+        "zh": "颜色",
+        "en": "Color"
+      },
+      "value": {
+        "zh": "紫色 / 橙色",
+        "en": "Purple / Orange"
+      }
+    }
+  ],
+  "images": [
+    "./images/image-001.jpg",
+    "./images/image-002.jpg",
+    "./images/image-003.jpg",
+    "./images/image-004.jpg",
+    "./images/image-005.jpg",
+    "./images/image-006.jpg"
+  ],
+  "videos": [
+    "./videos/video-001.mp4"
+  ],
+  "sourceUrl": "https://detail.1688.com/offer/850300052500.html"
+}

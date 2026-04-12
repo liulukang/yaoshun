@@ -8,7 +8,13 @@
     "build": "next build --webpack",
     "start": "next start",
     "lint": "eslint .",
-    "typecheck": "next typegen && rm -f tsconfig.tsbuildinfo && tsc --noEmit"
+    "typecheck": "next typegen && rm -f tsconfig.tsbuildinfo && tsc --noEmit",
+    "products:1688:compact": "node scripts/compact-1688-products.mjs",
+    "products:1688:generate": "node scripts/import-1688-archives.mjs",
+    "scrape:1688": "node scripts/scrape-1688-details.mjs",
+    "scrape:1688:install-browser": "playwright install chromium",
+    "scrape:1688:login": "node scripts/create-1688-storage-state.mjs",
+    "scrape:1688:status": "node scripts/build-1688-sync-status.mjs"
   },
   "dependencies": {
     "@vercel/analytics": "^1.5.0",
@@ -27,6 +33,7 @@
     "autoprefixer": "^10.4.27",
     "eslint": "^9.39.4",
     "eslint-config-next": "16.2.2",
+    "playwright": "^1.59.1",
     "postcss": "^8.5.8",
     "tailwindcss": "^4.2.2",
     "typescript": "^6.0.2"

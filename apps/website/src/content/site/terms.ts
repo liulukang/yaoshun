@@ -102,8 +102,8 @@ export const termsContent = {
     {
       title: {en: '8. Contact & Governing Communication', zh: '8. 联系方式与适用沟通'},
       text: {
-        en: 'For legal or commercial clarification, contact sales@lai-toys.com. If terms conflict with a signed agreement, the signed agreement prevails.',
-        zh: '如需法律或商务条款说明，请联系 sales@lai-toys.com。若本条款与已签署协议冲突，以已签署协议为准。'
+        en: 'For legal or commercial clarification, contact lianli@gmail.com. If terms conflict with a signed agreement, the signed agreement prevails.',
+        zh: '如需法律或商务条款说明，请联系 lianli@gmail.com。若本条款与已签署协议冲突，以已签署协议为准。'
       }
     }
   ],

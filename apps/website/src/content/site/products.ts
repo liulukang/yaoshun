@@ -1,9 +1,28 @@
 import { importedProducts } from "@/content/site/products.generated";
-import { visualAssets, type Product } from "@/content/site/shared";
+import { visualAssets, type LocalizedTag, type Product, type ProductModule } from "@/content/site/shared";
+
+const fallbackTagCatalog: Record<string, LocalizedTag> = {
+  "玩具": { key: "toys", zh: "玩具", en: "Toys" },
+  "玩具-STEM": { key: "toys-stem", zh: "玩具-STEM", en: "Toys - STEM" },
+  "玩具-DIY": { key: "toys-diy", zh: "玩具-DIY", en: "Toys - DIY" },
+  "管材": { key: "tubes", zh: "管材", en: "Tubes" },
+  "设备": { key: "equipment", zh: "设备", en: "Equipment" },
+  "管材-设备": { key: "tubes-equipment", zh: "管材-设备", en: "Tubes - Equipment" },
+  "管材-通用": { key: "tubes-general", zh: "管材-通用", en: "Tubes - General" },
+};
+
+function toFallbackTags(labels: string[]): LocalizedTag[] {
+  return labels
+    .map((label) => fallbackTagCatalog[label] ?? { key: label, zh: label, en: label })
+    .filter((item, index, arr) => arr.findIndex((it) => it.key === item.key) === index);
+}
 
 const fallbackProducts: Product[] = [
   {
     slug: "interlocking-learning-set",
+    module: "toys",
+    tags: toFallbackTags(["玩具-DIY", "玩具"]),
+    priority: 100,
     title: { en: "DIY Children Toy Series", zh: "DIY 儿童玩具系列" },
     badge: { en: "OEM / ODM Toys", zh: "OEM / ODM 玩具" },
     summary: {
@@ -71,6 +90,9 @@ const fallbackProducts: Product[] = [
   },
   {
     slug: "pretend-play-kit",
+    module: "toys",
+    tags: toFallbackTags(["玩具-STEM", "玩具"]),
+    priority: 110,
     title: { en: "AI Smart Toy & Robot Parts", zh: "AI 智能玩具与机器人配件" },
     badge: { en: "Precision Injection", zh: "精密注塑" },
     summary: {
@@ -140,6 +162,9 @@ const fallbackProducts: Product[] = [
   },
   {
     slug: "pu-pvc-profile-series",
+    module: "tubes",
+    tags: toFallbackTags(["管材-通用", "管材"]),
+    priority: 210,
     title: {
       en: "LED Flexible Strip & Plastic Profile Series",
       zh: "LED 柔性灯带与塑胶型材系列",
@@ -210,6 +235,9 @@ const fallbackProducts: Product[] = [
   },
   {
     slug: "extrusion-support-line",
+    module: "tubes",
+    tags: toFallbackTags(["管材-设备", "管材"]),
+    priority: 220,
     title: { en: "Plastic Extrusion Equipment", zh: "塑胶挤出设备" },
     badge: { en: "Self-Developed Equipment", zh: "自研自产设备" },
     summary: {
@@ -286,6 +314,9 @@ const fallbackProducts: Product[] = [
   },
   {
     slug: "custom-injection-extrusion-solutions",
+    module: "tubes",
+    tags: toFallbackTags(["管材-通用", "管材"]),
+    priority: 230,
     title: { en: "Custom Injection & Extrusion Products", zh: "定制注塑与挤出产品" },
     badge: { en: "Drawing / Sample Based", zh: "来图 / 来样定制" },
     summary: {
@@ -350,7 +381,27 @@ const fallbackProducts: Product[] = [
   },
 ];
 
-export const products: Product[] = importedProducts.length > 0 ? importedProducts : fallbackProducts;
+function sortProductsByPriority(items: Product[]): Product[] {
+  return [...items].sort((a, b) => {
+    if (a.priority !== b.priority) {
+      return a.priority - b.priority;
+    }
+    return a.slug.localeCompare(b.slug, undefined, { numeric: true });
+  });
+}
+
+const importedSortedProducts = sortProductsByPriority(importedProducts);
+const fallbackSortedProducts = sortProductsByPriority(fallbackProducts);
+
+export const products: Product[] = importedSortedProducts.length > 0 ? importedSortedProducts : fallbackSortedProducts;
+export const productsByModule: Record<ProductModule, Product[]> = {
+  toys: products.filter((item) => item.module === "toys"),
+  tubes: products.filter((item) => item.module === "tubes"),
+  equipment: products.filter((item) => item.module === "equipment"),
+};
+export const productTags = Array.from(
+  new Map(products.flatMap((item) => item.tags).map((tag) => [tag.key, tag])).values()
+).sort((a, b) => a.key.localeCompare(b.key));
 
 export const productsPageContent = {
   seo: {
@@ -453,21 +504,15 @@ export const productsPageContent = {
     ]
   },
   filters: {
-    title: {en: 'Catalog Notes', zh: '目录说明'},
-    materialTitle: {en: 'Common Materials', zh: '常见材料'},
-    materialOptions: [
-      {en: 'ABS / PP', zh: 'ABS / PP'},
-      {en: 'PC / Engineering Plastics', zh: 'PC / 工程塑胶'},
-      {en: 'PVC / TPU / Extrusion Grades', zh: 'PVC / TPU / 挤出材料'}
-    ],
-    cooperationTitle: {en: 'Cooperation Types', zh: '合作类型'},
-    cooperationOptions: [
-      {label: {en: 'OEM / ODM', zh: 'OEM / ODM'}},
-      {label: {en: 'Sample-Based', zh: '来样加工'}},
-      {label: {en: 'Design-Assisted', zh: '协同开发'}}
-    ],
-    complianceTitle: {en: 'Common Standards', zh: '常见标准'},
-    complianceTags: ['ASTM', 'EN71', 'ISO 9000', 'CE']
+    title: {en: 'Catalog Filters', zh: '目录筛选'},
+    allLabel: {en: 'All Products', zh: '全部产品'},
+    activeFilterPrefix: {en: 'Active Filter', zh: '当前筛选'},
+    groupTitles: {
+      module: {en: 'Product Modules', zh: '产品模块'},
+      scenario: {en: 'Scenario Categories', zh: '场景分类'},
+      material: {en: 'Material Tags', zh: '材质标签'},
+      business: {en: 'Business Tags', zh: '业务标签'}
+    }
   },
   detail: {
     primaryAction: {en: 'Request Bulk Pricing', zh: '获取批量报价'},

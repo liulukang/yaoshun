@@ -34,8 +34,8 @@ export const faqContent = {
     eyebrow: {en: 'Trade Resources', zh: '贸易支持资料'},
     title: {en: 'Manufacturing & Trade FAQ', zh: '制造与外贸常见问题'},
     description: {
-      en: 'This page lists recurring buyer questions from toy OEM/ODM projects, covering inquiry preparation, production execution, and shipment handoff.',
-      zh: '本页列出玩具 OEM/ODM 项目中的高频采购问题，覆盖询盘准备、生产执行与出货交接。'
+      en: 'This FAQ summarizes recurring buyer questions in toy OEM/ODM projects, from inquiry preparation to shipment handoff.',
+      zh: '本页汇总玩具 OEM/ODM 项目的高频采购问题，覆盖询盘准备到出货交接。'
     }
   },
   faqSection: {

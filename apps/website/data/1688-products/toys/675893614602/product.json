@@ -1,0 +1,249 @@
+{
+  "offerId": "675893614602",
+  "module": "toys",
+  "priority": 1008,
+  "tags": [
+    {
+      "key": "toys",
+      "zh": "玩具",
+      "en": "Toys"
+    },
+    {
+      "key": "toys-construction",
+      "zh": "玩具-拼搭",
+      "en": "Toys - Construction"
+    },
+    {
+      "key": "toys-diy",
+      "zh": "玩具-DIY",
+      "en": "Toys - DIY"
+    },
+    {
+      "key": "toys-fort-building",
+      "zh": "玩具-城堡拼搭",
+      "en": "Toys - Fort Building"
+    },
+    {
+      "key": "toys-stem",
+      "zh": "玩具-STEM",
+      "en": "Toys - STEM"
+    },
+    {
+      "key": "toys-parent-child",
+      "zh": "玩具-亲子互动",
+      "en": "Toys - Parent Child"
+    },
+    {
+      "key": "education-classroom-activity",
+      "zh": "教学活动",
+      "en": "Classroom Activity"
+    },
+    {
+      "key": "cross-border-export",
+      "zh": "跨境外贸",
+      "en": "Cross-border Export"
+    }
+  ],
+  "title": {
+    "zh": "DIY插珠城堡帐篷拼搭套装",
+    "en": "DIY Fort Castle Building Set"
+  },
+  "summary": {
+    "zh": "这是一款儿童DIY插珠城堡帐篷拼搭套装，采用PP材质，适用于家庭互动、课堂活动和创意搭建场景。\n\n产品归类为14岁以下玩具，产地东莞茶山，覆盖欧洲、南美、东南亚、北美、东北亚和中东等市场。",
+    "en": "This is a kids DIY bead-and-rod fort castle building set made of PP material, suitable for family interaction, classroom activities, and creative construction scenarios.\n\nIt is categorized as an under-14 toy, produced in Chashan, Dongguan, and supplied to Europe, South America, Southeast Asia, North America, Northeast Asia, and the Middle East."
+  },
+  "description": {
+    "zh": [
+      "该款DIY插珠城堡帐篷拼搭套装采用模块化拼搭结构，支持围绕帐篷、城堡和通道进行多形态设计，适合儿童连续创意构建。",
+      "产品适用于亲子互动、课程教具和活动场景布置，可用于空间认知、动手能力和协作玩法训练。",
+      "包装为彩盒，规格为2-3M，配套重量参数清晰，便于渠道上架、仓配管理与项目采购。"
+    ],
+    "en": [
+      "This DIY fort castle building set uses a modular interlocking structure and supports multiple layout designs around tent, castle, and tunnel themes for continuous creative construction play.",
+      "It is suitable for parent-child interaction, educational props, and event setup scenarios, helping with spatial learning, hands-on practice, and collaborative play.",
+      "The set uses color-box packaging with a 2-3M specification and clear weight data, making it suitable for channel listing, warehouse operations, and project procurement."
+    ]
+  },
+  "priceTiers": [
+    {
+      "quantity": {
+        "zh": "1000-9999盒",
+        "en": "1000-9999 boxes"
+      },
+      "price": "¥105"
+    },
+    {
+      "quantity": {
+        "zh": "≥10000盒",
+        "en": "10000+ boxes"
+      },
+      "price": "¥95"
+    }
+  ],
+  "attributes": [
+    {
+      "key": {
+        "zh": "3C配置类别",
+        "en": "3C Category"
+      },
+      "value": {
+        "zh": "14岁以下其它玩具",
+        "en": "Other Toys for Under 14"
+      }
+    },
+    {
+      "key": {
+        "zh": "主要下游平台",
+        "en": "Main Platforms"
+      },
+      "value": {
+        "zh": "其他",
+        "en": "Other"
+      }
+    },
+    {
+      "key": {
+        "zh": "主要销售地区",
+        "en": "Main Markets"
+      },
+      "value": {
+        "zh": "欧洲、南美、东南亚、北美、东北亚、中东",
+        "en": "Europe, South America, Southeast Asia, North America, Northeast Asia, Middle East"
+      }
+    },
+    {
+      "key": {
+        "zh": "产地",
+        "en": "Origin"
+      },
+      "value": {
+        "zh": "东莞茶山",
+        "en": "Chashan, Dongguan"
+      }
+    },
+    {
+      "key": {
+        "zh": "拼砌玩具类型",
+        "en": "Building Type"
+      },
+      "value": {
+        "zh": "拆装房子",
+        "en": "Detachable House Build"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否专供外贸",
+        "en": "Export Supply"
+      },
+      "value": {
+        "zh": "否",
+        "en": "No"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否有动漫形象",
+        "en": "Character IP"
+      },
+      "value": {
+        "zh": "否",
+        "en": "No"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否有导购视频",
+        "en": "Guide Video"
+      },
+      "value": {
+        "zh": "是",
+        "en": "Available"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否跨境出口专供货源",
+        "en": "Cross-border Source"
+      },
+      "value": {
+        "zh": "是",
+        "en": "Yes"
+      }
+    },
+    {
+      "key": {
+        "zh": "有可授权的自有品牌",
+        "en": "Own-brand Authorization"
+      },
+      "value": {
+        "zh": "是",
+        "en": "Yes"
+      }
+    },
+    {
+      "key": {
+        "zh": "材质",
+        "en": "Material"
+      },
+      "value": {
+        "zh": "PP",
+        "en": "PP"
+      }
+    },
+    {
+      "key": {
+        "zh": "能力培养",
+        "en": "Development Focus"
+      },
+      "value": {
+        "zh": "情感、视觉、智力开发、动手动脑、抓握、感官、手眼协调、亲子交流、兴趣培养",
+        "en": "Emotion, visual perception, cognitive development, hands-on skills, grasping, sensory training, hand-eye coordination, parent-child interaction, and interest cultivation"
+      }
+    }
+  ],
+  "packaging": [
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color Box"
+      }
+    },
+    {
+      "key": {
+        "zh": "单套重量(g)",
+        "en": "Unit Weight (g)"
+      },
+      "value": {
+        "zh": "2900",
+        "en": "2900"
+      }
+    },
+    {
+      "key": {
+        "zh": "规格",
+        "en": "Specification"
+      },
+      "value": {
+        "zh": "2-3M",
+        "en": "2-3M"
+      }
+    }
+  ],
+  "images": [
+    "./images/image-001.jpg",
+    "./images/image-002.jpg",
+    "./images/image-003.jpg",
+    "./images/image-004.jpg",
+    "./images/image-005.jpg",
+    "./images/image-006.jpg"
+  ],
+  "videos": [
+    "./videos/video-001.mp4"
+  ],
+  "sourceUrl": "https://detail.1688.com/offer/675893614602.html"
+}

@@ -1,0 +1,244 @@
+{
+  "offerId": "675546131204",
+  "module": "toys",
+  "priority": 1007,
+  "tags": [
+    {
+      "key": "toys",
+      "zh": "玩具",
+      "en": "Toys"
+    },
+    {
+      "key": "toys-construction",
+      "zh": "玩具-拼搭",
+      "en": "Toys - Construction"
+    },
+    {
+      "key": "toys-diy",
+      "zh": "玩具-DIY",
+      "en": "Toys - DIY"
+    },
+    {
+      "key": "toys-fort-building",
+      "zh": "玩具-帐篷拼搭",
+      "en": "Toys - Fort Building"
+    },
+    {
+      "key": "toys-stem",
+      "zh": "玩具-STEM",
+      "en": "Toys - STEM"
+    },
+    {
+      "key": "toys-parent-child",
+      "zh": "玩具-亲子互动",
+      "en": "Toys - Parent Child"
+    },
+    {
+      "key": "toys-children-7-14",
+      "zh": "玩具-7至14岁",
+      "en": "Toys - Ages 7 to 14"
+    },
+    {
+      "key": "cross-border-export",
+      "zh": "跨境外贸",
+      "en": "Cross-border Export"
+    }
+  ],
+  "title": {
+    "zh": "DIY拼插帐篷棍子拼搭套装",
+    "en": "DIY Interlocking Tent Rod Set"
+  },
+  "summary": {
+    "zh": "这是一款用于儿童DIY帐篷搭建的拼插棍子套装，采用PP材质，适合拆装房子、帐篷和通道等场景搭建。\n\n品牌为尧顺，产地东莞茶山，适用于7-14岁儿童互动拼搭与教学活动场景。",
+    "en": "This is a DIY interlocking tent rod set for children, made of PP material and suitable for building detachable house, tent, and tunnel-style structures.\n\nBrand: Yaoshun. Origin: Chashan, Dongguan. It is suitable for ages 7-14 in interactive construction and educational activity scenarios."
+  },
+  "description": {
+    "zh": [
+      "该款DIY拼插帐篷棍子拼搭套装以PP结构件为核心，适合用于儿童拼搭场景中的框架连接与形态扩展，支持多次拆装与组合。",
+      "产品可用于亲子互动、益智课程和活动空间布置，覆盖空间认知、动手训练和协作搭建等使用需求。",
+      "包装为彩盒，规格为72/158，参数清晰，便于渠道陈列、仓配管理和项目采购。"
+    ],
+    "en": [
+      "This DIY interlocking tent rod set is built around PP structural components and is suitable for frame connection and shape extension in children’s construction-play scenarios, with repeatable assembly support.",
+      "It can be used in parent-child interaction, educational sessions, and activity-space setup, covering spatial learning, hands-on training, and collaborative building use cases.",
+      "The set uses color-box packaging with a 72/158 specification, making it suitable for channel display, warehouse operations, and project procurement."
+    ]
+  },
+  "priceTiers": [
+    {
+      "quantity": {
+        "zh": "≥1000套",
+        "en": "1000+ sets"
+      },
+      "price": "¥68"
+    }
+  ],
+  "attributes": [
+    {
+      "key": {
+        "zh": "3C配置类别",
+        "en": "3C Category"
+      },
+      "value": {
+        "zh": "14岁以下其它玩具",
+        "en": "Other Toys for Under 14"
+      }
+    },
+    {
+      "key": {
+        "zh": "专利及著作权",
+        "en": "IP Type"
+      },
+      "value": {
+        "zh": "实用新型",
+        "en": "Utility Model"
+      }
+    },
+    {
+      "key": {
+        "zh": "产地",
+        "en": "Origin"
+      },
+      "value": {
+        "zh": "东莞茶山",
+        "en": "Chashan, Dongguan"
+      }
+    },
+    {
+      "key": {
+        "zh": "品牌",
+        "en": "Brand"
+      },
+      "value": {
+        "zh": "尧顺",
+        "en": "Yaoshun"
+      }
+    },
+    {
+      "key": {
+        "zh": "拼砌玩具类型",
+        "en": "Building Type"
+      },
+      "value": {
+        "zh": "拆装房子",
+        "en": "Detachable House Build"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否专供外贸",
+        "en": "Export Supply"
+      },
+      "value": {
+        "zh": "否",
+        "en": "No"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否有动漫形象",
+        "en": "Character IP"
+      },
+      "value": {
+        "zh": "否",
+        "en": "No"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否有导购视频",
+        "en": "Guide Video"
+      },
+      "value": {
+        "zh": "是",
+        "en": "Available"
+      }
+    },
+    {
+      "key": {
+        "zh": "材质",
+        "en": "Material"
+      },
+      "value": {
+        "zh": "PP",
+        "en": "PP"
+      }
+    },
+    {
+      "key": {
+        "zh": "能力培养",
+        "en": "Development Focus"
+      },
+      "value": {
+        "zh": "情感、视觉、智力开发、动手动脑、抓握、感官、手眼协调、亲子交流、兴趣培养",
+        "en": "Emotion, visual perception, cognitive development, hands-on skills, grasping, sensory training, hand-eye coordination, parent-child interaction, and interest cultivation"
+      }
+    },
+    {
+      "key": {
+        "zh": "货号",
+        "en": "Item No."
+      },
+      "value": {
+        "zh": "YS69",
+        "en": "YS69"
+      }
+    },
+    {
+      "key": {
+        "zh": "适用年龄",
+        "en": "Age Range"
+      },
+      "value": {
+        "zh": "少年（7-14岁）",
+        "en": "Ages 7-14"
+      }
+    }
+  ],
+  "packaging": [
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color Box"
+      }
+    },
+    {
+      "key": {
+        "zh": "单套重量(g)",
+        "en": "Unit Weight (g)"
+      },
+      "value": {
+        "zh": "1500",
+        "en": "1500"
+      }
+    },
+    {
+      "key": {
+        "zh": "规格",
+        "en": "Specification"
+      },
+      "value": {
+        "zh": "72/158",
+        "en": "72/158"
+      }
+    }
+  ],
+  "images": [
+    "./images/image-001.jpg",
+    "./images/image-002.jpg",
+    "./images/image-003.jpg",
+    "./images/image-004.jpg",
+    "./images/image-005.jpg",
+    "./images/image-006.jpg",
+    "./images/image-022.jpg"
+  ],
+  "videos": [
+    "./videos/video-001.mp4",
+    "./videos/video-002.mp4"
+  ],
+  "sourceUrl": "https://detail.1688.com/offer/675546131204.html"
+}

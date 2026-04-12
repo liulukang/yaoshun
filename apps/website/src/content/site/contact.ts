@@ -31,15 +31,15 @@ export const contactContent = {
     eyebrow: {en: 'Contact & Quote', zh: '联系与报价'},
     title: {en: 'Share Your Toy Project, We Reply With A Practical Plan', zh: '提交玩具项目需求，我们给出可执行的报价方案'},
     description: {
-      en: 'This page is designed for procurement and product teams. Submit product type, quantity, target market, and packaging requirements to receive an actionable quote and project rhythm suggestion.',
-      zh: '该页面面向采购与产品团队。提交产品类型、数量、目标市场与包装要求后，我们将反馈可执行报价与项目节奏建议。'
+      en: 'Submit product type, quantity range, target market, and packaging direction. We will reply with a practical quotation and execution suggestion.',
+      zh: '提交产品类型、数量区间、目标市场和包装方向后，我们会回复可执行的报价与推进建议。'
     }
   },
   responseGoal: {
     title: {en: 'Expected Response Rhythm', zh: '响应节奏说明'},
     text: {
-      en: 'Initial feedback within one business day, including feasibility notes and missing information checklist.',
-      zh: '通常在 1 个工作日内给出初步反馈，并同步可行性说明与补充信息清单。'
+      en: 'Most inquiries receive initial feedback within one business day, including feasibility notes and missing information reminders.',
+      zh: '大多数询盘会在 1 个工作日内收到初步反馈，并附可行性说明与补充信息提示。'
     }
   },
   serviceCommitmentSection: {
@@ -153,18 +153,13 @@ export const contactContent = {
   channels: [
     {
       label: {en: 'WhatsApp Trade Desk', zh: 'WhatsApp 贸易沟通'},
-      value: '+86 186 6552 7489',
-      href: 'https://wa.me/8618665527489'
+      value: '18780083256',
+      href: 'https://wa.me/18780083256'
     },
     {
       label: {en: 'Direct Email', zh: '邮箱'},
-      value: 'sales@lai-toys.com',
-      href: 'mailto:sales@lai-toys.com'
-    },
-    {
-      label: {en: 'LinkedIn', zh: 'LinkedIn'},
-      value: 'lai-toys-manufacturing',
-      href: 'https://www.linkedin.com/company/lai-toys-manufacturing'
+      value: 'lianli@gmail.com',
+      href: 'mailto:lianli@gmail.com'
     }
   ],
   journey: {

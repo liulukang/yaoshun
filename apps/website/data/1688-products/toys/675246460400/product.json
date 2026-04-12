@@ -1,0 +1,299 @@
+{
+  "offerId": "675246460400",
+  "module": "toys",
+  "priority": 1006,
+  "tags": [
+    {
+      "key": "toys",
+      "zh": "玩具",
+      "en": "Toys"
+    },
+    {
+      "key": "toys-construction",
+      "zh": "玩具-拼搭",
+      "en": "Toys - Construction"
+    },
+    {
+      "key": "toys-diy",
+      "zh": "玩具-DIY",
+      "en": "Toys - DIY"
+    },
+    {
+      "key": "toys-fort-building",
+      "zh": "玩具-帐篷拼搭",
+      "en": "Toys - Fort Building"
+    },
+    {
+      "key": "toys-stem",
+      "zh": "玩具-STEM",
+      "en": "Toys - STEM"
+    },
+    {
+      "key": "toys-parent-child",
+      "zh": "玩具-亲子互动",
+      "en": "Toys - Parent Child"
+    },
+    {
+      "key": "toys-indoor-outdoor",
+      "zh": "玩具-室内室外",
+      "en": "Toys - Indoor Outdoor"
+    }
+  ],
+  "title": {
+    "zh": "DIY插珠儿童帐篷城堡拼搭套装",
+    "en": "DIY Kids Fort Castle Building Set"
+  },
+  "summary": {
+    "zh": "这是一款儿童DIY插珠帐篷城堡拼搭套装，支持围绕帐篷、通道和互动空间进行多形态搭建，适用于家庭、课堂和活动场景。\n\n品牌为尧顺，产地中国东莞，内帐材料PP，支持反复拆装和创意重构。",
+    "en": "This is a kids DIY bead-and-rod fort castle building set that supports multiple layout forms for tents, tunnels, and interactive spaces in family, classroom, and event scenarios.\n\nBrand: Yaoshun. Origin: Dongguan, China. The inner-tent material is PP, and the set supports repeated assembly and creative reconfiguration."
+  },
+  "description": {
+    "zh": [
+      "该款DIY插珠儿童帐篷城堡拼搭套装以模块化结构搭建为核心，孩子可围绕城堡、帐篷和通道主题自由组合，形成持续的创意互动玩法。",
+      "产品适用于亲子互动、课堂教具和室内外活动空间搭建，可用于空间认知、协作训练与动手实践场景，支持多次拆装重复使用。",
+      "包装提供体积、重量与规格参数，便于渠道陈列、仓配管理和项目采购，适合长期供货协同。"
+    ],
+    "en": [
+      "This DIY kids fort castle building set is based on a modular construction structure, allowing children to freely build castle, tent, and tunnel themes for continuous creative interaction.",
+      "It is suitable for parent-child interaction, classroom props, and indoor/outdoor play-space setup, supporting spatial learning, collaboration training, and hands-on practice with repeatable assembly.",
+      "Packaging includes volume, weight, and specification data for channel display, warehouse operations, and project procurement, making it suitable for long-term supply coordination."
+    ]
+  },
+  "priceTiers": [
+    {
+      "quantity": {
+        "zh": "≥1000盒",
+        "en": "1000+ boxes"
+      },
+      "price": "¥68"
+    }
+  ],
+  "attributes": [
+    {
+      "key": {
+        "zh": "产地",
+        "en": "Origin"
+      },
+      "value": {
+        "zh": "中国东莞",
+        "en": "Dongguan, China"
+      }
+    },
+    {
+      "key": {
+        "zh": "内帐材料",
+        "en": "Inner Tent Material"
+      },
+      "value": {
+        "zh": "PP",
+        "en": "PP"
+      }
+    },
+    {
+      "key": {
+        "zh": "品牌",
+        "en": "Brand"
+      },
+      "value": {
+        "zh": "尧顺",
+        "en": "Yaoshun"
+      }
+    },
+    {
+      "key": {
+        "zh": "外帐材质",
+        "en": "Outer Tent Material"
+      },
+      "value": {
+        "zh": "涤纶",
+        "en": "Polyester"
+      }
+    },
+    {
+      "key": {
+        "zh": "外帐防水指数",
+        "en": "Outer Tent Waterproof Index"
+      },
+      "value": {
+        "zh": "小于1000mm",
+        "en": "Less than 1000 mm"
+      }
+    },
+    {
+      "key": {
+        "zh": "宽(cm)",
+        "en": "Width (cm)"
+      },
+      "value": {
+        "zh": "29",
+        "en": "29"
+      }
+    },
+    {
+      "key": {
+        "zh": "帐底材质",
+        "en": "Material"
+      },
+      "value": {
+        "zh": "无",
+        "en": "None"
+      }
+    },
+    {
+      "key": {
+        "zh": "帐底防水指数",
+        "en": "Groundsheet Waterproof Index"
+      },
+      "value": {
+        "zh": "不防水",
+        "en": "Non-waterproof"
+      }
+    },
+    {
+      "key": {
+        "zh": "帐篷展开大小",
+        "en": "Tent Expanded Size"
+      },
+      "value": {
+        "zh": "2米",
+        "en": "2 M"
+      }
+    },
+    {
+      "key": {
+        "zh": "帐篷结构",
+        "en": "Tent Structure"
+      },
+      "value": {
+        "zh": "单层帐",
+        "en": "Single-layer Tent"
+      }
+    },
+    {
+      "key": {
+        "zh": "搭建情况",
+        "en": "Assembly Requirement"
+      },
+      "value": {
+        "zh": "需要搭建",
+        "en": "Assembly Required"
+      }
+    },
+    {
+      "key": {
+        "zh": "撑杆材质",
+        "en": "Pole Material"
+      },
+      "value": {
+        "zh": "其它",
+        "en": "Other"
+      }
+    }
+  ],
+  "packaging": [
+    {
+      "key": {
+        "zh": "体积(cm³)",
+        "en": "Volume (cm³)"
+      },
+      "value": {
+        "zh": "7634.250",
+        "en": "7634.250"
+      }
+    },
+    {
+      "key": {
+        "zh": "宽(cm)",
+        "en": "Width (cm)"
+      },
+      "value": {
+        "zh": "29",
+        "en": "29"
+      }
+    },
+    {
+      "key": {
+        "zh": "整套重量",
+        "en": "Set Weight"
+      },
+      "value": {
+        "zh": "1.5KG",
+        "en": "1.5 kg"
+      }
+    },
+    {
+      "key": {
+        "zh": "单套重量(g)",
+        "en": "Unit Weight (g)"
+      },
+      "value": {
+        "zh": "1800",
+        "en": "1800"
+      }
+    },
+    {
+      "key": {
+        "zh": "长(cm)",
+        "en": "Length (cm)"
+      },
+      "value": {
+        "zh": "40.50",
+        "en": "40.50"
+      }
+    },
+    {
+      "key": {
+        "zh": "高(cm)",
+        "en": "Height (cm)"
+      },
+      "value": {
+        "zh": "6.50",
+        "en": "6.50"
+      }
+    },
+    {
+      "key": {
+        "zh": "规格",
+        "en": "Specification"
+      },
+      "value": {
+        "zh": "2M",
+        "en": "2M"
+      }
+    },
+    {
+      "key": {
+        "zh": "适用人数",
+        "en": "Capacity"
+      },
+      "value": {
+        "zh": "3-5",
+        "en": "3-5"
+      }
+    },
+    {
+      "key": {
+        "zh": "颜色",
+        "en": "Color"
+      },
+      "value": {
+        "zh": "蓝色杆子五色球",
+        "en": "Blue"
+      }
+    }
+  ],
+  "images": [
+    "./images/image-001.jpg",
+    "./images/image-002.jpg",
+    "./images/image-003.jpg",
+    "./images/image-004.jpg",
+    "./images/image-005.jpg",
+    "./images/image-006.jpg",
+    "./images/image-021.jpg"
+  ],
+  "videos": [
+    "./videos/video-001.mp4",
+    "./videos/video-002.mp4"
+  ],
+  "sourceUrl": "https://detail.1688.com/offer/675246460400.html"
+}

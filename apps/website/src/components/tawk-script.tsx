@@ -1,8 +1,23 @@
+'use client';
+
 import Script from 'next/script';
+import {useSyncExternalStore} from 'react';
+
+import {readCookieConsentStatus, subscribeToCookieConsent} from '@/lib/cookie-consent';
 
 const tawkEmbedUrl = 'https://embed.tawk.to/69d908d883428a1c31aa6460/1jlrsl4kk';
 
 export function TawkScript() {
+  const consentStatus = useSyncExternalStore(
+    subscribeToCookieConsent,
+    readCookieConsentStatus,
+    () => null
+  );
+
+  if (consentStatus !== 'granted') {
+    return null;
+  }
+
   return (
     <Script id="tawk-to-script" strategy="afterInteractive">
       {`

@@ -1,0 +1,161 @@
+{
+  "offerId": "602224770634",
+  "module": "toys",
+  "priority": 1001,
+  "tags": [
+    {
+      "key": "toys",
+      "zh": "玩具",
+      "en": "Toys"
+    },
+    {
+      "key": "toys-accessories",
+      "zh": "玩具-配件",
+      "en": "Toys - Accessories"
+    },
+    {
+      "key": "toys-structure-parts",
+      "zh": "玩具-结构件",
+      "en": "Toys - Structural Parts"
+    },
+    {
+      "key": "toys-construction",
+      "zh": "玩具-拼搭",
+      "en": "Toys - Construction"
+    },
+    {
+      "key": "toys-stem",
+      "zh": "玩具-STEM",
+      "en": "Toys - STEM"
+    }
+  ],
+  "title": {
+    "zh": "ABS透明硬质玩具拼搭管",
+    "en": "ABS Transparent Rigid Toy Tube"
+  },
+  "summary": {
+    "zh": "这是一款用于玩具拼搭结构的ABS透明硬质管件，适合与连接球、支架等配件组合使用，常见于儿童帐篷和拼插类结构玩具场景。\n\n品牌为尧顺，产地东莞茶山，支持批量供货，可用于标准化拼搭结构件配套。",
+    "en": "This is an ABS transparent rigid tube component for toy construction structures. It is suitable for use with connector balls and support parts in kids fort and interlocking build systems.\n\nBrand: Yaoshun. Origin: Chashan, Dongguan. It supports bulk supply for standardized structural component matching."
+  },
+  "description": {
+    "zh": [
+      "该款ABS透明硬质玩具拼搭管为结构类配件，主要用于拼搭模型、帐篷框架与连接支撑结构，可与多种节点件配合使用。",
+      "产品强调尺寸稳定和装配兼容性，适合用于儿童创意拼搭、教具结构搭建和活动场景道具的模块化组合。",
+      "配套参数包含重量与材料牌号信息，便于渠道进行规格管理、批量采购与长期供货协同。"
+    ],
+    "en": [
+      "This ABS transparent rigid toy tube is a structural accessory used in construction models, fort frames, and connection support assemblies, and can be matched with multiple joint components.",
+      "The product focuses on dimensional stability and assembly compatibility, making it suitable for kids creative construction, educational structure kits, and modular event props.",
+      "Specification data includes unit weight and material grade details, supporting channel-level specification management, batch purchasing, and long-term supply coordination."
+    ]
+  },
+  "priceTiers": [
+    {
+      "quantity": {
+        "zh": "50000-99999米",
+        "en": "50000-99999 m"
+      },
+      "price": "¥0.48"
+    },
+    {
+      "quantity": {
+        "zh": "≥100000米",
+        "en": "100000+ m"
+      },
+      "price": "¥0.45"
+    }
+  ],
+  "attributes": [
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "ABS硬质管",
+        "en": "ABS Rigid Tube"
+      }
+    },
+    {
+      "key": {
+        "zh": "产地",
+        "en": "Origin"
+      },
+      "value": {
+        "zh": "东莞茶山",
+        "en": "Chashan, Dongguan"
+      }
+    },
+    {
+      "key": {
+        "zh": "原料牌号",
+        "en": "Material Grade"
+      },
+      "value": {
+        "zh": "15A1",
+        "en": "15A1"
+      }
+    },
+    {
+      "key": {
+        "zh": "品牌",
+        "en": "Brand"
+      },
+      "value": {
+        "zh": "尧顺",
+        "en": "Yaoshun"
+      }
+    },
+    {
+      "key": {
+        "zh": "应用领域",
+        "en": "Application"
+      },
+      "value": {
+        "zh": "玩具拼搭结构",
+        "en": "Toy Construction Structures"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否进口",
+        "en": "Import Status"
+      },
+      "value": {
+        "zh": "否",
+        "en": "No"
+      }
+    },
+    {
+      "key": {
+        "zh": "货号",
+        "en": "Item No."
+      },
+      "value": {
+        "zh": "ABS管",
+        "en": "ABS Tube"
+      }
+    }
+  ],
+  "packaging": [
+    {
+      "key": {
+        "zh": "单件重量(g)",
+        "en": "Unit Weight (g)"
+      },
+      "value": {
+        "zh": "20",
+        "en": "20"
+      }
+    }
+  ],
+  "images": [
+    "./images/image-001.jpg",
+    "./images/image-002.jpg",
+    "./images/image-003.jpg",
+    "./images/image-004.jpg",
+    "./images/image-005.jpg"
+  ],
+  "videos": [],
+  "sourceUrl": "https://detail.1688.com/offer/602224770634.html"
+}

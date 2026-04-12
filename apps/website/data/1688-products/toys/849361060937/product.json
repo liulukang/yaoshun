@@ -1,0 +1,261 @@
+{
+  "offerId": "849361060937",
+  "module": "toys",
+  "priority": 1030,
+  "tags": [
+    {
+      "key": "toys",
+      "zh": "玩具",
+      "en": "Toys"
+    },
+    {
+      "key": "toys-construction",
+      "zh": "玩具-拼搭",
+      "en": "Toys - Construction"
+    },
+    {
+      "key": "toys-diy",
+      "zh": "玩具-DIY",
+      "en": "Toys - DIY"
+    },
+    {
+      "key": "toys-fort-building",
+      "zh": "玩具-帐篷拼搭",
+      "en": "Toys - Fort Building"
+    },
+    {
+      "key": "toys-parent-child",
+      "zh": "玩具-亲子互动",
+      "en": "Toys - Parent Child"
+    },
+    {
+      "key": "cross-border-export",
+      "zh": "跨境外贸",
+      "en": "Cross-border Export"
+    }
+  ],
+  "title": {
+    "zh": "儿童插珠帐篷拼搭积木套装",
+    "en": "Kids Bead Fort Building Set"
+  },
+  "summary": {
+    "zh": "这是一款面向儿童拼搭与互动场景的插珠帐篷积木套装，采用杆件与连接球组合结构，可用于在室内外快速搭建城堡、帐篷和通道等造型，适合亲子互动与课堂活动。\n\n产品品牌为尧顺，材质为塑料/塑胶，适用年龄集中在4-6岁，支持反复拆装使用。",
+    "en": "This is a kids fort-building set designed for creative construction and interaction. With rods and connector balls, children can quickly build castles, tents, and tunnel-like shapes for indoor or outdoor play, parent-child activities, and classroom use.\n\nBrand: Yaoshun. Material: plastic. The main age range is 4-6 years old, and the set supports repeated assembly and reconfiguration."
+  },
+  "description": {
+    "zh": [
+      "该款儿童插珠帐篷拼搭积木套装采用“杆件+连接球”组合结构，可在较短时间内搭建出帐篷、房屋、城堡等多种空间造型，适合家庭客厅、儿童活动区和教学空间使用。",
+      "产品强调动手拼装与空间构建过程，孩子在拆装和重构中可以进行创意表达与亲子协作。材质为塑料/塑胶，结构轻便，便于重复拼搭和收纳整理。",
+      "该商品提供彩盒包装与本地素材图，适合零售、电商上架和活动课程配套采购。对于需要持续供货的渠道客户，也可按组合方案进行批量配置。"
+    ],
+    "en": [
+      "This kids bead-fort building set uses a rod-and-connector structure to create tents, houses, castles, and other spatial shapes in a short setup time. It fits living rooms, play areas, and classroom environments.",
+      "The product focuses on hands-on construction and spatial play. Children can assemble, disassemble, and rebuild different structures for creative expression and parent-child interaction. The plastic material keeps it lightweight and suitable for repeated use.",
+      "With color-box packaging and local image assets, this item is suitable for retail, e-commerce listing, and educational activity procurement. It can also be configured for batch supply based on channel needs."
+    ]
+  },
+  "priceTiers": [
+    {
+      "quantity": {
+        "zh": "500-999盒",
+        "en": "500-999 Boxes"
+      },
+      "price": "¥88"
+    },
+    {
+      "quantity": {
+        "zh": "≥1000盒",
+        "en": ">=1000 Boxes"
+      },
+      "price": "¥86"
+    }
+  ],
+  "attributes": [
+    {
+      "key": {
+        "zh": "品牌",
+        "en": "Brand"
+      },
+      "value": {
+        "zh": "尧顺",
+        "en": "Yaoshun"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "儿童插珠帐篷拼搭玩具",
+        "en": "Kids Fort Building Toy"
+      }
+    },
+    {
+      "key": {
+        "zh": "材质",
+        "en": "Material"
+      },
+      "value": {
+        "zh": "塑料/塑胶",
+        "en": "Plastic"
+      }
+    },
+    {
+      "key": {
+        "zh": "拼砌玩具类型",
+        "en": "Construction Type"
+      },
+      "value": {
+        "zh": "拆装房子",
+        "en": "Build-and-Rebuild House"
+      }
+    },
+    {
+      "key": {
+        "zh": "3C配置类别",
+        "en": "3C Category"
+      },
+      "value": {
+        "zh": "14岁以下其它玩具",
+        "en": "Other Toys for Under 14"
+      }
+    },
+    {
+      "key": {
+        "zh": "适用年龄",
+        "en": "Age Range"
+      },
+      "value": {
+        "zh": "儿童（4-6岁）",
+        "en": "Kids (4-6 Years)"
+      }
+    },
+    {
+      "key": {
+        "zh": "能力培养",
+        "en": "Development Focus"
+      },
+      "value": {
+        "zh": "动手动脑",
+        "en": "Hands-on and Brain Development"
+      }
+    },
+    {
+      "key": {
+        "zh": "产地",
+        "en": "Origin"
+      },
+      "value": {
+        "zh": "广东茶山",
+        "en": "Chashan, Guangdong"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否专供外贸",
+        "en": "Export Supply"
+      },
+      "value": {
+        "zh": "否",
+        "en": "No"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否跨境出口专供货源",
+        "en": "Cross-border Source"
+      },
+      "value": {
+        "zh": "否",
+        "en": "No"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否有导购视频",
+        "en": "Guide Video"
+      },
+      "value": {
+        "zh": "否",
+        "en": "No"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否有动漫形象",
+        "en": "Character IP"
+      },
+      "value": {
+        "zh": "否",
+        "en": "No"
+      }
+    }
+  ],
+  "packaging": [
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color Box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装体积(cm³)",
+        "en": "Package Volume (cm³)"
+      },
+      "value": {
+        "zh": "17204",
+        "en": "17204"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸(cm)",
+        "en": "Carton Size (cm)"
+      },
+      "value": {
+        "zh": "44 x 34 x 11.5",
+        "en": "44 x 34 x 11.5"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装重量(g)",
+        "en": "Package Weight (g)"
+      },
+      "value": {
+        "zh": "3200",
+        "en": "3200"
+      }
+    },
+    {
+      "key": {
+        "zh": "颜色",
+        "en": "Color"
+      },
+      "value": {
+        "zh": "黄色 / 橙色",
+        "en": "Yellow / Orange"
+      }
+    }
+  ],
+  "images": [
+    "./images/image-001.jpg",
+    "./images/image-002.jpg",
+    "./images/image-003.jpg",
+    "./images/image-004.jpg",
+    "./images/image-005.jpg",
+    "./images/image-006.jpg",
+    "./images/image-022.jpg"
+  ],
+  "videos": [
+    "./videos/video-001.mp4",
+    "./videos/video-002.mp4"
+  ],
+  "sourceUrl": "https://detail.1688.com/offer/849361060937.html"
+}

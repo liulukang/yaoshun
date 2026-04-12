@@ -277,8 +277,8 @@ export function SiteShell({children, locale}: SiteShellProps) {
               <div>
                 <h4 className="font-label text-xs font-bold uppercase tracking-widest text-blue-900">{t(locale, sharedUi.siteShell.footerContact)}</h4>
                 <div className="mt-4 space-y-3 text-sm leading-6 text-slate-600">
-                  <p>{companyProfile.phone}</p>
-                  <p>{companyProfile.email}</p>
+                  <a className="block transition-colors hover:text-primary" data-track-event="phone_click" data-track-label="footer_phone" data-track-location="footer" href={`tel:${companyProfile.phone.replace(/\s+/g, '')}`}>{companyProfile.phone}</a>
+                  <a className="block transition-colors hover:text-primary" data-track-event="email_click" data-track-label="footer_email" data-track-location="footer" href={`mailto:${companyProfile.email}`}>{companyProfile.email}</a>
                   <p>{t(locale, companyProfile.address)}</p>
                 </div>
               </div>
@@ -291,9 +291,6 @@ export function SiteShell({children, locale}: SiteShellProps) {
                   </a>
                   <a className="transition-colors hover:text-primary" data-track-event="whatsapp_click" data-track-label="footer_whatsapp" data-track-location="footer" href={whatsappLink} rel="noreferrer" target="_blank">
                     {t(locale, sharedUi.siteShell.footerWhatsappLabel)}
-                  </a>
-                  <a className="transition-colors hover:text-primary" data-track-event="external_link_click" data-track-label="linkedin" data-track-location="footer" href={companyProfile.linkedin} rel="noreferrer" target="_blank">
-                    {t(locale, sharedUi.siteShell.footerLinkedinLabel)}
                   </a>
                 </div>
               </div>

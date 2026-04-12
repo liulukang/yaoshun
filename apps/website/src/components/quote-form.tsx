@@ -65,8 +65,10 @@ export function QuoteForm({locale}: QuoteFormProps) {
 
     const formData = new FormData(formElement);
     const name = String(formData.get('name') ?? '').trim();
+    const company = String(formData.get('company') ?? '').trim();
     const email = String(formData.get('email') ?? '').trim();
     const message = String(formData.get('message') ?? '').trim();
+    const website = String(formData.get('website') ?? '').trim();
     const leadId = `lead-${Date.now().toString(36)}`;
     let ticketDelivered = false;
 
@@ -78,8 +80,10 @@ export function QuoteForm({locale}: QuoteFormProps) {
         },
         body: JSON.stringify({
           name,
+          company,
           email,
           message,
+          website,
           locale
         })
       });
@@ -93,6 +97,7 @@ export function QuoteForm({locale}: QuoteFormProps) {
       form_location: 'contact_page',
       locale,
       has_name: Boolean(name),
+      has_company: Boolean(company),
       has_email: Boolean(email),
       has_message: Boolean(message),
       message_length: message.length,
@@ -141,6 +146,10 @@ export function QuoteForm({locale}: QuoteFormProps) {
               <input className="w-full rounded-xl border border-outline-variant/45 bg-white px-4 py-3 text-sm outline-none ring-0 transition-all focus:border-secondary focus:ring-2 focus:ring-secondary/30 sm:px-6 sm:py-4 sm:text-base" name="name" onFocus={handleFirstInteraction} placeholder={t(locale, sharedUi.quoteForm.fields.name.placeholder)} required type="text" />
             </label>
             <label className="space-y-2">
+              <span className="ml-1 block font-label text-xs font-semibold text-primary sm:text-sm">{t(locale, sharedUi.quoteForm.fields.company.label)}</span>
+              <input className="w-full rounded-xl border border-outline-variant/45 bg-white px-4 py-3 text-sm outline-none ring-0 transition-all focus:border-secondary focus:ring-2 focus:ring-secondary/30 sm:px-6 sm:py-4 sm:text-base" name="company" onFocus={handleFirstInteraction} placeholder={t(locale, sharedUi.quoteForm.fields.company.placeholder)} type="text" />
+            </label>
+            <label className="space-y-2">
               <span className="ml-1 block font-label text-xs font-semibold text-primary sm:text-sm">{t(locale, sharedUi.quoteForm.fields.email.label)}</span>
               <input className="w-full rounded-xl border border-outline-variant/45 bg-white px-4 py-3 text-sm outline-none ring-0 transition-all focus:border-secondary focus:ring-2 focus:ring-secondary/30 sm:px-6 sm:py-4 sm:text-base" name="email" onFocus={handleFirstInteraction} placeholder={t(locale, sharedUi.quoteForm.fields.email.placeholder)} required type="email" />
             </label>
@@ -148,6 +157,12 @@ export function QuoteForm({locale}: QuoteFormProps) {
               <span className="ml-1 block font-label text-xs font-semibold text-primary sm:text-sm">{t(locale, sharedUi.quoteForm.fields.message.label)}</span>
               <textarea className="w-full rounded-xl border border-outline-variant/45 bg-white px-4 py-3 text-sm outline-none ring-0 transition-all focus:border-secondary focus:ring-2 focus:ring-secondary/30 sm:px-6 sm:py-4 sm:text-base" name="message" onFocus={handleFirstInteraction} placeholder={t(locale, sharedUi.quoteForm.fields.message.placeholder)} required rows={6} />
             </label>
+            <div aria-hidden="true" className="pointer-events-none absolute -left-[9999px] top-auto h-px w-px overflow-hidden">
+              <label>
+                Website
+                <input autoComplete="off" name="website" tabIndex={-1} type="text" />
+              </label>
+            </div>
             <button className="flex w-full items-center justify-center gap-3 rounded-full bg-secondary py-4 text-base font-bold text-white shadow-lg transition-all hover:scale-[1.01] hover:bg-on-secondary-fixed-variant disabled:cursor-not-allowed disabled:opacity-70 sm:py-5 sm:text-lg" data-track-event="quote_form_submit_click" data-track-label="contact_form" data-track-location="contact_page" disabled={submitState === 'submitting'} type="submit">
               {t(locale, sharedUi.quoteForm.submit)}
               <span>{'->'}</span>

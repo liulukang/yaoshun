@@ -1,0 +1,186 @@
+{
+  "offerId": "557352209520",
+  "module": "tubes",
+  "priority": 2003,
+  "tags": [
+    {
+      "key": "tubes",
+      "zh": "管材",
+      "en": "Tubes"
+    },
+    {
+      "key": "tubes-tpu",
+      "zh": "管材-TPU",
+      "en": "Tubes - TPU"
+    },
+    {
+      "key": "tubes-pneumatic",
+      "zh": "管材-气动软管",
+      "en": "Tubes - Pneumatic Hose"
+    },
+    {
+      "key": "tubes-medical",
+      "zh": "管材-医疗",
+      "en": "Tubes - Medical"
+    }
+  ],
+  "title": {
+    "zh": "透明PU/TPU气动软管（呼吸机配套）",
+    "en": "TPU Medical Tube"
+  },
+  "summary": {
+    "zh": "该产品为医疗导管，主要材质为TPU，适用于医用等应用场景，支持规格定制与批量供货。",
+    "en": "This medical tube is primarily made from TPU and is suitable for Medical applications. Custom dimensions and bulk supply are supported."
+  },
+  "description": {
+    "zh": [
+      "医疗导管面向工业与消费品配套场景，可用于防护、包覆、导向和连接等需求。",
+      "主要材质为TPU，可按项目要求匹配尺寸、壁厚、长度和结构形式，适配不同应用工况。",
+      "包装与交付可按需求配置（如单件重量(g) 12），支持稳定供货与长期项目协同。"
+    ],
+    "en": [
+      "This medical tube is designed for industrial and consumer assembly programs requiring protection, covering, guidance, and connection functions.",
+      "The primary material is TPU, and dimensions such as outer diameter, wall thickness, length, and profile form can be aligned to project requirements.",
+      "Packaging and delivery can be configured as needed (for example: Unit Weight (g) 12), supporting stable supply and long-term project coordination."
+    ]
+  },
+  "priceTiers": [
+    {
+      "quantity": {
+        "zh": "50000-99999米",
+        "en": "50000-99999 m"
+      },
+      "price": "¥1.8"
+    },
+    {
+      "quantity": {
+        "zh": "≥100000米",
+        "en": ">=100000 m"
+      },
+      "price": "¥1.5"
+    }
+  ],
+  "attributes": [
+    {
+      "key": {
+        "zh": "品牌",
+        "en": "Brand"
+      },
+      "value": {
+        "zh": "尧顺",
+        "en": "Yaoshun"
+      }
+    },
+    {
+      "key": {
+        "zh": "品名",
+        "en": "Product Name"
+      },
+      "value": {
+        "zh": "TPU管",
+        "en": "TPU Tube"
+      }
+    },
+    {
+      "key": {
+        "zh": "用途",
+        "en": "Application"
+      },
+      "value": {
+        "zh": "医用",
+        "en": "Medical"
+      }
+    },
+    {
+      "key": {
+        "zh": "产地",
+        "en": "Origin"
+      },
+      "value": {
+        "zh": "东莞茶山",
+        "en": "Chashan, Dongguan"
+      }
+    },
+    {
+      "key": {
+        "zh": "公称外径",
+        "en": "Nominal Outer Diameter"
+      },
+      "value": {
+        "zh": "4（mm）",
+        "en": "4 mm"
+      }
+    },
+    {
+      "key": {
+        "zh": "壁厚",
+        "en": "Wall Thickness"
+      },
+      "value": {
+        "zh": "1（mm）",
+        "en": "1 mm"
+      }
+    },
+    {
+      "key": {
+        "zh": "长度",
+        "en": "Length"
+      },
+      "value": {
+        "zh": "1（m）",
+        "en": "1 m"
+      }
+    },
+    {
+      "key": {
+        "zh": "牌号",
+        "en": "Grade"
+      },
+      "value": {
+        "zh": "201712121",
+        "en": "201712121"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否进口",
+        "en": "Import Status"
+      },
+      "value": {
+        "zh": "否",
+        "en": "No"
+      }
+    },
+    {
+      "key": {
+        "zh": "颜色",
+        "en": "Color"
+      },
+      "value": {
+        "zh": "可定制",
+        "en": "Customizable"
+      }
+    }
+  ],
+  "packaging": [
+    {
+      "key": {
+        "zh": "单件重量(g)",
+        "en": "Unit Weight (g)"
+      },
+      "value": {
+        "zh": "12",
+        "en": "12"
+      }
+    }
+  ],
+  "images": [
+    "./images/image-001.jpg",
+    "./images/image-002.jpg",
+    "./images/image-003.jpg",
+    "./images/image-004.jpg",
+    "./images/image-005.jpg"
+  ],
+  "videos": [],
+  "sourceUrl": "https://detail.1688.com/offer/557352209520.html"
+}

@@ -1,118 +1,118 @@
 export const newsContent = {
   seo: {
     title: {
-      en: 'News Center | Dongguan Yaoshun Technology Co., Ltd. | Toy Manufacturing Updates',
-      zh: '新闻中心 | 东莞市尧顺科技有限公司 | 玩具制造动态'
+      en: 'Project Insights | Dongguan Yaoshun Technology Co., Ltd. | Toy Manufacturing Notes',
+      zh: '项目洞察 | 东莞市尧顺科技有限公司 | 玩具制造实践'
     },
     description: {
-      en: 'Read practical updates on toy OEM/ODM projects, engineering optimization, quality control, and export delivery from Dongguan Yaoshun Technology Co., Ltd.',
-      zh: '查看东莞市尧顺科技有限公司在玩具 OEM/ODM 项目、工程优化、质量控制与出口交付方面的实践动态。'
+      en: 'Read practical project notes for toy OEM/ODM collaboration, including engineering review points, quality controls, and delivery handoff practices.',
+      zh: '查看玩具 OEM/ODM 项目中的实践要点，包括工程评审、质量控制与交付交接方法。'
     },
     keywords: {
-      en: ['toy manufacturing news', 'oem odm updates', 'toy project delivery', 'quality control updates', 'sampling progress'],
-      zh: ['玩具制造动态', 'OEM ODM 资讯', '项目交付进展', '质量管理动态', '打样进度']
+      en: ['toy manufacturing insights', 'oem odm collaboration notes', 'toy project delivery', 'quality control practices', 'sampling workflow'],
+      zh: ['玩具制造洞察', 'OEM ODM 协作要点', '项目交付实践', '质量管理方法', '打样流程']
     }
   },
   hero: {
-    eyebrow: {en: 'News Center', zh: '新闻中心'},
-    title: {en: 'Project Updates, Engineering Notes, And Delivery Insights', zh: '项目更新、工程笔记与交付洞察'},
+    eyebrow: {en: 'Project Insights', zh: '项目洞察'},
+    title: {en: 'Engineering, Quality, And Delivery Notes For Buyer Teams', zh: '面向采购团队的工程、质量与交付要点'},
     description: {
-      en: 'We publish structured updates for procurement and product teams: what changed, why it matters, and how it affects schedule and quality decisions.',
-      zh: '面向采购与产品团队持续更新结构化信息：发生了什么、影响是什么、对排期与质量决策有何意义。'
+      en: 'Recurring project practices are summarized here to help buyers evaluate feasibility, schedule risk, and delivery readiness.',
+      zh: '本页汇总高频项目实践，帮助采购团队评估可行性、排期风险和交付准备度。'
     }
   },
   featuredSection: {
-    title: {en: 'Featured Updates', zh: '重点更新'},
+    title: {en: 'Current Focus Topics', zh: '当前关注主题'},
     description: {
-      en: 'Recent topics from sampling, process control, and OEM/ODM communication efficiency.',
-      zh: '近期围绕打样、过程管控与 OEM/ODM 沟通效率的核心更新。'
+      en: 'Core topics we regularly align with buyer teams during project onboarding.',
+      zh: '项目启动阶段与客户团队高频对齐的核心主题。'
     }
   },
   highlights: [
     {
-      date: {en: 'April 2026', zh: '2026 年 4 月'},
-      title: {en: 'Toy Sampling Workflow Update', zh: '玩具打样流程优化'},
+      date: {en: 'Focus 01', zh: '主题 01'},
+      title: {en: 'Sampling Readiness Checklist', zh: '打样准备清单'},
       text: {
-        en: 'Added checkpoints for structure review, sample sign-off, and mass-production handoff to reduce late-stage rework.',
-        zh: '新增结构评审、样品签核与量产交接检查点，降低后段返工风险。'
+        en: 'Clarify structure references, material direction, and approval ownership before sample kickoff.',
+        zh: '打样前明确结构参考、材料方向和签核责任，减少反复沟通。'
       }
     },
     {
-      date: {en: 'March 2026', zh: '2026 年 3 月'},
-      title: {en: 'Quality Control Record Standardization', zh: '质量记录标准化'},
+      date: {en: 'Focus 02', zh: '主题 02'},
+      title: {en: 'Quality Record Consistency', zh: '质量记录一致性'},
       text: {
-        en: 'Unified incoming, in-process, and pre-shipment records to improve traceability and issue closure speed.',
-        zh: '统一来料、过程与出货前记录，提升质量追溯与问题闭环效率。'
+        en: 'Use one record structure for incoming checks, in-process controls, and pre-shipment review.',
+        zh: '来料、过程和出货前检查使用统一记录结构，便于追溯与闭环。'
       }
     },
     {
-      date: {en: 'February 2026', zh: '2026 年 2 月'},
-      title: {en: 'OEM/ODM Communication Template Refresh', zh: 'OEM/ODM 沟通模板升级'},
+      date: {en: 'Focus 03', zh: '主题 03'},
+      title: {en: 'OEM/ODM Requirement Alignment', zh: 'OEM/ODM 需求对齐'},
       text: {
-        en: 'Refreshed requirement templates to clarify material, lead time, test scope, and packaging assumptions earlier.',
-        zh: '升级需求模板，提前明确选材、交期、测试范围与包装假设。'
+        en: 'Align quantity assumptions, target market, test scope, and packaging direction in the first discussion.',
+        zh: '首轮沟通即对齐数量假设、目标市场、测试范围和包装方向。'
       }
     }
   ],
   timelineSection: {
-    title: {en: 'Execution Timeline', zh: '执行时间线'},
+    title: {en: 'Execution Reference Flow', zh: '执行参考路径'},
     items: [
       {
-        month: {en: 'Jan', zh: '1 月'},
-        title: {en: 'Packaging Approval Lead Time Reduced', zh: '包装确认周期缩短'},
+        month: {en: 'Step 1', zh: '步骤 1'},
+        title: {en: 'Requirement Intake', zh: '需求接收'},
         text: {
-          en: 'Standardized carton and insert checklist reduced average packaging confirmation rounds.',
-          zh: '通过纸箱与内托标准检查表，减少包装确认往返次数。'
+          en: 'Collect product references, expected quantity, destination market, and launch timing.',
+          zh: '收集产品参考、预估数量、目标市场与上市节奏。'
         }
       },
       {
-        month: {en: 'Feb', zh: '2 月'},
-        title: {en: 'Material Risk Review Added To RFQ', zh: 'RFQ 增加材料风险评审'},
+        month: {en: 'Step 2', zh: '步骤 2'},
+        title: {en: 'Engineering Review', zh: '工程评审'},
         text: {
-          en: 'RFQ now includes material substitution risk notes for better cost and schedule visibility.',
-          zh: 'RFQ 新增材料替代风险说明，提升成本与排期可见性。'
+          en: 'Evaluate structure feasibility, tooling path, and material risk before pilot planning.',
+          zh: '在试产规划前评估结构可制造性、模具路径和材料风险。'
         }
       },
       {
-        month: {en: 'Mar', zh: '3 月'},
-        title: {en: 'Pre-Shipment Photo Standard Released', zh: '出货前图片标准上线'},
+        month: {en: 'Step 3', zh: '步骤 3'},
+        title: {en: 'Pilot Validation', zh: '试产验证'},
         text: {
-          en: 'Pre-shipment records now include fixed photo angles to improve remote acceptance clarity.',
-          zh: '出货前记录新增固定角度拍照标准，提升远程验货清晰度。'
+          en: 'Validate assembly fit, function, and packaging protection before scale-up.',
+          zh: '放量前验证装配匹配、功能表现与包装防护。'
         }
       },
       {
-        month: {en: 'Apr', zh: '4 月'},
-        title: {en: 'Pilot Run Gate Criteria Updated', zh: '试产放行标准更新'},
+        month: {en: 'Step 4', zh: '步骤 4'},
+        title: {en: 'Shipment Handoff', zh: '出货交接'},
         text: {
-          en: 'Pilot approval now links assembly fit, function checks, and packing validation as one gate.',
-          zh: '试产放行将装配匹配、功能测试与包装验证统一为同一放行门槛。'
+          en: 'Confirm shipment documents, packaging list, and delivery handoff checkpoints with buyer teams.',
+          zh: '与客户团队确认单证、装箱清单和交付交接节点。'
         }
       }
     ]
   },
   newsletterSection: {
-    title: {en: 'What We Usually Share', zh: '我们通常发布的内容'},
+    title: {en: 'What This Page Covers', zh: '本页覆盖内容'},
     items: [
       {
-        title: {en: 'Project Milestones', zh: '项目里程碑'},
+        title: {en: 'Project Milestones', zh: '项目关键节点'},
         text: {
-          en: 'Sampling, pilot, and launch milestones from active toy programs.',
-          zh: '玩具项目在打样、试产与量产阶段的里程碑更新。'
+          en: 'How milestones are defined from sampling to shipment handoff.',
+          zh: '说明从打样到出货交接的里程碑定义方式。'
         }
       },
       {
-        title: {en: 'Engineering Adjustments', zh: '工程调整说明'},
+        title: {en: 'Engineering Adjustments', zh: '工程调整要点'},
         text: {
-          en: 'Updates that affect structure, process, quality checkpoints, or lead time assumptions.',
-          zh: '涉及结构、工艺、质量节点与交期假设的关键调整。'
+          en: 'Common changes that affect structure, process route, and lead-time assumptions.',
+          zh: '常见会影响结构、工艺路径与交期假设的调整项。'
         }
       },
       {
-        title: {en: 'Delivery Lessons', zh: '交付复盘'},
+        title: {en: 'Delivery Alignment', zh: '交付协同'},
         text: {
-          en: 'Practical lessons from packaging, logistics handoff, and market-specific requirements.',
-          zh: '围绕包装、物流交接与市场要求的实践复盘。'
+          en: 'Packaging, logistics handoff, and document alignment practices for cross-border orders.',
+          zh: '跨境订单中包装、物流交接与单证协同的实践方法。'
         }
       }
     ]

@@ -1,0 +1,260 @@
+{
+  "offerId": "1038100939089",
+  "module": "toys",
+  "priority": 1053,
+  "tags": [
+    {
+      "key": "toys",
+      "zh": "玩具",
+      "en": "Toys"
+    },
+    {
+      "key": "toys-construction",
+      "zh": "玩具-拼搭",
+      "en": "Toys - Construction"
+    },
+    {
+      "key": "toys-diy",
+      "zh": "玩具-DIY",
+      "en": "Toys - DIY"
+    },
+    {
+      "key": "toys-fort-building",
+      "zh": "玩具-帐篷拼搭",
+      "en": "Toys - Fort Building"
+    },
+    {
+      "key": "toys-stem",
+      "zh": "玩具-STEM",
+      "en": "Toys - STEM"
+    },
+    {
+      "key": "toys-spatial-learning",
+      "zh": "玩具-空间认知",
+      "en": "Toys - Spatial Learning"
+    },
+    {
+      "key": "toys-parent-child",
+      "zh": "玩具-亲子互动",
+      "en": "Toys - Parent Child"
+    },
+    {
+      "key": "education-classroom-activity",
+      "zh": "教学活动",
+      "en": "Classroom Activity"
+    }
+  ],
+  "title": {
+    "zh": "儿童插珠帐篷拼搭积木玩具",
+    "en": "Kids Fort Building Block Toy Set"
+  },
+  "summary": {
+    "zh": "该产品为儿童拼搭类益智玩具，采用PP材质，适用于家庭亲子互动、课堂活动与培训场景。产品以拆装房子主题为核心，强调动手实践与空间构建体验。\n\n基础信息：品牌为尧顺，产地为东莞茶山，杆子长度约40cm。该款归类为14岁以上玩具，支持彩盒颜色定制。",
+    "en": "This product is a children-focused construction toy made of PP material, suitable for family interaction, classroom activities, and training scenarios. It centers on detachable house-style fort building and hands-on spatial play.\n\nBasic information: Brand Yaoshun, origin Chashan (Dongguan), rod length about 40 cm. The product is categorized as a 14+ toy and supports color-box customization."
+  },
+  "description": {
+    "zh": [
+      "该产品面向儿童创意拼搭与互动训练场景，适用于家庭、学校和课程化教学活动。产品采用PP材质，结构以插珠+杆件组合方式实现拆装房子、帐篷等多种拼搭形式。",
+      "产品定位为14岁以上玩具，适合用于动手实践、空间认知和亲子协作类场景。围绕搭建过程可形成连续的互动玩法，便于在教学和活动环境中反复使用。",
+      "包装信息包含彩盒、规格号、长宽高、体积和重量等关键项，便于渠道上架与仓配管理。支持彩盒颜色定制，可按项目需求进行长期供货协同。"
+    ],
+    "en": [
+      "This product is designed for children’s creative construction and interactive learning scenarios, including family use, school activities, and structured educational programs. It uses PP material and a bead-plus-rod structure to support detachable house and fort-style builds.",
+      "Positioned as a 14+ toy, it is suitable for hands-on practice, spatial cognition, and parent-child collaboration settings. The build process supports repeatable interactive play for classroom and activity use.",
+      "Packaging information includes color box type, specification code, dimensions, volume, and weight, which supports channel listing and warehouse operations. Color-box customization is available, and long-term project supply collaboration is supported."
+    ]
+  },
+  "priceTiers": [
+    {
+      "quantity": {
+        "zh": "500-999套",
+        "en": "500-999 sets"
+      },
+      "price": "¥149"
+    },
+    {
+      "quantity": {
+        "zh": "≥1000套",
+        "en": "1000+ sets"
+      },
+      "price": "¥109"
+    }
+  ],
+  "attributes": [
+    {
+      "key": {
+        "zh": "品牌",
+        "en": "Brand"
+      },
+      "value": {
+        "zh": "尧顺",
+        "en": "Yaoshun"
+      }
+    },
+    {
+      "key": {
+        "zh": "材质",
+        "en": "Material"
+      },
+      "value": {
+        "zh": "PP",
+        "en": "PP"
+      }
+    },
+    {
+      "key": {
+        "zh": "拼砌玩具类型",
+        "en": "Building Type"
+      },
+      "value": {
+        "zh": "拆装房子",
+        "en": "Detachable House"
+      }
+    },
+    {
+      "key": {
+        "zh": "3C配置类别",
+        "en": "3C Category"
+      },
+      "value": {
+        "zh": "14岁以上的玩具",
+        "en": "Toys for Ages 14+"
+      }
+    },
+    {
+      "key": {
+        "zh": "产地",
+        "en": "Origin"
+      },
+      "value": {
+        "zh": "东莞茶山",
+        "en": "Chashan, Dongguan"
+      }
+    },
+    {
+      "key": {
+        "zh": "杆子长度",
+        "en": "Rod Length"
+      },
+      "value": {
+        "zh": "40cm",
+        "en": "40 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否有导购视频",
+        "en": "Guide Video"
+      },
+      "value": {
+        "zh": "否",
+        "en": "No"
+      }
+    },
+    {
+      "key": {
+        "zh": "定制",
+        "en": "Customization"
+      },
+      "value": {
+        "zh": "支持彩盒颜色定制",
+        "en": "Color-box customization supported"
+      }
+    }
+  ],
+  "packaging": [
+    {
+      "key": {
+        "zh": "规格",
+        "en": "Specification"
+      },
+      "value": {
+        "zh": "LONDY---25100",
+        "en": "LONDY---25100"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color Box"
+      }
+    },
+    {
+      "key": {
+        "zh": "颜色",
+        "en": "Color"
+      },
+      "value": {
+        "zh": "黄色",
+        "en": "Yellow"
+      }
+    },
+    {
+      "key": {
+        "zh": "长(cm)",
+        "en": "Length (cm)"
+      },
+      "value": {
+        "zh": "45",
+        "en": "45"
+      }
+    },
+    {
+      "key": {
+        "zh": "宽(cm)",
+        "en": "Width (cm)"
+      },
+      "value": {
+        "zh": "9",
+        "en": "9"
+      }
+    },
+    {
+      "key": {
+        "zh": "高(cm)",
+        "en": "Height (cm)"
+      },
+      "value": {
+        "zh": "33",
+        "en": "33"
+      }
+    },
+    {
+      "key": {
+        "zh": "体积(cm³)",
+        "en": "Volume (cm³)"
+      },
+      "value": {
+        "zh": "13365",
+        "en": "13365"
+      }
+    },
+    {
+      "key": {
+        "zh": "重量(g)",
+        "en": "Weight (g)"
+      },
+      "value": {
+        "zh": "3",
+        "en": "3"
+      }
+    }
+  ],
+  "images": [
+    "./images/image-001.jpg",
+    "./images/image-002.jpg",
+    "./images/image-003.jpg",
+    "./images/image-004.jpg",
+    "./images/image-005.jpg",
+    "./images/image-006.jpg",
+    "./images/image-007.jpg"
+  ],
+  "videos": [
+    "./videos/video-001.mp4"
+  ],
+  "sourceUrl": "https://detail.1688.com/offer/1038100939089.html"
+}

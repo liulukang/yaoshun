@@ -7,9 +7,10 @@ import {useMemo, useSyncExternalStore} from 'react';
 import {trackEvent, trackPageView} from '@/lib/analytics';
 import {
   applyGoogleConsent,
-  cookieConsentStorageKey,
+  dispatchCookieConsentChange,
   persistCookieConsentStatus,
   readCookieConsentStatus,
+  subscribeToCookieConsent,
   type CookieConsentStatus,
 } from '@/lib/cookie-consent';
 import {defaultLocale, getLocaleFromPathname, t} from '@/lib/i18n';
@@ -36,8 +37,8 @@ export function CookieConsentBanner() {
       zh: '仅使用必要 Cookie',
     }),
     description: t(locale, {
-      en: 'We use cookies to improve site experience, and only enable analytics and ads measurement after consent.',
-      zh: '我们使用 Cookie 优化网站体验，并在你同意后启用统计与广告衡量功能。',
+      en: 'We use cookies to improve site experience. In regions where consent is required, analytics and ads measurement activate only after your approval.',
+      zh: '我们使用 Cookie 优化网站体验。在法律要求同意的地区，统计与广告衡量功能仅在你授权后启用。',
     }),
     title: t(locale, {
       en: 'Cookie Notice',
@@ -52,7 +53,7 @@ export function CookieConsentBanner() {
   function handleConsent(nextDecision: CookieConsentStatus) {
     persistCookieConsentStatus(nextDecision);
     applyGoogleConsent(nextDecision);
-    window.dispatchEvent(new Event('cookie-consent-change'));
+    dispatchCookieConsentChange();
 
     if (nextDecision === 'granted') {
       trackPageView(pathname, document.title);
@@ -76,15 +77,15 @@ export function CookieConsentBanner() {
               <div className="min-w-0">
                 <p className="font-headline text-base font-extrabold tracking-tight text-primary sm:text-lg">{copy.title}</p>
                 <p className="mt-1 text-xs leading-relaxed text-on-surface-variant sm:text-sm">{copy.description}</p>
-                <Link className="mt-1.5 inline-block text-xs font-bold text-secondary transition-colors hover:text-primary sm:text-sm" href={privacyHref}>
+                <Link className="mt-1.5 inline-block text-xs font-bold text-secondary transition-colors hover:text-primary sm:text-sm" data-track-event="cookie_policy_click" data-track-label="cookie_notice_privacy" data-track-location="cookie_notice" href={privacyHref}>
                   {copy.viewPolicy}
                 </Link>
               </div>
               <div className="flex shrink-0 items-center gap-2 sm:gap-2.5">
-                <button className="rounded-full border-2 border-outline-variant px-3.5 py-1.5 text-[11px] font-bold text-primary transition-colors hover:bg-surface-container-high sm:px-4 sm:py-2 sm:text-xs" onClick={() => handleConsent('denied')} type="button">
+                <button className="rounded-full border-2 border-outline-variant px-3.5 py-1.5 text-[11px] font-bold text-primary transition-colors hover:bg-surface-container-high sm:px-4 sm:py-2 sm:text-xs" data-track-event="cookie_consent_click" data-track-label="essential_only" data-track-location="cookie_notice" onClick={() => handleConsent('denied')} type="button">
                   {copy.decline}
                 </button>
-                <button className="inline-flex items-center justify-center rounded-full bg-secondary px-3.5 py-1.5 text-[11px] font-bold text-white shadow-lg transition-all hover:scale-[1.01] hover:bg-on-secondary-fixed-variant sm:px-4 sm:py-2 sm:text-xs" onClick={() => handleConsent('granted')} type="button">
+                <button className="inline-flex items-center justify-center rounded-full bg-secondary px-3.5 py-1.5 text-[11px] font-bold text-white shadow-lg transition-all hover:scale-[1.01] hover:bg-on-secondary-fixed-variant sm:px-4 sm:py-2 sm:text-xs" data-track-event="cookie_consent_click" data-track-label="accept_all" data-track-location="cookie_notice" onClick={() => handleConsent('granted')} type="button">
                   {copy.accept}
                 </button>
               </div>
@@ -94,27 +95,4 @@ export function CookieConsentBanner() {
       </div>
     </div>
   );
-}
-
-function subscribeToCookieConsent(callback: () => void) {
-  if (typeof window === 'undefined') {
-    return () => {};
-  }
-
-  const handleStorage = (event: StorageEvent) => {
-    if (event.key === null || event.key === cookieConsentStorageKey) {
-      callback();
-    }
-  };
-  const handleConsentChange = () => {
-    callback();
-  };
-
-  window.addEventListener('storage', handleStorage);
-  window.addEventListener('cookie-consent-change', handleConsentChange);
-
-  return () => {
-    window.removeEventListener('storage', handleStorage);
-    window.removeEventListener('cookie-consent-change', handleConsentChange);
-  };
 }

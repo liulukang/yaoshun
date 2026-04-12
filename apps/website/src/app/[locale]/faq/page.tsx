@@ -83,8 +83,8 @@ export default async function FaqPage({
             <div className="rounded-2xl border border-outline-variant/10 bg-surface-container-lowest p-5 shadow-panel sm:p-6 lg:p-8">
               <h3 className="font-headline text-xl font-bold text-primary">{t(locale, faqContent.sidebar.primaryContactTitle)}</h3>
               <div className="mt-4 space-y-3 sm:mt-6 sm:space-y-4">
-                <p className="font-bold text-primary">{companyProfile.phone}</p>
-                <p className="text-sm text-on-surface-variant">{companyProfile.email}</p>
+                <a className="block font-bold text-primary transition-colors hover:text-secondary" data-track-event="phone_click" data-track-label="faq_sidebar_phone" data-track-location="faq_sidebar_contact" href={`tel:${companyProfile.phone.replace(/\s+/g, '')}`}>{companyProfile.phone}</a>
+                <a className="block text-sm text-on-surface-variant transition-colors hover:text-secondary" data-track-event="email_click" data-track-label="faq_sidebar_email" data-track-location="faq_sidebar_contact" href={`mailto:${companyProfile.email}`}>{companyProfile.email}</a>
                 <p className="text-sm text-on-surface-variant">{t(locale, companyProfile.address)}</p>
               </div>
             </div>

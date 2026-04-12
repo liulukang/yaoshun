@@ -1,0 +1,264 @@
+{
+  "offerId": "860410119702",
+  "module": "toys",
+  "priority": 1034,
+  "tags": [
+    {
+      "key": "toys",
+      "zh": "玩具",
+      "en": "Toys"
+    },
+    {
+      "key": "toys-construction",
+      "zh": "玩具-拼搭",
+      "en": "Toys - Construction"
+    },
+    {
+      "key": "toys-diy",
+      "zh": "玩具-DIY",
+      "en": "Toys - DIY"
+    },
+    {
+      "key": "toys-fort-building",
+      "zh": "玩具-帐篷拼搭",
+      "en": "Toys - Fort Building"
+    },
+    {
+      "key": "toys-parent-child",
+      "zh": "玩具-亲子互动",
+      "en": "Toys - Parent Child"
+    },
+    {
+      "key": "cross-border-export",
+      "zh": "跨境外贸",
+      "en": "Cross-border Export"
+    }
+  ],
+  "title": {
+    "zh": "儿童城堡帐篷拼搭积木套装（100PCS）",
+    "en": "Kids Castle Fort Building Set (100PCS)"
+  },
+  "summary": {
+    "zh": "这是一款面向儿童创意拼搭场景的城堡帐篷积木套装，采用杆件与连接球结构，可快速搭建房屋、帐篷和堡垒造型，适用于家庭亲子互动与课堂活动。\n\n品牌为尧顺，主要材质为PP，常用规格为YG100pcs，支持反复拆装和多次重构。",
+    "en": "This is a kids castle-fort building set for creative construction play. With rods and connector balls, children can quickly build house, tent, and fort shapes for parent-child interaction and classroom activities.\n\nBrand: Yaoshun. Main material: PP. Typical model: YG100pcs. The set supports repeated assembly and reconfiguration."
+  },
+  "description": {
+    "zh": [
+      "该款儿童城堡帐篷拼搭积木套装采用“杆件+连接球”组合设计，孩子可根据空间与主题自由拼接房屋、帐篷与堡垒结构，适合多场景创意搭建。",
+      "产品主材为PP，结构轻便并支持重复拆装。拼搭过程中可用于手眼协调、空间认知与亲子协作训练，适用于家庭娱乐和幼教活动。",
+      "商品采用彩盒包装，常规规格为YG100pcs，便于电商上架与渠道分销。支持批量采购与长期供货。"
+    ],
+    "en": [
+      "This kids castle fort set uses a rod-and-connector design, allowing children to build houses, tents, and fortress shapes based on different play themes and space sizes.",
+      "The main material is PP, offering lightweight handling and repeatable assembly. The building process supports hand-eye coordination, spatial learning, and parent-child collaboration for home and preschool scenarios.",
+      "Packed in a color box with a common YG100pcs specification, this item is suitable for e-commerce listing, channel distribution, bulk procurement, and long-term supply."
+    ]
+  },
+  "priceTiers": [
+    {
+      "quantity": {
+        "zh": "≥500盒",
+        "en": ">=500 Boxes"
+      },
+      "price": "¥75"
+    }
+  ],
+  "attributes": [
+    {
+      "key": {
+        "zh": "品牌",
+        "en": "Brand"
+      },
+      "value": {
+        "zh": "尧顺",
+        "en": "Yaoshun"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "儿童城堡帐篷拼搭玩具",
+        "en": "Kids Castle Fort Building Toy"
+      }
+    },
+    {
+      "key": {
+        "zh": "材质",
+        "en": "Material"
+      },
+      "value": {
+        "zh": "PP",
+        "en": "PP"
+      }
+    },
+    {
+      "key": {
+        "zh": "拼砌玩具类型",
+        "en": "Construction Type"
+      },
+      "value": {
+        "zh": "拆装房子",
+        "en": "Build-and-Rebuild House"
+      }
+    },
+    {
+      "key": {
+        "zh": "3C配置类别",
+        "en": "3C Category"
+      },
+      "value": {
+        "zh": "14岁以下其它玩具",
+        "en": "Other Toys for Under 14"
+      }
+    },
+    {
+      "key": {
+        "zh": "能力培养",
+        "en": "Development Focus"
+      },
+      "value": {
+        "zh": "情感、视觉、智力开发、动手动脑、感官、手眼协调、亲子交流",
+        "en": "Emotion, visual learning, cognitive growth, hands-on skills, sensory skills, hand-eye coordination, parent-child interaction"
+      }
+    },
+    {
+      "key": {
+        "zh": "货号",
+        "en": "Model No."
+      },
+      "value": {
+        "zh": "YG100pcs",
+        "en": "YG100pcs"
+      }
+    },
+    {
+      "key": {
+        "zh": "产地",
+        "en": "Origin"
+      },
+      "value": {
+        "zh": "广东省东莞",
+        "en": "Dongguan, Guangdong"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否专供外贸",
+        "en": "Export Supply"
+      },
+      "value": {
+        "zh": "否",
+        "en": "No"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否跨境出口专供货源",
+        "en": "Cross-border Source"
+      },
+      "value": {
+        "zh": "否",
+        "en": "No"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否有导购视频",
+        "en": "Guide Video"
+      },
+      "value": {
+        "zh": "是",
+        "en": "Available"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否有动漫形象",
+        "en": "Character IP"
+      },
+      "value": {
+        "zh": "否",
+        "en": "No"
+      }
+    }
+  ],
+  "packaging": [
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color Box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装体积(cm³)",
+        "en": "Package Volume (cm³)"
+      },
+      "value": {
+        "zh": "10803.750",
+        "en": "10803.750"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸(cm)",
+        "en": "Carton Size (cm)"
+      },
+      "value": {
+        "zh": "43 x 33.5 x 7.5",
+        "en": "43 x 33.5 x 7.5"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装重量(g)",
+        "en": "Package Weight (g)"
+      },
+      "value": {
+        "zh": "2300",
+        "en": "2300"
+      }
+    },
+    {
+      "key": {
+        "zh": "规格",
+        "en": "Specification"
+      },
+      "value": {
+        "zh": "YG100pcs",
+        "en": "YG100pcs"
+      }
+    },
+    {
+      "key": {
+        "zh": "颜色",
+        "en": "Color"
+      },
+      "value": {
+        "zh": "紫色",
+        "en": "Purple"
+      }
+    }
+  ],
+  "images": [
+    "./images/image-001.jpg",
+    "./images/image-002.jpg",
+    "./images/image-003.jpg",
+    "./images/image-004.jpg",
+    "./images/image-005.jpg",
+    "./images/image-006.jpg",
+    "./images/image-022.jpg"
+  ],
+  "videos": [
+    "./videos/video-001.mp4",
+    "./videos/video-002.mp4"
+  ],
+  "sourceUrl": "https://detail.1688.com/offer/860410119702.html"
+}

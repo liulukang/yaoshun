@@ -1,10 +1,36 @@
 import {NextResponse, type NextRequest} from 'next/server';
 
 import {defaultLocale, getLocaleFromPathname, localeCookieName, resolvePreferredLocale} from '@/lib/i18n';
+import {consentRequiredCookieName, isConsentRequiredCountry} from '@/lib/privacy-region';
+
+const oneYearInSeconds = 60 * 60 * 24 * 365;
+const thirtyDaysInSeconds = 60 * 60 * 24 * 30;
+
+function resolveCountryCode(request: NextRequest): string | null {
+  return request.headers.get('x-vercel-ip-country')
+    ?? request.headers.get('cf-ipcountry')
+    ?? request.headers.get('x-country-code');
+}
+
+function applyContextCookies(
+  response: NextResponse,
+  locale: string,
+  consentRequired: boolean
+) {
+  response.cookies.set(localeCookieName, locale, {
+    path: '/',
+    maxAge: oneYearInSeconds
+  });
+  response.cookies.set(consentRequiredCookieName, consentRequired ? '1' : '0', {
+    path: '/',
+    maxAge: thirtyDaysInSeconds
+  });
+}
 
 export function proxy(request: NextRequest) {
   const localeInPath = getLocaleFromPathname(request.nextUrl.pathname);
   const requestHeaders = new Headers(request.headers);
+  const consentRequired = isConsentRequiredCountry(resolveCountryCode(request));
 
   if (localeInPath) {
     requestHeaders.set('x-detected-locale', localeInPath);
@@ -13,10 +39,7 @@ export function proxy(request: NextRequest) {
         headers: requestHeaders
       }
     });
-    response.cookies.set(localeCookieName, localeInPath, {
-      path: '/',
-      maxAge: 60 * 60 * 24 * 365
-    });
+    applyContextCookies(response, localeInPath, consentRequired);
     return response;
   }
 
@@ -28,23 +51,31 @@ export function proxy(request: NextRequest) {
     requestHeaders.set('x-detected-locale', locale);
     const url = request.nextUrl.clone();
     url.pathname = `/${locale}`;
-
-    return NextResponse.redirect(url);
+    const response = NextResponse.redirect(url);
+    applyContextCookies(response, locale, consentRequired);
+    return response;
   }
 
   if (request.nextUrl.pathname === '') {
     requestHeaders.set('x-detected-locale', defaultLocale);
     const url = request.nextUrl.clone();
     url.pathname = `/${defaultLocale}`;
-    return NextResponse.redirect(url);
+    const response = NextResponse.redirect(url);
+    applyContextCookies(response, defaultLocale, consentRequired);
+    return response;
   }
 
   requestHeaders.set('x-detected-locale', defaultLocale);
-  return NextResponse.next({
+  const response = NextResponse.next({
     request: {
       headers: requestHeaders
     }
   });
+  response.cookies.set(consentRequiredCookieName, consentRequired ? '1' : '0', {
+    path: '/',
+    maxAge: thirtyDaysInSeconds
+  });
+  return response;
 }
 
 export const config = {

@@ -1,0 +1,155 @@
+{
+  "offerId": "602226870753",
+  "module": "tubes",
+  "priority": 2027,
+  "tags": [
+    {
+      "key": "tubes",
+      "zh": "管材",
+      "en": "Tubes"
+    },
+    {
+      "key": "tubes-pvc",
+      "zh": "管材-PVC",
+      "en": "Tubes - PVC"
+    },
+    {
+      "key": "pvc",
+      "zh": "PVC",
+      "en": "PVC"
+    }
+  ],
+  "title": {
+    "zh": "pvc细硬管环保pvc白色pvc包装耐腐",
+    "en": "PVC Tube"
+  },
+  "summary": {
+    "zh": "该产品为PVC管材，主要材质为PVC，适用于玩具等应用场景，支持规格定制与批量供货。",
+    "en": "This pvc tube is primarily made from PVC and is suitable for Toy applications. Custom dimensions and bulk supply are supported."
+  },
+  "description": {
+    "zh": [
+      "PVC管材面向工业与消费品配套场景，可用于防护、包覆、导向和连接等需求。",
+      "主要材质为PVC，可按项目要求匹配尺寸、壁厚、长度和结构形式，适配不同应用工况。",
+      "包装与交付可按需求配置（如重量(g) 1100），支持稳定供货与长期项目协同。"
+    ],
+    "en": [
+      "This pvc tube is designed for industrial and consumer assembly programs requiring protection, covering, guidance, and connection functions.",
+      "The primary material is PVC, and dimensions such as outer diameter, wall thickness, length, and profile form can be aligned to project requirements.",
+      "Packaging and delivery can be configured as needed (for example: Weight (g) 1100), supporting stable supply and long-term project coordination."
+    ]
+  },
+  "priceTiers": [
+    {
+      "quantity": {
+        "zh": "10000-49999件",
+        "en": "10000-49999 Pcs"
+      },
+      "price": "¥17.5"
+    },
+    {
+      "quantity": {
+        "zh": "≥50000件",
+        "en": ">=50000 Pcs"
+      },
+      "price": "¥17"
+    }
+  ],
+  "attributes": [
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "PVC硬管",
+        "en": "PVC"
+      }
+    },
+    {
+      "key": {
+        "zh": "产地",
+        "en": "Origin"
+      },
+      "value": {
+        "zh": "东莞茶山",
+        "en": "Chashan, Dongguan"
+      }
+    },
+    {
+      "key": {
+        "zh": "原料牌号",
+        "en": "Material Grade"
+      },
+      "value": {
+        "zh": "2314",
+        "en": "2314"
+      }
+    },
+    {
+      "key": {
+        "zh": "品牌",
+        "en": "Brand"
+      },
+      "value": {
+        "zh": "尧顺",
+        "en": "Yaoshun"
+      }
+    },
+    {
+      "key": {
+        "zh": "应用领域",
+        "en": "Application"
+      },
+      "value": {
+        "zh": "玩具",
+        "en": "Toy"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否进口",
+        "en": "Imported"
+      },
+      "value": {
+        "zh": "否",
+        "en": "No"
+      }
+    },
+    {
+      "key": {
+        "zh": "货号",
+        "en": "Item No."
+      },
+      "value": {
+        "zh": "2314",
+        "en": "2314"
+      }
+    }
+  ],
+  "packaging": [
+    {
+      "key": {
+        "zh": "重量(g)",
+        "en": "Weight (g)"
+      },
+      "value": {
+        "zh": "1100",
+        "en": "1100"
+      }
+    }
+  ],
+  "images": [
+    "./images/image-001.jpg",
+    "./images/image-002.jpg",
+    "./images/image-003.jpg",
+    "./images/image-004.jpg",
+    "./images/image-005.jpg",
+    "./images/image-006.jpg"
+  ],
+  "videos": [
+    "./videos/video-001.mp4",
+    "./videos/video-002.mp4"
+  ],
+  "sourceUrl": "https://detail.1688.com/offer/602226870753.html"
+}

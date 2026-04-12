@@ -1,4 +1,4 @@
-import {placeholderImages} from '@/content/site/shared';
+import {visualAssets} from '@/content/site/shared';
 
 export const homeContent = {
   seo: {
@@ -61,12 +61,7 @@ export const homeContent = {
     secondary: {
       en: 'View Product Catalog',
       zh: '查看产品目录'
-    },
-    snapshotLabel: {
-      en: 'Factory Snapshot',
-      zh: '工厂快照'
-    },
-    collage: [placeholderImages.factoryHero, placeholderImages.toyLearning, placeholderImages.factoryHero]
+    }
   },
   entrySection: {
     eyebrow: {
@@ -153,7 +148,7 @@ export const homeContent = {
         en: 'DIY children toys and smart toy product lines, supporting OEM/ODM development, trial runs, and mass production delivery.',
         zh: '聚焦 DIY 儿童玩具与智能玩具产品线，支持 OEM/ODM 开发、打样验证与量产交付。'
       },
-      image: placeholderImages.toyLearning
+      image: visualAssets.toyLearning
     },
     {
       title: {en: 'Toy Parts & Plastic Components', zh: '玩具结构件与塑胶配套'},
@@ -161,7 +156,7 @@ export const homeContent = {
         en: 'Supports toy housings, functional parts, and structural components with coordinated mold, injection, assembly, and packaging workflows.',
         zh: '支持玩具外壳、功能件与结构件开发，配套模具、注塑、组装与包装协同交付。'
       },
-      image: placeholderImages.profileSeries
+      image: visualAssets.profileSeries
     },
     {
       title: {en: 'Supporting Plastic & Extrusion Capability', zh: '塑胶与挤出配套能力'},
@@ -169,7 +164,7 @@ export const homeContent = {
         en: 'Provides injection and extrusion support for projects requiring special materials, profile structures, or process integration.',
         zh: '针对需特殊材质、型材结构或复合工艺的项目，提供注塑与挤出配套支持。'
       },
-      image: placeholderImages.engineeringSupport
+      image: visualAssets.engineeringSupport
     }
   ],
   floatingStats: [
@@ -290,37 +285,37 @@ export const homeContent = {
   ],
   casesSection: {
     title: {
-      en: 'Project Delivery Notes',
-      zh: '项目交付案例'
+      en: 'Representative Collaboration Scenarios',
+      zh: '典型协作场景'
     },
     description: {
-      en: 'Typical toy project notes covering schedule, launch, and repeat-order outcomes.',
-      zh: '展示玩具项目在排期、上新与复购方面的典型交付结果。'
+      en: 'Representative scenario references that show how requirements are aligned from planning to delivery.',
+      zh: '用于说明从项目规划到交付阶段如何进行需求对齐与执行协同。'
     }
   },
   cases: [
     {
-      title: {en: 'EU Specialty Retail Group', zh: '欧洲连锁玩具渠道项目'},
-      result: {en: 'Delivered 2 x 40HQ on schedule.', zh: '首单 2 x 40HQ 按期交付。'},
+      title: {en: 'EU Specialty Retail Program Scenario', zh: '欧洲零售项目场景'},
+      result: {en: 'Seasonal launch window aligned.', zh: '季节性上新窗口完成对齐。'},
       text: {
-        en: 'Production scheduling and packaging moved in parallel before the seasonal sales window.',
-        zh: '通过排产与包装同步推进，在销售季前完成出运。'
+        en: 'Production planning and packaging review were coordinated in parallel before shipment release.',
+        zh: '在出货前并行推进排产计划与包装评审，降低临期调整风险。'
       }
     },
     {
-      title: {en: 'North America Kids Chain', zh: '北美教育玩具新品项目'},
-      result: {en: 'Sampling to first batch in 8 weeks.', zh: '8 周完成打样到首批量产。'},
+      title: {en: 'North America Education Program Scenario', zh: '北美教育项目场景'},
+      result: {en: 'Prototype and launch plan finalized.', zh: '打样与导入计划完成确认。'},
       text: {
-        en: 'R&D, sampling, and testing were advanced in parallel, then transitioned into the first mass-production batch.',
-        zh: '研发、打样与测试并行推进后，按计划转入首批量产。'
+        en: 'Engineering review, sampling, and validation were linked as one workflow before production kickoff.',
+        zh: '将工程评审、打样和验证整合为同一流程，再进入量产启动阶段。'
       }
     },
     {
-      title: {en: 'Middle East Gift Network', zh: '中东礼品渠道 ODM 项目'},
-      result: {en: 'Localized packaging enabled repeat orders.', zh: '本地化包装支持后续持续复购。'},
+      title: {en: 'Middle East Gift Channel Scenario', zh: '中东礼品渠道场景'},
+      result: {en: 'Localized packaging direction implemented.', zh: '本地化包装方向完成落地。'},
       text: {
-        en: 'Packaging and language customization were aligned to local channel needs.',
-        zh: '围绕当地渠道偏好完成包装与语言版本切换。'
+        en: 'Language version and packaging style were aligned with local channel requirements before delivery.',
+        zh: '在交付前完成语言版本和包装风格与当地渠道要求的对齐。'
       }
     }
   ],

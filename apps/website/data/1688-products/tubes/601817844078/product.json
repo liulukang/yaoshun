@@ -1,0 +1,160 @@
+{
+  "offerId": "601817844078",
+  "module": "tubes",
+  "priority": 2023,
+  "tags": [
+    {
+      "key": "tubes",
+      "zh": "管材",
+      "en": "Tubes"
+    },
+    {
+      "key": "tubes-tpu",
+      "zh": "管材-TPU",
+      "en": "Tubes - TPU"
+    },
+    {
+      "key": "tpu",
+      "zh": "TPU",
+      "en": "TPU"
+    },
+    {
+      "key": "pu",
+      "zh": "PU",
+      "en": "PU"
+    }
+  ],
+  "title": {
+    "zh": "透明TPU医疗气动管薄壁TPU医疗气动管",
+    "en": "TPU Tube"
+  },
+  "summary": {
+    "zh": "该产品为TPU管材，主要材质为TPU，适用于医用配件等应用场景，支持规格定制与批量供货。",
+    "en": "This tpu tube is primarily made from TPU and is suitable for elastic protection and flow routing applications. Custom dimensions and bulk supply are supported."
+  },
+  "description": {
+    "zh": [
+      "TPU管材面向工业与消费品配套场景，可用于防护、包覆、导向和连接等需求。",
+      "主要材质为TPU，可按项目要求匹配尺寸、壁厚、长度和结构形式，适配不同应用工况。",
+      "包装与交付可按需求配置（如重量(g) 10），支持稳定供货与长期项目协同。"
+    ],
+    "en": [
+      "This tpu tube is designed for industrial and consumer assembly programs requiring protection, covering, guidance, and connection functions.",
+      "The primary material is TPU, and dimensions such as outer diameter, wall thickness, length, and profile form can be aligned to project requirements.",
+      "Packaging and delivery can be configured as needed (for example: Weight (g) 10), supporting stable supply and long-term project coordination."
+    ]
+  },
+  "priceTiers": [
+    {
+      "quantity": {
+        "zh": "50000-99999米",
+        "en": "50000-99999 M"
+      },
+      "price": "¥1.15"
+    },
+    {
+      "quantity": {
+        "zh": "≥100000米",
+        "en": ">=100000 M"
+      },
+      "price": "¥1.1"
+    }
+  ],
+  "attributes": [
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "UP",
+        "en": "UP"
+      }
+    },
+    {
+      "key": {
+        "zh": "产地",
+        "en": "Origin"
+      },
+      "value": {
+        "zh": "茶山",
+        "en": "Chashan"
+      }
+    },
+    {
+      "key": {
+        "zh": "原料牌号",
+        "en": "Material Grade"
+      },
+      "value": {
+        "zh": "20171211",
+        "en": "20171211"
+      }
+    },
+    {
+      "key": {
+        "zh": "品牌",
+        "en": "Brand"
+      },
+      "value": {
+        "zh": "尧顺",
+        "en": "Yaoshun"
+      }
+    },
+    {
+      "key": {
+        "zh": "应用领域",
+        "en": "Application"
+      },
+      "value": {
+        "zh": "医用配件",
+        "en": "Refer to Chinese value"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否进口",
+        "en": "Imported"
+      },
+      "value": {
+        "zh": "否",
+        "en": "No"
+      }
+    },
+    {
+      "key": {
+        "zh": "货号",
+        "en": "Item No."
+      },
+      "value": {
+        "zh": "UP",
+        "en": "UP"
+      }
+    }
+  ],
+  "packaging": [
+    {
+      "key": {
+        "zh": "重量(g)",
+        "en": "Weight (g)"
+      },
+      "value": {
+        "zh": "10",
+        "en": "10"
+      }
+    }
+  ],
+  "images": [
+    "./images/image-001.jpg",
+    "./images/image-002.jpg",
+    "./images/image-003.jpg",
+    "./images/image-004.jpg",
+    "./images/image-005.jpg",
+    "./images/image-006.jpg"
+  ],
+  "videos": [
+    "./videos/video-001.mp4",
+    "./videos/video-002.mp4"
+  ],
+  "sourceUrl": "https://detail.1688.com/offer/601817844078.html"
+}

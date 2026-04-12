@@ -82,8 +82,8 @@ export const privacyContent = {
       {
         title: {en: 'Contact For Privacy Requests', zh: '隐私请求联系'},
         text: {
-          en: 'For privacy requests, please contact sales@lai-toys.com with your company name and request details.',
-          zh: '如需提交隐私请求，请发送邮件至 sales@lai-toys.com，并附公司信息与请求说明。'
+          en: 'For privacy requests, please contact lianli@gmail.com with your company name and request details.',
+          zh: '如需提交隐私请求，请发送邮件至 lianli@gmail.com，并附公司信息与请求说明。'
         }
       }
     ]
@@ -164,8 +164,8 @@ export const privacyContent = {
       {
         title: {en: 'Opt-Out Request', zh: '退出请求'},
         text: {
-          en: 'You may request restriction or deletion of marketing-related data by contacting sales@lai-toys.com.',
-          zh: '如需限制或删除营销相关数据，可通过 sales@lai-toys.com 提交请求。'
+          en: 'You may request restriction or deletion of marketing-related data by contacting lianli@gmail.com.',
+          zh: '如需限制或删除营销相关数据，可通过 lianli@gmail.com 提交请求。'
         }
       }
     ]

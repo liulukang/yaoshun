@@ -1,4 +1,4 @@
-import {placeholderImages} from '@/content/site/shared';
+import {visualAssets} from '@/content/site/shared';
 
 export const factoryContent = {
   seo: {
@@ -48,7 +48,7 @@ export const factoryContent = {
     },
     primaryAction: {en: 'Schedule Virtual Tour', zh: '预约线上参观'},
     secondaryAction: {en: 'View Certifications', zh: '查看资质'},
-    image: placeholderImages.factoryFloor
+    image: visualAssets.factoryFloor
   },
   overview: {
     title: {en: 'Full-Chain Manufacturing Capability', zh: '全链路制造能力'},

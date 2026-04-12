@@ -1,0 +1,243 @@
+{
+  "offerId": "899415962726",
+  "module": "toys",
+  "priority": 1048,
+  "tags": [
+    {
+      "key": "toys",
+      "zh": "玩具",
+      "en": "Toys"
+    },
+    {
+      "key": "toys-construction",
+      "zh": "玩具-拼搭",
+      "en": "Toys - Construction"
+    },
+    {
+      "key": "toys-diy",
+      "zh": "玩具-DIY",
+      "en": "Toys - DIY"
+    },
+    {
+      "key": "toys-fort-building",
+      "zh": "玩具-帐篷拼搭",
+      "en": "Toys - Fort Building"
+    },
+    {
+      "key": "toys-parent-child",
+      "zh": "玩具-亲子互动",
+      "en": "Toys - Parent Child"
+    },
+    {
+      "key": "cross-border-export",
+      "zh": "跨境外贸",
+      "en": "Cross-border Export"
+    }
+  ],
+  "title": {
+    "zh": "儿童亲子互动DIY城堡拼搭套装",
+    "en": "Kids Parent-child DIY Castle Building Set"
+  },
+  "summary": {
+    "zh": "这是一款面向亲子互动与创意拼搭场景的DIY城堡积木套装，适用于家庭游戏、活动课程和儿童互动空间搭建。\n\n品牌为尧顺，材质为PP，产地广东，支持加工定制与LOGO贴牌，定位外贸渠道供货。",
+    "en": "This is a DIY castle building set designed for parent-child interaction and creative construction scenarios, suitable for home play, activity classes, and kids interactive space setup.\n\nBrand: Yaoshun. Material: PP. Origin: Guangdong. It supports custom processing and logo private labeling, and is positioned for export channel supply."
+  },
+  "description": {
+    "zh": [
+      "该款儿童亲子互动DIY城堡拼搭套装采用杆件与连接球组合结构，可搭建多种空间造型，适合家庭互动、课堂活动和节庆布置场景。",
+      "产品主材为PP，支持DIY玩法和重复拆装。品牌为尧顺，可按渠道需求进行加工定制及LOGO贴牌，便于跨境渠道建立差异化SKU。",
+      "商品采用彩盒包装，积木净重1.9kg，规格40*29*6.5，适合电商上架及批量采购。"
+    ],
+    "en": [
+      "This kids parent-child DIY castle set uses a rod-and-connector structure to build multiple spatial shapes, suitable for home interaction, classroom activities, and seasonal event setups.",
+      "The product uses PP material, supports DIY play, and allows repeated assembly. Brand: Yaoshun. It supports custom processing and private-logo labeling for differentiated cross-border SKUs.",
+      "Packed in a color box with a 1.9kg net block weight and 40*29*6.5 specification, it is suitable for e-commerce listing and bulk procurement."
+    ]
+  },
+  "priceTiers": [
+    {
+      "quantity": {
+        "zh": "≥500盒",
+        "en": ">=500 Boxes"
+      },
+      "price": "¥68"
+    }
+  ],
+  "attributes": [
+    {
+      "key": {
+        "zh": "品牌",
+        "en": "Brand"
+      },
+      "value": {
+        "zh": "尧顺",
+        "en": "Yaoshun"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "儿童亲子互动DIY城堡拼搭玩具",
+        "en": "Kids Parent-child DIY Castle Toy"
+      }
+    },
+    {
+      "key": {
+        "zh": "塑料材质分类",
+        "en": "Plastic Material"
+      },
+      "value": {
+        "zh": "PP",
+        "en": "PP"
+      }
+    },
+    {
+      "key": {
+        "zh": "功能",
+        "en": "Function"
+      },
+      "value": {
+        "zh": "DIY",
+        "en": "DIY"
+      }
+    },
+    {
+      "key": {
+        "zh": "加工定制",
+        "en": "Custom Processing"
+      },
+      "value": {
+        "zh": "是",
+        "en": "Yes"
+      }
+    },
+    {
+      "key": {
+        "zh": "加工方式",
+        "en": "Processing Method"
+      },
+      "value": {
+        "zh": "LOGO贴牌",
+        "en": "Private Logo"
+      }
+    },
+    {
+      "key": {
+        "zh": "塑料积木类型",
+        "en": "Block Type"
+      },
+      "value": {
+        "zh": "其他",
+        "en": "Other"
+      }
+    },
+    {
+      "key": {
+        "zh": "产地",
+        "en": "Origin"
+      },
+      "value": {
+        "zh": "广东",
+        "en": "Guangdong"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否专供外贸",
+        "en": "Export Supply"
+      },
+      "value": {
+        "zh": "是(本商品仅供外贸用途，可能不符合境内产品标准。请境内买家谨慎购入)",
+        "en": "Yes (export-only supply)"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否外贸",
+        "en": "Foreign Trade"
+      },
+      "value": {
+        "zh": "否",
+        "en": "No"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否多功能",
+        "en": "Multi-function"
+      },
+      "value": {
+        "zh": "否",
+        "en": "No"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否有导购视频",
+        "en": "Guide Video"
+      },
+      "value": {
+        "zh": "否",
+        "en": "No"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否有动漫形象",
+        "en": "Character IP"
+      },
+      "value": {
+        "zh": "否",
+        "en": "No"
+      }
+    }
+  ],
+  "packaging": [
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color Box"
+      }
+    },
+    {
+      "key": {
+        "zh": "积木净重",
+        "en": "Net Weight"
+      },
+      "value": {
+        "zh": "1.9kg",
+        "en": "1.9kg"
+      }
+    },
+    {
+      "key": {
+        "zh": "规格",
+        "en": "Specification"
+      },
+      "value": {
+        "zh": "40*29*6.5",
+        "en": "40*29*6.5"
+      }
+    }
+  ],
+  "images": [
+    "./images/image-001.jpg",
+    "./images/image-002.jpg",
+    "./images/image-003.jpg",
+    "./images/image-004.jpg",
+    "./images/image-005.jpg",
+    "./images/image-006.jpg",
+    "./images/image-007.jpg"
+  ],
+  "videos": [
+    "./videos/video-001.mp4"
+  ],
+  "sourceUrl": "https://detail.1688.com/offer/899415962726.html"
+}

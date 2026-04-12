@@ -1,0 +1,123 @@
+{
+  "offerId": "615665845646",
+  "module": "equipment",
+  "priority": 2049,
+  "tags": [
+    {
+      "key": "tubes",
+      "zh": "管材",
+      "en": "Tubes"
+    },
+    {
+      "key": "tubes-equipment",
+      "zh": "管材-设备",
+      "en": "Tubes - Equipment"
+    },
+    {
+      "key": "cross-border-export",
+      "zh": "跨境外贸",
+      "en": "Cross-border Export"
+    },
+    {
+      "key": "pp",
+      "zh": "PP",
+      "en": "PP"
+    },
+    {
+      "key": "pe",
+      "zh": "PE",
+      "en": "PE"
+    }
+  ],
+  "title": {
+    "zh": "急售熔喷布挤出机85流量95级熔喷生产线管材",
+    "en": "PE Extrusion Equipment"
+  },
+  "summary": {
+    "zh": "该产品为挤出设备，主要材质为PE，适用于做pp.pe管，熔喷布，无纺布，各种材料管等应用场景，支持规格定制与批量供货。",
+    "en": "This extrusion equipment is primarily made from PE and is suitable for Pp.pe None applications. Custom dimensions and bulk supply are supported."
+  },
+  "description": {
+    "zh": [
+      "挤出设备面向工业与消费品配套场景，可用于防护、包覆、导向和连接等需求。",
+      "主要材质为PE，可按项目要求匹配尺寸、壁厚、长度和结构形式，适配不同应用工况。",
+      "包装与交付可按需求配置（如重量(g) 1000000），支持稳定供货与长期项目协同。"
+    ],
+    "en": [
+      "This extrusion equipment is designed for industrial and consumer assembly programs requiring protection, covering, guidance, and connection functions.",
+      "The primary material is PE, and dimensions such as outer diameter, wall thickness, length, and profile form can be aligned to project requirements.",
+      "Packaging and delivery can be configured as needed (for example: Weight (g) 1000000), supporting stable supply and long-term project coordination."
+    ]
+  },
+  "priceTiers": [
+    {
+      "quantity": {
+        "zh": "阶梯2",
+        "en": "2"
+      },
+      "price": "¥480000"
+    },
+    {
+      "quantity": {
+        "zh": "起订",
+        "en": "MOQ"
+      },
+      "price": "¥479999.67"
+    }
+  ],
+  "attributes": [
+    {
+      "key": {
+        "zh": "产品用途",
+        "en": "Application"
+      },
+      "value": {
+        "zh": "做pp.pe管，熔喷布，无纺布，各种材料管",
+        "en": "Pp.pe None"
+      }
+    },
+    {
+      "key": {
+        "zh": "品牌",
+        "en": "Brand"
+      },
+      "value": {
+        "zh": "其他",
+        "en": "Refer to Chinese value"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否跨境出口专供货源",
+        "en": "Cross-border Source"
+      },
+      "value": {
+        "zh": "否",
+        "en": "No"
+      }
+    }
+  ],
+  "packaging": [
+    {
+      "key": {
+        "zh": "重量(g)",
+        "en": "Weight (g)"
+      },
+      "value": {
+        "zh": "1000000",
+        "en": "1000000"
+      }
+    }
+  ],
+  "images": [
+    "./images/image-002.jpg",
+    "./images/image-003.jpg",
+    "./images/image-004.jpg"
+  ],
+  "videos": [
+    "./videos/video-001.mp4",
+    "./videos/video-002.mp4",
+    "./videos/video-003.mp4"
+  ],
+  "sourceUrl": "https://detail.1688.com/offer/615665845646.html"
+}

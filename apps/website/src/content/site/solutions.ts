@@ -1,4 +1,4 @@
-import {placeholderImages} from '@/content/site/shared';
+import {visualAssets} from '@/content/site/shared';
 
 export const solutionsContent = {
   seo: {
@@ -36,7 +36,7 @@ export const solutionsContent = {
     },
     primaryAction: {en: 'Start A Quote Review', zh: '启动报价评估'},
     secondaryAction: {en: 'View Company Capability', zh: '查看公司能力'},
-    image: placeholderImages.oemWorkflow
+    image: visualAssets.oemWorkflow
   },
   scenarioSection: {
     title: {en: 'Typical Cooperation Scenarios', zh: '典型协作场景'},

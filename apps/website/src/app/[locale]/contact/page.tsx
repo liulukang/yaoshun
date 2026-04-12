@@ -22,8 +22,20 @@ export default async function ContactPage({params}: {params: Promise<{locale: st
   const locale = await getLocaleFromParams(params);
   const businessIdentity = [
     {label: contactContent.businessIdentityFields.companyName, value: companyProfile.companyName},
-    {label: contactContent.businessIdentityFields.phone, value: {en: companyProfile.phone, zh: companyProfile.phone}},
-    {label: contactContent.businessIdentityFields.email, value: {en: companyProfile.email, zh: companyProfile.email}},
+    {
+      href: `tel:${companyProfile.phone.replace(/\s+/g, '')}`,
+      label: contactContent.businessIdentityFields.phone,
+      trackEvent: 'phone_click',
+      trackLabel: 'contact_identity_phone',
+      value: {en: companyProfile.phone, zh: companyProfile.phone}
+    },
+    {
+      href: `mailto:${companyProfile.email}`,
+      label: contactContent.businessIdentityFields.email,
+      trackEvent: 'email_click',
+      trackLabel: 'contact_identity_email',
+      value: {en: companyProfile.email, zh: companyProfile.email}
+    },
     {label: contactContent.businessIdentityFields.address, value: companyProfile.address}
   ];
 
@@ -43,7 +55,19 @@ export default async function ContactPage({params}: {params: Promise<{locale: st
               {businessIdentity.map((item) => (
                 <div key={t(locale, item.label)} className="rounded-xl bg-white/10 p-4">
                   <p className="font-label text-[10px] font-bold uppercase tracking-[0.18em] text-primary-fixed">{t(locale, item.label)}</p>
-                  <p className="mt-2 text-sm font-semibold leading-relaxed text-white">{t(locale, item.value)}</p>
+                  {item.href ? (
+                    <a
+                      className="mt-2 block text-sm font-semibold leading-relaxed text-white transition-colors hover:text-primary-fixed"
+                      data-track-event={item.trackEvent}
+                      data-track-label={item.trackLabel}
+                      data-track-location="contact_identity"
+                      href={item.href}
+                    >
+                      {t(locale, item.value)}
+                    </a>
+                  ) : (
+                    <p className="mt-2 text-sm font-semibold leading-relaxed text-white">{t(locale, item.value)}</p>
+                  )}
                 </div>
               ))}
             </div>

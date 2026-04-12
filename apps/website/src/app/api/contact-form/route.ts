@@ -3,6 +3,10 @@ import nodemailer from "nodemailer";
 
 export const runtime = "nodejs";
 
+const rateLimitWindowMs = 10 * 60 * 1000;
+const maxSubmissionsPerWindow = 5;
+const rateLimitBuckets = new Map<string, number[]>();
+
 function escapeHtml(value: string) {
   return value
     .replaceAll("&", "&amp;")
@@ -12,22 +16,90 @@ function escapeHtml(value: string) {
     .replaceAll("'", "&#39;");
 }
 
+function isValidEmail(value: string) {
+  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value);
+}
+
+function getClientAddress(request: Request) {
+  const xForwardedFor = request.headers.get("x-forwarded-for");
+
+  if (xForwardedFor) {
+    const [firstIp] = xForwardedFor.split(",");
+    if (firstIp?.trim()) {
+      return firstIp.trim();
+    }
+  }
+
+  const xRealIp = request.headers.get("x-real-ip");
+
+  if (xRealIp?.trim()) {
+    return xRealIp.trim();
+  }
+
+  return "unknown";
+}
+
+function isRateLimited(rateLimitKey: string, now: number) {
+  const existing = rateLimitBuckets.get(rateLimitKey) ?? [];
+  const threshold = now - rateLimitWindowMs;
+  const recent = existing.filter((timestamp) => timestamp > threshold);
+  recent.push(now);
+  rateLimitBuckets.set(rateLimitKey, recent);
+
+  if (rateLimitBuckets.size > 5000) {
+    for (const [key, timestamps] of rateLimitBuckets.entries()) {
+      if (timestamps.length === 0 || timestamps[timestamps.length - 1] <= threshold) {
+        rateLimitBuckets.delete(key);
+      }
+    }
+  }
+
+  return recent.length > maxSubmissionsPerWindow;
+}
+
 export async function POST(request: Request) {
   try {
     const body = (await request.json()) as {
       name?: string;
+      company?: string;
       email?: string;
       message?: string;
+      website?: string;
       locale?: string;
     };
 
     const name = String(body.name ?? "").trim();
+    const company = String(body.company ?? "").trim();
     const email = String(body.email ?? "").trim();
     const message = String(body.message ?? "").trim();
+    const website = String(body.website ?? "").trim();
     const locale = String(body.locale ?? "zh").trim() || "zh";
+    const normalizedEmail = email.toLowerCase();
+    const now = Date.now();
+
+    if (website) {
+      return NextResponse.json({ ok: true });
+    }
 
     if (!name || !email || !message) {
       return NextResponse.json({ ok: false, message: "Invalid form payload." }, { status: 400 });
+    }
+
+    if (
+      name.length > 120
+      || company.length > 160
+      || message.length < 10
+      || message.length > 4000
+      || !isValidEmail(normalizedEmail)
+    ) {
+      return NextResponse.json({ ok: false, message: "Invalid form payload." }, { status: 400 });
+    }
+
+    const clientAddress = getClientAddress(request);
+    const rateLimitKey = `${clientAddress}:${normalizedEmail}`;
+
+    if (isRateLimited(rateLimitKey, now)) {
+      return NextResponse.json({ ok: false, message: "Too many requests. Please try again later." }, { status: 429 });
     }
 
     const ticketEmail = process.env.TAWK_TICKET_EMAIL?.trim();
@@ -52,15 +124,17 @@ export async function POST(request: Request) {
 
     const submittedAt = new Date().toISOString();
     const subjectPrefix = locale === "en" ? "Website Form" : "官网表单";
-    const subject = `${subjectPrefix}: ${name} 的咨询`;
+    const subject = `${subjectPrefix}: ${name}${company ? ` (${company})` : ""} 的咨询`;
     const escapedName = escapeHtml(name);
-    const escapedEmail = escapeHtml(email);
+    const escapedCompany = escapeHtml(company || "-");
+    const escapedEmail = escapeHtml(normalizedEmail);
     const escapedLocale = escapeHtml(locale);
     const escapedSubmittedAt = escapeHtml(submittedAt);
     const escapedMessage = escapeHtml(message);
     const text = [
       `Name: ${name}`,
-      `Email: ${email}`,
+      `Company: ${company || "-"}`,
+      `Email: ${normalizedEmail}`,
       `Locale: ${locale}`,
       `Submitted At: ${submittedAt}`,
       "",
@@ -71,7 +145,7 @@ export async function POST(request: Request) {
     await transporter.sendMail({
       from,
       to: ticketEmail,
-      replyTo: email,
+      replyTo: normalizedEmail,
       subject,
       text,
       html: `
@@ -94,6 +168,10 @@ export async function POST(request: Request) {
                   <tr>
                     <td style="width:150px;padding:14px 0;border-bottom:1px solid #e5e7eb;font-size:12px;font-weight:700;color:#6b7280;text-transform:uppercase;letter-spacing:0.1em;vertical-align:top;">Email</td>
                     <td style="padding:14px 0;border-bottom:1px solid #e5e7eb;font-size:15px;color:#0f2b6b;font-weight:700;vertical-align:top;">${escapedEmail}</td>
+                  </tr>
+                  <tr>
+                    <td style="width:150px;padding:14px 0;border-bottom:1px solid #e5e7eb;font-size:12px;font-weight:700;color:#6b7280;text-transform:uppercase;letter-spacing:0.1em;vertical-align:top;">Company</td>
+                    <td style="padding:14px 0;border-bottom:1px solid #e5e7eb;font-size:14px;color:#111827;vertical-align:top;">${escapedCompany}</td>
                   </tr>
                   <tr>
                     <td style="width:150px;padding:14px 0;border-bottom:1px solid #e5e7eb;font-size:12px;font-weight:700;color:#6b7280;text-transform:uppercase;letter-spacing:0.1em;vertical-align:top;">Locale</td>

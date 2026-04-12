@@ -1,0 +1,299 @@
+{
+  "offerId": "675063377407",
+  "module": "toys",
+  "priority": 1005,
+  "tags": [
+    {
+      "key": "toys",
+      "zh": "玩具",
+      "en": "Toys"
+    },
+    {
+      "key": "toys-construction",
+      "zh": "玩具-拼搭",
+      "en": "Toys - Construction"
+    },
+    {
+      "key": "toys-diy",
+      "zh": "玩具-DIY",
+      "en": "Toys - DIY"
+    },
+    {
+      "key": "toys-fort-building",
+      "zh": "玩具-帐篷拼搭",
+      "en": "Toys - Fort Building"
+    },
+    {
+      "key": "toys-stem",
+      "zh": "玩具-STEM",
+      "en": "Toys - STEM"
+    },
+    {
+      "key": "toys-parent-child",
+      "zh": "玩具-亲子互动",
+      "en": "Toys - Parent Child"
+    },
+    {
+      "key": "toys-indoor-outdoor",
+      "zh": "玩具-室内室外",
+      "en": "Toys - Indoor Outdoor"
+    }
+  ],
+  "title": {
+    "zh": "儿童拼插帐篷搭建套装",
+    "en": "Kids Interlocking Tent Building Set"
+  },
+  "summary": {
+    "zh": "这是一款面向儿童拼插搭建场景的帐篷套装，适用于家庭亲子互动、课堂活动和主题游戏空间布置。产品支持搭建与拆装，适合连续的创意构建玩法。\n\n品牌为尧顺，产地广东东莞茶山，内帐材料为PP，帐篷结构为双层帐。",
+    "en": "This is a tent-style interlocking building set for children, suitable for family interaction, classroom activities, and themed play-area setup. It supports assembly and disassembly for repeatable creative construction play.\n\nBrand: Yaoshun. Origin: Chashan, Dongguan, Guangdong. Inner-tent material is PP, and the tent structure is double-layer."
+  },
+  "description": {
+    "zh": [
+      "该款儿童拼插帐篷搭建套装以可拼接结构为核心，适合围绕帐篷、通道与互动空间进行多形态搭建。产品支持搭建后重复拆装，便于在不同活动场景中灵活使用。",
+      "产品可用于家庭亲子游戏、幼教活动和课程化互动道具场景，通过拼搭过程帮助提升空间认知、协作能力与动手实践体验。",
+      "包装提供体积与重量等关键参数，便于渠道做仓配和上架管理。适合长期供货与项目化采购协同。"
+    ],
+    "en": [
+      "This kids interlocking tent building set is designed around a modular construction structure and supports multiple layout forms for tents, tunnels, and interactive play spaces. The set supports repeated assembly and disassembly for flexible scenario use.",
+      "It is suitable for family parent-child play, preschool activities, and structured educational props. The building process helps improve spatial awareness, collaboration, and hands-on practice.",
+      "Packaging includes key volume and weight data for channel warehousing and listing management, and is suitable for long-term supply and project-based procurement."
+    ]
+  },
+  "priceTiers": [
+    {
+      "quantity": {
+        "zh": "≥1000套",
+        "en": "1000+ sets"
+      },
+      "price": "¥86"
+    }
+  ],
+  "attributes": [
+    {
+      "key": {
+        "zh": "产地",
+        "en": "Origin"
+      },
+      "value": {
+        "zh": "广东东莞茶山",
+        "en": "Chashan, Dongguan"
+      }
+    },
+    {
+      "key": {
+        "zh": "内帐材料",
+        "en": "Inner Tent Material"
+      },
+      "value": {
+        "zh": "PP",
+        "en": "PP"
+      }
+    },
+    {
+      "key": {
+        "zh": "品牌",
+        "en": "Brand"
+      },
+      "value": {
+        "zh": "尧顺",
+        "en": "Yaoshun"
+      }
+    },
+    {
+      "key": {
+        "zh": "外帐材质",
+        "en": "Outer Tent Material"
+      },
+      "value": {
+        "zh": "涤纶",
+        "en": "Polyester"
+      }
+    },
+    {
+      "key": {
+        "zh": "外帐防水指数",
+        "en": "Outer Tent Waterproof Index"
+      },
+      "value": {
+        "zh": "小于1000mm",
+        "en": "Less than 1000 mm"
+      }
+    },
+    {
+      "key": {
+        "zh": "宽(cm)",
+        "en": "Width (cm)"
+      },
+      "value": {
+        "zh": "11.50",
+        "en": "11.50"
+      }
+    },
+    {
+      "key": {
+        "zh": "帐底材质",
+        "en": "Groundsheet Material"
+      },
+      "value": {
+        "zh": "无",
+        "en": "None"
+      }
+    },
+    {
+      "key": {
+        "zh": "帐底防水指数",
+        "en": "Groundsheet Waterproof Index"
+      },
+      "value": {
+        "zh": "不防水",
+        "en": "Non-waterproof"
+      }
+    },
+    {
+      "key": {
+        "zh": "帐篷展开大小",
+        "en": "Tent Expanded Size"
+      },
+      "value": {
+        "zh": "4M",
+        "en": "4 m"
+      }
+    },
+    {
+      "key": {
+        "zh": "帐篷结构",
+        "en": "Tent Structure"
+      },
+      "value": {
+        "zh": "双层帐",
+        "en": "Double-layer Tent"
+      }
+    },
+    {
+      "key": {
+        "zh": "搭建情况",
+        "en": "Assembly Requirement"
+      },
+      "value": {
+        "zh": "需要搭建",
+        "en": "Assembly Required"
+      }
+    },
+    {
+      "key": {
+        "zh": "撑杆材质",
+        "en": "Pole Material"
+      },
+      "value": {
+        "zh": "其它",
+        "en": "Other"
+      }
+    }
+  ],
+  "packaging": [
+    {
+      "key": {
+        "zh": "体积(cm³)",
+        "en": "Volume (cm³)"
+      },
+      "value": {
+        "zh": "15180",
+        "en": "15180"
+      }
+    },
+    {
+      "key": {
+        "zh": "宽(cm)",
+        "en": "Width (cm)"
+      },
+      "value": {
+        "zh": "11.50",
+        "en": "11.50"
+      }
+    },
+    {
+      "key": {
+        "zh": "整套重量",
+        "en": "Set Weight"
+      },
+      "value": {
+        "zh": "3.2KG",
+        "en": "3.2 kg"
+      }
+    },
+    {
+      "key": {
+        "zh": "单套重量(g)",
+        "en": "Unit Weight (g)"
+      },
+      "value": {
+        "zh": "3500",
+        "en": "3500"
+      }
+    },
+    {
+      "key": {
+        "zh": "长(cm)",
+        "en": "Length (cm)"
+      },
+      "value": {
+        "zh": "44",
+        "en": "44"
+      }
+    },
+    {
+      "key": {
+        "zh": "高(cm)",
+        "en": "Height (cm)"
+      },
+      "value": {
+        "zh": "30",
+        "en": "30"
+      }
+    },
+    {
+      "key": {
+        "zh": "规格",
+        "en": "Specification"
+      },
+      "value": {
+        "zh": "3M",
+        "en": "3M"
+      }
+    },
+    {
+      "key": {
+        "zh": "适用人数",
+        "en": "Capacity"
+      },
+      "value": {
+        "zh": "3-15",
+        "en": "3-15"
+      }
+    },
+    {
+      "key": {
+        "zh": "颜色",
+        "en": "Color"
+      },
+      "value": {
+        "zh": "橙色",
+        "en": "Orange"
+      }
+    }
+  ],
+  "images": [
+    "./images/image-001.jpg",
+    "./images/image-002.jpg",
+    "./images/image-003.jpg",
+    "./images/image-004.jpg",
+    "./images/image-005.jpg",
+    "./images/image-006.jpg",
+    "./images/image-022.jpg"
+  ],
+  "videos": [
+    "./videos/video-001.mp4",
+    "./videos/video-002.mp4"
+  ],
+  "sourceUrl": "https://detail.1688.com/offer/675063377407.html"
+}

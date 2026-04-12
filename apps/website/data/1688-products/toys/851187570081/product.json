@@ -1,0 +1,242 @@
+{
+  "offerId": "851187570081",
+  "module": "toys",
+  "priority": 1033,
+  "tags": [
+    {
+      "key": "toys",
+      "zh": "玩具",
+      "en": "Toys"
+    },
+    {
+      "key": "toys-construction",
+      "zh": "玩具-拼搭",
+      "en": "Toys - Construction"
+    },
+    {
+      "key": "toys-diy",
+      "zh": "玩具-DIY",
+      "en": "Toys - DIY"
+    },
+    {
+      "key": "toys-fort-building",
+      "zh": "玩具-帐篷拼搭",
+      "en": "Toys - Fort Building"
+    },
+    {
+      "key": "toys-parent-child",
+      "zh": "玩具-亲子互动",
+      "en": "Toys - Parent Child"
+    },
+    {
+      "key": "cross-border-export",
+      "zh": "跨境外贸",
+      "en": "Cross-border Export"
+    }
+  ],
+  "title": {
+    "zh": "跨境DIY插珠帐篷拼搭套装",
+    "en": "Export DIY Fort Building Set"
+  },
+  "summary": {
+    "zh": "这是一款面向跨境渠道的儿童DIY插珠帐篷拼搭套装，采用PP材质与拼装积木结构，适合在家庭互动、课堂活动和派对空间中搭建城堡与帐篷造型。\n\n产品品牌为尧顺，原产地中国，覆盖多区域出口市场，支持视频导购与自有品牌授权，定位外贸供货。",
+    "en": "This is an export-oriented DIY fort building set for kids, using PP material and a modular assembly structure. It is suitable for building castle and tent shapes in home interaction, classroom activities, and party-space setups.\n\nBrand: Yaoshun. Origin: China. The product is targeted at multiple overseas markets, supports guide video usage and own-brand authorization, and is positioned for export supply."
+  },
+  "description": {
+    "zh": [
+      "该款跨境DIY插珠帐篷拼搭套装采用杆件与连接球组合设计，可快速搭建帐篷、房屋、城堡等多种结构，适合儿童在室内外进行创意拼搭与协作游戏。",
+      "产品材质为PP，支持反复拆装和形态重构。通过拼装过程可用于动手训练、空间认知和亲子互动，适合家庭零售与教育活动配套使用。",
+      "该商品主要面向外贸渠道，覆盖非洲、欧洲、南美、东南亚、北美、东北亚和中东等市场。支持导购视频与品牌授权信息，可用于跨境电商上架与项目采购。"
+    ],
+    "en": [
+      "This export DIY fort set uses a rod-and-connector design to quickly build tents, houses, castles, and other structures, making it suitable for children’s creative construction and collaborative play indoors or outdoors.",
+      "The product is made of PP and supports repeated assembly and shape reconfiguration. The building process can be used for hands-on practice, spatial learning, and parent-child interaction in both home retail and educational setups.",
+      "This item is mainly positioned for export channels across Africa, Europe, South America, Southeast Asia, North America, Northeast Asia, and the Middle East. Guide videos and own-brand authorization details are included for cross-border e-commerce listing and project procurement."
+    ]
+  },
+  "priceTiers": [
+    {
+      "quantity": {
+        "zh": "≥500盒",
+        "en": ">=500 Boxes"
+      },
+      "price": "¥86"
+    }
+  ],
+  "attributes": [
+    {
+      "key": {
+        "zh": "品牌",
+        "en": "Brand"
+      },
+      "value": {
+        "zh": "尧顺",
+        "en": "Yaoshun"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "跨境DIY插珠帐篷拼搭玩具",
+        "en": "Export DIY Fort Building Toy"
+      }
+    },
+    {
+      "key": {
+        "zh": "材质",
+        "en": "Material"
+      },
+      "value": {
+        "zh": "PP",
+        "en": "PP"
+      }
+    },
+    {
+      "key": {
+        "zh": "拼砌玩具类型",
+        "en": "Construction Type"
+      },
+      "value": {
+        "zh": "拼装积木",
+        "en": "Assembly Building Blocks"
+      }
+    },
+    {
+      "key": {
+        "zh": "主要销售地区",
+        "en": "Main Markets"
+      },
+      "value": {
+        "zh": "非洲、欧洲、南美、东南亚、北美、东北亚、中东",
+        "en": "Africa, Europe, South America, Southeast Asia, North America, Northeast Asia, Middle East"
+      }
+    },
+    {
+      "key": {
+        "zh": "原产地",
+        "en": "Origin"
+      },
+      "value": {
+        "zh": "中国",
+        "en": "China"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否专供外贸",
+        "en": "Export Supply"
+      },
+      "value": {
+        "zh": "是（本商品仅供外贸用途）",
+        "en": "Yes (export-only supply)"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否跨境出口专供货源",
+        "en": "Cross-border Source"
+      },
+      "value": {
+        "zh": "是",
+        "en": "Yes"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否有导购视频",
+        "en": "Guide Video"
+      },
+      "value": {
+        "zh": "是",
+        "en": "Available"
+      }
+    },
+    {
+      "key": {
+        "zh": "有可授权的自有品牌",
+        "en": "Own-brand Authorization"
+      },
+      "value": {
+        "zh": "是",
+        "en": "Yes"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否有动漫形象",
+        "en": "Character IP"
+      },
+      "value": {
+        "zh": "否",
+        "en": "No"
+      }
+    },
+    {
+      "key": {
+        "zh": "特色功能",
+        "en": "Key Feature"
+      },
+      "value": {
+        "zh": "可多次变换形状",
+        "en": "Supports repeated shape transformation"
+      }
+    }
+  ],
+  "packaging": [
+    {
+      "key": {
+        "zh": "包装体积(cm³)",
+        "en": "Package Volume (cm³)"
+      },
+      "value": {
+        "zh": "15180",
+        "en": "15180"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸(cm)",
+        "en": "Carton Size (cm)"
+      },
+      "value": {
+        "zh": "44 x 11.5 x 30",
+        "en": "44 x 11.5 x 30"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装重量(g)",
+        "en": "Package Weight (g)"
+      },
+      "value": {
+        "zh": "3500",
+        "en": "3500"
+      }
+    },
+    {
+      "key": {
+        "zh": "规格",
+        "en": "Specification"
+      },
+      "value": {
+        "zh": "45杆子PP+27多边球",
+        "en": "45 PP rods + 27 connector balls"
+      }
+    }
+  ],
+  "images": [
+    "./images/image-001.jpg",
+    "./images/image-002.jpg",
+    "./images/image-003.jpg",
+    "./images/image-004.jpg",
+    "./images/image-005.jpg",
+    "./images/image-006.jpg"
+  ],
+  "videos": [
+    "./videos/video-001.mp4"
+  ],
+  "sourceUrl": "https://detail.1688.com/offer/851187570081.html"
+}

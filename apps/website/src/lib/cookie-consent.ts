@@ -1,6 +1,9 @@
+import {consentRequiredCookieName} from '@/lib/privacy-region';
+
 export type CookieConsentStatus = 'granted' | 'denied';
 
 export const cookieConsentStorageKey = 'yaoshun-cookie-consent';
+const cookieConsentChangeEventName = 'cookie-consent-change';
 
 declare global {
   interface Window {
@@ -45,9 +48,13 @@ export function readCookieConsentStatus(): CookieConsentStatus | null {
   try {
     const value = window.localStorage.getItem(cookieConsentStorageKey);
 
-    return isCookieConsentStatus(value) ? value : null;
+    if (isCookieConsentStatus(value)) {
+      return value;
+    }
+
+    return isConsentRequiredRegion() ? null : 'granted';
   } catch {
-    return null;
+    return isConsentRequiredRegion() ? null : 'granted';
   }
 }
 
@@ -69,4 +76,72 @@ export function persistCookieConsentStatus(status: CookieConsentStatus) {
   } catch {
     return;
   }
+}
+
+export function dispatchCookieConsentChange() {
+  if (typeof window === 'undefined') {
+    return;
+  }
+
+  window.dispatchEvent(new Event(cookieConsentChangeEventName));
+}
+
+export function subscribeToCookieConsent(callback: () => void) {
+  if (typeof window === 'undefined') {
+    return () => {};
+  }
+
+  const handleStorage = (event: StorageEvent) => {
+    if (event.key === null || event.key === cookieConsentStorageKey) {
+      callback();
+    }
+  };
+  const handleConsentChange = () => {
+    callback();
+  };
+
+  window.addEventListener('storage', handleStorage);
+  window.addEventListener(cookieConsentChangeEventName, handleConsentChange);
+
+  return () => {
+    window.removeEventListener('storage', handleStorage);
+    window.removeEventListener(cookieConsentChangeEventName, handleConsentChange);
+  };
+}
+
+function isConsentRequiredRegion() {
+  if (typeof document === 'undefined') {
+    return true;
+  }
+
+  const flag = readCookieValue(consentRequiredCookieName);
+
+  if (flag === '0') {
+    return false;
+  }
+
+  if (flag === '1') {
+    return true;
+  }
+
+  return true;
+}
+
+function readCookieValue(name: string): string | null {
+  if (typeof document === 'undefined') {
+    return null;
+  }
+
+  const cookieName = `${name}=`;
+  const entries = document.cookie.split(';');
+
+  for (const entry of entries) {
+    const trimmed = entry.trim();
+
+    if (trimmed.startsWith(cookieName)) {
+      return trimmed.slice(cookieName.length);
+    }
+  }
+
+  return null;
 }

@@ -1,0 +1,279 @@
+{
+  "offerId": "1038876670686",
+  "module": "toys",
+  "priority": 1055,
+  "tags": [
+    {
+      "key": "toys",
+      "zh": "玩具",
+      "en": "Toys"
+    },
+    {
+      "key": "toys-construction",
+      "zh": "玩具-拼搭",
+      "en": "Toys - Construction"
+    },
+    {
+      "key": "toys-diy",
+      "zh": "玩具-DIY",
+      "en": "Toys - DIY"
+    },
+    {
+      "key": "toys-fort-building",
+      "zh": "玩具-城堡拼搭",
+      "en": "Toys - Fort Castle Building"
+    },
+    {
+      "key": "toys-stem",
+      "zh": "玩具-STEM",
+      "en": "Toys - STEM"
+    },
+    {
+      "key": "toys-brain-development",
+      "zh": "玩具-脑力开发",
+      "en": "Toys - Brain Development"
+    },
+    {
+      "key": "toys-big-blocks",
+      "zh": "玩具-大颗粒",
+      "en": "Toys - Large Blocks"
+    },
+    {
+      "key": "toys-children-7-14",
+      "zh": "玩具-7至14岁",
+      "en": "Toys - Ages 7 to 14"
+    }
+  ],
+  "title": {
+    "zh": "DIY拼插城堡帐篷积木套装",
+    "en": "DIY Fort Castle Building Block Set"
+  },
+  "summary": {
+    "zh": "这是一款面向7-14岁儿童的DIY拼插城堡帐篷积木套装，采用PP材质与大颗粒结构，强调拼装、搭建和脑力开发等互动玩法。\n\n品牌为LONDY，支持多场景拼插组合，适用于家庭互动、兴趣活动与课程化益智训练。",
+    "en": "This is a DIY fort-and-castle building block set for children aged 7-14. It uses PP material and a large-block structure, focusing on assembly play, building interaction, and cognitive development activities.\n\nBrand: LONDY. The set supports multiple build combinations and is suitable for family interaction, hobby sessions, and structured educational play."
+  },
+  "description": {
+    "zh": [
+      "该款DIY拼插城堡帐篷积木套装以大颗粒拼插结构为核心，支持多种形态搭建。孩子可围绕城堡、帐篷与通道主题进行自由组合，形成连续的创意构建体验。",
+      "产品面向7-14岁儿童，玩法覆盖拼装、组装、拼插与益智训练。可用于家庭互动、兴趣课程和团队协作活动，帮助提升空间认知与动手能力。",
+      "包装采用彩盒，配套多尺寸杆件与连接球，便于做标准化出货和渠道陈列。适合常规零售及活动场景使用。"
+    ],
+    "en": [
+      "This DIY fort-and-castle building set uses a large interlocking block structure and supports multiple build forms. Children can freely create castle, tent, and tunnel themes for continuous creative construction play.",
+      "Designed for ages 7-14, the play modes include assembly, interlocking, and educational building activities. It fits family interaction, hobby classes, and team-based activities, helping improve spatial understanding and hands-on skills.",
+      "The product is packed in a color box and includes rods in multiple sizes with connector balls, which supports standardized shipping and channel display. It is suitable for both regular retail and event-based play scenarios."
+    ]
+  },
+  "priceTiers": [
+    {
+      "quantity": {
+        "zh": "500-999件",
+        "en": "500-999 pcs"
+      },
+      "price": "¥189"
+    },
+    {
+      "quantity": {
+        "zh": "≥1000件",
+        "en": "1000+ pcs"
+      },
+      "price": "¥110"
+    }
+  ],
+  "attributes": [
+    {
+      "key": {
+        "zh": "品牌",
+        "en": "Brand"
+      },
+      "value": {
+        "zh": "LONDY",
+        "en": "LONDY"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "DIY拼插城堡帐篷积木",
+        "en": "DIY Fort Castle Building Blocks"
+      }
+    },
+    {
+      "key": {
+        "zh": "材质",
+        "en": "Material"
+      },
+      "value": {
+        "zh": "PP",
+        "en": "PP"
+      }
+    },
+    {
+      "key": {
+        "zh": "功能",
+        "en": "Functions"
+      },
+      "value": {
+        "zh": "拼装、组装、DIY、益智、拼插、搭建、脑力开发、智能拼装",
+        "en": "Assembly, DIY, interlocking, construction, and cognitive development play"
+      }
+    },
+    {
+      "key": {
+        "zh": "塑料积木类型",
+        "en": "Block Type"
+      },
+      "value": {
+        "zh": "大颗粒",
+        "en": "Large Blocks"
+      }
+    },
+    {
+      "key": {
+        "zh": "积木粒(片）数",
+        "en": "Block Count"
+      },
+      "value": {
+        "zh": "100-200粒(片)",
+        "en": "100-200 pieces"
+      }
+    },
+    {
+      "key": {
+        "zh": "适用年龄",
+        "en": "Age Range"
+      },
+      "value": {
+        "zh": "少年（7-14岁）",
+        "en": "Ages 7-14"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否能够DIY",
+        "en": "DIY Support"
+      },
+      "value": {
+        "zh": "是",
+        "en": "Yes"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否多功能",
+        "en": "Multi-function"
+      },
+      "value": {
+        "zh": "是",
+        "en": "Yes"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否电动",
+        "en": "Electric"
+      },
+      "value": {
+        "zh": "否",
+        "en": "No"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否专供外贸",
+        "en": "Export Supply"
+      },
+      "value": {
+        "zh": "否",
+        "en": "No"
+      }
+    },
+    {
+      "key": {
+        "zh": "货号",
+        "en": "Item No."
+      },
+      "value": {
+        "zh": "LONDY-25228",
+        "en": "LONDY-25228"
+      }
+    },
+    {
+      "key": {
+        "zh": "颜色",
+        "en": "Color"
+      },
+      "value": {
+        "zh": "红色",
+        "en": "Red"
+      }
+    }
+  ],
+  "packaging": [
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color Box"
+      }
+    },
+    {
+      "key": {
+        "zh": "杆子尺寸",
+        "en": "Rod Sizes"
+      },
+      "value": {
+        "zh": "42.5cm/28.3cm/12cm/7.5cm",
+        "en": "42.5 cm / 28.3 cm / 12 cm / 7.5 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "球尺寸",
+        "en": "Connector Ball Size"
+      },
+      "value": {
+        "zh": "5.5cm",
+        "en": "5.5 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "单套重量(g)",
+        "en": "Unit Weight (g)"
+      },
+      "value": {
+        "zh": "4000",
+        "en": "4000"
+      }
+    },
+    {
+      "key": {
+        "zh": "积木净重",
+        "en": "Block Net Weight"
+      },
+      "value": {
+        "zh": "3",
+        "en": "3"
+      }
+    }
+  ],
+  "images": [
+    "./images/image-001.jpg",
+    "./images/image-002.jpg",
+    "./images/image-003.jpg",
+    "./images/image-004.jpg",
+    "./images/image-005.jpg",
+    "./images/image-006.jpg"
+  ],
+  "videos": [
+    "./videos/video-001.mp4"
+  ],
+  "sourceUrl": "https://detail.1688.com/offer/1038876670686.html"
+}

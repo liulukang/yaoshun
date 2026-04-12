@@ -5,8 +5,8 @@ export const aboutContent = {
       zh: '关于我们 | 东莞市尧顺科技有限公司 | Dongguan Yaoshun Technology Co., Ltd.'
     },
     description: {
-      en: 'Learn about Dongguan Yaoshun Technology Co., Ltd., a toy-focused OEM/ODM manufacturer with integrated factory execution, quality management, and export support.',
-      zh: '了解东莞市尧顺科技有限公司：以玩具 OEM/ODM 为核心，具备工厂执行、质量管理与出口交付协同能力。'
+      en: 'Learn about Dongguan Yaoshun Technology Co., Ltd., an OEM/ODM manufacturer focused on assembly toys, PU/PVC tubing, and integrated factory delivery.',
+      zh: '了解东莞市尧顺科技有限公司：聚焦拼插玩具与 PU/PVC 管材，提供一体化工厂交付能力。'
     },
     keywords: {
       en: [
@@ -23,8 +23,8 @@ export const aboutContent = {
     eyebrow: {en: 'Founded In 2006', zh: '始创于 2006 年'},
     title: {en: 'A Toy Manufacturing Team Built For Long-Term OEM/ODM Collaboration', zh: '面向长期 OEM/ODM 协作的玩具制造团队'},
     description: {
-      en: 'Yaoshun focuses on toy projects and organizes engineering, production, assembly, packaging, and trade coordination into one delivery workflow.',
-      zh: '尧顺聚焦玩具项目，把工程、生产、组装、包装与外贸协同组织为同一交付链路。'
+      en: 'Yaoshun focuses on assembly toy projects and extends production support to PU/PVC tubing and plastic process workflows.',
+      zh: '尧顺聚焦拼插玩具项目，并延展至 PU/PVC 管材与塑胶工艺协同交付。'
     }
   },
   positioning: {
@@ -41,15 +41,15 @@ export const aboutContent = {
   integratedSection: {
     title: {en: 'Company + Factory + Compliance In One View', zh: '公司 + 工厂 + 资质的一体化视图'},
     description: {
-      en: 'This page combines what buyers usually check separately: company profile, factory execution model, and compliance readiness.',
-      zh: '本页整合采购方常分别查看的三类信息：公司资料、工厂执行模型与合规准备能力。'
+      en: 'Buyers often review company profile, factory execution model, and compliance readiness together. This section presents them in one place.',
+      zh: '采购团队通常会同时查看公司资料、工厂执行模型与合规准备能力，本页将三部分信息集中展示。'
     },
     cards: [
       {
         title: {en: 'Company Profile', zh: '公司概况'},
         text: {
-          en: 'Established in 2006, with long-term focus on toy project development and manufacturing delivery.',
-          zh: '公司成立于 2006 年，长期聚焦玩具项目开发与制造交付。'
+          en: 'Long-term focus on assembly toy projects, with supporting capabilities in PU/PVC tubing and plastic process manufacturing.',
+          zh: '长期聚焦拼插玩具项目，并具备 PU/PVC 管材与塑胶工艺配套能力。'
         }
       },
       {
@@ -67,6 +67,131 @@ export const aboutContent = {
         }
       }
     ]
+  },
+  enterpriseSnapshotSection: {
+    title: {en: 'Enterprise Facts From 1688 Factory Card', zh: '来自 1688 工厂名片的企业信息'},
+    description: {
+      en: 'Core enterprise fields are synchronized from the public 1688 factory card page for quick buyer-side review.',
+      zh: '以下核心信息同步自 1688 工厂名片公开页面，便于采购侧快速核验。'
+    },
+    cards: [
+      {
+        title: {en: 'Identity & Main Categories', zh: '主体信息与主营方向'},
+        items: [
+          {
+            label: {en: 'Company Name', zh: '公司名称'},
+            value: {en: 'Dongguan Yaoshun Technology Co., Ltd.', zh: '东莞市尧顺科技有限公司'}
+          },
+          {
+            label: {en: 'Main Categories', zh: '主营类目'},
+            value: {
+              en: 'Assembly toys, PU tubing, PVC tubing',
+              zh: '拼插类玩具、PU 管、PVC 管'
+            }
+          },
+          {
+            label: {en: 'Address', zh: '地址'},
+            value: {
+              en: 'No.177 Yuanshan Road, Chashan Town, Dongguan, Guangdong (Room 201, Building 1)',
+              zh: '广东东莞茶山镇圆山路177号1号楼201室'
+            }
+          },
+          {
+            label: {en: 'Platform Labels', zh: '平台标签'},
+            value: {
+              en: 'RoHS certified, ISO 9000 certified, sample-based processing, drawing-based processing',
+              zh: 'RoHS 认证、ISO 9000 认证、支持来样加工、支持来图加工'
+            }
+          }
+        ]
+      },
+      {
+        title: {en: 'Factory Archive Summary', zh: '工厂档案摘要'},
+        items: [
+          {
+            label: {en: '1688 Operation Age', zh: '1688 经营年限'},
+            value: {en: '9 years', zh: '9年'}
+          },
+          {
+            label: {en: 'Archive Establishment Date', zh: '档案成立时间'},
+            value: {en: '2016-08-26', zh: '2016.08.26'}
+          },
+          {
+            label: {en: 'Annual Transaction Range', zh: '年交易额区间'},
+            value: {en: 'CNY 1.01M to 5.00M', zh: '101~500万'}
+          },
+          {
+            label: {en: 'Employee Size', zh: '员工总数'},
+            value: {en: '11 to 50', zh: '11~50人'}
+          }
+        ]
+      },
+      {
+        title: {en: 'Cooperation Terms', zh: '合作方式'},
+        items: [
+          {
+            label: {en: 'Custom MOQ', zh: '定制起订量'},
+            value: {en: '5,000 meters', zh: '5000米'}
+          },
+          {
+            label: {en: 'Private Label MOQ', zh: '贴牌起订量'},
+            value: {en: '1,000 sets', zh: '1000套'}
+          },
+          {
+            label: {en: 'Processing Modes', zh: '加工方式'},
+            value: {
+              en: 'Toll processing, turnkey processing, sample-based processing, drawing-based processing',
+              zh: '清加工、包工包料、来样加工、来图加工'
+            }
+          },
+          {
+            label: {en: 'Invoice Capability', zh: '开票能力'},
+            value: {en: 'VAT invoice available (13%)', zh: '支持增值税发票（13%）'}
+          }
+        ]
+      }
+    ],
+    sourceNote: {
+      en: 'Source: 1688 factory card page snapshot captured on April 12, 2026.',
+      zh: '数据来源：1688 工厂名片页面，抓取时间为 2026 年 4 月 12 日。'
+    }
+  },
+  platformMetricsSection: {
+    title: {en: '1688 Platform Operation Metrics', zh: '1688 平台经营指标'},
+    description: {
+      en: 'These are platform card metrics shown on the same factory page and may change over time.',
+      zh: '以下为同页展示的平台卡片指标，会随平台数据更新而变化。'
+    },
+    metrics: [
+      {
+        label: {en: 'Factory Badge Level', zh: '工厂牌级'},
+        value: {en: 'No badge yet', zh: '暂无牌级'}
+      },
+      {
+        label: {en: 'Custom Contract Transactions', zh: '定制合约交易'},
+        value: {en: '2+ ten-thousand CNY', zh: '2+ 万元'}
+      },
+      {
+        label: {en: 'On-Time Fulfillment Rate', zh: '准时履约率'},
+        value: {en: '100%', zh: '100%'}
+      },
+      {
+        label: {en: 'Service Response Rate', zh: '服务响应率'},
+        value: {en: '18%', zh: '18%'}
+      },
+      {
+        label: {en: 'Interested Buyers', zh: '意向客户'},
+        value: {en: '2', zh: '2'}
+      },
+      {
+        label: {en: 'Repeat Purchase Rate', zh: '回头率'},
+        value: {en: '61%', zh: '61%'}
+      }
+    ],
+    sourceNote: {
+      en: 'Snapshot date: April 12, 2026',
+      zh: '数据快照时间：2026 年 4 月 12 日'
+    }
   },
   valuesSection: {
     title: {en: 'Core Advantages', zh: '核心优势'}

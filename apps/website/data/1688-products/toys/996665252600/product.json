@@ -1,0 +1,303 @@
+{
+  "offerId": "996665252600",
+  "module": "toys",
+  "priority": 1052,
+  "tags": [
+    {
+      "key": "toys",
+      "zh": "玩具",
+      "en": "Toys"
+    },
+    {
+      "key": "toys-construction",
+      "zh": "玩具-拼搭",
+      "en": "Toys - Construction"
+    },
+    {
+      "key": "toys-diy",
+      "zh": "玩具-DIY",
+      "en": "Toys - DIY"
+    },
+    {
+      "key": "toys-fort-building",
+      "zh": "玩具-帐篷拼搭",
+      "en": "Toys - Fort Building"
+    },
+    {
+      "key": "channel-custom-order",
+      "zh": "客户专享",
+      "en": "Customer Exclusive"
+    },
+    {
+      "key": "cross-border-export",
+      "zh": "跨境外贸",
+      "en": "Cross-border Export"
+    }
+  ],
+  "title": {
+    "zh": "客户专享DIY帐篷堡垒拼搭套装",
+    "en": "Customer-exclusive DIY Fort Building Set"
+  },
+  "summary": {
+    "zh": "这是一款面向客户专享渠道的DIY帐篷堡垒拼搭套装，适用于家庭互动、课程活动和创意空间搭建，支持多规格组合。\n\n产品材质为塑料/塑胶，含外观设计相关专利字段，产地东莞茶山，适合按渠道需求进行规格分层供货。",
+    "en": "This is a customer-exclusive DIY fort building set designed for family interaction, activity classes, and creative space setup, with multiple specification options.\n\nMaterial: plastic. It includes appearance-design patent information and is produced in Chashan, Dongguan, suitable for tiered channel supply by specification."
+  },
+  "description": {
+    "zh": [
+      "该款客户专享DIY帐篷堡垒拼搭套装采用插珠式结构，可搭建帐篷、堡垒和互动游戏空间，适合儿童创意拼搭场景。",
+      "产品提供多档体积、尺寸与重量参数，便于渠道根据价格带和玩法定位配置不同SKU。材质为塑料/塑胶，支持重复拆装和组合重构。",
+      "商品采用彩盒包装，规格详情可咨询客服，适用于电商上架、跨境分销和项目型采购。"
+    ],
+    "en": [
+      "This customer-exclusive DIY fort set uses a bead-based structure to build tents, forts, and interactive play spaces for children’s creative construction scenarios.",
+      "Multiple volume, size, and weight options are provided so channels can configure different SKUs by pricing tier and play positioning. The plastic material supports repeated assembly and reconfiguration.",
+      "The item is packed in a color box and detailed variant specifications are available via customer service, suitable for e-commerce listing, cross-border distribution, and project procurement."
+    ]
+  },
+  "priceTiers": [
+    {
+      "quantity": {
+        "zh": "阶梯2",
+        "en": "Tier 2"
+      },
+      "price": "¥70"
+    },
+    {
+      "quantity": {
+        "zh": "阶梯3",
+        "en": "Tier 3"
+      },
+      "price": "¥168"
+    },
+    {
+      "quantity": {
+        "zh": "起订",
+        "en": "MOQ"
+      },
+      "price": "¥69.33"
+    }
+  ],
+  "attributes": [
+    {
+      "key": {
+        "zh": "品牌",
+        "en": "Brand"
+      },
+      "value": {
+        "zh": "其他",
+        "en": "Other"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "客户专享DIY帐篷堡垒拼搭玩具",
+        "en": "Customer-exclusive DIY Fort Building Toy"
+      }
+    },
+    {
+      "key": {
+        "zh": "材质",
+        "en": "Material"
+      },
+      "value": {
+        "zh": "塑料/塑胶",
+        "en": "Plastic"
+      }
+    },
+    {
+      "key": {
+        "zh": "拼砌玩具类型",
+        "en": "Construction Type"
+      },
+      "value": {
+        "zh": "其它",
+        "en": "Other Construction Type"
+      }
+    },
+    {
+      "key": {
+        "zh": "3C配置类别",
+        "en": "3C Category"
+      },
+      "value": {
+        "zh": "14岁以下其它玩具",
+        "en": "Other Toys for Under 14"
+      }
+    },
+    {
+      "key": {
+        "zh": "专利及著作权",
+        "en": "Patent/Copyright"
+      },
+      "value": {
+        "zh": "外观设计",
+        "en": "Appearance Design"
+      }
+    },
+    {
+      "key": {
+        "zh": "能力培养",
+        "en": "Development Focus"
+      },
+      "value": {
+        "zh": "视觉、智力开发、动手动脑、互动玩具",
+        "en": "Visual learning, cognitive development, hands-on skills, interactive play"
+      }
+    },
+    {
+      "key": {
+        "zh": "产地",
+        "en": "Origin"
+      },
+      "value": {
+        "zh": "东莞茶山",
+        "en": "Chashan, Dongguan"
+      }
+    },
+    {
+      "key": {
+        "zh": "宽(cm)",
+        "en": "Width (cm)"
+      },
+      "value": {
+        "zh": "30 / 34 / 26",
+        "en": "30 / 34 / 26"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否专供外贸",
+        "en": "Export Supply"
+      },
+      "value": {
+        "zh": "否",
+        "en": "No"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否跨境出口专供货源",
+        "en": "Cross-border Source"
+      },
+      "value": {
+        "zh": "否",
+        "en": "No"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否有导购视频",
+        "en": "Guide Video"
+      },
+      "value": {
+        "zh": "否",
+        "en": "No"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否有动漫形象",
+        "en": "Character IP"
+      },
+      "value": {
+        "zh": "否",
+        "en": "No"
+      }
+    }
+  ],
+  "packaging": [
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color Box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装体积(cm³)",
+        "en": "Package Volume (cm³)"
+      },
+      "value": {
+        "zh": "7800 / 11696 / 12298 / 14850",
+        "en": "7800 / 11696 / 12298 / 14850"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱宽(cm)",
+        "en": "Width (cm)"
+      },
+      "value": {
+        "zh": "30 / 34 / 26",
+        "en": "30 / 34 / 26"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱长(cm)",
+        "en": "Length (cm)"
+      },
+      "value": {
+        "zh": "40 / 43 / 45",
+        "en": "40 / 43 / 45"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱高(cm)",
+        "en": "Height (cm)"
+      },
+      "value": {
+        "zh": "6.50 / 8 / 11",
+        "en": "6.50 / 8 / 11"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装重量(g)",
+        "en": "Package Weight (g)"
+      },
+      "value": {
+        "zh": "1600 / 2500 / 3000 / 3500",
+        "en": "1600 / 2500 / 3000 / 3500"
+      }
+    },
+    {
+      "key": {
+        "zh": "规格",
+        "en": "Specification"
+      },
+      "value": {
+        "zh": "询问客服",
+        "en": "Contact Customer Service"
+      }
+    }
+  ],
+  "images": [
+    "./images/image-001.jpg",
+    "./images/image-002.jpg",
+    "./images/image-003.jpg",
+    "./images/image-004.jpg",
+    "./images/image-005.jpg",
+    "./images/image-006.jpg",
+    "./images/image-007.jpg",
+    "./images/image-008.jpg",
+    "./images/image-009.jpg",
+    "./images/image-010.jpg",
+    "./images/image-011.jpg",
+    "./images/image-012.jpg",
+    "./images/image-013.jpg"
+  ],
+  "videos": [
+    "./videos/video-001.mp4"
+  ],
+  "sourceUrl": "https://detail.1688.com/offer/996665252600.html"
+}

@@ -1,0 +1,167 @@
+{
+  "offerId": "654508208361",
+  "module": "tubes",
+  "priority": 2060,
+  "tags": [
+    {
+      "key": "tubes",
+      "zh": "管材",
+      "en": "Tubes"
+    },
+    {
+      "key": "tubes-led",
+      "zh": "管材-灯带",
+      "en": "Tubes - LED Strip"
+    },
+    {
+      "key": "pvc",
+      "zh": "PVC",
+      "en": "PVC"
+    },
+    {
+      "key": "tpu",
+      "zh": "TPU",
+      "en": "TPU"
+    },
+    {
+      "key": "pu",
+      "zh": "PU",
+      "en": "PU"
+    }
+  ],
+  "title": {
+    "zh": "工厂LED套管PVC双色套管TPU洗墙灯",
+    "en": "TPU LED Strip Sleeve Tube"
+  },
+  "summary": {
+    "zh": "该产品为LED灯带套管，主要材质为TPU，适用于LED灯带包覆与防水等应用场景，支持规格定制与批量供货。",
+    "en": "This led strip sleeve tube is primarily made from TPU and is suitable for LED strip covering and waterproofing applications. Custom dimensions and bulk supply are supported."
+  },
+  "description": {
+    "zh": [
+      "LED灯带套管面向工业与消费品配套场景，可用于防护、包覆、导向和连接等需求。",
+      "主要材质为TPU，可按项目要求匹配尺寸、壁厚、长度和结构形式，适配不同应用工况。",
+      "包装与交付可按需求配置（如重量(g) 380），支持稳定供货与长期项目协同。"
+    ],
+    "en": [
+      "This led strip sleeve tube is designed for industrial and consumer assembly programs requiring protection, covering, guidance, and connection functions.",
+      "The primary material is TPU, and dimensions such as outer diameter, wall thickness, length, and profile form can be aligned to project requirements.",
+      "Packaging and delivery can be configured as needed (for example: Weight (g) 380), supporting stable supply and long-term project coordination."
+    ]
+  },
+  "priceTiers": [
+    {
+      "quantity": {
+        "zh": "5000米起",
+        "en": "5000 M"
+      },
+      "price": "¥1.8"
+    }
+  ],
+  "attributes": [
+    {
+      "key": {
+        "zh": "产地",
+        "en": "Origin"
+      },
+      "value": {
+        "zh": "东管茶山",
+        "en": "Refer to Chinese value"
+      }
+    },
+    {
+      "key": {
+        "zh": "加工定制",
+        "en": "Custom Processing"
+      },
+      "value": {
+        "zh": "是",
+        "en": "Yes"
+      }
+    },
+    {
+      "key": {
+        "zh": "品牌",
+        "en": "Brand"
+      },
+      "value": {
+        "zh": "其他",
+        "en": "Refer to Chinese value"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否进口",
+        "en": "Imported"
+      },
+      "value": {
+        "zh": "否",
+        "en": "No"
+      }
+    },
+    {
+      "key": {
+        "zh": "材质",
+        "en": "Material"
+      },
+      "value": {
+        "zh": "塑料",
+        "en": "Refer to Chinese value"
+      }
+    },
+    {
+      "key": {
+        "zh": "耐温",
+        "en": "Temperature Resistance"
+      },
+      "value": {
+        "zh": "100（℃）",
+        "en": "100（℃）"
+      }
+    },
+    {
+      "key": {
+        "zh": "订货号",
+        "en": "Order No."
+      },
+      "value": {
+        "zh": "YSPVC1012",
+        "en": "YSPVC1012"
+      }
+    },
+    {
+      "key": {
+        "zh": "货号",
+        "en": "Item No."
+      },
+      "value": {
+        "zh": "YS1012",
+        "en": "YS1012"
+      }
+    }
+  ],
+  "packaging": [
+    {
+      "key": {
+        "zh": "重量(g)",
+        "en": "Weight (g)"
+      },
+      "value": {
+        "zh": "380",
+        "en": "380"
+      }
+    }
+  ],
+  "images": [
+    "./images/image-001.jpg",
+    "./images/image-002.jpg",
+    "./images/image-003.jpg",
+    "./images/image-004.jpg",
+    "./images/image-005.jpg",
+    "./images/image-006.jpg"
+  ],
+  "videos": [
+    "./videos/video-001.mp4"
+  ],
+  "sourceUrl": "https://detail.1688.com/offer/654508208361.html"
+}

@@ -1,0 +1,263 @@
+{
+  "offerId": "818438216420",
+  "module": "toys",
+  "priority": 1019,
+  "tags": [
+    {
+      "key": "toys",
+      "zh": "玩具",
+      "en": "Toys"
+    },
+    {
+      "key": "toys-construction",
+      "zh": "玩具-拼搭",
+      "en": "Toys - Construction"
+    },
+    {
+      "key": "toys-diy",
+      "zh": "玩具-DIY",
+      "en": "Toys - DIY"
+    },
+    {
+      "key": "toys-fort-building",
+      "zh": "玩具-城堡拼搭",
+      "en": "Toys - Fort Building"
+    },
+    {
+      "key": "toys-stem",
+      "zh": "玩具-STEM",
+      "en": "Toys - STEM"
+    },
+    {
+      "key": "toys-parent-child",
+      "zh": "玩具-亲子互动",
+      "en": "Toys - Parent Child"
+    }
+  ],
+  "title": {
+    "zh": "益智DIY拼搭城堡套装",
+    "en": "Educational DIY Castle Building Set"
+  },
+  "summary": {
+    "zh": "这是一款益智DIY拼搭城堡套装，采用塑料结构件，适用于家庭互动、课堂活动和创意搭建场景。\n\n产地东莞茶山，面向4-6岁儿童的拆装房子类拼搭玩法。",
+    "en": "This is an educational DIY castle building set using plastic structural parts, suitable for family interaction, classroom activities, and creative construction scenarios.\n\nProduced in Chashan, Dongguan, it targets detachable-house style building play for ages 4-6."
+  },
+  "description": {
+    "zh": [
+      "该款益智DIY拼搭城堡套装采用模块化拼接结构，可围绕城堡、帐篷与通道进行多形态搭建，适合儿童持续创意构建。",
+      "产品适用于亲子互动、课程教具与活动空间布置，可用于动手能力、空间认知和协作玩法训练。",
+      "包装参数包含体积、重量和尺寸信息，便于渠道陈列、仓配管理和项目采购。"
+    ],
+    "en": [
+      "This educational DIY castle building set uses a modular interlocking structure and supports multiple layouts around castles, tents, and tunnels for continuous creative construction play.",
+      "It is suitable for parent-child interaction, educational props, and event-space setup, helping develop hands-on ability, spatial awareness, and collaborative play skills.",
+      "Packaging includes volume, weight, and size data for channel display, warehouse operations, and project procurement."
+    ]
+  },
+  "priceTiers": [
+    {
+      "quantity": {
+        "zh": "≥500盒",
+        "en": "500+ boxes"
+      },
+      "price": "¥85"
+    }
+  ],
+  "attributes": [
+    {
+      "key": {
+        "zh": "3C配置类别",
+        "en": "3C Category"
+      },
+      "value": {
+        "zh": "14岁以下其它玩具",
+        "en": "Other Toys for Under 14"
+      }
+    },
+    {
+      "key": {
+        "zh": "产地",
+        "en": "Origin"
+      },
+      "value": {
+        "zh": "东莞茶山",
+        "en": "Chashan, Dongguan"
+      }
+    },
+    {
+      "key": {
+        "zh": "宽(cm)",
+        "en": "Width (cm)"
+      },
+      "value": {
+        "zh": "24.50",
+        "en": "24.50"
+      }
+    },
+    {
+      "key": {
+        "zh": "拼砌玩具类型",
+        "en": "Building Type"
+      },
+      "value": {
+        "zh": "拆装房子",
+        "en": "Detachable House Build"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否专供外贸",
+        "en": "Export Supply"
+      },
+      "value": {
+        "zh": "否",
+        "en": "No"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否有动漫形象",
+        "en": "Character IP"
+      },
+      "value": {
+        "zh": "否",
+        "en": "No"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否有导购视频",
+        "en": "Guide Video"
+      },
+      "value": {
+        "zh": "是",
+        "en": "Available"
+      }
+    },
+    {
+      "key": {
+        "zh": "材质",
+        "en": "Material"
+      },
+      "value": {
+        "zh": "塑料/塑胶",
+        "en": "Plastic"
+      }
+    },
+    {
+      "key": {
+        "zh": "能力培养",
+        "en": "Development Focus"
+      },
+      "value": {
+        "zh": "智力开发、爬行、动手动脑、抓握、互动玩具、兴趣培养",
+        "en": "Cognitive development, crawling, hands-on practice, grasping, interactive play, and interest cultivation"
+      }
+    },
+    {
+      "key": {
+        "zh": "适用年龄",
+        "en": "Age Range"
+      },
+      "value": {
+        "zh": "儿童（4-6岁）",
+        "en": "Ages 4-6"
+      }
+    },
+    {
+      "key": {
+        "zh": "长(cm)",
+        "en": "Length (cm)"
+      },
+      "value": {
+        "zh": "42.50",
+        "en": "42.50"
+      }
+    },
+    {
+      "key": {
+        "zh": "颜色",
+        "en": "Color"
+      },
+      "value": {
+        "zh": "蓝色,绿色 / 蓝色 / 绿色",
+        "en": "Blue , Green / Blue / Green"
+      }
+    }
+  ],
+  "packaging": [
+    {
+      "key": {
+        "zh": "体积(cm³)",
+        "en": "Volume (cm³)"
+      },
+      "value": {
+        "zh": "11974.375",
+        "en": "11974.375"
+      }
+    },
+    {
+      "key": {
+        "zh": "宽(cm)",
+        "en": "Width (cm)"
+      },
+      "value": {
+        "zh": "24.50",
+        "en": "24.50"
+      }
+    },
+    {
+      "key": {
+        "zh": "单套重量(g)",
+        "en": "Unit Weight (g)"
+      },
+      "value": {
+        "zh": "2900",
+        "en": "2900"
+      }
+    },
+    {
+      "key": {
+        "zh": "长(cm)",
+        "en": "Length (cm)"
+      },
+      "value": {
+        "zh": "42.50",
+        "en": "42.50"
+      }
+    },
+    {
+      "key": {
+        "zh": "高(cm)",
+        "en": "Height (cm)"
+      },
+      "value": {
+        "zh": "11.50",
+        "en": "11.50"
+      }
+    },
+    {
+      "key": {
+        "zh": "颜色",
+        "en": "Color"
+      },
+      "value": {
+        "zh": "蓝色 / 绿色",
+        "en": "Blue / Green"
+      }
+    }
+  ],
+  "images": [
+    "./images/image-001.jpg",
+    "./images/image-002.jpg",
+    "./images/image-003.jpg",
+    "./images/image-004.jpg",
+    "./images/image-005.jpg",
+    "./images/image-006.jpg",
+    "./images/image-007.jpg"
+  ],
+  "videos": [
+    "./videos/video-001.mp4"
+  ],
+  "sourceUrl": "https://detail.1688.com/offer/818438216420.html"
+}

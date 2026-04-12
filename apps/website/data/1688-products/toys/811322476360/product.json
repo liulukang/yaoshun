@@ -1,0 +1,288 @@
+{
+  "offerId": "811322476360",
+  "module": "toys",
+  "priority": 1014,
+  "tags": [
+    {
+      "key": "toys",
+      "zh": "玩具",
+      "en": "Toys"
+    },
+    {
+      "key": "toys-construction",
+      "zh": "玩具-拼搭",
+      "en": "Toys - Construction"
+    },
+    {
+      "key": "toys-diy",
+      "zh": "玩具-DIY",
+      "en": "Toys - DIY"
+    },
+    {
+      "key": "toys-fort-building",
+      "zh": "玩具-堡垒拼搭",
+      "en": "Toys - Fort Building"
+    },
+    {
+      "key": "toys-stem",
+      "zh": "玩具-STEM",
+      "en": "Toys - STEM"
+    },
+    {
+      "key": "toys-parent-child",
+      "zh": "玩具-亲子互动",
+      "en": "Toys - Parent Child"
+    },
+    {
+      "key": "toys-shape-learning",
+      "zh": "玩具-图形认知",
+      "en": "Toys - Shape Learning"
+    }
+  ],
+  "title": {
+    "zh": "图形早教堡垒积木拼搭套装",
+    "en": "Shape Learning Fort Building Set"
+  },
+  "summary": {
+    "zh": "这是一款图形早教主题的儿童堡垒拼搭套装，采用PP结构件，适用于家庭互动、课堂活动和创意拼插场景。\n\n品牌为尧顺，产地东莞茶山，支持拼插花园等主题搭建玩法。",
+    "en": "This is a shape-learning themed fort construction set for children, made with PP structural parts and suitable for family interaction, classroom activities, and creative interlocking scenarios.\n\nBrand: Yaoshun. Origin: Chashan, Dongguan. It supports themed layouts such as interlocking garden builds."
+  },
+  "description": {
+    "zh": [
+      "该款图形早教堡垒积木拼搭套装采用模块化拼接结构，可用于堡垒、通道和互动空间等多形态搭建，适合儿童持续创意构建。",
+      "产品适用于亲子互动、课堂教具和主题活动场景，通过拼插过程提升图形认知、手眼协调和协作能力。",
+      "包装为彩盒，配套体积与尺寸参数完整，便于渠道上架、仓配管理和项目采购。"
+    ],
+    "en": [
+      "This shape-learning fort building set uses a modular interlocking structure and supports multiple layouts such as forts, tunnels, and interactive spaces for continuous creative construction play.",
+      "It is suitable for parent-child interaction, classroom props, and themed activities, helping improve shape recognition, hand-eye coordination, and collaborative ability.",
+      "The set uses color-box packaging with complete volume and size data for channel listing, warehouse operations, and project procurement."
+    ]
+  },
+  "priceTiers": [
+    {
+      "quantity": {
+        "zh": "≥1000盒",
+        "en": "1000+ boxes"
+      },
+      "price": "¥75"
+    }
+  ],
+  "attributes": [
+    {
+      "key": {
+        "zh": "3C配置类别",
+        "en": "3C Category"
+      },
+      "value": {
+        "zh": "14岁以上的玩具",
+        "en": "Toys for Ages 14+"
+      }
+    },
+    {
+      "key": {
+        "zh": "产地",
+        "en": "Origin"
+      },
+      "value": {
+        "zh": "东莞茶山",
+        "en": "Chashan, Dongguan"
+      }
+    },
+    {
+      "key": {
+        "zh": "品牌",
+        "en": "Brand"
+      },
+      "value": {
+        "zh": "尧顺",
+        "en": "Yaoshun"
+      }
+    },
+    {
+      "key": {
+        "zh": "宽(cm)",
+        "en": "Width (cm)"
+      },
+      "value": {
+        "zh": "34",
+        "en": "34"
+      }
+    },
+    {
+      "key": {
+        "zh": "拼砌玩具类型",
+        "en": "Building Type"
+      },
+      "value": {
+        "zh": "拼插花园",
+        "en": "Interlocking Garden"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否专供外贸",
+        "en": "Export Supply"
+      },
+      "value": {
+        "zh": "否",
+        "en": "No"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否有动漫形象",
+        "en": "Character IP"
+      },
+      "value": {
+        "zh": "否",
+        "en": "No"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否有导购视频",
+        "en": "Guide Video"
+      },
+      "value": {
+        "zh": "否",
+        "en": "No"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否跨境出口专供货源",
+        "en": "Cross-border Source"
+      },
+      "value": {
+        "zh": "否",
+        "en": "No"
+      }
+    },
+    {
+      "key": {
+        "zh": "材质",
+        "en": "Material"
+      },
+      "value": {
+        "zh": "PP",
+        "en": "PP"
+      }
+    },
+    {
+      "key": {
+        "zh": "能力培养",
+        "en": "Development Focus"
+      },
+      "value": {
+        "zh": "智力开发、动手动脑、互动玩具、亲子交流、兴趣培养",
+        "en": "Cognitive development, hands-on practice, interactive play, parent-child interaction, and interest cultivation"
+      }
+    },
+    {
+      "key": {
+        "zh": "货号",
+        "en": "Item No."
+      },
+      "value": {
+        "zh": "YG100pcs",
+        "en": "YG100pcs"
+      }
+    }
+  ],
+  "packaging": [
+    {
+      "key": {
+        "zh": "体积(cm³)",
+        "en": "Volume (cm³)"
+      },
+      "value": {
+        "zh": "11696",
+        "en": "11696"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color Box"
+      }
+    },
+    {
+      "key": {
+        "zh": "宽(cm)",
+        "en": "Width (cm)"
+      },
+      "value": {
+        "zh": "34",
+        "en": "34"
+      }
+    },
+    {
+      "key": {
+        "zh": "单套重量(g)",
+        "en": "Unit Weight (g)"
+      },
+      "value": {
+        "zh": "2300",
+        "en": "2300"
+      }
+    },
+    {
+      "key": {
+        "zh": "长(cm)",
+        "en": "Length (cm)"
+      },
+      "value": {
+        "zh": "43",
+        "en": "43"
+      }
+    },
+    {
+      "key": {
+        "zh": "高(cm)",
+        "en": "Height (cm)"
+      },
+      "value": {
+        "zh": "8",
+        "en": "8"
+      }
+    },
+    {
+      "key": {
+        "zh": "规格",
+        "en": "Specification"
+      },
+      "value": {
+        "zh": "YG100pcs",
+        "en": "YG100pcs"
+      }
+    },
+    {
+      "key": {
+        "zh": "颜色",
+        "en": "Color"
+      },
+      "value": {
+        "zh": "橙色",
+        "en": "Orange"
+      }
+    }
+  ],
+  "images": [
+    "./images/image-001.jpg",
+    "./images/image-002.jpg",
+    "./images/image-003.jpg",
+    "./images/image-004.jpg",
+    "./images/image-005.jpg",
+    "./images/image-006.jpg",
+    "./images/image-007.jpg"
+  ],
+  "videos": [
+    "./videos/video-001.mp4"
+  ],
+  "sourceUrl": "https://detail.1688.com/offer/811322476360.html"
+}

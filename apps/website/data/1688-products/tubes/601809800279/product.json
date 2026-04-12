@@ -1,0 +1,217 @@
+{
+  "offerId": "601809800279",
+  "module": "tubes",
+  "priority": 2022,
+  "tags": [
+    {
+      "key": "tubes",
+      "zh": "管材",
+      "en": "Tubes"
+    },
+    {
+      "key": "tubes-led",
+      "zh": "管材-灯带",
+      "en": "Tubes - LED Strip"
+    },
+    {
+      "key": "cross-border-export",
+      "zh": "跨境外贸",
+      "en": "Cross-border Export"
+    },
+    {
+      "key": "tpu",
+      "zh": "TPU",
+      "en": "TPU"
+    },
+    {
+      "key": "pu",
+      "zh": "PU",
+      "en": "PU"
+    }
+  ],
+  "title": {
+    "zh": "3528LED灯带套管TPU加工透明TP",
+    "en": "TPU LED Strip Sleeve Tube"
+  },
+  "summary": {
+    "zh": "该产品为LED灯带套管，主要材质为TPU，适用于LED灯带包覆与防水等应用场景，支持规格定制与批量供货。",
+    "en": "This led strip sleeve tube is primarily made from TPU and is suitable for LED strip covering and waterproofing applications. Custom dimensions and bulk supply are supported."
+  },
+  "description": {
+    "zh": [
+      "LED灯带套管面向工业与消费品配套场景，可用于防护、包覆、导向和连接等需求。",
+      "主要材质为TPU，可按项目要求匹配尺寸、壁厚、长度和结构形式，适配不同应用工况。",
+      "包装与交付可按需求配置（如重量(g) 40），支持稳定供货与长期项目协同。"
+    ],
+    "en": [
+      "This led strip sleeve tube is designed for industrial and consumer assembly programs requiring protection, covering, guidance, and connection functions.",
+      "The primary material is TPU, and dimensions such as outer diameter, wall thickness, length, and profile form can be aligned to project requirements.",
+      "Packaging and delivery can be configured as needed (for example: Weight (g) 40), supporting stable supply and long-term project coordination."
+    ]
+  },
+  "priceTiers": [
+    {
+      "quantity": {
+        "zh": "20000-99999米",
+        "en": "20000-99999 M"
+      },
+      "price": "¥1.75"
+    },
+    {
+      "quantity": {
+        "zh": "≥100000米",
+        "en": ">=100000 M"
+      },
+      "price": "¥1.6"
+    }
+  ],
+  "attributes": [
+    {
+      "key": {
+        "zh": "产地",
+        "en": "Origin"
+      },
+      "value": {
+        "zh": "东莞茶山",
+        "en": "Chashan, Dongguan"
+      }
+    },
+    {
+      "key": {
+        "zh": "加工定制",
+        "en": "Custom Processing"
+      },
+      "value": {
+        "zh": "是",
+        "en": "Yes"
+      }
+    },
+    {
+      "key": {
+        "zh": "品牌",
+        "en": "Brand"
+      },
+      "value": {
+        "zh": "HP/惠普",
+        "en": "Hp/"
+      }
+    },
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model"
+      },
+      "value": {
+        "zh": "5050/3528/可定制",
+        "en": "5050/3528/"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否跨境出口专供货源",
+        "en": "Cross-border Source"
+      },
+      "value": {
+        "zh": "否",
+        "en": "No"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否进口",
+        "en": "Imported"
+      },
+      "value": {
+        "zh": "否",
+        "en": "No"
+      }
+    },
+    {
+      "key": {
+        "zh": "材质",
+        "en": "Material"
+      },
+      "value": {
+        "zh": "塑料",
+        "en": "Refer to Chinese value"
+      }
+    },
+    {
+      "key": {
+        "zh": "系列",
+        "en": "Series"
+      },
+      "value": {
+        "zh": "灯带",
+        "en": "LED Strip"
+      }
+    },
+    {
+      "key": {
+        "zh": "耐压",
+        "en": "Specification"
+      },
+      "value": {
+        "zh": "68（KV）",
+        "en": "68（kv）"
+      }
+    },
+    {
+      "key": {
+        "zh": "耐温",
+        "en": "Temperature Resistance"
+      },
+      "value": {
+        "zh": "150（℃）",
+        "en": "150（℃）"
+      }
+    },
+    {
+      "key": {
+        "zh": "订货号",
+        "en": "Order No."
+      },
+      "value": {
+        "zh": "10663",
+        "en": "10663"
+      }
+    },
+    {
+      "key": {
+        "zh": "货号",
+        "en": "Item No."
+      },
+      "value": {
+        "zh": "10663",
+        "en": "10663"
+      }
+    }
+  ],
+  "packaging": [
+    {
+      "key": {
+        "zh": "重量(g)",
+        "en": "Weight (g)"
+      },
+      "value": {
+        "zh": "40",
+        "en": "40"
+      }
+    }
+  ],
+  "images": [
+    "./images/image-001.jpg",
+    "./images/image-002.jpg",
+    "./images/image-003.jpg",
+    "./images/image-004.jpg",
+    "./images/image-005.jpg",
+    "./images/image-006.jpg",
+    "./images/image-010.jpg"
+  ],
+  "videos": [
+    "./videos/video-001.mp4",
+    "./videos/video-002.mp4",
+    "./videos/video-003.mp4"
+  ],
+  "sourceUrl": "https://detail.1688.com/offer/601809800279.html"
+}

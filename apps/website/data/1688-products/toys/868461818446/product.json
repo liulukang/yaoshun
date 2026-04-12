@@ -1,0 +1,272 @@
+{
+  "offerId": "868461818446",
+  "module": "toys",
+  "priority": 1044,
+  "tags": [
+    {
+      "key": "toys",
+      "zh": "玩具",
+      "en": "Toys"
+    },
+    {
+      "key": "toys-construction",
+      "zh": "玩具-拼搭",
+      "en": "Toys - Construction"
+    },
+    {
+      "key": "toys-diy",
+      "zh": "玩具-DIY",
+      "en": "Toys - DIY"
+    },
+    {
+      "key": "toys-fort-building",
+      "zh": "玩具-帐篷拼搭",
+      "en": "Toys - Fort Building"
+    },
+    {
+      "key": "toys-spatial-learning",
+      "zh": "玩具-空间认知",
+      "en": "Toys - Spatial Learning"
+    },
+    {
+      "key": "cross-border-export",
+      "zh": "跨境外贸",
+      "en": "Cross-border Export"
+    }
+  ],
+  "title": {
+    "zh": "Fort Building Kit大型拼搭积木套装",
+    "en": "Fort Building Kit Large Block Set"
+  },
+  "summary": {
+    "zh": "这是一款面向儿童创意拼搭与互动场景的大型堡垒积木套装，适用于家庭、教学活动和主题展示空间，可通过杆件与连接件组合形成多种结构。\n\n品牌为尧顺，产地中国东莞，支持导购视频和跨境渠道资料配置，适合出口类渠道供货。",
+    "en": "This is a large fort-building block set for children’s creative construction and interaction scenarios. It fits home use, educational activities, and themed display spaces through rod-and-connector structures.\n\nBrand: Yaoshun. Origin: Dongguan, China. Guide video support and cross-border channel documentation are available for export-oriented supply."
+  },
+  "description": {
+    "zh": [
+      "该款Fort Building Kit大型拼搭积木套装以杆件和连接球为核心结构，支持搭建帐篷、堡垒和创意空间造型，适用于亲子互动和小组活动。",
+      "产品定位儿童拼搭类玩具，支持多功能玩法和重复拆装。品牌为尧顺，可用于教学活动、零售陈列和互动体验区布置。",
+      "商品采用彩盒包装，规格为yg100pcs，配套体积与重量信息完整，适合出口渠道和批量采购。"
+    ],
+    "en": [
+      "This Fort Building Kit large block set uses rods and connector balls to build tents, forts, and creative spatial structures for parent-child and group activities.",
+      "The product is positioned as a children’s construction toy with multi-function play and repeatable assembly. Brand: Yaoshun. It can be used in educational activities, retail display, and interactive play zones.",
+      "Packed in a color box with complete volume and weight data, model yg100pcs is suitable for export channels and bulk procurement."
+    ]
+  },
+  "priceTiers": [
+    {
+      "quantity": {
+        "zh": "≥1000个",
+        "en": ">=1000 Pcs"
+      },
+      "price": "¥78"
+    }
+  ],
+  "attributes": [
+    {
+      "key": {
+        "zh": "品牌",
+        "en": "Brand"
+      },
+      "value": {
+        "zh": "尧顺",
+        "en": "Yaoshun"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "大型堡垒拼搭积木玩具",
+        "en": "Large Fort Building Block Toy"
+      }
+    },
+    {
+      "key": {
+        "zh": "功能",
+        "en": "Function"
+      },
+      "value": {
+        "zh": "其他",
+        "en": "Other"
+      }
+    },
+    {
+      "key": {
+        "zh": "3C配置类别",
+        "en": "3C Category"
+      },
+      "value": {
+        "zh": "14岁以下其它玩具",
+        "en": "Other Toys for Under 14"
+      }
+    },
+    {
+      "key": {
+        "zh": "主要下游平台",
+        "en": "Main Platforms"
+      },
+      "value": {
+        "zh": "其它",
+        "en": "Other"
+      }
+    },
+    {
+      "key": {
+        "zh": "主要销售地区",
+        "en": "Main Markets"
+      },
+      "value": {
+        "zh": "其他",
+        "en": "Other"
+      }
+    },
+    {
+      "key": {
+        "zh": "产地",
+        "en": "Origin"
+      },
+      "value": {
+        "zh": "中国东莞",
+        "en": "Dongguan, China"
+      }
+    },
+    {
+      "key": {
+        "zh": "外贸类型",
+        "en": "Trade Type"
+      },
+      "value": {
+        "zh": "出口",
+        "en": "Export"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否外贸",
+        "en": "Foreign Trade"
+      },
+      "value": {
+        "zh": "是",
+        "en": "Yes"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否多功能",
+        "en": "Multi-function"
+      },
+      "value": {
+        "zh": "是",
+        "en": "Yes"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否专供外贸",
+        "en": "Export Supply"
+      },
+      "value": {
+        "zh": "否",
+        "en": "No"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否有导购视频",
+        "en": "Guide Video"
+      },
+      "value": {
+        "zh": "是",
+        "en": "Available"
+      }
+    }
+  ],
+  "packaging": [
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color Box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装体积(cm³)",
+        "en": "Package Volume (cm³)"
+      },
+      "value": {
+        "zh": "10803.750",
+        "en": "10803.750"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸(cm)",
+        "en": "Carton Size (cm)"
+      },
+      "value": {
+        "zh": "43 x 33.5 x 7.5",
+        "en": "43 x 33.5 x 7.5"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装重量(g)",
+        "en": "Package Weight (g)"
+      },
+      "value": {
+        "zh": "2300",
+        "en": "2300"
+      }
+    },
+    {
+      "key": {
+        "zh": "积木净重",
+        "en": "Net Weight"
+      },
+      "value": {
+        "zh": "0.05KG",
+        "en": "0.05kg"
+      }
+    },
+    {
+      "key": {
+        "zh": "规格",
+        "en": "Specification"
+      },
+      "value": {
+        "zh": "yg100pcs",
+        "en": "YG100pcs"
+      }
+    },
+    {
+      "key": {
+        "zh": "颜色",
+        "en": "Color"
+      },
+      "value": {
+        "zh": "紫色",
+        "en": "Purple"
+      }
+    }
+  ],
+  "images": [
+    "./images/image-001.jpg",
+    "./images/image-002.jpg",
+    "./images/image-003.jpg",
+    "./images/image-004.jpg",
+    "./images/image-005.jpg",
+    "./images/image-006.jpg"
+  ],
+  "videos": [
+    "./videos/video-001.mp4"
+  ],
+  "sourceUrl": "https://detail.1688.com/offer/868461818446.html"
+}

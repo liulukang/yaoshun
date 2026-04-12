@@ -3,9 +3,19 @@ import type { RouteKey } from "@/lib/routes";
 
 export type LocalizedText = Partial<Record<Locale, string>>;
 export type LocalizedKeywords = Partial<Record<Locale, string[]>>;
+export type ProductModule = "toys" | "tubes" | "equipment";
+export type LocalizedTag = {
+  key: string;
+  zh: string;
+  en: string;
+};
 
 export type Product = {
   slug: string;
+  offerId?: string;
+  module: ProductModule;
+  tags: LocalizedTag[];
+  priority: number;
   title: LocalizedText;
   badge: LocalizedText;
   summary: LocalizedText;
@@ -166,49 +176,49 @@ export const companyProfile = {
     zh: "东莞市尧顺科技有限公司",
   },
   tagline: {
-    en: "20+ years focused on toy development and manufacturing, with plastic and extrusion support capabilities.",
-    zh: "20 余年聚焦玩具研发与制造，并提供塑胶与挤出配套能力。",
+    en: "Toy-focused OEM/ODM manufacturer for assembly toys with PU/PVC tubing and plastic process support.",
+    zh: "以拼插类玩具为核心，提供 PU/PVC 管材与塑胶工艺配套的 OEM/ODM 制造团队。",
   },
   seoDescription: {
-    en: "Dongguan Yaoshun Technology Co., Ltd. (东莞市尧顺科技有限公司), founded in 2006, provides toy OEM/ODM development and production, with injection molding and extrusion capabilities as supporting services.",
-    zh: "东莞市尧顺科技有限公司（Dongguan Yaoshun Technology Co., Ltd.）始创于 2006 年，主营玩具 OEM/ODM 开发与量产，并以注塑与挤出能力提供配套支持。",
+    en: "Dongguan Yaoshun Technology Co., Ltd. focuses on assembly toy OEM/ODM programs and supports buyers with PU/PVC tubing, injection molding, extrusion, and integrated production delivery.",
+    zh: "东莞市尧顺科技有限公司聚焦拼插类玩具 OEM/ODM 项目，并提供 PU/PVC 管材、注塑、挤出及一体化制造交付支持。",
   },
   businessType: {
-    en: "Toy-focused OEM/ODM manufacturer with plastic process support",
-    zh: "以玩具为主的 OEM/ODM 制造商，配套塑胶工艺能力",
+    en: "OEM/ODM manufacturer focused on assembly toys, PU/PVC tubing, and plastic processing",
+    zh: "聚焦拼插玩具、PU/PVC 管材与塑胶加工的 OEM/ODM 制造商",
   },
   expertise: [
     {
-      en: "AI smart toys",
-      zh: "AI 智能玩具",
+      en: "assembly toy design and manufacturing",
+      zh: "拼插类玩具设计与制造",
     },
     {
-      en: "DIY children toys",
-      zh: "DIY 儿童玩具",
+      en: "PU and PVC tubing production",
+      zh: "PU 与 PVC 管材生产",
     },
     {
       en: "OEM and ODM manufacturing",
       zh: "OEM 与 ODM 制造",
     },
     {
-      en: "assembly, packaging, and global delivery",
-      zh: "组装、包装与全球交付",
+      en: "sample-based and drawing-based processing",
+      zh: "来样与来图加工",
     },
     {
-      en: "precision injection molding products",
-      zh: "精密注塑产品",
+      en: "assembly, packaging, and shipment handoff",
+      zh: "组装、包装与出货交接",
     },
     {
-      en: "plastic extrusion equipment",
-      zh: "塑胶挤出设备",
+      en: "precision injection molding parts",
+      zh: "精密注塑零部件",
     },
     {
-      en: "plastic extrusion products",
-      zh: "塑胶挤出产品",
+      en: "plastic extrusion equipment and profiles",
+      zh: "塑胶挤出设备与型材",
     },
     {
-      en: "mold development and production",
-      zh: "模具开发与生产",
+      en: "tooling development and pilot validation",
+      zh: "模具开发与试产验证",
     },
   ],
   serviceRegions: [
@@ -233,17 +243,17 @@ export const companyProfile = {
 };
 
 export const visualAssets = {
-  companyHero: "/media/products/diy-abs-pp-601805200838/image-01.jpg",
-  factoryHero: "/media/products/tpu-pu-2-25mm-557976337753/image-01.jpg",
-  factoryFloor: "/media/products/1-63-abs-559936687910/image-01.jpg",
-  toyLearning: "/media/products/diy-ys130pcs-841781121486/image-01.jpg",
-  profileSeries: "/media/products/pvc-pvc-pvc-pvc-pvc-602308826913/image-01.jpg",
-  engineeringSupport: "/media/products/etfe-ptfe-5-8mm-805276190504/image-01.jpg",
-  rdLab: "/media/products/pla-pbs-633575053030/image-01.jpg",
-  craftsmanship: "/media/products/ys130pcs-diy-861495406277/image-01.jpg",
-  complianceLab: "/media/products/fort-building-kit-diy-stem-868461818446/image-01.jpg",
-  oemWorkflow: "/media/products/diy-stem-fort-building-kid-850300052500/image-01.jpg",
-  projectEngineering: "/media/products/pla-pbs-80-633568985797/image-01.jpg",
+  companyHero: "/api/1688-products/601805200838/images/image-002.jpg",
+  factoryHero: "/api/1688-products/557976337753/images/image-001.jpg",
+  factoryFloor: "/api/1688-products/559936687910/images/image-001.jpg",
+  toyLearning: "/api/1688-products/841781121486/images/image-001.jpg",
+  profileSeries: "/api/1688-products/602308826913/images/image-001.jpg",
+  engineeringSupport: "/api/1688-products/805276190504/images/image-001.jpg",
+  rdLab: "/api/1688-products/633575053030/images/image-002.jpg",
+  craftsmanship: "/api/1688-products/861495406277/images/image-001.jpg",
+  complianceLab: "/api/1688-products/868461818446/images/image-001.jpg",
+  oemWorkflow: "/api/1688-products/850300052500/images/image-001.jpg",
+  projectEngineering: "/api/1688-products/633568985797/images/image-001.jpg",
 } as const;
 
 export const siteStats = [

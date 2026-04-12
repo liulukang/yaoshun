@@ -1,0 +1,256 @@
+{
+  "offerId": "675043165914",
+  "module": "toys",
+  "priority": 1004,
+  "tags": [
+    {
+      "key": "toys",
+      "zh": "玩具",
+      "en": "Toys"
+    },
+    {
+      "key": "toys-construction",
+      "zh": "玩具-拼搭",
+      "en": "Toys - Construction"
+    },
+    {
+      "key": "toys-diy",
+      "zh": "玩具-DIY",
+      "en": "Toys - DIY"
+    },
+    {
+      "key": "toys-fort-building",
+      "zh": "玩具-帐篷拼搭",
+      "en": "Toys - Fort Building"
+    },
+    {
+      "key": "toys-stem",
+      "zh": "玩具-STEM",
+      "en": "Toys - STEM"
+    },
+    {
+      "key": "toys-indoor-outdoor",
+      "zh": "玩具-室内室外",
+      "en": "Toys - Indoor Outdoor"
+    },
+    {
+      "key": "toys-parent-child",
+      "zh": "玩具-亲子互动",
+      "en": "Toys - Parent Child"
+    },
+    {
+      "key": "education-classroom-activity",
+      "zh": "教学活动",
+      "en": "Classroom Activity"
+    },
+    {
+      "key": "cross-border-export",
+      "zh": "跨境外贸",
+      "en": "Cross-border Export"
+    }
+  ],
+  "title": {
+    "zh": "DIY拼插帐篷搭建套装",
+    "en": "DIY Fort Building Set"
+  },
+  "summary": {
+    "zh": "这是一款儿童DIY拼插帐篷搭建套装，采用PP材质，适合搭建房屋、帐篷和通道类结构，适用于家庭互动、课堂活动和室内外游戏场景。\n\n产品归类为14岁以下玩具，具备实用新型相关知识产权，支持跨境供货场景使用。",
+    "en": "This is a kids DIY interlocking fort building set made of PP material. It supports house, tent, and tunnel-style builds for family interaction, classroom activities, and indoor/outdoor play scenarios.\n\nThe product is categorized as an under-14 toy and is associated with utility-model intellectual property, suitable for cross-border supply use cases."
+  },
+  "description": {
+    "zh": [
+      "该款DIY拼插帐篷搭建套装以杆件拼插结构为核心，能够快速搭建帐篷、房屋和通道等造型，适合儿童进行创意组合与互动游戏。",
+      "产品可用于家庭亲子、课堂教具和室内外活动场景，覆盖益智训练、空间认知与协作搭建等玩法，支持反复拆装使用。",
+      "包装为彩盒，规格为1.5*2M，配套重量参数清晰，便于电商上架、渠道配货与项目采购管理。"
+    ],
+    "en": [
+      "This DIY fort building set is based on an interlocking rod structure and allows quick setup of tent, house, and tunnel-style forms for creative and interactive children’s play.",
+      "It can be used for parent-child activities, classroom props, and indoor/outdoor event play, covering educational practice, spatial cognition, and collaborative construction scenarios with repeatable assembly.",
+      "The set uses color-box packaging with a 1.5*2M specification and clear weight data, making it suitable for e-commerce listing, channel fulfillment, and project procurement management."
+    ]
+  },
+  "priceTiers": [
+    {
+      "quantity": {
+        "zh": "1000-4999套",
+        "en": "1000-4999 sets"
+      },
+      "price": "¥95"
+    },
+    {
+      "quantity": {
+        "zh": "≥5000套",
+        "en": "5000+ sets"
+      },
+      "price": "¥85"
+    }
+  ],
+  "attributes": [
+    {
+      "key": {
+        "zh": "3C配置类别",
+        "en": "3C Category"
+      },
+      "value": {
+        "zh": "14岁以下其它玩具",
+        "en": "Other Toys for Under 14"
+      }
+    },
+    {
+      "key": {
+        "zh": "专利及著作权",
+        "en": "IP Type"
+      },
+      "value": {
+        "zh": "实用新型",
+        "en": "Utility Model"
+      }
+    },
+    {
+      "key": {
+        "zh": "主要下游平台",
+        "en": "Main Platforms"
+      },
+      "value": {
+        "zh": "其他",
+        "en": "Other"
+      }
+    },
+    {
+      "key": {
+        "zh": "主要销售地区",
+        "en": "Main Markets"
+      },
+      "value": {
+        "zh": "其他",
+        "en": "Other"
+      }
+    },
+    {
+      "key": {
+        "zh": "产地",
+        "en": "Origin"
+      },
+      "value": {
+        "zh": "广东东莞",
+        "en": "Dongguan, Guangdong"
+      }
+    },
+    {
+      "key": {
+        "zh": "拼砌玩具类型",
+        "en": "Building Type"
+      },
+      "value": {
+        "zh": "拆装房子",
+        "en": "Detachable House Build"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否专供外贸",
+        "en": "Export Supply"
+      },
+      "value": {
+        "zh": "否",
+        "en": "No"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否有动漫形象",
+        "en": "Character IP"
+      },
+      "value": {
+        "zh": "否",
+        "en": "No"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否有导购视频",
+        "en": "Guide Video"
+      },
+      "value": {
+        "zh": "是",
+        "en": "Available"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否跨境出口专供货源",
+        "en": "Cross-border Source"
+      },
+      "value": {
+        "zh": "是",
+        "en": "Yes"
+      }
+    },
+    {
+      "key": {
+        "zh": "有可授权的自有品牌",
+        "en": "Own-brand Authorization"
+      },
+      "value": {
+        "zh": "是",
+        "en": "Yes"
+      }
+    },
+    {
+      "key": {
+        "zh": "材质",
+        "en": "Material"
+      },
+      "value": {
+        "zh": "PP",
+        "en": "PP"
+      }
+    }
+  ],
+  "packaging": [
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color Box"
+      }
+    },
+    {
+      "key": {
+        "zh": "单套重量(g)",
+        "en": "Unit Weight (g)"
+      },
+      "value": {
+        "zh": "3000",
+        "en": "3000"
+      }
+    },
+    {
+      "key": {
+        "zh": "规格",
+        "en": "Specification"
+      },
+      "value": {
+        "zh": "1.5*2M",
+        "en": "1.5*2m"
+      }
+    }
+  ],
+  "images": [
+    "./images/image-001.jpg",
+    "./images/image-002.jpg",
+    "./images/image-003.jpg",
+    "./images/image-004.jpg",
+    "./images/image-005.jpg",
+    "./images/image-006.jpg",
+    "./images/image-022.jpg"
+  ],
+  "videos": [
+    "./videos/video-001.mp4",
+    "./videos/video-002.mp4"
+  ],
+  "sourceUrl": "https://detail.1688.com/offer/675043165914.html"
+}

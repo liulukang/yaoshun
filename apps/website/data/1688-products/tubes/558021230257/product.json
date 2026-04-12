@@ -1,0 +1,161 @@
+{
+  "offerId": "558021230257",
+  "module": "tubes",
+  "priority": 2008,
+  "tags": [
+    {
+      "key": "tubes",
+      "zh": "管材",
+      "en": "Tubes"
+    },
+    {
+      "key": "tubes-general",
+      "zh": "管材-通用",
+      "en": "Tubes - General"
+    },
+    {
+      "key": "pp",
+      "zh": "PP",
+      "en": "PP"
+    }
+  ],
+  "title": {
+    "zh": "环保PP透明电池套管/包装管/穿线管/尧",
+    "en": "PP Plastic Tube"
+  },
+  "summary": {
+    "zh": "该产品为塑料管材，主要材质为PP，适用于电池护套等应用场景，支持规格定制与批量供货。",
+    "en": "This plastic tube is primarily made from PP and is suitable for protection, covering, and connection applications. Custom dimensions and bulk supply are supported."
+  },
+  "description": {
+    "zh": [
+      "塑料管材面向工业与消费品配套场景，可用于防护、包覆、导向和连接等需求。",
+      "主要材质为PP，可按项目要求匹配尺寸、壁厚、长度和结构形式，适配不同应用工况。",
+      "包装与交付可按需求配置（如重量(g) 3），支持稳定供货与长期项目协同。"
+    ],
+    "en": [
+      "This plastic tube is designed for industrial and consumer assembly programs requiring protection, covering, guidance, and connection functions.",
+      "The primary material is PP, and dimensions such as outer diameter, wall thickness, length, and profile form can be aligned to project requirements.",
+      "Packaging and delivery can be configured as needed (for example: Weight (g) 3), supporting stable supply and long-term project coordination."
+    ]
+  },
+  "priceTiers": [
+    {
+      "quantity": {
+        "zh": "100000-1999999件",
+        "en": "100000-1999999 Pcs"
+      },
+      "price": "¥0.09"
+    },
+    {
+      "quantity": {
+        "zh": "≥2000000件",
+        "en": ">=2000000 Pcs"
+      },
+      "price": "¥0.08"
+    }
+  ],
+  "attributes": [
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "pp管",
+        "en": "Pp"
+      }
+    },
+    {
+      "key": {
+        "zh": "产地",
+        "en": "Origin"
+      },
+      "value": {
+        "zh": "广东省",
+        "en": "Refer to Chinese value"
+      }
+    },
+    {
+      "key": {
+        "zh": "原料牌号",
+        "en": "Material Grade"
+      },
+      "value": {
+        "zh": "20171211",
+        "en": "20171211"
+      }
+    },
+    {
+      "key": {
+        "zh": "品牌",
+        "en": "Brand"
+      },
+      "value": {
+        "zh": "尧顺",
+        "en": "Yaoshun"
+      }
+    },
+    {
+      "key": {
+        "zh": "应用领域",
+        "en": "Application"
+      },
+      "value": {
+        "zh": "电池护套",
+        "en": "Refer to Chinese value"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否进口",
+        "en": "Imported"
+      },
+      "value": {
+        "zh": "否",
+        "en": "No"
+      }
+    },
+    {
+      "key": {
+        "zh": "耐热温度",
+        "en": "Specification"
+      },
+      "value": {
+        "zh": "90",
+        "en": "90"
+      }
+    },
+    {
+      "key": {
+        "zh": "货号",
+        "en": "Item No."
+      },
+      "value": {
+        "zh": "pp管",
+        "en": "Pp"
+      }
+    }
+  ],
+  "packaging": [
+    {
+      "key": {
+        "zh": "重量(g)",
+        "en": "Weight (g)"
+      },
+      "value": {
+        "zh": "3",
+        "en": "3"
+      }
+    }
+  ],
+  "images": [
+    "./images/image-001.jpg",
+    "./images/image-002.jpg",
+    "./images/image-003.jpg",
+    "./images/image-004.jpg",
+    "./images/image-005.jpg"
+  ],
+  "videos": [],
+  "sourceUrl": "https://detail.1688.com/offer/558021230257.html"
+}

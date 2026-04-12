@@ -1,0 +1,239 @@
+{
+  "offerId": "787633833720",
+  "module": "toys",
+  "priority": 1011,
+  "tags": [
+    {
+      "key": "toys",
+      "zh": "玩具",
+      "en": "Toys"
+    },
+    {
+      "key": "toys-construction",
+      "zh": "玩具-拼搭",
+      "en": "Toys - Construction"
+    },
+    {
+      "key": "toys-diy",
+      "zh": "玩具-DIY",
+      "en": "Toys - DIY"
+    },
+    {
+      "key": "toys-fort-building",
+      "zh": "玩具-堡垒拼搭",
+      "en": "Toys - Fort Building"
+    },
+    {
+      "key": "toys-stem",
+      "zh": "玩具-STEM",
+      "en": "Toys - STEM"
+    },
+    {
+      "key": "toys-parent-child",
+      "zh": "玩具-亲子互动",
+      "en": "Toys - Parent Child"
+    },
+    {
+      "key": "cross-border-export",
+      "zh": "跨境外贸",
+      "en": "Cross-border Export"
+    }
+  ],
+  "title": {
+    "zh": "Fort Building Kit大型堡垒拼搭套装",
+    "en": "Fort Building Kit Large Construction Set"
+  },
+  "summary": {
+    "zh": "这是一款儿童大型堡垒拼搭套装，采用PP结构件，适用于家庭互动、课堂活动和创意搭建场景。\n\n品牌为尧顺，产地中国东莞，支持跨境供货，适合围绕帐篷与房屋主题进行组合搭建。",
+    "en": "This is a large fort construction set for children, built with PP structural parts and suitable for family interaction, classroom activities, and creative building scenarios.\n\nBrand: Yaoshun. Origin: Dongguan, China. It supports cross-border supply and is suitable for tent- and house-themed modular construction."
+  },
+  "description": {
+    "zh": [
+      "该款Fort Building Kit大型堡垒拼搭套装采用拼插结构设计，可围绕帐篷、房屋和互动空间进行多形态组合，适合持续创意构建。",
+      "产品适用于亲子互动、课程教具和活动空间布置，支持多次拆装与重复使用，可用于空间认知和协作训练场景。",
+      "包装为彩盒，规格2M，单套重量参数明确，便于渠道上架、仓配管理和项目采购。"
+    ],
+    "en": [
+      "This Fort Building Kit large construction set uses an interlocking structure and supports multiple layouts around tents, houses, and interactive spaces for continuous creative play.",
+      "It is suitable for parent-child interaction, educational props, and event-space setup, with repeatable assembly for spatial learning and collaborative activities.",
+      "The set uses color-box packaging with a 2M specification and clear unit-weight data, making it suitable for channel listing, warehouse operations, and project procurement."
+    ]
+  },
+  "priceTiers": [
+    {
+      "quantity": {
+        "zh": "≥1000盒",
+        "en": "1000+ boxes"
+      },
+      "price": "¥95"
+    }
+  ],
+  "attributes": [
+    {
+      "key": {
+        "zh": "3C配置类别",
+        "en": "3C Category"
+      },
+      "value": {
+        "zh": "14岁以下的木制玩具",
+        "en": "Wooden Toys for Under 14"
+      }
+    },
+    {
+      "key": {
+        "zh": "主要销售地区",
+        "en": "Main Markets"
+      },
+      "value": {
+        "zh": "其他",
+        "en": "Other"
+      }
+    },
+    {
+      "key": {
+        "zh": "产地",
+        "en": "Origin"
+      },
+      "value": {
+        "zh": "中国东莞",
+        "en": "Dongguan, China"
+      }
+    },
+    {
+      "key": {
+        "zh": "内帐材料",
+        "en": "Inner Tent Material"
+      },
+      "value": {
+        "zh": "PP",
+        "en": "PP"
+      }
+    },
+    {
+      "key": {
+        "zh": "品牌",
+        "en": "Brand"
+      },
+      "value": {
+        "zh": "尧顺",
+        "en": "Yaoshun"
+      }
+    },
+    {
+      "key": {
+        "zh": "帐底材质",
+        "en": "Material"
+      },
+      "value": {
+        "zh": "PP",
+        "en": "PP"
+      }
+    },
+    {
+      "key": {
+        "zh": "拼砌玩具类型",
+        "en": "Building Type"
+      },
+      "value": {
+        "zh": "拆装房子",
+        "en": "Detachable House Build"
+      }
+    },
+    {
+      "key": {
+        "zh": "撑杆材质",
+        "en": "Material"
+      },
+      "value": {
+        "zh": "PP",
+        "en": "PP"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否专供外贸",
+        "en": "Export Supply"
+      },
+      "value": {
+        "zh": "否",
+        "en": "No"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否有导购视频",
+        "en": "Guide Video"
+      },
+      "value": {
+        "zh": "是",
+        "en": "Available"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否跨境出口专供货源",
+        "en": "Cross-border Source"
+      },
+      "value": {
+        "zh": "是",
+        "en": "Yes"
+      }
+    },
+    {
+      "key": {
+        "zh": "有可授权的自有品牌",
+        "en": "Own-brand Authorization"
+      },
+      "value": {
+        "zh": "是",
+        "en": "Yes"
+      }
+    }
+  ],
+  "packaging": [
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color Box"
+      }
+    },
+    {
+      "key": {
+        "zh": "单套重量(g)",
+        "en": "Unit Weight (g)"
+      },
+      "value": {
+        "zh": "3500",
+        "en": "3500"
+      }
+    },
+    {
+      "key": {
+        "zh": "规格",
+        "en": "Specification"
+      },
+      "value": {
+        "zh": "2M",
+        "en": "2M"
+      }
+    }
+  ],
+  "images": [
+    "./images/image-001.jpg",
+    "./images/image-002.jpg",
+    "./images/image-003.jpg",
+    "./images/image-004.jpg",
+    "./images/image-005.jpg",
+    "./images/image-006.jpg",
+    "./images/image-022.jpg"
+  ],
+  "videos": [
+    "./videos/video-001.mp4",
+    "./videos/video-002.mp4"
+  ],
+  "sourceUrl": "https://detail.1688.com/offer/787633833720.html"
+}

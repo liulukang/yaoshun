@@ -1,0 +1,109 @@
+{
+  "offerId": "618549405409",
+  "module": "equipment",
+  "priority": 2051,
+  "tags": [
+    {
+      "key": "tubes",
+      "zh": "管材",
+      "en": "Tubes"
+    },
+    {
+      "key": "tubes-equipment",
+      "zh": "管材-设备",
+      "en": "Tubes - Equipment"
+    }
+  ],
+  "title": {
+    "zh": "急售口罩熔喷布挤出机95级熔喷模具包过9管材",
+    "en": "Extrusion Equipment"
+  },
+  "summary": {
+    "zh": "该产品为挤出设备，主要材质为塑料，适用于口罩布等应用场景，支持规格定制与批量供货。",
+    "en": "This extrusion equipment is primarily made from Plastic and is suitable for extrusion production support applications. Custom dimensions and bulk supply are supported."
+  },
+  "description": {
+    "zh": [
+      "挤出设备面向工业与消费品配套场景，可用于防护、包覆、导向和连接等需求。",
+      "主要材质为塑料，可按项目要求匹配尺寸、壁厚、长度和结构形式，适配不同应用工况。",
+      "包装与交付可按需求配置（如重量(g) 2000000），支持稳定供货与长期项目协同。"
+    ],
+    "en": [
+      "This extrusion equipment is designed for industrial and consumer assembly programs requiring protection, covering, guidance, and connection functions.",
+      "The primary material is Plastic, and dimensions such as outer diameter, wall thickness, length, and profile form can be aligned to project requirements.",
+      "Packaging and delivery can be configured as needed (for example: Weight (g) 2000000), supporting stable supply and long-term project coordination."
+    ]
+  },
+  "priceTiers": [
+    {
+      "quantity": {
+        "zh": "阶梯2",
+        "en": "2"
+      },
+      "price": "¥280"
+    },
+    {
+      "quantity": {
+        "zh": "起订",
+        "en": "MOQ"
+      },
+      "price": "¥279"
+    }
+  ],
+  "attributes": [
+    {
+      "key": {
+        "zh": "产品用途",
+        "en": "Application"
+      },
+      "value": {
+        "zh": "口罩布",
+        "en": "Refer to Chinese value"
+      }
+    },
+    {
+      "key": {
+        "zh": "品牌",
+        "en": "Brand"
+      },
+      "value": {
+        "zh": "其他",
+        "en": "Refer to Chinese value"
+      }
+    },
+    {
+      "key": {
+        "zh": "货号",
+        "en": "Item No."
+      },
+      "value": {
+        "zh": "555",
+        "en": "555"
+      }
+    }
+  ],
+  "packaging": [
+    {
+      "key": {
+        "zh": "重量(g)",
+        "en": "Weight (g)"
+      },
+      "value": {
+        "zh": "2000000",
+        "en": "2000000"
+      }
+    }
+  ],
+  "images": [
+    "./images/image-002.jpg",
+    "./images/image-003.jpg",
+    "./images/image-004.jpg",
+    "./images/image-005.jpg"
+  ],
+  "videos": [
+    "./videos/video-001.mp4",
+    "./videos/video-002.mp4",
+    "./videos/video-003.mp4"
+  ],
+  "sourceUrl": "https://detail.1688.com/offer/618549405409.html"
+}

@@ -1,0 +1,251 @@
+{
+  "offerId": "875528108718",
+  "module": "toys",
+  "priority": 1047,
+  "tags": [
+    {
+      "key": "toys",
+      "zh": "玩具",
+      "en": "Toys"
+    },
+    {
+      "key": "toys-construction",
+      "zh": "玩具-拼搭",
+      "en": "Toys - Construction"
+    },
+    {
+      "key": "toys-diy",
+      "zh": "玩具-DIY",
+      "en": "Toys - DIY"
+    },
+    {
+      "key": "toys-fort-building",
+      "zh": "玩具-帐篷拼搭",
+      "en": "Toys - Fort Building"
+    },
+    {
+      "key": "toys-spatial-learning",
+      "zh": "玩具-空间认知",
+      "en": "Toys - Spatial Learning"
+    },
+    {
+      "key": "cross-border-export",
+      "zh": "跨境外贸",
+      "en": "Cross-border Export"
+    }
+  ],
+  "title": {
+    "zh": "DIY插珠帐篷城堡拼搭积木套装",
+    "en": "DIY Bead Fort Castle Building Set"
+  },
+  "summary": {
+    "zh": "这是一款面向儿童DIY拼搭场景的插珠帐篷城堡积木套装，适用于家庭互动、课堂活动与主题展示空间，可进行多次拆装重构。\n\n品牌为尧顺，产地中国东莞茶山，支持加工定制，适合常规渠道供货与活动配套。",
+    "en": "This is a DIY bead-fort castle set for children’s construction scenarios. It fits family interaction, classroom activities, and themed display spaces with repeatable assembly and reconfiguration.\n\nBrand: Yaoshun. Origin: Chashan, Dongguan, China. Custom processing is supported for regular channel supply and activity projects."
+  },
+  "description": {
+    "zh": [
+      "该款DIY插珠帐篷城堡拼搭积木套装采用杆件与连接球组合结构，可搭建帐篷、城堡与游戏空间，适用于儿童创意拼搭与互动活动。",
+      "产品支持加工定制与重复拆装，能够按渠道需求进行组合配置。品牌为尧顺，定位儿童拼搭玩具及教学互动场景使用。",
+      "商品采用彩盒包装，包装重量2300g，积木净重0.05KG，规格YG100PCS，适合电商和渠道批量采购。"
+    ],
+    "en": [
+      "This DIY bead fort castle set uses a rod-and-connector system to build tents, castles, and play spaces for children’s creative construction and interactive activities.",
+      "The product supports custom processing and repeated assembly, allowing flexible configuration for channel needs. Brand: Yaoshun, positioned for kids construction play and educational interaction scenarios.",
+      "Packed in a color box with a 2300g package weight, 0.05kg net block weight, and YG100PCS specification, it is suitable for e-commerce and channel bulk procurement."
+    ]
+  },
+  "priceTiers": [
+    {
+      "quantity": {
+        "zh": "≥1000盒",
+        "en": ">=1000 Boxes"
+      },
+      "price": "¥78"
+    }
+  ],
+  "attributes": [
+    {
+      "key": {
+        "zh": "品牌",
+        "en": "Brand"
+      },
+      "value": {
+        "zh": "尧顺",
+        "en": "Yaoshun"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "DIY插珠帐篷城堡拼搭玩具",
+        "en": "DIY Bead Fort Castle Toy"
+      }
+    },
+    {
+      "key": {
+        "zh": "功能",
+        "en": "Function"
+      },
+      "value": {
+        "zh": "DIY",
+        "en": "DIY"
+      }
+    },
+    {
+      "key": {
+        "zh": "加工定制",
+        "en": "Custom Processing"
+      },
+      "value": {
+        "zh": "是",
+        "en": "Yes"
+      }
+    },
+    {
+      "key": {
+        "zh": "加工方式",
+        "en": "Processing Method"
+      },
+      "value": {
+        "zh": "其他",
+        "en": "Other"
+      }
+    },
+    {
+      "key": {
+        "zh": "3C配置类别",
+        "en": "3C Category"
+      },
+      "value": {
+        "zh": "14岁以下其它玩具",
+        "en": "Other Toys for Under 14"
+      }
+    },
+    {
+      "key": {
+        "zh": "产地",
+        "en": "Origin"
+      },
+      "value": {
+        "zh": "中国东莞茶山",
+        "en": "Chashan, Dongguan, China"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否专供外贸",
+        "en": "Export Supply"
+      },
+      "value": {
+        "zh": "否",
+        "en": "No"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否外贸",
+        "en": "Foreign Trade"
+      },
+      "value": {
+        "zh": "否",
+        "en": "No"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否多功能",
+        "en": "Multi-function"
+      },
+      "value": {
+        "zh": "否",
+        "en": "No"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否电动",
+        "en": "Motorized"
+      },
+      "value": {
+        "zh": "否",
+        "en": "No"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否有导购视频",
+        "en": "Guide Video"
+      },
+      "value": {
+        "zh": "是",
+        "en": "Available"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否有动漫形象",
+        "en": "Character IP"
+      },
+      "value": {
+        "zh": "否",
+        "en": "No"
+      }
+    }
+  ],
+  "packaging": [
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color Box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装重量(g)",
+        "en": "Package Weight (g)"
+      },
+      "value": {
+        "zh": "2300",
+        "en": "2300"
+      }
+    },
+    {
+      "key": {
+        "zh": "积木净重",
+        "en": "Net Weight"
+      },
+      "value": {
+        "zh": "0.05KG",
+        "en": "0.05kg"
+      }
+    },
+    {
+      "key": {
+        "zh": "规格",
+        "en": "Specification"
+      },
+      "value": {
+        "zh": "YG100PCS",
+        "en": "YG100PCS"
+      }
+    }
+  ],
+  "images": [
+    "./images/image-002.jpg",
+    "./images/image-003.jpg",
+    "./images/image-004.jpg",
+    "./images/image-005.jpg",
+    "./images/image-006.jpg"
+  ],
+  "videos": [
+    "./videos/video-001.mp4"
+  ],
+  "sourceUrl": "https://detail.1688.com/offer/875528108718.html"
+}

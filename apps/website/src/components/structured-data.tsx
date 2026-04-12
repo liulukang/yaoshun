@@ -32,7 +32,7 @@ export function SiteStructuredData({locale}: {locale: Locale}) {
     foundingDate: companyProfile.foundedYear,
     email: companyProfile.email,
     telephone: companyProfile.phone,
-    sameAs: [companyProfile.linkedin],
+    sameAs: [companyProfile.website],
     knowsAbout: expertise,
     areaServed: serviceRegions,
     address: {

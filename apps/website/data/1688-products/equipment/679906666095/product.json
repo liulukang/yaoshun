@@ -1,0 +1,219 @@
+{
+  "offerId": "679906666095",
+  "module": "equipment",
+  "priority": 1009,
+  "tags": [
+    {
+      "key": "toys",
+      "zh": "玩具",
+      "en": "Toys"
+    },
+    {
+      "key": "toys-production-equipment",
+      "zh": "玩具-生产设备",
+      "en": "Toys - Production Equipment"
+    },
+    {
+      "key": "toys-structure-parts",
+      "zh": "玩具-结构件",
+      "en": "Toys - Structural Parts"
+    },
+    {
+      "key": "cross-border-export",
+      "zh": "跨境外贸",
+      "en": "Cross-border Export"
+    },
+    {
+      "key": "industrial-cutting",
+      "zh": "工业-裁断",
+      "en": "Industrial - Cutting"
+    }
+  ],
+  "title": {
+    "zh": "玩具帐篷PP管伺服裁断机",
+    "en": "Servo Cutting Machine for Toy Fort PP Tubes"
+  },
+  "summary": {
+    "zh": "这是一款用于玩具帐篷PP管加工的伺服裁断设备，适用于玩具结构件生产与切断工序场景，支持卧式裁断应用。\n\n品牌为尧顺，主电机功率5KW，支持跨境渠道供货，覆盖多平台销售与多区域市场。",
+    "en": "This is a servo cutting machine designed for processing PP tubes used in toy fort structures. It is suitable for structural-part production and horizontal cutting operations.\n\nBrand: Yaoshun. Main motor power: 5 kW. It supports cross-border supply and is distributed across multiple sales platforms and regions."
+  },
+  "description": {
+    "zh": [
+      "该款玩具帐篷PP管伺服裁断机面向玩具结构管件生产环节，可用于对塑料管件进行稳定切断与规格化加工，适配卧式裁断工况。",
+      "设备适用于玩具帐篷及相关结构件产线，支持加工定制与跨境供货场景，可用于电商平台和项目型订单的持续交付。",
+      "产品提供外形尺寸与重量参数，便于设备选型、运输规划和工厂部署管理。"
+    ],
+    "en": [
+      "This servo cutting machine for toy fort PP tubes is designed for toy structural tube production, enabling stable cutting and standardized processing under horizontal cutting conditions.",
+      "It is suitable for toy-fort and related structural-part production lines, supports custom processing and cross-border supply scenarios, and fits both platform sales and project-based orders.",
+      "The product provides overall size and weight parameters to support equipment selection, transport planning, and factory deployment management."
+    ]
+  },
+  "priceTiers": [
+    {
+      "quantity": {
+        "zh": "首件",
+        "en": "From 1 unit"
+      },
+      "price": "¥28000"
+    }
+  ],
+  "attributes": [
+    {
+      "key": {
+        "zh": "一次最大长度",
+        "en": "Max Single Length"
+      },
+      "value": {
+        "zh": "不限（mm）",
+        "en": "Unlimited (mm)"
+      }
+    },
+    {
+      "key": {
+        "zh": "主电动机功率",
+        "en": "Main Motor Power"
+      },
+      "value": {
+        "zh": "5（KW）",
+        "en": "5 (kW)"
+      }
+    },
+    {
+      "key": {
+        "zh": "主要下游平台",
+        "en": "Main Platforms"
+      },
+      "value": {
+        "zh": "ebay、亚马逊、wish、速卖通、独立站、LAZADA、其他",
+        "en": "eBay, Amazon, Wish, AliExpress, independent sites, LAZADA, others"
+      }
+    },
+    {
+      "key": {
+        "zh": "主要销售地区",
+        "en": "Main Markets"
+      },
+      "value": {
+        "zh": "非洲、欧洲、南美、东南亚、北美、东北亚、中东、其他",
+        "en": "Africa, Europe, South America, Southeast Asia, North America, Northeast Asia, Middle East, others"
+      }
+    },
+    {
+      "key": {
+        "zh": "加工定制",
+        "en": "Customization"
+      },
+      "value": {
+        "zh": "是",
+        "en": "Yes"
+      }
+    },
+    {
+      "key": {
+        "zh": "品牌",
+        "en": "Brand"
+      },
+      "value": {
+        "zh": "尧顺",
+        "en": "Yaoshun"
+      }
+    },
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model"
+      },
+      "value": {
+        "zh": "YSCJ",
+        "en": "YSCJ"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否跨境出口专供货源",
+        "en": "Cross-border Source"
+      },
+      "value": {
+        "zh": "是",
+        "en": "Yes"
+      }
+    },
+    {
+      "key": {
+        "zh": "类型",
+        "en": "Machine Type"
+      },
+      "value": {
+        "zh": "卧式裁断机",
+        "en": "Horizontal Cutting Machine"
+      }
+    },
+    {
+      "key": {
+        "zh": "裁刀转速",
+        "en": "Blade Speed"
+      },
+      "value": {
+        "zh": "2000（r/min）",
+        "en": "2000 (r/min)"
+      }
+    },
+    {
+      "key": {
+        "zh": "裁断宽度",
+        "en": "Cutting Width"
+      },
+      "value": {
+        "zh": "8（mm）",
+        "en": "8 (mm)"
+      }
+    },
+    {
+      "key": {
+        "zh": "订货号",
+        "en": "Order No."
+      },
+      "value": {
+        "zh": "YSCJ988",
+        "en": "YSCJ988"
+      }
+    }
+  ],
+  "packaging": [
+    {
+      "key": {
+        "zh": "外形尺寸",
+        "en": "Overall Size"
+      },
+      "value": {
+        "zh": "3-30（m）",
+        "en": "3-30 (m)"
+      }
+    },
+    {
+      "key": {
+        "zh": "设备重量(g)",
+        "en": "Machine Weight (g)"
+      },
+      "value": {
+        "zh": "600000",
+        "en": "600000"
+      }
+    }
+  ],
+  "images": [
+    "./images/image-001.jpg",
+    "./images/image-002.jpg",
+    "./images/image-003.jpg",
+    "./images/image-004.jpg",
+    "./images/image-005.jpg",
+    "./images/image-006.jpg",
+    "./images/image-022.jpg"
+  ],
+  "videos": [
+    "./videos/video-001.mp4",
+    "./videos/video-002.mp4"
+  ],
+  "sourceUrl": "https://detail.1688.com/offer/679906666095.html"
+}

@@ -1,4 +1,4 @@
-import {placeholderImages} from '@/content/site/shared';
+import {visualAssets} from '@/content/site/shared';
 
 export const complianceContent = {
   seo: {
@@ -46,8 +46,8 @@ export const complianceContent = {
       en: 'Yaoshun can prepare business credentials, tax and credit files, annual reports, IP records, ISO 9000 quality files, and CE-related materials for buyer review.',
       zh: '尧顺可为客户审核准备工商资质、税务与信用资料、企业年报、知识产权记录、ISO 9000 质量文件以及 CE 相关材料。'
     },
-    badge: {en: 'Zero-Risk Protocol', zh: '风险资料预备'},
-    image: placeholderImages.complianceLab
+    badge: {en: 'Compliance Readiness', zh: '合规资料准备'},
+    image: visualAssets.complianceLab
   },
   certificatesSection: {
     title: {en: 'Active Documents & Certificates', zh: '可提供资料与证书'},
@@ -55,7 +55,7 @@ export const complianceContent = {
       en: 'Verified materials for buyer onboarding, due diligence, and market review.',
       zh: '适用于客户准入、尽调与市场审核的资料集合。'
     },
-    note: {en: 'Updated from preserved profile', zh: '基于保留企业资料整理'}
+    note: {en: 'Document availability depends on project scope and NDA terms.', zh: '资料提供范围以项目需求和保密约定为准。'}
   },
   certificates: [
     {
@@ -86,8 +86,8 @@ export const complianceContent = {
   tradeSection: {
     title: {en: 'Global Shipping & Trade Expertise', zh: '全球发货与贸易沟通支持'},
     description: {
-      en: 'This block keeps the visual weight of the stitch compliance logistics section, but the messaging is aligned to Yaoshun’s quote and buyer review process.',
-      zh: '保留 stitch 合规页中物流区块的视觉重量，同时将内容调整为尧顺当前的报价与客户审核路径。'
+      en: 'Trade and compliance communication is coordinated in the same workflow, so buyer review and shipment preparation can move in parallel.',
+      zh: '外贸沟通与合规资料在同一流程中协同推进，便于客户审核与出货准备并行开展。'
     },
     cards: [
       {

@@ -1,0 +1,172 @@
+{
+  "offerId": "634489546802",
+  "module": "tubes",
+  "priority": 2058,
+  "tags": [
+    {
+      "key": "tubes",
+      "zh": "管材",
+      "en": "Tubes"
+    },
+    {
+      "key": "tubes-general",
+      "zh": "管材-通用",
+      "en": "Tubes - General"
+    },
+    {
+      "key": "cross-border-export",
+      "zh": "跨境外贸",
+      "en": "Cross-border Export"
+    },
+    {
+      "key": "pe",
+      "zh": "PE",
+      "en": "PE"
+    }
+  ],
+  "title": {
+    "zh": "发泡盒水果海鲜冷冻食品快递包装运输密封箱管材",
+    "en": "PE Plastic Tube"
+  },
+  "summary": {
+    "zh": "该产品为塑料管材，主要材质为PE，适用于环保包装等应用场景，支持规格定制与批量供货。",
+    "en": "This plastic tube is primarily made from PE and is suitable for protection, covering, and connection applications. Custom dimensions and bulk supply are supported."
+  },
+  "description": {
+    "zh": [
+      "塑料管材面向工业与消费品配套场景，可用于防护、包覆、导向和连接等需求。",
+      "主要材质为PE，可按项目要求匹配尺寸、壁厚、长度和结构形式，适配不同应用工况。",
+      "包装与交付可按需求配置（如重量(g) 100，规格 定制尺寸），支持稳定供货与长期项目协同。"
+    ],
+    "en": [
+      "This plastic tube is designed for industrial and consumer assembly programs requiring protection, covering, guidance, and connection functions.",
+      "The primary material is PE, and dimensions such as outer diameter, wall thickness, length, and profile form can be aligned to project requirements.",
+      "Packaging and delivery can be configured as needed (for example: Weight (g) 100, Specification Size), supporting stable supply and long-term project coordination."
+    ]
+  },
+  "priceTiers": [
+    {
+      "quantity": {
+        "zh": "≥100000个",
+        "en": ">=100000 Pcs"
+      },
+      "price": "¥2.6"
+    }
+  ],
+  "attributes": [
+    {
+      "key": {
+        "zh": "品牌",
+        "en": "Brand"
+      },
+      "value": {
+        "zh": "自主",
+        "en": "Refer to Chinese value"
+      }
+    },
+    {
+      "key": {
+        "zh": "承重",
+        "en": "Specification"
+      },
+      "value": {
+        "zh": "1kg",
+        "en": "1kg"
+      }
+    },
+    {
+      "key": {
+        "zh": "日生产量",
+        "en": "Specification"
+      },
+      "value": {
+        "zh": "1万",
+        "en": "1"
+      }
+    },
+    {
+      "key": {
+        "zh": "是否跨境出口专供货源",
+        "en": "Cross-border Source"
+      },
+      "value": {
+        "zh": "否",
+        "en": "No"
+      }
+    },
+    {
+      "key": {
+        "zh": "材质",
+        "en": "Material"
+      },
+      "value": {
+        "zh": "PES发泡盒",
+        "en": "PES"
+      }
+    },
+    {
+      "key": {
+        "zh": "用途",
+        "en": "Application"
+      },
+      "value": {
+        "zh": "环保包装",
+        "en": "Refer to Chinese value"
+      }
+    },
+    {
+      "key": {
+        "zh": "自重",
+        "en": "Specification"
+      },
+      "value": {
+        "zh": "0.1kg",
+        "en": "0.1kg"
+      }
+    },
+    {
+      "key": {
+        "zh": "货号",
+        "en": "Item No."
+      },
+      "value": {
+        "zh": "eps发泡盒",
+        "en": "Eps"
+      }
+    }
+  ],
+  "packaging": [
+    {
+      "key": {
+        "zh": "重量(g)",
+        "en": "Weight (g)"
+      },
+      "value": {
+        "zh": "100",
+        "en": "100"
+      }
+    },
+    {
+      "key": {
+        "zh": "规格",
+        "en": "Specification"
+      },
+      "value": {
+        "zh": "定制尺寸",
+        "en": "Size"
+      }
+    }
+  ],
+  "images": [
+    "./images/image-002.jpg",
+    "./images/image-003.jpg",
+    "./images/image-004.jpg",
+    "./images/image-005.jpg",
+    "./images/image-006.jpg"
+  ],
+  "videos": [
+    "./videos/video-001.mp4",
+    "./videos/video-002.mp4"
+  ],
+  "sourceUrl": "https://detail.1688.com/offer/634489546802.html"
+}
