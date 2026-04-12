@@ -1,10 +1,12 @@
 import type {Metadata} from 'next';
+import Link from 'next/link';
 
 import {PageLinks} from '@/components/page-links';
 import {SectionHeading} from '@/components/section-heading';
 import {newsContent} from '@/content/site';
 import {getLocaleFromParams, t} from '@/lib/i18n';
 import {buildMetadata} from '@/lib/metadata';
+import {getNewsArticles, newsArticlePath} from '@/lib/news';
 
 export async function generateMetadata({params}: {params: Promise<{locale: string}>}): Promise<Metadata> {
   const locale = await getLocaleFromParams(params);
@@ -19,6 +21,7 @@ export async function generateMetadata({params}: {params: Promise<{locale: strin
 
 export default async function NewsPage({params}: {params: Promise<{locale: string}>}) {
   const locale = await getLocaleFromParams(params);
+  const articles = getNewsArticles();
 
   return (
     <div className="desktop-shell px-4 pb-16 sm:px-6 sm:pb-20 xl:px-8">
@@ -29,45 +32,26 @@ export default async function NewsPage({params}: {params: Promise<{locale: strin
           <p className="mt-4 max-w-4xl text-base leading-relaxed text-on-surface-variant sm:text-lg">{t(locale, newsContent.hero.description)}</p>
         </section>
 
-        <section className="mt-12 rounded-[2rem] bg-surface-container-low p-5 sm:mt-16 sm:p-6 lg:mt-20 lg:p-10">
+        <section className="mt-12 rounded-[2rem] border border-outline-variant/20 bg-white p-5 shadow-panel sm:mt-16 sm:p-6 lg:mt-20 lg:p-8">
           <SectionHeading
-            description={newsContent.featuredSection.description}
+            description={newsContent.articleLibrarySection.description}
             locale={locale}
-            title={newsContent.featuredSection.title}
+            title={newsContent.articleLibrarySection.title}
           />
-          <div className="mt-6 grid gap-4 sm:mt-8 sm:gap-5 lg:grid-cols-3">
-            {newsContent.highlights.map((item) => (
-              <article key={t(locale, item.title)} className="rounded-[1.5rem] border border-outline-variant/20 bg-white p-5 shadow-panel sm:p-6 lg:p-7">
-                <p className="font-label text-xs font-bold uppercase tracking-[0.2em] text-secondary">{t(locale, item.date)}</p>
-                <h2 className="mt-3 font-headline text-2xl font-bold text-primary">{t(locale, item.title)}</h2>
+          <div className="mt-6 grid gap-4 sm:mt-8 sm:gap-5 lg:grid-cols-2 xl:grid-cols-3">
+            {articles.map((item) => (
+              <Link
+                key={item.slug}
+                className="group rounded-[1.25rem] border border-outline-variant/20 bg-surface-container-low p-5 transition-all duration-300 hover:-translate-y-1 hover:border-secondary/40 sm:p-6"
+                href={newsArticlePath(locale, item.slug)}
+              >
+                <div className="flex flex-wrap items-center justify-between gap-2">
+                  <p className="font-label text-[11px] font-bold uppercase tracking-[0.18em] text-secondary">{t(locale, item.date)}</p>
+                  <span className="rounded-full bg-primary-fixed px-3 py-1 text-[11px] font-semibold text-primary">{t(locale, item.category)}</span>
+                </div>
+                <h2 className="mt-3 font-headline text-xl font-bold text-primary transition-colors group-hover:text-secondary">{t(locale, item.title)}</h2>
                 <p className="mt-3 text-sm leading-relaxed text-on-surface-variant">{t(locale, item.text)}</p>
-              </article>
-            ))}
-          </div>
-        </section>
-
-        <section className="mt-12 sm:mt-16 lg:mt-20">
-          <h2 className="font-headline text-3xl font-extrabold text-primary sm:text-4xl">{t(locale, newsContent.timelineSection.title)}</h2>
-          <div className="mt-6 grid gap-4 sm:mt-8 sm:gap-5 md:grid-cols-2 xl:grid-cols-4">
-            {newsContent.timelineSection.items.map((item) => (
-              <article key={t(locale, item.title)} className="relative overflow-hidden rounded-[1.5rem] border border-outline-variant/25 bg-white p-5 shadow-panel sm:p-6">
-                <div className="absolute right-0 top-0 h-16 w-16 rounded-bl-[2rem] bg-primary-fixed" />
-                <p className="font-label text-[11px] font-bold uppercase tracking-[0.2em] text-secondary">{t(locale, item.month)}</p>
-                <h3 className="mt-2 font-headline text-xl font-bold text-primary">{t(locale, item.title)}</h3>
-                <p className="mt-3 text-sm leading-relaxed text-on-surface-variant">{t(locale, item.text)}</p>
-              </article>
-            ))}
-          </div>
-        </section>
-
-        <section className="mt-12 sm:mt-16 lg:mt-20">
-          <h2 className="font-headline text-3xl font-extrabold text-primary sm:text-4xl">{t(locale, newsContent.newsletterSection.title)}</h2>
-          <div className="mt-6 grid gap-4 sm:mt-8 sm:gap-5 lg:grid-cols-3">
-            {newsContent.newsletterSection.items.map((item) => (
-              <article key={t(locale, item.title)} className="rounded-[1.25rem] bg-surface-container-low p-5 sm:p-6">
-                <h3 className="font-headline text-xl font-bold text-primary">{t(locale, item.title)}</h3>
-                <p className="mt-2 text-sm leading-relaxed text-on-surface-variant">{t(locale, item.text)}</p>
-              </article>
+              </Link>
             ))}
           </div>
         </section>
