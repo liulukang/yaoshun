@@ -59,7 +59,7 @@ function isRateLimited(rateLimitKey: string, now: number) {
 
 export async function POST(request: Request) {
   try {
-    const body = (await request.json()) as {
+    let body: {
       name?: string;
       company?: string;
       email?: string;
@@ -67,6 +67,16 @@ export async function POST(request: Request) {
       website?: string;
       locale?: string;
     };
+
+    try {
+      body = (await request.json()) as typeof body;
+    } catch {
+      return NextResponse.json({ ok: false, message: "Invalid JSON payload." }, { status: 400 });
+    }
+
+    if (!body || typeof body !== "object") {
+      return NextResponse.json({ ok: false, message: "Invalid form payload." }, { status: 400 });
+    }
 
     const name = String(body.name ?? "").trim();
     const company = String(body.company ?? "").trim();
@@ -81,18 +91,28 @@ export async function POST(request: Request) {
       return NextResponse.json({ ok: true });
     }
 
-    if (!name || !email || !message) {
-      return NextResponse.json({ ok: false, message: "Invalid form payload." }, { status: 400 });
+    if (!name) {
+      return NextResponse.json({ ok: false, message: "Name is required." }, { status: 400 });
     }
 
-    if (
-      name.length > 120
-      || company.length > 160
-      || message.length < 10
-      || message.length > 4000
-      || !isValidEmail(normalizedEmail)
-    ) {
-      return NextResponse.json({ ok: false, message: "Invalid form payload." }, { status: 400 });
+    if (!email) {
+      return NextResponse.json({ ok: false, message: "Email is required." }, { status: 400 });
+    }
+
+    if (!message) {
+      return NextResponse.json({ ok: false, message: "Project brief is required." }, { status: 400 });
+    }
+
+    if (name.length > 120) {
+      return NextResponse.json({ ok: false, message: "Name is too long." }, { status: 400 });
+    }
+
+    if (company.length > 160) {
+      return NextResponse.json({ ok: false, message: "Company is too long." }, { status: 400 });
+    }
+
+    if (!isValidEmail(normalizedEmail)) {
+      return NextResponse.json({ ok: false, message: "Invalid email format." }, { status: 400 });
     }
 
     const clientAddress = getClientAddress(request);
