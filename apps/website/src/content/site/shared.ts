@@ -235,7 +235,7 @@ export const companyProfile = {
   email: "lianli@gmail.com",
   phone: "18780083256",
   whatsapp: "18780083256",
-  website: "https://www.19931015.xyz/",
+  website: "https://www.yaoshuntoys.com/",
   address: {
     en: "Room 201, Building 1, No.177 Yuanshan Road, Chashan Town, Dongguan, Guangdong, China",
     zh: "中国广东省东莞市茶山镇圆山路177号1号楼201室",

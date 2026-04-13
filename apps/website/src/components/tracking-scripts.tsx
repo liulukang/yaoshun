@@ -62,7 +62,7 @@ function buildTrackingBootstrap() {
 }
 
 export function TrackingScripts() {
-  const trackingId = googleAnalyticsId || googleAdsId;
+  const trackingId = googleAdsId || googleAnalyticsId;
 
   if (!trackingId) {
     return null;

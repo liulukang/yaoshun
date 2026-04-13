@@ -5,7 +5,7 @@ import {useSyncExternalStore} from 'react';
 
 import {readCookieConsentStatus, subscribeToCookieConsent} from '@/lib/cookie-consent';
 
-const tawkEmbedUrl = 'https://embed.tawk.to/69d908d883428a1c31aa6460/1jlrsl4kk';
+const tawkEmbedUrl = 'https://embed.tawk.to/69dcea4fd8a4811c366f4810/1jm3f6in1';
 
 export function TawkScript() {
   const consentStatus = useSyncExternalStore(
