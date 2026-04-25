@@ -10,7 +10,14 @@ import {
   type LocalizedText,
   type ProductModule
 } from '@/content/site';
-import {products, productsByModule, type ProductJson} from '@/content/site/products.server';
+import {
+  getProductImages,
+  getProductSummary,
+  getProductVideos,
+  products,
+  productsByModule,
+  type ProductJson
+} from '@/content/site/products.server';
 import {getLocaleFromParams, t, type Locale} from '@/lib/i18n';
 import {buildMetadata} from '@/lib/metadata';
 import {localizedPath, productPath, type RouteKey} from '@/lib/routes';
@@ -57,7 +64,7 @@ const moduleFallbackImage: Record<ProductModule, string> = {
 };
 
 function collectImageSources(product: ProductJson): string[] {
-  return Array.isArray(product.images) ? product.images.filter(Boolean) : [];
+  return getProductImages(product);
 }
 
 function countMedia(items: ProductJson[]): {images: number; videos: number} {
@@ -68,7 +75,7 @@ function countMedia(items: ProductJson[]): {images: number; videos: number} {
     for (const src of collectImageSources(item)) {
       imageSet.add(src);
     }
-    for (const src of Array.isArray(item.videos) ? item.videos : []) {
+    for (const src of getProductVideos(item)) {
       videoSet.add(src);
     }
   }
@@ -109,7 +116,7 @@ function pickTagPreview(locale: Locale, items: ProductJson[], limit = 3): string
   return tags;
 }
 
-function localizeProductText(locale: Locale, value: ProductJson['title'] | ProductJson['summary'], fallback: string): string {
+function localizeProductText(locale: Locale, value: ProductJson['title'], fallback: string): string {
   if (!value) return fallback;
   return value[locale] || value.en || value.zh || fallback;
 }
@@ -130,21 +137,22 @@ export default async function HomePage({params}: {params: Promise<{locale: strin
   const quickEntries = homeContent.entrySection.entries.filter((item) =>
     item.route === 'products' || item.route === 'solutions' || item.route === 'about' || item.route === 'contact'
   );
-  const featuredProducts = products.filter((item) => Boolean(item.offerId) && collectImageSources(item).length > 0).slice(0, 6);
+  const featuredProducts = products.filter((item) => Boolean(item.productId) && collectImageSources(item).length > 0).slice(0, 6);
   const heroImages = pickHeroImages(featuredProducts.length > 0 ? featuredProducts : products);
   const heroPrimary = heroImages[0] ?? moduleFallbackImage.toys;
   const heroSecondary = heroImages[1] ?? moduleFallbackImage.tubes;
   const heroTertiary = heroImages[2] ?? moduleFallbackImage.equipment;
   const totalOffers = new Set(
     products
-      .map((item) => item.offerId)
+      .map((item) => item.productId)
       .filter((value): value is string => Boolean(value))
   ).size;
   const totalTags = new Set(products.flatMap((item) => (item.tags ?? []).map((tag) => tag.key))).size;
   const media = countMedia(products);
   const moduleCards = moduleOrder.map((module) => {
     const moduleProducts = productsByModule[module];
-    const cover = moduleProducts.find((item) => collectImageSources(item).length > 0)?.images?.[0] ?? moduleFallbackImage[module];
+    const coverProduct = moduleProducts.find((item) => collectImageSources(item).length > 0);
+    const cover = (coverProduct ? collectImageSources(coverProduct)[0] : '') || moduleFallbackImage[module];
     const tags = pickTagPreview(locale, moduleProducts, 3);
     return {
       module,
@@ -153,12 +161,12 @@ export default async function HomePage({params}: {params: Promise<{locale: strin
       tags,
       ...moduleSpotlights[module]
     };
-  });
+  }).filter((item) => item.total > 0);
   const overviewStats = [
     {
       value: String(products.length),
       label: {en: 'Catalog SKUs', zh: '产品 SKU 数'},
-      helper: {en: 'Imported from 1688 archives', zh: '来自 1688 档案全量导入'}
+      helper: {en: 'Imported from 1688-products-new', zh: '来自 1688-products-new 数据源'}
     },
     {
       value: String(totalOffers),
@@ -406,13 +414,13 @@ export default async function HomePage({params}: {params: Promise<{locale: strin
 
         <div className="mt-8 grid gap-5 md:grid-cols-2 xl:grid-cols-3">
           {featuredProducts.map((product) => {
-            const productId = product.offerId || '';
+            const productId = product.productId || '';
             const productTitle = localizeProductText(locale, product.title, productId);
-            const productSummary = localizeProductText(locale, product.summary, productId);
+            const productSummary = localizeProductText(locale, getProductSummary(product), productId);
             const coverImage = collectImageSources(product)[0] ?? '';
-            const sourcePrice = product.priceTiers?.[0]?.price;
+            const sourcePrice = product.pricing?.tiers?.[0]?.price ?? product.pricing?.display?.[locale] ?? product.pricing?.display?.en;
             const imageCount = collectImageSources(product).length;
-            const videoCount = Array.isArray(product.videos) ? product.videos.length : 0;
+            const videoCount = getProductVideos(product).length;
             return (
               <article key={productId} className="overflow-hidden rounded-[1.75rem] border border-outline-variant/20 bg-white shadow-panel transition-transform hover:-translate-y-1">
                 <Link className="group block" href={productPath(locale, productId)}>

@@ -7,6 +7,20 @@
     "dev": "pnpm --filter @yaoshun/website dev",
     "dev:website": "pnpm --filter @yaoshun/website dev",
     "build": "pnpm -r build",
-    "typecheck": "pnpm -r typecheck"
+    "typecheck": "pnpm -r typecheck",
+    "fetch:alibaba-product": "node scripts/fetch_alibaba_product_detail.mjs",
+    "alibaba:login": "zsh scripts/alibaba_login_localize.sh",
+    "alibaba:single": "node scripts/alibaba_fetch_single_product.mjs",
+    "alibaba:batch": "node scripts/alibaba_batch_fetch.mjs",
+    "alibaba:extract-json": "node scripts/extract_alibaba_product_json.mjs",
+    "alibaba:extract-all-json": "node scripts/extract_all_alibaba_product_jsons.mjs",
+    "alibaba:download-media": "node scripts/download_alibaba_product_media.mjs",
+    "alibaba:resolve-pending-ai": "node scripts/resolve_pending_ai_fields_from_html.mjs",
+    "alibaba:move-international-products": "node scripts/move_international_products.mjs",
+    "alibaba:sync-international-media-vercel": "node scripts/sync_international_product_media_to_vercel.mjs",
+    "alibaba:localize-1688-products-new": "node scripts/localize_1688_products_new.mjs",
+    "alibaba:clean-invalid-desc": "node scripts/clean_invalid_desc_iframes.mjs",
+    "open:alibaba-chrome": "zsh scripts/open_alibaba_manual_chrome.sh",
+    "fetch:alibaba-product:bg": "zsh scripts/run_alibaba_fetch_background.sh"
   }
 }

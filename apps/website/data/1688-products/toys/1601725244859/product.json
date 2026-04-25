@@ -1,0 +1,282 @@
+{
+  "productId": "1601725244859",
+  "title": {
+    "zh": "LONDY 69PCS Creative STEM Play for Children Fort Building Kit",
+    "en": "LONDY 69PCS Creative STEM Play for Children Fort Building Kit"
+  },
+  "sourceUrl": "https://www.alibaba.com/product-detail/LONDY-69PCS-Creative-STEM-Play-for_1601725244859.html",
+  "categories": {
+    "zh": [
+      "母婴与玩具",
+      "益智玩具",
+      "其他益智玩具"
+    ],
+    "en": [
+      "Mother, Kids & Toys",
+      "Educational Toys",
+      "Other Educational Toys"
+    ]
+  },
+  "pricing": {
+    "display": {
+      "zh": "US$15.16",
+      "en": "US$15.16"
+    },
+    "currency": "$",
+    "min": 15.16,
+    "max": 15.16,
+    "isRange": false,
+    "minOrder": {
+      "zh": "1 box",
+      "en": "1 box"
+    },
+    "tiers": [
+      {
+        "quantity": {
+          "zh": "Minimum order quantity: 1 box",
+          "en": "Minimum order quantity: 1 box"
+        },
+        "price": "$15.16"
+      }
+    ]
+  },
+  "customizationOptions": [],
+  "specifications": [],
+  "productAttributes": [
+    {
+      "key": {
+        "zh": "适用年龄",
+        "en": "Age Range"
+      },
+      "value": {
+        "zh": "5 to 7 years, 7-12y",
+        "en": "5 to 7 years, 7-12y"
+      }
+    },
+    {
+      "key": {
+        "zh": "材质",
+        "en": "Material"
+      },
+      "value": {
+        "zh": "PP",
+        "en": "PP"
+      }
+    },
+    {
+      "key": {
+        "zh": "适用性别",
+        "en": "Gender"
+      },
+      "value": {
+        "zh": "Unisex",
+        "en": "Unisex"
+      }
+    },
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "LONDY--2569",
+        "en": "LONDY--2569"
+      }
+    },
+    {
+      "key": {
+        "zh": "产地",
+        "en": "Place of Origin"
+      },
+      "value": {
+        "zh": "Guangdong, China",
+        "en": "Guangdong, China"
+      }
+    },
+    {
+      "key": {
+        "zh": "品牌",
+        "en": "Brand Name"
+      },
+      "value": {
+        "zh": "LONDY",
+        "en": "LONDY"
+      }
+    },
+    {
+      "key": {
+        "zh": "销售单位",
+        "en": "Selling Units"
+      },
+      "value": {
+        "zh": "Single item",
+        "en": "Single item"
+      }
+    },
+    {
+      "key": {
+        "zh": "单件包装尺寸",
+        "en": "Single package size"
+      },
+      "value": {
+        "zh": "45X9X35 cm",
+        "en": "45X9X35 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "单件毛重",
+        "en": "Single gross weight"
+      },
+      "value": {
+        "zh": "3.000 kg",
+        "en": "3.000 kg"
+      }
+    }
+  ],
+  "packagingAndShipping": {
+    "unitSize": "45X9X35",
+    "unitVolume": "",
+    "unitWeight": "3.000",
+    "summary": {
+      "zh": "",
+      "en": ""
+    },
+    "blocks": []
+  },
+  "leadTime": {
+    "tiers": [
+      {
+        "minQuantity": "1",
+        "maxQuantity": "1",
+        "processPeriodDays": 3
+      },
+      {
+        "minQuantity": "2",
+        "maxQuantity": "500",
+        "processPeriodDays": 20
+      },
+      {
+        "minQuantity": "501",
+        "maxQuantity": "1,000",
+        "processPeriodDays": 35
+      }
+    ]
+  },
+  "videoDescription": {
+    "title": {
+      "zh": "视频说明",
+      "en": "Video Description"
+    },
+    "url": "https://7j7davvujdsmddan.public.blob.vercel-storage.com/international-product/assets/95/958ffd9d754c6279e7a39689ff4c0e9b8d31828bdf18b9b91c7b10cd181f076a.mp4",
+    "duration": ""
+  },
+  "media": {
+    "main": [
+      {
+        "type": "image",
+        "url": "https://7j7davvujdsmddan.public.blob.vercel-storage.com/international-product/assets/c8/c837a0997a7620c6129de767e6bdc86a0d832623ef8874aed1318c887c5db062.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://7j7davvujdsmddan.public.blob.vercel-storage.com/international-product/assets/c4/c4ca9ed9199698bb7df7b75794464496e8fd444f63f9a1dedbaf163b19f5729a.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://7j7davvujdsmddan.public.blob.vercel-storage.com/international-product/assets/6b/6b458d61a1318cf4365f27620bf7d6154709ed54824a0cf176f38fd67d1850fa.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://7j7davvujdsmddan.public.blob.vercel-storage.com/international-product/assets/a3/a37c0731b2fd926ecc3a6d0f6fb3d2c25f23b4d1128fdeb1e690bf136dbde71b.png"
+      },
+      {
+        "type": "image",
+        "url": "https://7j7davvujdsmddan.public.blob.vercel-storage.com/international-product/assets/cc/cc21d1852ba4075f093cc27f2f231c5f08592b369bd5ef35a37fec68c509a900.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://7j7davvujdsmddan.public.blob.vercel-storage.com/international-product/assets/3a/3afa081ceb83642f356f92722f8f32c864f88c82da74ab9d07cad25909231fb6.png"
+      },
+      {
+        "type": "video",
+        "url": "https://7j7davvujdsmddan.public.blob.vercel-storage.com/international-product/assets/95/958ffd9d754c6279e7a39689ff4c0e9b8d31828bdf18b9b91c7b10cd181f076a.mp4"
+      },
+      {
+        "type": "video",
+        "url": "https://7j7davvujdsmddan.public.blob.vercel-storage.com/international-product/assets/95/958ffd9d754c6279e7a39689ff4c0e9b8d31828bdf18b9b91c7b10cd181f076a.mp4"
+      }
+    ],
+    "detail": [
+      {
+        "type": "image",
+        "url": "https://7j7davvujdsmddan.public.blob.vercel-storage.com/international-product/assets/fe/fe943fe0d5c23f7b5ea3747fc9f3ed8d98288728f742ab06572673fd5c82c29e.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://7j7davvujdsmddan.public.blob.vercel-storage.com/international-product/assets/6c/6c4d68556cf5d8648d81b8ef46ae56ce7e591c87cd08e08d86104f25270212c1.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://7j7davvujdsmddan.public.blob.vercel-storage.com/international-product/assets/3d/3d13d6a2b16515be38df662f35707f1704ea412857fade98ceb7aa909c041485.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://7j7davvujdsmddan.public.blob.vercel-storage.com/international-product/assets/9a/9a3133cd968a21c7115bb9c3f82f51136ebcd4e0cd48d857fd41d1c15f5fdd57.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://7j7davvujdsmddan.public.blob.vercel-storage.com/international-product/assets/bd/bdd08c3835774bdc8f8a688fc9f1164058a2b87ea077808276436f04d81d0c52.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://7j7davvujdsmddan.public.blob.vercel-storage.com/international-product/assets/41/4196ae109b9be32a89fa1caca6e3182f767aba57d4c5d687234f9be598650c44.png"
+      },
+      {
+        "type": "image",
+        "url": "https://7j7davvujdsmddan.public.blob.vercel-storage.com/international-product/assets/44/44a76d92b380ebefeeaba8fd2625d900cbaab62a6935f32adc68e40c0a58c89c.png"
+      },
+      {
+        "type": "image",
+        "url": "https://7j7davvujdsmddan.public.blob.vercel-storage.com/international-product/assets/49/4932edd9a1b9b78faa7ddfd19bfcaf50e0248fcc87e8d597347514a98f54ea41.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://7j7davvujdsmddan.public.blob.vercel-storage.com/international-product/assets/1c/1ce61791a27328b461a12c331c11522ebcff3d277033d62a7a775a9584f6c6c1.jpg"
+      }
+    ]
+  },
+  "productDetails": [],
+  "files": {
+    "sourceHtml": "old-website/product-details/1601725244859/source.html",
+    "descIframeHtml": "old-website/product-details/1601725244859/iframe/descIframe.html"
+  },
+  "module": "toys",
+  "priority": 31,
+  "tags": [
+    {
+      "key": "toys",
+      "zh": "玩具",
+      "en": "Toys"
+    },
+    {
+      "key": "toys-mother-kids-and-toys",
+      "zh": "母婴与玩具",
+      "en": "Mother, Kids & Toys"
+    },
+    {
+      "key": "toys-educational-toys",
+      "zh": "益智玩具",
+      "en": "Educational Toys"
+    },
+    {
+      "key": "toys-other-educational-toys",
+      "zh": "其他益智玩具",
+      "en": "Other Educational Toys"
+    },
+    {
+      "key": "pp",
+      "zh": "PP",
+      "en": "PP"
+    }
+  ]
+}

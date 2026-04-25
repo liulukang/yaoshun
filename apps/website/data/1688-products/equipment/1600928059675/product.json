@@ -1,0 +1,461 @@
+{
+  "productId": "1600928059675",
+  "title": {
+    "zh": "Factory Price Plastic Extrusion Cutting Machine Servo Control Extrusion Cutter",
+    "en": "Factory Price Plastic Extrusion Cutting Machine Servo Control Extrusion Cutter"
+  },
+  "sourceUrl": "https://www.alibaba.com/product-detail/Factory-Price-Plastic-Extrusion-Cutting-Machine_1600928059675.html",
+  "categories": {
+    "zh": [
+      "工业机械",
+      "塑料与橡胶加工机械",
+      "塑料切割设备"
+    ],
+    "en": [
+      "Industrial Machinery",
+      "Plastic & Rubber Processing Machinery",
+      "Plastic Cutting Machines"
+    ]
+  },
+  "pricing": {
+    "display": {
+      "zh": "US$4,000",
+      "en": "US$4,000"
+    },
+    "currency": "$",
+    "min": 4,
+    "max": 4,
+    "isRange": false,
+    "minOrder": {
+      "zh": "1 set",
+      "en": "1 set"
+    },
+    "tiers": [
+      {
+        "quantity": {
+          "zh": "Minimum order quantity: 1 set",
+          "en": "Minimum order quantity: 1 set"
+        },
+        "price": "$4,000"
+      }
+    ]
+  },
+  "customizationOptions": [
+    {
+      "label": {
+        "zh": "支持定制 Logo",
+        "en": "Customized logo"
+      },
+      "minOrder": {
+        "zh": "1 set",
+        "en": "1 set"
+      }
+    },
+    {
+      "label": {
+        "zh": "支持定制包装",
+        "en": "Customized packaging"
+      },
+      "minOrder": {
+        "zh": "1 set",
+        "en": "1 set"
+      }
+    },
+    {
+      "label": {
+        "zh": "支持图文定制",
+        "en": "Graphic customization"
+      },
+      "minOrder": {
+        "zh": "1 set",
+        "en": "1 set"
+      }
+    }
+  ],
+  "specifications": [],
+  "productAttributes": [
+    {
+      "key": {
+        "zh": "type",
+        "en": "type"
+      },
+      "value": {
+        "zh": "Hydraulic Cutting Machine",
+        "en": "Hydraulic Cutting Machine"
+      }
+    },
+    {
+      "key": {
+        "zh": "Max. Cutting Depth",
+        "en": "Max. Cutting Depth"
+      },
+      "value": {
+        "zh": "10mm",
+        "en": "10mm"
+      }
+    },
+    {
+      "key": {
+        "zh": "电压",
+        "en": "voltage"
+      },
+      "value": {
+        "zh": "308V 50HZ",
+        "en": "308V 50HZ"
+      }
+    },
+    {
+      "key": {
+        "zh": "功率（W）",
+        "en": "Power(W)"
+      },
+      "value": {
+        "zh": "2.2kw",
+        "en": "2.2kw"
+      }
+    },
+    {
+      "key": {
+        "zh": "No-Load Rotational Speed",
+        "en": "No-Load Rotational Speed"
+      },
+      "value": {
+        "zh": "1200/mis",
+        "en": "1200/mis"
+      }
+    },
+    {
+      "key": {
+        "zh": "机械测试报告",
+        "en": "machinery test report"
+      },
+      "value": {
+        "zh": "Provided",
+        "en": "Provided"
+      }
+    },
+    {
+      "key": {
+        "zh": "出厂视频检验",
+        "en": "video outgoing-inspection"
+      },
+      "value": {
+        "zh": "Provided",
+        "en": "Provided"
+      }
+    },
+    {
+      "key": {
+        "zh": "质保期",
+        "en": "warranty"
+      },
+      "value": {
+        "zh": "1 Year",
+        "en": "1 Year"
+      }
+    },
+    {
+      "key": {
+        "zh": "核心部件",
+        "en": "core components"
+      },
+      "value": {
+        "zh": "PLC, Engine, Bearing, Gearbox, Motor, Pressure Vessel, Gear, Pump",
+        "en": "PLC, Engine, Bearing, Gearbox, Motor, Pressure Vessel, Gear, Pump"
+      }
+    },
+    {
+      "key": {
+        "zh": "key selling points",
+        "en": "key selling points"
+      },
+      "value": {
+        "zh": "Long Service Life",
+        "en": "Long Service Life"
+      }
+    },
+    {
+      "key": {
+        "zh": "品牌",
+        "en": "brand name"
+      },
+      "value": {
+        "zh": "Yaoshun",
+        "en": "Yaoshun"
+      }
+    },
+    {
+      "key": {
+        "zh": "产地",
+        "en": "place of origin"
+      },
+      "value": {
+        "zh": "Guangdong, China",
+        "en": "Guangdong, China"
+      }
+    },
+    {
+      "key": {
+        "zh": "rated power",
+        "en": "rated power"
+      },
+      "value": {
+        "zh": "1.5",
+        "en": "1.5"
+      }
+    },
+    {
+      "key": {
+        "zh": "saw blade diameter",
+        "en": "saw blade diameter"
+      },
+      "value": {
+        "zh": "40MM",
+        "en": "40MM"
+      }
+    },
+    {
+      "key": {
+        "zh": "weight (kg)",
+        "en": "weight (kg)"
+      },
+      "value": {
+        "zh": "500",
+        "en": "500"
+      }
+    },
+    {
+      "key": {
+        "zh": "Main engine frequency converter",
+        "en": "Main engine frequency converter"
+      },
+      "value": {
+        "zh": "Delta frequency converter",
+        "en": "Delta frequency converter"
+      }
+    },
+    {
+      "key": {
+        "zh": "Main motor",
+        "en": "Main motor"
+      },
+      "value": {
+        "zh": "Siemenbader",
+        "en": "Siemenbader"
+      }
+    },
+    {
+      "key": {
+        "zh": "Main engine temperature control table",
+        "en": "Main engine temperature control table"
+      },
+      "value": {
+        "zh": "Omron",
+        "en": "Omron"
+      }
+    },
+    {
+      "key": {
+        "zh": "Main engine screw",
+        "en": "Main engine screw"
+      },
+      "value": {
+        "zh": "38CrMoAlA",
+        "en": "38CrMoAlA"
+      }
+    },
+    {
+      "key": {
+        "zh": "Towing machine",
+        "en": "Towing machine"
+      },
+      "value": {
+        "zh": "Servo tractor, intelligent control",
+        "en": "Servo tractor, intelligent control"
+      }
+    },
+    {
+      "key": {
+        "zh": "Vacuum tank",
+        "en": "Vacuum tank"
+      },
+      "value": {
+        "zh": "304 stainless steel",
+        "en": "304 stainless steel"
+      }
+    },
+    {
+      "key": {
+        "zh": "Servo chip-free cutter",
+        "en": "Servo chip-free cutter"
+      },
+      "value": {
+        "zh": "Smooth without burrs",
+        "en": "Smooth without burrs"
+      }
+    },
+    {
+      "key": {
+        "zh": "Servo flying knife cutting",
+        "en": "Servo flying knife cutting"
+      },
+      "value": {
+        "zh": "Fast speed",
+        "en": "Fast speed"
+      }
+    },
+    {
+      "key": {
+        "zh": "Servo saw blade cutting",
+        "en": "Servo saw blade cutting"
+      },
+      "value": {
+        "zh": "Tube cutting",
+        "en": "Tube cutting"
+      }
+    },
+    {
+      "key": {
+        "zh": "Die head",
+        "en": "Die head"
+      },
+      "value": {
+        "zh": "OEM/ODM Customization",
+        "en": "OEM/ODM Customization"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装详情",
+        "en": "Packaging Details"
+      },
+      "value": {
+        "zh": "Wooden case packing",
+        "en": "Wooden case packing"
+      }
+    },
+    {
+      "key": {
+        "zh": "发货港口",
+        "en": "Port of dispatch"
+      },
+      "value": {
+        "zh": "Shenzhen Yantian",
+        "en": "Shenzhen Yantian"
+      }
+    },
+    {
+      "key": {
+        "zh": "销售单位",
+        "en": "Selling Units"
+      },
+      "value": {
+        "zh": "Single item",
+        "en": "Single item"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装示例",
+        "en": "Packaging examples"
+      },
+      "value": {
+        "zh": "5000 sets per Year",
+        "en": "5000 sets per Year"
+      }
+    }
+  ],
+  "packagingAndShipping": {
+    "unitSize": "",
+    "unitVolume": "",
+    "unitWeight": "",
+    "summary": {
+      "zh": "",
+      "en": ""
+    },
+    "blocks": []
+  },
+  "leadTime": {
+    "tiers": [
+      {
+        "minQuantity": "1",
+        "maxQuantity": "1",
+        "processPeriodDays": 30
+      }
+    ]
+  },
+  "videoDescription": {
+    "title": {
+      "zh": "视频说明",
+      "en": "Video Description"
+    },
+    "url": "https://7j7davvujdsmddan.public.blob.vercel-storage.com/international-product/assets/58/581d2ba32afe90213e4360b58164b7c3a7f16ac788c6d86f12df6adc16ba3a56.mp4",
+    "duration": ""
+  },
+  "media": {
+    "main": [
+      {
+        "type": "image",
+        "url": "https://7j7davvujdsmddan.public.blob.vercel-storage.com/international-product/assets/7a/7a6a06abb64a1b0a79a287859ab05c4b31b62bfa6fcd810ea325fe9e953c9481.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://7j7davvujdsmddan.public.blob.vercel-storage.com/international-product/assets/a2/a254ccee9e66c608b28e1a3ddfc1876dfec68ec40ed7d9733e4be26631130eaf.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://7j7davvujdsmddan.public.blob.vercel-storage.com/international-product/assets/b8/b8c6894c25836c7eba03f682e60ab69dd5ec229e267910e51f5c859ac4400c3a.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://7j7davvujdsmddan.public.blob.vercel-storage.com/international-product/assets/a4/a47d7cd7259fd03ddde272802003e77a6e135de5eac2e68ae743edc8326ad1d5.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://7j7davvujdsmddan.public.blob.vercel-storage.com/international-product/assets/79/7939071dd00c9fe6b12df52f249ff88a901f30f8248b3e66ec552fc3d6e8b21a.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://7j7davvujdsmddan.public.blob.vercel-storage.com/international-product/assets/7d/7d9ed7955da66e2d182a374673ba0d12a76108fa3e023b56721516156b01bcff.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://7j7davvujdsmddan.public.blob.vercel-storage.com/international-product/assets/9b/9bd2db0e3ba39192c684ca8e0b7dba537415b5e0a64cc30a9555f9c1303ac848.mp4"
+      },
+      {
+        "type": "video",
+        "url": "https://7j7davvujdsmddan.public.blob.vercel-storage.com/international-product/assets/58/581d2ba32afe90213e4360b58164b7c3a7f16ac788c6d86f12df6adc16ba3a56.mp4"
+      }
+    ],
+    "detail": []
+  },
+  "productDetails": [],
+  "files": {
+    "sourceHtml": "old-website/product-details/1600928059675/source.html",
+    "descIframeHtml": "old-website/product-details/1600928059675/iframe/descIframe.html"
+  },
+  "module": "equipment",
+  "priority": 9,
+  "tags": [
+    {
+      "key": "equipment",
+      "zh": "设备",
+      "en": "Equipment"
+    },
+    {
+      "key": "equipment-industrial-machinery",
+      "zh": "工业机械",
+      "en": "Industrial Machinery"
+    },
+    {
+      "key": "equipment-plastic-and-rubber-processing-machinery",
+      "zh": "塑料与橡胶加工机械",
+      "en": "Plastic & Rubber Processing Machinery"
+    },
+    {
+      "key": "equipment-plastic-cutting-machines",
+      "zh": "塑料切割设备",
+      "en": "Plastic Cutting Machines"
+    }
+  ]
+}

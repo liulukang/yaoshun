@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 import {ProductVisual} from '@/components/icon-visuals';
 import {sharedUi} from '@/content/site';
-import type {ProductJson} from '@/content/site/products.server';
+import {getProductImages, getProductSummary, type ProductJson} from '@/content/site/products.server';
 import {t, type Locale} from '@/lib/i18n';
 import {productPath} from '@/lib/routes';
 
@@ -12,21 +12,21 @@ type ProductCardProps = {
   product: ProductJson;
 };
 
-function localizeProductText(locale: Locale, value: ProductJson['title'] | ProductJson['summary'], fallback: string): string {
+function localizeProductText(locale: Locale, value: ProductJson['title'], fallback: string): string {
   if (!value) return fallback;
   return value[locale] || value.en || value.zh || fallback;
 }
 
 export function ProductCard({locale, product}: ProductCardProps) {
-  const productId = product.offerId ?? '';
+  const productId = product.productId ?? '';
   const productTitle = localizeProductText(locale, product.title, productId);
-  const productSummary = localizeProductText(locale, product.summary, productId);
-  const coverImage = product.images?.[0] ?? '';
-  const topRightText = product.priceTiers?.[0]?.price ?? '';
+  const productSummary = localizeProductText(locale, getProductSummary(product), productId);
+  const coverImage = getProductImages(product)[0] ?? '';
+  const topRightText = product.pricing?.tiers?.[0]?.price ?? product.pricing?.display?.[locale] ?? product.pricing?.display?.en ?? '';
 
   return (
     <Link
-      className="group block"
+      className="group block h-full"
       data-track-event="product_card_click"
       data-track-label={productId}
       data-track-location="products_grid"
@@ -47,13 +47,17 @@ export function ProductCard({locale, product}: ProductCardProps) {
           )}
         </div>
       </div>
-      <div className="px-2">
+      <div className="flex h-[15.5rem] flex-col px-2">
         <div className="flex items-start justify-between gap-4">
-          <h3 className="font-headline text-xl font-extrabold leading-tight text-primary sm:text-2xl">{productTitle}</h3>
-          <span className="text-right font-label text-[10px] font-bold uppercase tracking-[0.16em] text-secondary sm:text-xs sm:tracking-[0.18em]">{topRightText}</span>
+          <h3 className="min-w-0 line-clamp-2 flex-1 font-headline text-xl font-extrabold leading-tight text-primary sm:text-2xl">
+            {productTitle}
+          </h3>
+          <span className="max-w-[6.75rem] shrink-0 break-words text-right font-label text-[10px] font-bold uppercase tracking-[0.16em] text-secondary sm:text-xs sm:tracking-[0.18em]">
+            {topRightText}
+          </span>
         </div>
-        <p className="mt-3 text-sm leading-relaxed text-on-surface-variant">{productSummary}</p>
-        <div className="mt-5 flex items-center justify-between rounded-2xl bg-surface-container-highest px-4 py-3 text-sm font-bold text-primary transition-colors group-hover:bg-primary group-hover:text-white sm:mt-6 sm:px-5 sm:py-4">
+        <p className="mt-3 line-clamp-5 min-h-[7.5rem] text-sm leading-relaxed text-on-surface-variant">{productSummary}</p>
+        <div className="mt-auto flex items-center justify-between rounded-2xl bg-surface-container-highest px-4 py-3 text-sm font-bold text-primary transition-colors group-hover:bg-primary group-hover:text-white sm:px-5 sm:py-4">
           <span>{t(locale, sharedUi.productCard.action)}</span>
           <span>{'->'}</span>
         </div>

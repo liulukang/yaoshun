@@ -16,3 +16,7 @@ apps/server/prisma/dev.db-journal
 # 1688 media assets are kept locally but not tracked in git
 # apps/website/data/1688-products/**/images/
 # apps/website/data/1688-products/**/videos/
+.cache
+old-website
+.agents
+scripts

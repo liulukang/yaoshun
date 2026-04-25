@@ -53,11 +53,11 @@ export function SiteStructuredData({locale}: {locale: Locale}) {
       name: t(locale, pageLabels.products),
       url: localizedProducts,
       itemListElement: products
-        .filter((product) => Boolean(product.offerId))
+        .filter((product) => Boolean(product.productId))
         .map((product) => ({
           '@type': 'ListItem',
-          name: localizeProductTitle(locale, product.title, product.offerId as string),
-          url: `${siteUrl}${localizedPath(locale, 'products')}/${product.offerId}`
+          name: localizeProductTitle(locale, product.title, product.productId),
+          url: `${siteUrl}${localizedPath(locale, 'products')}/${product.productId}`
         }))
     },
     contactPoint: [

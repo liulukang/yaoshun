@@ -32,11 +32,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
 
     for (const product of products) {
-      if (!product.offerId) continue;
+      if (!product.productId) continue;
       entries.push({
-        url: withBase(`/${locale}/products/${product.offerId}`),
+        url: withBase(`/${locale}/products/${product.productId}`),
         lastModified: now,
-        alternates: buildAlternates(`/products/${product.offerId}`),
+        alternates: buildAlternates(`/products/${product.productId}`),
         changeFrequency: 'monthly',
         priority: 0.7
       });

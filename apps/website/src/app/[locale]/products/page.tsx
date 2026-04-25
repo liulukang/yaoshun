@@ -28,6 +28,7 @@ const MODULE_FILTER_TAGS: LocalizedTag[] = [
   {key: 'equipment', zh: '设备', en: 'Equipment'},
 ];
 const MODULE_FILTER_KEY_SET = new Set(MODULE_FILTER_TAGS.map((item) => item.key));
+const PRODUCTS_PER_PAGE = 12;
 
 function isEquipmentProduct(product: ProductJson): boolean {
   if (product.module === 'equipment') return true;
@@ -98,12 +99,15 @@ export default async function ProductsPage({
   searchParams,
 }: {
   params: Promise<{locale: string}>;
-  searchParams: Promise<{tag?: string | string[]}>;
+  searchParams: Promise<{tag?: string | string[]; page?: string | string[]}>;
 }) {
   const locale = await getLocaleFromParams(params);
   const resolvedSearchParams = await searchParams;
   const selectedTag = Array.isArray(resolvedSearchParams.tag) ? resolvedSearchParams.tag[0] : resolvedSearchParams.tag;
+  const selectedPage = Array.isArray(resolvedSearchParams.page) ? resolvedSearchParams.page[0] : resolvedSearchParams.page;
   const selectedTagKey = selectedTag?.trim() ?? '';
+  const parsedPage = Number.parseInt(String(selectedPage ?? '1'), 10);
+  const currentPage = Number.isFinite(parsedPage) && parsedPage > 0 ? parsedPage : 1;
   const tagCountByKey = buildTagCountByKey(products);
   const moduleCountByKey = buildModuleCountByKey(products);
   const displayCountByKey = new Map(tagCountByKey);
@@ -127,26 +131,13 @@ export default async function ProductsPage({
   const currentFilterLabel = selectedTagItem
     ? t(locale, selectedTagItem)
     : t(locale, productsPageContent.filters.allLabel);
-  const moduleFilterTags = MODULE_FILTER_TAGS;
-  const scenarioFilterTags = pickTopTags(
-    sortedTags,
-    (tag) =>
-      tag.key.startsWith('toys-') ||
-      tag.key.startsWith('tubes-') ||
-      tag.key.startsWith('equipment-'),
-    5
-  );
+  const moduleFilterTags = MODULE_FILTER_TAGS.filter((tag) => (displayCountByKey.get(tag.key) ?? 0) > 0);
   const materialFilterTags = pickTopTags(sortedTags, (tag) => MATERIAL_TAG_KEYS.has(tag.key), 4);
   const groupedFilterTags = [
     {
       key: 'module',
       title: t(locale, productsPageContent.filters.groupTitles.module),
       tags: moduleFilterTags,
-    },
-    {
-      key: 'scenario',
-      title: t(locale, productsPageContent.filters.groupTitles.scenario),
-      tags: scenarioFilterTags,
     },
     {
       key: 'material',
@@ -157,6 +148,20 @@ export default async function ProductsPage({
   const selectedTagInGroups = groupedFilterTags.some((group) =>
     group.tags.some((tag) => tag.key === selectedTagKey)
   );
+  const totalPages = Math.max(1, Math.ceil(filteredProducts.length / PRODUCTS_PER_PAGE));
+  const safePage = Math.min(currentPage, totalPages);
+  const paginatedProducts = filteredProducts.slice(
+    (safePage - 1) * PRODUCTS_PER_PAGE,
+    safePage * PRODUCTS_PER_PAGE
+  );
+
+  function buildProductsHref(page: number, tagKey = selectedTagKey): string {
+    const params = new URLSearchParams();
+    if (tagKey) params.set('tag', tagKey);
+    if (page > 1) params.set('page', String(page));
+    const query = params.toString();
+    return query ? `${productsPath}?${query}` : productsPath;
+  }
 
   return (
     <div className="desktop-shell px-4 pb-16 sm:px-6 sm:pb-20 xl:px-8">
@@ -213,7 +218,7 @@ export default async function ProductsPage({
                               ? 'border border-primary bg-primary font-semibold !text-white'
                                 : 'border border-outline-variant/30 bg-white text-on-surface-variant hover:border-primary/50 hover:bg-surface-container-high'
                           }`}
-                          href={href}
+                          href={buildProductsHref(1, tag.key)}
                         >
                             <span className={`truncate ${isActive ? '!text-white' : ''}`}>{t(locale, tag)}</span>
                           <span className={`ml-2 rounded-full px-2 py-0.5 text-[11px] font-bold ${
@@ -235,7 +240,7 @@ export default async function ProductsPage({
                   <div className="grid gap-2.5">
                     <Link
                       className="flex items-center justify-between rounded-xl border border-primary bg-primary px-3 py-2.5 text-sm font-semibold !text-white"
-                      href={`${productsPath}?tag=${encodeURIComponent(selectedTagItem.key)}`}
+                      href={buildProductsHref(1, selectedTagItem.key)}
                     >
                       <span className="truncate !text-white">{t(locale, selectedTagItem)}</span>
                       <span className="ml-2 rounded-full bg-white/20 px-2 py-0.5 text-[11px] font-bold !text-white">
@@ -254,8 +259,8 @@ export default async function ProductsPage({
           </aside>
 
           <section className="grid gap-x-6 gap-y-8 sm:gap-x-8 sm:gap-y-10 lg:gap-y-12 md:grid-cols-2 2xl:grid-cols-3">
-            {filteredProducts.map((product, index) => (
-              <ProductCard key={product.offerId ?? `product-${index}`} locale={locale} product={product} />
+            {paginatedProducts.map((product, index) => (
+              <ProductCard key={product.productId ?? `product-${index}`} locale={locale} product={product} />
             ))}
             {filteredProducts.length === 0 ? (
               <div className="rounded-2xl border border-outline-variant bg-surface-container-low p-6 text-sm text-on-surface-variant md:col-span-2 2xl:col-span-3">
@@ -266,6 +271,40 @@ export default async function ProductsPage({
               </div>
             ) : null}
           </section>
+          {filteredProducts.length > 0 ? (
+            <div className="mt-8 flex flex-col gap-3 rounded-[1.5rem] border border-outline-variant/20 bg-surface-container-low px-4 py-4 sm:mt-10 sm:flex-row sm:items-center sm:justify-between sm:px-5">
+              <p className="text-sm text-on-surface-variant">
+                {t(locale, {
+                  zh: `第 ${safePage} / ${totalPages} 页，共 ${filteredProducts.length} 个产品`,
+                  en: `Page ${safePage} of ${totalPages}, ${filteredProducts.length} products total`,
+                })}
+              </p>
+              <div className="flex items-center gap-3">
+                <Link
+                  aria-disabled={safePage <= 1}
+                  className={`rounded-full px-4 py-2 text-sm font-semibold transition-colors ${
+                    safePage <= 1
+                      ? 'pointer-events-none border border-outline-variant/20 bg-surface-container text-outline'
+                      : 'border border-outline-variant/30 bg-white text-primary hover:border-primary/50 hover:bg-surface-container-high'
+                  }`}
+                  href={buildProductsHref(Math.max(1, safePage - 1))}
+                >
+                  {t(locale, {zh: '上一页', en: 'Previous'})}
+                </Link>
+                <Link
+                  aria-disabled={safePage >= totalPages}
+                  className={`rounded-full px-4 py-2 text-sm font-semibold transition-colors ${
+                    safePage >= totalPages
+                      ? 'pointer-events-none border border-outline-variant/20 bg-surface-container text-outline'
+                      : 'border border-primary bg-primary !text-white hover:opacity-95'
+                  }`}
+                  href={buildProductsHref(Math.min(totalPages, safePage + 1))}
+                >
+                  {t(locale, {zh: '下一页', en: 'Next'})}
+                </Link>
+              </div>
+            </div>
+          ) : null}
         </section>
 
         <section className="mt-12 sm:mt-16 lg:mt-20">

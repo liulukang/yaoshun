@@ -1,0 +1,390 @@
+{
+  "productId": "1601094238066",
+  "title": {
+    "zh": "158PCS Children's DIY Educational Building Splicing Toy for 2-4 & 5-7 Years Old Enhances Thinking Skills",
+    "en": "158PCS Children's DIY Educational Building Splicing Toy for 2-4 & 5-7 Years Old Enhances Thinking Skills"
+  },
+  "sourceUrl": "https://www.alibaba.com/product-detail/158PCS-Children-s-DIY-Educational-Building_1601094238066.html",
+  "categories": {
+    "zh": [
+      "母婴与玩具",
+      "益智玩具",
+      "其他益智玩具"
+    ],
+    "en": [
+      "Mother, Kids & Toys",
+      "Educational Toys",
+      "Other Educational Toys"
+    ]
+  },
+  "pricing": {
+    "display": {
+      "zh": "US$14-16",
+      "en": "US$14-16"
+    },
+    "currency": "$",
+    "min": 14,
+    "max": 16,
+    "isRange": true,
+    "minOrder": {
+      "zh": "1 box",
+      "en": "1 box"
+    },
+    "tiers": [
+      {
+        "quantity": {
+          "zh": "1 - 499 boxes",
+          "en": "1 - 499 boxes"
+        },
+        "price": "$16"
+      },
+      {
+        "quantity": {
+          "zh": "500 - 999 boxes",
+          "en": "500 - 999 boxes"
+        },
+        "price": "$15"
+      },
+      {
+        "quantity": {
+          "zh": ">= 1,000 boxes",
+          "en": ">= 1,000 boxes"
+        },
+        "price": "$14"
+      }
+    ]
+  },
+  "customizationOptions": [
+    {
+      "label": {
+        "zh": "支持定制 Logo",
+        "en": "Customized logo"
+      },
+      "minOrder": {
+        "zh": "1,000 boxes",
+        "en": "1,000 boxes"
+      }
+    },
+    {
+      "label": {
+        "zh": "支持定制包装",
+        "en": "Customized packaging"
+      },
+      "minOrder": {
+        "zh": "1,000 boxes",
+        "en": "1,000 boxes"
+      }
+    },
+    {
+      "label": {
+        "zh": "支持图文定制",
+        "en": "Graphic customization"
+      },
+      "minOrder": {
+        "zh": "1,000 boxes",
+        "en": "1,000 boxes"
+      }
+    }
+  ],
+  "specifications": [],
+  "productAttributes": [
+    {
+      "key": {
+        "zh": "适用年龄",
+        "en": "Age Range"
+      },
+      "value": {
+        "zh": "2 to 4 Years, 5 to 7 years, 8 to 13 Years, 14 Years & up",
+        "en": "2 to 4 Years, 5 to 7 years, 8 to 13 Years, 14 Years & up"
+      }
+    },
+    {
+      "key": {
+        "zh": "材质",
+        "en": "Material"
+      },
+      "value": {
+        "zh": "PP",
+        "en": "PP"
+      }
+    },
+    {
+      "key": {
+        "zh": "适用性别",
+        "en": "Gender"
+      },
+      "value": {
+        "zh": "Unisex",
+        "en": "Unisex"
+      }
+    },
+    {
+      "key": {
+        "zh": "Type",
+        "en": "Type"
+      },
+      "value": {
+        "zh": "Other Educational Toys",
+        "en": "Other Educational Toys"
+      }
+    },
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "158pcs",
+        "en": "158pcs"
+      }
+    },
+    {
+      "key": {
+        "zh": "产地",
+        "en": "Place of Origin"
+      },
+      "value": {
+        "zh": "Guangdong, China",
+        "en": "Guangdong, China"
+      }
+    },
+    {
+      "key": {
+        "zh": "起订量",
+        "en": "MOQ"
+      },
+      "value": {
+        "zh": "1pcs",
+        "en": "1pcs"
+      }
+    },
+    {
+      "key": {
+        "zh": "特点",
+        "en": "Feature"
+      },
+      "value": {
+        "zh": "Parent-kids Interactive",
+        "en": "Parent-kids Interactive"
+      }
+    },
+    {
+      "key": {
+        "zh": "PP Rod Size",
+        "en": "PP Rod Size"
+      },
+      "value": {
+        "zh": "40CM",
+        "en": "40CM"
+      }
+    },
+    {
+      "key": {
+        "zh": "Company Type",
+        "en": "Company Type"
+      },
+      "value": {
+        "zh": "Manufactuer and Exporter",
+        "en": "Manufactuer and Exporter"
+      }
+    },
+    {
+      "key": {
+        "zh": "Service",
+        "en": "Service"
+      },
+      "value": {
+        "zh": "OEM/ODM Customization",
+        "en": "OEM/ODM Customization"
+      }
+    },
+    {
+      "key": {
+        "zh": "Package",
+        "en": "Package"
+      },
+      "value": {
+        "zh": "Color Box +Outer Carton",
+        "en": "Color Box +Outer Carton"
+      }
+    },
+    {
+      "key": {
+        "zh": "Weight",
+        "en": "Weight"
+      },
+      "value": {
+        "zh": "3.5KG/19KG",
+        "en": "3.5KG/19KG"
+      }
+    },
+    {
+      "key": {
+        "zh": "Color Box",
+        "en": "Color Box"
+      },
+      "value": {
+        "zh": "47*35*13CM",
+        "en": "47*35*13CM"
+      }
+    },
+    {
+      "key": {
+        "zh": "Outer Box",
+        "en": "Outer Box"
+      },
+      "value": {
+        "zh": "47*37*62CM",
+        "en": "47*37*62CM"
+      }
+    },
+    {
+      "key": {
+        "zh": "PP Ball Size",
+        "en": "PP Ball Size"
+      },
+      "value": {
+        "zh": "6.0CM",
+        "en": "6.0CM"
+      }
+    },
+    {
+      "key": {
+        "zh": "销售单位",
+        "en": "Selling Units"
+      },
+      "value": {
+        "zh": "Single item",
+        "en": "Single item"
+      }
+    },
+    {
+      "key": {
+        "zh": "单件包装尺寸",
+        "en": "Single package size"
+      },
+      "value": {
+        "zh": "45X35X13 cm",
+        "en": "45X35X13 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "单件毛重",
+        "en": "Single gross weight"
+      },
+      "value": {
+        "zh": "3.500 kg",
+        "en": "3.500 kg"
+      }
+    }
+  ],
+  "packagingAndShipping": {
+    "unitSize": "45X35X13",
+    "unitVolume": "",
+    "unitWeight": "3.500",
+    "summary": {
+      "zh": "",
+      "en": ""
+    },
+    "blocks": []
+  },
+  "leadTime": {
+    "tiers": [
+      {
+        "minQuantity": "1",
+        "maxQuantity": "1",
+        "processPeriodDays": 7
+      },
+      {
+        "minQuantity": "2",
+        "maxQuantity": "500",
+        "processPeriodDays": 30
+      },
+      {
+        "minQuantity": "501",
+        "maxQuantity": "1,000",
+        "processPeriodDays": 60
+      }
+    ]
+  },
+  "videoDescription": {
+    "title": {
+      "zh": "视频说明",
+      "en": "Video Description"
+    },
+    "url": "https://7j7davvujdsmddan.public.blob.vercel-storage.com/international-product/assets/df/dfdfea7bab83b0f692c08c60cfbed71e04bb6b0dc5b6db5cdc319fd32c01819f.mp4",
+    "duration": ""
+  },
+  "media": {
+    "main": [
+      {
+        "type": "image",
+        "url": "https://7j7davvujdsmddan.public.blob.vercel-storage.com/international-product/assets/78/786f3bab6a3be87f9710a554be200c73bf4b286618ee6fafa08525a3ded43b4a.png"
+      },
+      {
+        "type": "image",
+        "url": "https://7j7davvujdsmddan.public.blob.vercel-storage.com/international-product/assets/62/6291118a80de9a634fa959d4e8948b2b32ae248f7b778b28e0ee0d188fa3050b.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://7j7davvujdsmddan.public.blob.vercel-storage.com/international-product/assets/e0/e0620cb15c79f22fa6a19a3fea4a3498a3d2c706c6b4b1d9c61de11e37418b8a.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://7j7davvujdsmddan.public.blob.vercel-storage.com/international-product/assets/bc/bcbdbf703842ab329b000a505f553ec856e776da5bb1f45c9e08aa038c905e18.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://7j7davvujdsmddan.public.blob.vercel-storage.com/international-product/assets/37/3719b20e829e97e0d7ff1ac5491be2a3de27f8d618829cdccdc488f31525eaba.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://7j7davvujdsmddan.public.blob.vercel-storage.com/international-product/assets/ea/ea3ce5c177bd6137b94b15dfb6a9ae32d41a6aa42231ce85bf38929c1b958efa.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://7j7davvujdsmddan.public.blob.vercel-storage.com/international-product/assets/0e/0e8bf300752c25a7290c3c385ec9819210150976ae41ebc68018ec7a9383379a.mp4"
+      },
+      {
+        "type": "video",
+        "url": "https://7j7davvujdsmddan.public.blob.vercel-storage.com/international-product/assets/df/dfdfea7bab83b0f692c08c60cfbed71e04bb6b0dc5b6db5cdc319fd32c01819f.mp4"
+      }
+    ],
+    "detail": []
+  },
+  "productDetails": [],
+  "files": {
+    "sourceHtml": "old-website/product-details/1601094238066/source.html",
+    "descIframeHtml": "old-website/product-details/1601094238066/iframe/descIframe.html"
+  },
+  "module": "toys",
+  "priority": 21,
+  "tags": [
+    {
+      "key": "toys",
+      "zh": "玩具",
+      "en": "Toys"
+    },
+    {
+      "key": "toys-mother-kids-and-toys",
+      "zh": "母婴与玩具",
+      "en": "Mother, Kids & Toys"
+    },
+    {
+      "key": "toys-educational-toys",
+      "zh": "益智玩具",
+      "en": "Educational Toys"
+    },
+    {
+      "key": "toys-other-educational-toys",
+      "zh": "其他益智玩具",
+      "en": "Other Educational Toys"
+    },
+    {
+      "key": "pp",
+      "zh": "PP",
+      "en": "PP"
+    }
+  ]
+}

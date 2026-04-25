@@ -8,6 +8,12 @@ import { ProductVisual } from "@/components/icon-visuals";
 import { StructuredData } from "@/components/structured-data";
 import { companyProfile, productsPageContent } from "@/content/site";
 import {
+  getProductAttributePairs,
+  getProductDescription,
+  getProductImages,
+  getProductPackagingPairs,
+  getProductSummary,
+  getProductVideos,
   products,
   type ProductJson,
   type ProductJsonLocalizedList,
@@ -134,29 +140,22 @@ function isEquipmentTag(tag: { key?: string; zh?: string; en?: string }): boolea
 }
 
 function resolveDisplayModule(product: ProductJson): ProductModule {
-  if (product.module === "equipment") {
-    return "equipment";
-  }
-
-  const tags = product.tags ?? [];
-  if (tags.some((tag) => isEquipmentTag(tag))) {
-    return "equipment";
-  }
-
-  return product.module === "toys" ? "toys" : "tubes";
+  if (product.module === "equipment") return "equipment";
+  if (product.module === "toys") return "toys";
+  return "tubes";
 }
 
 function findProductBySlug(slug: string): ProductJson | undefined {
-  const exact = products.find((item) => item.offerId === slug);
+  const exact = products.find((item) => item.productId === slug);
   if (exact) return exact;
-  return products.find((item) => item.offerId && slug.endsWith(`-${item.offerId}`));
+  return products.find((item) => item.productId && slug.endsWith(`-${item.productId}`));
 }
 
 export function generateStaticParams() {
   return locales.flatMap((locale) =>
     products
-      .filter((product) => Boolean(product.offerId))
-      .map((product) => ({ locale, slug: product.offerId as string }))
+      .filter((product) => Boolean(product.productId))
+      .map((product) => ({ locale, slug: product.productId as string }))
   );
 }
 
@@ -179,13 +178,9 @@ export async function generateMetadata({
     );
   }
 
-  const productId = product.offerId || slug;
+  const productId = product.productId || slug;
   const productName = localizeText(locale, product.title, productId);
-  const descriptionSource = localizeList(
-    locale,
-    product.description,
-    splitParagraphs(localizeText(locale, product.summary, productName))
-  );
+  const descriptionSource = localizeList(locale, getProductDescription(product), splitParagraphs(localizeText(locale, getProductSummary(product), productName)));
   const description = descriptionSource.join(" ").trim() || t(locale, productsPageContent.seo.description);
   const title = t(locale, productsPageContent.seo.detailTitleTemplate).replace("{product}", productName);
   const keywordTags =
@@ -216,24 +211,24 @@ export default async function ProductDetailPage({
   if (!product) {
     notFound();
   }
-  if (!product.offerId) {
+  if (!product.productId) {
     notFound();
   }
-  if (slug !== product.offerId) {
-    redirect(localizedPath(locale, "products") + `/${product.offerId}`);
+  if (slug !== product.productId) {
+    redirect(localizedPath(locale, "products") + `/${product.productId}`);
   }
 
-  const localizedTitle = localizeText(locale, product.title, product.offerId);
-  const localizedSummary = localizeText(locale, product.summary, localizedTitle);
+  const localizedTitle = localizeText(locale, product.title, product.productId);
+  const localizedSummary = localizeText(locale, getProductSummary(product), localizedTitle);
   const summaryParagraphs = splitParagraphs(localizedSummary);
-  const descriptionParagraphs = localizeList(locale, product.description, summaryParagraphs);
+  const descriptionParagraphs = localizeList(locale, getProductDescription(product), summaryParagraphs);
   const detailHighlights = toDetailHighlights(descriptionParagraphs);
-  const galleryImages = uniqueMedia((product.images ?? []).map((item) => normalizeMediaUrl(item)));
-  const productVideos = uniqueMedia((product.videos ?? []).map((item) => normalizeMediaUrl(item)));
+  const galleryImages = uniqueMedia(getProductImages(product).map((item) => normalizeMediaUrl(item)));
+  const productVideos = uniqueMedia(getProductVideos(product).map((item) => normalizeMediaUrl(item)));
   const tagItems = product.tags ?? [];
-  const priceTiers: ProductJsonPriceTier[] = product.priceTiers ?? [];
-  const attributes: ProductJsonPair[] = product.attributes ?? [];
-  const packaging: ProductJsonPair[] = product.packaging ?? [];
+  const priceTiers: ProductJsonPriceTier[] = product.pricing?.tiers ?? [];
+  const attributes: ProductJsonPair[] = getProductAttributePairs(product);
+  const packaging: ProductJsonPair[] = getProductPackagingPairs(product);
   const attributeRows = groupByCount(attributes, 2);
   const packagingRows = groupByCount(packaging, 2);
   const displayModule = resolveDisplayModule(product);
@@ -287,7 +282,7 @@ export default async function ProductDetailPage({
               />
             ) : (
               <div className="overflow-hidden rounded-xl shadow-2xl">
-                <ProductVisual label={moduleLabel(locale, displayModule)} slug={product.offerId} />
+                <ProductVisual label={moduleLabel(locale, displayModule)} slug={product.productId} />
               </div>
             )}
           </div>
@@ -377,7 +372,7 @@ export default async function ProductDetailPage({
               </div>
 
               <div className="mt-5">
-                <Link className="flex w-full items-center justify-center gap-2.5 rounded-full bg-primary py-3 text-sm font-bold !text-white shadow-lg transition-all hover:opacity-95 sm:py-3.5 sm:text-base" data-track-event="product_cta_click" data-track-label={product.offerId} data-track-location="product_detail_contact" href={localizedPath(locale, "contact")}>
+                <Link className="flex w-full items-center justify-center gap-2.5 rounded-full bg-primary py-3 text-sm font-bold !text-white shadow-lg transition-all hover:opacity-95 sm:py-3.5 sm:text-base" data-track-event="product_cta_click" data-track-label={product.productId} data-track-location="product_detail_contact" href={localizedPath(locale, "contact")}>
                   {t(locale, productsPageContent.detail.primaryAction)}
                   <span>{"->"}</span>
                 </Link>
