@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { headers } from "next/headers";
 import { Analytics as VercelAnalytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 import { AnalyticsEvents } from "@/components/analytics-events";
 import { TawkScript } from "@/components/tawk-script";
@@ -138,6 +139,7 @@ export default async function RootLayout({
         <AnalyticsEvents />
         {children}
         <VercelAnalytics />
+        <SpeedInsights />
       </body>
     </html>
   );
