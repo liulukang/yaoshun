@@ -244,8 +244,20 @@ export default async function ContactPage({
         <article className="contact-company-panel">
           <div className="contact-panel-head">
             <p className="contact-mini-eyebrow">{text.aboutBrand}</p>
-            <h1>{siteCopy.companyName[locale]}</h1>
-            <p>{siteCopy.companyIntro[locale]}</p>
+            <h1>
+              <span className="contact-desktop-only">{siteCopy.companyName[locale]}</span>
+              <span className="contact-mobile-only">{t(locale, siteCopy.headerCta)}</span>
+            </h1>
+            <p className="contact-mobile-only contact-company-name">
+              {siteCopy.companyName[locale]}
+            </p>
+            <p className="contact-desktop-only">{siteCopy.companyIntro[locale]}</p>
+            <p className="contact-mobile-only">
+              {t(locale, {
+                en: "Dongguan toy OEM/ODM factory. Most first replies are sent within 24 hours.",
+                zh: "东莞玩具 OEM/ODM 源头工厂，大多数询盘会在 24 小时内获得首次回复。",
+              })}
+            </p>
           </div>
           <div className="contact-company-content">
             <div className="contact-company-stats">
@@ -278,16 +290,19 @@ export default async function ContactPage({
                           </a>
                         </strong>
                       ) : item.icon === Phone ? (
-                        <strong>
-                          <a
-                            data-track-event="contact_click"
-                            data-track-label="company_panel_phone"
-                            data-track-location="contact_company_panel"
-                            data-track-method="phone"
-                            href={telephoneHref(siteCopy.contact.phone)}
-                          >
-                            {value}
-                          </a>
+                        <strong className="contact-company-phone-numbers">
+                          {siteCopy.contact.phone.split(" / ").map((phone) => (
+                            <a
+                              data-track-event="contact_click"
+                              data-track-label="company_panel_phone"
+                              data-track-location="contact_company_panel"
+                              data-track-method="phone"
+                              href={telephoneHref(phone)}
+                              key={phone}
+                            >
+                              {phone}
+                            </a>
+                          ))}
                         </strong>
                       ) : (
                         <strong>{value}</strong>
@@ -337,7 +352,15 @@ export default async function ContactPage({
         <article className="contact-form-panel">
           <div className="contact-panel-head">
             <h2>{contactCopy.formTitle[locale]}</h2>
-            <p>{contactCopy.formDescription[locale]}</p>
+            <p>
+              <span className="contact-desktop-only">{contactCopy.formDescription[locale]}</span>
+              <span className="contact-mobile-only">
+                {t(locale, {
+                  en: "Tell us your product, quantity, and target market.",
+                  zh: "请告诉我们产品类型、数量计划和目标市场。",
+                })}
+              </span>
+            </p>
           </div>
           <ContactForm
             labels={{

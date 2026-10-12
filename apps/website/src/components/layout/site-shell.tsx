@@ -345,10 +345,10 @@ function SiteHeader({
 
   return (
     <header className="sticky top-0 z-50 border-b border-[rgba(19,41,104,0.06)] bg-white/88 shadow-[0_14px_34px_-28px_rgba(18,41,103,0.24)] backdrop-blur-[22px]">
-      <div className="site-container flex min-h-[72px] items-center gap-4 md:min-h-[84px] md:gap-6">
+      <div className="site-container flex min-h-[72px] items-center gap-2 sm:gap-4 md:min-h-[84px] md:gap-6">
         <Link
           aria-label="yaoshun toys"
-          className="shrink-0"
+          className="min-w-0 lg:shrink-0"
           data-track-destination={homeHref}
           data-track-event="nav_click"
           data-track-label="brand_logo"
@@ -358,7 +358,7 @@ function SiteHeader({
         >
           <div className="flex flex-col gap-1">
             <BrandMark />
-            <span className="text-[0.62rem] font-medium leading-[1.2] text-[#6f7ea9] md:text-[0.68rem]">
+            <span className="block truncate text-[0.62rem] font-medium leading-[1.2] text-[#6f7ea9] md:text-[0.68rem]">
               {t(locale, siteCopy.companyName)}
             </span>
           </div>
@@ -410,7 +410,21 @@ function SiteHeader({
           </Link>
         </div>
 
-        <div className="relative ml-auto lg:hidden" ref={mobileMenuRef}>
+        <div className="relative ml-auto flex shrink-0 items-center gap-2 lg:hidden" ref={mobileMenuRef}>
+          <Link
+            aria-label={t(locale, siteCopy.headerCta)}
+            className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-[rgba(37,99,255,0.16)] bg-white text-[#2563ff] shadow-[0_12px_28px_-22px_rgba(37,99,255,0.32)] transition duration-200 hover:-translate-y-0.5 hover:border-[rgba(37,99,255,0.28)] hover:bg-[#f7faff] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#2563ff] [&>svg]:text-[#2563ff]"
+            data-track-destination={contactHref}
+            data-track-event="cta_click"
+            data-track-label="contact_us"
+            data-track-location="mobile_header"
+            href={contactHref}
+            prefetch={false}
+            title={t(locale, siteCopy.headerCta)}
+            onClick={closeMenus}
+          >
+            <Mail size={19} strokeWidth={2.2} />
+          </Link>
           <button
             aria-controls={mobileMenuId}
             aria-expanded={mobileOpen}

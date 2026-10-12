@@ -4,6 +4,20 @@
   padding-top: clamp(2rem, 4.2vw, 4rem);
 }
 
+.contact-mobile-only {
+  display: none;
+}
+
+.contact-company-panel .contact-panel-head h1 {
+  margin: 0;
+  color: #132968;
+  font-family: var(--font-heading);
+  font-size: clamp(1.6rem, 2.2vw, 2.1rem);
+  font-weight: 600;
+  line-height: 1.18;
+  letter-spacing: -0.035em;
+}
+
 .contact-form-panel .contact-panel-head h2,
 .contact-company-panel .contact-panel-head h2,
 .contact-faq-panel .contact-panel-head h2,
@@ -73,6 +87,7 @@
   align-content: start;
   gap: 1.15rem;
   min-height: 31rem;
+  min-width: 0;
   padding: 1.55rem 1.45rem;
   border: 1px solid rgba(24, 56, 138, 0.08);
   border-radius: 1.55rem;
@@ -107,24 +122,24 @@
   z-index: 1;
 }
 
-.contact-form-panel .contact-form-card {
+.contact-form-panel form {
   gap: 0.95rem;
 }
 
-.contact-form-panel .contact-form-card label>span {
+.contact-form-panel form label>span {
   display: block;
   color: #17306e;
-  font-size: 0.82rem;
+  font-size: 0.88rem;
   font-weight: 700;
 }
 
-.contact-form-panel .contact-form-card input,
-.contact-form-panel .contact-form-card textarea {
+.contact-form-panel form input,
+.contact-form-panel form textarea {
   border-radius: 0.85rem;
   background: #ffffff;
 }
 
-.contact-form-panel .contact-form-card button {
+.contact-form-panel form button {
   min-height: 3.15rem;
   border-radius: 999px;
   width: 100%;
@@ -186,6 +201,16 @@
 .contact-company-stat strong a {
   color: inherit;
   text-decoration: none;
+}
+
+.contact-company-phone-numbers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.85rem;
+}
+
+.contact-company-phone-numbers a {
+  white-space: nowrap;
 }
 
 .contact-social-block {
@@ -346,28 +371,32 @@
 }
 
 @media (max-width: 767.98px) {
-  .contact-message-shell,
+  .contact-page {
+    gap: 1.5rem;
+    padding-top: 1rem;
+  }
+
+  .contact-desktop-only,
   .contact-lower-grid,
-  .contact-solution-grid,
-  .contact-assurance-strip {
+  .contact-assurance-strip,
+  .contact-company-panel .contact-mini-eyebrow,
+  .contact-company-panel .contact-company-stat-label {
+    display: none;
+  }
+
+  .contact-page .contact-mobile-only {
+    display: block;
+  }
+
+  .contact-message-shell {
     gap: 1rem;
   }
 
   .contact-form-panel,
-  .contact-company-panel,
-  .contact-faq-panel,
-  .contact-solution-panel {
+  .contact-company-panel {
     min-height: auto;
-    padding: 1.15rem 1rem;
+    padding: 1.25rem 1rem;
     border-radius: 1.3rem;
-  }
-
-  .contact-solution-panel {
-    padding-top: 1.55rem;
-  }
-
-  .contact-form-panel {
-    order: -1;
   }
 
   .contact-company-content,
@@ -376,20 +405,80 @@
   }
 
   .contact-company-stats {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 0.75rem;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1rem;
   }
 
   .contact-company-stat {
+    display: grid;
+    grid-template-columns: 1.5rem minmax(0, 1fr);
     gap: 0.65rem;
-    padding: 0.75rem;
-    border: 1px solid rgba(24, 56, 138, 0.08);
-    border-radius: 1rem;
-    background: rgba(255, 255, 255, 0.72);
+  }
+
+  .contact-company-panel {
+    background:
+      linear-gradient(135deg, rgba(247, 250, 255, 0.97), rgba(247, 250, 255, 0.9)),
+      url("/site/contact/image.webp") center / cover;
+  }
+
+  .contact-company-stat-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-top: 0.1rem;
+    background: transparent;
+  }
+
+  .contact-company-stat-copy {
+    gap: 0.35rem;
   }
 
   .contact-company-stat strong {
+    font-family: var(--font-body);
+    font-size: 0.94rem;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0;
+  }
+
+  .contact-page .contact-panel-head {
+    gap: 0.6rem;
+  }
+
+  .contact-company-panel .contact-panel-head h1 {
+    font-size: 1.85rem;
+    line-height: 1.1;
+  }
+
+  .contact-page .contact-panel-head p {
+    font-size: 0.94rem;
+    line-height: 1.65;
+  }
+
+  .contact-page .contact-panel-head .contact-company-name {
+    font-size: 0.88rem;
+    font-weight: 600;
+    line-height: 1.45;
+  }
+
+  .contact-form-panel form input,
+  .contact-form-panel form textarea {
+    min-width: 0;
     font-size: 1rem;
+    padding: 0.8rem 0.9rem;
+  }
+
+  .contact-form-panel form textarea {
+    height: 9rem;
+    min-height: 9rem;
+  }
+
+  .contact-form-panel form button {
+    min-height: 3rem;
+  }
+
+  .contact-form-panel form > p {
+    font-size: 0.8rem;
+    line-height: 1.6;
   }
 
   .contact-social-link {
@@ -403,46 +492,14 @@
     padding: 0 1rem;
   }
 
-  .contact-panel-head h2 {
+  .contact-page .contact-panel-head h2 {
     font-size: clamp(1.5rem, 6.8vw, 1.85rem);
     line-height: 1.08;
-  }
-
-  .contact-company-placeholder {
-    min-height: 14rem;
-    padding: 1rem;
-  }
-
-  .contact-faq-item {
-    min-height: 3rem;
-    padding: 0 0.9rem;
-    font-size: 0.9rem;
-  }
-
-  .contact-solution-item,
-  .contact-assurance-item {
-    padding-left: 0.75rem;
-    padding-right: 0.75rem;
-  }
-
-  .contact-assurance-strip {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 0.55rem;
-    padding: 1rem 0.8rem;
-  }
-
-  .contact-assurance-item {
-    gap: 0.5rem;
-    padding: 0.8rem 0.75rem 0.85rem;
   }
 
 }
 
 @media (min-width: 768px) {
-  .contact-message-shell {
-    grid-template-columns: minmax(0, 1.02fr) minmax(0, 0.98fr);
-  }
-
   .contact-company-content {
     grid-template-columns: minmax(0, 1fr);
     align-items: start;
@@ -452,6 +509,7 @@
 
 @media (min-width: 1024px) {
   .contact-message-shell {
+    grid-template-columns: minmax(0, 1.02fr) minmax(0, 0.98fr);
     scroll-margin-top: 8rem;
   }
 
