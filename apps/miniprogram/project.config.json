@@ -1,0 +1,8 @@
+{
+  "miniprogramRoot": "dist/weapp",
+  "projectname": "londy-play-home",
+  "description": "LONDY 儿童搭建玩具小程序",
+  "appid": "wx5773083853b52d71",
+  "setting": { "urlCheck": true, "es6": true, "enhance": true, "minified": true },
+  "compileType": "miniprogram"
+}

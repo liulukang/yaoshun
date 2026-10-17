@@ -1,0 +1,34 @@
+{
+  "name": "@yaoshun/miniprogram",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev:h5": "TARO_OUTPUT_ROOT=dist/h5 taro build --type h5 --watch --port 8020",
+    "build:h5": "TARO_OUTPUT_ROOT=dist/h5 taro build --type h5",
+    "dev:weapp": "TARO_OUTPUT_ROOT=dist/weapp taro build --type weapp --watch",
+    "build:weapp": "TARO_OUTPUT_ROOT=dist/weapp taro build --type weapp",
+    "check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@tarojs/components": "4.1.5",
+    "@tarojs/helper": "4.1.5",
+    "@tarojs/plugin-framework-react": "4.1.5",
+    "@tarojs/plugin-platform-h5": "4.1.5",
+    "@tarojs/plugin-platform-weapp": "4.1.5",
+    "@tarojs/react": "4.1.5",
+    "@tarojs/runtime": "4.1.5",
+    "@tarojs/shared": "4.1.5",
+    "@tarojs/taro": "4.1.5",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.5",
+    "@babel/preset-react": "^7.24.1",
+    "babel-preset-taro": "4.1.5",
+    "@tarojs/cli": "4.1.5",
+    "@tarojs/webpack5-runner": "4.1.5",
+    "react-refresh": "^0.14.0",
+    "typescript": "^5.7.2"
+  }
+}

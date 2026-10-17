@@ -1,0 +1,14 @@
+import { Button, Image, Text, View } from '@tarojs/components'
+import Taro from '@tarojs/taro'
+import Header from '../../components/Header'
+import { images } from '../../data/assets'
+
+const contacts = [{ label: '电话', value: '+86 13724590707', action: 'call' }, { label: '备用电话', value: '+86 13798852689', action: 'call' }, { label: '邮箱', value: 'info@yaoshuntoys.com', action: 'copy' }, { label: 'WhatsApp', value: '+86 13724590707', action: 'copy' }]
+const address = '中国广东省东莞市茶山镇伟兴路3号'
+const website = 'https://www.yaoshuntoys.com/'
+const copy = (value: string, title: string) => Taro.setClipboardData({ data: value }).then(() => Taro.showToast({ title, icon: 'none' }))
+
+export default function Contact() {
+  const action = (item: any) => item.action === 'call' ? Taro.makePhoneCall({ phoneNumber: item.value.replace(/\D/g, '').replace(/^86/, '') }) : copy(item.value, '已复制')
+  return <View className='page'><Header subtitle='COMPANY CONTACT' /><View className='contact-hero container'><Image className='contact-hero-background' src={images.contactHero} mode='aspectFill' /><View className='contact-shade' /><View className='contact-copy'><Text className='pill pill-yellow'>CONTACT US</Text><View className='contact-title'>找到我们，了解更多</View></View></View><View className='section company-section'><View className='section-title'>公司联系方式</View><View className='section-subtitle'>欢迎通过电话、邮箱或 WhatsApp 联系东莞市尧顺科技有限公司。</View><View className='contact-list card'>{contacts.map((item) => <View className='contact-row' key={item.value} onClick={() => action(item)}><View className='contact-icon'>{item.action === 'call' ? '☎' : '✉'}</View><View className='contact-copy-text'><View className='contact-label'>{item.label}</View><View className='contact-value'>{item.value}</View></View><View className='contact-action'>{item.action === 'call' ? '拨打' : '复制'}</View></View>)}</View></View><View className='section address-section'><View className='address-card card'><View className='address-icon'>⌂</View><View className='address-copy'><View className='address-label'>公司地址</View><View className='address-value'>{address}</View></View><Button className='copy-btn' onClick={() => copy(address, '地址已复制')}>复制</Button></View></View><View className='section company-info'><View className='company-info-card'><View className='company-title'>东莞市尧顺科技有限公司</View><View className='company-text'>专注搭建玩具、益智玩具与儿童创意产品。</View><View className='company-divider' /><View className='company-line'><Text>官网</Text><Text>{website}</Text></View><View className='company-line'><Text>服务</Text><Text>产品使用、品牌信息与售后支持</Text></View><Button className='website-btn' onClick={() => copy(website, '官网地址已复制')}>复制官网地址</Button></View></View><View className='section contact-note'><View className='note-icon'>✦</View><View><View className='note-title'>温馨提示</View><View className='note-text'>如需了解产品规格、使用方式或合作信息，欢迎通过以上方式联系我们。</View></View></View></View>
+}

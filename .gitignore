@@ -1,5 +1,6 @@
 # Dependencies
 node_modules
+.swc
 
 # Build output and caches
 dist
