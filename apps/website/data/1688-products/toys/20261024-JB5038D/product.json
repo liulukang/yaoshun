@@ -39,12 +39,12 @@
   },
   "pricing": {
     "display": {
-      "zh": "¥58.76",
-      "en": "¥58.76"
+      "zh": "$9.04",
+      "en": "$9.04"
     },
-    "currency": "CNY",
-    "min": 58.76,
-    "max": 58.76,
+    "currency": "$",
+    "min": 9.04,
+    "max": 9.04,
     "isRange": false,
     "tiers": [
       {
@@ -52,7 +52,7 @@
           "zh": "价格",
           "en": "Price"
         },
-        "price": "¥58.76"
+        "price": "$9.04"
       }
     ]
   },

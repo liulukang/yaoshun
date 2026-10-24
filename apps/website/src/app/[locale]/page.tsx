@@ -129,28 +129,6 @@ function copy(locale: Locale) {
       zh: "中国广东省东莞市茶山镇伟兴路3号",
     }),
     mapAlt: t(locale, { en: "Global service map", zh: "全球服务地图" }),
-    sourcingBriefTitle: t(locale, {
-      en: "A practical toy OEM/ODM sourcing partner",
-      zh: "面向采购落地的玩具 OEM/ODM 合作伙伴",
-    }),
-    sourcingBriefText: t(locale, {
-      en: "Yaoshun helps buyers move from a product idea to an export-ready toy program. Share a drawing, sample, target quantity, packaging plan, or target market and the team can review the structure, recommend materials, coordinate tooling and sampling, then plan molding, assembly, quality checks, packaging, and delivery. The catalog covers fort building kits, outdoor play, science and STEM toys, robots and RC products, play tents, drones, and portable fans, so buyers can compare ready products before asking for customization.",
-      zh: "尧顺帮助采购方把产品想法推进为可交付的玩具项目。客户可提供图纸、样品、目标数量、包装方案或目标市场，由团队评估结构、建议材料、协调开模打样，并继续推进注塑、组装、质量检验、包装与交付。产品目录覆盖堡垒拼搭、户外玩具、科学与 STEM 玩具、机器人遥控、游戏帐篷、无人机和便携风扇，采购方可先比较现有产品，再提出定制需求。",
-    }),
-    sourcingBriefPoints: [
-      t(locale, {
-        en: "Use category pages to narrow the product family and product pages to verify model-level specifications.",
-        zh: "先通过品类页缩小产品范围，再通过产品页核对型号级规格。",
-      }),
-      t(locale, {
-        en: "Ask about MOQ, samples, packaging, compliance files, and lead time with the intended market and quantity included.",
-        zh: "询价时请一并说明目标市场、数量，并确认 MOQ、打样、包装、合规资料和交期。",
-      }),
-      t(locale, {
-        en: "Treat displayed prices and delivery ranges as project references until the team confirms the final brief.",
-        zh: "页面价格和交期范围仅作项目参考，最终信息以团队确认的项目文件为准。",
-      }),
-    ],
   };
 }
 
@@ -539,24 +517,6 @@ export default async function HomePage({
             );
           })}
         </div>
-      </section>
-
-      <section className="home-sourcing-brief home-surface" aria-labelledby="home-sourcing-brief-title">
-        <div className="home-sourcing-brief-copy">
-          <p className="home-eyebrow">{t(locale, {en: "B2B SOURCING BRIEF", zh: "B2B 采购指南"})}</p>
-          <h2 className="home-section-title" id="home-sourcing-brief-title">
-            {text.sourcingBriefTitle}
-          </h2>
-          <p className="home-sourcing-brief-text">{text.sourcingBriefText}</p>
-        </div>
-        <ul className="home-sourcing-brief-list">
-          {text.sourcingBriefPoints.map((point) => (
-            <li key={point}>
-              <ShieldCheck size={17} strokeWidth={2.1} />
-              <span>{point}</span>
-            </li>
-          ))}
-        </ul>
       </section>
 
       <section className="home-about">

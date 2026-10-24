@@ -4,6 +4,7 @@ import {notFound} from "next/navigation";
 import "@/styles/pages/products.css";
 
 import {ProductsCatalogClient} from "@/components/products/products-catalog-client";
+import {Breadcrumbs} from "@/components/ui/marketing";
 import {StructuredData} from "@/components/seo/structured-data";
 import {productCategoryContent, productCollections} from "@/content/pages/products";
 import {buildMetadata} from "@/lib/metadata";
@@ -149,18 +150,26 @@ export default async function ProductCategoryPage({
   ];
 
   return (
-    <div className="products-page">
+    <div className="products-page products-category-page">
       <StructuredData data={structuredData} />
-      <header className="products-hero">
-        <div className="products-hero-inner">
-          <div className="products-hero-grid">
-            <div className="products-hero-copy">
-              <p className="products-hero-eyebrow">
-                {t(locale, {en: "Yaoshun Source Factory Category", zh: "尧顺源头工厂品类"})}
-              </p>
-              <h1 className="products-hero-title">{copy.label}</h1>
-              <p className="products-hero-text">{copy.description}</p>
-            </div>
+      <header className="products-category-intro">
+        <div className="products-category-intro-inner">
+          <Breadcrumbs
+            className="products-category-breadcrumbs"
+            items={[
+              {href: homeHref, label: {en: "Home", zh: "首页"}},
+              {href: productsHref, label: {en: "Products", zh: "产品"}},
+              {label: category.label},
+            ]}
+            locale={locale}
+            trackingLocation="product_category_breadcrumbs"
+          />
+          <div className="products-category-intro-copy">
+            <p className="products-category-intro-eyebrow">
+              {t(locale, {en: "Yaoshun Source Factory Category", zh: "尧顺源头工厂品类"})}
+            </p>
+            <h1 className="products-category-intro-title">{copy.label}</h1>
+            <p className="products-category-intro-text">{copy.description}</p>
           </div>
         </div>
       </header>

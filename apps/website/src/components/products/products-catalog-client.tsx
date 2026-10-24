@@ -1,6 +1,6 @@
 "use client";
 
-import {useEffect, useMemo, useState, useSyncExternalStore} from "react";
+import {useEffect, useMemo, useRef, useState, useSyncExternalStore} from "react";
 import type {MouseEvent} from "react";
 import {ArrowRight, Package2} from "lucide-react";
 import Image from "@/components/media/smart-image";
@@ -113,6 +113,7 @@ export function ProductsCatalogClient({
   text,
 }: ProductsCatalogClientProps) {
   const [query, setQuery] = useState<SearchParamMap>(initialQuery);
+  const activeCategoryLinkRef = useRef<HTMLAnchorElement | null>(null);
   const isMobileViewport = useSyncExternalStore(
     subscribeToMobileViewport,
     getMobileViewportSnapshot,
@@ -138,6 +139,14 @@ export function ProductsCatalogClient({
       window.removeEventListener("popstate", syncFromUrl);
     };
   }, [initialQuery.category, initialQuery.page]);
+
+  useEffect(() => {
+    activeCategoryLinkRef.current?.scrollIntoView({
+      behavior: "smooth",
+      block: "nearest",
+      inline: "center",
+    });
+  }, [query.category]);
 
   const sortedCatalog = useMemo(
     () =>
@@ -219,6 +228,7 @@ export function ProductsCatalogClient({
                     ? "products-category-link active"
                     : "products-category-link"
                 }
+                ref={!query.category ? activeCategoryLinkRef : undefined}
                 data-track-category="all"
                 data-track-destination={productsHref}
                 data-track-event="filter_select"
@@ -244,6 +254,11 @@ export function ProductsCatalogClient({
                       query.category === collection.key
                         ? "products-category-link active"
                         : "products-category-link"
+                    }
+                    ref={
+                      query.category === collection.key
+                        ? activeCategoryLinkRef
+                        : undefined
                     }
                     data-track-category={collection.key}
                     data-track-destination={href}

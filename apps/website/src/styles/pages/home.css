@@ -522,6 +522,7 @@
 }
 
 .home-stats {
+  --home-stats-float: clamp(1.75rem, 3.5vw, 3.25rem);
   display: grid;
   gap: 0.4rem;
   align-items: stretch;
@@ -530,11 +531,33 @@
   padding: 1rem 1.1rem;
   position: relative;
   margin-top: -3.8rem;
+  margin-bottom: calc(var(--home-stats-float) * -1);
+  transform: translateY(calc(var(--home-stats-float) * -1));
   z-index: 2;
   border: 1px solid rgba(24, 56, 138, 0.08);
   background: rgba(255, 255, 255, 0.92);
   box-shadow: 0 26px 50px -38px rgba(18, 39, 96, 0.24);
   backdrop-filter: blur(18px);
+}
+
+@media (min-width: 768px) {
+  .home-stats {
+    top: 15px;
+  }
+}
+
+@media (hover: hover) {
+  .home-stats.home-surface:hover {
+    transform: translateY(calc(var(--home-stats-float) * -1));
+    border-color: rgba(24, 56, 138, 0.08);
+    box-shadow: 0 26px 50px -38px rgba(18, 39, 96, 0.24);
+  }
+
+  .home-stats .home-stat-item:hover {
+    transform: none;
+    border-color: transparent;
+    box-shadow: none;
+  }
 }
 
 .home-stat-item {
@@ -769,54 +792,6 @@
 .home-product-type-link:hover .home-product-type-arrow {
   color: #2563ff;
   transform: translateX(2px);
-}
-
-.home-sourcing-brief {
-  display: grid;
-  grid-template-columns: minmax(0, 1.25fr) minmax(18rem, 0.75fr);
-  gap: clamp(1.5rem, 4vw, 4rem);
-  width: 100%;
-  min-width: 0;
-  padding: clamp(2rem, 4vw, 3.1rem) var(--home-section-padding-x);
-  border: 1px solid rgba(37, 99, 255, 0.08);
-  border-radius: 1.45rem;
-  background: linear-gradient(135deg, #f7faff 0%, #ffffff 72%);
-}
-
-.home-sourcing-brief-copy {
-  min-width: 0;
-}
-
-.home-sourcing-brief-text {
-  max-width: 64rem;
-  margin: 1rem 0 0;
-  color: #53648f;
-  font-size: 0.98rem;
-  line-height: 1.85;
-}
-
-.home-sourcing-brief-list {
-  display: grid;
-  align-content: center;
-  gap: 0.95rem;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.home-sourcing-brief-list li {
-  display: flex;
-  align-items: flex-start;
-  gap: 0.7rem;
-  color: #29427e;
-  font-size: 0.9rem;
-  line-height: 1.6;
-}
-
-.home-sourcing-brief-list svg {
-  flex: 0 0 auto;
-  margin-top: 0.15rem;
-  color: #2563ff;
 }
 
 .home-why {
@@ -1307,6 +1282,7 @@
   }
 
   .home-stats {
+    --home-stats-float: 1.2rem;
     margin-top: -1.1rem;
   }
 
@@ -1356,28 +1332,7 @@
   }
 
   .home-product-types {
-    padding: 0;
-  }
-
-  .home-sourcing-brief {
-    grid-template-columns: 1fr;
-    gap: 1.2rem;
-    padding: 1.35rem 1rem;
-    border-radius: 1rem;
-  }
-
-  .home-sourcing-brief-text {
-    margin-top: 0.7rem;
-    font-size: 0.82rem;
-    line-height: 1.72;
-  }
-
-  .home-sourcing-brief-list {
-    gap: 0.72rem;
-  }
-
-  .home-sourcing-brief-list li {
-    font-size: 0.78rem;
+    padding: var(--home-section-padding-y) var(--home-section-padding-x);
   }
 
   .home-product-types-text {
