@@ -10,6 +10,7 @@ function normalizeSiteUrl(value: string): string {
 
 export const siteUrl = normalizeSiteUrl(rawSiteUrl);
 export const siteHomeUrl = `${siteUrl}/`;
+export const siteWebsiteId = `${siteUrl}#website`;
 export const siteName = "Yaoshun Toys";
 export const siteLegalName = "Dongguan Yaoshun Technology Co., Ltd.";
 export const siteAlternateNames = [

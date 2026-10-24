@@ -5,7 +5,7 @@ export const aboutContent = {
       zh: "关于尧顺 | 东莞玩具 OEM/ODM 工厂",
     },
     description: {
-      en: "Learn about Yaoshun, a Dongguan fort building toy factory and toy OEM/ODM partner for fort building kit production, molding, packaging, compliance and export delivery.",
+      en: "Meet Yaoshun, a Dongguan fort building toy factory offering OEM/ODM development, molding, packaging, compliance support and export delivery.",
       zh: "了解尧顺东莞源头工厂：主营堡垒拼搭玩具、STEM搭建套装，支持玩具 OEM/ODM、注塑、包装、合规资料与出口交付。",
     },
     keywords: {

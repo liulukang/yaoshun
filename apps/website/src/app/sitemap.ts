@@ -4,11 +4,12 @@ import { products } from "@/content/site/products-catalog";
 import { productCollections } from "@/content/pages/products";
 import {
   getNewsLastModified,
+  getCategoryLastModified,
   getProductLastModified,
   getStaticRouteLastModified,
 } from "@/lib/content-lastmod";
 import { defaultLocale, localeRegistry, locales } from "@/lib/i18n";
-import { getNewsList } from "@/lib/site-data";
+import { getNewsList, getShowcaseCatalog } from "@/lib/site-data";
 import { localizedUrlPath, routePathMap, type RouteKey } from "@/lib/routes";
 import { siteUrl, toAbsoluteUrl } from "@/lib/site-config";
 
@@ -73,7 +74,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
       const path = `/products/category/${collection.key}`;
       entries.push({
         url: withBase(localizedUrlPath(locale, path)),
-        lastModified: getStaticRouteLastModified("/products"),
+        lastModified: getCategoryLastModified(collection.key, getShowcaseCatalog()
+          .filter((item) => item.collection === collection.key)
+          .map((item) => item.product.productId)),
         alternates: buildAlternates(path),
       });
     }
@@ -82,7 +85,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       const path = `/news/${article.slug}`;
       entries.push({
         url: withBase(localizedUrlPath(locale, path)),
-        lastModified: getNewsLastModified(article.slug, article.publishedAt),
+        lastModified: getNewsLastModified(article.slug, article.publishedAt, article.modifiedAt),
         alternates: buildAlternates(path),
         images: article.image ? [toAbsoluteUrl(article.image)] : undefined,
       });

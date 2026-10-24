@@ -209,7 +209,7 @@ export default async function NewsPage({
             <div className="news-hero-copy">
               <p className="news-eyebrow">{text.eyebrow}</p>
               <h1 className="news-hero-title">
-                <span>{text.heroTitleLine1}</span>
+                <span>{text.heroTitleLine1}</span>{locale === "en" ? " " : null}
                 <span>
                   <span className="hero-blue-word">{text.heroTitleLine2Blue}</span>{" "}
                   <span className="hero-orange-word">{text.heroTitleLine2Orange}</span>

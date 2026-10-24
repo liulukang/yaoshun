@@ -9,6 +9,7 @@ import {
   siteLegalName,
   siteName,
   siteUrl,
+  siteWebsiteId,
   toAbsoluteUrl,
 } from '@/lib/site-config';
 
@@ -79,7 +80,7 @@ export function SiteStructuredData({locale}: {locale: Locale}) {
         : 'Shipping method, destination, freight cost, trade terms, and delivery timing are confirmed by order quantity, packaging, and project documents.',
       fulfillmentType: 'https://schema.org/FulfillmentTypeDelivery'
     },
-    sameAs: [companyProfile.website, 'https://www.1688.com/factory/b2b-33834399288d4ed.html'],
+    sameAs: ['https://www.1688.com/factory/b2b-33834399288d4ed.html'],
     keywords: expertiseKeywords,
     knowsAbout: expertiseKeywords,
     areaServed: serviceRegions,
@@ -149,7 +150,7 @@ export function SiteStructuredData({locale}: {locale: Locale}) {
 
   const website = {
     '@type': 'WebSite',
-    '@id': `${siteUrl}#website`,
+    '@id': siteWebsiteId,
     name: siteName,
     alternateName: siteAlternateNames,
     url: siteHomeUrl,

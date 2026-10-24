@@ -49,10 +49,10 @@ export const faqItems = [
     },
   },
   {
-    question: {en: "Can you accept small-batch trial orders and what is your normal lead time?", zh: "可以做小批量试单吗？常规交期多久？"},
+    question: {en: "Can you accept trial orders and how long does sampling take?", zh: "可以做小批量试单吗？打样需要多久？"},
     answer: {
-      en: "Yes. We can start with samples or small-batch trial orders for feasibility review. Normal lead time is often around 7 to 15 days after project details are confirmed, while exact timing depends on tooling, quantity, finishing, and packaging requirements.",
-      zh: "可以。我们可以先从样品或小批量试单开始做可行性验证。项目细节确认后，常规交期通常在 7 到 15 天左右，具体时间会根据模具、数量、表面处理和包装要求确定。",
+      en: "Yes. We can start with samples or small-batch trial orders for feasibility review. Sample preparation typically takes around 7 to 15 days after project details are confirmed. Exact sampling time depends on tooling, finishing and packaging requirements. Trial-order and mass-production lead times are quoted separately for the agreed quantity and configuration.",
+      zh: "可以。我们可以先从样品或小批量试单开始做可行性验证。项目细节确认后，样品制作或打样通常约需 7 到 15 天，具体打样时间取决于模具、表面处理和包装要求。小批量试单与量产交期按确认的数量和配置另行评估。",
     },
   },
   {

@@ -63,7 +63,7 @@ const proofCards = [
   {
     icon: TimerReset,
     value: { en: "Rapid Sampling", zh: "快速打样" },
-    label: { en: "Typical lead-time planning", zh: "常规交期参考" },
+    label: { en: "Typical sampling time", zh: "常规打样周期参考" },
   },
   {
     icon: Boxes,
@@ -870,7 +870,7 @@ export default async function SolutionsPage({
             <h1 className="solutions-hero-title">
               <span>
                 {localized(locale, { en: "Custom Fort Building Kit", zh: "定制堡垒拼搭套装" })}
-              </span>
+              </span>{locale === "en" ? " " : null}
               <span>
                 <span className="hero-blue-word">
                   {localized(locale, { en: "OEM/ODM", zh: "OEM/ODM" })}
@@ -1281,8 +1281,8 @@ export default async function SolutionsPage({
                 </strong>
                 <span>
                   {localized(locale, {
-                    en: "Typical lead-time planning",
-                    zh: "常规交期规划",
+                    en: "Typical sampling time",
+                    zh: "常规打样周期规划",
                   })}
                 </span>
               </div>

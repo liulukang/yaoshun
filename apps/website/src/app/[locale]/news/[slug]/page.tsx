@@ -22,7 +22,7 @@ import {
 } from "@/lib/site-data";
 import { getNewsLastModified } from "@/lib/content-lastmod";
 import { getLocaleFromParams, locales, t, type Locale } from "@/lib/i18n";
-import { toAbsoluteUrl } from "@/lib/site-config";
+import { siteWebsiteId, toAbsoluteUrl } from "@/lib/site-config";
 import { newsArticles } from "@/content/pages/news";
 import { localizedPath, localizedUrlPath } from "@/lib/routes";
 
@@ -68,11 +68,10 @@ function localizeList(
 function getArticleModifiedAt(
   article: NonNullable<ReturnType<typeof findNewsArticle>>,
 ) {
-  if (article.modifiedAt) return article.modifiedAt;
-
   const sourceModifiedAt = getNewsLastModified(
     article.slug,
     article.publishedAt,
+    article.modifiedAt,
   )
     .toISOString()
     .slice(0, 10);
@@ -334,7 +333,7 @@ export default async function NewsDetailPage({
     inLanguage: locale === "zh" ? "zh-CN" : "en-US",
     isPartOf: {
       "@type": "WebSite",
-      "@id": `${toAbsoluteUrl("/")}#website`,
+      "@id": siteWebsiteId,
     },
     about: {
       "@type": "Service",

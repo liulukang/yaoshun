@@ -89,13 +89,28 @@ function optimizeSeoTitle(title: string) {
   return truncateSeoText(withoutBrandSuffix, limit);
 }
 
-function optimizeSeoDescription(description: string) {
+function optimizeSeoDescription(description: string, locale: Locale, path: string) {
   const normalized = description.replace(/\s+/g, " ").trim();
   const limit = containsCjk(normalized)
     ? CJK_DESCRIPTION_LIMIT
     : SEO_DESCRIPTION_LIMIT;
 
-  return truncateSeoText(normalized, limit);
+  // Length is an editorial guide. Never cut a sentence just to meet it.
+  const sentences = new Intl.Segmenter(locale, { granularity: "sentence" })
+    .segment(normalized);
+  let summary = "";
+  for (const { segment } of sentences) {
+    const candidate = `${summary}${segment}`;
+    if (summary && Array.from(candidate.trim()).length > limit) break;
+    summary = candidate;
+  }
+  const result = summary.trim();
+  if (process.env.NODE_ENV === "development" && Array.from(result).length > limit) {
+    console.warn(
+      `[SEO description] ${localizedUrlPath(locale, normalizePath(path))} (${locale}): ${Array.from(result).length} characters; review for brevity (guide: ${limit}).`,
+    );
+  }
+  return result;
 }
 
 export function buildMetadata(
@@ -107,7 +122,7 @@ export function buildMetadata(
   options: BuildMetadataOptions = {},
 ): Metadata {
   const seoTitle = optimizeSeoTitle(title);
-  const seoDescription = optimizeSeoDescription(description);
+  const seoDescription = optimizeSeoDescription(description, locale, path);
   const normalizedPath = normalizePath(path);
   const localePath = localizedUrlPath(locale, normalizedPath);
   const canonical = `${siteUrl}${localePath}`;

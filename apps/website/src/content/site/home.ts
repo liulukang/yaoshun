@@ -7,7 +7,7 @@ export const homeContent = {
       zh: '尧顺玩具 | 东莞源头玩具工厂'
     },
     description: {
-      en: 'Yaoshun is a fort building kit manufacturer in Dongguan, China, providing wholesale fort building toys, OEM/ODM development, custom packaging and private-label manufacturing for global brands, importers and retailers.',
+      en: 'Yaoshun manufactures fort building kits in Dongguan, China, with wholesale supply, OEM/ODM development and private-label packaging for global buyers.',
       zh: '尧顺是东莞源头玩具工厂，主营堡垒拼搭玩具、STEM搭建套装和定制玩具 OEM/ODM，支持开模、注塑、包装与出口交付。'
     },
     keywords: {

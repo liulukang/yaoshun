@@ -5,7 +5,7 @@ export const contactContent = {
       zh: '玩具制造报价 | 尧顺东莞工厂'
     },
     description: {
-      en: 'Contact Yaoshun for fort building toy, fort building kit, construction toys wholesale and custom toy OEM/ODM quotes, sampling, mold evaluation, packaging and export delivery support.',
+      en: 'Contact Yaoshun for fort building kit wholesale and toy OEM/ODM quotes, sampling, mold evaluation, packaging and export delivery support.',
       zh: '联系尧顺获取堡垒拼搭玩具、STEM搭建套装和定制玩具 OEM/ODM 报价，支持打样、开模评估、包装与出口交付。'
     },
     keywords: {

@@ -745,7 +745,7 @@ export default async function AboutPage({
           <div className="about-hero-copy">
             <p className="about-hero-eyebrow">{text.heroEyebrow}</p>
             <h1 className="about-hero-title">
-              <span>{text.heroTitleLine1}</span>
+              <span>{text.heroTitleLine1}</span>{locale === "en" ? " " : null}
               <span className="hero-blue-word">{text.heroTitleLine2}</span>
             </h1>
             <p className="about-hero-text">{text.heroText}</p>

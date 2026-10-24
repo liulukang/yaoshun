@@ -5,7 +5,7 @@ export const newsContent = {
       zh: "玩具 OEM/ODM 新闻与工厂动态 | 尧顺玩具",
     },
     description: {
-      en: "Factory updates and practical explainers on fort building toy, fort building kit, construction toys wholesale, toy OEM/ODM, safety compliance, quality control and delivery.",
+      en: "Read Yaoshun factory updates and guides on fort building kits, toy OEM/ODM, wholesale sourcing, safety compliance, quality control and delivery.",
       zh: "查看堡垒搭建套装项目、STEM玩具采购、搭建堡垒玩法、玩具 OEM/ODM、注塑、质量管理与交付执行的工厂动态。",
     },
     keywords: {

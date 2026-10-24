@@ -244,11 +244,8 @@ export default async function ContactPage({
         <article className="contact-company-panel">
           <div className="contact-panel-head">
             <p className="contact-mini-eyebrow">{text.aboutBrand}</p>
-            <h1>
-              <span className="contact-desktop-only">{siteCopy.companyName[locale]}</span>
-              <span className="contact-mobile-only">{t(locale, siteCopy.headerCta)}</span>
-            </h1>
-            <p className="contact-mobile-only contact-company-name">
+            <h1>{t(locale, siteCopy.headerCta)}</h1>
+            <p className="contact-company-name">
               {siteCopy.companyName[locale]}
             </p>
             <p className="contact-desktop-only">{siteCopy.companyIntro[locale]}</p>

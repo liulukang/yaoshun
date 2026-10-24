@@ -5,7 +5,7 @@ export const productsPageContent = {
       zh: '玩具产品目录 | 批发与 OEM/ODM | 尧顺玩具'
     },
     description: {
-      en: 'Explore Yaoshun toy categories including fort building, sports, science kits, robots, play tents, drones and portable fans. Product pages bring together specifications, packaging, use scenarios and OEM/ODM support for wholesale sourcing.',
+      en: 'Explore Yaoshun fort building kits, sports toys, science kits, robots, play tents, drones and portable fans for wholesale and OEM/ODM sourcing.',
       zh: '浏览尧顺堡垒拼搭、运动户外、科学实验、机器人遥控、儿童游戏帐篷、无人机与便携风扇等玩具产品，集中了解规格、包装、适用场景及批发、OEM/ODM 定制支持。'
     },
     detailTitleTemplate: {

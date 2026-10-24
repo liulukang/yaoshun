@@ -1,174 +1,82 @@
 import "server-only";
 
-import { execFileSync } from "node:child_process";
-import { existsSync, statSync } from "node:fs";
-import path from "node:path";
+import contentFileDates from "@/content/content-file-dates.json";
+import {newsArticles, newsSourcePathBySlug} from "@/content/pages/news";
+import {seoRevisions} from "@/content/seo-revisions";
+import {productSourcePathById} from "@/content/site/products-catalog";
 
-import { newsSourcePathBySlug } from "@/content/pages/news";
-import { productSourcePathById } from "@/content/site/products-catalog";
-
-function findRepositoryRoot(startPath: string) {
-  let currentPath = path.resolve(startPath);
-
-  while (true) {
-    if (existsSync(path.join(currentPath, ".git"))) {
-      return currentPath;
-    }
-
-    const parentPath = path.dirname(currentPath);
-    if (parentPath === currentPath) {
-      return undefined;
-    }
-
-    currentPath = parentPath;
-  }
-}
-
-const REPOSITORY_ROOT = findRepositoryRoot(process.cwd());
-const APPLICATION_ROOT = existsSync(path.join(process.cwd(), "src", "app"))
-  ? process.cwd()
-  : path.join(process.cwd(), "apps", "website");
-const FALLBACK_DATE = new Date("2026-01-01T00:00:00.000Z");
-const NEWS_CONTENT_PATH = "apps/website/src/content/pages/news.ts";
-const lastModifiedCache = new Map<string, Date | undefined>();
-
+// Only content sources belong here. TSX templates, CSS and import registries
+// are intentionally excluded; meaningful shared changes use seoRevisions.
 const staticRouteSourcePaths: Record<string, string[]> = {
-  "": [
-    "apps/website/src/app/[locale]/page.tsx",
-    "apps/website/src/content/site/home.ts",
-    "apps/website/src/content/pages/home.ts",
-    "apps/website/src/content/pages/certificates.ts",
-    "apps/website/src/content/pages/company-showcase.ts",
-    "apps/website/src/content/site/shared.ts",
-  ],
-  "/about": [
-    "apps/website/src/app/[locale]/about/page.tsx",
-    "apps/website/src/content/site/about.ts",
-    "apps/website/src/content/pages/certificates.ts",
-    "apps/website/src/content/pages/company-showcase.ts",
-    "apps/website/src/content/site/shared.ts",
-  ],
-  "/solutions": [
-    "apps/website/src/app/[locale]/solutions/page.tsx",
-    "apps/website/src/content/site/solutions.ts",
-    "apps/website/src/content/pages/solutions.ts",
-    "apps/website/src/content/site/shared.ts",
-  ],
-  "/products": [
-    "apps/website/src/app/[locale]/products/page.tsx",
-    "apps/website/src/content/site/products.ts",
-    "apps/website/src/content/pages/products.ts",
-    "apps/website/src/content/site/products-catalog.ts",
-    "apps/website/src/content/site/shared.ts",
-  ],
-  "/news": [
-    "apps/website/src/app/[locale]/news/page.tsx",
-    "apps/website/src/content/site/news.ts",
-    NEWS_CONTENT_PATH,
-    "apps/website/src/content/site/shared.ts",
-  ],
-  "/faq": [
-    "apps/website/src/app/[locale]/faq/page.tsx",
-    "apps/website/src/content/site/faq.ts",
-    "apps/website/src/content/pages/faq.ts",
-    "apps/website/src/content/site/shared.ts",
-  ],
-  "/contact": [
-    "apps/website/src/app/[locale]/contact/page.tsx",
-    "apps/website/src/content/site/contact.ts",
-    "apps/website/src/content/pages/contact.ts",
-    "apps/website/src/content/site/shared.ts",
-  ],
-  "/privacy": [
-    "apps/website/src/app/[locale]/privacy/page.tsx",
-    "apps/website/src/content/site/privacy.ts",
-    "apps/website/src/components/sections/legal-document-page.tsx",
-  ],
-  "/refund-return": [
-    "apps/website/src/app/[locale]/refund-return/page.tsx",
-    "apps/website/src/content/site/refund-return.ts",
-    "apps/website/src/components/sections/legal-document-page.tsx",
-  ],
-  "/terms": [
-    "apps/website/src/app/[locale]/terms/page.tsx",
-    "apps/website/src/content/site/terms.ts",
-    "apps/website/src/components/sections/legal-document-page.tsx",
-  ],
+  "": ["site/home.ts", "pages/home.ts", "pages/certificates.ts", "pages/company-showcase.ts", "site/shared.ts"],
+  "/about": ["site/about.ts", "pages/certificates.ts", "pages/company-showcase.ts", "site/shared.ts"],
+  "/solutions": ["site/solutions.ts", "pages/solutions.ts", "site/shared.ts"],
+  "/products": ["site/products.ts", "pages/products.ts", "site/shared.ts"],
+  "/news": ["site/news.ts", "site/shared.ts"],
+  "/faq": ["site/faq.ts", "pages/faq.ts", "site/shared.ts"],
+  "/contact": ["site/contact.ts", "pages/contact.ts", "site/shared.ts"],
+  "/privacy": ["site/privacy.ts"],
+  "/refund-return": ["site/refund-return.ts"],
+  "/terms": ["site/terms.ts"],
 };
 
-function getFileLastModified(relativePath: string): Date | undefined {
-  const cached = lastModifiedCache.get(relativePath);
-  if (cached) return cached;
-
-  if (REPOSITORY_ROOT) {
-    try {
-      const committedAt = execFileSync(
-        "git",
-        ["log", "-1", "--format=%cI", "--", relativePath],
-        {cwd: REPOSITORY_ROOT, encoding: "utf8"},
-      ).trim();
-      const committedDate = new Date(committedAt);
-
-      if (committedAt && Number.isFinite(committedDate.getTime())) {
-        lastModifiedCache.set(relativePath, committedDate);
-        return committedDate;
-      }
-    } catch {
-      // Fall through to the filesystem timestamp when Git metadata is unavailable.
-    }
-  }
-
-  try {
-    const appRelativePath = relativePath.replace(/^apps\/website\//, "");
-    const filePath = REPOSITORY_ROOT
-      ? path.join(REPOSITORY_ROOT, relativePath)
-      : path.join(APPLICATION_ROOT, appRelativePath);
-    const modifiedAt = statSync(filePath).mtime;
-    lastModifiedCache.set(relativePath, modifiedAt);
-    return modifiedAt;
-  } catch {
-    lastModifiedCache.set(relativePath, undefined);
-    return undefined;
-  }
+function parseDate(value: string | undefined): Date | undefined {
+  if (!value) return undefined;
+  const date = new Date(value);
+  return Number.isFinite(date.getTime()) ? date : undefined;
 }
 
-function getLatestDate(dates: Array<Date | undefined>): Date {
-  const timestamps = dates
-    .map((value) => value?.getTime())
-    .filter((value): value is number => Number.isFinite(value));
-
-  if (timestamps.length === 0) {
-    return FALLBACK_DATE;
-  }
-
-  return new Date(Math.max(...timestamps));
+function getFileLastModified(sourcePath: string | undefined) {
+  return sourcePath
+    ? parseDate((contentFileDates as Record<string, string>)[sourcePath])
+    : undefined;
 }
 
-export function getStaticRouteLastModified(route: string): Date {
-  const sourcePaths = [
-    ...(staticRouteSourcePaths[route] || []),
-    ...(route === "/news" ? Array.from(newsSourcePathBySlug.values()) : []),
-  ];
-  return getLatestDate(sourcePaths.map(getFileLastModified));
+function getLatestDate(dates: Array<Date | undefined>): Date | undefined {
+  const timestamps = dates.flatMap((value) => value ? [value.getTime()] : []);
+  return timestamps.length ? new Date(Math.max(...timestamps)) : undefined;
 }
 
-export function getProductLastModified(productId: string): Date {
-  const sourcePath = productSourcePathById.get(productId);
+export function getStaticRouteLastModified(route: string): Date | undefined {
   return getLatestDate([
-    sourcePath ? getFileLastModified(sourcePath) : undefined,
-    getFileLastModified("apps/website/src/app/[locale]/products/[slug]/page.tsx"),
-    getFileLastModified("apps/website/src/content/site/products-catalog.ts"),
+    parseDate(seoRevisions.site),
+    parseDate(seoRevisions.routes[route]),
+    ...(staticRouteSourcePaths[route] || []).map((file) =>
+      getFileLastModified(`apps/website/src/content/${file}`),
+    ),
+    ...(route === "/products"
+      ? Array.from(productSourcePathById.keys(), getProductLastModified)
+      : []),
+    ...(route === "/news"
+      ? newsArticles.map((article) => getNewsLastModified(article.slug, article.publishedAt, article.modifiedAt))
+      : []),
   ]);
 }
 
-export function getNewsLastModified(slug: string, publishedAt: string): Date {
-  const publishedDate = new Date(`${publishedAt}T00:00:00.000Z`);
-  const sourcePath = newsSourcePathBySlug.get(slug);
-
+export function getProductLastModified(productId: string): Date | undefined {
   return getLatestDate([
-    publishedDate,
-    sourcePath ? getFileLastModified(sourcePath) : undefined,
-    getFileLastModified(NEWS_CONTENT_PATH),
-    getFileLastModified("apps/website/src/app/[locale]/news/[slug]/page.tsx"),
+    getFileLastModified(productSourcePathById.get(productId)),
+    parseDate(seoRevisions.site),
+    parseDate(seoRevisions.products),
   ]);
+}
+
+export function getCategoryLastModified(category: string, productIds: string[]): Date | undefined {
+  return getLatestDate([
+    getFileLastModified("apps/website/src/content/pages/products.ts"),
+    parseDate(seoRevisions.site),
+    parseDate(seoRevisions.categories[category]),
+    ...productIds.map(getProductLastModified),
+  ]);
+}
+
+export function getNewsLastModified(slug: string, publishedAt: string, modifiedAt?: string): Date {
+  // publishedAt is required content, so articles always have a reliable date.
+  return getLatestDate([
+    parseDate(publishedAt),
+    parseDate(modifiedAt),
+    getFileLastModified(newsSourcePathBySlug.get(slug)),
+    parseDate(seoRevisions.site),
+    parseDate(seoRevisions.news),
+  ]) ?? new Date(publishedAt);
 }

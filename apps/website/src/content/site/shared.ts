@@ -133,7 +133,7 @@ export const seoKeywordPools = {
       "mold making and sampling",
       "assembly and packaging factory",
       "export-ready toy delivery",
-      "7-15 days regular lead time",
+      "7-15 days typical sampling time",
     ],
     zh: [
       "塑胶玩具定制厂家",
@@ -147,7 +147,7 @@ export const seoKeywordPools = {
       "开模打样",
       "组装包装工厂",
       "玩具出口交付",
-      "7-15天常规交付",
+      "7-15天常规打样",
     ],
   },
   customization: {
@@ -434,7 +434,7 @@ export const siteStats = [
   },
   {
     value: { en: "7-15 Days", zh: "7-15 天" },
-    label: { en: "Regular lead time", zh: "常规交付周期" },
+    label: { en: "Typical sampling time", zh: "常规打样周期" },
   },
   {
     value: { en: "RoHS / REACH", zh: "RoHS / REACH" },

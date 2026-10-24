@@ -43,9 +43,8 @@ export function SourceFactorySection({
                 className={styles.factoryImage}
                 fill
                 preview
-                sizes="(min-width: 1024px) 26vw, (min-width: 768px) 42vw, 100vw"
+                sizes="(min-width: 1440px) 400px, (min-width: 1024px) 28vw, 44vw"
                 src={item.image}
-                unoptimized={item.image.startsWith("http")}
               />
             </div>
             <div className={styles.factoryLabel}>{item.title[locale]}</div>

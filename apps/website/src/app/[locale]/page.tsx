@@ -45,7 +45,7 @@ import {
   partnerItems,
   sourceFactorySectionCopy,
 } from "@/content/pages/company-showcase";
-import { siteUrl, toAbsoluteUrl } from "@/lib/site-config";
+import { siteUrl, siteWebsiteId, toAbsoluteUrl } from "@/lib/site-config";
 
 function copy(locale: Locale) {
   return {
@@ -214,7 +214,7 @@ export default async function HomePage({
         "@id": `${siteUrl}#organization`,
       },
       isPartOf: {
-        "@id": `${siteUrl}#website`,
+        "@id": siteWebsiteId,
       },
     },
     {
@@ -249,7 +249,7 @@ export default async function HomePage({
         >
           <p className="home-eyebrow">{text.eyebrow}</p>
           <h1 className="home-hero-title">
-            <span>{text.heroLine1}</span>
+            <span>{text.heroLine1}</span>{locale === "en" ? " " : null}
             <span>
               {text.heroLine2a}{" "}
               <span className="home-blue-word">{text.heroLine2b}</span>{" "}
@@ -351,8 +351,8 @@ export default async function HomePage({
             {
               value: "7-15 Days",
               label: t(locale, {
-                en: "Regular Lead Time",
-                zh: "常规交付周期",
+                en: "Typical Sampling Time",
+                zh: "常规打样周期",
               }),
               icon: Clock3,
             },
@@ -590,7 +590,7 @@ export default async function HomePage({
               },
               {
                 value: "7-15 Days",
-                label: t(locale, { en: "Regular Lead Time", zh: "常规交期" }),
+                label: t(locale, { en: "Typical Sampling Time", zh: "常规打样周期" }),
               },
               {
                 value: "±0.01mm",
@@ -678,8 +678,8 @@ export default async function HomePage({
                   zh: "灵活的生产规划",
                 }),
                 text: t(locale, {
-                  en: "We support samples, small-batch trial orders, and bulk production with a normal project rhythm of about 7 to 15 days.",
-                  zh: "支持样品、小批量试单和批量生产，许多常规项目可按 7 到 15 天左右节奏推进。",
+                  en: "We support samples, trial orders and bulk production. Sampling typically takes 7 to 15 days after project details are confirmed; production timing is assessed separately.",
+                  zh: "支持样品、小批量试单和批量生产。项目细节确认后，打样通常约需 7 到 15 天，试单与量产交期另行评估。",
                 }),
                 icon: Factory,
               },
