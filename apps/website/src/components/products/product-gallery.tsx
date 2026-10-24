@@ -51,7 +51,12 @@ export function ProductGallery({
   }
 
   return (
-    <div className="product-gallery grid min-w-0 gap-4">
+    <div
+      className="product-gallery grid min-w-0 gap-4"
+      data-image-preview-gallery={JSON.stringify(
+        normalized.map((src, index) => ({src, alt: `${title} ${index + 1}`})),
+      )}
+    >
       <div className="relative overflow-hidden rounded-[1.35rem] border border-[rgba(24,56,138,0.08)] bg-[radial-gradient(circle_at_top,rgba(37,99,255,0.06),transparent_42%),linear-gradient(180deg,#f7faff_0%,#ffffff_100%)] shadow-[0_18px_44px_-34px_rgba(18,41,103,0.16)] sm:rounded-[1.7rem]">
         <button
           aria-label={text.open}

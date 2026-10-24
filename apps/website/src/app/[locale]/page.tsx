@@ -31,9 +31,9 @@ import { siteCopy } from "@/components/layout/site-shell.data";
 import { homeContent } from "@/content/site";
 import { buildPageMetadata } from "@/lib/metadata";
 import { getLocaleFromParams, t, type Locale } from "@/lib/i18n";
-import { getHomeFeaturedShowcaseCatalog } from "@/lib/site-data";
-import { localizedPath, productPath } from "@/lib/routes";
-import { homePageImages } from "@/content/pages/home";
+import { getHomeFeaturedShowcaseCatalog, getShowcaseCatalog } from "@/lib/site-data";
+import { localizedPath, localizedUrlPath, productPath } from "@/lib/routes";
+import { homePageImages, homeProductCollections } from "@/content/pages/home";
 import {
   certificateItems,
   certificateSectionCopy,
@@ -67,6 +67,13 @@ function copy(locale: Locale) {
     explore: t(locale, { en: "Explore Fort Building Kits", zh: "探索堡垒拼搭套装" }),
     learnMore: t(locale, { en: "About Yaoshun Toy Factory", zh: "了解尧顺玩具工厂" }),
     bestsellers: t(locale, { en: "Our Bestsellers", zh: "热销产品" }),
+    productTypesLead: t(locale, { en: "Our", zh: "我们的" }),
+    productTypesAccent: t(locale, { en: "Toy Types", zh: "玩具类型" }),
+    productTypesTags: t(locale, {
+      en: "Fort Building · Sports & Outdoor · Robots & RC · Drones",
+      zh: "堡垒拼搭 · 运动户外 · 机器人遥控 · 无人机",
+    }),
+    productTypesCount: t(locale, { en: "products", zh: "款产品" }),
     whyChoose: t(locale, {
       en: "Why Choose yaoshun toys?",
       zh: "为什么选择 yaoshun toys？",
@@ -104,7 +111,7 @@ function copy(locale: Locale) {
       en: "Fort Building Kit · Connector Ball Tent · Make A Fort Toy",
       zh: "搭建玩具 · 定制玩具 · 源头工厂",
     }),
-    viewAllProducts: t(locale, { en: "Explore Fort Building Kits", zh: "探索堡垒拼搭套装" }),
+    viewAllProducts: t(locale, { en: "View All Products", zh: "查看全部产品" }),
     whyChooseLead: t(locale, { en: "Why Choose", zh: "为什么选择" }),
     whyImageAlt: t(locale, {
       en: "Child building a creative structure toy",
@@ -122,6 +129,28 @@ function copy(locale: Locale) {
       zh: "中国广东省东莞市茶山镇伟兴路3号",
     }),
     mapAlt: t(locale, { en: "Global service map", zh: "全球服务地图" }),
+    sourcingBriefTitle: t(locale, {
+      en: "A practical toy OEM/ODM sourcing partner",
+      zh: "面向采购落地的玩具 OEM/ODM 合作伙伴",
+    }),
+    sourcingBriefText: t(locale, {
+      en: "Yaoshun helps buyers move from a product idea to an export-ready toy program. Share a drawing, sample, target quantity, packaging plan, or target market and the team can review the structure, recommend materials, coordinate tooling and sampling, then plan molding, assembly, quality checks, packaging, and delivery. The catalog covers fort building kits, outdoor play, science and STEM toys, robots and RC products, play tents, drones, and portable fans, so buyers can compare ready products before asking for customization.",
+      zh: "尧顺帮助采购方把产品想法推进为可交付的玩具项目。客户可提供图纸、样品、目标数量、包装方案或目标市场，由团队评估结构、建议材料、协调开模打样，并继续推进注塑、组装、质量检验、包装与交付。产品目录覆盖堡垒拼搭、户外玩具、科学与 STEM 玩具、机器人遥控、游戏帐篷、无人机和便携风扇，采购方可先比较现有产品，再提出定制需求。",
+    }),
+    sourcingBriefPoints: [
+      t(locale, {
+        en: "Use category pages to narrow the product family and product pages to verify model-level specifications.",
+        zh: "先通过品类页缩小产品范围，再通过产品页核对型号级规格。",
+      }),
+      t(locale, {
+        en: "Ask about MOQ, samples, packaging, compliance files, and lead time with the intended market and quantity included.",
+        zh: "询价时请一并说明目标市场、数量，并确认 MOQ、打样、包装、合规资料和交期。",
+      }),
+      t(locale, {
+        en: "Treat displayed prices and delivery ranges as project references until the team confirms the final brief.",
+        zh: "页面价格和交期范围仅作项目参考，最终信息以团队确认的项目文件为准。",
+      }),
+    ],
   };
 }
 
@@ -177,6 +206,7 @@ export default async function HomePage({
   const text = copy(locale);
   const pageUrl = toAbsoluteUrl(localizedPath(locale, "home"));
   const productsHref = localizedPath(locale, "products");
+  const productsCatalogHref = `${productsHref}#products-catalog`;
   const aboutHref = localizedPath(locale, "about");
   const featuredProducts = getHomeFeaturedShowcaseCatalog().map((item) => ({
     title: t(locale, item.label),
@@ -184,6 +214,12 @@ export default async function HomePage({
     href: productPath(locale, item.product.productId),
     image: item.images[0] || "",
     productId: item.product.productId,
+  }));
+  const showcaseCatalog = getShowcaseCatalog();
+  const productTypeItems = homeProductCollections.map((collection) => ({
+    ...collection,
+    count: showcaseCatalog.filter((item) => item.collection === collection.key).length,
+    href: localizedUrlPath(locale, `/products/category/${collection.key}`),
   }));
   const structuredData = [
     {
@@ -370,6 +406,159 @@ export default async function HomePage({
         </section>
       </div>
 
+      <section className="home-bestseller home-surface">
+        <div className="home-section-head">
+          <div>
+            <h2 className="home-section-title">
+              {text.bestsellersLead}{" "}
+              <span className="home-blue-word">{text.bestsellersAccent}</span>{" "}
+              <span className="home-orange-word">•</span>
+            </h2>
+            <p className="home-mini-tags">{text.bestsellersTags}</p>
+          </div>
+          <Link
+            className="home-inline-link view-accent-link"
+            data-track-destination={productsHref}
+            data-track-event="cta_click"
+            data-track-label="view_all_products"
+            data-track-location="home_bestsellers"
+            href={productsHref}
+          >
+            <span>{text.viewAllProducts}</span>
+            <ArrowRight size={15} strokeWidth={2.2} />
+          </Link>
+        </div>
+
+        <div className="home-product-row">
+          {featuredProducts.map((item) => (
+            <Link
+              className="home-product-card"
+              data-track-event="product_card_click"
+              data-track-label={item.productId}
+              data-track-location="home_bestsellers"
+              href={item.href}
+              key={item.title}
+              prefetch={false}
+            >
+              <div className="home-product-image-wrap">
+                {item.image ? (
+                  <Image
+                    alt={item.title}
+                    className="home-section-image home-product-image"
+                    fill
+                    sizes="(min-width: 1280px) 18rem, (min-width: 768px) 24vw, 100vw"
+                    src={item.image}
+                  />
+                ) : (
+                  <PlaceholderVisual
+                    compact
+                    className="home-product-placeholder"
+                    icon={
+                      item.title.includes("Connector")
+                        ? Circle
+                        : item.title.includes("3D")
+                          ? Blocks
+                          : item.title.includes("Large")
+                            ? House
+                            : PackageCheck
+                    }
+                    locale={locale}
+                    textless
+                    title={{ en: "Product Visual", zh: "产品图" }}
+                  />
+                )}
+              </div>
+              <div className="home-product-body">
+                <h3>{item.title}</h3>
+                <p>{item.meta}</p>
+              </div>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      <section className="home-product-types home-surface" aria-labelledby="home-product-types-title">
+        <div className="home-section-head">
+          <div>
+            <h2 className="home-section-title" id="home-product-types-title">
+              {text.productTypesLead}{" "}
+              <span className="home-blue-word">{text.productTypesAccent}</span>{" "}
+              <span className="home-orange-word">•</span>
+            </h2>
+            <p className="home-mini-tags">{text.productTypesTags}</p>
+          </div>
+          <Link
+            className="home-inline-link view-accent-link"
+            data-track-destination={productsCatalogHref}
+            data-track-event="cta_click"
+            data-track-label="view_all_products_from_types"
+            data-track-location="home_product_types"
+            href={productsCatalogHref}
+          >
+            <span>{text.viewAllProducts}</span>
+            <ArrowRight size={15} strokeWidth={2.2} />
+          </Link>
+        </div>
+
+        <div className="home-product-type-grid">
+          {productTypeItems.map((item) => {
+            return (
+              <Link
+                className="home-product-type-link"
+                data-track-category={item.key}
+                data-track-destination={item.href}
+                data-track-event="filter_select"
+                data-track-label={item.key}
+                data-track-location="home_product_types"
+                href={item.href}
+                key={item.key}
+                prefetch={false}
+              >
+                <span className="home-product-type-image-wrap">
+                  <Image
+                    alt={item.label[locale] || item.key}
+                    className="home-section-image home-product-type-image"
+                    fill
+                    sizes="(min-width: 1024px) 18vw, 50vw"
+                    src={item.image}
+                  />
+                </span>
+                <span className="home-product-type-copy">
+                  <strong>{item.label[locale]}</strong>
+                  <span>
+                    {item.count} {text.productTypesCount}
+                  </span>
+                  <ArrowRight
+                    className="home-product-type-arrow"
+                    size={17}
+                    strokeWidth={2.2}
+                    aria-hidden="true"
+                  />
+                </span>
+              </Link>
+            );
+          })}
+        </div>
+      </section>
+
+      <section className="home-sourcing-brief home-surface" aria-labelledby="home-sourcing-brief-title">
+        <div className="home-sourcing-brief-copy">
+          <p className="home-eyebrow">{t(locale, {en: "B2B SOURCING BRIEF", zh: "B2B 采购指南"})}</p>
+          <h2 className="home-section-title" id="home-sourcing-brief-title">
+            {text.sourcingBriefTitle}
+          </h2>
+          <p className="home-sourcing-brief-text">{text.sourcingBriefText}</p>
+        </div>
+        <ul className="home-sourcing-brief-list">
+          {text.sourcingBriefPoints.map((point) => (
+            <li key={point}>
+              <ShieldCheck size={17} strokeWidth={2.1} />
+              <span>{point}</span>
+            </li>
+          ))}
+        </ul>
+      </section>
+
       <section className="home-about">
         <div className="home-about-copy" data-locale={locale}>
           <p className="home-eyebrow">{text.aboutEyebrow}</p>
@@ -454,77 +643,6 @@ export default async function HomePage({
               </div>
             ))}
           </div>
-        </div>
-      </section>
-
-      <section className="home-bestseller home-surface">
-        <div className="home-section-head">
-          <div>
-            <h2 className="home-section-title">
-              {text.bestsellersLead}{" "}
-              <span className="home-blue-word">{text.bestsellersAccent}</span>{" "}
-              <span className="home-orange-word">•</span>
-            </h2>
-            <p className="home-mini-tags">{text.bestsellersTags}</p>
-          </div>
-          <Link
-            className="home-inline-link view-accent-link"
-            data-track-destination={productsHref}
-            data-track-event="cta_click"
-            data-track-label="view_all_products"
-            data-track-location="home_bestsellers"
-            href={productsHref}
-          >
-            <span>{text.viewAllProducts}</span>
-            <ArrowRight size={15} strokeWidth={2.2} />
-          </Link>
-        </div>
-
-        <div className="home-product-row">
-          {featuredProducts.map((item) => (
-            <Link
-              className="home-product-card"
-              data-track-event="product_card_click"
-              data-track-label={item.productId}
-              data-track-location="home_bestsellers"
-              href={item.href}
-              key={item.title}
-              prefetch={false}
-            >
-              <div className="home-product-image-wrap">
-                {item.image ? (
-                  <Image
-                    alt={item.title}
-                    className="home-section-image home-product-image"
-                    fill
-                    sizes="(min-width: 1280px) 18rem, (min-width: 768px) 24vw, 100vw"
-                    src={item.image}
-                  />
-                ) : (
-                  <PlaceholderVisual
-                    compact
-                    className="home-product-placeholder"
-                    icon={
-                      item.title.includes("Connector")
-                        ? Circle
-                        : item.title.includes("3D")
-                          ? Blocks
-                          : item.title.includes("Large")
-                            ? House
-                            : PackageCheck
-                    }
-                    locale={locale}
-                    textless
-                    title={{ en: "Product Visual", zh: "产品图" }}
-                  />
-                )}
-              </div>
-              <div className="home-product-body">
-                <h3>{item.title}</h3>
-                <p>{item.meta}</p>
-              </div>
-            </Link>
-          ))}
         </div>
       </section>
 

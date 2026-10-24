@@ -1,0 +1,754 @@
+{
+  "productId": "599-51",
+  "module": "toys",
+  "priority": 1030,
+  "tags": [
+    {
+      "key": "robots",
+      "en": "Robots and RC Toys",
+      "zh": "机器人与遥控玩具"
+    }
+  ],
+  "title": {
+    "zh": "八轮特技机器狗遥控车",
+    "en": "Eight-Wheel Stunt Robot Dog RC Car"
+  },
+  "summary": {
+    "zh": "2.4 GHz遥控，银灰色八轮结构，带灯光与音效。",
+    "en": "2.4 GHz control, a silver-gray eight-wheel body, lights and sound."
+  },
+  "description": {
+    "zh": [
+      "2.4 GHz遥控，银灰色八轮结构，带灯光与音效。",
+      "这款使用2.4 GHz遥控。",
+      "机身含3.7 V、500 mAh电池，随附USB充电线。"
+    ],
+    "en": [
+      "2.4 GHz control, a silver-gray eight-wheel body, lights and sound.",
+      "The model uses 2.4 GHz remote control.",
+      "A 3.7 V, 500 mAh product battery and USB charging cable are included."
+    ]
+  },
+  "categories": {
+    "zh": [
+      "机器人与遥控玩具"
+    ],
+    "en": [
+      "Robots and RC Toys"
+    ]
+  },
+  "pricing": {
+    "display": {
+      "zh": "¥93.08",
+      "en": "¥93.08"
+    },
+    "currency": "CNY",
+    "min": 93.08,
+    "max": 93.08,
+    "isRange": false,
+    "tiers": [
+      {
+        "quantity": {
+          "zh": "价格",
+          "en": "Price"
+        },
+        "price": "¥93.08"
+      }
+    ]
+  },
+  "specifications": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "599-51",
+        "en": "599-51"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "机器人与遥控玩具",
+        "en": "Robots and RC Toys"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "盒装",
+        "en": "Box"
+      }
+    },
+    {
+      "key": {
+        "zh": "供应商备注（原文）",
+        "en": "Supplier Notes (Original Chinese)"
+      },
+      "value": {
+        "zh": "包3.7V500毫安（USB充电线），遥控器下3*AAA（需自购）\n银灰色，声光音效"
+      }
+    }
+  ],
+  "productAttributes": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "599-51",
+        "en": "599-51"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "机器人与遥控玩具",
+        "en": "Robots and RC Toys"
+      }
+    },
+    {
+      "key": {
+        "zh": "遥控频率",
+        "en": "Control Frequency"
+      },
+      "value": {
+        "zh": "2.4 GHz",
+        "en": "2.4 GHz"
+      }
+    },
+    {
+      "key": {
+        "zh": "轮组结构",
+        "en": "Wheel Configuration"
+      },
+      "value": {
+        "zh": "八轮特技机器狗",
+        "en": "Eight-wheel stunt robot dog"
+      }
+    },
+    {
+      "key": {
+        "zh": "颜色",
+        "en": "Color"
+      },
+      "value": {
+        "zh": "银灰色",
+        "en": "Silver gray"
+      }
+    },
+    {
+      "key": {
+        "zh": "机身电池",
+        "en": "Product Battery"
+      },
+      "value": {
+        "zh": "3.7 V / 500 mAh（含）",
+        "en": "3.7 V / 500 mAh (included)"
+      }
+    },
+    {
+      "key": {
+        "zh": "遥控器电池",
+        "en": "Controller Battery"
+      },
+      "value": {
+        "zh": "3节AAA电池（需自备）",
+        "en": "3 AAA batteries (not included)"
+      }
+    },
+    {
+      "key": {
+        "zh": "充电配件",
+        "en": "Charging Accessories"
+      },
+      "value": {
+        "zh": "随附USB充电线",
+        "en": "USB charging cable included"
+      }
+    },
+    {
+      "key": {
+        "zh": "声光功能",
+        "en": "Sound and Lights"
+      },
+      "value": {
+        "zh": "灯光与音效",
+        "en": "Lights and sound effects"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "盒装",
+        "en": "Box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "28 × 22 × 12.5 cm",
+        "en": "28 × 22 × 12.5 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "78 × 58 × 68.5 cm",
+        "en": "78 × 58 × 68.5 cm"
+      }
+    }
+  ],
+  "attributePairs": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "599-51",
+        "en": "599-51"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "机器人与遥控玩具",
+        "en": "Robots and RC Toys"
+      }
+    },
+    {
+      "key": {
+        "zh": "遥控频率",
+        "en": "Control Frequency"
+      },
+      "value": {
+        "zh": "2.4 GHz",
+        "en": "2.4 GHz"
+      }
+    },
+    {
+      "key": {
+        "zh": "轮组结构",
+        "en": "Wheel Configuration"
+      },
+      "value": {
+        "zh": "八轮特技机器狗",
+        "en": "Eight-wheel stunt robot dog"
+      }
+    },
+    {
+      "key": {
+        "zh": "颜色",
+        "en": "Color"
+      },
+      "value": {
+        "zh": "银灰色",
+        "en": "Silver gray"
+      }
+    },
+    {
+      "key": {
+        "zh": "机身电池",
+        "en": "Product Battery"
+      },
+      "value": {
+        "zh": "3.7 V / 500 mAh（含）",
+        "en": "3.7 V / 500 mAh (included)"
+      }
+    },
+    {
+      "key": {
+        "zh": "遥控器电池",
+        "en": "Controller Battery"
+      },
+      "value": {
+        "zh": "3节AAA电池（需自备）",
+        "en": "3 AAA batteries (not included)"
+      }
+    },
+    {
+      "key": {
+        "zh": "充电配件",
+        "en": "Charging Accessories"
+      },
+      "value": {
+        "zh": "随附USB充电线",
+        "en": "USB charging cable included"
+      }
+    },
+    {
+      "key": {
+        "zh": "声光功能",
+        "en": "Sound and Lights"
+      },
+      "value": {
+        "zh": "灯光与音效",
+        "en": "Lights and sound effects"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "盒装",
+        "en": "Box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "28 × 22 × 12.5 cm",
+        "en": "28 × 22 × 12.5 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "78 × 58 × 68.5 cm",
+        "en": "78 × 58 × 68.5 cm"
+      }
+    }
+  ],
+  "packagingAndShipping": {
+    "summary": {
+      "zh": "单品包装及外箱规格如下，运输费用另行核算。",
+      "en": "Individual packing and carton specifications are listed below. Shipping is quoted separately."
+    },
+    "blocks": [
+      {
+        "label": {
+          "zh": "包装方式",
+          "en": "Packaging"
+        },
+        "value": {
+          "zh": "盒装",
+          "en": "Box"
+        }
+      },
+      {
+        "label": {
+          "zh": "包装尺寸",
+          "en": "Package Dimensions"
+        },
+        "value": {
+          "zh": "28 × 22 × 12.5 cm",
+          "en": "28 × 22 × 12.5 cm"
+        }
+      },
+      {
+        "label": {
+          "zh": "外箱尺寸",
+          "en": "Carton Dimensions"
+        },
+        "value": {
+          "zh": "78 × 58 × 68.5 cm",
+          "en": "78 × 58 × 68.5 cm"
+        }
+      },
+      {
+        "label": {
+          "zh": "外箱体积（按尺寸计算）",
+          "en": "Carton Volume (Calculated)"
+        },
+        "value": {
+          "zh": "0.310 m³",
+          "en": "0.310 m³"
+        }
+      },
+      {
+        "label": {
+          "zh": "运输费用",
+          "en": "Shipping Cost"
+        },
+        "value": {
+          "zh": "按目的地、箱数及运输方式另行报价。",
+          "en": "Quoted separately by destination, carton quantity and shipping method."
+        }
+      }
+    ],
+    "unitSize": "28 × 22 × 12.5 cm"
+  },
+  "packagingPairs": [
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "盒装",
+        "en": "Box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "28 × 22 × 12.5 cm",
+        "en": "28 × 22 × 12.5 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "78 × 58 × 68.5 cm",
+        "en": "78 × 58 × 68.5 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱体积（按尺寸计算）",
+        "en": "Carton Volume (Calculated)"
+      },
+      "value": {
+        "zh": "0.310 m³",
+        "en": "0.310 m³"
+      }
+    },
+    {
+      "key": {
+        "zh": "运输费用",
+        "en": "Shipping Cost"
+      },
+      "value": {
+        "zh": "按目的地、箱数及运输方式另行报价。",
+        "en": "Quoted separately by destination, carton quantity and shipping method."
+      }
+    }
+  ],
+  "media": {
+    "main": [
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/599-51/544e33fc2aa5.webp"
+      }
+    ],
+    "detail": [
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/599-51/5816368a2547.webp"
+      },
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/599-51/8c9666ee06e8.webp"
+      }
+    ]
+  },
+  "images": [
+    "https://www.yaoshuntoys.com/media/products-q92/599-51/544e33fc2aa5.webp",
+    "https://www.yaoshuntoys.com/media/products-q92/599-51/5816368a2547.webp",
+    "https://www.yaoshuntoys.com/media/products-q92/599-51/8c9666ee06e8.webp"
+  ],
+  "videos": [],
+  "productDetails": [
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "机器狗外形，八轮结构",
+        "en": "A robot-dog body on eight wheels"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/599-51/544e33fc2aa5.webp",
+      "text": {
+        "zh": "银灰色机身采用机器狗外形，侧面轮组与关节结构在图片中清楚可见。它以遥控车的方式操作，搭配灯光和音效，玩法围绕行驶与特技动作展开。",
+        "en": "The silver-gray body has a robot-dog shape, with wheel assemblies and joints visible at the sides. It operates as an RC vehicle with lights and sound for driving and stunt play."
+      }
+    },
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "2.4 GHz遥控与声光效果",
+        "en": "2.4 GHz control with lights and sound"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/599-51/5816368a2547.webp",
+      "text": {
+        "zh": "这款使用2.4 GHz遥控。机身的显示区域、轮组和上部造型分别在配图中展示，选购时可以先看清结构，再核对自己需要的遥控玩法。",
+        "en": "The model uses 2.4 GHz remote control. Product images show the display area, wheel assemblies and upper body so the construction can be viewed before choosing the model."
+      }
+    },
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "机身包电，遥控器另备电池",
+        "en": "Included product battery; separate controller batteries"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/599-51/8c9666ee06e8.webp",
+      "text": {
+        "zh": "机身含3.7 V、500 mAh电池，随附USB充电线。遥控器需要三节AAA电池，需自行准备；两部分供电不同，首次使用前可一并备齐。",
+        "en": "A 3.7 V, 500 mAh product battery and USB charging cable are included. The controller needs three AAA batteries, supplied separately. Prepare the controller batteries before the first session."
+      }
+    }
+  ],
+  "sourceData": {
+    "file": "挑样资料.xlsx",
+    "sha256": "30f47eb8405198bf6e92d33a2beecc7e62fb016f6bf26d476c79d2f816eefae0",
+    "sheet": "Blank_A4_Landscape_1019",
+    "row": 33,
+    "cells": {
+      "B": "599-51",
+      "C": "2.4G八轮特技机器狗遥控车（包电）",
+      "D": "盒装",
+      "E": 0,
+      "F": 24,
+      "G": "71.6",
+      "H": "28",
+      "I": "22",
+      "J": "12.5",
+      "K": "78",
+      "L": "58",
+      "M": "68.5",
+      "N": "0.31",
+      "O": "10.94",
+      "P": "25.5",
+      "Q": "24",
+      "R": "包3.7V500毫安（USB充电线），遥控器下3*AAA（需自购）\n银灰色，声光音效"
+    },
+    "priceAdjustment": {
+      "currency": "CNY",
+      "originalPrice": 71.6,
+      "markupRate": 0.3,
+      "adjustedPrice": 93.08,
+      "decimalPlaces": 2,
+      "rounding": "ROUND_HALF_UP"
+    },
+    "reviewNotes": [],
+    "attributeEnrichment": {
+      "sources": [
+        "title",
+        "description",
+        "sourceData.cells",
+        "productDetails.text",
+        "packagingPairs"
+      ],
+      "dimensionUnit": "cm",
+      "dimensionUnitBasis": "用户确认未注明单位的尺寸按厘米处理",
+      "packagingImage": "https://www.yaoshuntoys.com/media/products-q92/599-51/544e33fc2aa5.webp",
+      "imageAttributeKeys": [],
+      "ageStatus": "not-readable-or-not-shown"
+    },
+    "originalDescription": {
+      "zh": [
+        "2.4G八轮特技机器狗遥控车（包电）",
+        "包3.7V500毫安（USB充电线），遥控器下3*AAA（需自购）\n银灰色，声光音效"
+      ],
+      "en": [
+        "2.4 GHz Eight-Wheel Stunt Robot Dog RC Car",
+        "Includes one 3.7 V, 500 mAh battery and USB charging cable; the remote requires three AAA batteries, sold separately. Silver-gray finish with sound and light effects."
+      ]
+    },
+    "workbookReview": {
+      "file": "/Users/lukang.liu/Desktop/github/yaoshun/挑样资料.xlsx",
+      "sha256": "30f47eb8405198bf6e92d33a2beecc7e62fb016f6bf26d476c79d2f816eefae0",
+      "sheet": "Blank_A4_Landscape_1019",
+      "row": 33,
+      "imagePart": "xl/media/image31.jpeg"
+    },
+    "originalPackagingPairs": [
+      {
+        "key": {
+          "zh": "包装方式",
+          "en": "Packaging"
+        },
+        "value": {
+          "zh": "盒装",
+          "en": "Box"
+        }
+      },
+      {
+        "key": {
+          "zh": "装箱量（E列）",
+          "en": "Packing Quantity (Column E)"
+        },
+        "value": {
+          "zh": "0",
+          "en": "0"
+        }
+      },
+      {
+        "key": {
+          "zh": "装箱量（F列）",
+          "en": "Packing Quantity (Column F)"
+        },
+        "value": {
+          "zh": "24",
+          "en": "24"
+        }
+      },
+      {
+        "key": {
+          "zh": "包装规格（原表单位）",
+          "en": "Package Dimensions (Source Units)"
+        },
+        "value": {
+          "zh": "28 × 22 × 12.5",
+          "en": "28 × 22 × 12.5"
+        }
+      },
+      {
+        "key": {
+          "zh": "外箱规格（原表单位）",
+          "en": "Carton Dimensions (Source Units)"
+        },
+        "value": {
+          "zh": "78 × 58 × 68.5",
+          "en": "78 × 58 × 68.5"
+        }
+      },
+      {
+        "key": {
+          "zh": "体积（原表单位）",
+          "en": "Volume (Source Units)"
+        },
+        "value": {
+          "zh": "0.31",
+          "en": "0.31"
+        }
+      },
+      {
+        "key": {
+          "zh": "材积（原表单位）",
+          "en": "Shipping Measurement (Source Units)"
+        },
+        "value": {
+          "zh": "10.94",
+          "en": "10.94"
+        }
+      },
+      {
+        "key": {
+          "zh": "毛重（原表单位）",
+          "en": "Gross Weight (Source Units)"
+        },
+        "value": {
+          "zh": "25.5",
+          "en": "25.5"
+        }
+      },
+      {
+        "key": {
+          "zh": "净重（原表单位）",
+          "en": "Net Weight (Source Units)"
+        },
+        "value": {
+          "zh": "24",
+          "en": "24"
+        }
+      }
+    ],
+    "contentReview": {
+      "status": "edited-individually",
+      "scope": [
+        "description",
+        "productDetails",
+        "attributePairs",
+        "customizationOptions",
+        "packagingAndShipping",
+        "leadTime"
+      ],
+      "copyStyle": "具体、简洁，按本款资料描述；未确认的配置不扩写为承诺",
+      "deliveryBasis": "未提供本款确认的天数，按样品、常规订单和定制订单说明确认节点",
+      "preservedImageUrls": true
+    }
+  },
+  "customizationOptions": [
+    {
+      "label": {
+        "zh": "彩盒与品牌版面",
+        "en": "Retail Box and Branding"
+      },
+      "minOrder": {
+        "zh": "可提交LOGO、条码与包装语言要求，按印刷方案确认费用和起订量。",
+        "en": "Submit logo artwork, barcodes and package languages. Costs and minimum quantities depend on the print specification."
+      }
+    },
+    {
+      "label": {
+        "zh": "说明书与语言版本核对",
+        "en": "Instructions and Language Version"
+      },
+      "minOrder": {
+        "zh": "可提出说明语言和版面需求；机内语言、APP或固件功能需另行核对。",
+        "en": "Request instruction languages and layouts. On-device languages, apps and firmware functions require separate confirmation."
+      }
+    },
+    {
+      "label": {
+        "zh": "配件与外观方案评估",
+        "en": "Accessory and Appearance Review"
+      },
+      "minOrder": {
+        "zh": "可提交配件清单或配色要求，电池、控制器与电子配置按本型号确认。",
+        "en": "Submit accessory or color requirements. Batteries, controllers and electronic specifications are confirmed for this model."
+      }
+    }
+  ],
+  "leadTime": {
+    "notes": [
+      {
+        "label": {
+          "zh": "样品订单",
+          "en": "Samples"
+        },
+        "value": {
+          "zh": "先确认599-51样品和当前配色库存，再约定寄样日期。",
+          "en": "Confirm 599-51 sample and color availability before agreeing a dispatch date."
+        }
+      },
+      {
+        "label": {
+          "zh": "常规订单",
+          "en": "Standard Orders"
+        },
+        "value": {
+          "zh": "按订单数量、包装备料和现有排产确认交期，国际运输时间另计。",
+          "en": "Confirm lead time against quantity, packing materials and the production schedule. International transit is additional."
+        }
+      },
+      {
+        "label": {
+          "zh": "定制订单",
+          "en": "Customized Orders"
+        },
+        "value": {
+          "zh": "先确认图稿、配件清单和样品，确认后再安排生产与出货排期。",
+          "en": "Approve artwork, contents and samples before scheduling production and dispatch."
+        }
+      }
+    ]
+  }
+}

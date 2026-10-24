@@ -1,0 +1,856 @@
+{
+  "productId": "S5X",
+  "module": "toys",
+  "priority": 1033,
+  "tags": [
+    {
+      "key": "drones",
+      "en": "Drones",
+      "zh": "无人机"
+    }
+  ],
+  "title": {
+    "zh": "S5X带屏双摄三面避障无人机",
+    "en": "S5X Dual-Camera Drone with Screen Controller"
+  },
+  "summary": {
+    "zh": "2.4 GHz带屏控无人机，配光流定位、双摄、三面红外避障和360°翻滚。",
+    "en": "A 2.4 GHz screen-controller drone with optical flow, dual cameras, three-direction infrared sensing and 360° rolls."
+  },
+  "description": {
+    "zh": [
+      "2.4 GHz带屏控无人机，配光流定位、双摄、三面红外避障和360°翻滚。",
+      "资料列有三面红外避障、光流定点、高度保持、无头模式和六轴陀螺仪，控制器支持四通道飞行和360°翻滚。",
+      "套装含无人机、遥控器、电池、USB线、两片桨叶、螺丝刀和说明书，展开尺寸30.6 × 24 × 6 cm。"
+    ],
+    "en": [
+      "A 2.4 GHz screen-controller drone with optical flow, dual cameras, three-direction infrared sensing and 360° rolls.",
+      "The source lists three-direction infrared sensing, optical-flow positioning, altitude hold, headless mode and a six-axis gyroscope.",
+      "The set includes the drone, controller, battery, USB cable, two propellers, a screwdriver and manuals."
+    ]
+  },
+  "categories": {
+    "zh": [
+      "无人机"
+    ],
+    "en": [
+      "Drones"
+    ]
+  },
+  "pricing": {
+    "display": {
+      "zh": "¥143.78",
+      "en": "¥143.78"
+    },
+    "currency": "CNY",
+    "min": 143.78,
+    "max": 143.78,
+    "isRange": false,
+    "tiers": [
+      {
+        "quantity": {
+          "zh": "价格",
+          "en": "Price"
+        },
+        "price": "¥143.78"
+      }
+    ]
+  },
+  "specifications": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "S5X",
+        "en": "S5X"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "无人机",
+        "en": "Drones"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "开窗盒",
+        "en": "Window box"
+      }
+    },
+    {
+      "key": {
+        "zh": "供应商备注（原文）",
+        "en": "Supplier Notes (Original Chinese)"
+      },
+      "value": {
+        "zh": "1：三面避障红外线感应头2：具有高度保持模式功能，光流定点定位功能，飞行稳定。3：在无头模式下，飞行前无需调整飞机的位置。5：内置高清摄像头，让你在飞行的时候可以拍摄绝美的风景.6：具有WiFi功能，可连接应用程序、APK系统，通过手机APP可以进行拍照、摄像、以及实时传输。7：在屏幕上画出一条飞行路径，无人机将沿着指定的路径进行自主飞行。8：2.4GHz抗干扰技术，多人同时使用不干扰。9：4个通道，可进行上升、下降、向前、向后、左侧飞行、右侧飞行和360°滚动。10：六轴陀螺仪，飞行更平稳，控制更方便。功能：上/下、前/后、左/右转弯、侧向飞行、、无头模式、高度保持模式、WiFiFPV（双镜头有双镜头切换功能），镜头电动调节功能。整套包含配件：无人机*1 遥控器*1 电池*1 USB线*1 扇叶*2 螺丝刀*1 说明书*1 APP说明书*1"
+      }
+    }
+  ],
+  "productAttributes": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "S5X",
+        "en": "S5X"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "无人机",
+        "en": "Drones"
+      }
+    },
+    {
+      "key": {
+        "zh": "适用年龄",
+        "en": "Age Range"
+      },
+      "value": {
+        "zh": "14岁及以上",
+        "en": "Ages 14+"
+      }
+    },
+    {
+      "key": {
+        "zh": "遥控频率",
+        "en": "Control Frequency"
+      },
+      "value": {
+        "zh": "2.4 GHz",
+        "en": "2.4 GHz"
+      }
+    },
+    {
+      "key": {
+        "zh": "定位与稳定",
+        "en": "Positioning and Stabilization"
+      },
+      "value": {
+        "zh": "光流定位、定高及六轴陀螺仪",
+        "en": "Optical-flow positioning, altitude hold and six-axis gyroscope"
+      }
+    },
+    {
+      "key": {
+        "zh": "摄像与图传",
+        "en": "Camera and Video Link"
+      },
+      "value": {
+        "zh": "双镜头切换与Wi-Fi图传",
+        "en": "Dual-camera switching and Wi-Fi video transmission"
+      }
+    },
+    {
+      "key": {
+        "zh": "飞行与拍摄功能",
+        "en": "Flight and Camera Functions"
+      },
+      "value": {
+        "zh": "无头模式、自定义航线及APP拍照录像",
+        "en": "Headless mode, custom flight routes and app photo/video capture"
+      }
+    },
+    {
+      "key": {
+        "zh": "镜头调节",
+        "en": "Camera Adjustment"
+      },
+      "value": {
+        "zh": "可调镜头角度",
+        "en": "Adjustable camera angle"
+      }
+    },
+    {
+      "key": {
+        "zh": "遥控器",
+        "en": "Controller"
+      },
+      "value": {
+        "zh": "带屏遥控器，支持实时航拍显示",
+        "en": "Screen controller with live aerial video"
+      }
+    },
+    {
+      "key": {
+        "zh": "避障配置",
+        "en": "Obstacle Avoidance"
+      },
+      "value": {
+        "zh": "三面避障",
+        "en": "Three-side obstacle avoidance"
+      }
+    },
+    {
+      "key": {
+        "zh": "控制通道",
+        "en": "Control Channels"
+      },
+      "value": {
+        "zh": "四通道，支持侧飞与360°翻滚",
+        "en": "4 channels; lateral flight and 360° rolls"
+      }
+    },
+    {
+      "key": {
+        "zh": "配件",
+        "en": "Accessories"
+      },
+      "value": {
+        "zh": "无人机、遥控器、电池、USB线各1，桨叶2片，螺丝刀及说明书",
+        "en": "1 drone, controller, battery and USB cable; 2 propellers; screwdriver and manuals"
+      }
+    },
+    {
+      "key": {
+        "zh": "避障传感器",
+        "en": "Obstacle Sensors"
+      },
+      "value": {
+        "zh": "三面红外感应头",
+        "en": "Three-direction infrared sensors"
+      }
+    },
+    {
+      "key": {
+        "zh": "展开尺寸",
+        "en": "Unfolded Dimensions"
+      },
+      "value": {
+        "zh": "30.6 × 24 × 6 cm",
+        "en": "30.6 × 24 × 6 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "开窗盒",
+        "en": "Window box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "30.6 × 6.9 × 40.6 cm",
+        "en": "30.6 × 6.9 × 40.6 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "41.5 × 57 × 92.5 cm",
+        "en": "41.5 × 57 × 92.5 cm"
+      }
+    }
+  ],
+  "attributePairs": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "S5X",
+        "en": "S5X"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "无人机",
+        "en": "Drones"
+      }
+    },
+    {
+      "key": {
+        "zh": "适用年龄",
+        "en": "Age Range"
+      },
+      "value": {
+        "zh": "14岁及以上",
+        "en": "Ages 14+"
+      }
+    },
+    {
+      "key": {
+        "zh": "遥控频率",
+        "en": "Control Frequency"
+      },
+      "value": {
+        "zh": "2.4 GHz",
+        "en": "2.4 GHz"
+      }
+    },
+    {
+      "key": {
+        "zh": "定位与稳定",
+        "en": "Positioning and Stabilization"
+      },
+      "value": {
+        "zh": "光流定位、定高及六轴陀螺仪",
+        "en": "Optical-flow positioning, altitude hold and six-axis gyroscope"
+      }
+    },
+    {
+      "key": {
+        "zh": "摄像与图传",
+        "en": "Camera and Video Link"
+      },
+      "value": {
+        "zh": "双镜头切换与Wi-Fi图传",
+        "en": "Dual-camera switching and Wi-Fi video transmission"
+      }
+    },
+    {
+      "key": {
+        "zh": "飞行与拍摄功能",
+        "en": "Flight and Camera Functions"
+      },
+      "value": {
+        "zh": "无头模式、自定义航线及APP拍照录像",
+        "en": "Headless mode, custom flight routes and app photo/video capture"
+      }
+    },
+    {
+      "key": {
+        "zh": "镜头调节",
+        "en": "Camera Adjustment"
+      },
+      "value": {
+        "zh": "可调镜头角度",
+        "en": "Adjustable camera angle"
+      }
+    },
+    {
+      "key": {
+        "zh": "遥控器",
+        "en": "Controller"
+      },
+      "value": {
+        "zh": "带屏遥控器，支持实时航拍显示",
+        "en": "Screen controller with live aerial video"
+      }
+    },
+    {
+      "key": {
+        "zh": "避障配置",
+        "en": "Obstacle Avoidance"
+      },
+      "value": {
+        "zh": "三面避障",
+        "en": "Three-side obstacle avoidance"
+      }
+    },
+    {
+      "key": {
+        "zh": "控制通道",
+        "en": "Control Channels"
+      },
+      "value": {
+        "zh": "四通道，支持侧飞与360°翻滚",
+        "en": "4 channels; lateral flight and 360° rolls"
+      }
+    },
+    {
+      "key": {
+        "zh": "配件",
+        "en": "Accessories"
+      },
+      "value": {
+        "zh": "无人机、遥控器、电池、USB线各1，桨叶2片，螺丝刀及说明书",
+        "en": "1 drone, controller, battery and USB cable; 2 propellers; screwdriver and manuals"
+      }
+    },
+    {
+      "key": {
+        "zh": "避障传感器",
+        "en": "Obstacle Sensors"
+      },
+      "value": {
+        "zh": "三面红外感应头",
+        "en": "Three-direction infrared sensors"
+      }
+    },
+    {
+      "key": {
+        "zh": "展开尺寸",
+        "en": "Unfolded Dimensions"
+      },
+      "value": {
+        "zh": "30.6 × 24 × 6 cm",
+        "en": "30.6 × 24 × 6 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "开窗盒",
+        "en": "Window box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "30.6 × 6.9 × 40.6 cm",
+        "en": "30.6 × 6.9 × 40.6 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "41.5 × 57 × 92.5 cm",
+        "en": "41.5 × 57 × 92.5 cm"
+      }
+    }
+  ],
+  "packagingAndShipping": {
+    "summary": {
+      "zh": "单品包装及外箱规格如下，运输费用另行核算。",
+      "en": "Individual packing and carton specifications are listed below. Shipping is quoted separately."
+    },
+    "blocks": [
+      {
+        "label": {
+          "zh": "包装方式",
+          "en": "Packaging"
+        },
+        "value": {
+          "zh": "开窗盒",
+          "en": "Window box"
+        }
+      },
+      {
+        "label": {
+          "zh": "包装尺寸",
+          "en": "Package Dimensions"
+        },
+        "value": {
+          "zh": "30.6 × 6.9 × 40.6 cm",
+          "en": "30.6 × 6.9 × 40.6 cm"
+        }
+      },
+      {
+        "label": {
+          "zh": "外箱尺寸",
+          "en": "Carton Dimensions"
+        },
+        "value": {
+          "zh": "41.5 × 57 × 92.5 cm",
+          "en": "41.5 × 57 × 92.5 cm"
+        }
+      },
+      {
+        "label": {
+          "zh": "外箱体积（按尺寸计算）",
+          "en": "Carton Volume (Calculated)"
+        },
+        "value": {
+          "zh": "0.219 m³",
+          "en": "0.219 m³"
+        }
+      },
+      {
+        "label": {
+          "zh": "运输费用",
+          "en": "Shipping Cost"
+        },
+        "value": {
+          "zh": "按目的地、箱数及运输方式另行报价。",
+          "en": "Quoted separately by destination, carton quantity and shipping method."
+        }
+      }
+    ],
+    "unitSize": "30.6 × 6.9 × 40.6 cm"
+  },
+  "packagingPairs": [
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "开窗盒",
+        "en": "Window box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "30.6 × 6.9 × 40.6 cm",
+        "en": "30.6 × 6.9 × 40.6 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "41.5 × 57 × 92.5 cm",
+        "en": "41.5 × 57 × 92.5 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱体积（按尺寸计算）",
+        "en": "Carton Volume (Calculated)"
+      },
+      "value": {
+        "zh": "0.219 m³",
+        "en": "0.219 m³"
+      }
+    },
+    {
+      "key": {
+        "zh": "运输费用",
+        "en": "Shipping Cost"
+      },
+      "value": {
+        "zh": "按目的地、箱数及运输方式另行报价。",
+        "en": "Quoted separately by destination, carton quantity and shipping method."
+      }
+    }
+  ],
+  "media": {
+    "main": [
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/S5X/f7227d03018b.webp"
+      }
+    ],
+    "detail": [
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/S5X/aed491f1414a.webp"
+      },
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/S5X/85f5ffb9c651.webp"
+      }
+    ]
+  },
+  "images": [
+    "https://www.yaoshuntoys.com/media/products-q92/S5X/f7227d03018b.webp",
+    "https://www.yaoshuntoys.com/media/products-q92/S5X/aed491f1414a.webp",
+    "https://www.yaoshuntoys.com/media/products-q92/S5X/85f5ffb9c651.webp"
+  ],
+  "videos": [],
+  "productDetails": [
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "带屏控双摄",
+        "en": "Screen controller and dual cameras"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/S5X/f7227d03018b.webp",
+      "text": {
+        "zh": "屏控遥控器用于实时查看画面，双镜头支持切换，镜头角度可调。APP可用于拍照、录像和航线设置，实际连接方式按说明书确认。",
+        "en": "The screen controller provides live footage, with switchable dual cameras and adjustable angle. The app is listed for photos, video and route planning; confirm the connection steps in the manual."
+      }
+    },
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "三面红外避障与飞行模式",
+        "en": "Three-direction infrared sensing"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/S5X/aed491f1414a.webp",
+      "text": {
+        "zh": "资料列有三面红外避障、光流定点、高度保持、无头模式和六轴陀螺仪，控制器支持四通道飞行和360°翻滚。",
+        "en": "The source lists three-direction infrared sensing, optical-flow positioning, altitude hold, headless mode and a six-axis gyroscope. The controller supports four-channel flight and 360° rolls."
+      }
+    },
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "配件和尺寸",
+        "en": "Contents and dimensions"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/S5X/85f5ffb9c651.webp",
+      "text": {
+        "zh": "套装含无人机、遥控器、电池、USB线、两片桨叶、螺丝刀和说明书，展开尺寸30.6 × 24 × 6 cm。",
+        "en": "The set includes the drone, controller, battery, USB cable, two propellers, a screwdriver and manuals. Unfolded dimensions are 30.6 × 24 × 6 cm."
+      }
+    }
+  ],
+  "sourceData": {
+    "file": "挑样资料.xlsx",
+    "sha256": "30f47eb8405198bf6e92d33a2beecc7e62fb016f6bf26d476c79d2f816eefae0",
+    "sheet": "Blank_A4_Landscape_1019",
+    "row": 36,
+    "cells": {
+      "B": "S5X",
+      "C": "2.4G带屏四轴无人机（光流版双摄像头/三面避障）",
+      "D": "开窗盒",
+      "E": 0,
+      "F": 24,
+      "G": "110.6",
+      "H": "30.6",
+      "I": "6.9",
+      "J": "40.6",
+      "K": "41.5",
+      "L": "57",
+      "M": "92.5",
+      "N": "0.22",
+      "O": "7.72",
+      "P": "17.6",
+      "Q": "16.5",
+      "R": "\n1：三面避障红外线感应头2：具有高度保持模式功能，光流定点定位功能，飞行稳定。3：在无头模式下，飞行前无需调整飞机的位置。5：内置高清摄像头，让你在飞行的时候可以拍摄绝美的风景.6：具有WiFi功能，可连接应用程序、APK系统，通过手机APP可以进行拍照、摄像、以及实时传输。7：在屏幕上画出一条飞行路径，无人机将沿着指定的路径进行自主飞行。8：2.4GHz抗干扰技术，多人同时使用不干扰。9：4个通道，可进行上升、下降、向前、向后、左侧飞行、右侧飞行和360°滚动。10：六轴陀螺仪，飞行更平稳，控制更方便。功能：上/下、前/后、左/右转弯、侧向飞行、、无头模式、高度保持模式、WiFiFPV（双镜头有双镜头切换功能），镜头电动调节功能。整套包含配件：无人机*1 遥控器*1 电池*1 USB线*1 扇叶*2 螺丝刀*1 说明书*1 APP说明书*1"
+    },
+    "priceAdjustment": {
+      "currency": "CNY",
+      "originalPrice": 110.6,
+      "markupRate": 0.3,
+      "adjustedPrice": 143.78,
+      "decimalPlaces": 2,
+      "rounding": "ROUND_HALF_UP"
+    },
+    "reviewNotes": [],
+    "attributeEnrichment": {
+      "sources": [
+        "title",
+        "description",
+        "sourceData.cells",
+        "productDetails.text",
+        "packagingPairs"
+      ],
+      "dimensionUnit": "cm",
+      "dimensionUnitBasis": "用户确认未注明单位的尺寸按厘米处理",
+      "packagingImage": "https://www.yaoshuntoys.com/media/products-q92/S5X/f7227d03018b.webp",
+      "imageAttributeKeys": [
+        "Age Range"
+      ],
+      "ageStatus": "packaging-label"
+    },
+    "originalDescription": {
+      "zh": [
+        "2.4G带屏四轴无人机（光流版双摄像头/三面避障）",
+        "1：三面避障红外线感应头2：具有高度保持模式功能，光流定点定位功能，飞行稳定。3：在无头模式下，飞行前无需调整飞机的位置。5：内置高清摄像头，让你在飞行的时候可以拍摄绝美的风景.6：具有WiFi功能，可连接应用程序、APK系统，通过手机APP可以进行拍照、摄像、以及实时传输。7：在屏幕上画出一条飞行路径，无人机将沿着指定的路径进行自主飞行。8：2.4GHz抗干扰技术，多人同时使用不干扰。9：4个通道，可进行上升、下降、向前、向后、左侧飞行、右侧飞行和360°滚动。10：六轴陀螺仪，飞行更平稳，控制更方便。功能：上/下、前/后、左/右转弯、侧向飞行、、无头模式、高度保持模式、WiFiFPV（双镜头有双镜头切换功能），镜头电动调节功能。整套包含配件：无人机*1 遥控器*1 电池*1 USB线*1 扇叶*2 螺丝刀*1 说明书*1 APP说明书*1"
+      ],
+      "en": [
+        "2.4 GHz Dual-Camera Drone with Screen Controller and Three-Side Obstacle Avoidance",
+        "Package includes drone, remote, battery, USB cable, two propellers, screwdriver, and manuals. Features include infrared sensors for three-direction obstacle avoidance, altitude hold, optical-flow positioning, headless mode, Wi-Fi FPV with dual-camera switching, adjustable camera angle, app-based photo/video with live transmission, and route planning on the controller screen. Six-axis gyroscope; four-channel controls for ascent, descent, forward/reverse, turns, lateral flight, and 360-degree rolls."
+      ]
+    },
+    "workbookReview": {
+      "file": "/Users/lukang.liu/Desktop/github/yaoshun/挑样资料.xlsx",
+      "sha256": "30f47eb8405198bf6e92d33a2beecc7e62fb016f6bf26d476c79d2f816eefae0",
+      "sheet": "Blank_A4_Landscape_1019",
+      "row": 36,
+      "imagePart": "xl/media/image34.jpeg"
+    },
+    "originalPackagingPairs": [
+      {
+        "key": {
+          "zh": "包装方式",
+          "en": "Packaging"
+        },
+        "value": {
+          "zh": "开窗盒",
+          "en": "Window box"
+        }
+      },
+      {
+        "key": {
+          "zh": "装箱量（E列）",
+          "en": "Packing Quantity (Column E)"
+        },
+        "value": {
+          "zh": "0",
+          "en": "0"
+        }
+      },
+      {
+        "key": {
+          "zh": "装箱量（F列）",
+          "en": "Packing Quantity (Column F)"
+        },
+        "value": {
+          "zh": "24",
+          "en": "24"
+        }
+      },
+      {
+        "key": {
+          "zh": "包装规格（原表单位）",
+          "en": "Package Dimensions (Source Units)"
+        },
+        "value": {
+          "zh": "30.6 × 6.9 × 40.6",
+          "en": "30.6 × 6.9 × 40.6"
+        }
+      },
+      {
+        "key": {
+          "zh": "外箱规格（原表单位）",
+          "en": "Carton Dimensions (Source Units)"
+        },
+        "value": {
+          "zh": "41.5 × 57 × 92.5",
+          "en": "41.5 × 57 × 92.5"
+        }
+      },
+      {
+        "key": {
+          "zh": "体积（原表单位）",
+          "en": "Volume (Source Units)"
+        },
+        "value": {
+          "zh": "0.22",
+          "en": "0.22"
+        }
+      },
+      {
+        "key": {
+          "zh": "材积（原表单位）",
+          "en": "Shipping Measurement (Source Units)"
+        },
+        "value": {
+          "zh": "7.72",
+          "en": "7.72"
+        }
+      },
+      {
+        "key": {
+          "zh": "毛重（原表单位）",
+          "en": "Gross Weight (Source Units)"
+        },
+        "value": {
+          "zh": "17.6",
+          "en": "17.6"
+        }
+      },
+      {
+        "key": {
+          "zh": "净重（原表单位）",
+          "en": "Net Weight (Source Units)"
+        },
+        "value": {
+          "zh": "16.5",
+          "en": "16.5"
+        }
+      }
+    ],
+    "contentReview": {
+      "status": "edited-individually",
+      "scope": [
+        "description",
+        "productDetails",
+        "attributePairs",
+        "customizationOptions",
+        "packagingAndShipping",
+        "leadTime"
+      ],
+      "copyStyle": "具体、简洁，按本款资料描述；未确认的配置不扩写为承诺",
+      "deliveryBasis": "未提供本款确认的天数，按样品、常规订单和定制订单说明确认节点",
+      "preservedImageUrls": true
+    }
+  },
+  "customizationOptions": [
+    {
+      "label": {
+        "zh": "包装与品牌版面",
+        "en": "Packaging and Branding"
+      },
+      "minOrder": {
+        "zh": "可提交LOGO、条码和包装图稿，按带屏无人机包装方案核对印刷。",
+        "en": "Submit logo, barcode and package artwork for review of the screen-drone packaging."
+      }
+    },
+    {
+      "label": {
+        "zh": "电池与备用件配置",
+        "en": "Battery and Spare Parts"
+      },
+      "minOrder": {
+        "zh": "可提出电池数量、备用桨叶和收纳需求，按S5X版本确认可供清单。",
+        "en": "Request battery quantity, spare propellers or storage requirements for confirmation against the S5X version."
+      }
+    },
+    {
+      "label": {
+        "zh": "说明书与APP语言",
+        "en": "Manual and App Language"
+      },
+      "minOrder": {
+        "zh": "可提交说明书和APP语言需求，摄像头与避障功能按最终版本确认。",
+        "en": "Submit manual and app language requirements. Camera and obstacle-sensing functions are confirmed for the final version."
+      }
+    }
+  ],
+  "leadTime": {
+    "notes": [
+      {
+        "label": {
+          "zh": "样品订单",
+          "en": "Samples"
+        },
+        "value": {
+          "zh": "先确认S5X屏控、三面避障和配件配置，再约定寄样日期。",
+          "en": "Confirm the S5X screen, three-side sensing and contents before agreeing a sample dispatch date."
+        }
+      },
+      {
+        "label": {
+          "zh": "常规订单",
+          "en": "Standard Orders"
+        },
+        "value": {
+          "zh": "按数量、包装备料和排产确认交期，国际运输时间另计。",
+          "en": "Confirm lead time against quantity, packing materials and production schedule; international transit is additional."
+        }
+      },
+      {
+        "label": {
+          "zh": "定制订单",
+          "en": "Customized Orders"
+        },
+        "value": {
+          "zh": "先确认图稿、功能版本和配件清单，再安排生产与出货排期。",
+          "en": "Approve artwork, function version and contents before scheduling production and dispatch."
+        }
+      }
+    ]
+  }
+}

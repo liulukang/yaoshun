@@ -1,0 +1,937 @@
+{
+  "productId": "ES800Pro",
+  "module": "toys",
+  "priority": 1035,
+  "tags": [
+    {
+      "key": "drones",
+      "en": "Drones",
+      "zh": "无人机"
+    }
+  ],
+  "title": {
+    "zh": "ES800Pro折叠双摄无人机",
+    "en": "ES800Pro Folding Dual-Camera Drone"
+  },
+  "summary": {
+    "zh": "折叠机身配光流定位、双摄像头和4.3英寸屏控，支持Wi-Fi图传。",
+    "en": "A folding airframe with optical flow, dual cameras and a 4.3-inch screen controller for Wi-Fi FPV."
+  },
+  "description": {
+    "zh": [
+      "折叠机身配光流定位、双摄像头和4.3英寸屏控，支持Wi-Fi图传。",
+      "机身采用折叠结构，资料列有定高、光流定位和六轴陀螺仪。",
+      "机身电池为3.7 V、2000 mAh，遥控器内置3.7 V、1500 mAh电池，USB充电且适配器需另购。"
+    ],
+    "en": [
+      "A folding airframe with optical flow, dual cameras and a 4.3-inch screen controller for Wi-Fi FPV.",
+      "The folding body is listed with altitude hold, optical-flow positioning and a six-axis gyroscope.",
+      "The drone battery is listed as 3.7 V, 2,000 mAh and the controller has a built-in 3.7 V, 1,500 mAh battery."
+    ]
+  },
+  "categories": {
+    "zh": [
+      "无人机"
+    ],
+    "en": [
+      "Drones"
+    ]
+  },
+  "pricing": {
+    "display": {
+      "zh": "¥135.59",
+      "en": "¥135.59"
+    },
+    "currency": "CNY",
+    "min": 135.59,
+    "max": 135.59,
+    "isRange": false,
+    "tiers": [
+      {
+        "quantity": {
+          "zh": "价格",
+          "en": "Price"
+        },
+        "price": "¥135.59"
+      }
+    ]
+  },
+  "specifications": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "ES800Pro",
+        "en": "ES800Pro"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "无人机",
+        "en": "Drones"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    },
+    {
+      "key": {
+        "zh": "供应商备注（原文）",
+        "en": "Supplier Notes (Original Chinese)"
+      },
+      "value": {
+        "zh": "接收频率：2.4G；充电时间 ：120分钟 ；机身电池：3.7V 2000毫安；电机型号：1503 无刷电机；单个电池飞行时间：120分钟；遥控器电池：内置3.7V1500Mah（18650电池）；\n4.3寸屏无刷光流无人机带双镜头WIFI专业航拍机 带舵机，炫酷灯光 充电方式：USB线充电（适配器需另购）； 1.前镜头为480P高清版本WIFI镜头，底部高清镜头带光流可切换拍照角度，舵机云台增稳设计，让照片成行更清晰 2.定高功能具有高度保持模式功能，光流定位定点功能，飞行稳定。 3.超长续航3.7V 2000mah毫安锂电池，续航时间达到12分钟左右， 4.自定义航线。可以在APP上面画出你想要飞行的画面 5.APP手机控制，一键返航，无头模式，上升下降，前进后退，左右侧飞 6.手势拍照，光流定位，无刷电机，超长续航 ，装配避障头，可以遇到障碍物急停而不会碰撞障碍物                                                           7.无刷马达提供更强大的动力以及更持久的使用寿命 8.产品尺寸重量轻，机身重129g,可以规避国家航空管制（一些国家超过250g的无人机就需要考证或者是登记，250g就可以免去考证和登记烦恼） 9.2.4GHz抗干扰技术，六轴陀螺仪，飞行更平稳，控制更方便。"
+      }
+    }
+  ],
+  "productAttributes": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "ES800Pro",
+        "en": "ES800Pro"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "无人机",
+        "en": "Drones"
+      }
+    },
+    {
+      "key": {
+        "zh": "遥控频率",
+        "en": "Control Frequency"
+      },
+      "value": {
+        "zh": "2.4 GHz",
+        "en": "2.4 GHz"
+      }
+    },
+    {
+      "key": {
+        "zh": "定位与稳定",
+        "en": "Positioning and Stabilization"
+      },
+      "value": {
+        "zh": "光流定位、定高及六轴陀螺仪",
+        "en": "Optical-flow positioning, altitude hold and six-axis gyroscope"
+      }
+    },
+    {
+      "key": {
+        "zh": "摄像与图传",
+        "en": "Camera and Video Link"
+      },
+      "value": {
+        "zh": "双镜头切换与Wi-Fi图传",
+        "en": "Dual-camera switching and Wi-Fi video transmission"
+      }
+    },
+    {
+      "key": {
+        "zh": "飞行与拍摄功能",
+        "en": "Flight and Camera Functions"
+      },
+      "value": {
+        "zh": "无头模式、自定义航线及APP拍照录像",
+        "en": "Headless mode, custom flight routes and app photo/video capture"
+      }
+    },
+    {
+      "key": {
+        "zh": "镜头调节",
+        "en": "Camera Adjustment"
+      },
+      "value": {
+        "zh": "可调镜头角度",
+        "en": "Adjustable camera angle"
+      }
+    },
+    {
+      "key": {
+        "zh": "电机类型",
+        "en": "Motor Type"
+      },
+      "value": {
+        "zh": "无刷电机",
+        "en": "Brushless motor"
+      }
+    },
+    {
+      "key": {
+        "zh": "前置镜头",
+        "en": "Front Camera"
+      },
+      "value": {
+        "zh": "480p Wi-Fi镜头",
+        "en": "480p Wi-Fi camera"
+      }
+    },
+    {
+      "key": {
+        "zh": "云台",
+        "en": "Gimbal"
+      },
+      "value": {
+        "zh": "舵机增稳云台",
+        "en": "Servo-stabilized gimbal"
+      }
+    },
+    {
+      "key": {
+        "zh": "附加功能",
+        "en": "Additional Functions"
+      },
+      "value": {
+        "zh": "手势拍照、一键返航与灯光",
+        "en": "Gesture photography, one-key return and lights"
+      }
+    },
+    {
+      "key": {
+        "zh": "充电方式",
+        "en": "Charging Method"
+      },
+      "value": {
+        "zh": "USB充电，适配器需另购",
+        "en": "USB charging; adapter sold separately"
+      }
+    },
+    {
+      "key": {
+        "zh": "机身结构",
+        "en": "Airframe"
+      },
+      "value": {
+        "zh": "折叠式",
+        "en": "Folding"
+      }
+    },
+    {
+      "key": {
+        "zh": "电机型号",
+        "en": "Motor Model"
+      },
+      "value": {
+        "zh": "1503无刷电机",
+        "en": "1503 brushless motor"
+      }
+    },
+    {
+      "key": {
+        "zh": "机身电池",
+        "en": "Product Battery"
+      },
+      "value": {
+        "zh": "3.7 V / 2,000 mAh",
+        "en": "3.7 V / 2,000 mAh"
+      }
+    },
+    {
+      "key": {
+        "zh": "遥控器电池",
+        "en": "Controller Battery"
+      },
+      "value": {
+        "zh": "内置18650电池，3.7 V / 1,500 mAh",
+        "en": "Built-in 18650 battery, 3.7 V / 1,500 mAh"
+      }
+    },
+    {
+      "key": {
+        "zh": "充电时间",
+        "en": "Charging Time"
+      },
+      "value": {
+        "zh": "约120分钟",
+        "en": "Approx. 120 minutes"
+      }
+    },
+    {
+      "key": {
+        "zh": "机身重量",
+        "en": "Airframe Weight"
+      },
+      "value": {
+        "zh": "129 g",
+        "en": "129 g"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "18.5 × 11.8 × 22 cm",
+        "en": "18.5 × 11.8 × 22 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "57.5 × 49.5 × 46 cm",
+        "en": "57.5 × 49.5 × 46 cm"
+      }
+    }
+  ],
+  "attributePairs": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "ES800Pro",
+        "en": "ES800Pro"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "无人机",
+        "en": "Drones"
+      }
+    },
+    {
+      "key": {
+        "zh": "遥控频率",
+        "en": "Control Frequency"
+      },
+      "value": {
+        "zh": "2.4 GHz",
+        "en": "2.4 GHz"
+      }
+    },
+    {
+      "key": {
+        "zh": "定位与稳定",
+        "en": "Positioning and Stabilization"
+      },
+      "value": {
+        "zh": "光流定位、定高及六轴陀螺仪",
+        "en": "Optical-flow positioning, altitude hold and six-axis gyroscope"
+      }
+    },
+    {
+      "key": {
+        "zh": "摄像与图传",
+        "en": "Camera and Video Link"
+      },
+      "value": {
+        "zh": "双镜头切换与Wi-Fi图传",
+        "en": "Dual-camera switching and Wi-Fi video transmission"
+      }
+    },
+    {
+      "key": {
+        "zh": "飞行与拍摄功能",
+        "en": "Flight and Camera Functions"
+      },
+      "value": {
+        "zh": "无头模式、自定义航线及APP拍照录像",
+        "en": "Headless mode, custom flight routes and app photo/video capture"
+      }
+    },
+    {
+      "key": {
+        "zh": "镜头调节",
+        "en": "Camera Adjustment"
+      },
+      "value": {
+        "zh": "可调镜头角度",
+        "en": "Adjustable camera angle"
+      }
+    },
+    {
+      "key": {
+        "zh": "电机类型",
+        "en": "Motor Type"
+      },
+      "value": {
+        "zh": "无刷电机",
+        "en": "Brushless motor"
+      }
+    },
+    {
+      "key": {
+        "zh": "前置镜头",
+        "en": "Front Camera"
+      },
+      "value": {
+        "zh": "480p Wi-Fi镜头",
+        "en": "480p Wi-Fi camera"
+      }
+    },
+    {
+      "key": {
+        "zh": "云台",
+        "en": "Gimbal"
+      },
+      "value": {
+        "zh": "舵机增稳云台",
+        "en": "Servo-stabilized gimbal"
+      }
+    },
+    {
+      "key": {
+        "zh": "附加功能",
+        "en": "Additional Functions"
+      },
+      "value": {
+        "zh": "手势拍照、一键返航与灯光",
+        "en": "Gesture photography, one-key return and lights"
+      }
+    },
+    {
+      "key": {
+        "zh": "充电方式",
+        "en": "Charging Method"
+      },
+      "value": {
+        "zh": "USB充电，适配器需另购",
+        "en": "USB charging; adapter sold separately"
+      }
+    },
+    {
+      "key": {
+        "zh": "机身结构",
+        "en": "Airframe"
+      },
+      "value": {
+        "zh": "折叠式",
+        "en": "Folding"
+      }
+    },
+    {
+      "key": {
+        "zh": "电机型号",
+        "en": "Motor Model"
+      },
+      "value": {
+        "zh": "1503无刷电机",
+        "en": "1503 brushless motor"
+      }
+    },
+    {
+      "key": {
+        "zh": "机身电池",
+        "en": "Product Battery"
+      },
+      "value": {
+        "zh": "3.7 V / 2,000 mAh",
+        "en": "3.7 V / 2,000 mAh"
+      }
+    },
+    {
+      "key": {
+        "zh": "遥控器电池",
+        "en": "Controller Battery"
+      },
+      "value": {
+        "zh": "内置18650电池，3.7 V / 1,500 mAh",
+        "en": "Built-in 18650 battery, 3.7 V / 1,500 mAh"
+      }
+    },
+    {
+      "key": {
+        "zh": "充电时间",
+        "en": "Charging Time"
+      },
+      "value": {
+        "zh": "约120分钟",
+        "en": "Approx. 120 minutes"
+      }
+    },
+    {
+      "key": {
+        "zh": "机身重量",
+        "en": "Airframe Weight"
+      },
+      "value": {
+        "zh": "129 g",
+        "en": "129 g"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "18.5 × 11.8 × 22 cm",
+        "en": "18.5 × 11.8 × 22 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "57.5 × 49.5 × 46 cm",
+        "en": "57.5 × 49.5 × 46 cm"
+      }
+    }
+  ],
+  "packagingAndShipping": {
+    "summary": {
+      "zh": "单品包装及外箱规格如下，运输费用另行核算。",
+      "en": "Individual packing and carton specifications are listed below. Shipping is quoted separately."
+    },
+    "blocks": [
+      {
+        "label": {
+          "zh": "包装方式",
+          "en": "Packaging"
+        },
+        "value": {
+          "zh": "彩盒",
+          "en": "Color box"
+        }
+      },
+      {
+        "label": {
+          "zh": "包装尺寸",
+          "en": "Package Dimensions"
+        },
+        "value": {
+          "zh": "18.5 × 11.8 × 22 cm",
+          "en": "18.5 × 11.8 × 22 cm"
+        }
+      },
+      {
+        "label": {
+          "zh": "外箱尺寸",
+          "en": "Carton Dimensions"
+        },
+        "value": {
+          "zh": "57.5 × 49.5 × 46 cm",
+          "en": "57.5 × 49.5 × 46 cm"
+        }
+      },
+      {
+        "label": {
+          "zh": "外箱体积（按尺寸计算）",
+          "en": "Carton Volume (Calculated)"
+        },
+        "value": {
+          "zh": "0.131 m³",
+          "en": "0.131 m³"
+        }
+      },
+      {
+        "label": {
+          "zh": "运输费用",
+          "en": "Shipping Cost"
+        },
+        "value": {
+          "zh": "按目的地、箱数及运输方式另行报价。",
+          "en": "Quoted separately by destination, carton quantity and shipping method."
+        }
+      }
+    ],
+    "unitSize": "18.5 × 11.8 × 22 cm"
+  },
+  "packagingPairs": [
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "18.5 × 11.8 × 22 cm",
+        "en": "18.5 × 11.8 × 22 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "57.5 × 49.5 × 46 cm",
+        "en": "57.5 × 49.5 × 46 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱体积（按尺寸计算）",
+        "en": "Carton Volume (Calculated)"
+      },
+      "value": {
+        "zh": "0.131 m³",
+        "en": "0.131 m³"
+      }
+    },
+    {
+      "key": {
+        "zh": "运输费用",
+        "en": "Shipping Cost"
+      },
+      "value": {
+        "zh": "按目的地、箱数及运输方式另行报价。",
+        "en": "Quoted separately by destination, carton quantity and shipping method."
+      }
+    }
+  ],
+  "media": {
+    "main": [
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/ES800Pro/6b4c66885800.webp"
+      }
+    ],
+    "detail": [
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/ES800Pro/52c01c023b73.webp"
+      },
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/ES800Pro/56297ac92c0c.webp"
+      }
+    ]
+  },
+  "images": [
+    "https://www.yaoshuntoys.com/media/products-q92/ES800Pro/6b4c66885800.webp",
+    "https://www.yaoshuntoys.com/media/products-q92/ES800Pro/52c01c023b73.webp",
+    "https://www.yaoshuntoys.com/media/products-q92/ES800Pro/56297ac92c0c.webp"
+  ],
+  "videos": [],
+  "productDetails": [
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "双摄与屏控图传",
+        "en": "Dual cameras and screen FPV"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/ES800Pro/6b4c66885800.webp",
+      "text": {
+        "zh": "前置480P Wi-Fi镜头与底部镜头可切换，4.3英寸屏控用于查看实时画面。镜头角度和舵机云台结构以当前出货配置为准。",
+        "en": "The 480p Wi-Fi front camera and lower camera can be switched from the 4.3-inch screen controller. Confirm the camera angle and servo-gimbal configuration against the shipment."
+      }
+    },
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "光流定位与折叠机身",
+        "en": "Optical flow and folding body"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/ES800Pro/52c01c023b73.webp",
+      "text": {
+        "zh": "机身采用折叠结构，资料列有定高、光流定位和六轴陀螺仪。收纳时先折好机臂并保护镜头，起飞前检查桨叶和电量。",
+        "en": "The folding body is listed with altitude hold, optical-flow positioning and a six-axis gyroscope. Fold the arms for storage, protect the cameras, and check propellers and battery before flight."
+      }
+    },
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "电池与供电说明",
+        "en": "Battery and charging"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/ES800Pro/56297ac92c0c.webp",
+      "text": {
+        "zh": "机身电池为3.7 V、2000 mAh，遥控器内置3.7 V、1500 mAh电池，USB充电且适配器需另购。资料中续航时长存在差异，采购时按实测或确认版本核对。",
+        "en": "The drone battery is listed as 3.7 V, 2,000 mAh and the controller has a built-in 3.7 V, 1,500 mAh battery. USB charging is used and the adapter is separate. Flight-time figures differ in the source and should be confirmed by version."
+      }
+    }
+  ],
+  "sourceData": {
+    "file": "挑样资料.xlsx",
+    "sha256": "30f47eb8405198bf6e92d33a2beecc7e62fb016f6bf26d476c79d2f816eefae0",
+    "sheet": "Blank_A4_Landscape_1019",
+    "row": 38,
+    "cells": {
+      "B": "ES800Pro",
+      "C": "普控不带避障 折叠无人机",
+      "D": "彩盒",
+      "E": 0,
+      "F": 24,
+      "G": "104.3",
+      "H": "18.5",
+      "I": "11.8",
+      "J": "22",
+      "K": "57.5",
+      "L": "49.5",
+      "M": "46",
+      "N": "0.13",
+      "O": "4.62",
+      "P": "15",
+      "Q": "12",
+      "R": "接收频率：2.4G；充电时间 ：120分钟 ；机身电池：3.7V 2000毫安；电机型号：1503 无刷电机；单个电池飞行时间：120分钟；遥控器电池：内置3.7V1500Mah（18650电池）；\n4.3寸屏无刷光流无人机带双镜头WIFI专业航拍机 带舵机，炫酷灯光 充电方式：USB线充电（适配器需另购）； 1.前镜头为480P高清版本WIFI镜头，底部高清镜头带光流可切换拍照角度，舵机云台增稳设计，让照片成行更清晰 2.定高功能具有高度保持模式功能，光流定位定点功能，飞行稳定。 3.超长续航3.7V 2000mah毫安锂电池，续航时间达到12分钟左右， 4.自定义航线。可以在APP上面画出你想要飞行的画面 5.APP手机控制，一键返航，无头模式，上升下降，前进后退，左右侧飞 6.手势拍照，光流定位，无刷电机，超长续航 ，装配避障头，可以遇到障碍物急停而不会碰撞障碍物                                                           7.无刷马达提供更强大的动力以及更持久的使用寿命 8.产品尺寸重量轻，机身重129g,可以规避国家航空管制（一些国家超过250g的无人机就需要考证或者是登记，250g就可以免去考证和登记烦恼） 9.2.4GHz抗干扰技术，六轴陀螺仪，飞行更平稳，控制更方便。"
+    },
+    "priceAdjustment": {
+      "currency": "CNY",
+      "originalPrice": 104.3,
+      "markupRate": 0.3,
+      "adjustedPrice": 135.59,
+      "decimalPlaces": 2,
+      "rounding": "ROUND_HALF_UP"
+    },
+    "reviewNotes": [
+      "备注同时写有单电池飞行时间 120 分钟和续航约 12 分钟，需核实。",
+      "产品名称写明不带避障，备注提及装配避障头，需核实实际配置。"
+    ],
+    "attributeEnrichment": {
+      "sources": [
+        "title",
+        "description",
+        "sourceData.cells",
+        "productDetails.text",
+        "packagingPairs"
+      ],
+      "dimensionUnit": "cm",
+      "dimensionUnitBasis": "用户确认未注明单位的尺寸按厘米处理",
+      "packagingImage": "https://www.yaoshuntoys.com/media/products-q92/ES800Pro/6b4c66885800.webp",
+      "imageAttributeKeys": [],
+      "ageStatus": "not-readable-or-not-shown"
+    },
+    "originalDescription": {
+      "zh": [
+        "普控不带避障 折叠无人机",
+        "接收频率：2.4G；充电时间 ：120分钟 ；机身电池：3.7V 2000毫安；电机型号：1503 无刷电机；单个电池飞行时间：120分钟；遥控器电池：内置3.7V1500Mah（18650电池）；\n4.3寸屏无刷光流无人机带双镜头WIFI专业航拍机 带舵机，炫酷灯光 充电方式：USB线充电（适配器需另购）； 1.前镜头为480P高清版本WIFI镜头，底部高清镜头带光流可切换拍照角度，舵机云台增稳设计，让照片成行更清晰 2.定高功能具有高度保持模式功能，光流定位定点功能，飞行稳定。 3.超长续航3.7V 2000mah毫安锂电池，续航时间达到12分钟左右， 4.自定义航线。可以在APP上面画出你想要飞行的画面 5.APP手机控制，一键返航，无头模式，上升下降，前进后退，左右侧飞 6.手势拍照，光流定位，无刷电机，超长续航 ，装配避障头，可以遇到障碍物急停而不会碰撞障碍物                                                           7.无刷马达提供更强大的动力以及更持久的使用寿命 8.产品尺寸重量轻，机身重129g,可以规避国家航空管制（一些国家超过250g的无人机就需要考证或者是登记，250g就可以免去考证和登记烦恼） 9.2.4GHz抗干扰技术，六轴陀螺仪，飞行更平稳，控制更方便。"
+      ],
+      "en": [
+        "Folding Drone with Standard Controller, No Obstacle Avoidance",
+        "Receiver frequency: 2.4 GHz. Charging time: 120 minutes. Drone battery: 3.7 V, 2,000 mAh; 1503 brushless motor. The source lists 120 minutes of flight time per battery in one place and approximately 12 minutes in another; please verify. Remote battery: built-in 3.7 V, 1,500 mAh (18650). A 4.3-inch-screen brushless optical-flow drone with dual cameras, Wi-Fi, servo gimbal, and lights. The 480p front camera and downward optical-flow camera support adjustable shooting angles. Features include altitude hold, optical-flow positioning, app-drawn flight routes, app control, one-key return, headless mode, gesture photography, and 2.4 GHz anti-interference control. The source describes obstacle-stop behavior, although the title says this version has no obstacle avoidance; verify the configuration. Six-axis gyroscope. Stated weight: 129 g."
+      ]
+    },
+    "workbookReview": {
+      "file": "/Users/lukang.liu/Desktop/github/yaoshun/挑样资料.xlsx",
+      "sha256": "30f47eb8405198bf6e92d33a2beecc7e62fb016f6bf26d476c79d2f816eefae0",
+      "sheet": "Blank_A4_Landscape_1019",
+      "row": 38,
+      "imagePart": "xl/media/image36.jpeg"
+    },
+    "originalPackagingPairs": [
+      {
+        "key": {
+          "zh": "包装方式",
+          "en": "Packaging"
+        },
+        "value": {
+          "zh": "彩盒",
+          "en": "Color box"
+        }
+      },
+      {
+        "key": {
+          "zh": "装箱量（E列）",
+          "en": "Packing Quantity (Column E)"
+        },
+        "value": {
+          "zh": "0",
+          "en": "0"
+        }
+      },
+      {
+        "key": {
+          "zh": "装箱量（F列）",
+          "en": "Packing Quantity (Column F)"
+        },
+        "value": {
+          "zh": "24",
+          "en": "24"
+        }
+      },
+      {
+        "key": {
+          "zh": "包装规格（原表单位）",
+          "en": "Package Dimensions (Source Units)"
+        },
+        "value": {
+          "zh": "18.5 × 11.8 × 22",
+          "en": "18.5 × 11.8 × 22"
+        }
+      },
+      {
+        "key": {
+          "zh": "外箱规格（原表单位）",
+          "en": "Carton Dimensions (Source Units)"
+        },
+        "value": {
+          "zh": "57.5 × 49.5 × 46",
+          "en": "57.5 × 49.5 × 46"
+        }
+      },
+      {
+        "key": {
+          "zh": "体积（原表单位）",
+          "en": "Volume (Source Units)"
+        },
+        "value": {
+          "zh": "0.13",
+          "en": "0.13"
+        }
+      },
+      {
+        "key": {
+          "zh": "材积（原表单位）",
+          "en": "Shipping Measurement (Source Units)"
+        },
+        "value": {
+          "zh": "4.62",
+          "en": "4.62"
+        }
+      },
+      {
+        "key": {
+          "zh": "毛重（原表单位）",
+          "en": "Gross Weight (Source Units)"
+        },
+        "value": {
+          "zh": "15",
+          "en": "15"
+        }
+      },
+      {
+        "key": {
+          "zh": "净重（原表单位）",
+          "en": "Net Weight (Source Units)"
+        },
+        "value": {
+          "zh": "12",
+          "en": "12"
+        }
+      }
+    ],
+    "contentReview": {
+      "status": "edited-individually",
+      "scope": [
+        "description",
+        "productDetails",
+        "attributePairs",
+        "customizationOptions",
+        "packagingAndShipping",
+        "leadTime"
+      ],
+      "copyStyle": "具体、简洁，按本款资料描述；未确认的配置不扩写为承诺",
+      "deliveryBasis": "未提供本款确认的天数，按样品、常规订单和定制订单说明确认节点",
+      "preservedImageUrls": true
+    }
+  },
+  "customizationOptions": [
+    {
+      "label": {
+        "zh": "包装与品牌版面",
+        "en": "Packaging and Branding"
+      },
+      "minOrder": {
+        "zh": "可提交LOGO、条码和包装图稿，按电子产品包装方案确认印刷。",
+        "en": "Submit logo, barcode and package artwork for review of the electronics packaging."
+      }
+    },
+    {
+      "label": {
+        "zh": "电池与配件配置核对",
+        "en": "Battery and Accessory Review"
+      },
+      "minOrder": {
+        "zh": "可指定电池数量、充电线和备用桨叶需求，按本型号核对可供配置。",
+        "en": "Request battery quantity, charging cables or spare propellers for model-specific confirmation."
+      }
+    },
+    {
+      "label": {
+        "zh": "说明书与APP语言",
+        "en": "Manual and App Language"
+      },
+      "minOrder": {
+        "zh": "可提交说明书和APP语言需求；功能、避障及续航按最终版本确认。",
+        "en": "Submit manual and app language requirements. Functions, obstacle sensing and flight time are confirmed for the final version."
+      }
+    }
+  ],
+  "leadTime": {
+    "notes": [
+      {
+        "label": {
+          "zh": "样品订单",
+          "en": "Samples"
+        },
+        "value": {
+          "zh": "先确认ES800Pro的屏控、镜头和电池版本，再约定寄样日期。",
+          "en": "Confirm the ES800Pro screen, camera and battery version before agreeing a sample dispatch date."
+        }
+      },
+      {
+        "label": {
+          "zh": "常规订单",
+          "en": "Standard Orders"
+        },
+        "value": {
+          "zh": "按数量、包装备料和排产确认交期，国际运输时间另计。",
+          "en": "Confirm lead time against quantity, packing materials and production schedule; international transit is additional."
+        }
+      },
+      {
+        "label": {
+          "zh": "定制订单",
+          "en": "Customized Orders"
+        },
+        "value": {
+          "zh": "先确认图稿、功能版本和配件清单，再安排生产与出货排期。",
+          "en": "Approve artwork, function version and contents before scheduling production and dispatch."
+        }
+      }
+    ]
+  }
+}

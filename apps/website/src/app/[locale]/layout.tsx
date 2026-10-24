@@ -9,6 +9,7 @@ import {TawkScript} from "@/components/tracking/tawk-script";
 import {getLocaleFromParams, localeRegistry, locales} from "@/lib/i18n";
 import {
   googleSiteVerification,
+  siteDescription,
   siteName,
   siteUrl,
 } from "@/lib/site-config";
@@ -26,7 +27,8 @@ const outfit = Outfit({
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: "Page Not Found | Yaoshun Toys",
+  title: "Yaoshun Toys | Dongguan Toy Manufacturer",
+  description: siteDescription,
   applicationName: siteName,
   authors: [{name: siteName}],
   category: "manufacturing",

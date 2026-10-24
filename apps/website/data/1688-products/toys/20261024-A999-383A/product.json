@@ -1,0 +1,736 @@
+{
+  "productId": "A999-383A",
+  "module": "toys",
+  "priority": 1024,
+  "tags": [
+    {
+      "key": "tents",
+      "en": "Children's Play Tents",
+      "zh": "儿童游戏帐篷"
+    }
+  ],
+  "title": {
+    "zh": "快餐车游戏帐篷",
+    "en": "Fast Food Truck Play Tent"
+  },
+  "summary": {
+    "zh": "快餐车造型，带遮篷与售卖窗口，随附组装说明。",
+    "en": "A food-truck tent with an awning, service window and assembly instructions."
+  },
+  "description": {
+    "zh": [
+      "快餐车造型，带遮篷与售卖窗口，随附组装说明。",
+      "这款需要组装，随附说明书。",
+      "盒面标注3岁及以上。"
+    ],
+    "en": [
+      "A food-truck tent with an awning, service window and assembly instructions.",
+      "Assembly is required and instructions are included.",
+      "The box is marked for ages 3 and above."
+    ]
+  },
+  "categories": {
+    "zh": [
+      "儿童游戏帐篷"
+    ],
+    "en": [
+      "Children's Play Tents"
+    ]
+  },
+  "pricing": {
+    "display": {
+      "zh": "¥54.86",
+      "en": "¥54.86"
+    },
+    "currency": "CNY",
+    "min": 54.86,
+    "max": 54.86,
+    "isRange": false,
+    "tiers": [
+      {
+        "quantity": {
+          "zh": "价格",
+          "en": "Price"
+        },
+        "price": "¥54.86"
+      }
+    ]
+  },
+  "specifications": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "A999-383A",
+        "en": "A999-383A"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "儿童游戏帐篷",
+        "en": "Children's Play Tents"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    },
+    {
+      "key": {
+        "zh": "供应商备注（原文）",
+        "en": "Supplier Notes (Original Chinese)"
+      },
+      "value": {
+        "zh": "需要组装,带组装说明书"
+      }
+    }
+  ],
+  "productAttributes": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "A999-383A",
+        "en": "A999-383A"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "儿童游戏帐篷",
+        "en": "Children's Play Tents"
+      }
+    },
+    {
+      "key": {
+        "zh": "适用年龄",
+        "en": "Age Range"
+      },
+      "value": {
+        "zh": "3岁及以上",
+        "en": "Ages 3+"
+      }
+    },
+    {
+      "key": {
+        "zh": "主题",
+        "en": "Theme"
+      },
+      "value": {
+        "zh": "快餐售卖车",
+        "en": "Fast food truck"
+      }
+    },
+    {
+      "key": {
+        "zh": "玩法",
+        "en": "Play Mode"
+      },
+      "value": {
+        "zh": "儿童售卖与过家家角色扮演",
+        "en": "Children's shop and pretend play"
+      }
+    },
+    {
+      "key": {
+        "zh": "组装要求",
+        "en": "Assembly"
+      },
+      "value": {
+        "zh": "需要组装，随附说明书",
+        "en": "Assembly required; instructions included"
+      }
+    },
+    {
+      "key": {
+        "zh": "结构特点",
+        "en": "Construction"
+      },
+      "value": {
+        "zh": "车体造型、遮篷与售卖窗口",
+        "en": "Truck-shaped tent with awning and service window"
+      }
+    },
+    {
+      "key": {
+        "zh": "商品尺寸",
+        "en": "Product Dimensions"
+      },
+      "value": {
+        "zh": "117 × 69 × 79 cm",
+        "en": "117 × 69 × 79 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "39 × 8 × 25 cm",
+        "en": "39 × 8 × 25 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "100 × 40 × 77 cm",
+        "en": "100 × 40 × 77 cm"
+      }
+    }
+  ],
+  "attributePairs": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "A999-383A",
+        "en": "A999-383A"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "儿童游戏帐篷",
+        "en": "Children's Play Tents"
+      }
+    },
+    {
+      "key": {
+        "zh": "适用年龄",
+        "en": "Age Range"
+      },
+      "value": {
+        "zh": "3岁及以上",
+        "en": "Ages 3+"
+      }
+    },
+    {
+      "key": {
+        "zh": "主题",
+        "en": "Theme"
+      },
+      "value": {
+        "zh": "快餐售卖车",
+        "en": "Fast food truck"
+      }
+    },
+    {
+      "key": {
+        "zh": "玩法",
+        "en": "Play Mode"
+      },
+      "value": {
+        "zh": "儿童售卖与过家家角色扮演",
+        "en": "Children's shop and pretend play"
+      }
+    },
+    {
+      "key": {
+        "zh": "组装要求",
+        "en": "Assembly"
+      },
+      "value": {
+        "zh": "需要组装，随附说明书",
+        "en": "Assembly required; instructions included"
+      }
+    },
+    {
+      "key": {
+        "zh": "结构特点",
+        "en": "Construction"
+      },
+      "value": {
+        "zh": "车体造型、遮篷与售卖窗口",
+        "en": "Truck-shaped tent with awning and service window"
+      }
+    },
+    {
+      "key": {
+        "zh": "商品尺寸",
+        "en": "Product Dimensions"
+      },
+      "value": {
+        "zh": "117 × 69 × 79 cm",
+        "en": "117 × 69 × 79 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "39 × 8 × 25 cm",
+        "en": "39 × 8 × 25 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "100 × 40 × 77 cm",
+        "en": "100 × 40 × 77 cm"
+      }
+    }
+  ],
+  "packagingAndShipping": {
+    "summary": {
+      "zh": "单品包装及外箱规格如下，运输费用另行核算。",
+      "en": "Individual packing and carton specifications are listed below. Shipping is quoted separately."
+    },
+    "blocks": [
+      {
+        "label": {
+          "zh": "包装方式",
+          "en": "Packaging"
+        },
+        "value": {
+          "zh": "彩盒",
+          "en": "Color box"
+        }
+      },
+      {
+        "label": {
+          "zh": "包装尺寸",
+          "en": "Package Dimensions"
+        },
+        "value": {
+          "zh": "39 × 8 × 25 cm",
+          "en": "39 × 8 × 25 cm"
+        }
+      },
+      {
+        "label": {
+          "zh": "外箱尺寸",
+          "en": "Carton Dimensions"
+        },
+        "value": {
+          "zh": "100 × 40 × 77 cm",
+          "en": "100 × 40 × 77 cm"
+        }
+      },
+      {
+        "label": {
+          "zh": "外箱体积（按尺寸计算）",
+          "en": "Carton Volume (Calculated)"
+        },
+        "value": {
+          "zh": "0.308 m³",
+          "en": "0.308 m³"
+        }
+      },
+      {
+        "label": {
+          "zh": "运输费用",
+          "en": "Shipping Cost"
+        },
+        "value": {
+          "zh": "按目的地、箱数及运输方式另行报价。",
+          "en": "Quoted separately by destination, carton quantity and shipping method."
+        }
+      }
+    ],
+    "unitSize": "39 × 8 × 25 cm"
+  },
+  "packagingPairs": [
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "39 × 8 × 25 cm",
+        "en": "39 × 8 × 25 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "100 × 40 × 77 cm",
+        "en": "100 × 40 × 77 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱体积（按尺寸计算）",
+        "en": "Carton Volume (Calculated)"
+      },
+      "value": {
+        "zh": "0.308 m³",
+        "en": "0.308 m³"
+      }
+    },
+    {
+      "key": {
+        "zh": "运输费用",
+        "en": "Shipping Cost"
+      },
+      "value": {
+        "zh": "按目的地、箱数及运输方式另行报价。",
+        "en": "Quoted separately by destination, carton quantity and shipping method."
+      }
+    }
+  ],
+  "media": {
+    "main": [
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/A999-383A/0a0e3688bf34.webp"
+      }
+    ],
+    "detail": [
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/A999-383A/5b878c3a080c.webp"
+      },
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/A999-383A/1b62cc6b7899.webp"
+      }
+    ]
+  },
+  "images": [
+    "https://www.yaoshuntoys.com/media/products-q92/A999-383A/0a0e3688bf34.webp",
+    "https://www.yaoshuntoys.com/media/products-q92/A999-383A/5b878c3a080c.webp",
+    "https://www.yaoshuntoys.com/media/products-q92/A999-383A/1b62cc6b7899.webp"
+  ],
+  "videos": [],
+  "productDetails": [
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "把快餐车变成游戏小店",
+        "en": "A food truck for pretend play"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/A999-383A/0a0e3688bf34.webp",
+      "text": {
+        "zh": "车身图案、遮篷与售卖窗口组成快餐车场景。可以从窗口接单、招呼顾客，或围绕出车与停车编一个故事，食品道具可自行搭配。",
+        "en": "Vehicle graphics, an awning and a service window create a food-truck setting. Players can take orders through the window or invent a story about driving and parking the truck. Food props can be added separately."
+      }
+    },
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "按说明组装车体",
+        "en": "Assemble the truck with the included guide"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/A999-383A/5b878c3a080c.webp",
+      "text": {
+        "zh": "这款需要组装，随附说明书。组装后的尺寸为117 × 69 × 79 cm，既要预留帐篷占地，也要给入口和售卖窗口留出活动位置。",
+        "en": "Assembly is required and instructions are included. The assembled dimensions are 117 × 69 × 79 cm. Allow space for the tent itself and around the entrance and service window."
+      }
+    },
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "3岁及以上，彩盒装",
+        "en": "Ages 3+ and color-box packing"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/A999-383A/1b62cc6b7899.webp",
+      "text": {
+        "zh": "盒面标注3岁及以上。布面、遮篷与窗口的细节在配图中展示，单品彩盒尺寸39 × 8 × 25 cm，货号A999-383A。",
+        "en": "The box is marked for ages 3 and above. The images show the fabric, awning and window details. The individual color box measures 39 × 8 × 25 cm; model A999-383A."
+      }
+    }
+  ],
+  "sourceData": {
+    "file": "挑样资料.xlsx",
+    "sha256": "30f47eb8405198bf6e92d33a2beecc7e62fb016f6bf26d476c79d2f816eefae0",
+    "sheet": "Blank_A4_Landscape_1019",
+    "row": 27,
+    "cells": {
+      "B": "A999-383A",
+      "C": "儿童帐篷过家家快餐车精美彩盒装热销款",
+      "D": "彩盒",
+      "E": 2,
+      "F": 36,
+      "G": "42.2",
+      "H": "39",
+      "I": "8",
+      "J": "25",
+      "K": "100",
+      "L": "40",
+      "M": "77",
+      "N": "0.31",
+      "O": "10.87",
+      "P": "33",
+      "Q": "32",
+      "R": "\n需要组装,带组装说明书"
+    },
+    "priceAdjustment": {
+      "currency": "CNY",
+      "originalPrice": 42.2,
+      "markupRate": 0.3,
+      "adjustedPrice": 54.86,
+      "decimalPlaces": 2,
+      "rounding": "ROUND_HALF_UP"
+    },
+    "reviewNotes": [],
+    "attributeEnrichment": {
+      "sources": [
+        "title",
+        "description",
+        "sourceData.cells",
+        "productDetails.text",
+        "packagingPairs"
+      ],
+      "dimensionUnit": "cm",
+      "dimensionUnitBasis": "用户确认未注明单位的尺寸按厘米处理",
+      "packagingImage": "https://www.yaoshuntoys.com/media/products-q92/A999-383A/0a0e3688bf34.webp",
+      "imageAttributeKeys": [
+        "Age Range"
+      ],
+      "ageStatus": "packaging-label"
+    },
+    "originalDescription": {
+      "zh": [
+        "儿童帐篷过家家快餐车精美彩盒装热销款",
+        "需要组装,带组装说明书"
+      ],
+      "en": [
+        "Fast Food Truck Children's Play Tent",
+        "Assembly is required; instructions are included."
+      ]
+    },
+    "workbookReview": {
+      "file": "/Users/lukang.liu/Desktop/github/yaoshun/挑样资料.xlsx",
+      "sha256": "30f47eb8405198bf6e92d33a2beecc7e62fb016f6bf26d476c79d2f816eefae0",
+      "sheet": "Blank_A4_Landscape_1019",
+      "row": 27,
+      "imagePart": "xl/media/image25.jpeg"
+    },
+    "originalPackagingPairs": [
+      {
+        "key": {
+          "zh": "包装方式",
+          "en": "Packaging"
+        },
+        "value": {
+          "zh": "彩盒",
+          "en": "Color box"
+        }
+      },
+      {
+        "key": {
+          "zh": "装箱量（E列）",
+          "en": "Packing Quantity (Column E)"
+        },
+        "value": {
+          "zh": "2",
+          "en": "2"
+        }
+      },
+      {
+        "key": {
+          "zh": "装箱量（F列）",
+          "en": "Packing Quantity (Column F)"
+        },
+        "value": {
+          "zh": "36",
+          "en": "36"
+        }
+      },
+      {
+        "key": {
+          "zh": "包装规格（原表单位）",
+          "en": "Package Dimensions (Source Units)"
+        },
+        "value": {
+          "zh": "39 × 8 × 25",
+          "en": "39 × 8 × 25"
+        }
+      },
+      {
+        "key": {
+          "zh": "外箱规格（原表单位）",
+          "en": "Carton Dimensions (Source Units)"
+        },
+        "value": {
+          "zh": "100 × 40 × 77",
+          "en": "100 × 40 × 77"
+        }
+      },
+      {
+        "key": {
+          "zh": "体积（原表单位）",
+          "en": "Volume (Source Units)"
+        },
+        "value": {
+          "zh": "0.31",
+          "en": "0.31"
+        }
+      },
+      {
+        "key": {
+          "zh": "材积（原表单位）",
+          "en": "Shipping Measurement (Source Units)"
+        },
+        "value": {
+          "zh": "10.87",
+          "en": "10.87"
+        }
+      },
+      {
+        "key": {
+          "zh": "毛重（原表单位）",
+          "en": "Gross Weight (Source Units)"
+        },
+        "value": {
+          "zh": "33",
+          "en": "33"
+        }
+      },
+      {
+        "key": {
+          "zh": "净重（原表单位）",
+          "en": "Net Weight (Source Units)"
+        },
+        "value": {
+          "zh": "32",
+          "en": "32"
+        }
+      }
+    ],
+    "contentReview": {
+      "status": "edited-individually",
+      "scope": [
+        "description",
+        "productDetails",
+        "attributePairs",
+        "customizationOptions",
+        "packagingAndShipping",
+        "leadTime"
+      ],
+      "copyStyle": "具体、简洁，按本款资料描述；未确认的配置不扩写为承诺",
+      "deliveryBasis": "未提供本款确认的天数，按样品、常规订单和定制订单说明确认节点",
+      "preservedImageUrls": true
+    }
+  },
+  "customizationOptions": [
+    {
+      "label": {
+        "zh": "彩盒与品牌版面",
+        "en": "Retail Box and Branding"
+      },
+      "minOrder": {
+        "zh": "可提交LOGO、盒面设计与条码要求，印刷方案及起订量另行确认。",
+        "en": "Submit logo artwork, box design and barcode requirements. Print specifications and minimum quantities are confirmed separately."
+      }
+    },
+    {
+      "label": {
+        "zh": "布面与配色方案评估",
+        "en": "Fabric and Color Review"
+      },
+      "minOrder": {
+        "zh": "可提出布面图案、配色和面料要求，先确认打样条件与费用。",
+        "en": "Request fabric prints, colors or materials for review of sampling requirements and costs."
+      }
+    },
+    {
+      "label": {
+        "zh": "组装说明语言",
+        "en": "Assembly Guide Language"
+      },
+      "minOrder": {
+        "zh": "可提交说明书语言和图示要求，按确认稿评估排版与印刷。",
+        "en": "Submit assembly-guide languages and illustrations for layout and print review."
+      }
+    }
+  ],
+  "leadTime": {
+    "notes": [
+      {
+        "label": {
+          "zh": "样品订单",
+          "en": "Samples"
+        },
+        "value": {
+          "zh": "先确认A999-383A样品和当前配色库存，再约定寄样日期。",
+          "en": "Confirm A999-383A sample and color availability before agreeing a dispatch date."
+        }
+      },
+      {
+        "label": {
+          "zh": "常规订单",
+          "en": "Standard Orders"
+        },
+        "value": {
+          "zh": "按订单数量、包装备料和现有排产确认交期，国际运输时间另计。",
+          "en": "Confirm lead time against quantity, packing materials and the production schedule. International transit is additional."
+        }
+      },
+      {
+        "label": {
+          "zh": "定制订单",
+          "en": "Customized Orders"
+        },
+        "value": {
+          "zh": "先确认图稿、配件清单和样品，确认后再安排生产与出货排期。",
+          "en": "Approve artwork, contents and samples before scheduling production and dispatch."
+        }
+      }
+    ]
+  }
+}

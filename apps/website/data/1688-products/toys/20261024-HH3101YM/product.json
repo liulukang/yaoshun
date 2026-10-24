@@ -1,0 +1,834 @@
+{
+  "productId": "HH3101YM",
+  "module": "toys",
+  "priority": 1031,
+  "tags": [
+    {
+      "key": "robots",
+      "en": "Robots and RC Toys",
+      "zh": "机器人与遥控玩具"
+    }
+  ],
+  "title": {
+    "zh": "AI互动机器人（英文版）",
+    "en": "AI Companion Robot, English Version"
+  },
+  "summary": {
+    "zh": "英文版互动机器人，带语音互动、学习内容和七彩灯效。",
+    "en": "An English-version robot with voice interaction, learning content and multicolor lights."
+  },
+  "description": {
+    "zh": [
+      "英文版互动机器人，带语音互动、学习内容和七彩灯效。",
+      "黄、黑、银色UV外观搭配眼部七彩灯光，灯效可跟随音乐节拍变化。",
+      "内置14500锂电池，规格3.7 V、500 mAh；充电约90分钟，使用时间约120分钟。"
+    ],
+    "en": [
+      "An English-version robot with voice interaction, learning content and multicolor lights.",
+      "A yellow, black and silver UV finish is paired with multicolor eye lights that follow the rhythm of music.",
+      "The built-in 14500 lithium battery is rated 3.7 V, 500 mAh."
+    ]
+  },
+  "categories": {
+    "zh": [
+      "机器人与遥控玩具"
+    ],
+    "en": [
+      "Robots and RC Toys"
+    ]
+  },
+  "pricing": {
+    "display": {
+      "zh": "¥186.16",
+      "en": "¥186.16"
+    },
+    "currency": "CNY",
+    "min": 186.16,
+    "max": 186.16,
+    "isRange": false,
+    "tiers": [
+      {
+        "quantity": {
+          "zh": "价格",
+          "en": "Price"
+        },
+        "price": "¥186.16"
+      }
+    ]
+  },
+  "specifications": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "HH3101YM",
+        "en": "HH3101YM"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "机器人与遥控玩具",
+        "en": "Robots and RC Toys"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "天地盖",
+        "en": "Lid-and-base box"
+      }
+    },
+    {
+      "key": {
+        "zh": "供应商备注（原文）",
+        "en": "Supplier Notes (Original Chinese)"
+      },
+      "value": {
+        "zh": "产品颜色：黄黑银UV，内置锂电池，电池容量：3.7V/500MAH 14500锂电池，产品材质：电子组件、ABS，灯光红、黄、蓝、绿、紫、白、青，带音乐，充电时间约90分钟，使用时间约120分钟，包装内含物品AI机器人x1、说明书x1、Type-c充电线x1、挂绳X1、自粘脚垫X2，功能介绍：角色定义、打断唤醒、闹钟设置、灯光秀（眼睛跟着音乐的节拍闪烁七彩灯光）、中英双语交流、时事新闻、闲聊陪伴、学习指导、科普教育、历史典故、诗词古文、成语接龙、猜谜语、天文地理、生活助理、美食推荐、健康咨询、心理咨询、海量后台云内容，支持37语种：中文、英语、日语、粤语、越南语、法语、阿拉伯语、西班牙语、俄语、韩语、意大利语、印尼语、印地语、芬兰语、泰语、德语、葡萄牙语、乌克兰语、土耳其语、捷克语、波兰语、罗马尼亚语、马来语、斯洛文尼亚语、荷兰语、希伯来语、斯洛伐克语、瑞典语、克罗地亚语、匈牙利语、加泰罗尼亚语、保加利亚语、丹麦语,波斯语，希腊，菲律宾，挪威"
+      }
+    }
+  ],
+  "productAttributes": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "HH3101YM",
+        "en": "HH3101YM"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "机器人与遥控玩具",
+        "en": "Robots and RC Toys"
+      }
+    },
+    {
+      "key": {
+        "zh": "语言版本",
+        "en": "Language Version"
+      },
+      "value": {
+        "zh": "英文版",
+        "en": "English version"
+      }
+    },
+    {
+      "key": {
+        "zh": "材质",
+        "en": "Material"
+      },
+      "value": {
+        "zh": "ABS与电子组件",
+        "en": "ABS and electronic components"
+      }
+    },
+    {
+      "key": {
+        "zh": "颜色与表面",
+        "en": "Color and Finish"
+      },
+      "value": {
+        "zh": "黄、黑、银色UV表面",
+        "en": "Yellow, black and silver UV finish"
+      }
+    },
+    {
+      "key": {
+        "zh": "机身电池",
+        "en": "Product Battery"
+      },
+      "value": {
+        "zh": "内置14500锂电池，3.7 V / 500 mAh",
+        "en": "Built-in 14500 lithium battery, 3.7 V / 500 mAh"
+      }
+    },
+    {
+      "key": {
+        "zh": "充电时间",
+        "en": "Charging Time"
+      },
+      "value": {
+        "zh": "约90分钟",
+        "en": "Approx. 90 minutes"
+      }
+    },
+    {
+      "key": {
+        "zh": "使用时间",
+        "en": "Operating Time"
+      },
+      "value": {
+        "zh": "约120分钟",
+        "en": "Approx. 120 minutes"
+      }
+    },
+    {
+      "key": {
+        "zh": "充电接口",
+        "en": "Charging Port"
+      },
+      "value": {
+        "zh": "Type-C",
+        "en": "USB-C"
+      }
+    },
+    {
+      "key": {
+        "zh": "语音与互动",
+        "en": "Voice and Interaction"
+      },
+      "value": {
+        "zh": "角色定义、打断唤醒、中英双语交流、闹钟及聊天",
+        "en": "Role definition, interrupt/wake interaction, Chinese-English conversation, alarms and chat"
+      }
+    },
+    {
+      "key": {
+        "zh": "学习内容",
+        "en": "Learning Content"
+      },
+      "value": {
+        "zh": "科普、历史、诗词、成语接龙与猜谜",
+        "en": "Science, history, poetry, idiom games and quizzes"
+      }
+    },
+    {
+      "key": {
+        "zh": "声光功能",
+        "en": "Sound and Lights"
+      },
+      "value": {
+        "zh": "音乐与七彩节奏灯效",
+        "en": "Music and seven-color rhythmic lights"
+      }
+    },
+    {
+      "key": {
+        "zh": "配件",
+        "en": "Accessories"
+      },
+      "value": {
+        "zh": "机器人1个、说明书1份、Type-C线1条、挂绳1条、自粘脚垫2个",
+        "en": "1 robot, 1 manual, 1 USB-C cable, 1 lanyard and 2 adhesive foot pads"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "天地盖",
+        "en": "Lid-and-base box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "14 × 6.5 × 11 cm",
+        "en": "14 × 6.5 × 11 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "54.5 × 43 × 34 cm",
+        "en": "54.5 × 43 × 34 cm"
+      }
+    }
+  ],
+  "attributePairs": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "HH3101YM",
+        "en": "HH3101YM"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "机器人与遥控玩具",
+        "en": "Robots and RC Toys"
+      }
+    },
+    {
+      "key": {
+        "zh": "语言版本",
+        "en": "Language Version"
+      },
+      "value": {
+        "zh": "英文版",
+        "en": "English version"
+      }
+    },
+    {
+      "key": {
+        "zh": "材质",
+        "en": "Material"
+      },
+      "value": {
+        "zh": "ABS与电子组件",
+        "en": "ABS and electronic components"
+      }
+    },
+    {
+      "key": {
+        "zh": "颜色与表面",
+        "en": "Color and Finish"
+      },
+      "value": {
+        "zh": "黄、黑、银色UV表面",
+        "en": "Yellow, black and silver UV finish"
+      }
+    },
+    {
+      "key": {
+        "zh": "机身电池",
+        "en": "Product Battery"
+      },
+      "value": {
+        "zh": "内置14500锂电池，3.7 V / 500 mAh",
+        "en": "Built-in 14500 lithium battery, 3.7 V / 500 mAh"
+      }
+    },
+    {
+      "key": {
+        "zh": "充电时间",
+        "en": "Charging Time"
+      },
+      "value": {
+        "zh": "约90分钟",
+        "en": "Approx. 90 minutes"
+      }
+    },
+    {
+      "key": {
+        "zh": "使用时间",
+        "en": "Operating Time"
+      },
+      "value": {
+        "zh": "约120分钟",
+        "en": "Approx. 120 minutes"
+      }
+    },
+    {
+      "key": {
+        "zh": "充电接口",
+        "en": "Charging Port"
+      },
+      "value": {
+        "zh": "Type-C",
+        "en": "USB-C"
+      }
+    },
+    {
+      "key": {
+        "zh": "语音与互动",
+        "en": "Voice and Interaction"
+      },
+      "value": {
+        "zh": "角色定义、打断唤醒、中英双语交流、闹钟及聊天",
+        "en": "Role definition, interrupt/wake interaction, Chinese-English conversation, alarms and chat"
+      }
+    },
+    {
+      "key": {
+        "zh": "学习内容",
+        "en": "Learning Content"
+      },
+      "value": {
+        "zh": "科普、历史、诗词、成语接龙与猜谜",
+        "en": "Science, history, poetry, idiom games and quizzes"
+      }
+    },
+    {
+      "key": {
+        "zh": "声光功能",
+        "en": "Sound and Lights"
+      },
+      "value": {
+        "zh": "音乐与七彩节奏灯效",
+        "en": "Music and seven-color rhythmic lights"
+      }
+    },
+    {
+      "key": {
+        "zh": "配件",
+        "en": "Accessories"
+      },
+      "value": {
+        "zh": "机器人1个、说明书1份、Type-C线1条、挂绳1条、自粘脚垫2个",
+        "en": "1 robot, 1 manual, 1 USB-C cable, 1 lanyard and 2 adhesive foot pads"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "天地盖",
+        "en": "Lid-and-base box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "14 × 6.5 × 11 cm",
+        "en": "14 × 6.5 × 11 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "54.5 × 43 × 34 cm",
+        "en": "54.5 × 43 × 34 cm"
+      }
+    }
+  ],
+  "packagingAndShipping": {
+    "summary": {
+      "zh": "单品包装及外箱规格如下，运输费用另行核算。",
+      "en": "Individual packing and carton specifications are listed below. Shipping is quoted separately."
+    },
+    "blocks": [
+      {
+        "label": {
+          "zh": "包装方式",
+          "en": "Packaging"
+        },
+        "value": {
+          "zh": "天地盖",
+          "en": "Lid-and-base box"
+        }
+      },
+      {
+        "label": {
+          "zh": "包装尺寸",
+          "en": "Package Dimensions"
+        },
+        "value": {
+          "zh": "14 × 6.5 × 11 cm",
+          "en": "14 × 6.5 × 11 cm"
+        }
+      },
+      {
+        "label": {
+          "zh": "外箱尺寸",
+          "en": "Carton Dimensions"
+        },
+        "value": {
+          "zh": "54.5 × 43 × 34 cm",
+          "en": "54.5 × 43 × 34 cm"
+        }
+      },
+      {
+        "label": {
+          "zh": "外箱体积（按尺寸计算）",
+          "en": "Carton Volume (Calculated)"
+        },
+        "value": {
+          "zh": "0.080 m³",
+          "en": "0.080 m³"
+        }
+      },
+      {
+        "label": {
+          "zh": "运输费用",
+          "en": "Shipping Cost"
+        },
+        "value": {
+          "zh": "按目的地、箱数及运输方式另行报价。",
+          "en": "Quoted separately by destination, carton quantity and shipping method."
+        }
+      }
+    ],
+    "unitSize": "14 × 6.5 × 11 cm"
+  },
+  "packagingPairs": [
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "天地盖",
+        "en": "Lid-and-base box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "14 × 6.5 × 11 cm",
+        "en": "14 × 6.5 × 11 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "54.5 × 43 × 34 cm",
+        "en": "54.5 × 43 × 34 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱体积（按尺寸计算）",
+        "en": "Carton Volume (Calculated)"
+      },
+      "value": {
+        "zh": "0.080 m³",
+        "en": "0.080 m³"
+      }
+    },
+    {
+      "key": {
+        "zh": "运输费用",
+        "en": "Shipping Cost"
+      },
+      "value": {
+        "zh": "按目的地、箱数及运输方式另行报价。",
+        "en": "Quoted separately by destination, carton quantity and shipping method."
+      }
+    }
+  ],
+  "media": {
+    "main": [
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/HH3101YM/e1efd56d96d1.webp"
+      }
+    ],
+    "detail": [
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/HH3101YM/2bc772e042b8.webp"
+      },
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/HH3101YM/20ae01bef58e.webp"
+      }
+    ]
+  },
+  "images": [
+    "https://www.yaoshuntoys.com/media/products-q92/HH3101YM/e1efd56d96d1.webp",
+    "https://www.yaoshuntoys.com/media/products-q92/HH3101YM/2bc772e042b8.webp",
+    "https://www.yaoshuntoys.com/media/products-q92/HH3101YM/20ae01bef58e.webp"
+  ],
+  "videos": [],
+  "productDetails": [
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "围绕聊天和内容互动",
+        "en": "Conversation and learning content"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/HH3101YM/e1efd56d96d1.webp",
+      "text": {
+        "zh": "这款以英文版AI互动为定位，资料列有角色定义、唤醒互动、闹钟和聊天功能。学习内容包括科普、历史、诗词与猜谜，可按需要选择互动话题。",
+        "en": "This English-version robot is listed with role definition, wake interaction, alarms and conversation. Its learning content covers science, history, poetry and quizzes for choosing different topics."
+      }
+    },
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "灯光、音乐与机身细节",
+        "en": "Lights, music and body details"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/HH3101YM/2bc772e042b8.webp",
+      "text": {
+        "zh": "黄、黑、银色UV外观搭配眼部七彩灯光，灯效可跟随音乐节拍变化。机身材质列为ABS与电子组件，外观和细部可在商品图中查看。",
+        "en": "A yellow, black and silver UV finish is paired with multicolor eye lights that follow the rhythm of music. Listed materials are ABS and electronic components; see the product images for the body details."
+      }
+    },
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "Type-C充电与随附配件",
+        "en": "USB-C charging and included pieces"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/HH3101YM/20ae01bef58e.webp",
+      "text": {
+        "zh": "内置14500锂电池，规格3.7 V、500 mAh；充电约90分钟，使用时间约120分钟。包装列有机器人、说明书、Type-C线、挂绳及两片自粘脚垫。",
+        "en": "The built-in 14500 lithium battery is rated 3.7 V, 500 mAh. Listed charging time is about 90 minutes, with about 120 minutes of use. Contents include the robot, manual, USB-C cable, lanyard and two adhesive foot pads."
+      }
+    }
+  ],
+  "sourceData": {
+    "file": "挑样资料.xlsx",
+    "sha256": "30f47eb8405198bf6e92d33a2beecc7e62fb016f6bf26d476c79d2f816eefae0",
+    "sheet": "Blank_A4_Landscape_1019",
+    "row": 34,
+    "cells": {
+      "B": "HH3101YM",
+      "C": "AI智能机器人（英文版）",
+      "D": "天地盖",
+      "E": 0,
+      "F": 72,
+      "G": "143.2",
+      "H": "14",
+      "I": "6.5",
+      "J": "11",
+      "K": "54.5",
+      "L": "43",
+      "M": "34",
+      "N": "0.08",
+      "O": "2.81",
+      "P": "19.8",
+      "Q": "18.7",
+      "R": "\n产品颜色：黄黑银UV，内置锂电池，电池容量：3.7V/500MAH 14500锂电池，产品材质：电子组件、ABS，灯光红、黄、蓝、绿、紫、白、青，带音乐，充电时间约90分钟，使用时间约120分钟，包装内含物品AI机器人x1、说明书x1、Type-c充电线x1、挂绳X1、自粘脚垫X2，功能介绍：角色定义、打断唤醒、闹钟设置、灯光秀（眼睛跟着音乐的节拍闪烁七彩灯光）、中英双语交流、时事新闻、闲聊陪伴、学习指导、科普教育、历史典故、诗词古文、成语接龙、猜谜语、天文地理、生活助理、美食推荐、健康咨询、心理咨询、海量后台云内容，支持37语种：中文、英语、日语、粤语、越南语、法语、阿拉伯语、西班牙语、俄语、韩语、意大利语、印尼语、印地语、芬兰语、泰语、德语、葡萄牙语、乌克兰语、土耳其语、捷克语、波兰语、罗马尼亚语、马来语、斯洛文尼亚语、荷兰语、希伯来语、斯洛伐克语、瑞典语、克罗地亚语、匈牙利语、加泰罗尼亚语、保加利亚语、丹麦语,波斯语，希腊，菲律宾，挪威"
+    },
+    "priceAdjustment": {
+      "currency": "CNY",
+      "originalPrice": 143.2,
+      "markupRate": 0.3,
+      "adjustedPrice": 186.16,
+      "decimalPlaces": 2,
+      "rounding": "ROUND_HALF_UP"
+    },
+    "reviewNotes": [],
+    "attributeEnrichment": {
+      "sources": [
+        "title",
+        "description",
+        "sourceData.cells",
+        "productDetails.text",
+        "packagingPairs"
+      ],
+      "dimensionUnit": "cm",
+      "dimensionUnitBasis": "用户确认未注明单位的尺寸按厘米处理",
+      "packagingImage": "https://www.yaoshuntoys.com/media/products-q92/HH3101YM/e1efd56d96d1.webp",
+      "imageAttributeKeys": [],
+      "ageStatus": "not-readable-or-not-shown"
+    },
+    "originalDescription": {
+      "zh": [
+        "AI智能机器人（英文版）",
+        "产品颜色：黄黑银UV，内置锂电池，电池容量：3.7V/500MAH 14500锂电池，产品材质：电子组件、ABS，灯光红、黄、蓝、绿、紫、白、青，带音乐，充电时间约90分钟，使用时间约120分钟，包装内含物品AI机器人x1、说明书x1、Type-c充电线x1、挂绳X1、自粘脚垫X2，功能介绍：角色定义、打断唤醒、闹钟设置、灯光秀（眼睛跟着音乐的节拍闪烁七彩灯光）、中英双语交流、时事新闻、闲聊陪伴、学习指导、科普教育、历史典故、诗词古文、成语接龙、猜谜语、天文地理、生活助理、美食推荐、健康咨询、心理咨询、海量后台云内容，支持37语种：中文、英语、日语、粤语、越南语、法语、阿拉伯语、西班牙语、俄语、韩语、意大利语、印尼语、印地语、芬兰语、泰语、德语、葡萄牙语、乌克兰语、土耳其语、捷克语、波兰语、罗马尼亚语、马来语、斯洛文尼亚语、荷兰语、希伯来语、斯洛伐克语、瑞典语、克罗地亚语、匈牙利语、加泰罗尼亚语、保加利亚语、丹麦语,波斯语，希腊，菲律宾，挪威"
+      ],
+      "en": [
+        "AI Smart Robot, English Version",
+        "Yellow, black, and silver UV finish. Built-in 3.7 V, 500 mAh 14500 lithium battery; ABS and electronic components; multicolor lights and music. Approximate charge time: 90 minutes; operating time: 120 minutes. Includes robot, manual, USB-C cable, lanyard, and two adhesive foot pads. Features include voice wake-up, alarms, light shows, Chinese-English conversation, news, casual conversation, learning support, science and culture content, poetry, idiom games, quizzes, and cloud content. The source states support for 37 languages and lists Chinese, English, Japanese, Cantonese, Vietnamese, French, Arabic, Spanish, Russian, Korean, Italian, Indonesian, Hindi, Finnish, Thai, German, Portuguese, Ukrainian, Turkish, Czech, Polish, Romanian, Malay, Slovenian, Dutch, Hebrew, Slovak, Swedish, Croatian, Hungarian, Catalan, Bulgarian, Danish, Persian, Greek, Filipino, and Norwegian."
+      ]
+    },
+    "workbookReview": {
+      "file": "/Users/lukang.liu/Desktop/github/yaoshun/挑样资料.xlsx",
+      "sha256": "30f47eb8405198bf6e92d33a2beecc7e62fb016f6bf26d476c79d2f816eefae0",
+      "sheet": "Blank_A4_Landscape_1019",
+      "row": 34,
+      "imagePart": "xl/media/image32.jpeg"
+    },
+    "originalPackagingPairs": [
+      {
+        "key": {
+          "zh": "包装方式",
+          "en": "Packaging"
+        },
+        "value": {
+          "zh": "天地盖",
+          "en": "Lid-and-base box"
+        }
+      },
+      {
+        "key": {
+          "zh": "装箱量（E列）",
+          "en": "Packing Quantity (Column E)"
+        },
+        "value": {
+          "zh": "0",
+          "en": "0"
+        }
+      },
+      {
+        "key": {
+          "zh": "装箱量（F列）",
+          "en": "Packing Quantity (Column F)"
+        },
+        "value": {
+          "zh": "72",
+          "en": "72"
+        }
+      },
+      {
+        "key": {
+          "zh": "包装规格（原表单位）",
+          "en": "Package Dimensions (Source Units)"
+        },
+        "value": {
+          "zh": "14 × 6.5 × 11",
+          "en": "14 × 6.5 × 11"
+        }
+      },
+      {
+        "key": {
+          "zh": "外箱规格（原表单位）",
+          "en": "Carton Dimensions (Source Units)"
+        },
+        "value": {
+          "zh": "54.5 × 43 × 34",
+          "en": "54.5 × 43 × 34"
+        }
+      },
+      {
+        "key": {
+          "zh": "体积（原表单位）",
+          "en": "Volume (Source Units)"
+        },
+        "value": {
+          "zh": "0.08",
+          "en": "0.08"
+        }
+      },
+      {
+        "key": {
+          "zh": "材积（原表单位）",
+          "en": "Shipping Measurement (Source Units)"
+        },
+        "value": {
+          "zh": "2.81",
+          "en": "2.81"
+        }
+      },
+      {
+        "key": {
+          "zh": "毛重（原表单位）",
+          "en": "Gross Weight (Source Units)"
+        },
+        "value": {
+          "zh": "19.8",
+          "en": "19.8"
+        }
+      },
+      {
+        "key": {
+          "zh": "净重（原表单位）",
+          "en": "Net Weight (Source Units)"
+        },
+        "value": {
+          "zh": "18.7",
+          "en": "18.7"
+        }
+      }
+    ],
+    "contentReview": {
+      "status": "edited-individually",
+      "scope": [
+        "description",
+        "productDetails",
+        "attributePairs",
+        "customizationOptions",
+        "packagingAndShipping",
+        "leadTime"
+      ],
+      "copyStyle": "具体、简洁，按本款资料描述；未确认的配置不扩写为承诺",
+      "deliveryBasis": "未提供本款确认的天数，按样品、常规订单和定制订单说明确认节点",
+      "preservedImageUrls": true
+    }
+  },
+  "customizationOptions": [
+    {
+      "label": {
+        "zh": "彩盒与品牌版面",
+        "en": "Retail Box and Branding"
+      },
+      "minOrder": {
+        "zh": "可提交LOGO、条码与包装语言要求，按印刷方案确认费用和起订量。",
+        "en": "Submit logo artwork, barcodes and package languages. Costs and minimum quantities depend on the print specification."
+      }
+    },
+    {
+      "label": {
+        "zh": "说明书与语言版本核对",
+        "en": "Instructions and Language Version"
+      },
+      "minOrder": {
+        "zh": "可提出说明语言和版面需求；机内语言、APP或固件功能需另行核对。",
+        "en": "Request instruction languages and layouts. On-device languages, apps and firmware functions require separate confirmation."
+      }
+    },
+    {
+      "label": {
+        "zh": "配件与外观方案评估",
+        "en": "Accessory and Appearance Review"
+      },
+      "minOrder": {
+        "zh": "可提交配件清单或配色要求，电池、控制器与电子配置按本型号确认。",
+        "en": "Submit accessory or color requirements. Batteries, controllers and electronic specifications are confirmed for this model."
+      }
+    }
+  ],
+  "leadTime": {
+    "notes": [
+      {
+        "label": {
+          "zh": "样品订单",
+          "en": "Samples"
+        },
+        "value": {
+          "zh": "先确认HH3101YM样品和当前配色库存，再约定寄样日期。",
+          "en": "Confirm HH3101YM sample and color availability before agreeing a dispatch date."
+        }
+      },
+      {
+        "label": {
+          "zh": "常规订单",
+          "en": "Standard Orders"
+        },
+        "value": {
+          "zh": "按订单数量、包装备料和现有排产确认交期，国际运输时间另计。",
+          "en": "Confirm lead time against quantity, packing materials and the production schedule. International transit is additional."
+        }
+      },
+      {
+        "label": {
+          "zh": "定制订单",
+          "en": "Customized Orders"
+        },
+        "value": {
+          "zh": "先确认图稿、配件清单和样品，确认后再安排生产与出货排期。",
+          "en": "Approve artwork, contents and samples before scheduling production and dispatch."
+        }
+      }
+    ]
+  }
+}

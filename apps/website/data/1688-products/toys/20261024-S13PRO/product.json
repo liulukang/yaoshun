@@ -1,0 +1,914 @@
+{
+  "productId": "S13PRO",
+  "module": "toys",
+  "priority": 1037,
+  "tags": [
+    {
+      "key": "drones",
+      "en": "Drones",
+      "zh": "无人机"
+    }
+  ],
+  "title": {
+    "zh": "S13PRO单电4K避障无人机",
+    "en": "S13PRO 4K Drone with Four-Side Obstacle Avoidance"
+  },
+  "summary": {
+    "zh": "黑蓝单电版配无刷电机、光流定位、四面避障和收纳包，标称飞行约15分钟。",
+    "en": "A black-and-blue single-battery drone with brushless motors, optical flow, four-side obstacle avoidance and a carrying case; stated flight time is about 15 minutes."
+  },
+  "description": {
+    "zh": [
+      "黑蓝单电版配无刷电机、光流定位、四面避障和收纳包，标称飞行约15分钟。",
+      "套装为单电池版本，机身电池3.7 V、2000 mAh，配彩盒和收纳包。",
+      "资料列遥控距离约40–50 m、飞行约15分钟、充电约60–80分钟；图像跟随和手势拍照识别距离约1–3 m。"
+    ],
+    "en": [
+      "A black-and-blue single-battery drone with brushless motors, optical flow, four-side obstacle avoidance and a carrying case; stated flight time is about 15 minutes.",
+      "This is a single-battery version with a 3.7 V, 2,000 mAh drone battery, color box and carrying case.",
+      "The source lists a control range of about 40–50 m, flight time about 15 minutes and charging about 60–80 minutes."
+    ]
+  },
+  "categories": {
+    "zh": [
+      "无人机"
+    ],
+    "en": [
+      "Drones"
+    ]
+  },
+  "pricing": {
+    "display": {
+      "zh": "¥150.54",
+      "en": "¥150.54"
+    },
+    "currency": "CNY",
+    "min": 150.54,
+    "max": 150.54,
+    "isRange": false,
+    "tiers": [
+      {
+        "quantity": {
+          "zh": "价格",
+          "en": "Price"
+        },
+        "price": "¥150.54"
+      }
+    ]
+  },
+  "specifications": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "S13PRO",
+        "en": "S13PRO"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "无人机",
+        "en": "Drones"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    },
+    {
+      "key": {
+        "zh": "供应商备注（原文）",
+        "en": "Supplier Notes (Original Chinese)"
+      },
+      "value": {
+        "zh": "包装：彩盒+收纳包  ，黑蓝，遥控器电池：3个5号（自备），智能锂电池容量 ：3.7V2000毫安\t，遥控距离(无干扰、无遮挡)：40-50米，飞行时间：15分钟左右，充电时间：60-80分钟左右\t，图像跟随：距离飞行器1-3m 识别拍摄对象 并进行自动跟随飞行。手势拍照识别：距离飞行器1-3m以内，面对摄像头做出拍照手势。MV功能：滤镜、视频特效、增加背景乐、 图片/视频分享"
+      }
+    }
+  ],
+  "productAttributes": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "S13PRO",
+        "en": "S13PRO"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "无人机",
+        "en": "Drones"
+      }
+    },
+    {
+      "key": {
+        "zh": "电机类型",
+        "en": "Motor Type"
+      },
+      "value": {
+        "zh": "无刷电机",
+        "en": "Brushless motor"
+      }
+    },
+    {
+      "key": {
+        "zh": "航拍规格",
+        "en": "Camera Specification"
+      },
+      "value": {
+        "zh": "4K（供应商标称）",
+        "en": "4K (supplier-stated)"
+      }
+    },
+    {
+      "key": {
+        "zh": "定位功能",
+        "en": "Positioning"
+      },
+      "value": {
+        "zh": "光流定位",
+        "en": "Optical-flow positioning"
+      }
+    },
+    {
+      "key": {
+        "zh": "避障配置",
+        "en": "Obstacle Avoidance"
+      },
+      "value": {
+        "zh": "四面避障",
+        "en": "Four-side obstacle avoidance"
+      }
+    },
+    {
+      "key": {
+        "zh": "电池配置",
+        "en": "Battery Configuration"
+      },
+      "value": {
+        "zh": "单电池版，2,000 mAh",
+        "en": "One 2,000 mAh battery included"
+      }
+    },
+    {
+      "key": {
+        "zh": "图像跟随",
+        "en": "Image Tracking"
+      },
+      "value": {
+        "zh": "约1–3 m识别并跟随拍摄对象",
+        "en": "Subject recognition and tracking at approx. 1–3 m"
+      }
+    },
+    {
+      "key": {
+        "zh": "手势拍照",
+        "en": "Gesture Photography"
+      },
+      "value": {
+        "zh": "约1–3 m内识别拍照手势",
+        "en": "Photo gesture recognition at approx. 1–3 m"
+      }
+    },
+    {
+      "key": {
+        "zh": "APP功能",
+        "en": "App Functions"
+      },
+      "value": {
+        "zh": "滤镜、视频特效、背景音乐及图片视频分享",
+        "en": "Filters, video effects, background music and photo/video sharing"
+      }
+    },
+    {
+      "key": {
+        "zh": "颜色",
+        "en": "Color"
+      },
+      "value": {
+        "zh": "黑色、蓝色",
+        "en": "Black and blue"
+      }
+    },
+    {
+      "key": {
+        "zh": "机身电池",
+        "en": "Product Battery"
+      },
+      "value": {
+        "zh": "3.7 V / 2,000 mAh智能锂电池",
+        "en": "3.7 V / 2,000 mAh smart lithium battery"
+      }
+    },
+    {
+      "key": {
+        "zh": "遥控器电池",
+        "en": "Controller Battery"
+      },
+      "value": {
+        "zh": "3节AA电池（需自备）",
+        "en": "3 AA batteries (not included)"
+      }
+    },
+    {
+      "key": {
+        "zh": "遥控距离",
+        "en": "Control Range"
+      },
+      "value": {
+        "zh": "无干扰、无遮挡条件下约40–50 m",
+        "en": "Approx. 40–50 m without interference or obstructions"
+      }
+    },
+    {
+      "key": {
+        "zh": "飞行时间",
+        "en": "Flight Time"
+      },
+      "value": {
+        "zh": "约15分钟",
+        "en": "Approx. 15 minutes"
+      }
+    },
+    {
+      "key": {
+        "zh": "充电时间",
+        "en": "Charging Time"
+      },
+      "value": {
+        "zh": "约60–80分钟",
+        "en": "Approx. 60–80 minutes"
+      }
+    },
+    {
+      "key": {
+        "zh": "收纳配件",
+        "en": "Storage Accessory"
+      },
+      "value": {
+        "zh": "随附收纳包",
+        "en": "Carrying case included"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "21 × 8 × 18.3 cm",
+        "en": "21 × 8 × 18.3 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "75.5 × 37.5 × 45 cm",
+        "en": "75.5 × 37.5 × 45 cm"
+      }
+    }
+  ],
+  "attributePairs": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "S13PRO",
+        "en": "S13PRO"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "无人机",
+        "en": "Drones"
+      }
+    },
+    {
+      "key": {
+        "zh": "电机类型",
+        "en": "Motor Type"
+      },
+      "value": {
+        "zh": "无刷电机",
+        "en": "Brushless motor"
+      }
+    },
+    {
+      "key": {
+        "zh": "航拍规格",
+        "en": "Camera Specification"
+      },
+      "value": {
+        "zh": "4K（供应商标称）",
+        "en": "4K (supplier-stated)"
+      }
+    },
+    {
+      "key": {
+        "zh": "定位功能",
+        "en": "Positioning"
+      },
+      "value": {
+        "zh": "光流定位",
+        "en": "Optical-flow positioning"
+      }
+    },
+    {
+      "key": {
+        "zh": "避障配置",
+        "en": "Obstacle Avoidance"
+      },
+      "value": {
+        "zh": "四面避障",
+        "en": "Four-side obstacle avoidance"
+      }
+    },
+    {
+      "key": {
+        "zh": "电池配置",
+        "en": "Battery Configuration"
+      },
+      "value": {
+        "zh": "单电池版，2,000 mAh",
+        "en": "One 2,000 mAh battery included"
+      }
+    },
+    {
+      "key": {
+        "zh": "图像跟随",
+        "en": "Image Tracking"
+      },
+      "value": {
+        "zh": "约1–3 m识别并跟随拍摄对象",
+        "en": "Subject recognition and tracking at approx. 1–3 m"
+      }
+    },
+    {
+      "key": {
+        "zh": "手势拍照",
+        "en": "Gesture Photography"
+      },
+      "value": {
+        "zh": "约1–3 m内识别拍照手势",
+        "en": "Photo gesture recognition at approx. 1–3 m"
+      }
+    },
+    {
+      "key": {
+        "zh": "APP功能",
+        "en": "App Functions"
+      },
+      "value": {
+        "zh": "滤镜、视频特效、背景音乐及图片视频分享",
+        "en": "Filters, video effects, background music and photo/video sharing"
+      }
+    },
+    {
+      "key": {
+        "zh": "颜色",
+        "en": "Color"
+      },
+      "value": {
+        "zh": "黑色、蓝色",
+        "en": "Black and blue"
+      }
+    },
+    {
+      "key": {
+        "zh": "机身电池",
+        "en": "Product Battery"
+      },
+      "value": {
+        "zh": "3.7 V / 2,000 mAh智能锂电池",
+        "en": "3.7 V / 2,000 mAh smart lithium battery"
+      }
+    },
+    {
+      "key": {
+        "zh": "遥控器电池",
+        "en": "Controller Battery"
+      },
+      "value": {
+        "zh": "3节AA电池（需自备）",
+        "en": "3 AA batteries (not included)"
+      }
+    },
+    {
+      "key": {
+        "zh": "遥控距离",
+        "en": "Control Range"
+      },
+      "value": {
+        "zh": "无干扰、无遮挡条件下约40–50 m",
+        "en": "Approx. 40–50 m without interference or obstructions"
+      }
+    },
+    {
+      "key": {
+        "zh": "飞行时间",
+        "en": "Flight Time"
+      },
+      "value": {
+        "zh": "约15分钟",
+        "en": "Approx. 15 minutes"
+      }
+    },
+    {
+      "key": {
+        "zh": "充电时间",
+        "en": "Charging Time"
+      },
+      "value": {
+        "zh": "约60–80分钟",
+        "en": "Approx. 60–80 minutes"
+      }
+    },
+    {
+      "key": {
+        "zh": "收纳配件",
+        "en": "Storage Accessory"
+      },
+      "value": {
+        "zh": "随附收纳包",
+        "en": "Carrying case included"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "21 × 8 × 18.3 cm",
+        "en": "21 × 8 × 18.3 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "75.5 × 37.5 × 45 cm",
+        "en": "75.5 × 37.5 × 45 cm"
+      }
+    }
+  ],
+  "packagingAndShipping": {
+    "summary": {
+      "zh": "单品包装及外箱规格如下，运输费用另行核算。",
+      "en": "Individual packing and carton specifications are listed below. Shipping is quoted separately."
+    },
+    "blocks": [
+      {
+        "label": {
+          "zh": "包装方式",
+          "en": "Packaging"
+        },
+        "value": {
+          "zh": "彩盒",
+          "en": "Color box"
+        }
+      },
+      {
+        "label": {
+          "zh": "包装尺寸",
+          "en": "Package Dimensions"
+        },
+        "value": {
+          "zh": "21 × 8 × 18.3 cm",
+          "en": "21 × 8 × 18.3 cm"
+        }
+      },
+      {
+        "label": {
+          "zh": "外箱尺寸",
+          "en": "Carton Dimensions"
+        },
+        "value": {
+          "zh": "75.5 × 37.5 × 45 cm",
+          "en": "75.5 × 37.5 × 45 cm"
+        }
+      },
+      {
+        "label": {
+          "zh": "外箱体积（按尺寸计算）",
+          "en": "Carton Volume (Calculated)"
+        },
+        "value": {
+          "zh": "0.127 m³",
+          "en": "0.127 m³"
+        }
+      },
+      {
+        "label": {
+          "zh": "运输费用",
+          "en": "Shipping Cost"
+        },
+        "value": {
+          "zh": "按目的地、箱数及运输方式另行报价。",
+          "en": "Quoted separately by destination, carton quantity and shipping method."
+        }
+      }
+    ],
+    "unitSize": "21 × 8 × 18.3 cm"
+  },
+  "packagingPairs": [
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "21 × 8 × 18.3 cm",
+        "en": "21 × 8 × 18.3 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "75.5 × 37.5 × 45 cm",
+        "en": "75.5 × 37.5 × 45 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱体积（按尺寸计算）",
+        "en": "Carton Volume (Calculated)"
+      },
+      "value": {
+        "zh": "0.127 m³",
+        "en": "0.127 m³"
+      }
+    },
+    {
+      "key": {
+        "zh": "运输费用",
+        "en": "Shipping Cost"
+      },
+      "value": {
+        "zh": "按目的地、箱数及运输方式另行报价。",
+        "en": "Quoted separately by destination, carton quantity and shipping method."
+      }
+    }
+  ],
+  "media": {
+    "main": [
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/S13PRO/d2ae861dc519.webp"
+      }
+    ],
+    "detail": [
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/S13PRO/a3de9eca097e.webp"
+      },
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/S13PRO/759a4fc695ae.webp"
+      }
+    ]
+  },
+  "images": [
+    "https://www.yaoshuntoys.com/media/products-q92/S13PRO/d2ae861dc519.webp",
+    "https://www.yaoshuntoys.com/media/products-q92/S13PRO/a3de9eca097e.webp",
+    "https://www.yaoshuntoys.com/media/products-q92/S13PRO/759a4fc695ae.webp"
+  ],
+  "videos": [],
+  "productDetails": [
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "4K、光流与四面避障",
+        "en": "4K, optical flow and four-side sensing"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/S13PRO/d2ae861dc519.webp",
+      "text": {
+        "zh": "供应商资料列4K摄像头、无刷电机、光流定位和四面避障。实际画质与避障效果按样品和最终版本核对。",
+        "en": "The supplier lists a 4K camera, brushless motors, optical-flow positioning and four-side obstacle avoidance. Verify image quality and sensing performance against the sample and final version."
+      }
+    },
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "单电池与收纳包",
+        "en": "One battery and carrying case"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/S13PRO/a3de9eca097e.webp",
+      "text": {
+        "zh": "套装为单电池版本，机身电池3.7 V、2000 mAh，配彩盒和收纳包。黑蓝配色可在出货前确认。",
+        "en": "This is a single-battery version with a 3.7 V, 2,000 mAh drone battery, color box and carrying case. Confirm the black-and-blue color before shipment."
+      }
+    },
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "续航、遥控与APP",
+        "en": "Flight time, control and app"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/S13PRO/759a4fc695ae.webp",
+      "text": {
+        "zh": "资料列遥控距离约40–50 m、飞行约15分钟、充电约60–80分钟；图像跟随和手势拍照识别距离约1–3 m。条件变化会影响实际结果。",
+        "en": "The source lists a control range of about 40–50 m, flight time about 15 minutes and charging about 60–80 minutes. Subject tracking and gesture recognition are listed at about 1–3 m; actual results vary with conditions."
+      }
+    }
+  ],
+  "sourceData": {
+    "file": "挑样资料.xlsx",
+    "sha256": "30f47eb8405198bf6e92d33a2beecc7e62fb016f6bf26d476c79d2f816eefae0",
+    "sheet": "Blank_A4_Landscape_1019",
+    "row": 40,
+    "cells": {
+      "B": "S13PRO",
+      "C": "4K/无刷电机+光流定位+四面避障（单电版）",
+      "D": "彩盒",
+      "E": 0,
+      "F": 36,
+      "G": "115.8",
+      "H": "21",
+      "I": "8",
+      "J": "18.3",
+      "K": "75.5",
+      "L": "37.5",
+      "M": "45",
+      "N": "0.13",
+      "O": "4.5",
+      "P": "16",
+      "Q": "15",
+      "R": "\n包装：彩盒+收纳包  ，黑蓝，遥控器电池：3个5号（自备），智能锂电池容量 ：3.7V2000毫安\t，遥控距离(无干扰、无遮挡)：40-50米，飞行时间：15分钟左右，充电时间：60-80分钟左右\t，图像跟随：距离飞行器1-3m 识别拍摄对象 并进行自动跟随飞行。手势拍照识别：距离飞行器1-3m以内，面对摄像头做出拍照手势。MV功能：滤镜、视频特效、增加背景乐、 图片/视频分享"
+    },
+    "priceAdjustment": {
+      "currency": "CNY",
+      "originalPrice": 115.8,
+      "markupRate": 0.3,
+      "adjustedPrice": 150.54,
+      "decimalPlaces": 2,
+      "rounding": "ROUND_HALF_UP"
+    },
+    "reviewNotes": [],
+    "attributeEnrichment": {
+      "sources": [
+        "title",
+        "description",
+        "sourceData.cells",
+        "productDetails.text",
+        "packagingPairs"
+      ],
+      "dimensionUnit": "cm",
+      "dimensionUnitBasis": "用户确认未注明单位的尺寸按厘米处理",
+      "packagingImage": "https://www.yaoshuntoys.com/media/products-q92/S13PRO/d2ae861dc519.webp",
+      "imageAttributeKeys": [],
+      "ageStatus": "not-readable-or-not-shown"
+    },
+    "originalDescription": {
+      "zh": [
+        "4K/无刷电机+光流定位+四面避障（单电版）",
+        "包装：彩盒+收纳包  ，黑蓝，遥控器电池：3个5号（自备），智能锂电池容量 ：3.7V2000毫安\t，遥控距离(无干扰、无遮挡)：40-50米，飞行时间：15分钟左右，充电时间：60-80分钟左右\t，图像跟随：距离飞行器1-3m 识别拍摄对象 并进行自动跟随飞行。手势拍照识别：距离飞行器1-3m以内，面对摄像头做出拍照手势。MV功能：滤镜、视频特效、增加背景乐、 图片/视频分享"
+      ],
+      "en": [
+        "4K Brushless Drone with Optical Flow and Four-Side Obstacle Avoidance, One Battery",
+        "Packaging: color box and carrying case. Black and blue. Remote requires three AA batteries, not included. Smart lithium battery: 3.7 V, 2,000 mAh. Stated control range in unobstructed conditions: 40–50 m. Flight time: about 15 minutes; charging time: 60–80 minutes. Image tracking recognizes and follows a subject at 1–3 m. Gesture recognition enables photography within 1–3 m of the camera. App includes filters, video effects, background music, and photo/video sharing."
+      ]
+    },
+    "workbookReview": {
+      "file": "/Users/lukang.liu/Desktop/github/yaoshun/挑样资料.xlsx",
+      "sha256": "30f47eb8405198bf6e92d33a2beecc7e62fb016f6bf26d476c79d2f816eefae0",
+      "sheet": "Blank_A4_Landscape_1019",
+      "row": 40,
+      "imagePart": "xl/media/image38.jpeg"
+    },
+    "originalPackagingPairs": [
+      {
+        "key": {
+          "zh": "包装方式",
+          "en": "Packaging"
+        },
+        "value": {
+          "zh": "彩盒",
+          "en": "Color box"
+        }
+      },
+      {
+        "key": {
+          "zh": "装箱量（E列）",
+          "en": "Packing Quantity (Column E)"
+        },
+        "value": {
+          "zh": "0",
+          "en": "0"
+        }
+      },
+      {
+        "key": {
+          "zh": "装箱量（F列）",
+          "en": "Packing Quantity (Column F)"
+        },
+        "value": {
+          "zh": "36",
+          "en": "36"
+        }
+      },
+      {
+        "key": {
+          "zh": "包装规格（原表单位）",
+          "en": "Package Dimensions (Source Units)"
+        },
+        "value": {
+          "zh": "21 × 8 × 18.3",
+          "en": "21 × 8 × 18.3"
+        }
+      },
+      {
+        "key": {
+          "zh": "外箱规格（原表单位）",
+          "en": "Carton Dimensions (Source Units)"
+        },
+        "value": {
+          "zh": "75.5 × 37.5 × 45",
+          "en": "75.5 × 37.5 × 45"
+        }
+      },
+      {
+        "key": {
+          "zh": "体积（原表单位）",
+          "en": "Volume (Source Units)"
+        },
+        "value": {
+          "zh": "0.13",
+          "en": "0.13"
+        }
+      },
+      {
+        "key": {
+          "zh": "材积（原表单位）",
+          "en": "Shipping Measurement (Source Units)"
+        },
+        "value": {
+          "zh": "4.5",
+          "en": "4.5"
+        }
+      },
+      {
+        "key": {
+          "zh": "毛重（原表单位）",
+          "en": "Gross Weight (Source Units)"
+        },
+        "value": {
+          "zh": "16",
+          "en": "16"
+        }
+      },
+      {
+        "key": {
+          "zh": "净重（原表单位）",
+          "en": "Net Weight (Source Units)"
+        },
+        "value": {
+          "zh": "15",
+          "en": "15"
+        }
+      }
+    ],
+    "contentReview": {
+      "status": "edited-individually",
+      "scope": [
+        "description",
+        "productDetails",
+        "attributePairs",
+        "customizationOptions",
+        "packagingAndShipping",
+        "leadTime"
+      ],
+      "copyStyle": "具体、简洁，按本款资料描述；未确认的配置不扩写为承诺",
+      "deliveryBasis": "未提供本款确认的天数，按样品、常规订单和定制订单说明确认节点",
+      "preservedImageUrls": true
+    }
+  },
+  "customizationOptions": [
+    {
+      "label": {
+        "zh": "包装与品牌版面",
+        "en": "Packaging and Branding"
+      },
+      "minOrder": {
+        "zh": "可提交LOGO、条码和包装图稿，按单电无人机包装方案核对印刷。",
+        "en": "Submit logo, barcode and package artwork for review of the single-battery drone packaging."
+      }
+    },
+    {
+      "label": {
+        "zh": "电池与颜色配置",
+        "en": "Battery and Color Configuration"
+      },
+      "minOrder": {
+        "zh": "可提出电池数量、黑蓝配色和收纳包需求，按S13PRO确认。",
+        "en": "Request battery quantity, black-and-blue color handling or carrying-case requirements for S13PRO confirmation."
+      }
+    },
+    {
+      "label": {
+        "zh": "说明书与APP语言",
+        "en": "Manual and App Language"
+      },
+      "minOrder": {
+        "zh": "可提交说明书和APP语言需求，摄像头与避障功能按最终版本确认。",
+        "en": "Submit manual and app language requirements. Camera and obstacle-sensing functions are confirmed for the final version."
+      }
+    }
+  ],
+  "leadTime": {
+    "notes": [
+      {
+        "label": {
+          "zh": "样品订单",
+          "en": "Samples"
+        },
+        "value": {
+          "zh": "先确认S13PRO摄像头、避障和收纳包配置，再约定寄样日期。",
+          "en": "Confirm the S13PRO camera, sensing and carrying-case configuration before agreeing a sample dispatch date."
+        }
+      },
+      {
+        "label": {
+          "zh": "常规订单",
+          "en": "Standard Orders"
+        },
+        "value": {
+          "zh": "按数量、包装备料和排产确认交期，国际运输时间另计。",
+          "en": "Confirm lead time against quantity, packing materials and production schedule; international transit is additional."
+        }
+      },
+      {
+        "label": {
+          "zh": "定制订单",
+          "en": "Customized Orders"
+        },
+        "value": {
+          "zh": "先确认图稿、功能版本和电池清单，再安排生产与出货排期。",
+          "en": "Approve artwork, function version and battery contents before scheduling production and dispatch."
+        }
+      }
+    ]
+  }
+}

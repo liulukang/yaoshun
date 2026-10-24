@@ -1,0 +1,909 @@
+{
+  "productId": "JB8892B",
+  "module": "toys",
+  "priority": 1003,
+  "tags": [
+    {
+      "key": "sports",
+      "en": "Sports and Outdoor Play",
+      "zh": "运动与户外玩具"
+    }
+  ],
+  "title": {
+    "zh": "三合一足球篮球套圈套装",
+    "en": "3-in-1 Football, Basketball & Ring Toss Set"
+  },
+  "summary": {
+    "zh": "球门、篮球圈与套圈目标组合在同一套管架上。",
+    "en": "A football goal, basketball hoop and ring-toss targets on one frame."
+  },
+  "description": {
+    "zh": [
+      "球门、篮球圈与套圈目标组合在同一套管架上。",
+      "支架高98 cm，底部宽79 cm、深49 cm。",
+      "配件包括直径10 cm篮球一只、直径14 cm足球一只、直径13.5 cm绿色套圈三个，以及长16 cm打气筒。"
+    ],
+    "en": [
+      "A football goal, basketball hoop and ring-toss targets on one frame.",
+      "The frame is 98 cm high, with a base 79 cm wide and 49 cm deep.",
+      "Contents shown are one 10 cm basketball, one 14 cm football, three green 13.5 cm rings and a 16 cm pump."
+    ]
+  },
+  "categories": {
+    "zh": [
+      "运动与户外玩具"
+    ],
+    "en": [
+      "Sports and Outdoor Play"
+    ]
+  },
+  "pricing": {
+    "display": {
+      "zh": "¥54.60",
+      "en": "¥54.60"
+    },
+    "currency": "CNY",
+    "min": 54.6,
+    "max": 54.6,
+    "isRange": false,
+    "tiers": [
+      {
+        "quantity": {
+          "zh": "价格",
+          "en": "Price"
+        },
+        "price": "¥54.60"
+      }
+    ]
+  },
+  "specifications": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "JB8892B",
+        "en": "JB8892B"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "运动与户外玩具",
+        "en": "Sports and Outdoor Play"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    }
+  ],
+  "productAttributes": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "JB8892B",
+        "en": "JB8892B"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "运动与户外玩具",
+        "en": "Sports and Outdoor Play"
+      }
+    },
+    {
+      "key": {
+        "zh": "玩法",
+        "en": "Play Mode"
+      },
+      "value": {
+        "zh": "足球、篮球、套圈，三合一",
+        "en": "Football, basketball and ring toss, 3-in-1"
+      }
+    },
+    {
+      "key": {
+        "zh": "套装结构",
+        "en": "Set Construction"
+      },
+      "value": {
+        "zh": "足球球门、篮球圈与套圈目标",
+        "en": "Football goal, basketball hoop and ring-toss targets"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装展示配件",
+        "en": "Pictured Accessories"
+      },
+      "value": {
+        "zh": "足球、篮球与套圈",
+        "en": "Footballs, basketball and rings"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品系列",
+        "en": "Product Series"
+      },
+      "value": {
+        "zh": "SPORT PARK ISLAND",
+        "en": "SPORT PARK ISLAND"
+      }
+    },
+    {
+      "key": {
+        "zh": "支架高度",
+        "en": "Frame Height"
+      },
+      "value": {
+        "zh": "98 cm",
+        "en": "98 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "底座宽度",
+        "en": "Base Width"
+      },
+      "value": {
+        "zh": "79 cm",
+        "en": "79 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "底座深度",
+        "en": "Base Depth"
+      },
+      "value": {
+        "zh": "49 cm",
+        "en": "49 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "篮球数量",
+        "en": "Basketball Quantity"
+      },
+      "value": {
+        "zh": "1个",
+        "en": "1"
+      }
+    },
+    {
+      "key": {
+        "zh": "篮球直径",
+        "en": "Basketball Diameter"
+      },
+      "value": {
+        "zh": "10 cm",
+        "en": "10 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "足球数量",
+        "en": "Football Quantity"
+      },
+      "value": {
+        "zh": "1个",
+        "en": "1"
+      }
+    },
+    {
+      "key": {
+        "zh": "足球直径",
+        "en": "Football Diameter"
+      },
+      "value": {
+        "zh": "14 cm",
+        "en": "14 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "套圈数量",
+        "en": "Ring Quantity"
+      },
+      "value": {
+        "zh": "3个",
+        "en": "3"
+      }
+    },
+    {
+      "key": {
+        "zh": "套圈直径",
+        "en": "Ring Diameter"
+      },
+      "value": {
+        "zh": "13.5 cm",
+        "en": "13.5 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "套圈颜色",
+        "en": "Ring Color"
+      },
+      "value": {
+        "zh": "绿色",
+        "en": "Green"
+      }
+    },
+    {
+      "key": {
+        "zh": "打气筒长度",
+        "en": "Pump Length"
+      },
+      "value": {
+        "zh": "16 cm",
+        "en": "16 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "62 × 5.8 × 31 cm",
+        "en": "62 × 5.8 × 31 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "75 × 65 × 69 cm",
+        "en": "75 × 65 × 69 cm"
+      }
+    }
+  ],
+  "attributePairs": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "JB8892B",
+        "en": "JB8892B"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "运动与户外玩具",
+        "en": "Sports and Outdoor Play"
+      }
+    },
+    {
+      "key": {
+        "zh": "玩法",
+        "en": "Play Mode"
+      },
+      "value": {
+        "zh": "足球、篮球、套圈，三合一",
+        "en": "Football, basketball and ring toss, 3-in-1"
+      }
+    },
+    {
+      "key": {
+        "zh": "套装结构",
+        "en": "Set Construction"
+      },
+      "value": {
+        "zh": "足球球门、篮球圈与套圈目标",
+        "en": "Football goal, basketball hoop and ring-toss targets"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装展示配件",
+        "en": "Pictured Accessories"
+      },
+      "value": {
+        "zh": "足球、篮球与套圈",
+        "en": "Footballs, basketball and rings"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品系列",
+        "en": "Product Series"
+      },
+      "value": {
+        "zh": "SPORT PARK ISLAND",
+        "en": "SPORT PARK ISLAND"
+      }
+    },
+    {
+      "key": {
+        "zh": "支架高度",
+        "en": "Frame Height"
+      },
+      "value": {
+        "zh": "98 cm",
+        "en": "98 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "底座宽度",
+        "en": "Base Width"
+      },
+      "value": {
+        "zh": "79 cm",
+        "en": "79 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "底座深度",
+        "en": "Base Depth"
+      },
+      "value": {
+        "zh": "49 cm",
+        "en": "49 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "篮球数量",
+        "en": "Basketball Quantity"
+      },
+      "value": {
+        "zh": "1个",
+        "en": "1"
+      }
+    },
+    {
+      "key": {
+        "zh": "篮球直径",
+        "en": "Basketball Diameter"
+      },
+      "value": {
+        "zh": "10 cm",
+        "en": "10 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "足球数量",
+        "en": "Football Quantity"
+      },
+      "value": {
+        "zh": "1个",
+        "en": "1"
+      }
+    },
+    {
+      "key": {
+        "zh": "足球直径",
+        "en": "Football Diameter"
+      },
+      "value": {
+        "zh": "14 cm",
+        "en": "14 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "套圈数量",
+        "en": "Ring Quantity"
+      },
+      "value": {
+        "zh": "3个",
+        "en": "3"
+      }
+    },
+    {
+      "key": {
+        "zh": "套圈直径",
+        "en": "Ring Diameter"
+      },
+      "value": {
+        "zh": "13.5 cm",
+        "en": "13.5 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "套圈颜色",
+        "en": "Ring Color"
+      },
+      "value": {
+        "zh": "绿色",
+        "en": "Green"
+      }
+    },
+    {
+      "key": {
+        "zh": "打气筒长度",
+        "en": "Pump Length"
+      },
+      "value": {
+        "zh": "16 cm",
+        "en": "16 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "62 × 5.8 × 31 cm",
+        "en": "62 × 5.8 × 31 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "75 × 65 × 69 cm",
+        "en": "75 × 65 × 69 cm"
+      }
+    }
+  ],
+  "packagingAndShipping": {
+    "summary": {
+      "zh": "单品包装及外箱规格如下，运输费用另行核算。",
+      "en": "Individual packing and carton specifications are listed below. Shipping is quoted separately."
+    },
+    "blocks": [
+      {
+        "label": {
+          "zh": "包装方式",
+          "en": "Packaging"
+        },
+        "value": {
+          "zh": "彩盒",
+          "en": "Color box"
+        }
+      },
+      {
+        "label": {
+          "zh": "包装尺寸",
+          "en": "Package Dimensions"
+        },
+        "value": {
+          "zh": "62 × 5.8 × 31 cm",
+          "en": "62 × 5.8 × 31 cm"
+        }
+      },
+      {
+        "label": {
+          "zh": "外箱尺寸",
+          "en": "Carton Dimensions"
+        },
+        "value": {
+          "zh": "75 × 65 × 69 cm",
+          "en": "75 × 65 × 69 cm"
+        }
+      },
+      {
+        "label": {
+          "zh": "外箱体积（按尺寸计算）",
+          "en": "Carton Volume (Calculated)"
+        },
+        "value": {
+          "zh": "0.336 m³",
+          "en": "0.336 m³"
+        }
+      },
+      {
+        "label": {
+          "zh": "运输费用",
+          "en": "Shipping Cost"
+        },
+        "value": {
+          "zh": "按目的地、箱数及运输方式另行报价。",
+          "en": "Quoted separately by destination, carton quantity and shipping method."
+        }
+      }
+    ],
+    "unitSize": "62 × 5.8 × 31 cm"
+  },
+  "packagingPairs": [
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "62 × 5.8 × 31 cm",
+        "en": "62 × 5.8 × 31 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "75 × 65 × 69 cm",
+        "en": "75 × 65 × 69 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱体积（按尺寸计算）",
+        "en": "Carton Volume (Calculated)"
+      },
+      "value": {
+        "zh": "0.336 m³",
+        "en": "0.336 m³"
+      }
+    },
+    {
+      "key": {
+        "zh": "运输费用",
+        "en": "Shipping Cost"
+      },
+      "value": {
+        "zh": "按目的地、箱数及运输方式另行报价。",
+        "en": "Quoted separately by destination, carton quantity and shipping method."
+      }
+    }
+  ],
+  "media": {
+    "main": [
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/JB8892B/7da3615d7a49.webp"
+      }
+    ],
+    "detail": [
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/JB8892B/38b677a6e5be.webp"
+      },
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/JB8892B/fde82da9897d.webp"
+      }
+    ]
+  },
+  "images": [
+    "https://www.yaoshuntoys.com/media/products-q92/JB8892B/7da3615d7a49.webp",
+    "https://www.yaoshuntoys.com/media/products-q92/JB8892B/38b677a6e5be.webp",
+    "https://www.yaoshuntoys.com/media/products-q92/JB8892B/fde82da9897d.webp"
+  ],
+  "videos": [],
+  "productDetails": [
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "从射门换到投篮",
+        "en": "Switch between football and basketball"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/JB8892B/7da3615d7a49.webp",
+      "text": {
+        "zh": "下方球门与上方篮球圈把两种球类游戏放在同一套结构上。可以先踢球，再换篮球投篮；想换一种节奏时，还可以使用套圈目标。",
+        "en": "The lower goal and upper hoop share one structure. Start with football, change to basketball, or use the ring-toss targets for a different throwing game."
+      }
+    },
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "高98 cm，底座79 × 49 cm",
+        "en": "98 cm high, with a 79 × 49 cm base"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/JB8892B/38b677a6e5be.webp",
+      "text": {
+        "zh": "支架高98 cm，底部宽79 cm、深49 cm。篮球圈位于球门上方，套圈杆设置在底座两侧。安排玩法时，可分别留出正面射门和侧面套圈的位置。",
+        "en": "The frame is 98 cm high, with a base 79 cm wide and 49 cm deep. The hoop is above the goal, and ring-toss posts stand at the sides of the base. Leave front and side space for the different games."
+      }
+    },
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "一只篮球、一只足球、三个套圈",
+        "en": "One basketball, one football and three rings"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/JB8892B/fde82da9897d.webp",
+      "text": {
+        "zh": "配件包括直径10 cm篮球一只、直径14 cm足球一只、直径13.5 cm绿色套圈三个，以及长16 cm打气筒。原包装图明确标注彩盒62 × 5.8 × 31 cm。",
+        "en": "Contents shown are one 10 cm basketball, one 14 cm football, three green 13.5 cm rings and a 16 cm pump. The original package image labels the color box at 62 × 5.8 × 31 cm."
+      }
+    }
+  ],
+  "sourceData": {
+    "file": "挑样资料.xlsx",
+    "sha256": "30f47eb8405198bf6e92d33a2beecc7e62fb016f6bf26d476c79d2f816eefae0",
+    "sheet": "Blank_A4_Landscape_1019",
+    "row": 6,
+    "cells": {
+      "B": "JB8892B",
+      "C": "三合一足球篮球套圈套装",
+      "D": "彩盒",
+      "E": 2,
+      "F": 24,
+      "G": "42",
+      "H": "0",
+      "I": "0",
+      "J": "0",
+      "K": "75",
+      "L": "65",
+      "M": "69",
+      "N": "0.34",
+      "O": "11.87",
+      "P": "28.5",
+      "Q": "26.5",
+      "R": ""
+    },
+    "priceAdjustment": {
+      "currency": "CNY",
+      "originalPrice": 42,
+      "markupRate": 0.3,
+      "adjustedPrice": 54.6,
+      "decimalPlaces": 2,
+      "rounding": "ROUND_HALF_UP"
+    },
+    "reviewNotes": [
+      "包装规格 H:J 均为 0，未生成有效单品包装尺寸。",
+      "逐款整理：表格包装规格为0，现从工作簿内嵌原包装图读取宽62×厚5.8×高31 cm，补入包装尺寸。"
+    ],
+    "attributeEnrichment": {
+      "sources": [
+        "title",
+        "description",
+        "sourceData.cells",
+        "productDetails.text",
+        "packagingPairs"
+      ],
+      "dimensionUnit": "cm",
+      "dimensionUnitBasis": "用户确认未注明单位的尺寸按厘米处理",
+      "packagingImage": "https://www.yaoshuntoys.com/media/products-q92/JB8892B/7da3615d7a49.webp",
+      "imageAttributeKeys": [
+        "Set Construction",
+        "Pictured Accessories"
+      ],
+      "ageStatus": "not-readable-or-not-shown"
+    },
+    "originalDescription": {
+      "zh": [
+        "三合一足球篮球套圈套装"
+      ],
+      "en": [
+        "3-in-1 Football, Basketball and Ring Toss Set"
+      ]
+    },
+    "workbookReview": {
+      "file": "/Users/lukang.liu/Desktop/github/yaoshun/挑样资料.xlsx",
+      "sha256": "30f47eb8405198bf6e92d33a2beecc7e62fb016f6bf26d476c79d2f816eefae0",
+      "sheet": "Blank_A4_Landscape_1019",
+      "row": 6,
+      "imagePart": "xl/media/image4.jpeg"
+    },
+    "originalPackagingPairs": [
+      {
+        "key": {
+          "zh": "包装方式",
+          "en": "Packaging"
+        },
+        "value": {
+          "zh": "彩盒",
+          "en": "Color box"
+        }
+      },
+      {
+        "key": {
+          "zh": "装箱量（E列）",
+          "en": "Packing Quantity (Column E)"
+        },
+        "value": {
+          "zh": "2",
+          "en": "2"
+        }
+      },
+      {
+        "key": {
+          "zh": "装箱量（F列）",
+          "en": "Packing Quantity (Column F)"
+        },
+        "value": {
+          "zh": "24",
+          "en": "24"
+        }
+      },
+      {
+        "key": {
+          "zh": "包装规格（原表单位）",
+          "en": "Package Dimensions (Source Units)"
+        },
+        "value": {
+          "zh": "0 × 0 × 0",
+          "en": "0 × 0 × 0"
+        }
+      },
+      {
+        "key": {
+          "zh": "外箱规格（原表单位）",
+          "en": "Carton Dimensions (Source Units)"
+        },
+        "value": {
+          "zh": "75 × 65 × 69",
+          "en": "75 × 65 × 69"
+        }
+      },
+      {
+        "key": {
+          "zh": "体积（原表单位）",
+          "en": "Volume (Source Units)"
+        },
+        "value": {
+          "zh": "0.34",
+          "en": "0.34"
+        }
+      },
+      {
+        "key": {
+          "zh": "材积（原表单位）",
+          "en": "Shipping Measurement (Source Units)"
+        },
+        "value": {
+          "zh": "11.87",
+          "en": "11.87"
+        }
+      },
+      {
+        "key": {
+          "zh": "毛重（原表单位）",
+          "en": "Gross Weight (Source Units)"
+        },
+        "value": {
+          "zh": "28.5",
+          "en": "28.5"
+        }
+      },
+      {
+        "key": {
+          "zh": "净重（原表单位）",
+          "en": "Net Weight (Source Units)"
+        },
+        "value": {
+          "zh": "26.5",
+          "en": "26.5"
+        }
+      }
+    ],
+    "contentReview": {
+      "status": "edited-individually",
+      "scope": [
+        "description",
+        "productDetails",
+        "attributePairs",
+        "customizationOptions",
+        "packagingAndShipping",
+        "leadTime"
+      ],
+      "copyStyle": "具体、简洁，按本款资料描述；未确认的配置不扩写为承诺",
+      "deliveryBasis": "未提供本款确认的天数，按样品、常规订单和定制订单说明确认节点",
+      "preservedImageUrls": true
+    }
+  },
+  "customizationOptions": [
+    {
+      "label": {
+        "zh": "彩盒与品牌标识",
+        "en": "Retail Box and Branding"
+      },
+      "minOrder": {
+        "zh": "可提供LOGO、盒面设计和销售条码，按印刷方案确认起订量。",
+        "en": "Provide logo artwork, box design and retail barcodes. Minimum quantities depend on the approved print specification."
+      }
+    },
+    {
+      "label": {
+        "zh": "支架与配件配色评估",
+        "en": "Frame and Accessory Color Review"
+      },
+      "minOrder": {
+        "zh": "可提交支架、球类或套圈配色要求，具体可做范围与费用先行确认。",
+        "en": "Submit frame, ball or ring color requirements for review of available options and costs."
+      }
+    },
+    {
+      "label": {
+        "zh": "套装与说明书方案",
+        "en": "Set and Instruction Review"
+      },
+      "minOrder": {
+        "zh": "可提出配件组合与说明语言要求，调整后的清单、包装和报价一起核对。",
+        "en": "Request accessory combinations or instruction languages. Confirm the revised contents, packing and quotation together."
+      }
+    }
+  ],
+  "leadTime": {
+    "notes": [
+      {
+        "label": {
+          "zh": "样品订单",
+          "en": "Samples"
+        },
+        "value": {
+          "zh": "先确认JB8892B样品和当前配色库存，再约定寄样日期。",
+          "en": "Confirm JB8892B sample and color availability before agreeing a dispatch date."
+        }
+      },
+      {
+        "label": {
+          "zh": "常规订单",
+          "en": "Standard Orders"
+        },
+        "value": {
+          "zh": "按订单数量、包装备料和现有排产确认交期，国际运输时间另计。",
+          "en": "Confirm lead time against quantity, packing materials and the production schedule. International transit is additional."
+        }
+      },
+      {
+        "label": {
+          "zh": "定制订单",
+          "en": "Customized Orders"
+        },
+        "value": {
+          "zh": "先确认图稿、配件清单和样品，确认后再安排生产与出货排期。",
+          "en": "Approve artwork, contents and samples before scheduling production and dispatch."
+        }
+      }
+    ]
+  }
+}

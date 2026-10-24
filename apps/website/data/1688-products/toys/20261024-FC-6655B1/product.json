@@ -1,0 +1,736 @@
+{
+  "productId": "FC-6655B1",
+  "module": "toys",
+  "priority": 1044,
+  "tags": [
+    {
+      "key": "fans",
+      "en": "Portable Fans",
+      "zh": "便携风扇"
+    }
+  ],
+  "title": {
+    "zh": "挂脖手持小风扇",
+    "en": "Handheld Fan with Neck Strap"
+  },
+  "summary": {
+    "zh": "无刷电机配1800 mAh电池，可手持或挂脖使用。",
+    "en": "A brushless motor and 1,800 mAh battery for handheld or neck-strap use."
+  },
+  "description": {
+    "zh": [
+      "无刷电机配1800 mAh电池，可手持或挂脖使用。",
+      "配置高速无刷电机，图片展示棕色、米白绿色与玫红色扇头，手柄带反光表面。",
+      "电池为18650锂电池，容量1800 mAh，配USB充电线。"
+    ],
+    "en": [
+      "A brushless motor and 1,800 mAh battery for handheld or neck-strap use.",
+      "The fan uses a high-speed brushless motor.",
+      "The fan uses an 18650 lithium battery rated at 1,800 mAh, with a USB charging cable included."
+    ]
+  },
+  "categories": {
+    "zh": [
+      "便携风扇"
+    ],
+    "en": [
+      "Portable Fans"
+    ]
+  },
+  "pricing": {
+    "display": {
+      "zh": "¥20.28",
+      "en": "¥20.28"
+    },
+    "currency": "CNY",
+    "min": 20.28,
+    "max": 20.28,
+    "isRange": false,
+    "tiers": [
+      {
+        "quantity": {
+          "zh": "价格",
+          "en": "Price"
+        },
+        "price": "¥20.28"
+      }
+    ]
+  },
+  "specifications": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "FC-6655B1",
+        "en": "FC-6655B1"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "便携风扇",
+        "en": "Portable Fans"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "盒装",
+        "en": "Box"
+      }
+    },
+    {
+      "key": {
+        "zh": "供应商备注（原文）",
+        "en": "Supplier Notes (Original Chinese)"
+      },
+      "value": {
+        "zh": "高速无刷电机，锂电池18650，1800mAH，配USB线，"
+      }
+    }
+  ],
+  "productAttributes": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "FC-6655B1",
+        "en": "FC-6655B1"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "便携风扇",
+        "en": "Portable Fans"
+      }
+    },
+    {
+      "key": {
+        "zh": "电机类型",
+        "en": "Motor Type"
+      },
+      "value": {
+        "zh": "无刷电机",
+        "en": "Brushless motor"
+      }
+    },
+    {
+      "key": {
+        "zh": "电池类型",
+        "en": "Battery Type"
+      },
+      "value": {
+        "zh": "18650锂电池",
+        "en": "18650 lithium battery"
+      }
+    },
+    {
+      "key": {
+        "zh": "电池容量",
+        "en": "Battery Capacity"
+      },
+      "value": {
+        "zh": "1,800 mAh",
+        "en": "1,800 mAh"
+      }
+    },
+    {
+      "key": {
+        "zh": "使用方式",
+        "en": "Usage"
+      },
+      "value": {
+        "zh": "手持或挂脖",
+        "en": "Handheld or worn with a neck strap"
+      }
+    },
+    {
+      "key": {
+        "zh": "配件",
+        "en": "Accessories"
+      },
+      "value": {
+        "zh": "USB充电线",
+        "en": "USB charging cable"
+      }
+    },
+    {
+      "key": {
+        "zh": "可见配色",
+        "en": "Pictured Colors"
+      },
+      "value": {
+        "zh": "棕色、米白绿色、玫红色扇头",
+        "en": "Brown, cream-green and magenta fan heads"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "盒装",
+        "en": "Box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "5.9 × 4.8 × 16.6 cm",
+        "en": "5.9 × 4.8 × 16.6 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "37 × 35 × 49 cm",
+        "en": "37 × 35 × 49 cm"
+      }
+    }
+  ],
+  "attributePairs": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "FC-6655B1",
+        "en": "FC-6655B1"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "便携风扇",
+        "en": "Portable Fans"
+      }
+    },
+    {
+      "key": {
+        "zh": "电机类型",
+        "en": "Motor Type"
+      },
+      "value": {
+        "zh": "无刷电机",
+        "en": "Brushless motor"
+      }
+    },
+    {
+      "key": {
+        "zh": "电池类型",
+        "en": "Battery Type"
+      },
+      "value": {
+        "zh": "18650锂电池",
+        "en": "18650 lithium battery"
+      }
+    },
+    {
+      "key": {
+        "zh": "电池容量",
+        "en": "Battery Capacity"
+      },
+      "value": {
+        "zh": "1,800 mAh",
+        "en": "1,800 mAh"
+      }
+    },
+    {
+      "key": {
+        "zh": "使用方式",
+        "en": "Usage"
+      },
+      "value": {
+        "zh": "手持或挂脖",
+        "en": "Handheld or worn with a neck strap"
+      }
+    },
+    {
+      "key": {
+        "zh": "配件",
+        "en": "Accessories"
+      },
+      "value": {
+        "zh": "USB充电线",
+        "en": "USB charging cable"
+      }
+    },
+    {
+      "key": {
+        "zh": "可见配色",
+        "en": "Pictured Colors"
+      },
+      "value": {
+        "zh": "棕色、米白绿色、玫红色扇头",
+        "en": "Brown, cream-green and magenta fan heads"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "盒装",
+        "en": "Box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "5.9 × 4.8 × 16.6 cm",
+        "en": "5.9 × 4.8 × 16.6 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "37 × 35 × 49 cm",
+        "en": "37 × 35 × 49 cm"
+      }
+    }
+  ],
+  "packagingAndShipping": {
+    "summary": {
+      "zh": "单品包装及外箱规格如下，运输费用另行核算。",
+      "en": "Individual packing and carton specifications are listed below. Shipping is quoted separately."
+    },
+    "blocks": [
+      {
+        "label": {
+          "zh": "包装方式",
+          "en": "Packaging"
+        },
+        "value": {
+          "zh": "盒装",
+          "en": "Box"
+        }
+      },
+      {
+        "label": {
+          "zh": "包装尺寸",
+          "en": "Package Dimensions"
+        },
+        "value": {
+          "zh": "5.9 × 4.8 × 16.6 cm",
+          "en": "5.9 × 4.8 × 16.6 cm"
+        }
+      },
+      {
+        "label": {
+          "zh": "外箱尺寸",
+          "en": "Carton Dimensions"
+        },
+        "value": {
+          "zh": "37 × 35 × 49 cm",
+          "en": "37 × 35 × 49 cm"
+        }
+      },
+      {
+        "label": {
+          "zh": "外箱体积（按尺寸计算）",
+          "en": "Carton Volume (Calculated)"
+        },
+        "value": {
+          "zh": "0.063 m³",
+          "en": "0.063 m³"
+        }
+      },
+      {
+        "label": {
+          "zh": "运输费用",
+          "en": "Shipping Cost"
+        },
+        "value": {
+          "zh": "按目的地、箱数及运输方式另行报价。",
+          "en": "Quoted separately by destination, carton quantity and shipping method."
+        }
+      }
+    ],
+    "unitSize": "5.9 × 4.8 × 16.6 cm"
+  },
+  "packagingPairs": [
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "盒装",
+        "en": "Box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "5.9 × 4.8 × 16.6 cm",
+        "en": "5.9 × 4.8 × 16.6 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "37 × 35 × 49 cm",
+        "en": "37 × 35 × 49 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱体积（按尺寸计算）",
+        "en": "Carton Volume (Calculated)"
+      },
+      "value": {
+        "zh": "0.063 m³",
+        "en": "0.063 m³"
+      }
+    },
+    {
+      "key": {
+        "zh": "运输费用",
+        "en": "Shipping Cost"
+      },
+      "value": {
+        "zh": "按目的地、箱数及运输方式另行报价。",
+        "en": "Quoted separately by destination, carton quantity and shipping method."
+      }
+    }
+  ],
+  "media": {
+    "main": [
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/FC-6655B1/395910c3f601.webp"
+      }
+    ],
+    "detail": [
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/FC-6655B1/d9814dc262ed.webp"
+      },
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/FC-6655B1/100c4ffb1167.webp"
+      }
+    ]
+  },
+  "images": [
+    "https://www.yaoshuntoys.com/media/products-q92/FC-6655B1/395910c3f601.webp",
+    "https://www.yaoshuntoys.com/media/products-q92/FC-6655B1/d9814dc262ed.webp",
+    "https://www.yaoshuntoys.com/media/products-q92/FC-6655B1/100c4ffb1167.webp"
+  ],
+  "videos": [],
+  "productDetails": [
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "手持与挂脖两种使用方式",
+        "en": "Handheld or worn with a strap"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/FC-6655B1/395910c3f601.webp",
+      "text": {
+        "zh": "这款小风扇以手持和挂脖为使用方式，适合在通勤、排队或外出时随身携带。机身把扇头与手柄连成一体，圆形控制按键位于手柄上。",
+        "en": "This portable fan can be held or worn with a neck strap for carrying on commutes, while queuing or when out. The fan head and handle form one body, with a round control button on the handle."
+      }
+    },
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "无刷电机与多种扇头配色",
+        "en": "Brushless motor and pictured colors"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/FC-6655B1/d9814dc262ed.webp",
+      "text": {
+        "zh": "配置高速无刷电机，图片展示棕色、米白绿色与玫红色扇头，手柄带反光表面。不同颜色的实际供货情况可在选款时核对。",
+        "en": "The fan uses a high-speed brushless motor. Pictured versions have brown, cream-green and magenta fan heads with reflective handles. Confirm the available color when selecting the model."
+      }
+    },
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "1800 mAh电池，配USB线",
+        "en": "1,800 mAh battery and USB cable"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/FC-6655B1/100c4ffb1167.webp",
+      "text": {
+        "zh": "电池为18650锂电池，容量1800 mAh，配USB充电线。包装尺寸5.9 × 4.8 × 16.6 cm；资料未给出风速档位、充电时间或续航时长。",
+        "en": "The fan uses an 18650 lithium battery rated at 1,800 mAh, with a USB charging cable included. Package dimensions are 5.9 × 4.8 × 16.6 cm. Speed settings, charging time and run time are not specified."
+      }
+    }
+  ],
+  "sourceData": {
+    "file": "挑样资料.xlsx",
+    "sha256": "30f47eb8405198bf6e92d33a2beecc7e62fb016f6bf26d476c79d2f816eefae0",
+    "sheet": "Blank_A4_Landscape_1019",
+    "row": 47,
+    "cells": {
+      "B": "FC-6655B1",
+      "C": "挂脖便携手持小风扇\n高速常规款",
+      "D": "盒装",
+      "E": 0,
+      "F": 120,
+      "G": "15.6",
+      "H": "5.9",
+      "I": "4.8",
+      "J": "16.6",
+      "K": "37",
+      "L": "35",
+      "M": "49",
+      "N": "0.06",
+      "O": "2.24",
+      "P": "20",
+      "Q": "18",
+      "R": "\n高速无刷电机，锂电池18650，1800mAH，配USB线，"
+    },
+    "priceAdjustment": {
+      "currency": "CNY",
+      "originalPrice": 15.6,
+      "markupRate": 0.3,
+      "adjustedPrice": 20.28,
+      "decimalPlaces": 2,
+      "rounding": "ROUND_HALF_UP"
+    },
+    "reviewNotes": [],
+    "attributeEnrichment": {
+      "sources": [
+        "title",
+        "description",
+        "sourceData.cells",
+        "productDetails.text",
+        "packagingPairs"
+      ],
+      "dimensionUnit": "cm",
+      "dimensionUnitBasis": "用户确认未注明单位的尺寸按厘米处理",
+      "packagingImage": "https://www.yaoshuntoys.com/media/products-q92/FC-6655B1/395910c3f601.webp",
+      "imageAttributeKeys": [
+        "Pictured Colors"
+      ],
+      "ageStatus": "not-applicable-to-toy-age-grading"
+    },
+    "originalDescription": {
+      "zh": [
+        "挂脖便携手持小风扇\n高速常规款",
+        "高速无刷电机，锂电池18650，1800mAH，配USB线，"
+      ],
+      "en": [
+        "Portable Handheld Fan with Neck Strap, High-Speed Standard Model",
+        "High-speed brushless motor, 18650 lithium battery (1,800 mAh), and USB cable included."
+      ]
+    },
+    "workbookReview": {
+      "file": "/Users/lukang.liu/Desktop/github/yaoshun/挑样资料.xlsx",
+      "sha256": "30f47eb8405198bf6e92d33a2beecc7e62fb016f6bf26d476c79d2f816eefae0",
+      "sheet": "Blank_A4_Landscape_1019",
+      "row": 47,
+      "imagePart": "xl/media/image45.jpeg"
+    },
+    "originalPackagingPairs": [
+      {
+        "key": {
+          "zh": "包装方式",
+          "en": "Packaging"
+        },
+        "value": {
+          "zh": "盒装",
+          "en": "Box"
+        }
+      },
+      {
+        "key": {
+          "zh": "装箱量（E列）",
+          "en": "Packing Quantity (Column E)"
+        },
+        "value": {
+          "zh": "0",
+          "en": "0"
+        }
+      },
+      {
+        "key": {
+          "zh": "装箱量（F列）",
+          "en": "Packing Quantity (Column F)"
+        },
+        "value": {
+          "zh": "120",
+          "en": "120"
+        }
+      },
+      {
+        "key": {
+          "zh": "包装规格（原表单位）",
+          "en": "Package Dimensions (Source Units)"
+        },
+        "value": {
+          "zh": "5.9 × 4.8 × 16.6",
+          "en": "5.9 × 4.8 × 16.6"
+        }
+      },
+      {
+        "key": {
+          "zh": "外箱规格（原表单位）",
+          "en": "Carton Dimensions (Source Units)"
+        },
+        "value": {
+          "zh": "37 × 35 × 49",
+          "en": "37 × 35 × 49"
+        }
+      },
+      {
+        "key": {
+          "zh": "体积（原表单位）",
+          "en": "Volume (Source Units)"
+        },
+        "value": {
+          "zh": "0.06",
+          "en": "0.06"
+        }
+      },
+      {
+        "key": {
+          "zh": "材积（原表单位）",
+          "en": "Shipping Measurement (Source Units)"
+        },
+        "value": {
+          "zh": "2.24",
+          "en": "2.24"
+        }
+      },
+      {
+        "key": {
+          "zh": "毛重（原表单位）",
+          "en": "Gross Weight (Source Units)"
+        },
+        "value": {
+          "zh": "20",
+          "en": "20"
+        }
+      },
+      {
+        "key": {
+          "zh": "净重（原表单位）",
+          "en": "Net Weight (Source Units)"
+        },
+        "value": {
+          "zh": "18",
+          "en": "18"
+        }
+      }
+    ],
+    "contentReview": {
+      "status": "edited-individually",
+      "scope": [
+        "description",
+        "productDetails",
+        "attributePairs",
+        "customizationOptions",
+        "packagingAndShipping",
+        "leadTime"
+      ],
+      "copyStyle": "具体、简洁，按本款资料描述；未确认的配置不扩写为承诺",
+      "deliveryBasis": "未提供本款确认的天数，按样品、常规订单和定制订单说明确认节点",
+      "preservedImageUrls": true
+    }
+  },
+  "customizationOptions": [
+    {
+      "label": {
+        "zh": "盒面与品牌标识",
+        "en": "Box Artwork and Branding"
+      },
+      "minOrder": {
+        "zh": "可提供LOGO、条码及包装设计，印刷或标识工艺需先确认。",
+        "en": "Provide a logo, barcode and package design for review of print and marking methods."
+      }
+    },
+    {
+      "label": {
+        "zh": "机身配色评估",
+        "en": "Body Color Review"
+      },
+      "minOrder": {
+        "zh": "可提出外壳、扇头配色要求，先确认可选色与对应起订量。",
+        "en": "Request housing and fan-head colors. Available colors and minimum quantities are confirmed first."
+      }
+    },
+    {
+      "label": {
+        "zh": "说明书与配件装盒",
+        "en": "Instructions and Accessory Packing"
+      },
+      "minOrder": {
+        "zh": "可提交说明语言及充电配件装盒要求，按确认清单报价。",
+        "en": "Submit instruction languages and charging-accessory packing requirements for a contents-based quotation."
+      }
+    }
+  ],
+  "leadTime": {
+    "notes": [
+      {
+        "label": {
+          "zh": "样品订单",
+          "en": "Samples"
+        },
+        "value": {
+          "zh": "先确认FC-6655B1样品和当前配色库存，再约定寄样日期。",
+          "en": "Confirm FC-6655B1 sample and color availability before agreeing a dispatch date."
+        }
+      },
+      {
+        "label": {
+          "zh": "常规订单",
+          "en": "Standard Orders"
+        },
+        "value": {
+          "zh": "按订单数量、包装备料和现有排产确认交期，国际运输时间另计。",
+          "en": "Confirm lead time against quantity, packing materials and the production schedule. International transit is additional."
+        }
+      },
+      {
+        "label": {
+          "zh": "定制订单",
+          "en": "Customized Orders"
+        },
+        "value": {
+          "zh": "先确认图稿、配件清单和样品，确认后再安排生产与出货排期。",
+          "en": "Approve artwork, contents and samples before scheduling production and dispatch."
+        }
+      }
+    ]
+  }
+}

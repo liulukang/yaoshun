@@ -1,0 +1,977 @@
+{
+  "productId": "S23S",
+  "module": "toys",
+  "priority": 1034,
+  "tags": [
+    {
+      "key": "drones",
+      "en": "Drones",
+      "zh": "无人机"
+    }
+  ],
+  "title": {
+    "zh": "S23S带屏控双摄无人机",
+    "en": "S23S Dual-Camera Drone with Screen Controller"
+  },
+  "summary": {
+    "zh": "黄绿色带屏控无人机，配光流定高、双摄、三面避障和100 m遥控距离。",
+    "en": "A yellow-and-green screen-controller drone with dual cameras, optical flow, three-side obstacle sensing and a stated 100 m control range."
+  },
+  "description": {
+    "zh": [
+      "黄绿色带屏控无人机，配光流定高、双摄、三面避障和100 m遥控距离。",
+      "资料列有高度保持、光流定位、六轴陀螺仪和三面避障。",
+      "机身电池为3.7 V、1800 mAh，遥控器内置3.7 V、1200 mAh电池；充电约50分钟，遥控距离约100 m。"
+    ],
+    "en": [
+      "A yellow-and-green screen-controller drone with dual cameras, optical flow, three-side obstacle sensing and a stated 100 m control range.",
+      "The source lists altitude hold, optical-flow positioning, a six-axis gyroscope and three-side obstacle sensing.",
+      "The drone battery is listed as 3.7 V, 1,800 mAh and the controller has a built-in 3.7 V, 1,200 mAh battery."
+    ]
+  },
+  "categories": {
+    "zh": [
+      "无人机"
+    ],
+    "en": [
+      "Drones"
+    ]
+  },
+  "pricing": {
+    "display": {
+      "zh": "¥171.08",
+      "en": "¥171.08"
+    },
+    "currency": "CNY",
+    "min": 171.08,
+    "max": 171.08,
+    "isRange": false,
+    "tiers": [
+      {
+        "quantity": {
+          "zh": "价格",
+          "en": "Price"
+        },
+        "price": "¥171.08"
+      }
+    ]
+  },
+  "specifications": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "S23S",
+        "en": "S23S"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "无人机",
+        "en": "Drones"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    },
+    {
+      "key": {
+        "zh": "供应商备注（原文）",
+        "en": "Supplier Notes (Original Chinese)"
+      },
+      "value": {
+        "zh": "2.4G，黄，绿，机身电池：3.7V 1800mah，充电时间：50分钟，遥控器电池：内置18650电池/3.7V1200毫安，遥控距离：约100米，充电方式：\tUSB线充电（适配器需另购）\t配件：无人机*1 遥控器*1 电池*1 USB线*2 扇叶*4 螺丝刀*1 说明书*1 APP说明书*1 内存卡*1   读卡器*1\t\t\t\t\t\t\t\t\"\"1：带屏控遥控器实时航拍\n2：具有高度保持模式功能，光流定点定位功能，飞行稳定。\n3：在无头模式下，飞行前无需调整飞机的位置。\n5：内置高清摄像头，让你在飞行的时候可以拍摄绝美的风景.\n6：具有WiFi功能，可连接应用程序、APK系统，通过手机APP可以进行拍照、摄像、以及实时传输。\n7：在屏幕上画出一条飞行路径，无人机将沿着指定的路径进行自主飞行。\n8：2.4GHz抗干扰技术，多人同时使用不干扰。\n9：4个通道，可进行上升、下降、向前、向后、左侧飞行、右侧飞行和360°滚动。\n10：六轴陀螺仪，飞行更平稳，控制更方便。\n功能：上/下、前/后、左/右转弯、侧向飞行、、无头模式、高度保持模式、WiFi FPV（双镜头有双镜头切换功能），镜头电动调节功能，三面避障\""
+      }
+    }
+  ],
+  "productAttributes": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "S23S",
+        "en": "S23S"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "无人机",
+        "en": "Drones"
+      }
+    },
+    {
+      "key": {
+        "zh": "适用年龄",
+        "en": "Age Range"
+      },
+      "value": {
+        "zh": "14岁及以上",
+        "en": "Ages 14+"
+      }
+    },
+    {
+      "key": {
+        "zh": "遥控频率",
+        "en": "Control Frequency"
+      },
+      "value": {
+        "zh": "2.4 GHz",
+        "en": "2.4 GHz"
+      }
+    },
+    {
+      "key": {
+        "zh": "定位与稳定",
+        "en": "Positioning and Stabilization"
+      },
+      "value": {
+        "zh": "光流定位、定高及六轴陀螺仪",
+        "en": "Optical-flow positioning, altitude hold and six-axis gyroscope"
+      }
+    },
+    {
+      "key": {
+        "zh": "摄像与图传",
+        "en": "Camera and Video Link"
+      },
+      "value": {
+        "zh": "双镜头切换与Wi-Fi图传",
+        "en": "Dual-camera switching and Wi-Fi video transmission"
+      }
+    },
+    {
+      "key": {
+        "zh": "飞行与拍摄功能",
+        "en": "Flight and Camera Functions"
+      },
+      "value": {
+        "zh": "无头模式、自定义航线及APP拍照录像",
+        "en": "Headless mode, custom flight routes and app photo/video capture"
+      }
+    },
+    {
+      "key": {
+        "zh": "镜头调节",
+        "en": "Camera Adjustment"
+      },
+      "value": {
+        "zh": "可调镜头角度",
+        "en": "Adjustable camera angle"
+      }
+    },
+    {
+      "key": {
+        "zh": "遥控器",
+        "en": "Controller"
+      },
+      "value": {
+        "zh": "带屏遥控器，支持实时航拍显示",
+        "en": "Screen controller with live aerial video"
+      }
+    },
+    {
+      "key": {
+        "zh": "避障配置",
+        "en": "Obstacle Avoidance"
+      },
+      "value": {
+        "zh": "三面避障",
+        "en": "Three-side obstacle avoidance"
+      }
+    },
+    {
+      "key": {
+        "zh": "控制通道",
+        "en": "Control Channels"
+      },
+      "value": {
+        "zh": "四通道，支持侧飞与360°翻滚",
+        "en": "4 channels; lateral flight and 360° rolls"
+      }
+    },
+    {
+      "key": {
+        "zh": "配件",
+        "en": "Accessories"
+      },
+      "value": {
+        "zh": "无人机、遥控器、电池各1，USB线2条，桨叶4片，螺丝刀、说明书、APP说明书、内存卡及读卡器",
+        "en": "1 drone, controller and battery; 2 USB cables; 4 propellers; screwdriver, manuals, memory card and card reader"
+      }
+    },
+    {
+      "key": {
+        "zh": "电机类型",
+        "en": "Motor Type"
+      },
+      "value": {
+        "zh": "无刷电机",
+        "en": "Brushless motor"
+      }
+    },
+    {
+      "key": {
+        "zh": "颜色",
+        "en": "Color"
+      },
+      "value": {
+        "zh": "黄色、绿色",
+        "en": "Yellow and green"
+      }
+    },
+    {
+      "key": {
+        "zh": "机身电池",
+        "en": "Product Battery"
+      },
+      "value": {
+        "zh": "3.7 V / 1,800 mAh",
+        "en": "3.7 V / 1,800 mAh"
+      }
+    },
+    {
+      "key": {
+        "zh": "遥控器电池",
+        "en": "Controller Battery"
+      },
+      "value": {
+        "zh": "内置18650电池，3.7 V / 1,200 mAh",
+        "en": "Built-in 18650 battery, 3.7 V / 1,200 mAh"
+      }
+    },
+    {
+      "key": {
+        "zh": "充电时间",
+        "en": "Charging Time"
+      },
+      "value": {
+        "zh": "约50分钟",
+        "en": "Approx. 50 minutes"
+      }
+    },
+    {
+      "key": {
+        "zh": "遥控距离",
+        "en": "Control Range"
+      },
+      "value": {
+        "zh": "约100 m",
+        "en": "Approx. 100 m"
+      }
+    },
+    {
+      "key": {
+        "zh": "充电方式",
+        "en": "Charging Method"
+      },
+      "value": {
+        "zh": "USB充电，适配器需另购",
+        "en": "USB charging; adapter sold separately"
+      }
+    },
+    {
+      "key": {
+        "zh": "展开尺寸",
+        "en": "Unfolded Dimensions"
+      },
+      "value": {
+        "zh": "27 × 25 × 6 cm",
+        "en": "27 × 25 × 6 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "31 × 8 × 43.6 cm",
+        "en": "31 × 8 × 43.6 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "66.5 × 45 × 95.5 cm",
+        "en": "66.5 × 45 × 95.5 cm"
+      }
+    }
+  ],
+  "attributePairs": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "S23S",
+        "en": "S23S"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "无人机",
+        "en": "Drones"
+      }
+    },
+    {
+      "key": {
+        "zh": "适用年龄",
+        "en": "Age Range"
+      },
+      "value": {
+        "zh": "14岁及以上",
+        "en": "Ages 14+"
+      }
+    },
+    {
+      "key": {
+        "zh": "遥控频率",
+        "en": "Control Frequency"
+      },
+      "value": {
+        "zh": "2.4 GHz",
+        "en": "2.4 GHz"
+      }
+    },
+    {
+      "key": {
+        "zh": "定位与稳定",
+        "en": "Positioning and Stabilization"
+      },
+      "value": {
+        "zh": "光流定位、定高及六轴陀螺仪",
+        "en": "Optical-flow positioning, altitude hold and six-axis gyroscope"
+      }
+    },
+    {
+      "key": {
+        "zh": "摄像与图传",
+        "en": "Camera and Video Link"
+      },
+      "value": {
+        "zh": "双镜头切换与Wi-Fi图传",
+        "en": "Dual-camera switching and Wi-Fi video transmission"
+      }
+    },
+    {
+      "key": {
+        "zh": "飞行与拍摄功能",
+        "en": "Flight and Camera Functions"
+      },
+      "value": {
+        "zh": "无头模式、自定义航线及APP拍照录像",
+        "en": "Headless mode, custom flight routes and app photo/video capture"
+      }
+    },
+    {
+      "key": {
+        "zh": "镜头调节",
+        "en": "Camera Adjustment"
+      },
+      "value": {
+        "zh": "可调镜头角度",
+        "en": "Adjustable camera angle"
+      }
+    },
+    {
+      "key": {
+        "zh": "遥控器",
+        "en": "Controller"
+      },
+      "value": {
+        "zh": "带屏遥控器，支持实时航拍显示",
+        "en": "Screen controller with live aerial video"
+      }
+    },
+    {
+      "key": {
+        "zh": "避障配置",
+        "en": "Obstacle Avoidance"
+      },
+      "value": {
+        "zh": "三面避障",
+        "en": "Three-side obstacle avoidance"
+      }
+    },
+    {
+      "key": {
+        "zh": "控制通道",
+        "en": "Control Channels"
+      },
+      "value": {
+        "zh": "四通道，支持侧飞与360°翻滚",
+        "en": "4 channels; lateral flight and 360° rolls"
+      }
+    },
+    {
+      "key": {
+        "zh": "配件",
+        "en": "Accessories"
+      },
+      "value": {
+        "zh": "无人机、遥控器、电池各1，USB线2条，桨叶4片，螺丝刀、说明书、APP说明书、内存卡及读卡器",
+        "en": "1 drone, controller and battery; 2 USB cables; 4 propellers; screwdriver, manuals, memory card and card reader"
+      }
+    },
+    {
+      "key": {
+        "zh": "电机类型",
+        "en": "Motor Type"
+      },
+      "value": {
+        "zh": "无刷电机",
+        "en": "Brushless motor"
+      }
+    },
+    {
+      "key": {
+        "zh": "颜色",
+        "en": "Color"
+      },
+      "value": {
+        "zh": "黄色、绿色",
+        "en": "Yellow and green"
+      }
+    },
+    {
+      "key": {
+        "zh": "机身电池",
+        "en": "Product Battery"
+      },
+      "value": {
+        "zh": "3.7 V / 1,800 mAh",
+        "en": "3.7 V / 1,800 mAh"
+      }
+    },
+    {
+      "key": {
+        "zh": "遥控器电池",
+        "en": "Controller Battery"
+      },
+      "value": {
+        "zh": "内置18650电池，3.7 V / 1,200 mAh",
+        "en": "Built-in 18650 battery, 3.7 V / 1,200 mAh"
+      }
+    },
+    {
+      "key": {
+        "zh": "充电时间",
+        "en": "Charging Time"
+      },
+      "value": {
+        "zh": "约50分钟",
+        "en": "Approx. 50 minutes"
+      }
+    },
+    {
+      "key": {
+        "zh": "遥控距离",
+        "en": "Control Range"
+      },
+      "value": {
+        "zh": "约100 m",
+        "en": "Approx. 100 m"
+      }
+    },
+    {
+      "key": {
+        "zh": "充电方式",
+        "en": "Charging Method"
+      },
+      "value": {
+        "zh": "USB充电，适配器需另购",
+        "en": "USB charging; adapter sold separately"
+      }
+    },
+    {
+      "key": {
+        "zh": "展开尺寸",
+        "en": "Unfolded Dimensions"
+      },
+      "value": {
+        "zh": "27 × 25 × 6 cm",
+        "en": "27 × 25 × 6 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "31 × 8 × 43.6 cm",
+        "en": "31 × 8 × 43.6 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "66.5 × 45 × 95.5 cm",
+        "en": "66.5 × 45 × 95.5 cm"
+      }
+    }
+  ],
+  "packagingAndShipping": {
+    "summary": {
+      "zh": "单品包装及外箱规格如下，运输费用另行核算。",
+      "en": "Individual packing and carton specifications are listed below. Shipping is quoted separately."
+    },
+    "blocks": [
+      {
+        "label": {
+          "zh": "包装方式",
+          "en": "Packaging"
+        },
+        "value": {
+          "zh": "彩盒",
+          "en": "Color box"
+        }
+      },
+      {
+        "label": {
+          "zh": "包装尺寸",
+          "en": "Package Dimensions"
+        },
+        "value": {
+          "zh": "31 × 8 × 43.6 cm",
+          "en": "31 × 8 × 43.6 cm"
+        }
+      },
+      {
+        "label": {
+          "zh": "外箱尺寸",
+          "en": "Carton Dimensions"
+        },
+        "value": {
+          "zh": "66.5 × 45 × 95.5 cm",
+          "en": "66.5 × 45 × 95.5 cm"
+        }
+      },
+      {
+        "label": {
+          "zh": "外箱体积（按尺寸计算）",
+          "en": "Carton Volume (Calculated)"
+        },
+        "value": {
+          "zh": "0.286 m³",
+          "en": "0.286 m³"
+        }
+      },
+      {
+        "label": {
+          "zh": "运输费用",
+          "en": "Shipping Cost"
+        },
+        "value": {
+          "zh": "按目的地、箱数及运输方式另行报价。",
+          "en": "Quoted separately by destination, carton quantity and shipping method."
+        }
+      }
+    ],
+    "unitSize": "31 × 8 × 43.6 cm"
+  },
+  "packagingPairs": [
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "31 × 8 × 43.6 cm",
+        "en": "31 × 8 × 43.6 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "66.5 × 45 × 95.5 cm",
+        "en": "66.5 × 45 × 95.5 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱体积（按尺寸计算）",
+        "en": "Carton Volume (Calculated)"
+      },
+      "value": {
+        "zh": "0.286 m³",
+        "en": "0.286 m³"
+      }
+    },
+    {
+      "key": {
+        "zh": "运输费用",
+        "en": "Shipping Cost"
+      },
+      "value": {
+        "zh": "按目的地、箱数及运输方式另行报价。",
+        "en": "Quoted separately by destination, carton quantity and shipping method."
+      }
+    }
+  ],
+  "media": {
+    "main": [
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/S23S/ac201c367406.webp"
+      }
+    ],
+    "detail": [
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/S23S/f16e22887a65.webp"
+      },
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/S23S/ea8ebbf77395.webp"
+      }
+    ]
+  },
+  "images": [
+    "https://www.yaoshuntoys.com/media/products-q92/S23S/ac201c367406.webp",
+    "https://www.yaoshuntoys.com/media/products-q92/S23S/f16e22887a65.webp",
+    "https://www.yaoshuntoys.com/media/products-q92/S23S/ea8ebbf77395.webp"
+  ],
+  "videos": [],
+  "productDetails": [
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "屏控实时图传与双摄",
+        "en": "Screen FPV and dual cameras"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/S23S/ac201c367406.webp",
+      "text": {
+        "zh": "屏控遥控器可直接查看实时画面，双镜头支持切换，镜头角度可调。APP连接、Wi-Fi图传和存储卡使用方式按说明书操作。",
+        "en": "The screen controller displays live footage and switches between dual cameras with adjustable angle. Follow the manual for app connection, Wi-Fi FPV and memory-card use."
+      }
+    },
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "光流定高与三面避障",
+        "en": "Optical flow and three-side sensing"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/S23S/f16e22887a65.webp",
+      "text": {
+        "zh": "资料列有高度保持、光流定位、六轴陀螺仪和三面避障。避障效果取决于环境和最终硬件版本，采购时按样品确认。",
+        "en": "The source lists altitude hold, optical-flow positioning, a six-axis gyroscope and three-side obstacle sensing. Performance depends on surroundings and final hardware version; verify with the sample."
+      }
+    },
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "电池与配件",
+        "en": "Battery and contents"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/S23S/ea8ebbf77395.webp",
+      "text": {
+        "zh": "机身电池为3.7 V、1800 mAh，遥控器内置3.7 V、1200 mAh电池；充电约50分钟，遥控距离约100 m。套装含两条USB线、4片桨叶、内存卡和读卡器。",
+        "en": "The drone battery is listed as 3.7 V, 1,800 mAh and the controller has a built-in 3.7 V, 1,200 mAh battery. Charging is about 50 minutes and stated control range about 100 m. Contents include two USB cables, four propellers, a memory card and reader."
+      }
+    }
+  ],
+  "sourceData": {
+    "file": "挑样资料.xlsx",
+    "sha256": "30f47eb8405198bf6e92d33a2beecc7e62fb016f6bf26d476c79d2f816eefae0",
+    "sheet": "Blank_A4_Landscape_1019",
+    "row": 37,
+    "cells": {
+      "B": "S23S",
+      "C": "带屏控无人机",
+      "D": "彩盒",
+      "E": 0,
+      "F": 24,
+      "G": "131.6",
+      "H": "31",
+      "I": "8",
+      "J": "43.6",
+      "K": "66.5",
+      "L": "45",
+      "M": "95.5",
+      "N": "0.29",
+      "O": "10.08",
+      "P": "18.5",
+      "Q": "16.5",
+      "R": "\n2.4G，黄，绿，机身电池：3.7V 1800mah，充电时间：50分钟，遥控器电池：内置18650电池/3.7V1200毫安，遥控距离：约100米，充电方式：\tUSB线充电（适配器需另购）\t配件：无人机*1 遥控器*1 电池*1 USB线*2 扇叶*4 螺丝刀*1 说明书*1 APP说明书*1 内存卡*1   读卡器*1\t\t\t\t\t\t\t\t\"\"1：带屏控遥控器实时航拍\n2：具有高度保持模式功能，光流定点定位功能，飞行稳定。\n3：在无头模式下，飞行前无需调整飞机的位置。\n5：内置高清摄像头，让你在飞行的时候可以拍摄绝美的风景.\n6：具有WiFi功能，可连接应用程序、APK系统，通过手机APP可以进行拍照、摄像、以及实时传输。\n7：在屏幕上画出一条飞行路径，无人机将沿着指定的路径进行自主飞行。\n8：2.4GHz抗干扰技术，多人同时使用不干扰。\n9：4个通道，可进行上升、下降、向前、向后、左侧飞行、右侧飞行和360°滚动。\n10：六轴陀螺仪，飞行更平稳，控制更方便。\n功能：上/下、前/后、左/右转弯、侧向飞行、、无头模式、高度保持模式、WiFi FPV（双镜头有双镜头切换功能），镜头电动调节功能，三面避障\""
+    },
+    "priceAdjustment": {
+      "currency": "CNY",
+      "originalPrice": 131.6,
+      "markupRate": 0.3,
+      "adjustedPrice": 171.08,
+      "decimalPlaces": 2,
+      "rounding": "ROUND_HALF_UP"
+    },
+    "reviewNotes": [],
+    "attributeEnrichment": {
+      "sources": [
+        "title",
+        "description",
+        "sourceData.cells",
+        "productDetails.text",
+        "packagingPairs"
+      ],
+      "dimensionUnit": "cm",
+      "dimensionUnitBasis": "用户确认未注明单位的尺寸按厘米处理",
+      "packagingImage": "https://www.yaoshuntoys.com/media/products-q92/S23S/ac201c367406.webp",
+      "imageAttributeKeys": [
+        "Age Range",
+        "Motor Type"
+      ],
+      "ageStatus": "packaging-label"
+    },
+    "originalDescription": {
+      "zh": [
+        "带屏控无人机",
+        "2.4G，黄，绿，机身电池：3.7V 1800mah，充电时间：50分钟，遥控器电池：内置18650电池/3.7V1200毫安，遥控距离：约100米，充电方式：\tUSB线充电（适配器需另购）\t配件：无人机*1 遥控器*1 电池*1 USB线*2 扇叶*4 螺丝刀*1 说明书*1 APP说明书*1 内存卡*1   读卡器*1\t\t\t\t\t\t\t\t\"\"1：带屏控遥控器实时航拍\n2：具有高度保持模式功能，光流定点定位功能，飞行稳定。\n3：在无头模式下，飞行前无需调整飞机的位置。\n5：内置高清摄像头，让你在飞行的时候可以拍摄绝美的风景.\n6：具有WiFi功能，可连接应用程序、APK系统，通过手机APP可以进行拍照、摄像、以及实时传输。\n7：在屏幕上画出一条飞行路径，无人机将沿着指定的路径进行自主飞行。\n8：2.4GHz抗干扰技术，多人同时使用不干扰。\n9：4个通道，可进行上升、下降、向前、向后、左侧飞行、右侧飞行和360°滚动。\n10：六轴陀螺仪，飞行更平稳，控制更方便。\n功能：上/下、前/后、左/右转弯、侧向飞行、、无头模式、高度保持模式、WiFi FPV（双镜头有双镜头切换功能），镜头电动调节功能，三面避障\""
+      ],
+      "en": [
+        "Drone with Screen Controller",
+        "2.4 GHz. Available in yellow and green. Drone battery: 3.7 V, 1,800 mAh; charge time about 50 minutes. Remote has built-in 18650 battery (3.7 V, 1,200 mAh). Stated control range: about 100 m. USB charging; adapter sold separately. Package includes drone, remote, battery, two USB cables, four propellers, screwdriver, manuals, memory card, and card reader. Screen-equipped controller provides live aerial footage. Features include altitude hold, optical-flow positioning, headless mode, Wi-Fi FPV with dual-camera switching, adjustable camera angle, app-based photo/video with live transmission, and route planning on the controller screen. Six-axis gyroscope; four-channel controls for ascent, descent, forward/reverse, turns, lateral flight, and 360-degree rolls. Source also lists three-direction obstacle avoidance."
+      ]
+    },
+    "workbookReview": {
+      "file": "/Users/lukang.liu/Desktop/github/yaoshun/挑样资料.xlsx",
+      "sha256": "30f47eb8405198bf6e92d33a2beecc7e62fb016f6bf26d476c79d2f816eefae0",
+      "sheet": "Blank_A4_Landscape_1019",
+      "row": 37,
+      "imagePart": "xl/media/image35.jpeg"
+    },
+    "originalPackagingPairs": [
+      {
+        "key": {
+          "zh": "包装方式",
+          "en": "Packaging"
+        },
+        "value": {
+          "zh": "彩盒",
+          "en": "Color box"
+        }
+      },
+      {
+        "key": {
+          "zh": "装箱量（E列）",
+          "en": "Packing Quantity (Column E)"
+        },
+        "value": {
+          "zh": "0",
+          "en": "0"
+        }
+      },
+      {
+        "key": {
+          "zh": "装箱量（F列）",
+          "en": "Packing Quantity (Column F)"
+        },
+        "value": {
+          "zh": "24",
+          "en": "24"
+        }
+      },
+      {
+        "key": {
+          "zh": "包装规格（原表单位）",
+          "en": "Package Dimensions (Source Units)"
+        },
+        "value": {
+          "zh": "31 × 8 × 43.6",
+          "en": "31 × 8 × 43.6"
+        }
+      },
+      {
+        "key": {
+          "zh": "外箱规格（原表单位）",
+          "en": "Carton Dimensions (Source Units)"
+        },
+        "value": {
+          "zh": "66.5 × 45 × 95.5",
+          "en": "66.5 × 45 × 95.5"
+        }
+      },
+      {
+        "key": {
+          "zh": "体积（原表单位）",
+          "en": "Volume (Source Units)"
+        },
+        "value": {
+          "zh": "0.29",
+          "en": "0.29"
+        }
+      },
+      {
+        "key": {
+          "zh": "材积（原表单位）",
+          "en": "Shipping Measurement (Source Units)"
+        },
+        "value": {
+          "zh": "10.08",
+          "en": "10.08"
+        }
+      },
+      {
+        "key": {
+          "zh": "毛重（原表单位）",
+          "en": "Gross Weight (Source Units)"
+        },
+        "value": {
+          "zh": "18.5",
+          "en": "18.5"
+        }
+      },
+      {
+        "key": {
+          "zh": "净重（原表单位）",
+          "en": "Net Weight (Source Units)"
+        },
+        "value": {
+          "zh": "16.5",
+          "en": "16.5"
+        }
+      }
+    ],
+    "contentReview": {
+      "status": "edited-individually",
+      "scope": [
+        "description",
+        "productDetails",
+        "attributePairs",
+        "customizationOptions",
+        "packagingAndShipping",
+        "leadTime"
+      ],
+      "copyStyle": "具体、简洁，按本款资料描述；未确认的配置不扩写为承诺",
+      "deliveryBasis": "未提供本款确认的天数，按样品、常规订单和定制订单说明确认节点",
+      "preservedImageUrls": true
+    }
+  },
+  "customizationOptions": [
+    {
+      "label": {
+        "zh": "包装与品牌版面",
+        "en": "Packaging and Branding"
+      },
+      "minOrder": {
+        "zh": "可提交LOGO、条码和包装图稿，按带屏无人机包装方案核对印刷。",
+        "en": "Submit logo, barcode and package artwork for review of the screen-drone packaging."
+      }
+    },
+    {
+      "label": {
+        "zh": "电池与颜色配置",
+        "en": "Battery and Color Configuration"
+      },
+      "minOrder": {
+        "zh": "可提出电池数量、黄绿色配色和存储卡需求，按S23S确认。",
+        "en": "Request battery quantity, yellow-and-green color handling or memory-card requirements for S23S confirmation."
+      }
+    },
+    {
+      "label": {
+        "zh": "说明书与APP语言",
+        "en": "Manual and App Language"
+      },
+      "minOrder": {
+        "zh": "可提交说明书和APP语言需求，摄像头与避障功能按最终版本确认。",
+        "en": "Submit manual and app language requirements. Camera and obstacle-sensing functions are confirmed for the final version."
+      }
+    }
+  ],
+  "leadTime": {
+    "notes": [
+      {
+        "label": {
+          "zh": "样品订单",
+          "en": "Samples"
+        },
+        "value": {
+          "zh": "先确认S23S屏控、摄像头和避障配置，再约定寄样日期。",
+          "en": "Confirm the S23S screen, camera and sensing configuration before agreeing a sample dispatch date."
+        }
+      },
+      {
+        "label": {
+          "zh": "常规订单",
+          "en": "Standard Orders"
+        },
+        "value": {
+          "zh": "按数量、包装备料和排产确认交期，国际运输时间另计。",
+          "en": "Confirm lead time against quantity, packing materials and production schedule; international transit is additional."
+        }
+      },
+      {
+        "label": {
+          "zh": "定制订单",
+          "en": "Customized Orders"
+        },
+        "value": {
+          "zh": "先确认图稿、功能版本和配件清单，再安排生产与出货排期。",
+          "en": "Approve artwork, function version and contents before scheduling production and dispatch."
+        }
+      }
+    ]
+  }
+}

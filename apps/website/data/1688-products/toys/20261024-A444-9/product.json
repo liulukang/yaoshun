@@ -1,0 +1,918 @@
+{
+  "productId": "A444-9",
+  "module": "toys",
+  "priority": 1019,
+  "tags": [
+    {
+      "key": "tents",
+      "en": "Children's Play Tents",
+      "zh": "儿童游戏帐篷"
+    }
+  ],
+  "title": {
+    "zh": "米白笑脸儿童帐篷",
+    "en": "Cream Smiley Playhouse Tent"
+  },
+  "summary": {
+    "zh": "米白色笑脸图案布艺游戏屋，尺寸120 × 100 × 130 cm。",
+    "en": "A fabric playhouse in a cream color with smiley-face print, measuring 120 × 100 × 130 cm."
+  },
+  "description": {
+    "zh": [
+      "米白色笑脸图案布艺游戏屋，尺寸120 × 100 × 130 cm。",
+      "尺寸图分别标出正面宽120 cm、侧面深100 cm、整体高130 cm。",
+      "这款需要组装，随附组装说明书，盒面适龄标注为3岁及以上。"
+    ],
+    "en": [
+      "A fabric playhouse in a cream color with smiley-face print, measuring 120 × 100 × 130 cm.",
+      "The dimension image shows a front width of 120 cm, depth of 100 cm and overall height of 130 cm.",
+      "Assembly is required and instructions are included."
+    ]
+  },
+  "categories": {
+    "zh": [
+      "儿童游戏帐篷"
+    ],
+    "en": [
+      "Children's Play Tents"
+    ]
+  },
+  "pricing": {
+    "display": {
+      "zh": "¥98.54",
+      "en": "¥98.54"
+    },
+    "currency": "CNY",
+    "min": 98.54,
+    "max": 98.54,
+    "isRange": false,
+    "tiers": [
+      {
+        "quantity": {
+          "zh": "价格",
+          "en": "Price"
+        },
+        "price": "¥98.54"
+      }
+    ]
+  },
+  "specifications": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "A444-9",
+        "en": "A444-9"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "儿童游戏帐篷",
+        "en": "Children's Play Tents"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    },
+    {
+      "key": {
+        "zh": "供应商备注（原文）",
+        "en": "Supplier Notes (Original Chinese)"
+      },
+      "value": {
+        "zh": "附带组装说明书"
+      }
+    }
+  ],
+  "productAttributes": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "A444-9",
+        "en": "A444-9"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "布艺房屋游戏帐篷",
+        "en": "Fabric playhouse tent"
+      }
+    },
+    {
+      "key": {
+        "zh": "适用年龄",
+        "en": "Age Range"
+      },
+      "value": {
+        "zh": "3岁及以上",
+        "en": "Ages 3+"
+      }
+    },
+    {
+      "key": {
+        "zh": "主题",
+        "en": "Theme"
+      },
+      "value": {
+        "zh": "笑脸房屋",
+        "en": "Smiley-face playhouse"
+      }
+    },
+    {
+      "key": {
+        "zh": "材质",
+        "en": "Material"
+      },
+      "value": {
+        "zh": "布艺",
+        "en": "Fabric"
+      }
+    },
+    {
+      "key": {
+        "zh": "玩法",
+        "en": "Play Mode"
+      },
+      "value": {
+        "zh": "儿童过家家游戏屋",
+        "en": "Children's pretend-play house"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品系列",
+        "en": "Product Series"
+      },
+      "value": {
+        "zh": "Fantastic House",
+        "en": "Fantastic House"
+      }
+    },
+    {
+      "key": {
+        "zh": "尺寸（宽×深×高）",
+        "en": "Product Dimensions"
+      },
+      "value": {
+        "zh": "120 × 100 × 130 cm",
+        "en": "120 × 100 × 130 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "颜色",
+        "en": "Color"
+      },
+      "value": {
+        "zh": "米白色",
+        "en": "Cream"
+      }
+    },
+    {
+      "key": {
+        "zh": "图案",
+        "en": "Pattern"
+      },
+      "value": {
+        "zh": "笑脸、月亮、星星与彩虹",
+        "en": "Smiley faces, moons, stars and rainbows"
+      }
+    },
+    {
+      "key": {
+        "zh": "屋顶结构",
+        "en": "Roof Construction"
+      },
+      "value": {
+        "zh": "双坡顶",
+        "en": "Pitched roof"
+      }
+    },
+    {
+      "key": {
+        "zh": "屋檐形状",
+        "en": "Roof Edge"
+      },
+      "value": {
+        "zh": "波浪形屋檐",
+        "en": "Scalloped edge"
+      }
+    },
+    {
+      "key": {
+        "zh": "入口结构",
+        "en": "Entrance"
+      },
+      "value": {
+        "zh": "双片纱帘，两侧系带收拢",
+        "en": "Two sheer curtains with side ties"
+      }
+    },
+    {
+      "key": {
+        "zh": "门帘装饰",
+        "en": "Curtain Trim"
+      },
+      "value": {
+        "zh": "绒球包边",
+        "en": "Pom-pom edging"
+      }
+    },
+    {
+      "key": {
+        "zh": "侧窗结构",
+        "en": "Side Window"
+      },
+      "value": {
+        "zh": "圆形分格窗口",
+        "en": "Round divided window"
+      }
+    },
+    {
+      "key": {
+        "zh": "窗帘形式",
+        "en": "Window Cover"
+      },
+      "value": {
+        "zh": "上卷式布帘",
+        "en": "Roll-up fabric flap"
+      }
+    },
+    {
+      "key": {
+        "zh": "组装方式",
+        "en": "Assembly"
+      },
+      "value": {
+        "zh": "需要组装，随附说明书",
+        "en": "Assembly required; instructions included"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "顶部提手彩盒",
+        "en": "Color box with top carry handle"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "43 × 10 × 26 cm",
+        "en": "43 × 10 × 26 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "83 × 44 × 81 cm",
+        "en": "83 × 44 × 81 cm"
+      }
+    }
+  ],
+  "attributePairs": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "A444-9",
+        "en": "A444-9"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "布艺房屋游戏帐篷",
+        "en": "Fabric playhouse tent"
+      }
+    },
+    {
+      "key": {
+        "zh": "适用年龄",
+        "en": "Age Range"
+      },
+      "value": {
+        "zh": "3岁及以上",
+        "en": "Ages 3+"
+      }
+    },
+    {
+      "key": {
+        "zh": "主题",
+        "en": "Theme"
+      },
+      "value": {
+        "zh": "笑脸房屋",
+        "en": "Smiley-face playhouse"
+      }
+    },
+    {
+      "key": {
+        "zh": "材质",
+        "en": "Material"
+      },
+      "value": {
+        "zh": "布艺",
+        "en": "Fabric"
+      }
+    },
+    {
+      "key": {
+        "zh": "玩法",
+        "en": "Play Mode"
+      },
+      "value": {
+        "zh": "儿童过家家游戏屋",
+        "en": "Children's pretend-play house"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品系列",
+        "en": "Product Series"
+      },
+      "value": {
+        "zh": "Fantastic House",
+        "en": "Fantastic House"
+      }
+    },
+    {
+      "key": {
+        "zh": "尺寸（宽×深×高）",
+        "en": "Product Dimensions"
+      },
+      "value": {
+        "zh": "120 × 100 × 130 cm",
+        "en": "120 × 100 × 130 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "颜色",
+        "en": "Color"
+      },
+      "value": {
+        "zh": "米白色",
+        "en": "Cream"
+      }
+    },
+    {
+      "key": {
+        "zh": "图案",
+        "en": "Pattern"
+      },
+      "value": {
+        "zh": "笑脸、月亮、星星与彩虹",
+        "en": "Smiley faces, moons, stars and rainbows"
+      }
+    },
+    {
+      "key": {
+        "zh": "屋顶结构",
+        "en": "Roof Construction"
+      },
+      "value": {
+        "zh": "双坡顶",
+        "en": "Pitched roof"
+      }
+    },
+    {
+      "key": {
+        "zh": "屋檐形状",
+        "en": "Roof Edge"
+      },
+      "value": {
+        "zh": "波浪形屋檐",
+        "en": "Scalloped edge"
+      }
+    },
+    {
+      "key": {
+        "zh": "入口结构",
+        "en": "Entrance"
+      },
+      "value": {
+        "zh": "双片纱帘，两侧系带收拢",
+        "en": "Two sheer curtains with side ties"
+      }
+    },
+    {
+      "key": {
+        "zh": "门帘装饰",
+        "en": "Curtain Trim"
+      },
+      "value": {
+        "zh": "绒球包边",
+        "en": "Pom-pom edging"
+      }
+    },
+    {
+      "key": {
+        "zh": "侧窗结构",
+        "en": "Side Window"
+      },
+      "value": {
+        "zh": "圆形分格窗口",
+        "en": "Round divided window"
+      }
+    },
+    {
+      "key": {
+        "zh": "窗帘形式",
+        "en": "Window Cover"
+      },
+      "value": {
+        "zh": "上卷式布帘",
+        "en": "Roll-up fabric flap"
+      }
+    },
+    {
+      "key": {
+        "zh": "组装方式",
+        "en": "Assembly"
+      },
+      "value": {
+        "zh": "需要组装，随附说明书",
+        "en": "Assembly required; instructions included"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "顶部提手彩盒",
+        "en": "Color box with top carry handle"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "43 × 10 × 26 cm",
+        "en": "43 × 10 × 26 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "83 × 44 × 81 cm",
+        "en": "83 × 44 × 81 cm"
+      }
+    }
+  ],
+  "packagingAndShipping": {
+    "summary": {
+      "zh": "单品包装及外箱规格如下，运输费用另行核算。",
+      "en": "Individual packing and carton specifications are listed below. Shipping is quoted separately."
+    },
+    "blocks": [
+      {
+        "label": {
+          "zh": "包装方式",
+          "en": "Packaging"
+        },
+        "value": {
+          "zh": "顶部提手彩盒",
+          "en": "Color box with top carry handle"
+        }
+      },
+      {
+        "label": {
+          "zh": "包装尺寸",
+          "en": "Package Dimensions"
+        },
+        "value": {
+          "zh": "43 × 10 × 26 cm",
+          "en": "43 × 10 × 26 cm"
+        }
+      },
+      {
+        "label": {
+          "zh": "外箱尺寸",
+          "en": "Carton Dimensions"
+        },
+        "value": {
+          "zh": "83 × 44 × 81 cm",
+          "en": "83 × 44 × 81 cm"
+        }
+      },
+      {
+        "label": {
+          "zh": "外箱体积（按尺寸计算）",
+          "en": "Carton Volume (Calculated)"
+        },
+        "value": {
+          "zh": "0.296 m³",
+          "en": "0.296 m³"
+        }
+      },
+      {
+        "label": {
+          "zh": "运输费用",
+          "en": "Shipping Cost"
+        },
+        "value": {
+          "zh": "按目的地、箱数及运输方式另行报价。",
+          "en": "Quoted separately by destination, carton quantity and shipping method."
+        }
+      }
+    ],
+    "unitSize": "43 × 10 × 26 cm"
+  },
+  "packagingPairs": [
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "顶部提手彩盒",
+        "en": "Color box with top carry handle"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "43 × 10 × 26 cm",
+        "en": "43 × 10 × 26 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "83 × 44 × 81 cm",
+        "en": "83 × 44 × 81 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱体积（按尺寸计算）",
+        "en": "Carton Volume (Calculated)"
+      },
+      "value": {
+        "zh": "0.296 m³",
+        "en": "0.296 m³"
+      }
+    },
+    {
+      "key": {
+        "zh": "运输费用",
+        "en": "Shipping Cost"
+      },
+      "value": {
+        "zh": "按目的地、箱数及运输方式另行报价。",
+        "en": "Quoted separately by destination, carton quantity and shipping method."
+      }
+    }
+  ],
+  "media": {
+    "main": [
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/A444-9/c9ca1ff4c7a1.webp"
+      }
+    ],
+    "detail": [
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/A444-9/8d9c386b3564.webp"
+      },
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/A444-9/10f626aac0b0.webp"
+      }
+    ]
+  },
+  "images": [
+    "https://www.yaoshuntoys.com/media/products-q92/A444-9/c9ca1ff4c7a1.webp",
+    "https://www.yaoshuntoys.com/media/products-q92/A444-9/8d9c386b3564.webp",
+    "https://www.yaoshuntoys.com/media/products-q92/A444-9/10f626aac0b0.webp"
+  ],
+  "videos": [],
+  "productDetails": [
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "米白布面，笑脸与月亮图案",
+        "en": "Cream fabric with printed details"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/A444-9/c9ca1ff4c7a1.webp",
+      "text": {
+        "zh": "米白色布面印有笑脸、月亮、星星和彩虹图案，搭成一座双坡顶小房子。门口是双片纱帘，可以分别系在两侧；波浪形屋檐与门帘边的小绒球也能在细节图中看到。",
+        "en": "Cream fabric carries smiley-face, moon, star and rainbow prints on a pitched-roof house. Two sheer door curtains tie back at the sides. The detail image shows the scalloped roof edge and pom-pom curtain trim."
+      }
+    },
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "宽120 cm，深100 cm，高130 cm",
+        "en": "120 cm wide, 100 cm deep, 130 cm high"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/A444-9/8d9c386b3564.webp",
+      "text": {
+        "zh": "尺寸图分别标出正面宽120 cm、侧面深100 cm、整体高130 cm。侧窗为圆形分格窗口，上方带卷起的布帘。摆放前先量好位置，并为门口进出留出空间。",
+        "en": "The dimension image shows a front width of 120 cm, depth of 100 cm and overall height of 130 cm. The side has a round divided window with a roll-up fabric cover. Leave room at the entrance when choosing a position."
+      }
+    },
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "随附组装说明，手提彩盒装",
+        "en": "Assembly instructions and carry-handle box"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/A444-9/10f626aac0b0.webp",
+      "text": {
+        "zh": "这款需要组装，随附组装说明书，盒面适龄标注为3岁及以上。彩盒带顶部提手，尺寸43 × 10 × 26 cm。可在游戏角布置过家家小屋，玩偶等场景陈设可自行搭配。",
+        "en": "Assembly is required and instructions are included. The package is marked ages 3+ and has a top carry handle; box dimensions are 43 × 10 × 26 cm. Use the house for pretend play with your own dolls or other scene props."
+      }
+    }
+  ],
+  "sourceData": {
+    "file": "挑样资料.xlsx",
+    "sha256": "30f47eb8405198bf6e92d33a2beecc7e62fb016f6bf26d476c79d2f816eefae0",
+    "sheet": "Blank_A4_Landscape_1019",
+    "row": 22,
+    "cells": {
+      "B": "A444-9",
+      "C": "儿童帐篷过家家游戏屋米白色笑脸房屋欧美风格简约风格精美手提彩盒装热销款儿童专属游戏乐园精美彩盒装",
+      "D": "彩盒",
+      "E": 0,
+      "F": 24,
+      "G": "75.8",
+      "H": "43",
+      "I": "10",
+      "J": "26",
+      "K": "83",
+      "L": "44",
+      "M": "81",
+      "N": "0.3",
+      "O": "10.44",
+      "P": "31",
+      "Q": "30",
+      "R": "\n附带组装说明书"
+    },
+    "priceAdjustment": {
+      "currency": "CNY",
+      "originalPrice": 75.8,
+      "markupRate": 0.3,
+      "adjustedPrice": 98.54,
+      "decimalPlaces": 2,
+      "rounding": "ROUND_HALF_UP"
+    },
+    "reviewNotes": [],
+    "attributeEnrichment": {
+      "sources": [
+        "title",
+        "description",
+        "sourceData.cells",
+        "productDetails.text",
+        "packagingPairs"
+      ],
+      "dimensionUnit": "cm",
+      "dimensionUnitBasis": "用户确认未注明单位的尺寸按厘米处理",
+      "packagingImage": "https://www.yaoshuntoys.com/media/products-q92/A444-9/c9ca1ff4c7a1.webp",
+      "imageAttributeKeys": [
+        "Age Range",
+        "Product Series"
+      ],
+      "ageStatus": "packaging-label",
+      "originalWorkbookImage": "xl/media/image20.jpeg"
+    },
+    "originalDescription": {
+      "zh": [
+        "儿童帐篷过家家游戏屋米白色笑脸房屋欧美风格简约风格精美手提彩盒装热销款儿童专属游戏乐园精美彩盒装",
+        "附带组装说明书"
+      ],
+      "en": [
+        "Cream Smiley Face Children's Playhouse Tent",
+        "Assembly instructions are included."
+      ]
+    },
+    "originalPackagingPairs": [
+      {
+        "key": {
+          "zh": "包装方式",
+          "en": "Packaging"
+        },
+        "value": {
+          "zh": "彩盒",
+          "en": "Color box"
+        }
+      },
+      {
+        "key": {
+          "zh": "装箱量（E列）",
+          "en": "Packing Quantity (Column E)"
+        },
+        "value": {
+          "zh": "0",
+          "en": "0"
+        }
+      },
+      {
+        "key": {
+          "zh": "装箱量（F列）",
+          "en": "Packing Quantity (Column F)"
+        },
+        "value": {
+          "zh": "24",
+          "en": "24"
+        }
+      },
+      {
+        "key": {
+          "zh": "包装规格（原表单位）",
+          "en": "Package Dimensions (Source Units)"
+        },
+        "value": {
+          "zh": "43 × 10 × 26",
+          "en": "43 × 10 × 26"
+        }
+      },
+      {
+        "key": {
+          "zh": "外箱规格（原表单位）",
+          "en": "Carton Dimensions (Source Units)"
+        },
+        "value": {
+          "zh": "83 × 44 × 81",
+          "en": "83 × 44 × 81"
+        }
+      },
+      {
+        "key": {
+          "zh": "体积（原表单位）",
+          "en": "Volume (Source Units)"
+        },
+        "value": {
+          "zh": "0.3",
+          "en": "0.3"
+        }
+      },
+      {
+        "key": {
+          "zh": "材积（原表单位）",
+          "en": "Shipping Measurement (Source Units)"
+        },
+        "value": {
+          "zh": "10.44",
+          "en": "10.44"
+        }
+      },
+      {
+        "key": {
+          "zh": "毛重（原表单位）",
+          "en": "Gross Weight (Source Units)"
+        },
+        "value": {
+          "zh": "31",
+          "en": "31"
+        }
+      },
+      {
+        "key": {
+          "zh": "净重（原表单位）",
+          "en": "Net Weight (Source Units)"
+        },
+        "value": {
+          "zh": "30",
+          "en": "30"
+        }
+      }
+    ],
+    "contentReview": {
+      "status": "edited-individually",
+      "scope": [
+        "description",
+        "productDetails",
+        "attributePairs",
+        "customizationOptions",
+        "packagingAndShipping",
+        "leadTime"
+      ],
+      "copyStyle": "具体、简洁，按本款资料描述；未确认的配置不扩写为承诺",
+      "deliveryBasis": "未提供本款确认的天数，按样品、常规订单和定制订单说明确认节点",
+      "preservedImageUrls": true
+    },
+    "workbookReview": {
+      "file": "/Users/lukang.liu/Desktop/github/yaoshun/挑样资料.xlsx",
+      "sha256": "30f47eb8405198bf6e92d33a2beecc7e62fb016f6bf26d476c79d2f816eefae0",
+      "sheet": "Blank_A4_Landscape_1019",
+      "row": 22,
+      "imagePart": "xl/media/image20.jpeg"
+    }
+  },
+  "customizationOptions": [
+    {
+      "label": {
+        "zh": "彩盒与品牌版面",
+        "en": "Retail Box and Branding"
+      },
+      "minOrder": {
+        "zh": "可提交LOGO、彩盒版面和条码要求，费用及起订量按印刷方案确认。",
+        "en": "Submit logo artwork, box layout and barcode requirements; pricing and minimum quantities depend on the print specification."
+      }
+    },
+    {
+      "label": {
+        "zh": "布面图案与配色评估",
+        "en": "Fabric Print and Color Review"
+      },
+      "minOrder": {
+        "zh": "可提供图案、配色及面料需求，先确认可做范围，再安排样品。",
+        "en": "Provide print, color and fabric requirements for a feasibility review before sampling."
+      }
+    },
+    {
+      "label": {
+        "zh": "组装说明语言",
+        "en": "Assembly Guide Language"
+      },
+      "minOrder": {
+        "zh": "可提出说明书语言和图示调整需求，译稿与版式确认后报价。",
+        "en": "Request assembly-guide languages or illustration changes; quotation follows approval of the text and layout."
+      }
+    }
+  ],
+  "leadTime": {
+    "notes": [
+      {
+        "label": {
+          "zh": "样品订单",
+          "en": "Samples"
+        },
+        "value": {
+          "zh": "先核对A444-9样品库存与配色，再确认寄样日期。",
+          "en": "Confirm A444-9 sample availability and color before agreeing a dispatch date."
+        }
+      },
+      {
+        "label": {
+          "zh": "常规订单",
+          "en": "Standard Orders"
+        },
+        "value": {
+          "zh": "按数量、现有排产及彩盒备料确认交期，运输时间另计。",
+          "en": "Lead time is confirmed against quantity, production schedule and box availability; transit is additional."
+        }
+      },
+      {
+        "label": {
+          "zh": "定制订单",
+          "en": "Customized Orders"
+        },
+        "value": {
+          "zh": "布面图案、彩盒和说明书确认后，再安排打样及生产排期。",
+          "en": "Sampling and production are scheduled after fabric artwork, box layout and instructions are approved."
+        }
+      }
+    ]
+  }
+}

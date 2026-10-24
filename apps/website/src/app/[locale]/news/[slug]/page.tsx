@@ -39,6 +39,7 @@ function copy(locale: Locale) {
     authorLabel: t(locale, { en: "Author", zh: "作者" }),
     reviewedByLabel: t(locale, { en: "Reviewed by", zh: "审核" }),
     sourcesLabel: t(locale, { en: "Sources", zh: "来源" }),
+    relatedProductLabel: t(locale, { en: "Related product", zh: "相关产品" }),
     readingTime: (minutes: number) =>
       t(locale, {
         en: `${minutes} min read`,
@@ -102,6 +103,17 @@ function getReadingMinutes(article: NonNullable<ReturnType<typeof findNewsArticl
 
   const approximateUnits = rawText.length / 5;
   return Math.max(3, Math.round(approximateUnits / 180));
+}
+
+function getArticlePlainText(
+  article: NonNullable<ReturnType<typeof findNewsArticle>>,
+  locale: Locale,
+) {
+  return localize(article.body, locale)
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&[a-zA-Z0-9#]+;/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
 }
 
 function getArticleTopicKeywords(
@@ -272,8 +284,19 @@ export default async function NewsDetailPage({
   const articleAuthor = getArticleAuthor(article, locale);
   const articleReviewer = localize(article.reviewedBy, locale);
   const articleSources = article.sources || [];
+  const relatedProduct = article.relatedProduct;
+  const relatedProductHref = relatedProduct
+    ? localizedUrlPath(locale, `/products/${relatedProduct.productId}`)
+    : undefined;
   const categoryLabel = getNewsCategoryLabel(locale, article);
   const readingMinutes = getReadingMinutes(article);
+  const articleBody = getArticlePlainText(article, locale);
+  const articleKeywords = localizeList(article.seoKeywords, locale);
+  const articleWordCount = articleBody
+    ? locale === "zh"
+      ? Array.from(articleBody).length
+      : articleBody.split(/\s+/).length
+    : undefined;
   const breadcrumbData = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -309,10 +332,34 @@ export default async function NewsDetailPage({
     dateModified: `${articleModifiedAt}T00:00:00Z`,
     mainEntityOfPage: articleUrl,
     inLanguage: locale === "zh" ? "zh-CN" : "en-US",
+    isPartOf: {
+      "@type": "WebSite",
+      "@id": `${toAbsoluteUrl("/")}#website`,
+    },
+    about: {
+      "@type": "Service",
+      name:
+        locale === "zh"
+          ? "玩具 OEM/ODM 与定制化开发服务"
+          : "Toy OEM/ODM and custom development service",
+    },
+    ...(relatedProduct && relatedProductHref
+      ? {
+          mentions: {
+            "@type": "Product",
+            name: localize(relatedProduct.label, locale),
+            url: toAbsoluteUrl(relatedProductHref),
+            description: localize(relatedProduct.description, locale) || undefined,
+          },
+        }
+      : {}),
     image: article.image ? [toAbsoluteUrl(article.image)] : undefined,
+    keywords: articleKeywords.length ? articleKeywords : undefined,
+    wordCount: articleWordCount,
     author: {
       "@type": "Organization",
       name: articleAuthor,
+      url: toAbsoluteUrl("/about"),
     },
     ...(articleReviewer
       ? {
@@ -334,6 +381,7 @@ export default async function NewsDetailPage({
     publisher: {
       "@type": "Organization",
       name: "Dongguan Yaoshun Technology Co., Ltd.",
+      url: toAbsoluteUrl("/about"),
       logo: {
         "@type": "ImageObject",
         url: toAbsoluteUrl("/favicon-rounded-192.png"),
@@ -405,6 +453,17 @@ export default async function NewsDetailPage({
           className="news-article-body"
           dangerouslySetInnerHTML={{ __html: localize(article.body, locale) }}
         />
+      {relatedProduct && relatedProductHref ? (
+        <aside className="news-article-sources" aria-label={text.relatedProductLabel}>
+          <strong>{text.relatedProductLabel}</strong>
+          <p>
+            <Link href={relatedProductHref}>
+              {localize(relatedProduct.label, locale)}
+            </Link>
+            {relatedProduct.description ? ` — ${localize(relatedProduct.description, locale)}` : null}
+          </p>
+        </aside>
+      ) : null}
         {articleSources.length ? (
           <aside className="news-article-sources" aria-label={text.sourcesLabel}>
             <strong>{text.sourcesLabel}</strong>

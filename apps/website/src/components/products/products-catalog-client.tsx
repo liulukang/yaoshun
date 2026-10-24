@@ -8,7 +8,7 @@ import Link from "next/link";
 
 import {productCollections, productsPageAssets} from "@/content/pages/products";
 import {t, type Locale} from "@/lib/i18n";
-import {localizedPath, productPath} from "@/lib/routes";
+import {localizedPath, localizedUrlPath, productPath} from "@/lib/routes";
 
 const MOBILE_PRODUCTS_PAGE_SIZE = 6;
 const DESKTOP_PRODUCTS_PAGE_SIZE = 9;
@@ -49,6 +49,7 @@ type ProductsCatalogClientProps = {
   catalog: ProductsCatalogClientItem[];
   initialQuery?: SearchParamMap;
   locale: Locale;
+  paginationHref?: string;
   text: {
     allProducts: string;
     categories: string;
@@ -80,6 +81,18 @@ function buildQueryString(
   return query ? `?${query}` : "";
 }
 
+function scrollToProductsCatalog() {
+  requestAnimationFrame(() => {
+    const element = document.getElementById("products-catalog");
+    if (!element) {
+      return;
+    }
+
+    const top = element.getBoundingClientRect().top + window.scrollY - 92;
+    window.scrollTo({top: Math.max(top, 0), behavior: "smooth"});
+  });
+}
+
 function formatShowingText(
   locale: Locale,
   start: number,
@@ -96,6 +109,7 @@ export function ProductsCatalogClient({
   catalog,
   initialQuery = {},
   locale,
+  paginationHref,
   text,
 }: ProductsCatalogClientProps) {
   const [query, setQuery] = useState<SearchParamMap>(initialQuery);
@@ -110,7 +124,11 @@ export function ProductsCatalogClient({
 
   useEffect(() => {
     const syncFromUrl = () => {
-      setQuery(parseSearchParams(window.location.search));
+      const parsed = parseSearchParams(window.location.search);
+      setQuery({
+        category: parsed.category ?? initialQuery.category,
+        page: parsed.page ?? initialQuery.page,
+      });
     };
 
     syncFromUrl();
@@ -119,7 +137,7 @@ export function ProductsCatalogClient({
     return () => {
       window.removeEventListener("popstate", syncFromUrl);
     };
-  }, []);
+  }, [initialQuery.category, initialQuery.page]);
 
   const sortedCatalog = useMemo(
     () =>
@@ -137,6 +155,7 @@ export function ProductsCatalogClient({
   );
   const totalPages = Math.max(1, Math.ceil(filtered.length / pageSize));
   const productsHref = localizedPath(locale, "products");
+  const currentListingHref = paginationHref || productsHref;
   const currentPage = Math.min(
     Math.max(Number(query.page || "1"), 1),
     totalPages,
@@ -163,16 +182,21 @@ export function ProductsCatalogClient({
     event.preventDefault();
 
     const nextQuery = {...query, ...next};
-    const href = `${productsHref}${buildQueryString(query, next)}`;
+    const eventName = event.currentTarget.dataset.trackEvent;
+    const shouldScrollToCatalog =
+      eventName === "filter_select" || eventName === "pagination_click";
+    const queryForUrl =
+      eventName === "pagination_click" && paginationHref
+        ? buildQueryString({}, next)
+        : buildQueryString(query, next);
+    const href = `${eventName === "pagination_click" ? currentListingHref : productsHref}${queryForUrl}${
+      shouldScrollToCatalog ? "#products-catalog" : ""
+    }`;
     window.history.pushState(null, "", href);
     setQuery(nextQuery);
 
-    if (event.currentTarget.dataset.trackEvent === "pagination_click") {
-      requestAnimationFrame(() => {
-        document
-          .getElementById("products-catalog")
-          ?.scrollIntoView({ behavior: "smooth", block: "start" });
-      });
+    if (shouldScrollToCatalog) {
+      scrollToProductsCatalog();
     }
   }
 
@@ -180,6 +204,7 @@ export function ProductsCatalogClient({
     category: query.category,
     page: query.page,
   };
+  const paginationQuery: SearchParamMap = paginationHref ? {} : currentQuery;
 
   return (
     <section className="products-catalog-layout" id="products-catalog">
@@ -207,10 +232,10 @@ export function ProductsCatalogClient({
                 {text.allProducts}
               </a>
               {productCollections.map((collection) => {
-                const href = `${productsHref}${buildQueryString(currentQuery, {
-                  category: collection.key,
-                  page: undefined,
-                })}`;
+                const href = localizedUrlPath(
+                  locale,
+                  `/products/category/${collection.key}`,
+                );
 
                 return (
                   <a
@@ -226,12 +251,6 @@ export function ProductsCatalogClient({
                     data-track-label={collection.key}
                     data-track-location="products_category_filter"
                     href={href}
-                    onClick={(event) =>
-                      navigate(event, {
-                        category: collection.key,
-                        page: undefined,
-                      })
-                    }
                   >
                     {collection.label[locale]}
                   </a>
@@ -300,11 +319,11 @@ export function ProductsCatalogClient({
           {currentPage > 1 ? (
             <a
               aria-label="Previous page"
-              data-track-destination={`${productsHref}${buildQueryString(currentQuery, {page: String(currentPage - 1) === "1" ? undefined : String(currentPage - 1)})}`}
+              data-track-destination={`${currentListingHref}${buildQueryString(paginationQuery, {page: String(currentPage - 1) === "1" ? undefined : String(currentPage - 1)})}`}
               data-track-event="pagination_click"
               data-track-label="previous"
               data-track-location="products_pagination"
-              href={`${productsHref}${buildQueryString(currentQuery, {page: String(currentPage - 1) === "1" ? undefined : String(currentPage - 1)})}`}
+              href={`${currentListingHref}${buildQueryString(paginationQuery, {page: String(currentPage - 1) === "1" ? undefined : String(currentPage - 1)})}`}
               onClick={(event) =>
                 navigate(event, {
                   page:
@@ -322,7 +341,7 @@ export function ProductsCatalogClient({
 
           {Array.from({length: totalPages}, (_, index) => {
             const page = String(index + 1);
-            const href = `${productsHref}${buildQueryString(currentQuery, {
+            const href = `${currentListingHref}${buildQueryString(paginationQuery, {
               page: page === "1" ? undefined : page,
             })}`;
             const active = String(currentPage) === page;
@@ -351,11 +370,11 @@ export function ProductsCatalogClient({
           {currentPage < totalPages ? (
             <a
               aria-label="Next page"
-              data-track-destination={`${productsHref}${buildQueryString(currentQuery, {page: String(currentPage + 1)})}`}
+            data-track-destination={`${currentListingHref}${buildQueryString(paginationQuery, {page: String(currentPage + 1)})}`}
               data-track-event="pagination_click"
               data-track-label="next"
               data-track-location="products_pagination"
-              href={`${productsHref}${buildQueryString(currentQuery, {page: String(currentPage + 1)})}`}
+              href={`${currentListingHref}${buildQueryString(paginationQuery, {page: String(currentPage + 1)})}`}
               onClick={(event) =>
                 navigate(event, {page: String(currentPage + 1)})
               }

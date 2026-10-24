@@ -1,0 +1,656 @@
+{
+  "productId": "HH3102",
+  "module": "toys",
+  "priority": 1032,
+  "tags": [
+    {
+      "key": "robots",
+      "en": "Robots and RC Toys",
+      "zh": "机器人与遥控玩具"
+    }
+  ],
+  "title": {
+    "zh": "AI跳舞机器人（中文版）",
+    "en": "AI Dancing Robot, Chinese Version"
+  },
+  "summary": {
+    "zh": "中文版AI跳舞机器人，白色机身搭配胸前面板。",
+    "en": "A Chinese-version AI dancing robot with a white body and chest panel."
+  },
+  "description": {
+    "zh": [
+      "中文版AI跳舞机器人，白色机身搭配胸前面板。",
+      "配图分别展示完整机身与胸前面板。",
+      "当前电池、充电时长与完整互动清单仍待核对，暂不沿用另一款机器人的参数。"
+    ],
+    "en": [
+      "A Chinese-version AI dancing robot with a white body and chest panel.",
+      "The images show the full body and chest panel, along with the arms, legs and face.",
+      "Battery details, charging time and the complete interaction list remain to be confirmed for HH3102."
+    ]
+  },
+  "categories": {
+    "zh": [
+      "机器人与遥控玩具"
+    ],
+    "en": [
+      "Robots and RC Toys"
+    ]
+  },
+  "pricing": {
+    "display": {
+      "zh": "¥303.81",
+      "en": "¥303.81"
+    },
+    "currency": "CNY",
+    "min": 303.81,
+    "max": 303.81,
+    "isRange": false,
+    "tiers": [
+      {
+        "quantity": {
+          "zh": "价格",
+          "en": "Price"
+        },
+        "price": "¥303.81"
+      }
+    ]
+  },
+  "specifications": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "HH3102",
+        "en": "HH3102"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "机器人与遥控玩具",
+        "en": "Robots and RC Toys"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    },
+    {
+      "key": {
+        "zh": "供应商备注（原文）",
+        "en": "Supplier Notes (Original Chinese)"
+      },
+      "value": {
+        "zh": "产品颜色：黄黑银UV，内置锂电池，电池容量：3.7V/500MAH 14500锂电池，产品材质：电子组件、ABS，灯光红、黄、蓝、绿、紫、白、青，带音乐，充电时间约90分钟，使用时间约120分钟，包装内含物品AI机器人x1、说明书x1、Type-c充电线x1、挂绳X1、自粘脚垫X2，功能介绍：角色定义、打断唤醒、闹钟设置、灯光秀（眼睛跟着音乐的节拍闪烁七彩灯光）、中英双语交流、时事新闻、闲聊陪伴、学习指导、科普教育、历史典故、诗词古文、成语接龙、猜谜语、天文地理、生活助理、美食推荐、健康咨询、心理咨询、海量后台云内容，支持37语种：中文、英语、日语、粤语、越南语、法语、阿拉伯语、西班牙语、俄语、韩语、意大利语、印尼语、印地语、芬兰语、泰语、德语、葡萄牙语、乌克兰语、土耳其语、捷克语、波兰语、罗马尼亚语、马来语、斯洛文尼亚语、荷兰语、希伯来语、斯洛伐克语、瑞典语、克罗地亚语、匈牙利语、加泰罗尼亚语、保加利亚语、丹麦语,波斯语，希腊，菲律宾，挪威"
+      }
+    }
+  ],
+  "productAttributes": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "HH3102",
+        "en": "HH3102"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "机器人与遥控玩具",
+        "en": "Robots and RC Toys"
+      }
+    },
+    {
+      "key": {
+        "zh": "语言版本",
+        "en": "Language Version"
+      },
+      "value": {
+        "zh": "中文版",
+        "en": "Chinese version"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品功能",
+        "en": "Product Function"
+      },
+      "value": {
+        "zh": "AI互动与跳舞",
+        "en": "AI interaction and dancing"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "27.5 × 39.5 × 14 cm",
+        "en": "27.5 × 39.5 × 14 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "60 × 41 × 58 cm",
+        "en": "60 × 41 × 58 cm"
+      }
+    }
+  ],
+  "attributePairs": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "HH3102",
+        "en": "HH3102"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "机器人与遥控玩具",
+        "en": "Robots and RC Toys"
+      }
+    },
+    {
+      "key": {
+        "zh": "语言版本",
+        "en": "Language Version"
+      },
+      "value": {
+        "zh": "中文版",
+        "en": "Chinese version"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品功能",
+        "en": "Product Function"
+      },
+      "value": {
+        "zh": "AI互动与跳舞",
+        "en": "AI interaction and dancing"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "27.5 × 39.5 × 14 cm",
+        "en": "27.5 × 39.5 × 14 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "60 × 41 × 58 cm",
+        "en": "60 × 41 × 58 cm"
+      }
+    }
+  ],
+  "packagingAndShipping": {
+    "summary": {
+      "zh": "单品包装及外箱规格如下，运输费用另行核算。",
+      "en": "Individual packing and carton specifications are listed below. Shipping is quoted separately."
+    },
+    "blocks": [
+      {
+        "label": {
+          "zh": "包装方式",
+          "en": "Packaging"
+        },
+        "value": {
+          "zh": "彩盒",
+          "en": "Color box"
+        }
+      },
+      {
+        "label": {
+          "zh": "包装尺寸",
+          "en": "Package Dimensions"
+        },
+        "value": {
+          "zh": "27.5 × 39.5 × 14 cm",
+          "en": "27.5 × 39.5 × 14 cm"
+        }
+      },
+      {
+        "label": {
+          "zh": "外箱尺寸",
+          "en": "Carton Dimensions"
+        },
+        "value": {
+          "zh": "60 × 41 × 58 cm",
+          "en": "60 × 41 × 58 cm"
+        }
+      },
+      {
+        "label": {
+          "zh": "外箱体积（按尺寸计算）",
+          "en": "Carton Volume (Calculated)"
+        },
+        "value": {
+          "zh": "0.143 m³",
+          "en": "0.143 m³"
+        }
+      },
+      {
+        "label": {
+          "zh": "运输费用",
+          "en": "Shipping Cost"
+        },
+        "value": {
+          "zh": "按目的地、箱数及运输方式另行报价。",
+          "en": "Quoted separately by destination, carton quantity and shipping method."
+        }
+      }
+    ],
+    "unitSize": "27.5 × 39.5 × 14 cm"
+  },
+  "packagingPairs": [
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "27.5 × 39.5 × 14 cm",
+        "en": "27.5 × 39.5 × 14 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "60 × 41 × 58 cm",
+        "en": "60 × 41 × 58 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱体积（按尺寸计算）",
+        "en": "Carton Volume (Calculated)"
+      },
+      "value": {
+        "zh": "0.143 m³",
+        "en": "0.143 m³"
+      }
+    },
+    {
+      "key": {
+        "zh": "运输费用",
+        "en": "Shipping Cost"
+      },
+      "value": {
+        "zh": "按目的地、箱数及运输方式另行报价。",
+        "en": "Quoted separately by destination, carton quantity and shipping method."
+      }
+    }
+  ],
+  "media": {
+    "main": [
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/HH3102/b3e5307a597f.webp"
+      }
+    ],
+    "detail": [
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/HH3102/635706ee1ffe.webp"
+      },
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/HH3102/79abfa47d6ac.webp"
+      }
+    ]
+  },
+  "images": [
+    "https://www.yaoshuntoys.com/media/products-q92/HH3102/b3e5307a597f.webp",
+    "https://www.yaoshuntoys.com/media/products-q92/HH3102/635706ee1ffe.webp",
+    "https://www.yaoshuntoys.com/media/products-q92/HH3102/79abfa47d6ac.webp"
+  ],
+  "videos": [],
+  "productDetails": [
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "中文版跳舞机器人",
+        "en": "The Chinese dancing version"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/HH3102/b3e5307a597f.webp",
+      "text": {
+        "zh": "HH3102以中文版AI跳舞机器人为产品定位。白色机身、黑色面部区域与胸前面板是主要外观，适合先通过配图查看造型和各部位细节。",
+        "en": "HH3102 is listed as the Chinese-version AI dancing robot. The main visual features are its white body, dark face area and chest panel, shown in the product images."
+      }
+    },
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "看清面部、胸部与肢体",
+        "en": "Face, chest and limb details"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/HH3102/635706ee1ffe.webp",
+      "text": {
+        "zh": "配图分别展示完整机身与胸前面板。手臂、腿部和面部的外形在图中可见，挑选时可以先核对这一款的外观，避免与小型桌面机器人混淆。",
+        "en": "The images show the full body and chest panel, along with the arms, legs and face. Use these views to identify this model’s construction when selecting a robot."
+      }
+    },
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "按本款确认电池与功能清单",
+        "en": "Confirm the configuration for this model"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/HH3102/79abfa47d6ac.webp",
+      "text": {
+        "zh": "当前电池、充电时长与完整互动清单仍待核对，暂不沿用另一款机器人的参数。下单时请按HH3102确认功能和配件；彩盒尺寸为27.5 × 39.5 × 14 cm。",
+        "en": "Battery details, charging time and the complete interaction list remain to be confirmed for HH3102. Confirm the functions and accessories for this model when ordering. Its color box measures 27.5 × 39.5 × 14 cm."
+      }
+    }
+  ],
+  "sourceData": {
+    "file": "挑样资料.xlsx",
+    "sha256": "30f47eb8405198bf6e92d33a2beecc7e62fb016f6bf26d476c79d2f816eefae0",
+    "sheet": "Blank_A4_Landscape_1019",
+    "row": 35,
+    "cells": {
+      "B": "HH3102",
+      "C": "AI跳舞机器人（中文版）",
+      "D": "彩盒",
+      "E": 0,
+      "F": 8,
+      "G": "233.7",
+      "H": "27.5",
+      "I": "39.5",
+      "J": "14",
+      "K": "60",
+      "L": "41",
+      "M": "58",
+      "N": "0.14",
+      "O": "5.03",
+      "P": "12.8",
+      "Q": "11.6",
+      "R": "\n产品颜色：黄黑银UV，内置锂电池，电池容量：3.7V/500MAH 14500锂电池，产品材质：电子组件、ABS，灯光红、黄、蓝、绿、紫、白、青，带音乐，充电时间约90分钟，使用时间约120分钟，包装内含物品AI机器人x1、说明书x1、Type-c充电线x1、挂绳X1、自粘脚垫X2，功能介绍：角色定义、打断唤醒、闹钟设置、灯光秀（眼睛跟着音乐的节拍闪烁七彩灯光）、中英双语交流、时事新闻、闲聊陪伴、学习指导、科普教育、历史典故、诗词古文、成语接龙、猜谜语、天文地理、生活助理、美食推荐、健康咨询、心理咨询、海量后台云内容，支持37语种：中文、英语、日语、粤语、越南语、法语、阿拉伯语、西班牙语、俄语、韩语、意大利语、印尼语、印地语、芬兰语、泰语、德语、葡萄牙语、乌克兰语、土耳其语、捷克语、波兰语、罗马尼亚语、马来语、斯洛文尼亚语、荷兰语、希伯来语、斯洛伐克语、瑞典语、克罗地亚语、匈牙利语、加泰罗尼亚语、保加利亚语、丹麦语,波斯语，希腊，菲律宾，挪威"
+    },
+    "priceAdjustment": {
+      "currency": "CNY",
+      "originalPrice": 233.7,
+      "markupRate": 0.3,
+      "adjustedPrice": 303.81,
+      "decimalPlaces": 2,
+      "rounding": "ROUND_HALF_UP"
+    },
+    "reviewNotes": [
+      "备注与 HH3101YM 完全相同，需核实是否适用于该跳舞机器人。"
+    ],
+    "attributeEnrichment": {
+      "sources": [
+        "title",
+        "description",
+        "sourceData.cells",
+        "productDetails.text",
+        "packagingPairs"
+      ],
+      "dimensionUnit": "cm",
+      "dimensionUnitBasis": "用户确认未注明单位的尺寸按厘米处理",
+      "packagingImage": "https://www.yaoshuntoys.com/media/products-q92/HH3102/b3e5307a597f.webp",
+      "imageAttributeKeys": [],
+      "ageStatus": "not-readable-or-not-shown"
+    },
+    "originalDescription": {
+      "zh": [
+        "AI跳舞机器人（中文版）",
+        "产品颜色：黄黑银UV，内置锂电池，电池容量：3.7V/500MAH 14500锂电池，产品材质：电子组件、ABS，灯光红、黄、蓝、绿、紫、白、青，带音乐，充电时间约90分钟，使用时间约120分钟，包装内含物品AI机器人x1、说明书x1、Type-c充电线x1、挂绳X1、自粘脚垫X2，功能介绍：角色定义、打断唤醒、闹钟设置、灯光秀（眼睛跟着音乐的节拍闪烁七彩灯光）、中英双语交流、时事新闻、闲聊陪伴、学习指导、科普教育、历史典故、诗词古文、成语接龙、猜谜语、天文地理、生活助理、美食推荐、健康咨询、心理咨询、海量后台云内容，支持37语种：中文、英语、日语、粤语、越南语、法语、阿拉伯语、西班牙语、俄语、韩语、意大利语、印尼语、印地语、芬兰语、泰语、德语、葡萄牙语、乌克兰语、土耳其语、捷克语、波兰语、罗马尼亚语、马来语、斯洛文尼亚语、荷兰语、希伯来语、斯洛伐克语、瑞典语、克罗地亚语、匈牙利语、加泰罗尼亚语、保加利亚语、丹麦语,波斯语，希腊，菲律宾，挪威"
+      ],
+      "en": [
+        "AI Dancing Robot, Chinese Version",
+        "Yellow, black, and silver UV finish. Built-in 3.7 V, 500 mAh 14500 lithium battery; ABS and electronic components; multicolor lights and music. Approximate charge time: 90 minutes; operating time: 120 minutes. Includes robot, manual, USB-C cable, lanyard, and two adhesive foot pads. Features include voice wake-up, alarms, light shows, Chinese-English conversation, news, casual conversation, learning support, science and culture content, poetry, idiom games, quizzes, and cloud content. The source states support for 37 languages and lists Chinese, English, Japanese, Cantonese, Vietnamese, French, Arabic, Spanish, Russian, Korean, Italian, Indonesian, Hindi, Finnish, Thai, German, Portuguese, Ukrainian, Turkish, Czech, Polish, Romanian, Malay, Slovenian, Dutch, Hebrew, Slovak, Swedish, Croatian, Hungarian, Catalan, Bulgarian, Danish, Persian, Greek, Filipino, and Norwegian."
+      ]
+    },
+    "workbookReview": {
+      "file": "/Users/lukang.liu/Desktop/github/yaoshun/挑样资料.xlsx",
+      "sha256": "30f47eb8405198bf6e92d33a2beecc7e62fb016f6bf26d476c79d2f816eefae0",
+      "sheet": "Blank_A4_Landscape_1019",
+      "row": 35,
+      "imagePart": "xl/media/image33.jpeg"
+    },
+    "originalPackagingPairs": [
+      {
+        "key": {
+          "zh": "包装方式",
+          "en": "Packaging"
+        },
+        "value": {
+          "zh": "彩盒",
+          "en": "Color box"
+        }
+      },
+      {
+        "key": {
+          "zh": "装箱量（E列）",
+          "en": "Packing Quantity (Column E)"
+        },
+        "value": {
+          "zh": "0",
+          "en": "0"
+        }
+      },
+      {
+        "key": {
+          "zh": "装箱量（F列）",
+          "en": "Packing Quantity (Column F)"
+        },
+        "value": {
+          "zh": "8",
+          "en": "8"
+        }
+      },
+      {
+        "key": {
+          "zh": "包装规格（原表单位）",
+          "en": "Package Dimensions (Source Units)"
+        },
+        "value": {
+          "zh": "27.5 × 39.5 × 14",
+          "en": "27.5 × 39.5 × 14"
+        }
+      },
+      {
+        "key": {
+          "zh": "外箱规格（原表单位）",
+          "en": "Carton Dimensions (Source Units)"
+        },
+        "value": {
+          "zh": "60 × 41 × 58",
+          "en": "60 × 41 × 58"
+        }
+      },
+      {
+        "key": {
+          "zh": "体积（原表单位）",
+          "en": "Volume (Source Units)"
+        },
+        "value": {
+          "zh": "0.14",
+          "en": "0.14"
+        }
+      },
+      {
+        "key": {
+          "zh": "材积（原表单位）",
+          "en": "Shipping Measurement (Source Units)"
+        },
+        "value": {
+          "zh": "5.03",
+          "en": "5.03"
+        }
+      },
+      {
+        "key": {
+          "zh": "毛重（原表单位）",
+          "en": "Gross Weight (Source Units)"
+        },
+        "value": {
+          "zh": "12.8",
+          "en": "12.8"
+        }
+      },
+      {
+        "key": {
+          "zh": "净重（原表单位）",
+          "en": "Net Weight (Source Units)"
+        },
+        "value": {
+          "zh": "11.6",
+          "en": "11.6"
+        }
+      }
+    ],
+    "contentReview": {
+      "status": "edited-individually",
+      "scope": [
+        "description",
+        "productDetails",
+        "attributePairs",
+        "customizationOptions",
+        "packagingAndShipping",
+        "leadTime"
+      ],
+      "copyStyle": "具体、简洁，按本款资料描述；未确认的配置不扩写为承诺",
+      "deliveryBasis": "未提供本款确认的天数，按样品、常规订单和定制订单说明确认节点",
+      "preservedImageUrls": true
+    }
+  },
+  "customizationOptions": [
+    {
+      "label": {
+        "zh": "彩盒与品牌版面",
+        "en": "Retail Box and Branding"
+      },
+      "minOrder": {
+        "zh": "可提交LOGO、条码与包装语言要求，按印刷方案确认费用和起订量。",
+        "en": "Submit logo artwork, barcodes and package languages. Costs and minimum quantities depend on the print specification."
+      }
+    },
+    {
+      "label": {
+        "zh": "说明书与语言版本核对",
+        "en": "Instructions and Language Version"
+      },
+      "minOrder": {
+        "zh": "可提出说明语言和版面需求；机内语言、APP或固件功能需另行核对。",
+        "en": "Request instruction languages and layouts. On-device languages, apps and firmware functions require separate confirmation."
+      }
+    },
+    {
+      "label": {
+        "zh": "配件与外观方案评估",
+        "en": "Accessory and Appearance Review"
+      },
+      "minOrder": {
+        "zh": "可提交配件清单或配色要求，电池、控制器与电子配置按本型号确认。",
+        "en": "Submit accessory or color requirements. Batteries, controllers and electronic specifications are confirmed for this model."
+      }
+    }
+  ],
+  "leadTime": {
+    "notes": [
+      {
+        "label": {
+          "zh": "样品订单",
+          "en": "Samples"
+        },
+        "value": {
+          "zh": "先确认HH3102样品和当前配色库存，再约定寄样日期。",
+          "en": "Confirm HH3102 sample and color availability before agreeing a dispatch date."
+        }
+      },
+      {
+        "label": {
+          "zh": "常规订单",
+          "en": "Standard Orders"
+        },
+        "value": {
+          "zh": "按订单数量、包装备料和现有排产确认交期，国际运输时间另计。",
+          "en": "Confirm lead time against quantity, packing materials and the production schedule. International transit is additional."
+        }
+      },
+      {
+        "label": {
+          "zh": "定制订单",
+          "en": "Customized Orders"
+        },
+        "value": {
+          "zh": "先确认图稿、配件清单和样品，确认后再安排生产与出货排期。",
+          "en": "Approve artwork, contents and samples before scheduling production and dispatch."
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,734 @@
+{
+  "productId": "A999-255",
+  "module": "toys",
+  "priority": 1023,
+  "tags": [
+    {
+      "key": "tents",
+      "en": "Children's Play Tents",
+      "zh": "儿童游戏帐篷"
+    }
+  ],
+  "title": {
+    "zh": "冰淇淋售卖店游戏帐篷",
+    "en": "Ice Cream Shop Play Tent"
+  },
+  "summary": {
+    "zh": "冰淇淋店造型，带遮篷和售卖窗口，采用PVC管架。",
+    "en": "An ice cream shop tent with an awning, service window and PVC frame."
+  },
+  "description": {
+    "zh": [
+      "冰淇淋店造型，带遮篷和售卖窗口，采用PVC管架。",
+      "资料列有36 cm管22根、55 cm管4根，配直接头5个、直角三通6个、直角接头2个、四通2个和T形接头4个。",
+      "组装后的尺寸为80 × 40 × 137 cm，布置时要给售卖窗口前方留出互动空间。"
+    ],
+    "en": [
+      "An ice cream shop tent with an awning, service window and PVC frame.",
+      "The frame lists 22 tubes at 36 cm and four at 55 cm, with five straight, six right-angle three-way, two elbow, two four-way and four T connectors.",
+      "The assembled tent measures 80 × 40 × 137 cm."
+    ]
+  },
+  "categories": {
+    "zh": [
+      "儿童游戏帐篷"
+    ],
+    "en": [
+      "Children's Play Tents"
+    ]
+  },
+  "pricing": {
+    "display": {
+      "zh": "¥52.78",
+      "en": "¥52.78"
+    },
+    "currency": "CNY",
+    "min": 52.78,
+    "max": 52.78,
+    "isRange": false,
+    "tiers": [
+      {
+        "quantity": {
+          "zh": "价格",
+          "en": "Price"
+        },
+        "price": "¥52.78"
+      }
+    ]
+  },
+  "specifications": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "A999-255",
+        "en": "A999-255"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "儿童游戏帐篷",
+        "en": "Children's Play Tents"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    },
+    {
+      "key": {
+        "zh": "供应商备注（原文）",
+        "en": "Supplier Notes (Original Chinese)"
+      },
+      "value": {
+        "zh": "PVC管22条36CM，4条55CM，5粒直接头，6粒直角3通接头，2粒直角接头，2粒4通接头，4粒T接头"
+      }
+    }
+  ],
+  "productAttributes": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "A999-255",
+        "en": "A999-255"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "儿童游戏帐篷",
+        "en": "Children's Play Tents"
+      }
+    },
+    {
+      "key": {
+        "zh": "主题",
+        "en": "Theme"
+      },
+      "value": {
+        "zh": "冰淇淋甜品售卖店",
+        "en": "Ice cream and dessert shop"
+      }
+    },
+    {
+      "key": {
+        "zh": "框架材质",
+        "en": "Frame Material"
+      },
+      "value": {
+        "zh": "PVC管",
+        "en": "PVC tubes"
+      }
+    },
+    {
+      "key": {
+        "zh": "管件配置",
+        "en": "Tube Configuration"
+      },
+      "value": {
+        "zh": "36 cm管22根，55 cm管4根",
+        "en": "22 tubes at 36 cm; 4 tubes at 55 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "接头配置",
+        "en": "Connector Configuration"
+      },
+      "value": {
+        "zh": "直接头5个、直角三通6个、直角接头2个、四通2个、T形4个",
+        "en": "5 straight, 6 right-angle three-way, 2 elbow, 2 four-way and 4 T connectors"
+      }
+    },
+    {
+      "key": {
+        "zh": "结构特点",
+        "en": "Construction"
+      },
+      "value": {
+        "zh": "遮篷与售卖窗口",
+        "en": "Awning and service window"
+      }
+    },
+    {
+      "key": {
+        "zh": "商品尺寸",
+        "en": "Product Dimensions"
+      },
+      "value": {
+        "zh": "80 × 40 × 137 cm",
+        "en": "80 × 40 × 137 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "56 × 8 × 25 cm",
+        "en": "56 × 8 × 25 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "78 × 49 × 58 cm",
+        "en": "78 × 49 × 58 cm"
+      }
+    }
+  ],
+  "attributePairs": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "A999-255",
+        "en": "A999-255"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "儿童游戏帐篷",
+        "en": "Children's Play Tents"
+      }
+    },
+    {
+      "key": {
+        "zh": "主题",
+        "en": "Theme"
+      },
+      "value": {
+        "zh": "冰淇淋甜品售卖店",
+        "en": "Ice cream and dessert shop"
+      }
+    },
+    {
+      "key": {
+        "zh": "框架材质",
+        "en": "Frame Material"
+      },
+      "value": {
+        "zh": "PVC管",
+        "en": "PVC tubes"
+      }
+    },
+    {
+      "key": {
+        "zh": "管件配置",
+        "en": "Tube Configuration"
+      },
+      "value": {
+        "zh": "36 cm管22根，55 cm管4根",
+        "en": "22 tubes at 36 cm; 4 tubes at 55 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "接头配置",
+        "en": "Connector Configuration"
+      },
+      "value": {
+        "zh": "直接头5个、直角三通6个、直角接头2个、四通2个、T形4个",
+        "en": "5 straight, 6 right-angle three-way, 2 elbow, 2 four-way and 4 T connectors"
+      }
+    },
+    {
+      "key": {
+        "zh": "结构特点",
+        "en": "Construction"
+      },
+      "value": {
+        "zh": "遮篷与售卖窗口",
+        "en": "Awning and service window"
+      }
+    },
+    {
+      "key": {
+        "zh": "商品尺寸",
+        "en": "Product Dimensions"
+      },
+      "value": {
+        "zh": "80 × 40 × 137 cm",
+        "en": "80 × 40 × 137 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "56 × 8 × 25 cm",
+        "en": "56 × 8 × 25 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "78 × 49 × 58 cm",
+        "en": "78 × 49 × 58 cm"
+      }
+    }
+  ],
+  "packagingAndShipping": {
+    "summary": {
+      "zh": "单品包装及外箱规格如下，运输费用另行核算。",
+      "en": "Individual packing and carton specifications are listed below. Shipping is quoted separately."
+    },
+    "blocks": [
+      {
+        "label": {
+          "zh": "包装方式",
+          "en": "Packaging"
+        },
+        "value": {
+          "zh": "彩盒",
+          "en": "Color box"
+        }
+      },
+      {
+        "label": {
+          "zh": "包装尺寸",
+          "en": "Package Dimensions"
+        },
+        "value": {
+          "zh": "56 × 8 × 25 cm",
+          "en": "56 × 8 × 25 cm"
+        }
+      },
+      {
+        "label": {
+          "zh": "外箱尺寸",
+          "en": "Carton Dimensions"
+        },
+        "value": {
+          "zh": "78 × 49 × 58 cm",
+          "en": "78 × 49 × 58 cm"
+        }
+      },
+      {
+        "label": {
+          "zh": "外箱体积（按尺寸计算）",
+          "en": "Carton Volume (Calculated)"
+        },
+        "value": {
+          "zh": "0.222 m³",
+          "en": "0.222 m³"
+        }
+      },
+      {
+        "label": {
+          "zh": "运输费用",
+          "en": "Shipping Cost"
+        },
+        "value": {
+          "zh": "按目的地、箱数及运输方式另行报价。",
+          "en": "Quoted separately by destination, carton quantity and shipping method."
+        }
+      }
+    ],
+    "unitSize": "56 × 8 × 25 cm"
+  },
+  "packagingPairs": [
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "56 × 8 × 25 cm",
+        "en": "56 × 8 × 25 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "78 × 49 × 58 cm",
+        "en": "78 × 49 × 58 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱体积（按尺寸计算）",
+        "en": "Carton Volume (Calculated)"
+      },
+      "value": {
+        "zh": "0.222 m³",
+        "en": "0.222 m³"
+      }
+    },
+    {
+      "key": {
+        "zh": "运输费用",
+        "en": "Shipping Cost"
+      },
+      "value": {
+        "zh": "按目的地、箱数及运输方式另行报价。",
+        "en": "Quoted separately by destination, carton quantity and shipping method."
+      }
+    }
+  ],
+  "media": {
+    "main": [
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/A999-255/22821a4dd22a.webp"
+      }
+    ],
+    "detail": [
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/A999-255/c227313cac20.webp"
+      },
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/A999-255/17fb307b9d7c.webp"
+      }
+    ]
+  },
+  "images": [
+    "https://www.yaoshuntoys.com/media/products-q92/A999-255/22821a4dd22a.webp",
+    "https://www.yaoshuntoys.com/media/products-q92/A999-255/c227313cac20.webp",
+    "https://www.yaoshuntoys.com/media/products-q92/A999-255/17fb307b9d7c.webp"
+  ],
+  "videos": [],
+  "productDetails": [
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "在窗口安排售卖游戏",
+        "en": "An ice cream shop window"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/A999-255/22821a4dd22a.webp",
+      "text": {
+        "zh": "遮篷和售卖窗口把帐篷做成一个小店铺。可以轮流扮演店员和顾客，安排点单、取餐等过家家情节；食品造型道具可按自己的游戏需要另行搭配。",
+        "en": "The awning and service window form a small shop. Players can take turns as shopkeeper and customer, making up ordering and collection games. Food props can be chosen separately to suit the game."
+      }
+    },
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "PVC管架的配置写清楚",
+        "en": "PVC tubes and connectors"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/A999-255/c227313cac20.webp",
+      "text": {
+        "zh": "资料列有36 cm管22根、55 cm管4根，配直接头5个、直角三通6个、直角接头2个、四通2个和T形接头4个。搭建前可先按长度与接头形状分组。",
+        "en": "The frame lists 22 tubes at 36 cm and four at 55 cm, with five straight, six right-angle three-way, two elbow, two four-way and four T connectors. Sort them by length and shape before assembly."
+      }
+    },
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "整体尺寸80 × 40 × 137 cm",
+        "en": "80 × 40 × 137 cm overall"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/A999-255/17fb307b9d7c.webp",
+      "text": {
+        "zh": "组装后的尺寸为80 × 40 × 137 cm，布置时要给售卖窗口前方留出互动空间。原表彩盒尺寸56 × 8 × 25 cm，具体结构可对照组件与细节图查看。",
+        "en": "The assembled tent measures 80 × 40 × 137 cm. Leave space in front of the service window for the game. The source table lists a 56 × 8 × 25 cm color box; see the component images for construction details."
+      }
+    }
+  ],
+  "sourceData": {
+    "file": "挑样资料.xlsx",
+    "sha256": "30f47eb8405198bf6e92d33a2beecc7e62fb016f6bf26d476c79d2f816eefae0",
+    "sheet": "Blank_A4_Landscape_1019",
+    "row": 26,
+    "cells": {
+      "B": "A999-255",
+      "C": "儿童帐篷冰淇淋甜点雪糕售卖小店密封彩盒装",
+      "D": "彩盒",
+      "E": 0,
+      "F": 18,
+      "G": "40.6",
+      "H": "56",
+      "I": "8",
+      "J": "25",
+      "K": "78",
+      "L": "49",
+      "M": "58",
+      "N": "0.22",
+      "O": "7.82",
+      "P": "23",
+      "Q": "22",
+      "R": "\nPVC管22条36CM，4条55CM，5粒直接头，6粒直角3通接头，2粒直角接头，2粒4通接头，4粒T接头"
+    },
+    "priceAdjustment": {
+      "currency": "CNY",
+      "originalPrice": 40.6,
+      "markupRate": 0.3,
+      "adjustedPrice": 52.78,
+      "decimalPlaces": 2,
+      "rounding": "ROUND_HALF_UP"
+    },
+    "reviewNotes": [],
+    "attributeEnrichment": {
+      "sources": [
+        "title",
+        "description",
+        "sourceData.cells",
+        "productDetails.text",
+        "packagingPairs"
+      ],
+      "dimensionUnit": "cm",
+      "dimensionUnitBasis": "用户确认未注明单位的尺寸按厘米处理",
+      "packagingImage": "https://www.yaoshuntoys.com/media/products-q92/A999-255/22821a4dd22a.webp",
+      "imageAttributeKeys": [],
+      "ageStatus": "not-readable-or-not-shown"
+    },
+    "originalDescription": {
+      "zh": [
+        "儿童帐篷冰淇淋甜点雪糕售卖小店密封彩盒装",
+        "PVC管22条36CM，4条55CM，5粒直接头，6粒直角3通接头，2粒直角接头，2粒4通接头，4粒T接头"
+      ],
+      "en": [
+        "Ice Cream Shop Children's Play Tent",
+        "Frame components: 22 PVC tubes (36 cm), four tubes (55 cm), five straight connectors, six right-angle three-way connectors, two right-angle connectors, two four-way connectors, and four T-connectors."
+      ]
+    },
+    "workbookReview": {
+      "file": "/Users/lukang.liu/Desktop/github/yaoshun/挑样资料.xlsx",
+      "sha256": "30f47eb8405198bf6e92d33a2beecc7e62fb016f6bf26d476c79d2f816eefae0",
+      "sheet": "Blank_A4_Landscape_1019",
+      "row": 26,
+      "imagePart": "xl/media/image24.jpeg"
+    },
+    "originalPackagingPairs": [
+      {
+        "key": {
+          "zh": "包装方式",
+          "en": "Packaging"
+        },
+        "value": {
+          "zh": "彩盒",
+          "en": "Color box"
+        }
+      },
+      {
+        "key": {
+          "zh": "装箱量（E列）",
+          "en": "Packing Quantity (Column E)"
+        },
+        "value": {
+          "zh": "0",
+          "en": "0"
+        }
+      },
+      {
+        "key": {
+          "zh": "装箱量（F列）",
+          "en": "Packing Quantity (Column F)"
+        },
+        "value": {
+          "zh": "18",
+          "en": "18"
+        }
+      },
+      {
+        "key": {
+          "zh": "包装规格（原表单位）",
+          "en": "Package Dimensions (Source Units)"
+        },
+        "value": {
+          "zh": "56 × 8 × 25",
+          "en": "56 × 8 × 25"
+        }
+      },
+      {
+        "key": {
+          "zh": "外箱规格（原表单位）",
+          "en": "Carton Dimensions (Source Units)"
+        },
+        "value": {
+          "zh": "78 × 49 × 58",
+          "en": "78 × 49 × 58"
+        }
+      },
+      {
+        "key": {
+          "zh": "体积（原表单位）",
+          "en": "Volume (Source Units)"
+        },
+        "value": {
+          "zh": "0.22",
+          "en": "0.22"
+        }
+      },
+      {
+        "key": {
+          "zh": "材积（原表单位）",
+          "en": "Shipping Measurement (Source Units)"
+        },
+        "value": {
+          "zh": "7.82",
+          "en": "7.82"
+        }
+      },
+      {
+        "key": {
+          "zh": "毛重（原表单位）",
+          "en": "Gross Weight (Source Units)"
+        },
+        "value": {
+          "zh": "23",
+          "en": "23"
+        }
+      },
+      {
+        "key": {
+          "zh": "净重（原表单位）",
+          "en": "Net Weight (Source Units)"
+        },
+        "value": {
+          "zh": "22",
+          "en": "22"
+        }
+      }
+    ],
+    "contentReview": {
+      "status": "edited-individually",
+      "scope": [
+        "description",
+        "productDetails",
+        "attributePairs",
+        "customizationOptions",
+        "packagingAndShipping",
+        "leadTime"
+      ],
+      "copyStyle": "具体、简洁，按本款资料描述；未确认的配置不扩写为承诺",
+      "deliveryBasis": "未提供本款确认的天数，按样品、常规订单和定制订单说明确认节点",
+      "preservedImageUrls": true
+    }
+  },
+  "customizationOptions": [
+    {
+      "label": {
+        "zh": "彩盒与品牌版面",
+        "en": "Retail Box and Branding"
+      },
+      "minOrder": {
+        "zh": "可提交LOGO、盒面设计与条码要求，印刷方案及起订量另行确认。",
+        "en": "Submit logo artwork, box design and barcode requirements. Print specifications and minimum quantities are confirmed separately."
+      }
+    },
+    {
+      "label": {
+        "zh": "布面与配色方案评估",
+        "en": "Fabric and Color Review"
+      },
+      "minOrder": {
+        "zh": "可提出布面图案、配色和面料要求，先确认打样条件与费用。",
+        "en": "Request fabric prints, colors or materials for review of sampling requirements and costs."
+      }
+    },
+    {
+      "label": {
+        "zh": "组装说明语言",
+        "en": "Assembly Guide Language"
+      },
+      "minOrder": {
+        "zh": "可提交说明书语言和图示要求，按确认稿评估排版与印刷。",
+        "en": "Submit assembly-guide languages and illustrations for layout and print review."
+      }
+    }
+  ],
+  "leadTime": {
+    "notes": [
+      {
+        "label": {
+          "zh": "样品订单",
+          "en": "Samples"
+        },
+        "value": {
+          "zh": "先确认A999-255样品和当前配色库存，再约定寄样日期。",
+          "en": "Confirm A999-255 sample and color availability before agreeing a dispatch date."
+        }
+      },
+      {
+        "label": {
+          "zh": "常规订单",
+          "en": "Standard Orders"
+        },
+        "value": {
+          "zh": "按订单数量、包装备料和现有排产确认交期，国际运输时间另计。",
+          "en": "Confirm lead time against quantity, packing materials and the production schedule. International transit is additional."
+        }
+      },
+      {
+        "label": {
+          "zh": "定制订单",
+          "en": "Customized Orders"
+        },
+        "value": {
+          "zh": "先确认图稿、配件清单和样品，确认后再安排生产与出货排期。",
+          "en": "Approve artwork, contents and samples before scheduling production and dispatch."
+        }
+      }
+    ]
+  }
+}

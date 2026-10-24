@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 
 import { products } from "@/content/site/products-catalog";
+import { productCollections } from "@/content/pages/products";
 import {
   getNewsLastModified,
   getProductLastModified,
@@ -65,6 +66,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
         lastModified: getProductLastModified(product.productId),
         alternates: buildAlternates(path),
         images: product.images?.slice(0, 4).map((image) => toAbsoluteUrl(image)),
+      });
+    }
+
+    for (const collection of productCollections) {
+      const path = `/products/category/${collection.key}`;
+      entries.push({
+        url: withBase(localizedUrlPath(locale, path)),
+        lastModified: getStaticRouteLastModified("/products"),
+        alternates: buildAlternates(path),
       });
     }
 

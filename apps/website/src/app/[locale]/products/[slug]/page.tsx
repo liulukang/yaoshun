@@ -26,6 +26,7 @@ import {
   type ProductJson,
   type ProductJsonPair,
 } from "@/content/site/products-catalog";
+import {productCollections} from "@/content/pages/products";
 import { productsPageContent } from "@/content/site";
 import { buildMetadata } from "@/lib/metadata";
 import {
@@ -37,7 +38,12 @@ import {
   getProductSeoKeywords,
 } from "@/lib/site-data";
 import { getLocaleFromParams, locales, t, type Locale } from "@/lib/i18n";
-import { contactFormPath, localizedPath, productPath } from "@/lib/routes";
+import {
+  contactFormPath,
+  localizedPath,
+  localizedUrlPath,
+  productPath,
+} from "@/lib/routes";
 import { siteUrl, toAbsoluteUrl } from "@/lib/site-config";
 
 const alternateLocale: Record<Locale, Locale> = {
@@ -321,7 +327,7 @@ function copy(locale: Locale, title: string, minOrder: string) {
   return {
     bestSeller: t(locale, { en: "Best Seller", zh: "Best Seller" }),
     home: t(locale, { en: "Home", zh: "首页" }),
-    products: t(locale, { en: "Fort Building Kits", zh: "堡垒拼搭套装" }),
+    products: t(locale, { en: "Products", zh: "产品目录" }),
     priceLabel: t(locale, {
       en: "Price (FOB Reference)",
       zh: "价格（FOB 参考）",
@@ -474,6 +480,13 @@ export default async function ProductDetailPage({
   const descriptionLines =
     descriptionList[locale] || descriptionList.en || descriptionList.zh || [];
   const categoryTrail = getProductBusinessCategories(locale, product);
+  const productCollection = showcase?.collection;
+  const productCategory = productCollections.find(
+    (item) => item.key === productCollection,
+  );
+  const productCategoryLabel = productCategory
+    ? t(locale, productCategory.label)
+    : categoryTrail[0] || t(locale, {en: "Products", zh: "产品目录"});
   const minOrder = localize(locale, product.pricing?.minOrder, "");
   const priceUnit = getPriceUnit(locale, minOrder);
   const ageRange = formatAgeRangeValue(
@@ -497,7 +510,7 @@ export default async function ProductDetailPage({
   const functionPair = findPair(locale, attributes, ["function"]);
   const servicePair = findPair(locale, attributes, ["service", "oem", "odm"]);
   const featurePair = findPair(locale, attributes, ["feature"]);
-  const packagePair = findPair(locale, attributes, ["package", "packing"]);
+  const packagePair = findPair(locale, attributes, ["packaging", "package", "packing"]);
   const weightPair = findPair(locale, attributes, ["weight", "gross weight"]);
   const sizePair = findPair(
     locale,
@@ -526,7 +539,7 @@ export default async function ProductDetailPage({
     },
   ];
   const highlightBullets = uniqueLines([
-    descriptionLines[0] || "",
+    ...descriptionLines.slice(0, 1),
     functionPair
       ? `${localize(locale, functionPair.key)}: ${localize(locale, functionPair.value)}`
       : "",
@@ -621,8 +634,16 @@ export default async function ProductDetailPage({
   );
   const packagingItems = (
     packaging.length > 0 ? packaging : fallbackPackagingItems
-  ).slice(0, 4);
-  const leadTime = product.leadTime?.tiers || [];
+  ).slice(0, 6);
+  const leadTime = product.leadTime?.tiers?.length
+    ? product.leadTime.tiers.map((item) => ({
+        title: formatLeadTimeQuantityRange(locale, item.minQuantity, item.maxQuantity),
+        text: formatLeadTimeDescription(locale, item.processPeriodDays),
+      }))
+    : (product.leadTime?.notes || []).map((item) => ({
+        title: localize(locale, item.label),
+        text: localize(locale, item.value),
+      }));
   const topBadges = uniqueLines([
     minOrder ? `MOQ ${minOrder}` : "",
     showcase?.bestseller ? text.bestSeller : "",
@@ -702,6 +723,7 @@ export default async function ProductDetailPage({
         sku: product.productId,
         mpn: modelNumber !== "-" ? modelNumber : undefined,
         category: categoryNames.join(" / ") || undefined,
+        keywords: getProductSeoKeywords(locale, product, 8),
         image: structuredImages.length > 0 ? structuredImages : undefined,
         brand: {
           "@type": "Brand",
@@ -720,7 +742,7 @@ export default async function ProductDetailPage({
         },
         material: material !== "-" ? material : undefined,
         ...(structuredOffer ? { offers: structuredOffer } : {}),
-        additionalProperty: attributePairs.slice(0, 12).map((item) => ({
+        additionalProperty: attributePairs.slice(0, 24).map((item) => ({
           "@type": "PropertyValue",
           name: item.label,
           value: item.value,
@@ -744,9 +766,21 @@ export default async function ProductDetailPage({
           name: text.products,
           item: toAbsoluteUrl(productsHref),
         },
+        ...(productCollection
+          ? [
+              {
+                "@type": "ListItem",
+                position: 3,
+                name: productCategoryLabel,
+                item: toAbsoluteUrl(
+                  localizedUrlPath(locale, `/products/category/${productCollection}`),
+                ),
+              },
+            ]
+          : []),
         {
           "@type": "ListItem",
-          position: 3,
+          position: productCollection ? 4 : 3,
           name: title,
           item: productUrl,
         },
@@ -785,15 +819,27 @@ export default async function ProductDetailPage({
         >
           {text.products}
         </Link>
-        {categoryTrail.map((category, index) => (
-          <div
-            className="flex min-w-0 shrink items-center gap-2"
-            key={`${category}-${index}`}
-          >
+        {productCollection ? (
+          <>
             <span className="shrink-0">/</span>
-            <span className="truncate">{category}</span>
-          </div>
-        ))}
+            <Link
+              className="inline-flex min-h-11 min-w-11 shrink-0 items-center justify-center rounded-full px-3 transition hover:bg-[#2563ff]/8 hover:text-[#2563ff]"
+              data-track-destination={localizedUrlPath(
+                locale,
+                `/products/category/${productCollection}`,
+              )}
+              data-track-event="breadcrumb_click"
+              data-track-label={productCategoryLabel}
+              data-track-location="product_detail_breadcrumbs"
+              href={localizedUrlPath(
+                locale,
+                `/products/category/${productCollection}`,
+              )}
+            >
+              {productCategoryLabel}
+            </Link>
+          </>
+        ) : null}
         <span className="shrink-0">/</span>
         <span className="min-w-0 truncate font-semibold text-[#17306e]">
           {title}
@@ -1116,7 +1162,7 @@ export default async function ProductDetailPage({
               {leadTime.map((item, index) => (
                 <div
                   className="product-detail-data-item flex gap-4 text-[#2563ff]"
-                  key={`${item.minQuantity}-${index}`}
+                  key={`${item.title}-${index}`}
                 >
                   {index % 3 === 0 ? (
                     <Clock3 size={22} strokeWidth={1.85} />
@@ -1127,17 +1173,10 @@ export default async function ProductDetailPage({
                   )}
                   <div className="grid gap-1">
                     <h3 className="m-0 text-[1rem] font-semibold text-[#17306e]">
-                      {formatLeadTimeQuantityRange(
-                        locale,
-                        item.minQuantity,
-                        item.maxQuantity,
-                      )}
+                      {item.title}
                     </h3>
                     <p className="m-0 text-[0.95rem] leading-7 text-[#50638f]">
-                      {formatLeadTimeDescription(
-                        locale,
-                        item.processPeriodDays,
-                      )}
+                      {item.text}
                     </p>
                   </div>
                 </div>

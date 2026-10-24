@@ -1,0 +1,1059 @@
+{
+  "productId": "M6s",
+  "module": "toys",
+  "priority": 1038,
+  "tags": [
+    {
+      "key": "drones",
+      "en": "Drones",
+      "zh": "无人机"
+    }
+  ],
+  "title": {
+    "zh": "M6s折叠双摄无人机",
+    "en": "M6s Folding Dual-Camera Drone"
+  },
+  "summary": {
+    "zh": "灰白色折叠机身配无刷电机、光流定位、双摄和灯光，标称单电池约10分钟飞行。",
+    "en": "A gray-and-white folding drone with brushless motors, optical flow, dual cameras and lights; stated flight time is about 10 minutes on one battery."
+  },
+  "description": {
+    "zh": [
+      "灰白色折叠机身配无刷电机、光流定位、双摄和灯光，标称单电池约10分钟飞行。",
+      "资料列有高度保持、光流定位、无头模式、一键返航和自定义航线。",
+      "机身电池为3.7 V、1300 mAh，遥控器内置3.7 V、500 mAh电池；资料列遥控距离约100 m、图传约40–50 m。"
+    ],
+    "en": [
+      "A gray-and-white folding drone with brushless motors, optical flow, dual cameras and lights; stated flight time is about 10 minutes on one battery.",
+      "The source lists altitude hold, optical-flow positioning, headless mode, one-key return and custom routes.",
+      "The drone battery is listed as 3.7 V, 1,300 mAh and the controller has a built-in 3.7 V, 500 mAh battery."
+    ]
+  },
+  "categories": {
+    "zh": [
+      "无人机"
+    ],
+    "en": [
+      "Drones"
+    ]
+  },
+  "pricing": {
+    "display": {
+      "zh": "¥184.86",
+      "en": "¥184.86"
+    },
+    "currency": "CNY",
+    "min": 184.86,
+    "max": 184.86,
+    "isRange": false,
+    "tiers": [
+      {
+        "quantity": {
+          "zh": "价格",
+          "en": "Price"
+        },
+        "price": "¥184.86"
+      }
+    ]
+  },
+  "specifications": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "M6s",
+        "en": "M6s"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "无人机",
+        "en": "Drones"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    },
+    {
+      "key": {
+        "zh": "供应商备注（原文）",
+        "en": "Supplier Notes (Original Chinese)"
+      },
+      "value": {
+        "zh": "灰白色，无刷/光流/电调无人机，3.7V 1300Mah（实容），充电时间：充电时间，充电方式：USB线充电（适配器需另购），遥控器电池：内置3.7V  500Mah，遥控距离：约100米，遥控模式：左手油门 右手方向，回传距离：约40-50米，M6s无刷光流折叠无人机带双镜头WIFI专业航拍机 带舵机，炫酷灯光  1.前镜头为480P高清版本WIFI镜头，底部高清镜头带光流可切换拍照角度，舵机云台增稳设计，让照片成行更清晰 2.定高功能具有高度保持模式功能，光流定位定点功能，飞行稳定。 3.超长续航3.7V 1300mah毫安锂电池，续航时间达到10分钟左右， 4.自定义航线。可以在APP上面画出你想要飞行的画面 5.APP手机控制，一键返航，无头模式，上升下降，前进后退，左右侧飞 6.手势拍照，光流定位，无刷电机，超长续航 ，可以遇到障碍物急停而不会碰撞障碍物                                                           7.无刷马达提供更强大的动力以及更持久的使用寿命 8.产品尺寸重量轻，机身重164g, 9.2.4GHz抗干扰技术，六轴陀螺仪，飞行更平稳，控制更方便。"
+      }
+    }
+  ],
+  "productAttributes": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "M6s",
+        "en": "M6s"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "无人机",
+        "en": "Drones"
+      }
+    },
+    {
+      "key": {
+        "zh": "适用年龄",
+        "en": "Age Range"
+      },
+      "value": {
+        "zh": "14岁及以上",
+        "en": "Ages 14+"
+      }
+    },
+    {
+      "key": {
+        "zh": "遥控频率",
+        "en": "Control Frequency"
+      },
+      "value": {
+        "zh": "2.4 GHz",
+        "en": "2.4 GHz"
+      }
+    },
+    {
+      "key": {
+        "zh": "定位与稳定",
+        "en": "Positioning and Stabilization"
+      },
+      "value": {
+        "zh": "光流定位、定高及六轴陀螺仪",
+        "en": "Optical-flow positioning, altitude hold and six-axis gyroscope"
+      }
+    },
+    {
+      "key": {
+        "zh": "摄像与图传",
+        "en": "Camera and Video Link"
+      },
+      "value": {
+        "zh": "双镜头切换与Wi-Fi图传",
+        "en": "Dual-camera switching and Wi-Fi video transmission"
+      }
+    },
+    {
+      "key": {
+        "zh": "飞行与拍摄功能",
+        "en": "Flight and Camera Functions"
+      },
+      "value": {
+        "zh": "无头模式、自定义航线及APP拍照录像",
+        "en": "Headless mode, custom flight routes and app photo/video capture"
+      }
+    },
+    {
+      "key": {
+        "zh": "镜头调节",
+        "en": "Camera Adjustment"
+      },
+      "value": {
+        "zh": "可调镜头角度",
+        "en": "Adjustable camera angle"
+      }
+    },
+    {
+      "key": {
+        "zh": "电机类型",
+        "en": "Motor Type"
+      },
+      "value": {
+        "zh": "无刷电机",
+        "en": "Brushless motor"
+      }
+    },
+    {
+      "key": {
+        "zh": "前置镜头",
+        "en": "Front Camera"
+      },
+      "value": {
+        "zh": "480p Wi-Fi镜头",
+        "en": "480p Wi-Fi camera"
+      }
+    },
+    {
+      "key": {
+        "zh": "云台",
+        "en": "Gimbal"
+      },
+      "value": {
+        "zh": "舵机增稳云台",
+        "en": "Servo-stabilized gimbal"
+      }
+    },
+    {
+      "key": {
+        "zh": "附加功能",
+        "en": "Additional Functions"
+      },
+      "value": {
+        "zh": "手势拍照、一键返航与灯光",
+        "en": "Gesture photography, one-key return and lights"
+      }
+    },
+    {
+      "key": {
+        "zh": "充电方式",
+        "en": "Charging Method"
+      },
+      "value": {
+        "zh": "USB充电，适配器需另购",
+        "en": "USB charging; adapter sold separately"
+      }
+    },
+    {
+      "key": {
+        "zh": "机身结构",
+        "en": "Airframe"
+      },
+      "value": {
+        "zh": "折叠机身，带防护圈与灯光",
+        "en": "Folding airframe with propeller guards and lights"
+      }
+    },
+    {
+      "key": {
+        "zh": "颜色",
+        "en": "Color"
+      },
+      "value": {
+        "zh": "灰白色",
+        "en": "Gray and white"
+      }
+    },
+    {
+      "key": {
+        "zh": "遥控器",
+        "en": "Controller"
+      },
+      "value": {
+        "zh": "普控版，不带屏",
+        "en": "Standard controller without screen"
+      }
+    },
+    {
+      "key": {
+        "zh": "机身电池",
+        "en": "Product Battery"
+      },
+      "value": {
+        "zh": "3.7 V / 1,300 mAh",
+        "en": "3.7 V / 1,300 mAh"
+      }
+    },
+    {
+      "key": {
+        "zh": "遥控器电池",
+        "en": "Controller Battery"
+      },
+      "value": {
+        "zh": "内置3.7 V / 500 mAh电池",
+        "en": "Built-in 3.7 V / 500 mAh battery"
+      }
+    },
+    {
+      "key": {
+        "zh": "飞行时间",
+        "en": "Flight Time"
+      },
+      "value": {
+        "zh": "约10分钟",
+        "en": "Approx. 10 minutes"
+      }
+    },
+    {
+      "key": {
+        "zh": "遥控距离",
+        "en": "Control Range"
+      },
+      "value": {
+        "zh": "约100 m",
+        "en": "Approx. 100 m"
+      }
+    },
+    {
+      "key": {
+        "zh": "图传距离",
+        "en": "Video Transmission Range"
+      },
+      "value": {
+        "zh": "约40–50 m",
+        "en": "Approx. 40–50 m"
+      }
+    },
+    {
+      "key": {
+        "zh": "机身重量",
+        "en": "Airframe Weight"
+      },
+      "value": {
+        "zh": "164 g",
+        "en": "164 g"
+      }
+    },
+    {
+      "key": {
+        "zh": "俯视尺寸",
+        "en": "Top-view Dimensions"
+      },
+      "value": {
+        "zh": "22.5 × 17.8 cm",
+        "en": "22.5 × 17.8 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "收纳包尺寸",
+        "en": "Carrying Case Dimensions"
+      },
+      "value": {
+        "zh": "21.5 × 15 × 13.5 cm",
+        "en": "21.5 × 15 × 13.5 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "21.7 × 13.5 × 17 cm",
+        "en": "21.7 × 13.5 × 17 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "56 × 45 × 54 cm",
+        "en": "56 × 45 × 54 cm"
+      }
+    }
+  ],
+  "attributePairs": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "M6s",
+        "en": "M6s"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "无人机",
+        "en": "Drones"
+      }
+    },
+    {
+      "key": {
+        "zh": "适用年龄",
+        "en": "Age Range"
+      },
+      "value": {
+        "zh": "14岁及以上",
+        "en": "Ages 14+"
+      }
+    },
+    {
+      "key": {
+        "zh": "遥控频率",
+        "en": "Control Frequency"
+      },
+      "value": {
+        "zh": "2.4 GHz",
+        "en": "2.4 GHz"
+      }
+    },
+    {
+      "key": {
+        "zh": "定位与稳定",
+        "en": "Positioning and Stabilization"
+      },
+      "value": {
+        "zh": "光流定位、定高及六轴陀螺仪",
+        "en": "Optical-flow positioning, altitude hold and six-axis gyroscope"
+      }
+    },
+    {
+      "key": {
+        "zh": "摄像与图传",
+        "en": "Camera and Video Link"
+      },
+      "value": {
+        "zh": "双镜头切换与Wi-Fi图传",
+        "en": "Dual-camera switching and Wi-Fi video transmission"
+      }
+    },
+    {
+      "key": {
+        "zh": "飞行与拍摄功能",
+        "en": "Flight and Camera Functions"
+      },
+      "value": {
+        "zh": "无头模式、自定义航线及APP拍照录像",
+        "en": "Headless mode, custom flight routes and app photo/video capture"
+      }
+    },
+    {
+      "key": {
+        "zh": "镜头调节",
+        "en": "Camera Adjustment"
+      },
+      "value": {
+        "zh": "可调镜头角度",
+        "en": "Adjustable camera angle"
+      }
+    },
+    {
+      "key": {
+        "zh": "电机类型",
+        "en": "Motor Type"
+      },
+      "value": {
+        "zh": "无刷电机",
+        "en": "Brushless motor"
+      }
+    },
+    {
+      "key": {
+        "zh": "前置镜头",
+        "en": "Front Camera"
+      },
+      "value": {
+        "zh": "480p Wi-Fi镜头",
+        "en": "480p Wi-Fi camera"
+      }
+    },
+    {
+      "key": {
+        "zh": "云台",
+        "en": "Gimbal"
+      },
+      "value": {
+        "zh": "舵机增稳云台",
+        "en": "Servo-stabilized gimbal"
+      }
+    },
+    {
+      "key": {
+        "zh": "附加功能",
+        "en": "Additional Functions"
+      },
+      "value": {
+        "zh": "手势拍照、一键返航与灯光",
+        "en": "Gesture photography, one-key return and lights"
+      }
+    },
+    {
+      "key": {
+        "zh": "充电方式",
+        "en": "Charging Method"
+      },
+      "value": {
+        "zh": "USB充电，适配器需另购",
+        "en": "USB charging; adapter sold separately"
+      }
+    },
+    {
+      "key": {
+        "zh": "机身结构",
+        "en": "Airframe"
+      },
+      "value": {
+        "zh": "折叠机身，带防护圈与灯光",
+        "en": "Folding airframe with propeller guards and lights"
+      }
+    },
+    {
+      "key": {
+        "zh": "颜色",
+        "en": "Color"
+      },
+      "value": {
+        "zh": "灰白色",
+        "en": "Gray and white"
+      }
+    },
+    {
+      "key": {
+        "zh": "遥控器",
+        "en": "Controller"
+      },
+      "value": {
+        "zh": "普控版，不带屏",
+        "en": "Standard controller without screen"
+      }
+    },
+    {
+      "key": {
+        "zh": "机身电池",
+        "en": "Product Battery"
+      },
+      "value": {
+        "zh": "3.7 V / 1,300 mAh",
+        "en": "3.7 V / 1,300 mAh"
+      }
+    },
+    {
+      "key": {
+        "zh": "遥控器电池",
+        "en": "Controller Battery"
+      },
+      "value": {
+        "zh": "内置3.7 V / 500 mAh电池",
+        "en": "Built-in 3.7 V / 500 mAh battery"
+      }
+    },
+    {
+      "key": {
+        "zh": "飞行时间",
+        "en": "Flight Time"
+      },
+      "value": {
+        "zh": "约10分钟",
+        "en": "Approx. 10 minutes"
+      }
+    },
+    {
+      "key": {
+        "zh": "遥控距离",
+        "en": "Control Range"
+      },
+      "value": {
+        "zh": "约100 m",
+        "en": "Approx. 100 m"
+      }
+    },
+    {
+      "key": {
+        "zh": "图传距离",
+        "en": "Video Transmission Range"
+      },
+      "value": {
+        "zh": "约40–50 m",
+        "en": "Approx. 40–50 m"
+      }
+    },
+    {
+      "key": {
+        "zh": "机身重量",
+        "en": "Airframe Weight"
+      },
+      "value": {
+        "zh": "164 g",
+        "en": "164 g"
+      }
+    },
+    {
+      "key": {
+        "zh": "俯视尺寸",
+        "en": "Top-view Dimensions"
+      },
+      "value": {
+        "zh": "22.5 × 17.8 cm",
+        "en": "22.5 × 17.8 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "收纳包尺寸",
+        "en": "Carrying Case Dimensions"
+      },
+      "value": {
+        "zh": "21.5 × 15 × 13.5 cm",
+        "en": "21.5 × 15 × 13.5 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "21.7 × 13.5 × 17 cm",
+        "en": "21.7 × 13.5 × 17 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "56 × 45 × 54 cm",
+        "en": "56 × 45 × 54 cm"
+      }
+    }
+  ],
+  "packagingAndShipping": {
+    "summary": {
+      "zh": "单品包装及外箱规格如下，运输费用另行核算。",
+      "en": "Individual packing and carton specifications are listed below. Shipping is quoted separately."
+    },
+    "blocks": [
+      {
+        "label": {
+          "zh": "包装方式",
+          "en": "Packaging"
+        },
+        "value": {
+          "zh": "彩盒",
+          "en": "Color box"
+        }
+      },
+      {
+        "label": {
+          "zh": "包装尺寸",
+          "en": "Package Dimensions"
+        },
+        "value": {
+          "zh": "21.7 × 13.5 × 17 cm",
+          "en": "21.7 × 13.5 × 17 cm"
+        }
+      },
+      {
+        "label": {
+          "zh": "外箱尺寸",
+          "en": "Carton Dimensions"
+        },
+        "value": {
+          "zh": "56 × 45 × 54 cm",
+          "en": "56 × 45 × 54 cm"
+        }
+      },
+      {
+        "label": {
+          "zh": "外箱体积（按尺寸计算）",
+          "en": "Carton Volume (Calculated)"
+        },
+        "value": {
+          "zh": "0.136 m³",
+          "en": "0.136 m³"
+        }
+      },
+      {
+        "label": {
+          "zh": "运输费用",
+          "en": "Shipping Cost"
+        },
+        "value": {
+          "zh": "按目的地、箱数及运输方式另行报价。",
+          "en": "Quoted separately by destination, carton quantity and shipping method."
+        }
+      }
+    ],
+    "unitSize": "21.7 × 13.5 × 17 cm"
+  },
+  "packagingPairs": [
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "21.7 × 13.5 × 17 cm",
+        "en": "21.7 × 13.5 × 17 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "56 × 45 × 54 cm",
+        "en": "56 × 45 × 54 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱体积（按尺寸计算）",
+        "en": "Carton Volume (Calculated)"
+      },
+      "value": {
+        "zh": "0.136 m³",
+        "en": "0.136 m³"
+      }
+    },
+    {
+      "key": {
+        "zh": "运输费用",
+        "en": "Shipping Cost"
+      },
+      "value": {
+        "zh": "按目的地、箱数及运输方式另行报价。",
+        "en": "Quoted separately by destination, carton quantity and shipping method."
+      }
+    }
+  ],
+  "media": {
+    "main": [
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/M6s/f97b80d05247.webp"
+      }
+    ],
+    "detail": [
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/M6s/4ba72bddcae9.webp"
+      },
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/M6s/124d4719c944.webp"
+      }
+    ]
+  },
+  "images": [
+    "https://www.yaoshuntoys.com/media/products-q92/M6s/f97b80d05247.webp",
+    "https://www.yaoshuntoys.com/media/products-q92/M6s/4ba72bddcae9.webp",
+    "https://www.yaoshuntoys.com/media/products-q92/M6s/124d4719c944.webp"
+  ],
+  "videos": [],
+  "productDetails": [
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "折叠机身与双摄",
+        "en": "Folding body and dual cameras"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/M6s/f97b80d05247.webp",
+      "text": {
+        "zh": "前置480P Wi-Fi镜头与底部镜头支持切换，舵机云台用于调整拍摄角度。灰白色机身带灯光和桨叶防护结构，收纳时可折叠。",
+        "en": "The 480p Wi-Fi front camera and lower camera support switching, with a servo gimbal for camera-angle adjustment. The gray-and-white body has lights and propeller guards and folds for storage."
+      }
+    },
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "光流定高与APP航线",
+        "en": "Optical flow and app routes"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/M6s/4ba72bddcae9.webp",
+      "text": {
+        "zh": "资料列有高度保持、光流定位、无头模式、一键返航和自定义航线。APP控制、手势拍照和避障急停功能需按最终版本确认。",
+        "en": "The source lists altitude hold, optical-flow positioning, headless mode, one-key return and custom routes. Confirm app control, gesture photography and obstacle-stop behavior against the final version."
+      }
+    },
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "电池、距离与收纳",
+        "en": "Battery, range and storage"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/M6s/124d4719c944.webp",
+      "text": {
+        "zh": "机身电池为3.7 V、1300 mAh，遥控器内置3.7 V、500 mAh电池；资料列遥控距离约100 m、图传约40–50 m。充电时长未提供，适配器需另购。",
+        "en": "The drone battery is listed as 3.7 V, 1,300 mAh and the controller has a built-in 3.7 V, 500 mAh battery. Stated control range is about 100 m and video range about 40–50 m. Charging time is not provided; the adapter is separate."
+      }
+    }
+  ],
+  "sourceData": {
+    "file": "挑样资料.xlsx",
+    "sha256": "30f47eb8405198bf6e92d33a2beecc7e62fb016f6bf26d476c79d2f816eefae0",
+    "sheet": "Blank_A4_Landscape_1019",
+    "row": 41,
+    "cells": {
+      "B": "M6s",
+      "C": "新款折叠带灯光防护圈无人机普控（不带屏）",
+      "D": "彩盒",
+      "E": 0,
+      "F": 24,
+      "G": "142.2",
+      "H": "21.7",
+      "I": "13.5",
+      "J": "17",
+      "K": "56",
+      "L": "45",
+      "M": "54",
+      "N": "0.14",
+      "O": "4.8",
+      "P": "15.4",
+      "Q": "14.2",
+      "R": "\n灰白色，无刷/光流/电调无人机，3.7V 1300Mah（实容），充电时间：充电时间，充电方式：USB线充电（适配器需另购），遥控器电池：内置3.7V  500Mah，遥控距离：约100米，遥控模式：左手油门 右手方向，回传距离：约40-50米，M6s无刷光流折叠无人机带双镜头WIFI专业航拍机 带舵机，炫酷灯光  1.前镜头为480P高清版本WIFI镜头，底部高清镜头带光流可切换拍照角度，舵机云台增稳设计，让照片成行更清晰 2.定高功能具有高度保持模式功能，光流定位定点功能，飞行稳定。 3.超长续航3.7V 1300mah毫安锂电池，续航时间达到10分钟左右， 4.自定义航线。可以在APP上面画出你想要飞行的画面 5.APP手机控制，一键返航，无头模式，上升下降，前进后退，左右侧飞 6.手势拍照，光流定位，无刷电机，超长续航 ，可以遇到障碍物急停而不会碰撞障碍物                                                           7.无刷马达提供更强大的动力以及更持久的使用寿命 8.产品尺寸重量轻，机身重164g, 9.2.4GHz抗干扰技术，六轴陀螺仪，飞行更平稳，控制更方便。"
+    },
+    "priceAdjustment": {
+      "currency": "CNY",
+      "originalPrice": 142.2,
+      "markupRate": 0.3,
+      "adjustedPrice": 184.86,
+      "decimalPlaces": 2,
+      "rounding": "ROUND_HALF_UP"
+    },
+    "reviewNotes": [
+      "备注的充电时间为占位文字，未提供有效时长。",
+      "备注提及遇到障碍物急停，实际避障配置需核实。"
+    ],
+    "attributeEnrichment": {
+      "sources": [
+        "title",
+        "description",
+        "sourceData.cells",
+        "productDetails.text",
+        "packagingPairs"
+      ],
+      "dimensionUnit": "cm",
+      "dimensionUnitBasis": "用户确认未注明单位的尺寸按厘米处理",
+      "packagingImage": "https://www.yaoshuntoys.com/media/products-q92/M6s/f97b80d05247.webp",
+      "imageAttributeKeys": [
+        "Age Range"
+      ],
+      "ageStatus": "packaging-label"
+    },
+    "originalDescription": {
+      "zh": [
+        "新款折叠带灯光防护圈无人机普控（不带屏）",
+        "灰白色，无刷/光流/电调无人机，3.7V 1300Mah（实容），充电时间：充电时间，充电方式：USB线充电（适配器需另购），遥控器电池：内置3.7V  500Mah，遥控距离：约100米，遥控模式：左手油门 右手方向，回传距离：约40-50米，M6s无刷光流折叠无人机带双镜头WIFI专业航拍机 带舵机，炫酷灯光  1.前镜头为480P高清版本WIFI镜头，底部高清镜头带光流可切换拍照角度，舵机云台增稳设计，让照片成行更清晰 2.定高功能具有高度保持模式功能，光流定位定点功能，飞行稳定。 3.超长续航3.7V 1300mah毫安锂电池，续航时间达到10分钟左右， 4.自定义航线。可以在APP上面画出你想要飞行的画面 5.APP手机控制，一键返航，无头模式，上升下降，前进后退，左右侧飞 6.手势拍照，光流定位，无刷电机，超长续航 ，可以遇到障碍物急停而不会碰撞障碍物                                                           7.无刷马达提供更强大的动力以及更持久的使用寿命 8.产品尺寸重量轻，机身重164g, 9.2.4GHz抗干扰技术，六轴陀螺仪，飞行更平稳，控制更方便。"
+      ],
+      "en": [
+        "Folding Drone with Lights, Propeller Guards and Standard Controller",
+        "Gray and white. Folding drone with brushless motors, optical-flow positioning, electronic speed control, and lights. 3.7 V, 1,300 mAh battery (actual capacity as stated). USB charging; adapter sold separately. Charging time is not specified. Remote has a built-in 3.7 V, 500 mAh battery. Stated remote range: about 100 m; video range: about 40–50 m. Features include dual cameras, Wi-Fi, servo-stabilized gimbal, altitude hold, optical-flow positioning, app-drawn routes, app control, one-key return, headless mode, gesture photography, and six-axis gyroscope. Front camera is 480p; downward camera supports optical flow and adjustable angles. Stated flight time is about 10 minutes. Source describes obstacle-stop behavior; verify obstacle-avoidance configuration. Stated weight: 164 g."
+      ]
+    },
+    "workbookReview": {
+      "file": "/Users/lukang.liu/Desktop/github/yaoshun/挑样资料.xlsx",
+      "sha256": "30f47eb8405198bf6e92d33a2beecc7e62fb016f6bf26d476c79d2f816eefae0",
+      "sheet": "Blank_A4_Landscape_1019",
+      "row": 41,
+      "imagePart": "xl/media/image39.jpeg"
+    },
+    "originalPackagingPairs": [
+      {
+        "key": {
+          "zh": "包装方式",
+          "en": "Packaging"
+        },
+        "value": {
+          "zh": "彩盒",
+          "en": "Color box"
+        }
+      },
+      {
+        "key": {
+          "zh": "装箱量（E列）",
+          "en": "Packing Quantity (Column E)"
+        },
+        "value": {
+          "zh": "0",
+          "en": "0"
+        }
+      },
+      {
+        "key": {
+          "zh": "装箱量（F列）",
+          "en": "Packing Quantity (Column F)"
+        },
+        "value": {
+          "zh": "24",
+          "en": "24"
+        }
+      },
+      {
+        "key": {
+          "zh": "包装规格（原表单位）",
+          "en": "Package Dimensions (Source Units)"
+        },
+        "value": {
+          "zh": "21.7 × 13.5 × 17",
+          "en": "21.7 × 13.5 × 17"
+        }
+      },
+      {
+        "key": {
+          "zh": "外箱规格（原表单位）",
+          "en": "Carton Dimensions (Source Units)"
+        },
+        "value": {
+          "zh": "56 × 45 × 54",
+          "en": "56 × 45 × 54"
+        }
+      },
+      {
+        "key": {
+          "zh": "体积（原表单位）",
+          "en": "Volume (Source Units)"
+        },
+        "value": {
+          "zh": "0.14",
+          "en": "0.14"
+        }
+      },
+      {
+        "key": {
+          "zh": "材积（原表单位）",
+          "en": "Shipping Measurement (Source Units)"
+        },
+        "value": {
+          "zh": "4.8",
+          "en": "4.8"
+        }
+      },
+      {
+        "key": {
+          "zh": "毛重（原表单位）",
+          "en": "Gross Weight (Source Units)"
+        },
+        "value": {
+          "zh": "15.4",
+          "en": "15.4"
+        }
+      },
+      {
+        "key": {
+          "zh": "净重（原表单位）",
+          "en": "Net Weight (Source Units)"
+        },
+        "value": {
+          "zh": "14.2",
+          "en": "14.2"
+        }
+      }
+    ],
+    "contentReview": {
+      "status": "edited-individually",
+      "scope": [
+        "description",
+        "productDetails",
+        "attributePairs",
+        "customizationOptions",
+        "packagingAndShipping",
+        "leadTime"
+      ],
+      "copyStyle": "具体、简洁，按本款资料描述；未确认的配置不扩写为承诺",
+      "deliveryBasis": "未提供本款确认的天数，按样品、常规订单和定制订单说明确认节点",
+      "preservedImageUrls": true
+    }
+  },
+  "customizationOptions": [
+    {
+      "label": {
+        "zh": "包装与品牌版面",
+        "en": "Packaging and Branding"
+      },
+      "minOrder": {
+        "zh": "可提交LOGO、条码和包装图稿，按折叠无人机包装方案核对印刷。",
+        "en": "Submit logo, barcode and package artwork for review of the folding-drone packaging."
+      }
+    },
+    {
+      "label": {
+        "zh": "电池与备用件配置",
+        "en": "Battery and Spare Parts"
+      },
+      "minOrder": {
+        "zh": "可提出电池数量、备用桨叶和防护件要求，按M6s版本确认可供清单。",
+        "en": "Request battery quantity, spare propellers or guards for confirmation against the M6s version."
+      }
+    },
+    {
+      "label": {
+        "zh": "说明书与APP语言",
+        "en": "Manual and App Language"
+      },
+      "minOrder": {
+        "zh": "可提交说明书和APP语言需求，避障与续航按最终版本确认。",
+        "en": "Submit manual and app language requirements. Obstacle sensing and flight time are confirmed for the final version."
+      }
+    }
+  ],
+  "leadTime": {
+    "notes": [
+      {
+        "label": {
+          "zh": "样品订单",
+          "en": "Samples"
+        },
+        "value": {
+          "zh": "先确认M6s电池、灯光和防护圈版本，再约定寄样日期。",
+          "en": "Confirm the M6s battery, lighting and guard configuration before agreeing a sample dispatch date."
+        }
+      },
+      {
+        "label": {
+          "zh": "常规订单",
+          "en": "Standard Orders"
+        },
+        "value": {
+          "zh": "按数量、包装备料和排产确认交期，国际运输时间另计。",
+          "en": "Confirm lead time against quantity, packing materials and production schedule; international transit is additional."
+        }
+      },
+      {
+        "label": {
+          "zh": "定制订单",
+          "en": "Customized Orders"
+        },
+        "value": {
+          "zh": "先确认图稿、功能版本和配件清单，再安排生产与出货排期。",
+          "en": "Approve artwork, function version and contents before scheduling production and dispatch."
+        }
+      }
+    ]
+  }
+}

@@ -39,7 +39,8 @@ export type ShowcaseProductSeed = {
   productId: string;
   label: LocalizedText;
   summary: LocalizedText;
-  collection: "starter" | "building" | "creative" | "themed" | "accessories";
+  collection: "building"
+    | "sports" | "stem" | "robots" | "tents" | "drones" | "fans";
   ageGroup: "3plus" | "5plus" | "8plus" | "10plus";
   pieceBand: "0-100" | "101-200" | "201-300" | "300plus";
   hero?: boolean;

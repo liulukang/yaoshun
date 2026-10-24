@@ -1,0 +1,776 @@
+{
+  "productId": "AZ888",
+  "module": "toys",
+  "priority": 1013,
+  "tags": [
+    {
+      "key": "sports",
+      "en": "Sports and Outdoor Play",
+      "zh": "运动与户外玩具"
+    }
+  ],
+  "title": {
+    "zh": "黑白双球门足球套装",
+    "en": "Black & White Double Goal Set"
+  },
+  "summary": {
+    "zh": "两座黑白球门，配14 cm球、打气筒和地钉。",
+    "en": "Two black-and-white goals with a 14 cm ball, pump and stakes."
+  },
+  "description": {
+    "zh": [
+      "两座黑白球门，配14 cm球、打气筒和地钉。",
+      "资料列出的球门尺寸为92 × 64 × 48 cm，球直径14 cm。",
+      "配件包括一个14 cm球、一支打气筒和四根地钉。"
+    ],
+    "en": [
+      "Two black-and-white goals with a 14 cm ball, pump and stakes.",
+      "The listed goal dimensions are 92 × 64 × 48 cm, with a 14 cm ball.",
+      "Accessories include one 14 cm ball, one pump and four stakes."
+    ]
+  },
+  "categories": {
+    "zh": [
+      "运动与户外玩具"
+    ],
+    "en": [
+      "Sports and Outdoor Play"
+    ]
+  },
+  "pricing": {
+    "display": {
+      "zh": "¥34.32",
+      "en": "¥34.32"
+    },
+    "currency": "CNY",
+    "min": 34.32,
+    "max": 34.32,
+    "isRange": false,
+    "tiers": [
+      {
+        "quantity": {
+          "zh": "价格",
+          "en": "Price"
+        },
+        "price": "¥34.32"
+      }
+    ]
+  },
+  "specifications": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "AZ888",
+        "en": "AZ888"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "运动与户外玩具",
+        "en": "Sports and Outdoor Play"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    },
+    {
+      "key": {
+        "zh": "供应商备注（原文）",
+        "en": "Supplier Notes (Original Chinese)"
+      },
+      "value": {
+        "zh": "单款单色，EN71证书"
+      }
+    }
+  ],
+  "productAttributes": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "AZ888",
+        "en": "AZ888"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "运动与户外玩具",
+        "en": "Sports and Outdoor Play"
+      }
+    },
+    {
+      "key": {
+        "zh": "玩法",
+        "en": "Play Mode"
+      },
+      "value": {
+        "zh": "双球门足球游戏",
+        "en": "Double-goal football"
+      }
+    },
+    {
+      "key": {
+        "zh": "球门数量",
+        "en": "Goal Quantity"
+      },
+      "value": {
+        "zh": "2座球门",
+        "en": "2 goals"
+      }
+    },
+    {
+      "key": {
+        "zh": "单款单色",
+        "en": "Style and Color"
+      },
+      "value": {
+        "zh": "单款单色",
+        "en": "One style, one color"
+      }
+    },
+    {
+      "key": {
+        "zh": "EN71资料",
+        "en": "Supplier Certificate Documentation"
+      },
+      "value": {
+        "zh": "供应商注明可提供EN71证书，按具体货号核对",
+        "en": "Supplier states EN71 documentation is available; verify it for this model"
+      }
+    },
+    {
+      "key": {
+        "zh": "球门尺寸",
+        "en": "Goal Dimensions"
+      },
+      "value": {
+        "zh": "92 × 64 × 48 cm",
+        "en": "92 × 64 × 48 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "球径",
+        "en": "Ball Diameter"
+      },
+      "value": {
+        "zh": "14 cm",
+        "en": "14 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "配件",
+        "en": "Accessories"
+      },
+      "value": {
+        "zh": "14 cm足球1个、打气筒1支、地钉4根",
+        "en": "One 14 cm football, one pump and four stakes"
+      }
+    },
+    {
+      "key": {
+        "zh": "适用年龄",
+        "en": "Age Range"
+      },
+      "value": {
+        "zh": "3岁及以上",
+        "en": "Ages 3+"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "58 × 7.5 × 22 cm",
+        "en": "58 × 7.5 × 22 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "61 × 47.5 × 97 cm",
+        "en": "61 × 47.5 × 97 cm"
+      }
+    }
+  ],
+  "attributePairs": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "AZ888",
+        "en": "AZ888"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "运动与户外玩具",
+        "en": "Sports and Outdoor Play"
+      }
+    },
+    {
+      "key": {
+        "zh": "玩法",
+        "en": "Play Mode"
+      },
+      "value": {
+        "zh": "双球门足球游戏",
+        "en": "Double-goal football"
+      }
+    },
+    {
+      "key": {
+        "zh": "球门数量",
+        "en": "Goal Quantity"
+      },
+      "value": {
+        "zh": "2座球门",
+        "en": "2 goals"
+      }
+    },
+    {
+      "key": {
+        "zh": "单款单色",
+        "en": "Style and Color"
+      },
+      "value": {
+        "zh": "单款单色",
+        "en": "One style, one color"
+      }
+    },
+    {
+      "key": {
+        "zh": "EN71资料",
+        "en": "Supplier Certificate Documentation"
+      },
+      "value": {
+        "zh": "供应商注明可提供EN71证书，按具体货号核对",
+        "en": "Supplier states EN71 documentation is available; verify it for this model"
+      }
+    },
+    {
+      "key": {
+        "zh": "球门尺寸",
+        "en": "Goal Dimensions"
+      },
+      "value": {
+        "zh": "92 × 64 × 48 cm",
+        "en": "92 × 64 × 48 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "球径",
+        "en": "Ball Diameter"
+      },
+      "value": {
+        "zh": "14 cm",
+        "en": "14 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "配件",
+        "en": "Accessories"
+      },
+      "value": {
+        "zh": "14 cm足球1个、打气筒1支、地钉4根",
+        "en": "One 14 cm football, one pump and four stakes"
+      }
+    },
+    {
+      "key": {
+        "zh": "适用年龄",
+        "en": "Age Range"
+      },
+      "value": {
+        "zh": "3岁及以上",
+        "en": "Ages 3+"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "58 × 7.5 × 22 cm",
+        "en": "58 × 7.5 × 22 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "61 × 47.5 × 97 cm",
+        "en": "61 × 47.5 × 97 cm"
+      }
+    }
+  ],
+  "packagingAndShipping": {
+    "summary": {
+      "zh": "单品包装及外箱规格如下，运输费用另行核算。",
+      "en": "Individual packing and carton specifications are listed below. Shipping is quoted separately."
+    },
+    "blocks": [
+      {
+        "label": {
+          "zh": "包装方式",
+          "en": "Packaging"
+        },
+        "value": {
+          "zh": "彩盒",
+          "en": "Color box"
+        }
+      },
+      {
+        "label": {
+          "zh": "包装尺寸",
+          "en": "Package Dimensions"
+        },
+        "value": {
+          "zh": "58 × 7.5 × 22 cm",
+          "en": "58 × 7.5 × 22 cm"
+        }
+      },
+      {
+        "label": {
+          "zh": "外箱尺寸",
+          "en": "Carton Dimensions"
+        },
+        "value": {
+          "zh": "61 × 47.5 × 97 cm",
+          "en": "61 × 47.5 × 97 cm"
+        }
+      },
+      {
+        "label": {
+          "zh": "外箱体积（按尺寸计算）",
+          "en": "Carton Volume (Calculated)"
+        },
+        "value": {
+          "zh": "0.281 m³",
+          "en": "0.281 m³"
+        }
+      },
+      {
+        "label": {
+          "zh": "运输费用",
+          "en": "Shipping Cost"
+        },
+        "value": {
+          "zh": "按目的地、箱数及运输方式另行报价。",
+          "en": "Quoted separately by destination, carton quantity and shipping method."
+        }
+      }
+    ],
+    "unitSize": "58 × 7.5 × 22 cm"
+  },
+  "packagingPairs": [
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "58 × 7.5 × 22 cm",
+        "en": "58 × 7.5 × 22 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "61 × 47.5 × 97 cm",
+        "en": "61 × 47.5 × 97 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱体积（按尺寸计算）",
+        "en": "Carton Volume (Calculated)"
+      },
+      "value": {
+        "zh": "0.281 m³",
+        "en": "0.281 m³"
+      }
+    },
+    {
+      "key": {
+        "zh": "运输费用",
+        "en": "Shipping Cost"
+      },
+      "value": {
+        "zh": "按目的地、箱数及运输方式另行报价。",
+        "en": "Quoted separately by destination, carton quantity and shipping method."
+      }
+    }
+  ],
+  "media": {
+    "main": [
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/AZ888/44e06d3a5278.webp"
+      }
+    ],
+    "detail": [
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/AZ888/bd77e62e0de6.webp"
+      },
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/AZ888/db61e056d98d.webp"
+      }
+    ]
+  },
+  "images": [
+    "https://www.yaoshuntoys.com/media/products-q92/AZ888/44e06d3a5278.webp",
+    "https://www.yaoshuntoys.com/media/products-q92/AZ888/bd77e62e0de6.webp",
+    "https://www.yaoshuntoys.com/media/products-q92/AZ888/db61e056d98d.webp"
+  ],
+  "videos": [],
+  "productDetails": [
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "双球门安排小场比赛",
+        "en": "Two goals for a small pitch"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/AZ888/44e06d3a5278.webp",
+      "text": {
+        "zh": "两座黑白配色球门可以分设两端，也可以分开用作射门目标。球门与足球玩法直接对应，适合以轮流射门或小场对踢的方式使用。",
+        "en": "Place the two black-and-white goals at opposite ends for a small game, or use them separately as shooting targets. Players can take turns shooting or play across the two goals."
+      }
+    },
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "球门尺寸92 × 64 × 48 cm",
+        "en": "92 × 64 × 48 cm goals"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/AZ888/bd77e62e0de6.webp",
+      "text": {
+        "zh": "资料列出的球门尺寸为92 × 64 × 48 cm，球直径14 cm。设置两座球门时，应把中间跑动范围与球门后方的捡球空间一起考虑。",
+        "en": "The listed goal dimensions are 92 × 64 × 48 cm, with a 14 cm ball. Allow for movement between the goals and space behind them to retrieve the ball."
+      }
+    },
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "球、打气筒与四根地钉",
+        "en": "Ball, pump and four stakes"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/AZ888/db61e056d98d.webp",
+      "text": {
+        "zh": "配件包括一个14 cm球、一支打气筒和四根地钉。供应商资料注明可提供EN71证书，采购时可按具体货号核对对应文件。",
+        "en": "Accessories include one 14 cm ball, one pump and four stakes. The supplier states that EN71 certificate documentation is available; request the document for the specific model when ordering."
+      }
+    }
+  ],
+  "sourceData": {
+    "file": "挑样资料.xlsx",
+    "sha256": "30f47eb8405198bf6e92d33a2beecc7e62fb016f6bf26d476c79d2f816eefae0",
+    "sheet": "Blank_A4_Landscape_1019",
+    "row": 16,
+    "cells": {
+      "B": "AZ888",
+      "C": "（GCC）黑白足球门/双门",
+      "D": "彩盒",
+      "E": 2,
+      "F": 24,
+      "G": "26.4",
+      "H": "58",
+      "I": "7.5",
+      "J": "22",
+      "K": "61",
+      "L": "47.5",
+      "M": "97",
+      "N": "0.281",
+      "O": "9.92",
+      "P": "28.5",
+      "Q": "25.5",
+      "R": "\n单款单色，EN71证书"
+    },
+    "priceAdjustment": {
+      "currency": "CNY",
+      "originalPrice": 26.4,
+      "markupRate": 0.3,
+      "adjustedPrice": 34.32,
+      "decimalPlaces": 2,
+      "rounding": "ROUND_HALF_UP"
+    },
+    "reviewNotes": [],
+    "attributeEnrichment": {
+      "sources": [
+        "title",
+        "description",
+        "sourceData.cells",
+        "productDetails.text",
+        "packagingPairs"
+      ],
+      "dimensionUnit": "cm",
+      "dimensionUnitBasis": "用户确认未注明单位的尺寸按厘米处理",
+      "packagingImage": "https://www.yaoshuntoys.com/media/products-q92/AZ888/44e06d3a5278.webp",
+      "imageAttributeKeys": [
+        "Goal Quantity"
+      ],
+      "ageStatus": "not-readable-or-not-shown"
+    },
+    "originalDescription": {
+      "zh": [
+        "（GCC）黑白足球门/双门",
+        "单款单色，EN71证书"
+      ],
+      "en": [
+        "GCC Black and White Double Football Goal Set",
+        "One style and one color. EN71 certificate available."
+      ]
+    },
+    "workbookReview": {
+      "file": "/Users/lukang.liu/Desktop/github/yaoshun/挑样资料.xlsx",
+      "sha256": "30f47eb8405198bf6e92d33a2beecc7e62fb016f6bf26d476c79d2f816eefae0",
+      "sheet": "Blank_A4_Landscape_1019",
+      "row": 16,
+      "imagePart": "xl/media/image14.jpeg"
+    },
+    "originalPackagingPairs": [
+      {
+        "key": {
+          "zh": "包装方式",
+          "en": "Packaging"
+        },
+        "value": {
+          "zh": "彩盒",
+          "en": "Color box"
+        }
+      },
+      {
+        "key": {
+          "zh": "装箱量（E列）",
+          "en": "Packing Quantity (Column E)"
+        },
+        "value": {
+          "zh": "2",
+          "en": "2"
+        }
+      },
+      {
+        "key": {
+          "zh": "装箱量（F列）",
+          "en": "Packing Quantity (Column F)"
+        },
+        "value": {
+          "zh": "24",
+          "en": "24"
+        }
+      },
+      {
+        "key": {
+          "zh": "包装规格（原表单位）",
+          "en": "Package Dimensions (Source Units)"
+        },
+        "value": {
+          "zh": "58 × 7.5 × 22",
+          "en": "58 × 7.5 × 22"
+        }
+      },
+      {
+        "key": {
+          "zh": "外箱规格（原表单位）",
+          "en": "Carton Dimensions (Source Units)"
+        },
+        "value": {
+          "zh": "61 × 47.5 × 97",
+          "en": "61 × 47.5 × 97"
+        }
+      },
+      {
+        "key": {
+          "zh": "体积（原表单位）",
+          "en": "Volume (Source Units)"
+        },
+        "value": {
+          "zh": "0.281",
+          "en": "0.281"
+        }
+      },
+      {
+        "key": {
+          "zh": "材积（原表单位）",
+          "en": "Shipping Measurement (Source Units)"
+        },
+        "value": {
+          "zh": "9.92",
+          "en": "9.92"
+        }
+      },
+      {
+        "key": {
+          "zh": "毛重（原表单位）",
+          "en": "Gross Weight (Source Units)"
+        },
+        "value": {
+          "zh": "28.5",
+          "en": "28.5"
+        }
+      },
+      {
+        "key": {
+          "zh": "净重（原表单位）",
+          "en": "Net Weight (Source Units)"
+        },
+        "value": {
+          "zh": "25.5",
+          "en": "25.5"
+        }
+      }
+    ],
+    "contentReview": {
+      "status": "edited-individually",
+      "scope": [
+        "description",
+        "productDetails",
+        "attributePairs",
+        "customizationOptions",
+        "packagingAndShipping",
+        "leadTime"
+      ],
+      "copyStyle": "具体、简洁，按本款资料描述；未确认的配置不扩写为承诺",
+      "deliveryBasis": "未提供本款确认的天数，按样品、常规订单和定制订单说明确认节点",
+      "preservedImageUrls": true
+    }
+  },
+  "customizationOptions": [
+    {
+      "label": {
+        "zh": "彩盒与品牌标识",
+        "en": "Retail Box and Branding"
+      },
+      "minOrder": {
+        "zh": "可提供LOGO、盒面设计和销售条码，按印刷方案确认起订量。",
+        "en": "Provide logo artwork, box design and retail barcodes. Minimum quantities depend on the approved print specification."
+      }
+    },
+    {
+      "label": {
+        "zh": "支架与配件配色评估",
+        "en": "Frame and Accessory Color Review"
+      },
+      "minOrder": {
+        "zh": "可提交支架、球类或套圈配色要求，具体可做范围与费用先行确认。",
+        "en": "Submit frame, ball or ring color requirements for review of available options and costs."
+      }
+    },
+    {
+      "label": {
+        "zh": "套装与说明书方案",
+        "en": "Set and Instruction Review"
+      },
+      "minOrder": {
+        "zh": "可提出配件组合与说明语言要求，调整后的清单、包装和报价一起核对。",
+        "en": "Request accessory combinations or instruction languages. Confirm the revised contents, packing and quotation together."
+      }
+    }
+  ],
+  "leadTime": {
+    "notes": [
+      {
+        "label": {
+          "zh": "样品订单",
+          "en": "Samples"
+        },
+        "value": {
+          "zh": "先确认AZ888样品和当前配色库存，再约定寄样日期。",
+          "en": "Confirm AZ888 sample and color availability before agreeing a dispatch date."
+        }
+      },
+      {
+        "label": {
+          "zh": "常规订单",
+          "en": "Standard Orders"
+        },
+        "value": {
+          "zh": "按订单数量、包装备料和现有排产确认交期，国际运输时间另计。",
+          "en": "Confirm lead time against quantity, packing materials and the production schedule. International transit is additional."
+        }
+      },
+      {
+        "label": {
+          "zh": "定制订单",
+          "en": "Customized Orders"
+        },
+        "value": {
+          "zh": "先确认图稿、配件清单和样品，确认后再安排生产与出货排期。",
+          "en": "Approve artwork, contents and samples before scheduling production and dispatch."
+        }
+      }
+    ]
+  }
+}

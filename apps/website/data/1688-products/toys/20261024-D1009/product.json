@@ -1,0 +1,761 @@
+{
+  "productId": "D1009",
+  "module": "toys",
+  "priority": 1014,
+  "tags": [
+    {
+      "key": "stem",
+      "en": "Science Experiment Kits",
+      "zh": "科学实验套装"
+    }
+  ],
+  "title": {
+    "zh": "电碰迷宫科学实验套装",
+    "en": "Electric Wire Maze Kit"
+  },
+  "summary": {
+    "zh": "用探环沿金属轨道移动，配电路底板和指示灯。",
+    "en": "Guide a handheld loop along a wire track, with a circuit board and indicator light."
+  },
+  "description": {
+    "zh": [
+      "用探环沿金属轨道移动，配电路底板和指示灯。",
+      "套装展示电路底板、金属轨道、探环和指示灯等组件，连接关系可以直接观察。",
+      "供电需要三节AA电池，电池不包含在套装内。"
+    ],
+    "en": [
+      "Guide a handheld loop along a wire track, with a circuit board and indicator light.",
+      "The set shows a baseboard, wire track, handheld loop and indicator light with visible connections.",
+      "The kit requires three AA batteries, which are not included."
+    ]
+  },
+  "categories": {
+    "zh": [
+      "科学实验套装"
+    ],
+    "en": [
+      "Science Experiment Kits"
+    ]
+  },
+  "pricing": {
+    "display": {
+      "zh": "¥39.52",
+      "en": "¥39.52"
+    },
+    "currency": "CNY",
+    "min": 39.52,
+    "max": 39.52,
+    "isRange": false,
+    "tiers": [
+      {
+        "quantity": {
+          "zh": "价格",
+          "en": "Price"
+        },
+        "price": "¥39.52"
+      }
+    ]
+  },
+  "specifications": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "D1009",
+        "en": "D1009"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "科学实验套装",
+        "en": "Science Experiment Kits"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    },
+    {
+      "key": {
+        "zh": "供应商备注（原文）",
+        "en": "Supplier Notes (Original Chinese)"
+      },
+      "value": {
+        "zh": "配件数：16/3粒5号电池（不包）"
+      }
+    }
+  ],
+  "productAttributes": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "D1009",
+        "en": "D1009"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "科学实验套装",
+        "en": "Science Experiment Kits"
+      }
+    },
+    {
+      "key": {
+        "zh": "适用年龄",
+        "en": "Age Range"
+      },
+      "value": {
+        "zh": "4岁及以上",
+        "en": "Ages 4+"
+      }
+    },
+    {
+      "key": {
+        "zh": "实验主题",
+        "en": "Experiment Theme"
+      },
+      "value": {
+        "zh": "电碰迷宫与指示灯",
+        "en": "Electric wire maze and indicator light"
+      }
+    },
+    {
+      "key": {
+        "zh": "供电方式",
+        "en": "Power Supply"
+      },
+      "value": {
+        "zh": "3节AA电池（不含）",
+        "en": "3 AA batteries (not included)"
+      }
+    },
+    {
+      "key": {
+        "zh": "实验结构",
+        "en": "Experiment Components"
+      },
+      "value": {
+        "zh": "电路底板、触碰金属轨道、手持探环与指示灯",
+        "en": "Circuit baseboard, wire track, handheld loop and indicator light"
+      }
+    },
+    {
+      "key": {
+        "zh": "品牌",
+        "en": "Brand Name"
+      },
+      "value": {
+        "zh": "BLDBUILD",
+        "en": "BLDBUILD"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品系列",
+        "en": "Product Series"
+      },
+      "value": {
+        "zh": "Science Circuit Block",
+        "en": "Science Circuit Block"
+      }
+    },
+    {
+      "key": {
+        "zh": "实验等级",
+        "en": "Experiment Level"
+      },
+      "value": {
+        "zh": "1级",
+        "en": "Level 1"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "30 × 20 × 6.8 cm",
+        "en": "30 × 20 × 6.8 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "93.5 × 37.5 × 85 cm",
+        "en": "93.5 × 37.5 × 85 cm"
+      }
+    }
+  ],
+  "attributePairs": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "D1009",
+        "en": "D1009"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "科学实验套装",
+        "en": "Science Experiment Kits"
+      }
+    },
+    {
+      "key": {
+        "zh": "适用年龄",
+        "en": "Age Range"
+      },
+      "value": {
+        "zh": "4岁及以上",
+        "en": "Ages 4+"
+      }
+    },
+    {
+      "key": {
+        "zh": "实验主题",
+        "en": "Experiment Theme"
+      },
+      "value": {
+        "zh": "电碰迷宫与指示灯",
+        "en": "Electric wire maze and indicator light"
+      }
+    },
+    {
+      "key": {
+        "zh": "供电方式",
+        "en": "Power Supply"
+      },
+      "value": {
+        "zh": "3节AA电池（不含）",
+        "en": "3 AA batteries (not included)"
+      }
+    },
+    {
+      "key": {
+        "zh": "实验结构",
+        "en": "Experiment Components"
+      },
+      "value": {
+        "zh": "电路底板、触碰金属轨道、手持探环与指示灯",
+        "en": "Circuit baseboard, wire track, handheld loop and indicator light"
+      }
+    },
+    {
+      "key": {
+        "zh": "品牌",
+        "en": "Brand Name"
+      },
+      "value": {
+        "zh": "BLDBUILD",
+        "en": "BLDBUILD"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品系列",
+        "en": "Product Series"
+      },
+      "value": {
+        "zh": "Science Circuit Block",
+        "en": "Science Circuit Block"
+      }
+    },
+    {
+      "key": {
+        "zh": "实验等级",
+        "en": "Experiment Level"
+      },
+      "value": {
+        "zh": "1级",
+        "en": "Level 1"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "30 × 20 × 6.8 cm",
+        "en": "30 × 20 × 6.8 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "93.5 × 37.5 × 85 cm",
+        "en": "93.5 × 37.5 × 85 cm"
+      }
+    }
+  ],
+  "packagingAndShipping": {
+    "summary": {
+      "zh": "单品包装及外箱规格如下，运输费用另行核算。",
+      "en": "Individual packing and carton specifications are listed below. Shipping is quoted separately."
+    },
+    "blocks": [
+      {
+        "label": {
+          "zh": "包装方式",
+          "en": "Packaging"
+        },
+        "value": {
+          "zh": "彩盒",
+          "en": "Color box"
+        }
+      },
+      {
+        "label": {
+          "zh": "包装尺寸",
+          "en": "Package Dimensions"
+        },
+        "value": {
+          "zh": "30 × 20 × 6.8 cm",
+          "en": "30 × 20 × 6.8 cm"
+        }
+      },
+      {
+        "label": {
+          "zh": "外箱尺寸",
+          "en": "Carton Dimensions"
+        },
+        "value": {
+          "zh": "93.5 × 37.5 × 85 cm",
+          "en": "93.5 × 37.5 × 85 cm"
+        }
+      },
+      {
+        "label": {
+          "zh": "外箱体积（按尺寸计算）",
+          "en": "Carton Volume (Calculated)"
+        },
+        "value": {
+          "zh": "0.298 m³",
+          "en": "0.298 m³"
+        }
+      },
+      {
+        "label": {
+          "zh": "运输费用",
+          "en": "Shipping Cost"
+        },
+        "value": {
+          "zh": "按目的地、箱数及运输方式另行报价。",
+          "en": "Quoted separately by destination, carton quantity and shipping method."
+        }
+      }
+    ],
+    "unitSize": "30 × 20 × 6.8 cm"
+  },
+  "packagingPairs": [
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "30 × 20 × 6.8 cm",
+        "en": "30 × 20 × 6.8 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "93.5 × 37.5 × 85 cm",
+        "en": "93.5 × 37.5 × 85 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱体积（按尺寸计算）",
+        "en": "Carton Volume (Calculated)"
+      },
+      "value": {
+        "zh": "0.298 m³",
+        "en": "0.298 m³"
+      }
+    },
+    {
+      "key": {
+        "zh": "运输费用",
+        "en": "Shipping Cost"
+      },
+      "value": {
+        "zh": "按目的地、箱数及运输方式另行报价。",
+        "en": "Quoted separately by destination, carton quantity and shipping method."
+      }
+    }
+  ],
+  "media": {
+    "main": [
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/D1009/2370d177cdd1.webp"
+      }
+    ],
+    "detail": [
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/D1009/f93ff6327a5e.webp"
+      },
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/D1009/01f355856a0c.webp"
+      }
+    ]
+  },
+  "images": [
+    "https://www.yaoshuntoys.com/media/products-q92/D1009/2370d177cdd1.webp",
+    "https://www.yaoshuntoys.com/media/products-q92/D1009/f93ff6327a5e.webp",
+    "https://www.yaoshuntoys.com/media/products-q92/D1009/01f355856a0c.webp"
+  ],
+  "videos": [],
+  "productDetails": [
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "沿着轨道慢慢移动",
+        "en": "Follow the wire track"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/D1009/2370d177cdd1.webp",
+      "text": {
+        "zh": "手持探环沿金属轨道移动，是这款电碰迷宫的主要玩法。可以从较短的一段开始，观察探环与轨道的接触情况，再尝试走完一整条路线。",
+        "en": "The main activity is moving the handheld loop along the wire track. Start with a short section, watch where the loop touches the wire, and then try the full route."
+      }
+    },
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "看得见的电路组件",
+        "en": "Visible circuit components"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/D1009/f93ff6327a5e.webp",
+      "text": {
+        "zh": "套装展示电路底板、金属轨道、探环和指示灯等组件，连接关系可以直接观察。盒面标注4岁及以上、实验等级1，可配合实际操作认识这些组件各自的位置。",
+        "en": "The set shows a baseboard, wire track, handheld loop and indicator light with visible connections. The box is marked ages 4+ and Level 1. Use the activity to identify where each part sits in the circuit."
+      }
+    },
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "自备三节AA电池",
+        "en": "Three AA batteries required"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/D1009/01f355856a0c.webp",
+      "text": {
+        "zh": "供电需要三节AA电池，电池不包含在套装内。包装与原备注的配件数量标注存在差异，具体件数请在下单时核对；本款货号D1009。",
+        "en": "The kit requires three AA batteries, which are not included. The box and supplied notes show different component counts, so confirm the final count when ordering model D1009."
+      }
+    }
+  ],
+  "sourceData": {
+    "file": "挑样资料.xlsx",
+    "sha256": "30f47eb8405198bf6e92d33a2beecc7e62fb016f6bf26d476c79d2f816eefae0",
+    "sheet": "Blank_A4_Landscape_1019",
+    "row": 17,
+    "cells": {
+      "B": "D1009",
+      "C": "电碰迷宫+指示灯",
+      "D": "彩盒",
+      "E": 2,
+      "F": 60,
+      "G": "30.4",
+      "H": "30",
+      "I": "20",
+      "J": "6.8",
+      "K": "93.5",
+      "L": "37.5",
+      "M": "85",
+      "N": "0.3",
+      "O": "10.52",
+      "P": "32",
+      "Q": "29",
+      "R": "\n配件数：16/3粒5号电池（不包）"
+    },
+    "priceAdjustment": {
+      "currency": "CNY",
+      "originalPrice": 30.4,
+      "markupRate": 0.3,
+      "adjustedPrice": 39.52,
+      "decimalPlaces": 2,
+      "rounding": "ROUND_HALF_UP"
+    },
+    "reviewNotes": [
+      "当前包装图标注18件，原表备注为16件；配件数量待核实，未写入属性表。"
+    ],
+    "attributeEnrichment": {
+      "sources": [
+        "title",
+        "description",
+        "sourceData.cells",
+        "productDetails.text",
+        "packagingPairs"
+      ],
+      "dimensionUnit": "cm",
+      "dimensionUnitBasis": "用户确认未注明单位的尺寸按厘米处理",
+      "packagingImage": "https://www.yaoshuntoys.com/media/products-q92/D1009/2370d177cdd1.webp",
+      "imageAttributeKeys": [
+        "Age Range",
+        "Brand Name",
+        "Product Series",
+        "Experiment Level"
+      ],
+      "ageStatus": "packaging-label"
+    },
+    "originalDescription": {
+      "zh": [
+        "电碰迷宫+指示灯",
+        "配件数：16/3粒5号电池（不包）"
+      ],
+      "en": [
+        "Electric Wire Maze Kit with Indicator Light",
+        "16 accessories; requires three AA batteries, not included."
+      ]
+    },
+    "workbookReview": {
+      "file": "/Users/lukang.liu/Desktop/github/yaoshun/挑样资料.xlsx",
+      "sha256": "30f47eb8405198bf6e92d33a2beecc7e62fb016f6bf26d476c79d2f816eefae0",
+      "sheet": "Blank_A4_Landscape_1019",
+      "row": 17,
+      "imagePart": "xl/media/image15.jpeg"
+    },
+    "originalPackagingPairs": [
+      {
+        "key": {
+          "zh": "包装方式",
+          "en": "Packaging"
+        },
+        "value": {
+          "zh": "彩盒",
+          "en": "Color box"
+        }
+      },
+      {
+        "key": {
+          "zh": "装箱量（E列）",
+          "en": "Packing Quantity (Column E)"
+        },
+        "value": {
+          "zh": "2",
+          "en": "2"
+        }
+      },
+      {
+        "key": {
+          "zh": "装箱量（F列）",
+          "en": "Packing Quantity (Column F)"
+        },
+        "value": {
+          "zh": "60",
+          "en": "60"
+        }
+      },
+      {
+        "key": {
+          "zh": "包装规格（原表单位）",
+          "en": "Package Dimensions (Source Units)"
+        },
+        "value": {
+          "zh": "30 × 20 × 6.8",
+          "en": "30 × 20 × 6.8"
+        }
+      },
+      {
+        "key": {
+          "zh": "外箱规格（原表单位）",
+          "en": "Carton Dimensions (Source Units)"
+        },
+        "value": {
+          "zh": "93.5 × 37.5 × 85",
+          "en": "93.5 × 37.5 × 85"
+        }
+      },
+      {
+        "key": {
+          "zh": "体积（原表单位）",
+          "en": "Volume (Source Units)"
+        },
+        "value": {
+          "zh": "0.3",
+          "en": "0.3"
+        }
+      },
+      {
+        "key": {
+          "zh": "材积（原表单位）",
+          "en": "Shipping Measurement (Source Units)"
+        },
+        "value": {
+          "zh": "10.52",
+          "en": "10.52"
+        }
+      },
+      {
+        "key": {
+          "zh": "毛重（原表单位）",
+          "en": "Gross Weight (Source Units)"
+        },
+        "value": {
+          "zh": "32",
+          "en": "32"
+        }
+      },
+      {
+        "key": {
+          "zh": "净重（原表单位）",
+          "en": "Net Weight (Source Units)"
+        },
+        "value": {
+          "zh": "29",
+          "en": "29"
+        }
+      }
+    ],
+    "contentReview": {
+      "status": "edited-individually",
+      "scope": [
+        "description",
+        "productDetails",
+        "attributePairs",
+        "customizationOptions",
+        "packagingAndShipping",
+        "leadTime"
+      ],
+      "copyStyle": "具体、简洁，按本款资料描述；未确认的配置不扩写为承诺",
+      "deliveryBasis": "未提供本款确认的天数，按样品、常规订单和定制订单说明确认节点",
+      "preservedImageUrls": true
+    }
+  },
+  "customizationOptions": [
+    {
+      "label": {
+        "zh": "彩盒与品牌版面",
+        "en": "Retail Box and Branding"
+      },
+      "minOrder": {
+        "zh": "可提交品牌、条码和盒面设计需求，按确认版面核对印刷起订量。",
+        "en": "Submit branding, barcodes and box artwork for review of print specifications and minimum quantities."
+      }
+    },
+    {
+      "label": {
+        "zh": "实验说明语言",
+        "en": "Experiment Guide Languages"
+      },
+      "minOrder": {
+        "zh": "可提出说明书语言、图示和实验步骤排版要求，先确认译稿与内容范围。",
+        "en": "Request guide languages, illustrations or step layouts. Confirm the text and scope before printing."
+      }
+    },
+    {
+      "label": {
+        "zh": "组件方案评估",
+        "en": "Component Configuration Review"
+      },
+      "minOrder": {
+        "zh": "组件数量、实验组合或收纳方式如需调整，请先提供需求核对可行性。",
+        "en": "For different component counts, experiment combinations or storage layouts, submit requirements for feasibility review."
+      }
+    }
+  ],
+  "leadTime": {
+    "notes": [
+      {
+        "label": {
+          "zh": "样品订单",
+          "en": "Samples"
+        },
+        "value": {
+          "zh": "先确认D1009样品和当前配色库存，再约定寄样日期。",
+          "en": "Confirm D1009 sample and color availability before agreeing a dispatch date."
+        }
+      },
+      {
+        "label": {
+          "zh": "常规订单",
+          "en": "Standard Orders"
+        },
+        "value": {
+          "zh": "按订单数量、包装备料和现有排产确认交期，国际运输时间另计。",
+          "en": "Confirm lead time against quantity, packing materials and the production schedule. International transit is additional."
+        }
+      },
+      {
+        "label": {
+          "zh": "定制订单",
+          "en": "Customized Orders"
+        },
+        "value": {
+          "zh": "先确认图稿、配件清单和样品，确认后再安排生产与出货排期。",
+          "en": "Approve artwork, contents and samples before scheduling production and dispatch."
+        }
+      }
+    ]
+  }
+}

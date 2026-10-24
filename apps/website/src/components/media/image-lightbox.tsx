@@ -1,14 +1,16 @@
 "use client";
 
-import {useEffect, useRef, useState} from "react";
-import {X} from "lucide-react";
+import {useCallback, useEffect, useRef, useState} from "react";
+import {ChevronLeft, ChevronRight, X} from "lucide-react";
 
 type PreviewImage = {
   alt: string;
   src: string;
 };
 
-type PreviewOpenEvent = CustomEvent<PreviewImage>;
+type PreviewRequest = PreviewImage & {images?: PreviewImage[]};
+type PreviewOpenEvent = CustomEvent<PreviewRequest>;
+type PreviewGallery = {images: PreviewImage[]; index: number};
 
 const previewOpenEventName = "image-preview:open";
 const publicMediaOrigin = "https://www.yaoshuntoys.com";
@@ -47,14 +49,45 @@ function getOptimizedImageSource(src: string) {
   }
 }
 
-function openImagePreview(detail: PreviewImage) {
+function getPreviewGallery(element: Element): PreviewImage[] | undefined {
+  const serialized = element.closest<HTMLElement>("[data-image-preview-gallery]")
+    ?.dataset.imagePreviewGallery;
+
+  if (!serialized) return undefined;
+
+  try {
+    const images: unknown = JSON.parse(serialized);
+    if (!Array.isArray(images)) return undefined;
+    return images.filter((image): image is PreviewImage =>
+      image !== null && typeof image === "object" &&
+      typeof image.src === "string" && Boolean(image.src) &&
+      typeof image.alt === "string",
+    );
+  } catch {
+    return undefined;
+  }
+}
+
+function openImagePreview(detail: PreviewRequest) {
   window.dispatchEvent(new CustomEvent(previewOpenEventName, {detail}));
 }
 
 export function ImageLightbox() {
-  const [preview, setPreview] = useState<PreviewImage | null>(null);
+  const [preview, setPreview] = useState<PreviewGallery | null>(null);
+  const dialogRef = useRef<HTMLDivElement>(null);
   const closeButtonRef = useRef<HTMLButtonElement>(null);
   const previousFocusRef = useRef<HTMLElement | null>(null);
+  const isOpen = preview !== null;
+
+  const changeImage = useCallback((direction: number) => {
+    setPreview((current) => {
+      if (!current || current.images.length < 2) return current;
+      return {
+        ...current,
+        index: (current.index + direction + current.images.length) % current.images.length,
+      };
+    });
+  }, []);
 
   useEffect(() => {
     function handlePreviewOpen(event: Event) {
@@ -68,10 +101,16 @@ export function ImageLightbox() {
         document.activeElement instanceof HTMLElement
           ? document.activeElement
           : null;
-      setPreview({
+      const selectedImage = {
         alt: previewEvent.detail.alt || "",
         src: getRuntimePreviewSource(previewEvent.detail.src),
-      });
+      };
+      const images = (previewEvent.detail.images || [selectedImage]).map((image) => ({
+        ...image,
+        src: getRuntimePreviewSource(image.src),
+      }));
+      const index = images.findIndex((image) => image.src === selectedImage.src);
+      setPreview(index < 0 ? {images: [selectedImage], index: 0} : {images, index});
     }
 
     function handleDocumentClick(event: MouseEvent) {
@@ -103,6 +142,7 @@ export function ImageLightbox() {
         openImagePreview({
           alt: trigger.dataset.imagePreviewAlt || "",
           src: getRuntimePreviewSource(src),
+          images: getPreviewGallery(trigger),
         });
         return;
       }
@@ -125,6 +165,7 @@ export function ImageLightbox() {
       openImagePreview({
         alt: image.alt || "",
         src,
+        images: getPreviewGallery(image),
       });
     }
 
@@ -138,7 +179,7 @@ export function ImageLightbox() {
   }, []);
 
   useEffect(() => {
-    if (!preview) {
+    if (!isOpen) {
       return;
     }
 
@@ -146,7 +187,23 @@ export function ImageLightbox() {
 
     function handleKeyDown(event: KeyboardEvent) {
       if (event.key === "Escape") {
+        event.preventDefault();
         setPreview(null);
+      } else if (event.key === "ArrowLeft" || event.key === "ArrowRight") {
+        event.preventDefault();
+        changeImage(event.key === "ArrowLeft" ? -1 : 1);
+      } else if (event.key === "Tab") {
+        const buttons = dialogRef.current?.querySelectorAll<HTMLButtonElement>("button");
+        if (!buttons?.length) return;
+        const first = buttons[0];
+        const last = buttons[buttons.length - 1];
+        if (event.shiftKey && document.activeElement === first) {
+          event.preventDefault();
+          last.focus();
+        } else if (!event.shiftKey && document.activeElement === last) {
+          event.preventDefault();
+          first.focus();
+        }
       }
     }
 
@@ -159,17 +216,21 @@ export function ImageLightbox() {
       window.removeEventListener("keydown", handleKeyDown);
       previousFocusRef.current?.focus();
     };
-  }, [preview]);
+  }, [isOpen, changeImage]);
 
   if (!preview) {
     return null;
   }
 
+  const currentImage = preview.images[preview.index];
+  const hasMultipleImages = preview.images.length > 1;
+
   return (
     <div
+      ref={dialogRef}
       aria-label="图片预览"
       aria-modal="true"
-      className="fixed inset-0 z-[10000] flex items-center justify-center bg-black/82 px-4 py-5 backdrop-blur-sm sm:px-8"
+      className={`fixed inset-0 z-[10000] flex items-center justify-center bg-black/82 py-20 backdrop-blur-sm ${hasMultipleImages ? "px-14 sm:px-20" : "px-4 sm:px-8"}`}
       data-image-lightbox-root
       role="dialog"
       onClick={(event) => {
@@ -187,12 +248,39 @@ export function ImageLightbox() {
       >
         <X aria-hidden="true" size={22} strokeWidth={2.2} />
       </button>
+      {hasMultipleImages ? (
+        <>
+          <button
+            aria-label="上一张图片"
+            className="absolute left-2 top-1/2 z-10 inline-flex h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full border border-white/16 bg-black/48 text-white transition hover:bg-white hover:text-[#132968] focus:outline-none focus-visible:ring-2 focus-visible:ring-white sm:left-6"
+            type="button"
+            onClick={() => changeImage(-1)}
+          >
+            <ChevronLeft aria-hidden="true" size={24} />
+          </button>
+          <button
+            aria-label="下一张图片"
+            className="absolute right-2 top-1/2 z-10 inline-flex h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full border border-white/16 bg-black/48 text-white transition hover:bg-white hover:text-[#132968] focus:outline-none focus-visible:ring-2 focus-visible:ring-white sm:right-6"
+            type="button"
+            onClick={() => changeImage(1)}
+          >
+            <ChevronRight aria-hidden="true" size={24} />
+          </button>
+          <p
+            aria-atomic="true"
+            aria-live="polite"
+            className="absolute bottom-5 left-1/2 -translate-x-1/2 rounded-full bg-black/48 px-4 py-2 text-sm text-white"
+          >
+            {preview.index + 1} / {preview.images.length}
+          </p>
+        </>
+      ) : null}
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
-        alt={preview.alt}
-        className="max-h-[88vh] max-w-[94vw] rounded-md object-contain shadow-[0_26px_80px_-28px_rgba(0,0,0,0.78)]"
+        alt={currentImage.alt}
+        className="max-h-[calc(100dvh-10rem)] max-w-full rounded-md object-contain shadow-[0_26px_80px_-28px_rgba(0,0,0,0.78)]"
         decoding="async"
-        src={preview.src}
+        src={currentImage.src}
       />
     </div>
   );

@@ -1,12 +1,12 @@
 export const productsPageContent = {
   seo: {
     title: {
-      en: 'Fort Building Kits for Kids | Wholesale & Custom | Yaoshun',
-      zh: '搭建玩具与定制玩具目录 | 尧顺玩具'
+      en: 'Toy Product Catalog | Wholesale & OEM/ODM | Yaoshun',
+      zh: '玩具产品目录 | 批发与 OEM/ODM | 尧顺玩具'
     },
     description: {
-      en: 'Explore Yaoshun fort building kits for kids in multiple piece counts, colors and packaging options. Wholesale, OEM/ODM and custom configurations are available direct from our factory.',
-      zh: '查看尧顺堡垒搭建套装、STEM玩具、搭建堡垒玩法套装、夜光拼搭套装、连接球、收纳袋与彩盒包装定制方案。'
+      en: 'Explore Yaoshun toy categories including fort building, sports, science kits, robots, play tents, drones and portable fans. Product pages bring together specifications, packaging, use scenarios and OEM/ODM support for wholesale sourcing.',
+      zh: '浏览尧顺堡垒拼搭、运动户外、科学实验、机器人遥控、儿童游戏帐篷、无人机与便携风扇等玩具产品，集中了解规格、包装、适用场景及批发、OEM/ODM 定制支持。'
     },
     detailTitleTemplate: {
       en: '{product} | Yaoshun Toys',
@@ -14,7 +14,7 @@ export const productsPageContent = {
     },
     detailDescriptionTemplate: {
       en: '{product} from Yaoshun Toys. Review the piece count, materials, structure, packaging and customization options for wholesale and private-label sourcing.',
-      zh: '{product} 由尧顺玩具提供，适合堡垒搭建套装、STEM玩具与搭建堡垒项目采购，支持 OEM/ODM、包装、质检与出口交付。'
+      zh: '{product} 由尧顺玩具提供，可查看件数、材质、结构、包装、适用场景及定制选项，支持批发、OEM/ODM 与出口交付。'
     },
     keywords: {
       en: [
@@ -23,31 +23,31 @@ export const productsPageContent = {
         'Fort Building Kit Manufacturer',
         'fort building toy factory',
         'construction toys wholesale',
-        'fort building toys wholesale',
-        'wholesale fort building kits',
-        'bulk fort building kits',
-        'private label fort building kits',
-        'ball and rod tent supplier',
-        'ball and rod tent',
-        'fort building kit for preschools',
-        'bulk fort kits for schools',
+        'sports toy wholesale',
+        'STEM toy supplier',
+        'robot toy manufacturer',
+        "children's play tent wholesale",
+        'camera drone supplier',
+        'portable fan wholesale',
         'OEM ODM toy sourcing',
       ],
       zh: [
         '堡垒搭建套装',
-        'STEM玩具',
-        '搭建堡垒玩具',
-        '夜光堡垒拼搭套装',
-        '儿童堡垒套装',
+        '运动玩具批发',
+        'STEM玩具供应商',
+        '机器人玩具厂家',
+        '儿童游戏帐篷批发',
+        '航拍无人机供应商',
+        '便携风扇批发',
         'OEM ODM玩具选品'
       ]
     }
   },
   hero: {
-    title: {en: 'Fort Building Kits For Kids', zh: '儿童堡垒拼搭套装目录'},
+    title: {en: 'Yaoshun Toy Product Catalog', zh: '尧顺玩具产品目录'},
     description: {
-      en: 'Browse fort building toy, fort building kit, construction toys wholesale, bulk fort kits, and private label project options by finished toy lines, component development, and supporting process capabilities.',
-      zh: '按堡垒搭建套装、STEM玩具与搭建堡垒项目方向浏览：成品玩具线、结构件开发与配套工艺能力。'
+      en: 'Explore finished toy lines and OEM/ODM project options across fort building, sports, science kits, robots, play tents, drones and portable fans, with the sourcing details needed for a quick review.',
+      zh: '按堡垒拼搭、运动户外、科学实验、机器人遥控、儿童游戏帐篷、无人机与便携风扇等方向浏览成品玩具和 OEM/ODM 项目，并快速查看采购所需资料。'
     }
   },
   catalogPillars: [

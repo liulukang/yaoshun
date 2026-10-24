@@ -1,0 +1,703 @@
+{
+  "productId": "WT6613",
+  "module": "toys",
+  "priority": 1006,
+  "tags": [
+    {
+      "key": "sports",
+      "en": "Sports and Outdoor Play",
+      "zh": "运动与户外玩具"
+    }
+  ],
+  "title": {
+    "zh": "儿童足球门套装",
+    "en": "Football Goal Set"
+  },
+  "summary": {
+    "zh": "球门尺寸120 × 63 × 63 cm，配直径16 cm足球。",
+    "en": "A 120 × 63 × 63 cm goal with a 16 cm football."
+  },
+  "description": {
+    "zh": [
+      "球门尺寸120 × 63 × 63 cm，配直径16 cm足球。",
+      "组装后的球门尺寸为120 × 63 × 63 cm，足球直径16 cm。",
+      "细节图展示白色管件、黑色转角接头和打结球网。"
+    ],
+    "en": [
+      "A 120 × 63 × 63 cm goal with a 16 cm football.",
+      "The assembled goal measures 120 × 63 × 63 cm, and the football is 16 cm in diameter.",
+      "The detail image shows white tubes, black corner joints and a knotted net."
+    ]
+  },
+  "categories": {
+    "zh": [
+      "运动与户外玩具"
+    ],
+    "en": [
+      "Sports and Outdoor Play"
+    ]
+  },
+  "pricing": {
+    "display": {
+      "zh": "¥26.78",
+      "en": "¥26.78"
+    },
+    "currency": "CNY",
+    "min": 26.78,
+    "max": 26.78,
+    "isRange": false,
+    "tiers": [
+      {
+        "quantity": {
+          "zh": "价格",
+          "en": "Price"
+        },
+        "price": "¥26.78"
+      }
+    ]
+  },
+  "specifications": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "WT6613",
+        "en": "WT6613"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "运动与户外玩具",
+        "en": "Sports and Outdoor Play"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    }
+  ],
+  "productAttributes": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "WT6613",
+        "en": "WT6613"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "运动与户外玩具",
+        "en": "Sports and Outdoor Play"
+      }
+    },
+    {
+      "key": {
+        "zh": "玩法",
+        "en": "Play Mode"
+      },
+      "value": {
+        "zh": "足球射门",
+        "en": "Football shooting"
+      }
+    },
+    {
+      "key": {
+        "zh": "球径",
+        "en": "Ball Diameter"
+      },
+      "value": {
+        "zh": "16 cm",
+        "en": "16 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "球门尺寸",
+        "en": "Goal Dimensions"
+      },
+      "value": {
+        "zh": "120 × 63 × 63 cm",
+        "en": "120 × 63 × 63 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "适用年龄",
+        "en": "Age Range"
+      },
+      "value": {
+        "zh": "3岁及以上",
+        "en": "Ages 3+"
+      }
+    },
+    {
+      "key": {
+        "zh": "组件清单",
+        "en": "Included Components"
+      },
+      "value": {
+        "zh": "A管8根、B管2根、弯头6个、球网1张、足球1个、打气筒1支、金属地钩4个",
+        "en": "8 A tubes, 2 B tubes, 6 elbow connectors, 1 football net, 1 football, 1 inflator pump and 4 metal ground hooks"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "58.5 × 6 × 16 cm",
+        "en": "58.5 × 6 × 16 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "60.5 × 38 × 101 cm",
+        "en": "60.5 × 38 × 101 cm"
+      }
+    }
+  ],
+  "attributePairs": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "WT6613",
+        "en": "WT6613"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "运动与户外玩具",
+        "en": "Sports and Outdoor Play"
+      }
+    },
+    {
+      "key": {
+        "zh": "玩法",
+        "en": "Play Mode"
+      },
+      "value": {
+        "zh": "足球射门",
+        "en": "Football shooting"
+      }
+    },
+    {
+      "key": {
+        "zh": "球径",
+        "en": "Ball Diameter"
+      },
+      "value": {
+        "zh": "16 cm",
+        "en": "16 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "球门尺寸",
+        "en": "Goal Dimensions"
+      },
+      "value": {
+        "zh": "120 × 63 × 63 cm",
+        "en": "120 × 63 × 63 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "适用年龄",
+        "en": "Age Range"
+      },
+      "value": {
+        "zh": "3岁及以上",
+        "en": "Ages 3+"
+      }
+    },
+    {
+      "key": {
+        "zh": "组件清单",
+        "en": "Included Components"
+      },
+      "value": {
+        "zh": "A管8根、B管2根、弯头6个、球网1张、足球1个、打气筒1支、金属地钩4个",
+        "en": "8 A tubes, 2 B tubes, 6 elbow connectors, 1 football net, 1 football, 1 inflator pump and 4 metal ground hooks"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "58.5 × 6 × 16 cm",
+        "en": "58.5 × 6 × 16 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "60.5 × 38 × 101 cm",
+        "en": "60.5 × 38 × 101 cm"
+      }
+    }
+  ],
+  "packagingAndShipping": {
+    "summary": {
+      "zh": "单品包装及外箱规格如下，运输费用另行核算。",
+      "en": "Individual packing and carton specifications are listed below. Shipping is quoted separately."
+    },
+    "blocks": [
+      {
+        "label": {
+          "zh": "包装方式",
+          "en": "Packaging"
+        },
+        "value": {
+          "zh": "彩盒",
+          "en": "Color box"
+        }
+      },
+      {
+        "label": {
+          "zh": "包装尺寸",
+          "en": "Package Dimensions"
+        },
+        "value": {
+          "zh": "58.5 × 6 × 16 cm",
+          "en": "58.5 × 6 × 16 cm"
+        }
+      },
+      {
+        "label": {
+          "zh": "外箱尺寸",
+          "en": "Carton Dimensions"
+        },
+        "value": {
+          "zh": "60.5 × 38 × 101 cm",
+          "en": "60.5 × 38 × 101 cm"
+        }
+      },
+      {
+        "label": {
+          "zh": "外箱体积（按尺寸计算）",
+          "en": "Carton Volume (Calculated)"
+        },
+        "value": {
+          "zh": "0.232 m³",
+          "en": "0.232 m³"
+        }
+      },
+      {
+        "label": {
+          "zh": "运输费用",
+          "en": "Shipping Cost"
+        },
+        "value": {
+          "zh": "按目的地、箱数及运输方式另行报价。",
+          "en": "Quoted separately by destination, carton quantity and shipping method."
+        }
+      }
+    ],
+    "unitSize": "58.5 × 6 × 16 cm"
+  },
+  "packagingPairs": [
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "58.5 × 6 × 16 cm",
+        "en": "58.5 × 6 × 16 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "60.5 × 38 × 101 cm",
+        "en": "60.5 × 38 × 101 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱体积（按尺寸计算）",
+        "en": "Carton Volume (Calculated)"
+      },
+      "value": {
+        "zh": "0.232 m³",
+        "en": "0.232 m³"
+      }
+    },
+    {
+      "key": {
+        "zh": "运输费用",
+        "en": "Shipping Cost"
+      },
+      "value": {
+        "zh": "按目的地、箱数及运输方式另行报价。",
+        "en": "Quoted separately by destination, carton quantity and shipping method."
+      }
+    }
+  ],
+  "media": {
+    "main": [
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/WT6613/2cb5fe648111.webp"
+      }
+    ],
+    "detail": [
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/WT6613/8dc4727f39c3.webp"
+      },
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/WT6613/b6cd5cf43833.webp"
+      }
+    ]
+  },
+  "images": [
+    "https://www.yaoshuntoys.com/media/products-q92/WT6613/2cb5fe648111.webp",
+    "https://www.yaoshuntoys.com/media/products-q92/WT6613/8dc4727f39c3.webp",
+    "https://www.yaoshuntoys.com/media/products-q92/WT6613/b6cd5cf43833.webp"
+  ],
+  "videos": [],
+  "productDetails": [
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "为射门准备一个目标",
+        "en": "A goal for shooting practice"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/WT6613/2cb5fe648111.webp",
+      "text": {
+        "zh": "WT6613采用白色管架与球网结构，适合安排近距离射门和小范围踢球游戏。可以单人练习，也可以轮流射门、记录进球次数。",
+        "en": "WT6613 uses a white tubular frame and net for close-range shooting and small football games. Practise alone or take turns counting successful shots."
+      }
+    },
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "球门与足球尺寸",
+        "en": "Goal and ball dimensions"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/WT6613/8dc4727f39c3.webp",
+      "text": {
+        "zh": "组装后的球门尺寸为120 × 63 × 63 cm，足球直径16 cm。使用前按球门宽度安排位置，并在前方预留踢球和捡球的空间。",
+        "en": "The assembled goal measures 120 × 63 × 63 cm, and the football is 16 cm in diameter. Allow room in front of the goal for kicking and retrieving the ball."
+      }
+    },
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "查看管架连接与球网",
+        "en": "Frame joints and net"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/WT6613/b6cd5cf43833.webp",
+      "text": {
+        "zh": "细节图展示白色管件、黑色转角接头和打结球网。组装后检查接头是否到位、球网是否整理好，再开始使用；单品以彩盒包装。",
+        "en": "The detail image shows white tubes, black corner joints and a knotted net. Check the connections and arrange the net before play. The set is supplied in a color box."
+      }
+    }
+  ],
+  "sourceData": {
+    "file": "挑样资料.xlsx",
+    "sha256": "30f47eb8405198bf6e92d33a2beecc7e62fb016f6bf26d476c79d2f816eefae0",
+    "sheet": "Blank_A4_Landscape_1019",
+    "row": 9,
+    "cells": {
+      "B": "WT6613",
+      "C": "足球门",
+      "D": "彩盒",
+      "E": 2,
+      "F": 36,
+      "G": "20.6",
+      "H": "58.5",
+      "I": "6",
+      "J": "16",
+      "K": "60.5",
+      "L": "38",
+      "M": "101",
+      "N": "0.232",
+      "O": "8.19",
+      "P": "33",
+      "Q": "30",
+      "R": ""
+    },
+    "priceAdjustment": {
+      "currency": "CNY",
+      "originalPrice": 20.6,
+      "markupRate": 0.3,
+      "adjustedPrice": 26.78,
+      "decimalPlaces": 2,
+      "rounding": "ROUND_HALF_UP"
+    },
+    "reviewNotes": [],
+    "attributeEnrichment": {
+      "sources": [
+        "title",
+        "description",
+        "sourceData.cells",
+        "productDetails.text",
+        "packagingPairs"
+      ],
+      "dimensionUnit": "cm",
+      "dimensionUnitBasis": "用户确认未注明单位的尺寸按厘米处理",
+      "packagingImage": "https://www.yaoshuntoys.com/media/products-q92/WT6613/2cb5fe648111.webp",
+      "imageAttributeKeys": [],
+      "ageStatus": "not-readable-or-not-shown"
+    },
+    "originalDescription": {
+      "zh": [
+        "足球门"
+      ],
+      "en": [
+        "Football Goal"
+      ]
+    },
+    "workbookReview": {
+      "file": "/Users/lukang.liu/Desktop/github/yaoshun/挑样资料.xlsx",
+      "sha256": "30f47eb8405198bf6e92d33a2beecc7e62fb016f6bf26d476c79d2f816eefae0",
+      "sheet": "Blank_A4_Landscape_1019",
+      "row": 9,
+      "imagePart": "xl/media/image7.jpeg"
+    },
+    "originalPackagingPairs": [
+      {
+        "key": {
+          "zh": "包装方式",
+          "en": "Packaging"
+        },
+        "value": {
+          "zh": "彩盒",
+          "en": "Color box"
+        }
+      },
+      {
+        "key": {
+          "zh": "装箱量（E列）",
+          "en": "Packing Quantity (Column E)"
+        },
+        "value": {
+          "zh": "2",
+          "en": "2"
+        }
+      },
+      {
+        "key": {
+          "zh": "装箱量（F列）",
+          "en": "Packing Quantity (Column F)"
+        },
+        "value": {
+          "zh": "36",
+          "en": "36"
+        }
+      },
+      {
+        "key": {
+          "zh": "包装规格（原表单位）",
+          "en": "Package Dimensions (Source Units)"
+        },
+        "value": {
+          "zh": "58.5 × 6 × 16",
+          "en": "58.5 × 6 × 16"
+        }
+      },
+      {
+        "key": {
+          "zh": "外箱规格（原表单位）",
+          "en": "Carton Dimensions (Source Units)"
+        },
+        "value": {
+          "zh": "60.5 × 38 × 101",
+          "en": "60.5 × 38 × 101"
+        }
+      },
+      {
+        "key": {
+          "zh": "体积（原表单位）",
+          "en": "Volume (Source Units)"
+        },
+        "value": {
+          "zh": "0.232",
+          "en": "0.232"
+        }
+      },
+      {
+        "key": {
+          "zh": "材积（原表单位）",
+          "en": "Shipping Measurement (Source Units)"
+        },
+        "value": {
+          "zh": "8.19",
+          "en": "8.19"
+        }
+      },
+      {
+        "key": {
+          "zh": "毛重（原表单位）",
+          "en": "Gross Weight (Source Units)"
+        },
+        "value": {
+          "zh": "33",
+          "en": "33"
+        }
+      },
+      {
+        "key": {
+          "zh": "净重（原表单位）",
+          "en": "Net Weight (Source Units)"
+        },
+        "value": {
+          "zh": "30",
+          "en": "30"
+        }
+      }
+    ],
+    "contentReview": {
+      "status": "edited-individually",
+      "scope": [
+        "description",
+        "productDetails",
+        "attributePairs",
+        "customizationOptions",
+        "packagingAndShipping",
+        "leadTime"
+      ],
+      "copyStyle": "具体、简洁，按本款资料描述；未确认的配置不扩写为承诺",
+      "deliveryBasis": "未提供本款确认的天数，按样品、常规订单和定制订单说明确认节点",
+      "preservedImageUrls": true
+    }
+  },
+  "customizationOptions": [
+    {
+      "label": {
+        "zh": "彩盒与品牌标识",
+        "en": "Retail Box and Branding"
+      },
+      "minOrder": {
+        "zh": "可提供LOGO、盒面设计和销售条码，按印刷方案确认起订量。",
+        "en": "Provide logo artwork, box design and retail barcodes. Minimum quantities depend on the approved print specification."
+      }
+    },
+    {
+      "label": {
+        "zh": "支架与配件配色评估",
+        "en": "Frame and Accessory Color Review"
+      },
+      "minOrder": {
+        "zh": "可提交支架、球类或套圈配色要求，具体可做范围与费用先行确认。",
+        "en": "Submit frame, ball or ring color requirements for review of available options and costs."
+      }
+    },
+    {
+      "label": {
+        "zh": "套装与说明书方案",
+        "en": "Set and Instruction Review"
+      },
+      "minOrder": {
+        "zh": "可提出配件组合与说明语言要求，调整后的清单、包装和报价一起核对。",
+        "en": "Request accessory combinations or instruction languages. Confirm the revised contents, packing and quotation together."
+      }
+    }
+  ],
+  "leadTime": {
+    "notes": [
+      {
+        "label": {
+          "zh": "样品订单",
+          "en": "Samples"
+        },
+        "value": {
+          "zh": "先确认WT6613样品和当前配色库存，再约定寄样日期。",
+          "en": "Confirm WT6613 sample and color availability before agreeing a dispatch date."
+        }
+      },
+      {
+        "label": {
+          "zh": "常规订单",
+          "en": "Standard Orders"
+        },
+        "value": {
+          "zh": "按订单数量、包装备料和现有排产确认交期，国际运输时间另计。",
+          "en": "Confirm lead time against quantity, packing materials and the production schedule. International transit is additional."
+        }
+      },
+      {
+        "label": {
+          "zh": "定制订单",
+          "en": "Customized Orders"
+        },
+        "value": {
+          "zh": "先确认图稿、配件清单和样品，确认后再安排生产与出货排期。",
+          "en": "Approve artwork, contents and samples before scheduling production and dispatch."
+        }
+      }
+    ]
+  }
+}

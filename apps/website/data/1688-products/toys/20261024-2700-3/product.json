@@ -1,0 +1,725 @@
+{
+  "productId": "2700-3",
+  "module": "toys",
+  "priority": 1041,
+  "tags": [
+    {
+      "key": "sports",
+      "en": "Sports and Outdoor Play",
+      "zh": "运动与户外玩具"
+    }
+  ],
+  "title": {
+    "zh": "足球篮球二合一套装",
+    "en": "2-in-1 Football & Basketball Set"
+  },
+  "summary": {
+    "zh": "110 cm高的组合支架，可踢球，也可投篮。",
+    "en": "A 110 cm combination frame for football and basketball."
+  },
+  "description": {
+    "zh": [
+      "110 cm高的组合支架，可踢球，也可投篮。",
+      "资料标注整体高110 cm，底座约59 × 36 cm。",
+      "盒面适龄标注为3岁及以上。"
+    ],
+    "en": [
+      "A 110 cm combination frame for football and basketball.",
+      "The listed height is 110 cm and the base measures approximately 59 × 36 cm.",
+      "The package is marked for ages 3 and above."
+    ]
+  },
+  "categories": {
+    "zh": [
+      "运动与户外玩具"
+    ],
+    "en": [
+      "Sports and Outdoor Play"
+    ]
+  },
+  "pricing": {
+    "display": {
+      "zh": "¥38.22",
+      "en": "¥38.22"
+    },
+    "currency": "CNY",
+    "min": 38.22,
+    "max": 38.22,
+    "isRange": false,
+    "tiers": [
+      {
+        "quantity": {
+          "zh": "价格",
+          "en": "Price"
+        },
+        "price": "¥38.22"
+      }
+    ]
+  },
+  "specifications": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "2700-3",
+        "en": "2700-3"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "运动与户外玩具",
+        "en": "Sports and Outdoor Play"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    }
+  ],
+  "productAttributes": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "2700-3",
+        "en": "2700-3"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "运动与户外玩具",
+        "en": "Sports and Outdoor Play"
+      }
+    },
+    {
+      "key": {
+        "zh": "适用年龄",
+        "en": "Age Range"
+      },
+      "value": {
+        "zh": "3岁及以上",
+        "en": "Ages 3+"
+      }
+    },
+    {
+      "key": {
+        "zh": "玩法",
+        "en": "Play Mode"
+      },
+      "value": {
+        "zh": "足球与篮球二合一",
+        "en": "Football and basketball, 2-in-1"
+      }
+    },
+    {
+      "key": {
+        "zh": "支架高度",
+        "en": "Frame Height"
+      },
+      "value": {
+        "zh": "110 cm",
+        "en": "110 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "底座尺寸",
+        "en": "Base Dimensions"
+      },
+      "value": {
+        "zh": "59 × 36 cm",
+        "en": "59 × 36 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "组件清单",
+        "en": "Included Components"
+      },
+      "value": {
+        "zh": "篮球圈、球网、足球、篮球、连接杆、14根中管、打气筒",
+        "en": "Basketball hoop, net, football, basketball, connecting rod, 14 medium tubes and inflator"
+      }
+    },
+    {
+      "key": {
+        "zh": "球类配置",
+        "en": "Ball Configuration"
+      },
+      "value": {
+        "zh": "配足球和篮球各1个，具体球径以出货核对为准",
+        "en": "Includes one football and one basketball; confirm ball diameters against the shipment"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "37 × 7 × 26 cm",
+        "en": "37 × 7 × 26 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "80.5 × 30 × 76.5 cm",
+        "en": "80.5 × 30 × 76.5 cm"
+      }
+    }
+  ],
+  "attributePairs": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "2700-3",
+        "en": "2700-3"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "运动与户外玩具",
+        "en": "Sports and Outdoor Play"
+      }
+    },
+    {
+      "key": {
+        "zh": "适用年龄",
+        "en": "Age Range"
+      },
+      "value": {
+        "zh": "3岁及以上",
+        "en": "Ages 3+"
+      }
+    },
+    {
+      "key": {
+        "zh": "玩法",
+        "en": "Play Mode"
+      },
+      "value": {
+        "zh": "足球与篮球二合一",
+        "en": "Football and basketball, 2-in-1"
+      }
+    },
+    {
+      "key": {
+        "zh": "支架高度",
+        "en": "Frame Height"
+      },
+      "value": {
+        "zh": "110 cm",
+        "en": "110 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "底座尺寸",
+        "en": "Base Dimensions"
+      },
+      "value": {
+        "zh": "59 × 36 cm",
+        "en": "59 × 36 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "组件清单",
+        "en": "Included Components"
+      },
+      "value": {
+        "zh": "篮球圈、球网、足球、篮球、连接杆、14根中管、打气筒",
+        "en": "Basketball hoop, net, football, basketball, connecting rod, 14 medium tubes and inflator"
+      }
+    },
+    {
+      "key": {
+        "zh": "球类配置",
+        "en": "Ball Configuration"
+      },
+      "value": {
+        "zh": "配足球和篮球各1个，具体球径以出货核对为准",
+        "en": "Includes one football and one basketball; confirm ball diameters against the shipment"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "37 × 7 × 26 cm",
+        "en": "37 × 7 × 26 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "80.5 × 30 × 76.5 cm",
+        "en": "80.5 × 30 × 76.5 cm"
+      }
+    }
+  ],
+  "packagingAndShipping": {
+    "summary": {
+      "zh": "单品包装及外箱规格如下，运输费用另行核算。",
+      "en": "Individual packing and carton specifications are listed below. Shipping is quoted separately."
+    },
+    "blocks": [
+      {
+        "label": {
+          "zh": "包装方式",
+          "en": "Packaging"
+        },
+        "value": {
+          "zh": "彩盒",
+          "en": "Color box"
+        }
+      },
+      {
+        "label": {
+          "zh": "包装尺寸",
+          "en": "Package Dimensions"
+        },
+        "value": {
+          "zh": "37 × 7 × 26 cm",
+          "en": "37 × 7 × 26 cm"
+        }
+      },
+      {
+        "label": {
+          "zh": "外箱尺寸",
+          "en": "Carton Dimensions"
+        },
+        "value": {
+          "zh": "80.5 × 30 × 76.5 cm",
+          "en": "80.5 × 30 × 76.5 cm"
+        }
+      },
+      {
+        "label": {
+          "zh": "外箱体积（按尺寸计算）",
+          "en": "Carton Volume (Calculated)"
+        },
+        "value": {
+          "zh": "0.185 m³",
+          "en": "0.185 m³"
+        }
+      },
+      {
+        "label": {
+          "zh": "运输费用",
+          "en": "Shipping Cost"
+        },
+        "value": {
+          "zh": "按目的地、箱数及运输方式另行报价。",
+          "en": "Quoted separately by destination, carton quantity and shipping method."
+        }
+      }
+    ],
+    "unitSize": "37 × 7 × 26 cm"
+  },
+  "packagingPairs": [
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "37 × 7 × 26 cm",
+        "en": "37 × 7 × 26 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "80.5 × 30 × 76.5 cm",
+        "en": "80.5 × 30 × 76.5 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱体积（按尺寸计算）",
+        "en": "Carton Volume (Calculated)"
+      },
+      "value": {
+        "zh": "0.185 m³",
+        "en": "0.185 m³"
+      }
+    },
+    {
+      "key": {
+        "zh": "运输费用",
+        "en": "Shipping Cost"
+      },
+      "value": {
+        "zh": "按目的地、箱数及运输方式另行报价。",
+        "en": "Quoted separately by destination, carton quantity and shipping method."
+      }
+    }
+  ],
+  "media": {
+    "main": [
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/2700-3/1ad49b781c67.webp"
+      }
+    ],
+    "detail": [
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/2700-3/fdd2b9f38841.webp"
+      },
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/2700-3/f5ace12e6a2b.webp"
+      }
+    ]
+  },
+  "images": [
+    "https://www.yaoshuntoys.com/media/products-q92/2700-3/1ad49b781c67.webp",
+    "https://www.yaoshuntoys.com/media/products-q92/2700-3/fdd2b9f38841.webp",
+    "https://www.yaoshuntoys.com/media/products-q92/2700-3/f5ace12e6a2b.webp"
+  ],
+  "videos": [],
+  "productDetails": [
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "上下分开的两种玩法",
+        "en": "Football below, basketball above"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/2700-3/1ad49b781c67.webp",
+      "text": {
+        "zh": "上方是篮球圈，下方是足球球门。两种玩法共用一套支架，可以按游戏安排轮流切换，让投篮和射门各有一个明确目标。",
+        "en": "The basketball hoop sits above the football goal. Both games use the same frame, with a separate target for shooting a basketball or kicking a football."
+      }
+    },
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "支架高度与底座占地",
+        "en": "Height and base footprint"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/2700-3/fdd2b9f38841.webp",
+      "text": {
+        "zh": "资料标注整体高110 cm，底座约59 × 36 cm。摆放时除了底座，还应预留正面的投篮和踢球距离，不要只按底座大小计算活动区。",
+        "en": "The listed height is 110 cm and the base measures approximately 59 × 36 cm. Plan space for shooting and kicking in front, in addition to the base footprint."
+      }
+    },
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "3岁及以上，彩盒包装",
+        "en": "Ages 3+, in a color box"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/2700-3/f5ace12e6a2b.webp",
+      "text": {
+        "zh": "盒面适龄标注为3岁及以上。单品包装尺寸37 × 7 × 26 cm，盒面同时展示篮球与足球玩法，便于识别这款二合一配置。",
+        "en": "The package is marked for ages 3 and above. Its color box measures 37 × 7 × 26 cm and shows both basketball and football play to identify the 2-in-1 configuration."
+      }
+    }
+  ],
+  "sourceData": {
+    "file": "挑样资料.xlsx",
+    "sha256": "30f47eb8405198bf6e92d33a2beecc7e62fb016f6bf26d476c79d2f816eefae0",
+    "sheet": "Blank_A4_Landscape_1019",
+    "row": 44,
+    "cells": {
+      "B": "2700-3",
+      "C": "足球网+篮球架（2合1）",
+      "D": "彩盒",
+      "E": 0,
+      "F": 24,
+      "G": "29.4",
+      "H": "37",
+      "I": "7",
+      "J": "26",
+      "K": "80.5",
+      "L": "30",
+      "M": "76.5",
+      "N": "0.18",
+      "O": "6.52",
+      "P": "20",
+      "Q": "18",
+      "R": ""
+    },
+    "priceAdjustment": {
+      "currency": "CNY",
+      "originalPrice": 29.4,
+      "markupRate": 0.3,
+      "adjustedPrice": 38.22,
+      "decimalPlaces": 2,
+      "rounding": "ROUND_HALF_UP"
+    },
+    "reviewNotes": [],
+    "attributeEnrichment": {
+      "sources": [
+        "title",
+        "description",
+        "sourceData.cells",
+        "productDetails.text",
+        "packagingPairs"
+      ],
+      "dimensionUnit": "cm",
+      "dimensionUnitBasis": "用户确认未注明单位的尺寸按厘米处理",
+      "packagingImage": "https://www.yaoshuntoys.com/media/products-q92/2700-3/1ad49b781c67.webp",
+      "imageAttributeKeys": [
+        "Age Range"
+      ],
+      "ageStatus": "packaging-label"
+    },
+    "originalDescription": {
+      "zh": [
+        "足球网+篮球架（2合1）"
+      ],
+      "en": [
+        "2-in-1 Football Goal and Basketball Hoop Set"
+      ]
+    },
+    "workbookReview": {
+      "file": "/Users/lukang.liu/Desktop/github/yaoshun/挑样资料.xlsx",
+      "sha256": "30f47eb8405198bf6e92d33a2beecc7e62fb016f6bf26d476c79d2f816eefae0",
+      "sheet": "Blank_A4_Landscape_1019",
+      "row": 44,
+      "imagePart": "xl/media/image42.jpeg"
+    },
+    "originalPackagingPairs": [
+      {
+        "key": {
+          "zh": "包装方式",
+          "en": "Packaging"
+        },
+        "value": {
+          "zh": "彩盒",
+          "en": "Color box"
+        }
+      },
+      {
+        "key": {
+          "zh": "装箱量（E列）",
+          "en": "Packing Quantity (Column E)"
+        },
+        "value": {
+          "zh": "0",
+          "en": "0"
+        }
+      },
+      {
+        "key": {
+          "zh": "装箱量（F列）",
+          "en": "Packing Quantity (Column F)"
+        },
+        "value": {
+          "zh": "24",
+          "en": "24"
+        }
+      },
+      {
+        "key": {
+          "zh": "包装规格（原表单位）",
+          "en": "Package Dimensions (Source Units)"
+        },
+        "value": {
+          "zh": "37 × 7 × 26",
+          "en": "37 × 7 × 26"
+        }
+      },
+      {
+        "key": {
+          "zh": "外箱规格（原表单位）",
+          "en": "Carton Dimensions (Source Units)"
+        },
+        "value": {
+          "zh": "80.5 × 30 × 76.5",
+          "en": "80.5 × 30 × 76.5"
+        }
+      },
+      {
+        "key": {
+          "zh": "体积（原表单位）",
+          "en": "Volume (Source Units)"
+        },
+        "value": {
+          "zh": "0.18",
+          "en": "0.18"
+        }
+      },
+      {
+        "key": {
+          "zh": "材积（原表单位）",
+          "en": "Shipping Measurement (Source Units)"
+        },
+        "value": {
+          "zh": "6.52",
+          "en": "6.52"
+        }
+      },
+      {
+        "key": {
+          "zh": "毛重（原表单位）",
+          "en": "Gross Weight (Source Units)"
+        },
+        "value": {
+          "zh": "20",
+          "en": "20"
+        }
+      },
+      {
+        "key": {
+          "zh": "净重（原表单位）",
+          "en": "Net Weight (Source Units)"
+        },
+        "value": {
+          "zh": "18",
+          "en": "18"
+        }
+      }
+    ],
+    "contentReview": {
+      "status": "edited-individually",
+      "scope": [
+        "description",
+        "productDetails",
+        "attributePairs",
+        "customizationOptions",
+        "packagingAndShipping",
+        "leadTime"
+      ],
+      "copyStyle": "具体、简洁，按本款资料描述；未确认的配置不扩写为承诺",
+      "deliveryBasis": "未提供本款确认的天数，按样品、常规订单和定制订单说明确认节点",
+      "preservedImageUrls": true
+    }
+  },
+  "customizationOptions": [
+    {
+      "label": {
+        "zh": "彩盒与品牌标识",
+        "en": "Retail Box and Branding"
+      },
+      "minOrder": {
+        "zh": "可提供LOGO、盒面设计和销售条码，按印刷方案确认起订量。",
+        "en": "Provide logo artwork, box design and retail barcodes. Minimum quantities depend on the approved print specification."
+      }
+    },
+    {
+      "label": {
+        "zh": "支架与配件配色评估",
+        "en": "Frame and Accessory Color Review"
+      },
+      "minOrder": {
+        "zh": "可提交支架、球类或套圈配色要求，具体可做范围与费用先行确认。",
+        "en": "Submit frame, ball or ring color requirements for review of available options and costs."
+      }
+    },
+    {
+      "label": {
+        "zh": "套装与说明书方案",
+        "en": "Set and Instruction Review"
+      },
+      "minOrder": {
+        "zh": "可提出配件组合与说明语言要求，调整后的清单、包装和报价一起核对。",
+        "en": "Request accessory combinations or instruction languages. Confirm the revised contents, packing and quotation together."
+      }
+    }
+  ],
+  "leadTime": {
+    "notes": [
+      {
+        "label": {
+          "zh": "样品订单",
+          "en": "Samples"
+        },
+        "value": {
+          "zh": "先确认2700-3样品和当前配色库存，再约定寄样日期。",
+          "en": "Confirm 2700-3 sample and color availability before agreeing a dispatch date."
+        }
+      },
+      {
+        "label": {
+          "zh": "常规订单",
+          "en": "Standard Orders"
+        },
+        "value": {
+          "zh": "按订单数量、包装备料和现有排产确认交期，国际运输时间另计。",
+          "en": "Confirm lead time against quantity, packing materials and the production schedule. International transit is additional."
+        }
+      },
+      {
+        "label": {
+          "zh": "定制订单",
+          "en": "Customized Orders"
+        },
+        "value": {
+          "zh": "先确认图稿、配件清单和样品，确认后再安排生产与出货排期。",
+          "en": "Approve artwork, contents and samples before scheduling production and dispatch."
+        }
+      }
+    ]
+  }
+}

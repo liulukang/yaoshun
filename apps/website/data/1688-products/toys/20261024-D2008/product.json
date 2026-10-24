@@ -1,0 +1,737 @@
+{
+  "productId": "D2008",
+  "module": "toys",
+  "priority": 1015,
+  "tags": [
+    {
+      "key": "stem",
+      "en": "Science Experiment Kits",
+      "zh": "科学实验套装"
+    }
+  ],
+  "title": {
+    "zh": "雾化投影科学实验套装",
+    "en": "Mist & Projection Science Kit"
+  },
+  "summary": {
+    "zh": "38件实验配件，组合雾化、旋转投影和导光组件。",
+    "en": "38 accessories for mist, rotating projection and light-guide experiments."
+  },
+  "description": {
+    "zh": [
+      "38件实验配件，组合雾化、旋转投影和导光组件。",
+      "包装标注38件配件和7岁及以上。",
+      "需要三节AA电池，电池不包含在套装内。"
+    ],
+    "en": [
+      "38 accessories for mist, rotating projection and light-guide experiments.",
+      "The package is marked with 38 accessories and ages 7+.",
+      "Three AA batteries are required and are not included."
+    ]
+  },
+  "categories": {
+    "zh": [
+      "科学实验套装"
+    ],
+    "en": [
+      "Science Experiment Kits"
+    ]
+  },
+  "pricing": {
+    "display": {
+      "zh": "¥69.68",
+      "en": "¥69.68"
+    },
+    "currency": "CNY",
+    "min": 69.68,
+    "max": 69.68,
+    "isRange": false,
+    "tiers": [
+      {
+        "quantity": {
+          "zh": "价格",
+          "en": "Price"
+        },
+        "price": "¥69.68"
+      }
+    ]
+  },
+  "specifications": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "D2008",
+        "en": "D2008"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "科学实验套装",
+        "en": "Science Experiment Kits"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    },
+    {
+      "key": {
+        "zh": "供应商备注（原文）",
+        "en": "Supplier Notes (Original Chinese)"
+      },
+      "value": {
+        "zh": "配件数：38/3粒5号电池（不包）"
+      }
+    }
+  ],
+  "productAttributes": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "D2008",
+        "en": "D2008"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "科学实验套装",
+        "en": "Science Experiment Kits"
+      }
+    },
+    {
+      "key": {
+        "zh": "适用年龄",
+        "en": "Age Range"
+      },
+      "value": {
+        "zh": "7岁及以上",
+        "en": "Ages 7+"
+      }
+    },
+    {
+      "key": {
+        "zh": "配件数量",
+        "en": "Accessory Count"
+      },
+      "value": {
+        "zh": "38件",
+        "en": "38 pieces"
+      }
+    },
+    {
+      "key": {
+        "zh": "实验主题",
+        "en": "Experiment Theme"
+      },
+      "value": {
+        "zh": "雾化、七彩旋转投影、导光与指示灯",
+        "en": "Atomization, multicolor rotating projection, light guides and indicator light"
+      }
+    },
+    {
+      "key": {
+        "zh": "供电方式",
+        "en": "Power Supply"
+      },
+      "value": {
+        "zh": "3节AA电池（不含）",
+        "en": "3 AA batteries (not included)"
+      }
+    },
+    {
+      "key": {
+        "zh": "实验组件",
+        "en": "Experiment Components"
+      },
+      "value": {
+        "zh": "雾化器、投影灯、导光柱、导光房及指示灯",
+        "en": "Atomizer, projection light, light-guide column, light-guide house and indicator light"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品系列",
+        "en": "Product Series"
+      },
+      "value": {
+        "zh": "Science Circuit Block",
+        "en": "Science Circuit Block"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "35 × 26 × 6.8 cm",
+        "en": "35 × 26 × 6.8 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "65.5 × 38 × 110 cm",
+        "en": "65.5 × 38 × 110 cm"
+      }
+    }
+  ],
+  "attributePairs": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "D2008",
+        "en": "D2008"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "科学实验套装",
+        "en": "Science Experiment Kits"
+      }
+    },
+    {
+      "key": {
+        "zh": "适用年龄",
+        "en": "Age Range"
+      },
+      "value": {
+        "zh": "7岁及以上",
+        "en": "Ages 7+"
+      }
+    },
+    {
+      "key": {
+        "zh": "配件数量",
+        "en": "Accessory Count"
+      },
+      "value": {
+        "zh": "38件",
+        "en": "38 pieces"
+      }
+    },
+    {
+      "key": {
+        "zh": "实验主题",
+        "en": "Experiment Theme"
+      },
+      "value": {
+        "zh": "雾化、七彩旋转投影、导光与指示灯",
+        "en": "Atomization, multicolor rotating projection, light guides and indicator light"
+      }
+    },
+    {
+      "key": {
+        "zh": "供电方式",
+        "en": "Power Supply"
+      },
+      "value": {
+        "zh": "3节AA电池（不含）",
+        "en": "3 AA batteries (not included)"
+      }
+    },
+    {
+      "key": {
+        "zh": "实验组件",
+        "en": "Experiment Components"
+      },
+      "value": {
+        "zh": "雾化器、投影灯、导光柱、导光房及指示灯",
+        "en": "Atomizer, projection light, light-guide column, light-guide house and indicator light"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品系列",
+        "en": "Product Series"
+      },
+      "value": {
+        "zh": "Science Circuit Block",
+        "en": "Science Circuit Block"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "35 × 26 × 6.8 cm",
+        "en": "35 × 26 × 6.8 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "65.5 × 38 × 110 cm",
+        "en": "65.5 × 38 × 110 cm"
+      }
+    }
+  ],
+  "packagingAndShipping": {
+    "summary": {
+      "zh": "单品包装及外箱规格如下，运输费用另行核算。",
+      "en": "Individual packing and carton specifications are listed below. Shipping is quoted separately."
+    },
+    "blocks": [
+      {
+        "label": {
+          "zh": "包装方式",
+          "en": "Packaging"
+        },
+        "value": {
+          "zh": "彩盒",
+          "en": "Color box"
+        }
+      },
+      {
+        "label": {
+          "zh": "包装尺寸",
+          "en": "Package Dimensions"
+        },
+        "value": {
+          "zh": "35 × 26 × 6.8 cm",
+          "en": "35 × 26 × 6.8 cm"
+        }
+      },
+      {
+        "label": {
+          "zh": "外箱尺寸",
+          "en": "Carton Dimensions"
+        },
+        "value": {
+          "zh": "65.5 × 38 × 110 cm",
+          "en": "65.5 × 38 × 110 cm"
+        }
+      },
+      {
+        "label": {
+          "zh": "外箱体积（按尺寸计算）",
+          "en": "Carton Volume (Calculated)"
+        },
+        "value": {
+          "zh": "0.274 m³",
+          "en": "0.274 m³"
+        }
+      },
+      {
+        "label": {
+          "zh": "运输费用",
+          "en": "Shipping Cost"
+        },
+        "value": {
+          "zh": "按目的地、箱数及运输方式另行报价。",
+          "en": "Quoted separately by destination, carton quantity and shipping method."
+        }
+      }
+    ],
+    "unitSize": "35 × 26 × 6.8 cm"
+  },
+  "packagingPairs": [
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "35 × 26 × 6.8 cm",
+        "en": "35 × 26 × 6.8 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "65.5 × 38 × 110 cm",
+        "en": "65.5 × 38 × 110 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱体积（按尺寸计算）",
+        "en": "Carton Volume (Calculated)"
+      },
+      "value": {
+        "zh": "0.274 m³",
+        "en": "0.274 m³"
+      }
+    },
+    {
+      "key": {
+        "zh": "运输费用",
+        "en": "Shipping Cost"
+      },
+      "value": {
+        "zh": "按目的地、箱数及运输方式另行报价。",
+        "en": "Quoted separately by destination, carton quantity and shipping method."
+      }
+    }
+  ],
+  "media": {
+    "main": [
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/D2008/64043e2a4a5c.webp"
+      }
+    ],
+    "detail": [
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/D2008/92255d83da4f.webp"
+      },
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/D2008/d2213619e7cb.webp"
+      }
+    ]
+  },
+  "images": [
+    "https://www.yaoshuntoys.com/media/products-q92/D2008/64043e2a4a5c.webp",
+    "https://www.yaoshuntoys.com/media/products-q92/D2008/92255d83da4f.webp",
+    "https://www.yaoshuntoys.com/media/products-q92/D2008/d2213619e7cb.webp"
+  ],
+  "videos": [],
+  "productDetails": [
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "把几种光影现象放在一块底板上",
+        "en": "Several light effects on one baseboard"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/D2008/64043e2a4a5c.webp",
+      "text": {
+        "zh": "套装组合雾化器、七彩旋转投影灯、导光柱、导光房和指示灯。可以分别观察每个组件，再按说明连接，查看雾化、投影与导光的不同表现。",
+        "en": "The kit combines an atomizer, multicolor rotating projection light, light-guide column, light-guide house and indicator light. Examine the parts separately, then follow the instructions to observe their different effects."
+      }
+    },
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "38件配件，7岁及以上",
+        "en": "38 accessories, ages 7+"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/D2008/92255d83da4f.webp",
+      "text": {
+        "zh": "包装标注38件配件和7岁及以上。组件铺设在可见底板上，适合边搭建边辨认连接位置；开始前先把配件按功能分开，避免混放。",
+        "en": "The package is marked with 38 accessories and ages 7+. Components sit on a visible baseboard so the connection positions can be seen during assembly. Sort the pieces by function before starting."
+      }
+    },
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "供电与装盒规格",
+        "en": "Power and packing"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/D2008/d2213619e7cb.webp",
+      "text": {
+        "zh": "需要三节AA电池，电池不包含在套装内。单品彩盒尺寸35 × 26 × 6.8 cm，使用后可先拆分小组件，再按种类收好，便于下一次搭建。",
+        "en": "Three AA batteries are required and are not included. The color box measures 35 × 26 × 6.8 cm. After use, separate and store the smaller components by type for the next assembly."
+      }
+    }
+  ],
+  "sourceData": {
+    "file": "挑样资料.xlsx",
+    "sha256": "30f47eb8405198bf6e92d33a2beecc7e62fb016f6bf26d476c79d2f816eefae0",
+    "sheet": "Blank_A4_Landscape_1019",
+    "row": 18,
+    "cells": {
+      "B": "D2008",
+      "C": "雾化器+七彩旋转投影灯+导光柱导光房+指示灯",
+      "D": "彩盒",
+      "E": 2,
+      "F": 36,
+      "G": "53.6",
+      "H": "35",
+      "I": "26",
+      "J": "6.8",
+      "K": "65.5",
+      "L": "38",
+      "M": "110",
+      "N": "0.27",
+      "O": "9.66",
+      "P": "35.8",
+      "Q": "32.8",
+      "R": "\n配件数：38/3粒5号电池（不包）"
+    },
+    "priceAdjustment": {
+      "currency": "CNY",
+      "originalPrice": 53.6,
+      "markupRate": 0.3,
+      "adjustedPrice": 69.68,
+      "decimalPlaces": 2,
+      "rounding": "ROUND_HALF_UP"
+    },
+    "reviewNotes": [],
+    "attributeEnrichment": {
+      "sources": [
+        "title",
+        "description",
+        "sourceData.cells",
+        "productDetails.text",
+        "packagingPairs"
+      ],
+      "dimensionUnit": "cm",
+      "dimensionUnitBasis": "用户确认未注明单位的尺寸按厘米处理",
+      "packagingImage": "https://www.yaoshuntoys.com/media/products-q92/D2008/64043e2a4a5c.webp",
+      "imageAttributeKeys": [
+        "Age Range",
+        "Product Series"
+      ],
+      "ageStatus": "packaging-label"
+    },
+    "originalDescription": {
+      "zh": [
+        "雾化器+七彩旋转投影灯+导光柱导光房+指示灯",
+        "配件数：38/3粒5号电池（不包）"
+      ],
+      "en": [
+        "Science Kit with Atomizer, Projection Light and Light Guides",
+        "38 accessories; requires three AA batteries, not included."
+      ]
+    },
+    "workbookReview": {
+      "file": "/Users/lukang.liu/Desktop/github/yaoshun/挑样资料.xlsx",
+      "sha256": "30f47eb8405198bf6e92d33a2beecc7e62fb016f6bf26d476c79d2f816eefae0",
+      "sheet": "Blank_A4_Landscape_1019",
+      "row": 18,
+      "imagePart": "xl/media/image16.jpeg"
+    },
+    "originalPackagingPairs": [
+      {
+        "key": {
+          "zh": "包装方式",
+          "en": "Packaging"
+        },
+        "value": {
+          "zh": "彩盒",
+          "en": "Color box"
+        }
+      },
+      {
+        "key": {
+          "zh": "装箱量（E列）",
+          "en": "Packing Quantity (Column E)"
+        },
+        "value": {
+          "zh": "2",
+          "en": "2"
+        }
+      },
+      {
+        "key": {
+          "zh": "装箱量（F列）",
+          "en": "Packing Quantity (Column F)"
+        },
+        "value": {
+          "zh": "36",
+          "en": "36"
+        }
+      },
+      {
+        "key": {
+          "zh": "包装规格（原表单位）",
+          "en": "Package Dimensions (Source Units)"
+        },
+        "value": {
+          "zh": "35 × 26 × 6.8",
+          "en": "35 × 26 × 6.8"
+        }
+      },
+      {
+        "key": {
+          "zh": "外箱规格（原表单位）",
+          "en": "Carton Dimensions (Source Units)"
+        },
+        "value": {
+          "zh": "65.5 × 38 × 110",
+          "en": "65.5 × 38 × 110"
+        }
+      },
+      {
+        "key": {
+          "zh": "体积（原表单位）",
+          "en": "Volume (Source Units)"
+        },
+        "value": {
+          "zh": "0.27",
+          "en": "0.27"
+        }
+      },
+      {
+        "key": {
+          "zh": "材积（原表单位）",
+          "en": "Shipping Measurement (Source Units)"
+        },
+        "value": {
+          "zh": "9.66",
+          "en": "9.66"
+        }
+      },
+      {
+        "key": {
+          "zh": "毛重（原表单位）",
+          "en": "Gross Weight (Source Units)"
+        },
+        "value": {
+          "zh": "35.8",
+          "en": "35.8"
+        }
+      },
+      {
+        "key": {
+          "zh": "净重（原表单位）",
+          "en": "Net Weight (Source Units)"
+        },
+        "value": {
+          "zh": "32.8",
+          "en": "32.8"
+        }
+      }
+    ],
+    "contentReview": {
+      "status": "edited-individually",
+      "scope": [
+        "description",
+        "productDetails",
+        "attributePairs",
+        "customizationOptions",
+        "packagingAndShipping",
+        "leadTime"
+      ],
+      "copyStyle": "具体、简洁，按本款资料描述；未确认的配置不扩写为承诺",
+      "deliveryBasis": "未提供本款确认的天数，按样品、常规订单和定制订单说明确认节点",
+      "preservedImageUrls": true
+    }
+  },
+  "customizationOptions": [
+    {
+      "label": {
+        "zh": "彩盒与品牌版面",
+        "en": "Retail Box and Branding"
+      },
+      "minOrder": {
+        "zh": "可提交品牌、条码和盒面设计需求，按确认版面核对印刷起订量。",
+        "en": "Submit branding, barcodes and box artwork for review of print specifications and minimum quantities."
+      }
+    },
+    {
+      "label": {
+        "zh": "实验说明语言",
+        "en": "Experiment Guide Languages"
+      },
+      "minOrder": {
+        "zh": "可提出说明书语言、图示和实验步骤排版要求，先确认译稿与内容范围。",
+        "en": "Request guide languages, illustrations or step layouts. Confirm the text and scope before printing."
+      }
+    },
+    {
+      "label": {
+        "zh": "组件方案评估",
+        "en": "Component Configuration Review"
+      },
+      "minOrder": {
+        "zh": "组件数量、实验组合或收纳方式如需调整，请先提供需求核对可行性。",
+        "en": "For different component counts, experiment combinations or storage layouts, submit requirements for feasibility review."
+      }
+    }
+  ],
+  "leadTime": {
+    "notes": [
+      {
+        "label": {
+          "zh": "样品订单",
+          "en": "Samples"
+        },
+        "value": {
+          "zh": "先确认D2008样品和当前配色库存，再约定寄样日期。",
+          "en": "Confirm D2008 sample and color availability before agreeing a dispatch date."
+        }
+      },
+      {
+        "label": {
+          "zh": "常规订单",
+          "en": "Standard Orders"
+        },
+        "value": {
+          "zh": "按订单数量、包装备料和现有排产确认交期，国际运输时间另计。",
+          "en": "Confirm lead time against quantity, packing materials and the production schedule. International transit is additional."
+        }
+      },
+      {
+        "label": {
+          "zh": "定制订单",
+          "en": "Customized Orders"
+        },
+        "value": {
+          "zh": "先确认图稿、配件清单和样品，确认后再安排生产与出货排期。",
+          "en": "Approve artwork, contents and samples before scheduling production and dispatch."
+        }
+      }
+    ]
+  }
+}

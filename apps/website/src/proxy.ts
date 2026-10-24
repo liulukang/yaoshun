@@ -10,10 +10,71 @@ import {
   consentRequiredCookieName,
   isConsentRequiredCountry,
 } from "@/lib/privacy-region";
+import {
+  agentHomepageMarkdown,
+  agentNotFoundMarkdown,
+} from "@/content/agent-markdown";
 
 const oneYearInSeconds = 60 * 60 * 24 * 365;
 const thirtyDaysInSeconds = 60 * 60 * 24 * 30;
 const internalLocaleRewriteHeader = "x-yaoshun-internal-locale-rewrite";
+
+function acceptsMarkdown(request: NextRequest) {
+  return request.headers.get("accept")?.toLowerCase().includes("text/markdown") ?? false;
+}
+
+function getMarkdownLocale(pathname: string) {
+  return pathname === "/zh" || pathname.startsWith("/zh/") ? "zh" : "en";
+}
+
+function isKnownMarkdownPage(pathname: string) {
+  const localePath = pathname.replace(/^\/zh(?=\/|$)/, "") || "/";
+  const knownPages = new Set([
+    "/",
+    "/about",
+    "/solutions",
+    "/products",
+    "/news",
+    "/faq",
+    "/contact",
+    "/privacy",
+    "/refund-return",
+    "/terms",
+  ]);
+
+  if (knownPages.has(localePath)) return true;
+  const categoryMatch = localePath.match(/^\/products\/category\/([^/]+)$/);
+  if (categoryMatch) {
+    return new Set(["building", "sports", "stem", "robots", "tents", "drones", "fans"]).has(
+      categoryMatch[1],
+    );
+  }
+  if (/^\/products\/(?:\d{8,13}|(?=[A-Za-z0-9-]*[A-Z])[A-Za-z0-9-]+)$/.test(localePath)) return true;
+  if (/^\/news\/[^/]+$/.test(localePath)) return true;
+  return false;
+}
+
+function markdownResponse(body: string, status = 200) {
+  return new NextResponse(body, {
+    status,
+    headers: {
+      "Cache-Control": "public, max-age=300, s-maxage=3600, stale-while-revalidate=86400",
+      "Content-Type": "text/markdown; charset=utf-8",
+      Vary: "Accept",
+    },
+  });
+}
+
+function applyPaginationRobots(response: NextResponse, request: NextRequest) {
+  if (
+    request.nextUrl.searchParams.has("page") &&
+    /^\/(?:zh\/)?products\/category\//.test(request.nextUrl.pathname)
+  ) {
+    response.headers.set("X-Robots-Tag", "noindex, follow");
+  }
+
+  return response;
+}
 
 function resolveCountryCode(request: NextRequest): string | null {
   return (
@@ -77,10 +138,23 @@ function rewriteDefaultLocalePath(
     },
   });
   applyContextCookies(response, request, defaultLocale, consentRequired);
-  return response;
+  return applyPaginationRobots(response, request);
 }
 
 export function proxy(request: NextRequest) {
+  if (acceptsMarkdown(request)) {
+    const pathname = request.nextUrl.pathname;
+    const isHomepage = pathname === "/" || pathname === "/en" || pathname === "/zh";
+
+    if (isHomepage) {
+      return markdownResponse(agentHomepageMarkdown[getMarkdownLocale(pathname)]);
+    }
+
+    if (!isKnownMarkdownPage(pathname)) {
+      return markdownResponse(agentNotFoundMarkdown, 404);
+    }
+  }
+
   if (request.nextUrl.pathname === "/sitemap" || request.nextUrl.pathname === "/sitemap/") {
     const url = request.nextUrl.clone();
     url.pathname = "/sitemap.xml";
@@ -111,7 +185,7 @@ export function proxy(request: NextRequest) {
 
     const response = NextResponse.next();
     applyContextCookies(response, request, localeInPath, consentRequired);
-    return response;
+    return applyPaginationRobots(response, request);
   }
 
   return rewriteDefaultLocalePath(request, consentRequired);

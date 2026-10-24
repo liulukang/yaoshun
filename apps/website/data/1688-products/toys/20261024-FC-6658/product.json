@@ -1,0 +1,736 @@
+{
+  "productId": "FC-6658",
+  "module": "toys",
+  "priority": 1045,
+  "tags": [
+    {
+      "key": "fans",
+      "en": "Portable Fans",
+      "zh": "便携风扇"
+    }
+  ],
+  "title": {
+    "zh": "半导体制冷手持风扇",
+    "en": "Semiconductor Cooling Handheld Fan"
+  },
+  "summary": {
+    "zh": "半导体制冷设计，配无刷电机和1800 mAh锂电池。",
+    "en": "Semiconductor cooling with a brushless motor and 1,800 mAh lithium battery."
+  },
+  "description": {
+    "zh": [
+      "半导体制冷设计，配无刷电机和1800 mAh锂电池。",
+      "配置无刷电机和塑料外壳，图片展示深绿、米白、浅薄荷绿及白色版本。",
+      "电池为18650锂电池，容量1800 mAh，彩盒尺寸5.7 × 4.8 × 14.1 cm。"
+    ],
+    "en": [
+      "Semiconductor cooling with a brushless motor and 1,800 mAh lithium battery.",
+      "The model has a brushless motor and plastic housing.",
+      "Power comes from an 18650 lithium battery rated at 1,800 mAh."
+    ]
+  },
+  "categories": {
+    "zh": [
+      "便携风扇"
+    ],
+    "en": [
+      "Portable Fans"
+    ]
+  },
+  "pricing": {
+    "display": {
+      "zh": "¥25.74",
+      "en": "¥25.74"
+    },
+    "currency": "CNY",
+    "min": 25.74,
+    "max": 25.74,
+    "isRange": false,
+    "tiers": [
+      {
+        "quantity": {
+          "zh": "价格",
+          "en": "Price"
+        },
+        "price": "¥25.74"
+      }
+    ]
+  },
+  "specifications": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "FC-6658",
+        "en": "FC-6658"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "便携风扇",
+        "en": "Portable Fans"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    },
+    {
+      "key": {
+        "zh": "供应商备注（原文）",
+        "en": "Supplier Notes (Original Chinese)"
+      },
+      "value": {
+        "zh": "电机，外壳塑料：无刷电机，电池:锂电池18650,电池容量1800mAH"
+      }
+    }
+  ],
+  "productAttributes": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "FC-6658",
+        "en": "FC-6658"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "便携风扇",
+        "en": "Portable Fans"
+      }
+    },
+    {
+      "key": {
+        "zh": "电机类型",
+        "en": "Motor Type"
+      },
+      "value": {
+        "zh": "无刷电机",
+        "en": "Brushless motor"
+      }
+    },
+    {
+      "key": {
+        "zh": "电池类型",
+        "en": "Battery Type"
+      },
+      "value": {
+        "zh": "18650锂电池",
+        "en": "18650 lithium battery"
+      }
+    },
+    {
+      "key": {
+        "zh": "电池容量",
+        "en": "Battery Capacity"
+      },
+      "value": {
+        "zh": "1,800 mAh",
+        "en": "1,800 mAh"
+      }
+    },
+    {
+      "key": {
+        "zh": "外壳材质",
+        "en": "Housing Material"
+      },
+      "value": {
+        "zh": "塑料",
+        "en": "Plastic"
+      }
+    },
+    {
+      "key": {
+        "zh": "制冷方式",
+        "en": "Cooling Method"
+      },
+      "value": {
+        "zh": "半导体制冷",
+        "en": "Semiconductor cooling"
+      }
+    },
+    {
+      "key": {
+        "zh": "可见配色",
+        "en": "Pictured Colors"
+      },
+      "value": {
+        "zh": "深绿、米白、浅薄荷绿及白色",
+        "en": "Dark green, cream, pale mint and white"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "5.7 × 4.8 × 14.1 cm",
+        "en": "5.7 × 4.8 × 14.1 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "50 × 30 × 37 cm",
+        "en": "50 × 30 × 37 cm"
+      }
+    }
+  ],
+  "attributePairs": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "FC-6658",
+        "en": "FC-6658"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "便携风扇",
+        "en": "Portable Fans"
+      }
+    },
+    {
+      "key": {
+        "zh": "电机类型",
+        "en": "Motor Type"
+      },
+      "value": {
+        "zh": "无刷电机",
+        "en": "Brushless motor"
+      }
+    },
+    {
+      "key": {
+        "zh": "电池类型",
+        "en": "Battery Type"
+      },
+      "value": {
+        "zh": "18650锂电池",
+        "en": "18650 lithium battery"
+      }
+    },
+    {
+      "key": {
+        "zh": "电池容量",
+        "en": "Battery Capacity"
+      },
+      "value": {
+        "zh": "1,800 mAh",
+        "en": "1,800 mAh"
+      }
+    },
+    {
+      "key": {
+        "zh": "外壳材质",
+        "en": "Housing Material"
+      },
+      "value": {
+        "zh": "塑料",
+        "en": "Plastic"
+      }
+    },
+    {
+      "key": {
+        "zh": "制冷方式",
+        "en": "Cooling Method"
+      },
+      "value": {
+        "zh": "半导体制冷",
+        "en": "Semiconductor cooling"
+      }
+    },
+    {
+      "key": {
+        "zh": "可见配色",
+        "en": "Pictured Colors"
+      },
+      "value": {
+        "zh": "深绿、米白、浅薄荷绿及白色",
+        "en": "Dark green, cream, pale mint and white"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "5.7 × 4.8 × 14.1 cm",
+        "en": "5.7 × 4.8 × 14.1 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "50 × 30 × 37 cm",
+        "en": "50 × 30 × 37 cm"
+      }
+    }
+  ],
+  "packagingAndShipping": {
+    "summary": {
+      "zh": "单品包装及外箱规格如下，运输费用另行核算。",
+      "en": "Individual packing and carton specifications are listed below. Shipping is quoted separately."
+    },
+    "blocks": [
+      {
+        "label": {
+          "zh": "包装方式",
+          "en": "Packaging"
+        },
+        "value": {
+          "zh": "彩盒",
+          "en": "Color box"
+        }
+      },
+      {
+        "label": {
+          "zh": "包装尺寸",
+          "en": "Package Dimensions"
+        },
+        "value": {
+          "zh": "5.7 × 4.8 × 14.1 cm",
+          "en": "5.7 × 4.8 × 14.1 cm"
+        }
+      },
+      {
+        "label": {
+          "zh": "外箱尺寸",
+          "en": "Carton Dimensions"
+        },
+        "value": {
+          "zh": "50 × 30 × 37 cm",
+          "en": "50 × 30 × 37 cm"
+        }
+      },
+      {
+        "label": {
+          "zh": "外箱体积（按尺寸计算）",
+          "en": "Carton Volume (Calculated)"
+        },
+        "value": {
+          "zh": "0.056 m³",
+          "en": "0.056 m³"
+        }
+      },
+      {
+        "label": {
+          "zh": "运输费用",
+          "en": "Shipping Cost"
+        },
+        "value": {
+          "zh": "按目的地、箱数及运输方式另行报价。",
+          "en": "Quoted separately by destination, carton quantity and shipping method."
+        }
+      }
+    ],
+    "unitSize": "5.7 × 4.8 × 14.1 cm"
+  },
+  "packagingPairs": [
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "5.7 × 4.8 × 14.1 cm",
+        "en": "5.7 × 4.8 × 14.1 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "50 × 30 × 37 cm",
+        "en": "50 × 30 × 37 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱体积（按尺寸计算）",
+        "en": "Carton Volume (Calculated)"
+      },
+      "value": {
+        "zh": "0.056 m³",
+        "en": "0.056 m³"
+      }
+    },
+    {
+      "key": {
+        "zh": "运输费用",
+        "en": "Shipping Cost"
+      },
+      "value": {
+        "zh": "按目的地、箱数及运输方式另行报价。",
+        "en": "Quoted separately by destination, carton quantity and shipping method."
+      }
+    }
+  ],
+  "media": {
+    "main": [
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/FC-6658/6a8cbaf305b5.webp"
+      }
+    ],
+    "detail": [
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/FC-6658/200d11a9e8bd.webp"
+      },
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/FC-6658/164a9b199eed.webp"
+      }
+    ]
+  },
+  "images": [
+    "https://www.yaoshuntoys.com/media/products-q92/FC-6658/6a8cbaf305b5.webp",
+    "https://www.yaoshuntoys.com/media/products-q92/FC-6658/200d11a9e8bd.webp",
+    "https://www.yaoshuntoys.com/media/products-q92/FC-6658/164a9b199eed.webp"
+  ],
+  "videos": [],
+  "productDetails": [
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "扇头带中央制冷面板",
+        "en": "Fan head with a central cooling panel"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/FC-6658/6a8cbaf305b5.webp",
+      "text": {
+        "zh": "圆形扇头中央设有制冷面板，下方是手柄与椭圆形按键。它采用半导体制冷设计，具体结构可以结合扇头正面和细节图查看。",
+        "en": "The round fan head has a central cooling panel, with a handle and oval button below. The semiconductor-cooling design is shown in the front and detail views."
+      }
+    },
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "无刷电机与塑料外壳",
+        "en": "Brushless motor and plastic housing"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/FC-6658/200d11a9e8bd.webp",
+      "text": {
+        "zh": "配置无刷电机和塑料外壳，图片展示深绿、米白、浅薄荷绿及白色版本。机身外形与普通挂脖款不同，选配时可按FC-6658确认。",
+        "en": "The model has a brushless motor and plastic housing. Pictured colors include dark green, cream, pale mint and white. Confirm model FC-6658 when choosing this body design."
+      }
+    },
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "18650电池供电",
+        "en": "18650 battery power"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/FC-6658/164a9b199eed.webp",
+      "text": {
+        "zh": "电池为18650锂电池，容量1800 mAh，彩盒尺寸5.7 × 4.8 × 14.1 cm。现有资料没有量化制冷温度或运行时长，选购时可进一步确认所需参数。",
+        "en": "Power comes from an 18650 lithium battery rated at 1,800 mAh. The color box measures 5.7 × 4.8 × 14.1 cm. Cooling temperature and operating time have not been quantified in the supplied information."
+      }
+    }
+  ],
+  "sourceData": {
+    "file": "挑样资料.xlsx",
+    "sha256": "30f47eb8405198bf6e92d33a2beecc7e62fb016f6bf26d476c79d2f816eefae0",
+    "sheet": "Blank_A4_Landscape_1019",
+    "row": 48,
+    "cells": {
+      "B": "FC-6658",
+      "C": "半导体制冷手持小风扇",
+      "D": "彩盒",
+      "E": 0,
+      "F": 120,
+      "G": "19.8",
+      "H": "5.7",
+      "I": "4.8",
+      "J": "14.1",
+      "K": "50",
+      "L": "30",
+      "M": "37",
+      "N": "0.06",
+      "O": "1.96",
+      "P": "18",
+      "Q": "17",
+      "R": "\n电机，外壳塑料：无刷电机，电池:锂电池18650,电池容量1800mAH"
+    },
+    "priceAdjustment": {
+      "currency": "CNY",
+      "originalPrice": 19.8,
+      "markupRate": 0.3,
+      "adjustedPrice": 25.74,
+      "decimalPlaces": 2,
+      "rounding": "ROUND_HALF_UP"
+    },
+    "reviewNotes": [],
+    "attributeEnrichment": {
+      "sources": [
+        "title",
+        "description",
+        "sourceData.cells",
+        "productDetails.text",
+        "packagingPairs"
+      ],
+      "dimensionUnit": "cm",
+      "dimensionUnitBasis": "用户确认未注明单位的尺寸按厘米处理",
+      "packagingImage": "https://www.yaoshuntoys.com/media/products-q92/FC-6658/6a8cbaf305b5.webp",
+      "imageAttributeKeys": [
+        "Pictured Colors"
+      ],
+      "ageStatus": "not-applicable-to-toy-age-grading"
+    },
+    "originalDescription": {
+      "zh": [
+        "半导体制冷手持小风扇",
+        "电机，外壳塑料：无刷电机，电池:锂电池18650,电池容量1800mAH"
+      ],
+      "en": [
+        "Semiconductor Cooling Handheld Fan",
+        "Brushless motor and plastic housing. Powered by an 18650 lithium battery with a capacity of 1,800 mAh."
+      ]
+    },
+    "workbookReview": {
+      "file": "/Users/lukang.liu/Desktop/github/yaoshun/挑样资料.xlsx",
+      "sha256": "30f47eb8405198bf6e92d33a2beecc7e62fb016f6bf26d476c79d2f816eefae0",
+      "sheet": "Blank_A4_Landscape_1019",
+      "row": 48,
+      "imagePart": "xl/media/image46.jpeg"
+    },
+    "originalPackagingPairs": [
+      {
+        "key": {
+          "zh": "包装方式",
+          "en": "Packaging"
+        },
+        "value": {
+          "zh": "彩盒",
+          "en": "Color box"
+        }
+      },
+      {
+        "key": {
+          "zh": "装箱量（E列）",
+          "en": "Packing Quantity (Column E)"
+        },
+        "value": {
+          "zh": "0",
+          "en": "0"
+        }
+      },
+      {
+        "key": {
+          "zh": "装箱量（F列）",
+          "en": "Packing Quantity (Column F)"
+        },
+        "value": {
+          "zh": "120",
+          "en": "120"
+        }
+      },
+      {
+        "key": {
+          "zh": "包装规格（原表单位）",
+          "en": "Package Dimensions (Source Units)"
+        },
+        "value": {
+          "zh": "5.7 × 4.8 × 14.1",
+          "en": "5.7 × 4.8 × 14.1"
+        }
+      },
+      {
+        "key": {
+          "zh": "外箱规格（原表单位）",
+          "en": "Carton Dimensions (Source Units)"
+        },
+        "value": {
+          "zh": "50 × 30 × 37",
+          "en": "50 × 30 × 37"
+        }
+      },
+      {
+        "key": {
+          "zh": "体积（原表单位）",
+          "en": "Volume (Source Units)"
+        },
+        "value": {
+          "zh": "0.06",
+          "en": "0.06"
+        }
+      },
+      {
+        "key": {
+          "zh": "材积（原表单位）",
+          "en": "Shipping Measurement (Source Units)"
+        },
+        "value": {
+          "zh": "1.96",
+          "en": "1.96"
+        }
+      },
+      {
+        "key": {
+          "zh": "毛重（原表单位）",
+          "en": "Gross Weight (Source Units)"
+        },
+        "value": {
+          "zh": "18",
+          "en": "18"
+        }
+      },
+      {
+        "key": {
+          "zh": "净重（原表单位）",
+          "en": "Net Weight (Source Units)"
+        },
+        "value": {
+          "zh": "17",
+          "en": "17"
+        }
+      }
+    ],
+    "contentReview": {
+      "status": "edited-individually",
+      "scope": [
+        "description",
+        "productDetails",
+        "attributePairs",
+        "customizationOptions",
+        "packagingAndShipping",
+        "leadTime"
+      ],
+      "copyStyle": "具体、简洁，按本款资料描述；未确认的配置不扩写为承诺",
+      "deliveryBasis": "未提供本款确认的天数，按样品、常规订单和定制订单说明确认节点",
+      "preservedImageUrls": true
+    }
+  },
+  "customizationOptions": [
+    {
+      "label": {
+        "zh": "盒面与品牌标识",
+        "en": "Box Artwork and Branding"
+      },
+      "minOrder": {
+        "zh": "可提供LOGO、条码及包装设计，印刷或标识工艺需先确认。",
+        "en": "Provide a logo, barcode and package design for review of print and marking methods."
+      }
+    },
+    {
+      "label": {
+        "zh": "机身配色评估",
+        "en": "Body Color Review"
+      },
+      "minOrder": {
+        "zh": "可提出外壳、扇头配色要求，先确认可选色与对应起订量。",
+        "en": "Request housing and fan-head colors. Available colors and minimum quantities are confirmed first."
+      }
+    },
+    {
+      "label": {
+        "zh": "说明书与配件装盒",
+        "en": "Instructions and Accessory Packing"
+      },
+      "minOrder": {
+        "zh": "可提交说明语言及充电配件装盒要求，按确认清单报价。",
+        "en": "Submit instruction languages and charging-accessory packing requirements for a contents-based quotation."
+      }
+    }
+  ],
+  "leadTime": {
+    "notes": [
+      {
+        "label": {
+          "zh": "样品订单",
+          "en": "Samples"
+        },
+        "value": {
+          "zh": "先确认FC-6658样品和当前配色库存，再约定寄样日期。",
+          "en": "Confirm FC-6658 sample and color availability before agreeing a dispatch date."
+        }
+      },
+      {
+        "label": {
+          "zh": "常规订单",
+          "en": "Standard Orders"
+        },
+        "value": {
+          "zh": "按订单数量、包装备料和现有排产确认交期，国际运输时间另计。",
+          "en": "Confirm lead time against quantity, packing materials and the production schedule. International transit is additional."
+        }
+      },
+      {
+        "label": {
+          "zh": "定制订单",
+          "en": "Customized Orders"
+        },
+        "value": {
+          "zh": "先确认图稿、配件清单和样品，确认后再安排生产与出货排期。",
+          "en": "Approve artwork, contents and samples before scheduling production and dispatch."
+        }
+      }
+    ]
+  }
+}

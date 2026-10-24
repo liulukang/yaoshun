@@ -27,6 +27,53 @@ import p2026050706 from "../../../data/1688-products/toys/2026050706/product.jso
 import p2026050707 from "../../../data/1688-products/toys/2026050707/product.json";
 import p2026050708 from "../../../data/1688-products/toys/2026050708/product.json";
 
+import pSelected01 from "../../../data/1688-products/toys/20261024-JB5038A/product.json";
+import pSelected02 from "../../../data/1688-products/toys/20261024-JB5038D/product.json";
+import pSelected03 from "../../../data/1688-products/toys/20261024-JB6117E/product.json";
+import pSelected04 from "../../../data/1688-products/toys/20261024-JB8892B/product.json";
+import pSelected05 from "../../../data/1688-products/toys/20261024-6643/product.json";
+import pSelected06 from "../../../data/1688-products/toys/20261024-WT6617/product.json";
+import pSelected07 from "../../../data/1688-products/toys/20261024-WT6613/product.json";
+import pSelected08 from "../../../data/1688-products/toys/20261024-LYB008U/product.json";
+import pSelected09 from "../../../data/1688-products/toys/20261024-LYB008W/product.json";
+import pSelected10 from "../../../data/1688-products/toys/20261024-LYB008H/product.json";
+import pSelected11 from "../../../data/1688-products/toys/20261024-LYB008V/product.json";
+import pSelected12 from "../../../data/1688-products/toys/20261024-AZL897/product.json";
+import pSelected13 from "../../../data/1688-products/toys/20261024-AZL892/product.json";
+import pSelected14 from "../../../data/1688-products/toys/20261024-AZ888/product.json";
+import pSelected15 from "../../../data/1688-products/toys/20261024-D1009/product.json";
+import pSelected16 from "../../../data/1688-products/toys/20261024-D2008/product.json";
+import pSelected17 from "../../../data/1688-products/toys/20261024-HF700/product.json";
+import pSelected18 from "../../../data/1688-products/toys/20261024-9901/product.json";
+import pSelected19 from "../../../data/1688-products/toys/20261024-A444-1/product.json";
+import pSelected20 from "../../../data/1688-products/toys/20261024-A444-9/product.json";
+import pSelected21 from "../../../data/1688-products/toys/20261024-A999-530/product.json";
+import pSelected22 from "../../../data/1688-products/toys/20261024-A999-531/product.json";
+import pSelected23 from "../../../data/1688-products/toys/20261024-A999-532/product.json";
+import pSelected24 from "../../../data/1688-products/toys/20261024-A999-255/product.json";
+import pSelected25 from "../../../data/1688-products/toys/20261024-A999-383A/product.json";
+import pSelected26 from "../../../data/1688-products/toys/20261024-A444-12/product.json";
+import pSelected27 from "../../../data/1688-products/toys/20261024-A444-20/product.json";
+import pSelected28 from "../../../data/1688-products/toys/20261024-A444-18/product.json";
+import pSelected29 from "../../../data/1688-products/toys/20261024-A444-2/product.json";
+import pSelected30 from "../../../data/1688-products/toys/20261024-A444-3/product.json";
+import pSelected31 from "../../../data/1688-products/toys/20261024-599-51/product.json";
+import pSelected32 from "../../../data/1688-products/toys/20261024-HH3101YM/product.json";
+import pSelected33 from "../../../data/1688-products/toys/20261024-HH3102/product.json";
+import pSelected34 from "../../../data/1688-products/toys/20261024-S5X/product.json";
+import pSelected35 from "../../../data/1688-products/toys/20261024-S23S/product.json";
+import pSelected36 from "../../../data/1688-products/toys/20261024-ES800Pro/product.json";
+import pSelected37 from "../../../data/1688-products/toys/20261024-RG600Pro/product.json";
+import pSelected38 from "../../../data/1688-products/toys/20261024-S13PRO/product.json";
+import pSelected39 from "../../../data/1688-products/toys/20261024-M6s/product.json";
+import pSelected40 from "../../../data/1688-products/toys/20261024-M5S/product.json";
+import pSelected41 from "../../../data/1688-products/toys/20261024-X1/product.json";
+import pSelected42 from "../../../data/1688-products/toys/20261024-2700-3/product.json";
+import pSelected43 from "../../../data/1688-products/toys/20261024-2057A/product.json";
+import pSelected44 from "../../../data/1688-products/toys/20261024-2060A/product.json";
+import pSelected45 from "../../../data/1688-products/toys/20261024-FC-6655B1/product.json";
+import pSelected46 from "../../../data/1688-products/toys/20261024-FC-6658/product.json";
+
 export type ProductJsonLocalizedText = Partial<Record<"zh" | "en", string>>;
 export type ProductJsonLocalizedList = Partial<Record<"zh" | "en", string[]>>;
 export type ProductJsonPair = {
@@ -89,6 +136,10 @@ export type ProductJson = {
   };
   packagingPairs?: ProductJsonPair[];
   leadTime?: {
+    notes?: Array<{
+      label: ProductJsonLocalizedText;
+      value: ProductJsonLocalizedText;
+    }>;
     tiers?: Array<{
       minQuantity?: string;
       maxQuantity?: string;
@@ -138,6 +189,52 @@ const importedProducts = [
   withSource(p2026050706 as ProductJson, "apps/website/data/1688-products/toys/2026050706/product.json"),
   withSource(p2026050707 as ProductJson, "apps/website/data/1688-products/toys/2026050707/product.json"),
   withSource(p2026050708 as ProductJson, "apps/website/data/1688-products/toys/2026050708/product.json"),
+  withSource(pSelected01 as ProductJson, "apps/website/data/1688-products/toys/20261024-JB5038A/product.json"),
+  withSource(pSelected02 as ProductJson, "apps/website/data/1688-products/toys/20261024-JB5038D/product.json"),
+  withSource(pSelected03 as ProductJson, "apps/website/data/1688-products/toys/20261024-JB6117E/product.json"),
+  withSource(pSelected04 as ProductJson, "apps/website/data/1688-products/toys/20261024-JB8892B/product.json"),
+  withSource(pSelected05 as ProductJson, "apps/website/data/1688-products/toys/20261024-6643/product.json"),
+  withSource(pSelected06 as ProductJson, "apps/website/data/1688-products/toys/20261024-WT6617/product.json"),
+  withSource(pSelected07 as ProductJson, "apps/website/data/1688-products/toys/20261024-WT6613/product.json"),
+  withSource(pSelected08 as ProductJson, "apps/website/data/1688-products/toys/20261024-LYB008U/product.json"),
+  withSource(pSelected09 as ProductJson, "apps/website/data/1688-products/toys/20261024-LYB008W/product.json"),
+  withSource(pSelected10 as ProductJson, "apps/website/data/1688-products/toys/20261024-LYB008H/product.json"),
+  withSource(pSelected11 as ProductJson, "apps/website/data/1688-products/toys/20261024-LYB008V/product.json"),
+  withSource(pSelected12 as ProductJson, "apps/website/data/1688-products/toys/20261024-AZL897/product.json"),
+  withSource(pSelected13 as ProductJson, "apps/website/data/1688-products/toys/20261024-AZL892/product.json"),
+  withSource(pSelected14 as ProductJson, "apps/website/data/1688-products/toys/20261024-AZ888/product.json"),
+  withSource(pSelected15 as ProductJson, "apps/website/data/1688-products/toys/20261024-D1009/product.json"),
+  withSource(pSelected16 as ProductJson, "apps/website/data/1688-products/toys/20261024-D2008/product.json"),
+  withSource(pSelected17 as ProductJson, "apps/website/data/1688-products/toys/20261024-HF700/product.json"),
+  withSource(pSelected18 as ProductJson, "apps/website/data/1688-products/toys/20261024-9901/product.json"),
+  withSource(pSelected19 as ProductJson, "apps/website/data/1688-products/toys/20261024-A444-1/product.json"),
+  withSource(pSelected20 as ProductJson, "apps/website/data/1688-products/toys/20261024-A444-9/product.json"),
+  withSource(pSelected21 as ProductJson, "apps/website/data/1688-products/toys/20261024-A999-530/product.json"),
+  withSource(pSelected22 as ProductJson, "apps/website/data/1688-products/toys/20261024-A999-531/product.json"),
+  withSource(pSelected23 as ProductJson, "apps/website/data/1688-products/toys/20261024-A999-532/product.json"),
+  withSource(pSelected24 as ProductJson, "apps/website/data/1688-products/toys/20261024-A999-255/product.json"),
+  withSource(pSelected25 as ProductJson, "apps/website/data/1688-products/toys/20261024-A999-383A/product.json"),
+  withSource(pSelected26 as ProductJson, "apps/website/data/1688-products/toys/20261024-A444-12/product.json"),
+  withSource(pSelected27 as ProductJson, "apps/website/data/1688-products/toys/20261024-A444-20/product.json"),
+  withSource(pSelected28 as ProductJson, "apps/website/data/1688-products/toys/20261024-A444-18/product.json"),
+  withSource(pSelected29 as ProductJson, "apps/website/data/1688-products/toys/20261024-A444-2/product.json"),
+  withSource(pSelected30 as ProductJson, "apps/website/data/1688-products/toys/20261024-A444-3/product.json"),
+  withSource(pSelected31 as ProductJson, "apps/website/data/1688-products/toys/20261024-599-51/product.json"),
+  withSource(pSelected32 as ProductJson, "apps/website/data/1688-products/toys/20261024-HH3101YM/product.json"),
+  withSource(pSelected33 as ProductJson, "apps/website/data/1688-products/toys/20261024-HH3102/product.json"),
+  withSource(pSelected34 as ProductJson, "apps/website/data/1688-products/toys/20261024-S5X/product.json"),
+  withSource(pSelected35 as ProductJson, "apps/website/data/1688-products/toys/20261024-S23S/product.json"),
+  withSource(pSelected36 as ProductJson, "apps/website/data/1688-products/toys/20261024-ES800Pro/product.json"),
+  withSource(pSelected37 as ProductJson, "apps/website/data/1688-products/toys/20261024-RG600Pro/product.json"),
+  withSource(pSelected38 as ProductJson, "apps/website/data/1688-products/toys/20261024-S13PRO/product.json"),
+  withSource(pSelected39 as ProductJson, "apps/website/data/1688-products/toys/20261024-M6s/product.json"),
+  withSource(pSelected40 as ProductJson, "apps/website/data/1688-products/toys/20261024-M5S/product.json"),
+  withSource(pSelected41 as ProductJson, "apps/website/data/1688-products/toys/20261024-X1/product.json"),
+  withSource(pSelected42 as ProductJson, "apps/website/data/1688-products/toys/20261024-2700-3/product.json"),
+  withSource(pSelected43 as ProductJson, "apps/website/data/1688-products/toys/20261024-2057A/product.json"),
+  withSource(pSelected44 as ProductJson, "apps/website/data/1688-products/toys/20261024-2060A/product.json"),
+  withSource(pSelected45 as ProductJson, "apps/website/data/1688-products/toys/20261024-FC-6655B1/product.json"),
+  withSource(pSelected46 as ProductJson, "apps/website/data/1688-products/toys/20261024-FC-6658/product.json"),
 ] as const;
 
 export const productSourcePathById = new Map(

@@ -24,10 +24,25 @@ const curatedProductsFeaturedRailIds = [
   "2026050706",
 ] as const;
 
+const curatedHomeBestsellerIds = [
+  "2026050701",
+  "A444-9",
+  "2700-3",
+  "JB5038A",
+  "M5S",
+  "S23S",
+  "599-51",
+  "FC-6655B1",
+] as const;
+
 const productsFeaturedRailImageOverrides: Partial<Record<string, string>> = {
   "2026050705": "https://www.yaoshuntoys.com/media/products-q92/2026050705/2.webp",
   "2026050706": "https://www.yaoshuntoys.com/media/products-q92/2026050706/3.webp",
 };
+
+const sourcedProductCollections = new Set<ShowcaseProductSeed["collection"]>([
+  "sports", "stem", "robots", "tents", "drones", "fans",
+]);
 
 function extractPieceCount(product: ProductJson) {
   const pools = [
@@ -63,6 +78,9 @@ function derivePieceBand(product: ProductJson): ShowcaseProductSeed["pieceBand"]
 
 function deriveAgeGroup(product: ProductJson): ShowcaseProductSeed["ageGroup"] {
   const pools = (product.attributePairs || [])
+    .filter((item) => [item.key?.en, item.key?.zh].some((key) =>
+      /^(age range|age|适用年龄|年龄)$/i.test(String(key || "").trim()),
+    ))
     .flatMap((item) => [item.value?.en, item.value?.zh])
     .map((value) => String(value || ""));
 
@@ -79,6 +97,11 @@ function deriveAgeGroup(product: ProductJson): ShowcaseProductSeed["ageGroup"] {
 }
 
 function deriveCollection(product: ProductJson): ShowcaseProductSeed["collection"] {
+  const category = product.tags?.find((tag) =>
+    sourcedProductCollections.has(tag.key as ShowcaseProductSeed["collection"]),
+  );
+  if (category) return category.key as ShowcaseProductSeed["collection"];
+
   const text = [
     product.title?.en,
     product.title?.zh,
@@ -88,17 +111,10 @@ function deriveCollection(product: ProductJson): ShowcaseProductSeed["collection
     .join(" ")
     .toLowerCase();
 
-  const pieceCount = extractPieceCount(product);
   const isAccessory =
     /(connector|construction rod|rods|sphere|rotating ball piece|piece set|配件|连接球|连接杆)/.test(text) &&
     !/(fort building kit|fort builder|堡垒搭建|套装)/.test(text);
-  const isCustom = /(custom|oem|odm|private label|定制|贴牌|来样|来图)/.test(text);
-
-  if (isCustom) return "accessories";
-  if (isAccessory) return "accessories";
-  if (/(glow|secret base|christmas|sports|outdoor|night|夜光|秘密基地|圣诞|运动)/.test(text)) return "themed";
-  if (/(rotating|oversized|creative|1:8|升级|大颗粒|旋转球)/.test(text)) return "creative";
-  if (pieceCount > 0 && pieceCount <= 80) return "starter";
+  if (isAccessory) return "building";
   return "building";
 }
 
@@ -180,6 +196,21 @@ const seoSearchIntentSignals = [
   "supplier",
   "tent",
   "toy",
+  "sports",
+  "football",
+  "basketball",
+  "pool",
+  "robot",
+  "robotics",
+  "remote control",
+  "drone",
+  "camera",
+  "fan",
+  "portable",
+  "cooling",
+  "science",
+  "experiment",
+  "educational",
   "yaoshun",
   "搭建",
   "拼搭",
@@ -211,6 +242,15 @@ const seoSearchIntentSignals = [
   "挤出",
   "交付",
   "出口",
+  "运动",
+  "足球",
+  "篮球",
+  "机器人",
+  "无人机",
+  "风扇",
+  "科学",
+  "实验",
+  "便携",
 ] as const;
 
 const priorityProductSeoKeywords = [
@@ -295,6 +335,48 @@ function uniqueSeoKeywords(keywords: readonly string[], limit: number) {
 }
 
 const categorySeoKeywordRules = [
+  {
+    source: ["sports and outdoor play", "运动与户外玩具"],
+    keywords: {
+      en: ["sports toys wholesale", "kids football basketball set"],
+      zh: ["运动玩具批发", "儿童足球篮球套装"],
+    },
+  },
+  {
+    source: ["robots and rc toys", "机器人与遥控玩具"],
+    keywords: {
+      en: ["RC robot toy supplier", "programmable robot toy"],
+      zh: ["遥控机器人玩具供应商", "可编程机器人玩具"],
+    },
+  },
+  {
+    source: ["drones", "无人机"],
+    keywords: {
+      en: ["camera drone supplier", "brushless toy drone"],
+      zh: ["航拍无人机供应商", "无刷玩具无人机"],
+    },
+  },
+  {
+    source: ["portable fans", "便携风扇"],
+    keywords: {
+      en: ["portable fan supplier", "rechargeable handheld fan"],
+      zh: ["便携风扇供应商", "可充电手持风扇"],
+    },
+  },
+  {
+    source: ["science experiment kits", "科学实验套装"],
+    keywords: {
+      en: ["science experiment kit supplier", "STEM experiment kit"],
+      zh: ["科学实验套装供应商", "STEM实验套装"],
+    },
+  },
+  {
+    source: ["children's play tents", "儿童游戏帐篷"],
+    keywords: {
+      en: ["children's play tent supplier", "pretend play tent"],
+      zh: ["儿童游戏帐篷供应商", "过家家游戏帐篷"],
+    },
+  },
   {
     source: ["educational toys", "益智玩具"],
     keywords: {
@@ -491,6 +573,9 @@ function getPieceCountSeoKeywords(locale: Locale, product: ProductJson) {
   ]
     .join(" ")
     .toLowerCase();
+  if (!/fort|building|construction|拼搭|堡垒|积木|连接杆/.test(titleText)) {
+    return [];
+  }
   const isGlow = /glow|luminous|发光|夜光/.test(titleText);
   const isSecretBase = /secret base|秘密基地/.test(titleText);
 
@@ -532,8 +617,8 @@ function getProductCustomizationSeoKeywords(locale: Locale, product: ProductJson
   if (/logo|packaging|graphic|custom|oem|odm|定制|包装|图文/.test(text)) {
     keywords.push(
       ...getKeywordPool(locale, {
-        en: ["custom fort kit packaging"],
-        zh: ["堡垒套装包装定制"],
+        en: ["custom toy packaging"],
+        zh: ["玩具包装定制"],
       }),
     );
   }
@@ -541,13 +626,58 @@ function getProductCustomizationSeoKeywords(locale: Locale, product: ProductJson
   if (/private|label|贴牌/.test(text)) {
     keywords.push(
       ...getKeywordPool(locale, {
-        en: ["private label fort building kit"],
-        zh: ["私标堡垒拼搭套装"],
+        en: ["private label toy supplier"],
+        zh: ["私标玩具供应商"],
       }),
     );
   }
 
   return keywords;
+}
+
+function getProductDimensionSeoKeywords(
+  locale: Locale,
+  product: ProductJson,
+  categoryText: string,
+) {
+  const dimensionPairs = [
+    ...(product.attributePairs || []),
+    ...(product.productAttributes || []),
+    ...(product.specifications || []),
+  ].filter((pair) => {
+    const key = [pair.key?.en, pair.key?.zh].filter(Boolean).join(" ");
+    return /dimension|size|height|width|depth|diameter|overall|base|screen|尺寸|高度|宽度|深度|直径|屏幕/i.test(key);
+  });
+  const dimensions = Array.from(new Set(
+    dimensionPairs
+      .map((pair) => localizeProductText(locale, pair.value))
+      .map((value) => value.replace(/\s+/g, " ").trim())
+      .filter(Boolean),
+  )).slice(0, 2);
+
+  if (!dimensions.length) return [];
+
+  const normalizedCategory = categoryText.toLowerCase();
+  let categoryLabel = locale === "zh" ? "玩具" : "toy";
+  if (normalizedCategory.includes("drone") || normalizedCategory.includes("无人机")) {
+    categoryLabel = locale === "zh" ? "无人机" : "camera drone";
+  } else if (normalizedCategory.includes("tent") || normalizedCategory.includes("帐篷")) {
+    categoryLabel = locale === "zh" ? "儿童游戏帐篷" : "children's play tent";
+  } else if (normalizedCategory.includes("sport") || normalizedCategory.includes("运动")) {
+    categoryLabel = locale === "zh" ? "运动玩具" : "sports toy set";
+  } else if (normalizedCategory.includes("robot") || normalizedCategory.includes("机器人")) {
+    categoryLabel = locale === "zh" ? "机器人玩具" : "robot toy";
+  } else if (normalizedCategory.includes("fan") || normalizedCategory.includes("风扇")) {
+    categoryLabel = locale === "zh" ? "便携风扇" : "portable fan";
+  } else if (normalizedCategory.includes("science") || normalizedCategory.includes("科学")) {
+    categoryLabel = locale === "zh" ? "科学实验套装" : "STEM experiment kit";
+  }
+
+  return dimensions.map((dimension) =>
+    locale === "zh"
+      ? `${dimension}${categoryLabel}供应商`
+      : `${dimension} ${categoryLabel} supplier`,
+  );
 }
 
 export function getProductSeoKeywords(
@@ -566,6 +696,12 @@ export function getProductSeoKeywords(
     ...sourceCategories,
     ...tags,
   ]);
+  const categoryText = [...sourceCategories, ...tags].join(" ");
+  const dimensionSeoKeywords = getProductDimensionSeoKeywords(
+    locale,
+    product,
+    categoryText,
+  );
   const pairValues = [
     ...(product.attributePairs || []),
     ...(product.productAttributes || []),
@@ -577,17 +713,8 @@ export function getProductSeoKeywords(
 
   return uniqueSeoKeywords(
     [
-      ...getKeywordPool(locale, {
-        en: [
-          "fort building toy",
-          "fort building kit",
-          "Fort Building Kit Manufacturer",
-          "fort building toy factory",
-          "construction toys wholesale",
-        ],
-        zh: ["堡垒搭建套装", "STEM玩具", "搭建堡垒玩具"],
-      }),
       title,
+      ...dimensionSeoKeywords,
       ...getPieceCountSeoKeywords(locale, product),
       ...categorySeoKeywords,
       ...pairValues,
@@ -602,13 +729,22 @@ export function getCatalogSeoKeywords(locale: Locale, limit = 2) {
     getKeywordPool(locale, {
       en: [
         "fort building toys wholesale",
-        "bulk fort building kits",
-        "private label fort building kits",
-        "ball and rod tent supplier",
-        "rotating ball fort building kit",
-        "storage bag fort kit",
+        "sports toy wholesale",
+        "STEM toy supplier",
+        "robot toy manufacturer",
+        "children's play tent supplier",
+        "camera drone supplier",
+        "portable fan wholesale",
       ],
-      zh: ["旋转球堡垒拼搭套装", "收纳袋堡垒拼搭套装"],
+      zh: [
+        "堡垒拼搭套装批发",
+        "运动玩具批发",
+        "STEM玩具供应商",
+        "机器人玩具厂家",
+        "儿童游戏帐篷供应商",
+        "航拍无人机供应商",
+        "便携风扇批发",
+      ],
     }),
     limit,
   );
@@ -722,7 +858,7 @@ function getCuratedShowcaseItems(
 }
 
 export function getHomeFeaturedShowcaseCatalog() {
-  return getShowcaseCatalog().slice(0, 8);
+  return getCuratedShowcaseItems(curatedHomeBestsellerIds);
 }
 
 export function getProductsFeaturedRailCatalog() {
@@ -777,6 +913,7 @@ export function getAdjacentShowcaseProducts(productId: string) {
 }
 
 export function getProductPiecesLabel(item: ShowcaseCatalogItem) {
+  if (sourcedProductCollections.has(item.collection)) return item.product.productId;
   const pieceCount = extractPieceCount(item.product);
   return pieceCount ? `${pieceCount} PCS` : item.pieceBand.toUpperCase();
 }

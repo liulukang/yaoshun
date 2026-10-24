@@ -25,7 +25,7 @@
   --home-section-padding-y: clamp(1.8rem, 2.8vw, 2.4rem);
   --home-section-padding-x: clamp(1.5rem, 2.5vw, 2rem);
   display: grid;
-  gap: 5.6rem;
+  gap: clamp(3rem, 4vw, 4rem);
 }
 
 .home-hero-block {
@@ -529,6 +529,7 @@
   min-height: clamp(6.2rem, 6.8vw, 7.6rem);
   padding: 1rem 1.1rem;
   position: relative;
+  margin-top: -3.8rem;
   z-index: 2;
   border: 1px solid rgba(24, 56, 138, 0.08);
   background: rgba(255, 255, 255, 0.92);
@@ -668,6 +669,154 @@
   margin: 0.55rem 0 0;
   font-size: 0.78rem;
   line-height: 1.42;
+}
+
+.home-product-types {
+  width: 100%;
+  min-width: 0;
+  padding: var(--home-section-padding-y) var(--home-section-padding-x);
+}
+
+.home-product-type-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.85rem;
+  margin-top: 1.35rem;
+}
+
+.home-product-type-link {
+  display: block;
+  min-width: 0;
+  overflow: hidden;
+  border: 1px solid rgba(24, 56, 138, 0.1);
+  border-radius: 1.28rem;
+  background: #ffffff;
+  color: #17306e;
+  text-decoration: none;
+  box-shadow: 0 14px 30px -28px rgba(18, 39, 96, 0.24);
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease,
+    transform 0.2s ease;
+}
+
+.home-product-type-link:hover {
+  border-color: rgba(37, 99, 255, 0.3);
+  box-shadow: 0 18px 34px -26px rgba(18, 39, 96, 0.3);
+  transform: translateY(-1px);
+}
+
+.home-product-type-link:focus-visible {
+  outline: 3px solid rgba(37, 99, 255, 0.28);
+  outline-offset: 3px;
+}
+
+.home-product-type-image-wrap {
+  position: relative;
+  display: block;
+  aspect-ratio: 4 / 3;
+  min-height: 0;
+  background: #eef4ff;
+}
+
+.home-product-type-image {
+  object-fit: cover;
+  object-position: center center;
+  transition: transform 0.35s ease;
+}
+
+.home-product-type-link:hover .home-product-type-image {
+  transform: scale(1.03);
+}
+
+.home-product-type-copy {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  grid-template-rows: auto auto;
+  align-items: center;
+  gap: 0.26rem 0.65rem;
+  min-width: 0;
+  padding: 1rem 1.1rem 1.05rem;
+}
+
+.home-product-type-copy strong {
+  overflow: hidden;
+  color: #17306e;
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 1.25;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.home-product-type-copy > span:last-of-type {
+  grid-column: 1;
+  color: #7b8bb3;
+  font-size: 0.74rem;
+  line-height: 1.3;
+}
+
+.home-product-type-arrow {
+  flex: 0 0 auto;
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  margin-left: auto;
+  align-self: center;
+  color: #8b9bc1;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.home-product-type-link:hover .home-product-type-arrow {
+  color: #2563ff;
+  transform: translateX(2px);
+}
+
+.home-sourcing-brief {
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(18rem, 0.75fr);
+  gap: clamp(1.5rem, 4vw, 4rem);
+  width: 100%;
+  min-width: 0;
+  padding: clamp(2rem, 4vw, 3.1rem) var(--home-section-padding-x);
+  border: 1px solid rgba(37, 99, 255, 0.08);
+  border-radius: 1.45rem;
+  background: linear-gradient(135deg, #f7faff 0%, #ffffff 72%);
+}
+
+.home-sourcing-brief-copy {
+  min-width: 0;
+}
+
+.home-sourcing-brief-text {
+  max-width: 64rem;
+  margin: 1rem 0 0;
+  color: #53648f;
+  font-size: 0.98rem;
+  line-height: 1.85;
+}
+
+.home-sourcing-brief-list {
+  display: grid;
+  align-content: center;
+  gap: 0.95rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.home-sourcing-brief-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.7rem;
+  color: #29427e;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.home-sourcing-brief-list svg {
+  flex: 0 0 auto;
+  margin-top: 0.15rem;
+  color: #2563ff;
 }
 
 .home-why {
@@ -996,7 +1145,7 @@
 .home-page {
     --home-section-padding-y: 1.15rem;
     --home-section-padding-x: 0.95rem;
-    gap: 2.05rem;
+    gap: 1.8rem;
   }
 
   .home-hero-section {
@@ -1157,6 +1306,10 @@
     padding: var(--home-section-padding-y) var(--home-section-padding-x);
   }
 
+  .home-stats {
+    margin-top: -1.1rem;
+  }
+
 .home-bestseller,
   .home-why,
   .home-about,
@@ -1200,6 +1353,64 @@
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
+  }
+
+  .home-product-types {
+    padding: 0;
+  }
+
+  .home-sourcing-brief {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+    padding: 1.35rem 1rem;
+    border-radius: 1rem;
+  }
+
+  .home-sourcing-brief-text {
+    margin-top: 0.7rem;
+    font-size: 0.82rem;
+    line-height: 1.72;
+  }
+
+  .home-sourcing-brief-list {
+    gap: 0.72rem;
+  }
+
+  .home-sourcing-brief-list li {
+    font-size: 0.78rem;
+  }
+
+  .home-product-types-text {
+    font-size: 0.82rem;
+    line-height: 1.5;
+  }
+
+  .home-product-type-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.62rem;
+    margin-top: 0.9rem;
+  }
+
+  .home-product-type-link {
+    border-radius: 0.85rem;
+  }
+
+  .home-product-type-copy {
+    gap: 0.22rem 0.5rem;
+    padding: 0.78rem 0.78rem 0.84rem;
+  }
+
+  .home-product-type-copy strong {
+    font-size: 0.78rem;
+  }
+
+  .home-product-type-copy > span:last-of-type {
+    font-size: 0.68rem;
+  }
+
+  .home-product-type-arrow {
+    width: 0.9rem;
+    height: 0.9rem;
   }
 
   .home-why-features {

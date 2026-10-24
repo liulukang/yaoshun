@@ -1,0 +1,856 @@
+{
+  "productId": "RG600Pro",
+  "module": "toys",
+  "priority": 1036,
+  "tags": [
+    {
+      "key": "drones",
+      "en": "Drones",
+      "zh": "无人机"
+    }
+  ],
+  "title": {
+    "zh": "RG600Pro四面避障4K无人机",
+    "en": "RG600Pro 4K Drone with Four-Side Obstacle Avoidance"
+  },
+  "summary": {
+    "zh": "黑橙配色可拆装无人机，配无刷电机、光流定位和四面避障，含2000 mAh电池。",
+    "en": "A detachable black-and-orange drone with brushless motors, optical flow, four-side obstacle avoidance and one 2,000 mAh battery."
+  },
+  "description": {
+    "zh": [
+      "黑橙配色可拆装无人机，配无刷电机、光流定位和四面避障，含2000 mAh电池。",
+      "机身采用可拆装设计，黑色和橙色混装。",
+      "APP资料列有滤镜、视频特效、背景音乐及图片视频分享；套装含ZN 2000 mAh电池1块。"
+    ],
+    "en": [
+      "A detachable black-and-orange drone with brushless motors, optical flow, four-side obstacle avoidance and one 2,000 mAh battery.",
+      "The body uses a detachable design and black-and-orange units are mixed.",
+      "The app is listed with filters, video effects, background music and photo/video sharing."
+    ]
+  },
+  "categories": {
+    "zh": [
+      "无人机"
+    ],
+    "en": [
+      "Drones"
+    ]
+  },
+  "pricing": {
+    "display": {
+      "zh": "¥191.62",
+      "en": "¥191.62"
+    },
+    "currency": "CNY",
+    "min": 191.62,
+    "max": 191.62,
+    "isRange": false,
+    "tiers": [
+      {
+        "quantity": {
+          "zh": "价格",
+          "en": "Price"
+        },
+        "price": "¥191.62"
+      }
+    ]
+  },
+  "specifications": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "RG600Pro",
+        "en": "RG600Pro"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "无人机",
+        "en": "Drones"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    },
+    {
+      "key": {
+        "zh": "供应商备注（原文）",
+        "en": "Supplier Notes (Original Chinese)"
+      },
+      "value": {
+        "zh": "(可以拆装\n1000只起)内含1电池 \n型号：ZN2000mAh,两色混装,图像跟随：距离飞行器1-3m 识别拍摄对象 并进行自动跟随飞行。手势拍照识别：距离飞行器1-3m以内，面对摄像头做出拍照手势。MV功能：滤镜、视频特效、增加背景乐、 图片/视频分享"
+      }
+    }
+  ],
+  "productAttributes": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "RG600Pro",
+        "en": "RG600Pro"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "无人机",
+        "en": "Drones"
+      }
+    },
+    {
+      "key": {
+        "zh": "适用年龄",
+        "en": "Age Range"
+      },
+      "value": {
+        "zh": "14岁及以上",
+        "en": "Ages 14+"
+      }
+    },
+    {
+      "key": {
+        "zh": "电机类型",
+        "en": "Motor Type"
+      },
+      "value": {
+        "zh": "无刷电机",
+        "en": "Brushless motor"
+      }
+    },
+    {
+      "key": {
+        "zh": "航拍规格",
+        "en": "Camera Specification"
+      },
+      "value": {
+        "zh": "4K（供应商标称）",
+        "en": "4K (supplier-stated)"
+      }
+    },
+    {
+      "key": {
+        "zh": "定位功能",
+        "en": "Positioning"
+      },
+      "value": {
+        "zh": "光流定位",
+        "en": "Optical-flow positioning"
+      }
+    },
+    {
+      "key": {
+        "zh": "避障配置",
+        "en": "Obstacle Avoidance"
+      },
+      "value": {
+        "zh": "四面避障",
+        "en": "Four-side obstacle avoidance"
+      }
+    },
+    {
+      "key": {
+        "zh": "电池配置",
+        "en": "Battery Configuration"
+      },
+      "value": {
+        "zh": "单电池版，2,000 mAh",
+        "en": "One 2,000 mAh battery included"
+      }
+    },
+    {
+      "key": {
+        "zh": "图像跟随",
+        "en": "Image Tracking"
+      },
+      "value": {
+        "zh": "约1–3 m识别并跟随拍摄对象",
+        "en": "Subject recognition and tracking at approx. 1–3 m"
+      }
+    },
+    {
+      "key": {
+        "zh": "手势拍照",
+        "en": "Gesture Photography"
+      },
+      "value": {
+        "zh": "约1–3 m内识别拍照手势",
+        "en": "Photo gesture recognition at approx. 1–3 m"
+      }
+    },
+    {
+      "key": {
+        "zh": "APP功能",
+        "en": "App Functions"
+      },
+      "value": {
+        "zh": "滤镜、视频特效、背景音乐及图片视频分享",
+        "en": "Filters, video effects, background music and photo/video sharing"
+      }
+    },
+    {
+      "key": {
+        "zh": "颜色",
+        "en": "Color"
+      },
+      "value": {
+        "zh": "黑色、橙色，两色混装",
+        "en": "Black and orange, mixed colors"
+      }
+    },
+    {
+      "key": {
+        "zh": "结构",
+        "en": "Construction"
+      },
+      "value": {
+        "zh": "可拆装设计",
+        "en": "Detachable design"
+      }
+    },
+    {
+      "key": {
+        "zh": "电池型号",
+        "en": "Battery Model"
+      },
+      "value": {
+        "zh": "ZN / 2,000 mAh",
+        "en": "ZN / 2,000 mAh"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "25 × 9.5 × 20 cm",
+        "en": "25 × 9.5 × 20 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "50 × 40 × 63 cm",
+        "en": "50 × 40 × 63 cm"
+      }
+    }
+  ],
+  "attributePairs": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "RG600Pro",
+        "en": "RG600Pro"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "无人机",
+        "en": "Drones"
+      }
+    },
+    {
+      "key": {
+        "zh": "适用年龄",
+        "en": "Age Range"
+      },
+      "value": {
+        "zh": "14岁及以上",
+        "en": "Ages 14+"
+      }
+    },
+    {
+      "key": {
+        "zh": "电机类型",
+        "en": "Motor Type"
+      },
+      "value": {
+        "zh": "无刷电机",
+        "en": "Brushless motor"
+      }
+    },
+    {
+      "key": {
+        "zh": "航拍规格",
+        "en": "Camera Specification"
+      },
+      "value": {
+        "zh": "4K（供应商标称）",
+        "en": "4K (supplier-stated)"
+      }
+    },
+    {
+      "key": {
+        "zh": "定位功能",
+        "en": "Positioning"
+      },
+      "value": {
+        "zh": "光流定位",
+        "en": "Optical-flow positioning"
+      }
+    },
+    {
+      "key": {
+        "zh": "避障配置",
+        "en": "Obstacle Avoidance"
+      },
+      "value": {
+        "zh": "四面避障",
+        "en": "Four-side obstacle avoidance"
+      }
+    },
+    {
+      "key": {
+        "zh": "电池配置",
+        "en": "Battery Configuration"
+      },
+      "value": {
+        "zh": "单电池版，2,000 mAh",
+        "en": "One 2,000 mAh battery included"
+      }
+    },
+    {
+      "key": {
+        "zh": "图像跟随",
+        "en": "Image Tracking"
+      },
+      "value": {
+        "zh": "约1–3 m识别并跟随拍摄对象",
+        "en": "Subject recognition and tracking at approx. 1–3 m"
+      }
+    },
+    {
+      "key": {
+        "zh": "手势拍照",
+        "en": "Gesture Photography"
+      },
+      "value": {
+        "zh": "约1–3 m内识别拍照手势",
+        "en": "Photo gesture recognition at approx. 1–3 m"
+      }
+    },
+    {
+      "key": {
+        "zh": "APP功能",
+        "en": "App Functions"
+      },
+      "value": {
+        "zh": "滤镜、视频特效、背景音乐及图片视频分享",
+        "en": "Filters, video effects, background music and photo/video sharing"
+      }
+    },
+    {
+      "key": {
+        "zh": "颜色",
+        "en": "Color"
+      },
+      "value": {
+        "zh": "黑色、橙色，两色混装",
+        "en": "Black and orange, mixed colors"
+      }
+    },
+    {
+      "key": {
+        "zh": "结构",
+        "en": "Construction"
+      },
+      "value": {
+        "zh": "可拆装设计",
+        "en": "Detachable design"
+      }
+    },
+    {
+      "key": {
+        "zh": "电池型号",
+        "en": "Battery Model"
+      },
+      "value": {
+        "zh": "ZN / 2,000 mAh",
+        "en": "ZN / 2,000 mAh"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "25 × 9.5 × 20 cm",
+        "en": "25 × 9.5 × 20 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "50 × 40 × 63 cm",
+        "en": "50 × 40 × 63 cm"
+      }
+    }
+  ],
+  "packagingAndShipping": {
+    "summary": {
+      "zh": "单品包装及外箱规格如下，运输费用另行核算。",
+      "en": "Individual packing and carton specifications are listed below. Shipping is quoted separately."
+    },
+    "blocks": [
+      {
+        "label": {
+          "zh": "包装方式",
+          "en": "Packaging"
+        },
+        "value": {
+          "zh": "彩盒",
+          "en": "Color box"
+        }
+      },
+      {
+        "label": {
+          "zh": "包装尺寸",
+          "en": "Package Dimensions"
+        },
+        "value": {
+          "zh": "25 × 9.5 × 20 cm",
+          "en": "25 × 9.5 × 20 cm"
+        }
+      },
+      {
+        "label": {
+          "zh": "外箱尺寸",
+          "en": "Carton Dimensions"
+        },
+        "value": {
+          "zh": "50 × 40 × 63 cm",
+          "en": "50 × 40 × 63 cm"
+        }
+      },
+      {
+        "label": {
+          "zh": "外箱体积（按尺寸计算）",
+          "en": "Carton Volume (Calculated)"
+        },
+        "value": {
+          "zh": "0.126 m³",
+          "en": "0.126 m³"
+        }
+      },
+      {
+        "label": {
+          "zh": "运输费用",
+          "en": "Shipping Cost"
+        },
+        "value": {
+          "zh": "按目的地、箱数及运输方式另行报价。",
+          "en": "Quoted separately by destination, carton quantity and shipping method."
+        }
+      }
+    ],
+    "unitSize": "25 × 9.5 × 20 cm"
+  },
+  "packagingPairs": [
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "25 × 9.5 × 20 cm",
+        "en": "25 × 9.5 × 20 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "50 × 40 × 63 cm",
+        "en": "50 × 40 × 63 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱体积（按尺寸计算）",
+        "en": "Carton Volume (Calculated)"
+      },
+      "value": {
+        "zh": "0.126 m³",
+        "en": "0.126 m³"
+      }
+    },
+    {
+      "key": {
+        "zh": "运输费用",
+        "en": "Shipping Cost"
+      },
+      "value": {
+        "zh": "按目的地、箱数及运输方式另行报价。",
+        "en": "Quoted separately by destination, carton quantity and shipping method."
+      }
+    }
+  ],
+  "media": {
+    "main": [
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/RG600Pro/7457268263b3.webp"
+      }
+    ],
+    "detail": [
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/RG600Pro/2f2eaaa01a33.webp"
+      },
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/RG600Pro/e36cf53813f3.webp"
+      }
+    ]
+  },
+  "images": [
+    "https://www.yaoshuntoys.com/media/products-q92/RG600Pro/7457268263b3.webp",
+    "https://www.yaoshuntoys.com/media/products-q92/RG600Pro/2f2eaaa01a33.webp",
+    "https://www.yaoshuntoys.com/media/products-q92/RG600Pro/e36cf53813f3.webp"
+  ],
+  "videos": [],
+  "productDetails": [
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "4K与光流定位",
+        "en": "4K camera and optical flow"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/RG600Pro/7457268263b3.webp",
+      "text": {
+        "zh": "供应商资料将摄像头标为4K，并列有光流定位和四面避障。实际画质、避障效果和APP版本按样品与出货配置核对。",
+        "en": "The supplier lists a 4K camera, optical-flow positioning and four-side obstacle avoidance. Verify image quality, sensing performance and app version against the sample and shipment."
+      }
+    },
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "可拆装黑橙机身",
+        "en": "Detachable black-and-orange body"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/RG600Pro/2f2eaaa01a33.webp",
+      "text": {
+        "zh": "机身采用可拆装设计，黑色和橙色混装。需要做图像跟随或手势拍照时，资料列的识别距离约为1–3 m。",
+        "en": "The body uses a detachable design and black-and-orange units are mixed. The listed recognition distance for subject tracking and gesture photography is about 1–3 m."
+      }
+    },
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "APP影像功能与电池",
+        "en": "App features and battery"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/RG600Pro/e36cf53813f3.webp",
+      "text": {
+        "zh": "APP资料列有滤镜、视频特效、背景音乐及图片视频分享；套装含ZN 2000 mAh电池1块。资料注明1000只起订，需按订单核对。",
+        "en": "The app is listed with filters, video effects, background music and photo/video sharing. One ZN 2,000 mAh battery is included. The source states a 1,000-piece MOQ; confirm it for the order."
+      }
+    }
+  ],
+  "sourceData": {
+    "file": "挑样资料.xlsx",
+    "sha256": "30f47eb8405198bf6e92d33a2beecc7e62fb016f6bf26d476c79d2f816eefae0",
+    "sheet": "Blank_A4_Landscape_1019",
+    "row": 39,
+    "cells": {
+      "B": "RG600Pro",
+      "C": "4K无刷航拍无人机+光流定位+四面避障飞行器  四轴（黑色/橙色）",
+      "D": "彩盒",
+      "E": 0,
+      "F": 24,
+      "G": "147.4",
+      "H": "25",
+      "I": "9.5",
+      "J": "20",
+      "K": "50",
+      "L": "40",
+      "M": "63",
+      "N": "0.13",
+      "O": "4.45",
+      "P": "15.8",
+      "Q": "14.6",
+      "R": "\n(可以拆装\n1000只起)内含1电池 \n型号：ZN2000mAh,两色混装,图像跟随：距离飞行器1-3m 识别拍摄对象 并进行自动跟随飞行。手势拍照识别：距离飞行器1-3m以内，面对摄像头做出拍照手势。MV功能：滤镜、视频特效、增加背景乐、 图片/视频分享"
+    },
+    "priceAdjustment": {
+      "currency": "CNY",
+      "originalPrice": 147.4,
+      "markupRate": 0.3,
+      "adjustedPrice": 191.62,
+      "decimalPlaces": 2,
+      "rounding": "ROUND_HALF_UP"
+    },
+    "reviewNotes": [],
+    "attributeEnrichment": {
+      "sources": [
+        "title",
+        "description",
+        "sourceData.cells",
+        "productDetails.text",
+        "packagingPairs"
+      ],
+      "dimensionUnit": "cm",
+      "dimensionUnitBasis": "用户确认未注明单位的尺寸按厘米处理",
+      "packagingImage": "https://www.yaoshuntoys.com/media/products-q92/RG600Pro/7457268263b3.webp",
+      "imageAttributeKeys": [
+        "Age Range"
+      ],
+      "ageStatus": "packaging-label"
+    },
+    "originalDescription": {
+      "zh": [
+        "4K无刷航拍无人机+光流定位+四面避障飞行器  四轴（黑色/橙色）",
+        "(可以拆装\n1000只起)内含1电池 \n型号：ZN2000mAh,两色混装,图像跟随：距离飞行器1-3m 识别拍摄对象 并进行自动跟随飞行。手势拍照识别：距离飞行器1-3m以内，面对摄像头做出拍照手势。MV功能：滤镜、视频特效、增加背景乐、 图片/视频分享"
+      ],
+      "en": [
+        "4K Brushless Camera Drone with Optical Flow and Four-Side Obstacle Avoidance",
+        "Detachable design; source lists minimum order of 1,000 units. Includes one battery; battery model ZN, 2,000 mAh. Black and orange units are mixed. Image tracking recognizes and follows a subject at a stated distance of 1–3 m. Gesture recognition enables photography within 1–3 m of the camera. App includes filters, video effects, background music, and photo/video sharing."
+      ]
+    },
+    "workbookReview": {
+      "file": "/Users/lukang.liu/Desktop/github/yaoshun/挑样资料.xlsx",
+      "sha256": "30f47eb8405198bf6e92d33a2beecc7e62fb016f6bf26d476c79d2f816eefae0",
+      "sheet": "Blank_A4_Landscape_1019",
+      "row": 39,
+      "imagePart": "xl/media/image37.jpeg"
+    },
+    "originalPackagingPairs": [
+      {
+        "key": {
+          "zh": "包装方式",
+          "en": "Packaging"
+        },
+        "value": {
+          "zh": "彩盒",
+          "en": "Color box"
+        }
+      },
+      {
+        "key": {
+          "zh": "装箱量（E列）",
+          "en": "Packing Quantity (Column E)"
+        },
+        "value": {
+          "zh": "0",
+          "en": "0"
+        }
+      },
+      {
+        "key": {
+          "zh": "装箱量（F列）",
+          "en": "Packing Quantity (Column F)"
+        },
+        "value": {
+          "zh": "24",
+          "en": "24"
+        }
+      },
+      {
+        "key": {
+          "zh": "包装规格（原表单位）",
+          "en": "Package Dimensions (Source Units)"
+        },
+        "value": {
+          "zh": "25 × 9.5 × 20",
+          "en": "25 × 9.5 × 20"
+        }
+      },
+      {
+        "key": {
+          "zh": "外箱规格（原表单位）",
+          "en": "Carton Dimensions (Source Units)"
+        },
+        "value": {
+          "zh": "50 × 40 × 63",
+          "en": "50 × 40 × 63"
+        }
+      },
+      {
+        "key": {
+          "zh": "体积（原表单位）",
+          "en": "Volume (Source Units)"
+        },
+        "value": {
+          "zh": "0.13",
+          "en": "0.13"
+        }
+      },
+      {
+        "key": {
+          "zh": "材积（原表单位）",
+          "en": "Shipping Measurement (Source Units)"
+        },
+        "value": {
+          "zh": "4.45",
+          "en": "4.45"
+        }
+      },
+      {
+        "key": {
+          "zh": "毛重（原表单位）",
+          "en": "Gross Weight (Source Units)"
+        },
+        "value": {
+          "zh": "15.8",
+          "en": "15.8"
+        }
+      },
+      {
+        "key": {
+          "zh": "净重（原表单位）",
+          "en": "Net Weight (Source Units)"
+        },
+        "value": {
+          "zh": "14.6",
+          "en": "14.6"
+        }
+      }
+    ],
+    "contentReview": {
+      "status": "edited-individually",
+      "scope": [
+        "description",
+        "productDetails",
+        "attributePairs",
+        "customizationOptions",
+        "packagingAndShipping",
+        "leadTime"
+      ],
+      "copyStyle": "具体、简洁，按本款资料描述；未确认的配置不扩写为承诺",
+      "deliveryBasis": "未提供本款确认的天数，按样品、常规订单和定制订单说明确认节点",
+      "preservedImageUrls": true
+    }
+  },
+  "customizationOptions": [
+    {
+      "label": {
+        "zh": "包装与品牌版面",
+        "en": "Packaging and Branding"
+      },
+      "minOrder": {
+        "zh": "可提交LOGO、条码和包装图稿，按4K无人机包装方案核对印刷。",
+        "en": "Submit logo, barcode and package artwork for review of the 4K-drone packaging."
+      }
+    },
+    {
+      "label": {
+        "zh": "电池与颜色配置",
+        "en": "Battery and Color Configuration"
+      },
+      "minOrder": {
+        "zh": "可提出电池数量、黑橙配色和备用件需求，按RG600Pro确认混装方式。",
+        "en": "Request battery quantity, black-and-orange color handling or spare parts for RG600Pro confirmation."
+      }
+    },
+    {
+      "label": {
+        "zh": "说明书与APP语言",
+        "en": "Manual and App Language"
+      },
+      "minOrder": {
+        "zh": "可提交说明书和APP语言需求，摄像头与避障功能按最终版本确认。",
+        "en": "Submit manual and app language requirements. Camera and obstacle-sensing functions are confirmed for the final version."
+      }
+    }
+  ],
+  "leadTime": {
+    "notes": [
+      {
+        "label": {
+          "zh": "样品订单",
+          "en": "Samples"
+        },
+        "value": {
+          "zh": "先确认RG600Pro摄像头、避障和配色混装版本，再约定寄样日期。",
+          "en": "Confirm the RG600Pro camera, sensing and mixed-color configuration before agreeing a sample dispatch date."
+        }
+      },
+      {
+        "label": {
+          "zh": "常规订单",
+          "en": "Standard Orders"
+        },
+        "value": {
+          "zh": "按数量、包装备料和排产确认交期，国际运输时间另计。",
+          "en": "Confirm lead time against quantity, packing materials and production schedule; international transit is additional."
+        }
+      },
+      {
+        "label": {
+          "zh": "定制订单",
+          "en": "Customized Orders"
+        },
+        "value": {
+          "zh": "先确认图稿、功能版本和电池清单，再安排生产与出货排期。",
+          "en": "Approve artwork, function version and battery contents before scheduling production and dispatch."
+        }
+      }
+    ]
+  }
+}

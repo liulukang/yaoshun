@@ -1,0 +1,714 @@
+{
+  "productId": "X1",
+  "module": "toys",
+  "priority": 1040,
+  "tags": [
+    {
+      "key": "robots",
+      "en": "Robots and RC Toys",
+      "zh": "机器人与遥控玩具"
+    }
+  ],
+  "title": {
+    "zh": "AI语音编程机械狗",
+    "en": "AI Voice & Programmable Robot Dog"
+  },
+  "summary": {
+    "zh": "支持语音指令、编程动作、握手、跳舞和多种特技。",
+    "en": "Voice commands, programmable actions, handshakes, dancing and stunt moves."
+  },
+  "description": {
+    "zh": [
+      "支持语音指令、编程动作、握手、跳舞和多种特技。",
+      "动作清单列有握手、坐下、趴下、翻身、俯卧撑、倒立与功夫动作，也有跳舞、学习和歌曲内容。",
+      "机身使用3.7 V锂电池。"
+    ],
+    "en": [
+      "Voice commands, programmable actions, handshakes, dancing and stunt moves.",
+      "The action list includes handshakes, sitting, lying down, rolling over, push-ups, handstands and kung fu moves, along with dancing, learning activities and songs.",
+      "The body uses a 3.7 V lithium battery."
+    ]
+  },
+  "categories": {
+    "zh": [
+      "机器人与遥控玩具"
+    ],
+    "en": [
+      "Robots and RC Toys"
+    ]
+  },
+  "pricing": {
+    "display": {
+      "zh": "¥190.32",
+      "en": "¥190.32"
+    },
+    "currency": "CNY",
+    "min": 190.32,
+    "max": 190.32,
+    "isRange": false,
+    "tiers": [
+      {
+        "quantity": {
+          "zh": "价格",
+          "en": "Price"
+        },
+        "price": "¥190.32"
+      }
+    ]
+  },
+  "specifications": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "X1",
+        "en": "X1"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "机器人与遥控玩具",
+        "en": "Robots and RC Toys"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    },
+    {
+      "key": {
+        "zh": "供应商备注（原文）",
+        "en": "Supplier Notes (Original Chinese)"
+      },
+      "value": {
+        "zh": "3.7V锂电池\n前进，后退，左转，右转，停止，编程，语音指令，握手，问好，祝福，跳跃，战斗，撒尿，功夫，坐下，撒娇，趴下，翻身，俯卧撑，倒立，游泳，跳舞，学习，歌曲"
+      }
+    }
+  ],
+  "productAttributes": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "X1",
+        "en": "X1"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "机器人与遥控玩具",
+        "en": "Robots and RC Toys"
+      }
+    },
+    {
+      "key": {
+        "zh": "机身电池",
+        "en": "Product Battery"
+      },
+      "value": {
+        "zh": "3.7 V锂电池",
+        "en": "3.7 V lithium battery"
+      }
+    },
+    {
+      "key": {
+        "zh": "控制方式",
+        "en": "Control Method"
+      },
+      "value": {
+        "zh": "语音指令与编程动作",
+        "en": "Voice commands and programmable actions"
+      }
+    },
+    {
+      "key": {
+        "zh": "基本动作",
+        "en": "Movement"
+      },
+      "value": {
+        "zh": "前进、后退、左右转向与停止",
+        "en": "Forward, reverse, left/right turns and stop"
+      }
+    },
+    {
+      "key": {
+        "zh": "特技动作",
+        "en": "Stunt Actions"
+      },
+      "value": {
+        "zh": "跳跃、翻身、俯卧撑、倒立与功夫动作",
+        "en": "Jumping, rolling over, push-ups, handstands and kung fu moves"
+      }
+    },
+    {
+      "key": {
+        "zh": "互动功能",
+        "en": "Interactive Functions"
+      },
+      "value": {
+        "zh": "握手、问好、坐下、撒娇、跳舞、学习及歌曲",
+        "en": "Handshakes, greetings, sitting, affectionate gestures, dancing, learning and songs"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "28.5 × 18.5 × 18 cm",
+        "en": "28.5 × 18.5 × 18 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "59 × 57 × 56.5 cm",
+        "en": "59 × 57 × 56.5 cm"
+      }
+    }
+  ],
+  "attributePairs": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "X1",
+        "en": "X1"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "机器人与遥控玩具",
+        "en": "Robots and RC Toys"
+      }
+    },
+    {
+      "key": {
+        "zh": "机身电池",
+        "en": "Product Battery"
+      },
+      "value": {
+        "zh": "3.7 V锂电池",
+        "en": "3.7 V lithium battery"
+      }
+    },
+    {
+      "key": {
+        "zh": "控制方式",
+        "en": "Control Method"
+      },
+      "value": {
+        "zh": "语音指令与编程动作",
+        "en": "Voice commands and programmable actions"
+      }
+    },
+    {
+      "key": {
+        "zh": "基本动作",
+        "en": "Movement"
+      },
+      "value": {
+        "zh": "前进、后退、左右转向与停止",
+        "en": "Forward, reverse, left/right turns and stop"
+      }
+    },
+    {
+      "key": {
+        "zh": "特技动作",
+        "en": "Stunt Actions"
+      },
+      "value": {
+        "zh": "跳跃、翻身、俯卧撑、倒立与功夫动作",
+        "en": "Jumping, rolling over, push-ups, handstands and kung fu moves"
+      }
+    },
+    {
+      "key": {
+        "zh": "互动功能",
+        "en": "Interactive Functions"
+      },
+      "value": {
+        "zh": "握手、问好、坐下、撒娇、跳舞、学习及歌曲",
+        "en": "Handshakes, greetings, sitting, affectionate gestures, dancing, learning and songs"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "28.5 × 18.5 × 18 cm",
+        "en": "28.5 × 18.5 × 18 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "59 × 57 × 56.5 cm",
+        "en": "59 × 57 × 56.5 cm"
+      }
+    }
+  ],
+  "packagingAndShipping": {
+    "summary": {
+      "zh": "单品包装及外箱规格如下，运输费用另行核算。",
+      "en": "Individual packing and carton specifications are listed below. Shipping is quoted separately."
+    },
+    "blocks": [
+      {
+        "label": {
+          "zh": "包装方式",
+          "en": "Packaging"
+        },
+        "value": {
+          "zh": "彩盒",
+          "en": "Color box"
+        }
+      },
+      {
+        "label": {
+          "zh": "包装尺寸",
+          "en": "Package Dimensions"
+        },
+        "value": {
+          "zh": "28.5 × 18.5 × 18 cm",
+          "en": "28.5 × 18.5 × 18 cm"
+        }
+      },
+      {
+        "label": {
+          "zh": "外箱尺寸",
+          "en": "Carton Dimensions"
+        },
+        "value": {
+          "zh": "59 × 57 × 56.5 cm",
+          "en": "59 × 57 × 56.5 cm"
+        }
+      },
+      {
+        "label": {
+          "zh": "外箱体积（按尺寸计算）",
+          "en": "Carton Volume (Calculated)"
+        },
+        "value": {
+          "zh": "0.190 m³",
+          "en": "0.190 m³"
+        }
+      },
+      {
+        "label": {
+          "zh": "运输费用",
+          "en": "Shipping Cost"
+        },
+        "value": {
+          "zh": "按目的地、箱数及运输方式另行报价。",
+          "en": "Quoted separately by destination, carton quantity and shipping method."
+        }
+      }
+    ],
+    "unitSize": "28.5 × 18.5 × 18 cm"
+  },
+  "packagingPairs": [
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "28.5 × 18.5 × 18 cm",
+        "en": "28.5 × 18.5 × 18 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "59 × 57 × 56.5 cm",
+        "en": "59 × 57 × 56.5 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱体积（按尺寸计算）",
+        "en": "Carton Volume (Calculated)"
+      },
+      "value": {
+        "zh": "0.190 m³",
+        "en": "0.190 m³"
+      }
+    },
+    {
+      "key": {
+        "zh": "运输费用",
+        "en": "Shipping Cost"
+      },
+      "value": {
+        "zh": "按目的地、箱数及运输方式另行报价。",
+        "en": "Quoted separately by destination, carton quantity and shipping method."
+      }
+    }
+  ],
+  "media": {
+    "main": [
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/X1/6f4d450d1827.webp"
+      }
+    ],
+    "detail": [
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/X1/59455217a7fc.webp"
+      },
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/X1/df25742d1b0e.webp"
+      }
+    ]
+  },
+  "images": [
+    "https://www.yaoshuntoys.com/media/products-q92/X1/6f4d450d1827.webp",
+    "https://www.yaoshuntoys.com/media/products-q92/X1/59455217a7fc.webp",
+    "https://www.yaoshuntoys.com/media/products-q92/X1/df25742d1b0e.webp"
+  ],
+  "videos": [],
+  "productDetails": [
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "用语音和编程安排动作",
+        "en": "Voice commands and action sequences"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/X1/6f4d450d1827.webp",
+      "text": {
+        "zh": "X1支持语音指令与编程动作，基本移动包括前进、后退、左右转向和停止。可以先熟悉单个动作，再把几种动作排成一段表演。",
+        "en": "X1 supports voice commands and programmable actions. Basic movement includes forward, reverse, turns and stop. Learn individual actions before combining them into a short sequence."
+      }
+    },
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "从握手到翻身、倒立",
+        "en": "From handshakes to stunt moves"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/X1/59455217a7fc.webp",
+      "text": {
+        "zh": "动作清单列有握手、坐下、趴下、翻身、俯卧撑、倒立与功夫动作，也有跳舞、学习和歌曲内容。操作时可按动作类型逐项尝试，给肢体活动留出空间。",
+        "en": "The action list includes handshakes, sitting, lying down, rolling over, push-ups, handstands and kung fu moves, along with dancing, learning activities and songs. Leave room around the dog for its movements."
+      }
+    },
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "3.7 V锂电池供电",
+        "en": "Powered by a 3.7 V lithium battery"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/X1/df25742d1b0e.webp",
+      "text": {
+        "zh": "机身使用3.7 V锂电池。细节图展示面部显示区域和腿部关节，单品彩盒尺寸28.5 × 18.5 × 18 cm；资料未列出的充电时长和续航不作预设。",
+        "en": "The body uses a 3.7 V lithium battery. Detail images show the face display and leg joints. The color box measures 28.5 × 18.5 × 18 cm; charging and operating times have not been specified."
+      }
+    }
+  ],
+  "sourceData": {
+    "file": "挑样资料.xlsx",
+    "sha256": "30f47eb8405198bf6e92d33a2beecc7e62fb016f6bf26d476c79d2f816eefae0",
+    "sheet": "Blank_A4_Landscape_1019",
+    "row": 43,
+    "cells": {
+      "B": "X1",
+      "C": "AI智能机械狗",
+      "D": "彩盒",
+      "E": 0,
+      "F": 18,
+      "G": "146.4",
+      "H": "28.5",
+      "I": "18.5",
+      "J": "18",
+      "K": "59",
+      "L": "57",
+      "M": "56.5",
+      "N": "0.19",
+      "O": "6.7",
+      "P": "21.6",
+      "Q": "20.1",
+      "R": "3.7V锂电池\n前进，后退，左转，右转，停止，编程，语音指令，握手，问好，祝福，跳跃，战斗，撒尿，功夫，坐下，撒娇，趴下，翻身，俯卧撑，倒立，游泳，跳舞，学习，歌曲"
+    },
+    "priceAdjustment": {
+      "currency": "CNY",
+      "originalPrice": 146.4,
+      "markupRate": 0.3,
+      "adjustedPrice": 190.32,
+      "decimalPlaces": 2,
+      "rounding": "ROUND_HALF_UP"
+    },
+    "reviewNotes": [],
+    "attributeEnrichment": {
+      "sources": [
+        "title",
+        "description",
+        "sourceData.cells",
+        "productDetails.text",
+        "packagingPairs"
+      ],
+      "dimensionUnit": "cm",
+      "dimensionUnitBasis": "用户确认未注明单位的尺寸按厘米处理",
+      "packagingImage": "https://www.yaoshuntoys.com/media/products-q92/X1/6f4d450d1827.webp",
+      "imageAttributeKeys": [],
+      "ageStatus": "not-readable-or-not-shown"
+    },
+    "originalDescription": {
+      "zh": [
+        "AI智能机械狗",
+        "3.7V锂电池\n前进，后退，左转，右转，停止，编程，语音指令，握手，问好，祝福，跳跃，战斗，撒尿，功夫，坐下，撒娇，趴下，翻身，俯卧撑，倒立，游泳，跳舞，学习，歌曲"
+      ],
+      "en": [
+        "AI Smart Robot Dog",
+        "Powered by a 3.7 V lithium battery. Functions include forward/reverse, turns, stop, programmable actions, voice commands, handshakes, greetings, jumps, combat and kung fu moves, a simulated leg-lifting trick, sitting, affectionate gestures, lying down, rolling over, push-ups, handstands, swimming, dancing, learning activities, and songs."
+      ]
+    },
+    "workbookReview": {
+      "file": "/Users/lukang.liu/Desktop/github/yaoshun/挑样资料.xlsx",
+      "sha256": "30f47eb8405198bf6e92d33a2beecc7e62fb016f6bf26d476c79d2f816eefae0",
+      "sheet": "Blank_A4_Landscape_1019",
+      "row": 43,
+      "imagePart": "xl/media/image41.jpeg"
+    },
+    "originalPackagingPairs": [
+      {
+        "key": {
+          "zh": "包装方式",
+          "en": "Packaging"
+        },
+        "value": {
+          "zh": "彩盒",
+          "en": "Color box"
+        }
+      },
+      {
+        "key": {
+          "zh": "装箱量（E列）",
+          "en": "Packing Quantity (Column E)"
+        },
+        "value": {
+          "zh": "0",
+          "en": "0"
+        }
+      },
+      {
+        "key": {
+          "zh": "装箱量（F列）",
+          "en": "Packing Quantity (Column F)"
+        },
+        "value": {
+          "zh": "18",
+          "en": "18"
+        }
+      },
+      {
+        "key": {
+          "zh": "包装规格（原表单位）",
+          "en": "Package Dimensions (Source Units)"
+        },
+        "value": {
+          "zh": "28.5 × 18.5 × 18",
+          "en": "28.5 × 18.5 × 18"
+        }
+      },
+      {
+        "key": {
+          "zh": "外箱规格（原表单位）",
+          "en": "Carton Dimensions (Source Units)"
+        },
+        "value": {
+          "zh": "59 × 57 × 56.5",
+          "en": "59 × 57 × 56.5"
+        }
+      },
+      {
+        "key": {
+          "zh": "体积（原表单位）",
+          "en": "Volume (Source Units)"
+        },
+        "value": {
+          "zh": "0.19",
+          "en": "0.19"
+        }
+      },
+      {
+        "key": {
+          "zh": "材积（原表单位）",
+          "en": "Shipping Measurement (Source Units)"
+        },
+        "value": {
+          "zh": "6.7",
+          "en": "6.7"
+        }
+      },
+      {
+        "key": {
+          "zh": "毛重（原表单位）",
+          "en": "Gross Weight (Source Units)"
+        },
+        "value": {
+          "zh": "21.6",
+          "en": "21.6"
+        }
+      },
+      {
+        "key": {
+          "zh": "净重（原表单位）",
+          "en": "Net Weight (Source Units)"
+        },
+        "value": {
+          "zh": "20.1",
+          "en": "20.1"
+        }
+      }
+    ],
+    "contentReview": {
+      "status": "edited-individually",
+      "scope": [
+        "description",
+        "productDetails",
+        "attributePairs",
+        "customizationOptions",
+        "packagingAndShipping",
+        "leadTime"
+      ],
+      "copyStyle": "具体、简洁，按本款资料描述；未确认的配置不扩写为承诺",
+      "deliveryBasis": "未提供本款确认的天数，按样品、常规订单和定制订单说明确认节点",
+      "preservedImageUrls": true
+    }
+  },
+  "customizationOptions": [
+    {
+      "label": {
+        "zh": "彩盒与品牌版面",
+        "en": "Retail Box and Branding"
+      },
+      "minOrder": {
+        "zh": "可提交LOGO、条码与包装语言要求，按印刷方案确认费用和起订量。",
+        "en": "Submit logo artwork, barcodes and package languages. Costs and minimum quantities depend on the print specification."
+      }
+    },
+    {
+      "label": {
+        "zh": "说明书与语言版本核对",
+        "en": "Instructions and Language Version"
+      },
+      "minOrder": {
+        "zh": "可提出说明语言和版面需求；机内语言、APP或固件功能需另行核对。",
+        "en": "Request instruction languages and layouts. On-device languages, apps and firmware functions require separate confirmation."
+      }
+    },
+    {
+      "label": {
+        "zh": "配件与外观方案评估",
+        "en": "Accessory and Appearance Review"
+      },
+      "minOrder": {
+        "zh": "可提交配件清单或配色要求，电池、控制器与电子配置按本型号确认。",
+        "en": "Submit accessory or color requirements. Batteries, controllers and electronic specifications are confirmed for this model."
+      }
+    }
+  ],
+  "leadTime": {
+    "notes": [
+      {
+        "label": {
+          "zh": "样品订单",
+          "en": "Samples"
+        },
+        "value": {
+          "zh": "先确认X1样品和当前配色库存，再约定寄样日期。",
+          "en": "Confirm X1 sample and color availability before agreeing a dispatch date."
+        }
+      },
+      {
+        "label": {
+          "zh": "常规订单",
+          "en": "Standard Orders"
+        },
+        "value": {
+          "zh": "按订单数量、包装备料和现有排产确认交期，国际运输时间另计。",
+          "en": "Confirm lead time against quantity, packing materials and the production schedule. International transit is additional."
+        }
+      },
+      {
+        "label": {
+          "zh": "定制订单",
+          "en": "Customized Orders"
+        },
+        "value": {
+          "zh": "先确认图稿、配件清单和样品，确认后再安排生产与出货排期。",
+          "en": "Approve artwork, contents and samples before scheduling production and dispatch."
+        }
+      }
+    ]
+  }
+}

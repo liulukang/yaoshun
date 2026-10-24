@@ -1,0 +1,723 @@
+{
+  "productId": "LYB008H",
+  "module": "toys",
+  "priority": 1009,
+  "tags": [
+    {
+      "key": "sports",
+      "en": "Sports and Outdoor Play",
+      "zh": "运动与户外玩具"
+    }
+  ],
+  "title": {
+    "zh": "四球洞水上运动三合一套装",
+    "en": "Four-Target 3-in-1 Pool Play Set"
+  },
+  "summary": {
+    "zh": "四个投球口，配篮球、橄榄球、套圈和打气筒。",
+    "en": "Four target openings with basketballs, footballs, rings and a pump."
+  },
+  "description": {
+    "zh": [
+      "四个投球口，配篮球、橄榄球、套圈和打气筒。",
+      "资料列有三个篮球、两个橄榄球和四个套圈，另配一个手动打气筒。",
+      "这款为三合一水上运动组合，采用40.2 × 29.4 × 14 cm手提盒包装。"
+    ],
+    "en": [
+      "Four target openings with basketballs, footballs, rings and a pump.",
+      "The listed accessories are three basketballs, two American footballs, four rings and one hand pump.",
+      "This 3-in-1 pool set comes in a 40.2 × 29.4 × 14 cm carry box."
+    ]
+  },
+  "categories": {
+    "zh": [
+      "运动与户外玩具"
+    ],
+    "en": [
+      "Sports and Outdoor Play"
+    ]
+  },
+  "pricing": {
+    "display": {
+      "zh": "¥76.70",
+      "en": "¥76.70"
+    },
+    "currency": "CNY",
+    "min": 76.7,
+    "max": 76.7,
+    "isRange": false,
+    "tiers": [
+      {
+        "quantity": {
+          "zh": "价格",
+          "en": "Price"
+        },
+        "price": "¥76.70"
+      }
+    ]
+  },
+  "specifications": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "LYB008H",
+        "en": "LYB008H"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "运动与户外玩具",
+        "en": "Sports and Outdoor Play"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "手提盒",
+        "en": "Carry box"
+      }
+    }
+  ],
+  "productAttributes": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "LYB008H",
+        "en": "LYB008H"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "运动与户外玩具",
+        "en": "Sports and Outdoor Play"
+      }
+    },
+    {
+      "key": {
+        "zh": "玩法",
+        "en": "Play Mode"
+      },
+      "value": {
+        "zh": "水上篮球、投球和套圈三合一",
+        "en": "Pool basketball, target throwing and ring toss, 3-in-1"
+      }
+    },
+    {
+      "key": {
+        "zh": "使用场景",
+        "en": "Application"
+      },
+      "value": {
+        "zh": "泳池游戏，需成人照看",
+        "en": "Pool play; adult supervision required"
+      }
+    },
+    {
+      "key": {
+        "zh": "结构",
+        "en": "Construction"
+      },
+      "value": {
+        "zh": "漂浮支架，带侧面套圈挂钩",
+        "en": "Floating frame with side ring-toss hooks"
+      }
+    },
+    {
+      "key": {
+        "zh": "投球口",
+        "en": "Target Openings"
+      },
+      "value": {
+        "zh": "4个独立投球口",
+        "en": "4 separate target openings"
+      }
+    },
+    {
+      "key": {
+        "zh": "配件",
+        "en": "Accessories"
+      },
+      "value": {
+        "zh": "篮球3个、橄榄球2个、套圈4个、手动打气筒1个",
+        "en": "3 basketballs, 2 American footballs, 4 rings and 1 hand pump"
+      }
+    },
+    {
+      "key": {
+        "zh": "适用年龄",
+        "en": "Age Range"
+      },
+      "value": {
+        "zh": "3岁及以上",
+        "en": "Ages 3+"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "手提盒",
+        "en": "Carry box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "40.2 × 29.4 × 14 cm",
+        "en": "40.2 × 29.4 × 14 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "72 × 60 × 82.5 cm",
+        "en": "72 × 60 × 82.5 cm"
+      }
+    }
+  ],
+  "attributePairs": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "LYB008H",
+        "en": "LYB008H"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "运动与户外玩具",
+        "en": "Sports and Outdoor Play"
+      }
+    },
+    {
+      "key": {
+        "zh": "玩法",
+        "en": "Play Mode"
+      },
+      "value": {
+        "zh": "水上篮球、投球和套圈三合一",
+        "en": "Pool basketball, target throwing and ring toss, 3-in-1"
+      }
+    },
+    {
+      "key": {
+        "zh": "使用场景",
+        "en": "Application"
+      },
+      "value": {
+        "zh": "泳池游戏，需成人照看",
+        "en": "Pool play; adult supervision required"
+      }
+    },
+    {
+      "key": {
+        "zh": "结构",
+        "en": "Construction"
+      },
+      "value": {
+        "zh": "漂浮支架，带侧面套圈挂钩",
+        "en": "Floating frame with side ring-toss hooks"
+      }
+    },
+    {
+      "key": {
+        "zh": "投球口",
+        "en": "Target Openings"
+      },
+      "value": {
+        "zh": "4个独立投球口",
+        "en": "4 separate target openings"
+      }
+    },
+    {
+      "key": {
+        "zh": "配件",
+        "en": "Accessories"
+      },
+      "value": {
+        "zh": "篮球3个、橄榄球2个、套圈4个、手动打气筒1个",
+        "en": "3 basketballs, 2 American footballs, 4 rings and 1 hand pump"
+      }
+    },
+    {
+      "key": {
+        "zh": "适用年龄",
+        "en": "Age Range"
+      },
+      "value": {
+        "zh": "3岁及以上",
+        "en": "Ages 3+"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "手提盒",
+        "en": "Carry box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "40.2 × 29.4 × 14 cm",
+        "en": "40.2 × 29.4 × 14 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "72 × 60 × 82.5 cm",
+        "en": "72 × 60 × 82.5 cm"
+      }
+    }
+  ],
+  "packagingAndShipping": {
+    "summary": {
+      "zh": "单品包装及外箱规格如下，运输费用另行核算。",
+      "en": "Individual packing and carton specifications are listed below. Shipping is quoted separately."
+    },
+    "blocks": [
+      {
+        "label": {
+          "zh": "包装方式",
+          "en": "Packaging"
+        },
+        "value": {
+          "zh": "手提盒",
+          "en": "Carry box"
+        }
+      },
+      {
+        "label": {
+          "zh": "包装尺寸",
+          "en": "Package Dimensions"
+        },
+        "value": {
+          "zh": "40.2 × 29.4 × 14 cm",
+          "en": "40.2 × 29.4 × 14 cm"
+        }
+      },
+      {
+        "label": {
+          "zh": "外箱尺寸",
+          "en": "Carton Dimensions"
+        },
+        "value": {
+          "zh": "72 × 60 × 82.5 cm",
+          "en": "72 × 60 × 82.5 cm"
+        }
+      },
+      {
+        "label": {
+          "zh": "外箱体积（按尺寸计算）",
+          "en": "Carton Volume (Calculated)"
+        },
+        "value": {
+          "zh": "0.356 m³",
+          "en": "0.356 m³"
+        }
+      },
+      {
+        "label": {
+          "zh": "运输费用",
+          "en": "Shipping Cost"
+        },
+        "value": {
+          "zh": "按目的地、箱数及运输方式另行报价。",
+          "en": "Quoted separately by destination, carton quantity and shipping method."
+        }
+      }
+    ],
+    "unitSize": "40.2 × 29.4 × 14 cm"
+  },
+  "packagingPairs": [
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "手提盒",
+        "en": "Carry box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "40.2 × 29.4 × 14 cm",
+        "en": "40.2 × 29.4 × 14 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "72 × 60 × 82.5 cm",
+        "en": "72 × 60 × 82.5 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱体积（按尺寸计算）",
+        "en": "Carton Volume (Calculated)"
+      },
+      "value": {
+        "zh": "0.356 m³",
+        "en": "0.356 m³"
+      }
+    },
+    {
+      "key": {
+        "zh": "运输费用",
+        "en": "Shipping Cost"
+      },
+      "value": {
+        "zh": "按目的地、箱数及运输方式另行报价。",
+        "en": "Quoted separately by destination, carton quantity and shipping method."
+      }
+    }
+  ],
+  "media": {
+    "main": [
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/LYB008H/e2c1313f0b9d.webp"
+      }
+    ],
+    "detail": [
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/LYB008H/62e6e6ea2511.webp"
+      },
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/LYB008H/884919163dea.webp"
+      }
+    ]
+  },
+  "images": [
+    "https://www.yaoshuntoys.com/media/products-q92/LYB008H/e2c1313f0b9d.webp",
+    "https://www.yaoshuntoys.com/media/products-q92/LYB008H/62e6e6ea2511.webp",
+    "https://www.yaoshuntoys.com/media/products-q92/LYB008H/884919163dea.webp"
+  ],
+  "videos": [],
+  "productDetails": [
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "投球口与套圈目标分开设置",
+        "en": "Separate throwing and ring-toss targets"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/LYB008H/e2c1313f0b9d.webp",
+      "text": {
+        "zh": "漂浮支架带四个独立投球口，两侧还有套圈挂钩。可以把不同目标分成几轮，轮流投球或套圈，不必把所有配件同时投入游戏。",
+        "en": "The floating frame has four separate target openings and side ring-toss hooks. Split the targets into rounds and take turns with the balls and rings."
+      }
+    },
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "三类投掷配件",
+        "en": "Three types of throwing pieces"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/LYB008H/62e6e6ea2511.webp",
+      "text": {
+        "zh": "资料列有三个篮球、两个橄榄球和四个套圈，另配一个手动打气筒。球与套圈的形状不同，可以分别练习向投球口和挂钩瞄准。",
+        "en": "The listed accessories are three basketballs, two American footballs, four rings and one hand pump. Use the different shapes for aiming at the openings and hooks."
+      }
+    },
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "泳池游戏后收齐小配件",
+        "en": "Collect the pieces after pool play"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/LYB008H/884919163dea.webp",
+      "text": {
+        "zh": "这款为三合一水上运动组合，采用40.2 × 29.4 × 14 cm手提盒包装。使用后分别收齐球、套圈和打气筒；水上游戏需有人照看。",
+        "en": "This 3-in-1 pool set comes in a 40.2 × 29.4 × 14 cm carry box. Collect the balls, rings and pump separately after play. Pool games require supervision."
+      }
+    }
+  ],
+  "sourceData": {
+    "file": "挑样资料.xlsx",
+    "sha256": "30f47eb8405198bf6e92d33a2beecc7e62fb016f6bf26d476c79d2f816eefae0",
+    "sheet": "Blank_A4_Landscape_1019",
+    "row": 12,
+    "cells": {
+      "B": "LYB008H",
+      "C": "水上篮球3合1(4球洞）",
+      "D": "手提盒",
+      "E": 0,
+      "F": 20,
+      "G": "59",
+      "H": "40.2",
+      "I": "29.4",
+      "J": "14",
+      "K": "72",
+      "L": "60",
+      "M": "82.5",
+      "N": "0.36",
+      "O": "12.58",
+      "P": "31",
+      "Q": "29",
+      "R": ""
+    },
+    "priceAdjustment": {
+      "currency": "CNY",
+      "originalPrice": 59,
+      "markupRate": 0.3,
+      "adjustedPrice": 76.7,
+      "decimalPlaces": 2,
+      "rounding": "ROUND_HALF_UP"
+    },
+    "reviewNotes": [],
+    "attributeEnrichment": {
+      "sources": [
+        "title",
+        "description",
+        "sourceData.cells",
+        "productDetails.text",
+        "packagingPairs"
+      ],
+      "dimensionUnit": "cm",
+      "dimensionUnitBasis": "用户确认未注明单位的尺寸按厘米处理",
+      "packagingImage": "https://www.yaoshuntoys.com/media/products-q92/LYB008H/e2c1313f0b9d.webp",
+      "imageAttributeKeys": [],
+      "ageStatus": "not-readable-or-not-shown"
+    },
+    "originalDescription": {
+      "zh": [
+        "水上篮球3合1(4球洞）"
+      ],
+      "en": [
+        "3-in-1 Pool Basketball Set with Four Ball Holes"
+      ]
+    },
+    "workbookReview": {
+      "file": "/Users/lukang.liu/Desktop/github/yaoshun/挑样资料.xlsx",
+      "sha256": "30f47eb8405198bf6e92d33a2beecc7e62fb016f6bf26d476c79d2f816eefae0",
+      "sheet": "Blank_A4_Landscape_1019",
+      "row": 12,
+      "imagePart": "xl/media/image10.jpeg"
+    },
+    "originalPackagingPairs": [
+      {
+        "key": {
+          "zh": "包装方式",
+          "en": "Packaging"
+        },
+        "value": {
+          "zh": "手提盒",
+          "en": "Carry box"
+        }
+      },
+      {
+        "key": {
+          "zh": "装箱量（E列）",
+          "en": "Packing Quantity (Column E)"
+        },
+        "value": {
+          "zh": "0",
+          "en": "0"
+        }
+      },
+      {
+        "key": {
+          "zh": "装箱量（F列）",
+          "en": "Packing Quantity (Column F)"
+        },
+        "value": {
+          "zh": "20",
+          "en": "20"
+        }
+      },
+      {
+        "key": {
+          "zh": "包装规格（原表单位）",
+          "en": "Package Dimensions (Source Units)"
+        },
+        "value": {
+          "zh": "40.2 × 29.4 × 14",
+          "en": "40.2 × 29.4 × 14"
+        }
+      },
+      {
+        "key": {
+          "zh": "外箱规格（原表单位）",
+          "en": "Carton Dimensions (Source Units)"
+        },
+        "value": {
+          "zh": "72 × 60 × 82.5",
+          "en": "72 × 60 × 82.5"
+        }
+      },
+      {
+        "key": {
+          "zh": "体积（原表单位）",
+          "en": "Volume (Source Units)"
+        },
+        "value": {
+          "zh": "0.36",
+          "en": "0.36"
+        }
+      },
+      {
+        "key": {
+          "zh": "材积（原表单位）",
+          "en": "Shipping Measurement (Source Units)"
+        },
+        "value": {
+          "zh": "12.58",
+          "en": "12.58"
+        }
+      },
+      {
+        "key": {
+          "zh": "毛重（原表单位）",
+          "en": "Gross Weight (Source Units)"
+        },
+        "value": {
+          "zh": "31",
+          "en": "31"
+        }
+      },
+      {
+        "key": {
+          "zh": "净重（原表单位）",
+          "en": "Net Weight (Source Units)"
+        },
+        "value": {
+          "zh": "29",
+          "en": "29"
+        }
+      }
+    ],
+    "contentReview": {
+      "status": "edited-individually",
+      "scope": [
+        "description",
+        "productDetails",
+        "attributePairs",
+        "customizationOptions",
+        "packagingAndShipping",
+        "leadTime"
+      ],
+      "copyStyle": "具体、简洁，按本款资料描述；未确认的配置不扩写为承诺",
+      "deliveryBasis": "未提供本款确认的天数，按样品、常规订单和定制订单说明确认节点",
+      "preservedImageUrls": true
+    }
+  },
+  "customizationOptions": [
+    {
+      "label": {
+        "zh": "手提盒与品牌版面",
+        "en": "Carry Box and Branding"
+      },
+      "minOrder": {
+        "zh": "可提交品牌图稿、条码及盒面语言，按版面和印刷数量报价。",
+        "en": "Submit branding, barcodes and box languages for a quote based on the layout and print quantity."
+      }
+    },
+    {
+      "label": {
+        "zh": "支架与套圈配色评估",
+        "en": "Frame and Ring Color Review"
+      },
+      "minOrder": {
+        "zh": "可提出支架与套圈配色要求，颜色方案和样品条件需先确认。",
+        "en": "Request frame and ring colors. Color options and sampling requirements are confirmed first."
+      }
+    },
+    {
+      "label": {
+        "zh": "配件与说明语言",
+        "en": "Accessories and Instructions"
+      },
+      "minOrder": {
+        "zh": "可提交球、套圈等配件清单及说明语言需求，按本型号逐项确认。",
+        "en": "Submit ball and ring quantities or instruction languages for a model-specific review."
+      }
+    }
+  ],
+  "leadTime": {
+    "notes": [
+      {
+        "label": {
+          "zh": "样品订单",
+          "en": "Samples"
+        },
+        "value": {
+          "zh": "先确认LYB008H样品和当前配色库存，再约定寄样日期。",
+          "en": "Confirm LYB008H sample and color availability before agreeing a dispatch date."
+        }
+      },
+      {
+        "label": {
+          "zh": "常规订单",
+          "en": "Standard Orders"
+        },
+        "value": {
+          "zh": "按订单数量、包装备料和现有排产确认交期，国际运输时间另计。",
+          "en": "Confirm lead time against quantity, packing materials and the production schedule. International transit is additional."
+        }
+      },
+      {
+        "label": {
+          "zh": "定制订单",
+          "en": "Customized Orders"
+        },
+        "value": {
+          "zh": "先确认图稿、配件清单和样品，确认后再安排生产与出货排期。",
+          "en": "Approve artwork, contents and samples before scheduling production and dispatch."
+        }
+      }
+    ]
+  }
+}

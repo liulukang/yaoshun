@@ -1,0 +1,736 @@
+{
+  "productId": "9901",
+  "module": "toys",
+  "priority": 1017,
+  "tags": [
+    {
+      "key": "robots",
+      "en": "Robots and RC Toys",
+      "zh": "机器人与遥控玩具"
+    }
+  ],
+  "title": {
+    "zh": "遥控编程智能狗",
+    "en": "Programmable RC Robot Dog"
+  },
+  "summary": {
+    "zh": "支持遥控、触摸感应和编程指令，带灯光与音乐。",
+    "en": "Remote control, touch sensing and programmable commands, with lights and music."
+  },
+  "description": {
+    "zh": [
+      "支持遥控、触摸感应和编程指令，带灯光与音乐。",
+      "资料列有多关节动作、百科早教内容、灯光和音乐。",
+      "套装包含智能狗一只、遥控器一个、USB充电线一条。"
+    ],
+    "en": [
+      "Remote control, touch sensing and programmable commands, with lights and music.",
+      "Listed functions include multi-joint actions, educational content, lights and music.",
+      "The set includes one robot dog, one controller and one USB charging cable."
+    ]
+  },
+  "categories": {
+    "zh": [
+      "机器人与遥控玩具"
+    ],
+    "en": [
+      "Robots and RC Toys"
+    ]
+  },
+  "pricing": {
+    "display": {
+      "zh": "¥65.78",
+      "en": "¥65.78"
+    },
+    "currency": "CNY",
+    "min": 65.78,
+    "max": 65.78,
+    "isRange": false,
+    "tiers": [
+      {
+        "quantity": {
+          "zh": "价格",
+          "en": "Price"
+        },
+        "price": "¥65.78"
+      }
+    ]
+  },
+  "specifications": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "9901",
+        "en": "9901"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "机器人与遥控玩具",
+        "en": "Robots and RC Toys"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "开窗盒",
+        "en": "Window box"
+      }
+    },
+    {
+      "key": {
+        "zh": "供应商备注（原文）",
+        "en": "Supplier Notes (Original Chinese)"
+      },
+      "value": {
+        "zh": "颜色:紫色 蓝色 黄色 青色。功能：编程指令、触摸感应、远程遥控、多关节动作、百科早教、灯光、音乐。配付清单：智能狗*1 遥控器*1 USB充电线*1"
+      }
+    }
+  ],
+  "productAttributes": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "9901",
+        "en": "9901"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "机器人与遥控玩具",
+        "en": "Robots and RC Toys"
+      }
+    },
+    {
+      "key": {
+        "zh": "适用年龄",
+        "en": "Age Range"
+      },
+      "value": {
+        "zh": "3岁及以上",
+        "en": "Ages 3+"
+      }
+    },
+    {
+      "key": {
+        "zh": "颜色",
+        "en": "Color"
+      },
+      "value": {
+        "zh": "紫色、蓝色、黄色、青色",
+        "en": "Purple, blue, yellow and cyan"
+      }
+    },
+    {
+      "key": {
+        "zh": "控制方式",
+        "en": "Control Method"
+      },
+      "value": {
+        "zh": "远程遥控、触摸感应及编程指令",
+        "en": "Remote control, touch sensing and programmable commands"
+      }
+    },
+    {
+      "key": {
+        "zh": "互动功能",
+        "en": "Interactive Functions"
+      },
+      "value": {
+        "zh": "多关节动作、百科早教、灯光及音乐",
+        "en": "Multi-joint actions, educational content, lights and music"
+      }
+    },
+    {
+      "key": {
+        "zh": "配件",
+        "en": "Accessories"
+      },
+      "value": {
+        "zh": "智能狗1只、遥控器1个、USB充电线1条",
+        "en": "1 robot dog, 1 remote controller and 1 USB charging cable"
+      }
+    },
+    {
+      "key": {
+        "zh": "商品尺寸",
+        "en": "Product Dimensions"
+      },
+      "value": {
+        "zh": "22 × 12 × 21 cm",
+        "en": "22 × 12 × 21 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "开窗盒",
+        "en": "Window box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "41 × 15 × 28 cm",
+        "en": "41 × 15 × 28 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "69.5 × 57.5 × 84.5 cm",
+        "en": "69.5 × 57.5 × 84.5 cm"
+      }
+    }
+  ],
+  "attributePairs": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "9901",
+        "en": "9901"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "机器人与遥控玩具",
+        "en": "Robots and RC Toys"
+      }
+    },
+    {
+      "key": {
+        "zh": "适用年龄",
+        "en": "Age Range"
+      },
+      "value": {
+        "zh": "3岁及以上",
+        "en": "Ages 3+"
+      }
+    },
+    {
+      "key": {
+        "zh": "颜色",
+        "en": "Color"
+      },
+      "value": {
+        "zh": "紫色、蓝色、黄色、青色",
+        "en": "Purple, blue, yellow and cyan"
+      }
+    },
+    {
+      "key": {
+        "zh": "控制方式",
+        "en": "Control Method"
+      },
+      "value": {
+        "zh": "远程遥控、触摸感应及编程指令",
+        "en": "Remote control, touch sensing and programmable commands"
+      }
+    },
+    {
+      "key": {
+        "zh": "互动功能",
+        "en": "Interactive Functions"
+      },
+      "value": {
+        "zh": "多关节动作、百科早教、灯光及音乐",
+        "en": "Multi-joint actions, educational content, lights and music"
+      }
+    },
+    {
+      "key": {
+        "zh": "配件",
+        "en": "Accessories"
+      },
+      "value": {
+        "zh": "智能狗1只、遥控器1个、USB充电线1条",
+        "en": "1 robot dog, 1 remote controller and 1 USB charging cable"
+      }
+    },
+    {
+      "key": {
+        "zh": "商品尺寸",
+        "en": "Product Dimensions"
+      },
+      "value": {
+        "zh": "22 × 12 × 21 cm",
+        "en": "22 × 12 × 21 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "开窗盒",
+        "en": "Window box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "41 × 15 × 28 cm",
+        "en": "41 × 15 × 28 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "69.5 × 57.5 × 84.5 cm",
+        "en": "69.5 × 57.5 × 84.5 cm"
+      }
+    }
+  ],
+  "packagingAndShipping": {
+    "summary": {
+      "zh": "单品包装及外箱规格如下，运输费用另行核算。",
+      "en": "Individual packing and carton specifications are listed below. Shipping is quoted separately."
+    },
+    "blocks": [
+      {
+        "label": {
+          "zh": "包装方式",
+          "en": "Packaging"
+        },
+        "value": {
+          "zh": "开窗盒",
+          "en": "Window box"
+        }
+      },
+      {
+        "label": {
+          "zh": "包装尺寸",
+          "en": "Package Dimensions"
+        },
+        "value": {
+          "zh": "41 × 15 × 28 cm",
+          "en": "41 × 15 × 28 cm"
+        }
+      },
+      {
+        "label": {
+          "zh": "外箱尺寸",
+          "en": "Carton Dimensions"
+        },
+        "value": {
+          "zh": "69.5 × 57.5 × 84.5 cm",
+          "en": "69.5 × 57.5 × 84.5 cm"
+        }
+      },
+      {
+        "label": {
+          "zh": "外箱体积（按尺寸计算）",
+          "en": "Carton Volume (Calculated)"
+        },
+        "value": {
+          "zh": "0.338 m³",
+          "en": "0.338 m³"
+        }
+      },
+      {
+        "label": {
+          "zh": "运输费用",
+          "en": "Shipping Cost"
+        },
+        "value": {
+          "zh": "按目的地、箱数及运输方式另行报价。",
+          "en": "Quoted separately by destination, carton quantity and shipping method."
+        }
+      }
+    ],
+    "unitSize": "41 × 15 × 28 cm"
+  },
+  "packagingPairs": [
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "开窗盒",
+        "en": "Window box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "41 × 15 × 28 cm",
+        "en": "41 × 15 × 28 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "69.5 × 57.5 × 84.5 cm",
+        "en": "69.5 × 57.5 × 84.5 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱体积（按尺寸计算）",
+        "en": "Carton Volume (Calculated)"
+      },
+      "value": {
+        "zh": "0.338 m³",
+        "en": "0.338 m³"
+      }
+    },
+    {
+      "key": {
+        "zh": "运输费用",
+        "en": "Shipping Cost"
+      },
+      "value": {
+        "zh": "按目的地、箱数及运输方式另行报价。",
+        "en": "Quoted separately by destination, carton quantity and shipping method."
+      }
+    }
+  ],
+  "media": {
+    "main": [
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/9901/b418ab526f2d.webp"
+      }
+    ],
+    "detail": [
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/9901/de2c3e9e2cb3.webp"
+      },
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/9901/1a300416b13e.webp"
+      }
+    ]
+  },
+  "images": [
+    "https://www.yaoshuntoys.com/media/products-q92/9901/b418ab526f2d.webp",
+    "https://www.yaoshuntoys.com/media/products-q92/9901/de2c3e9e2cb3.webp",
+    "https://www.yaoshuntoys.com/media/products-q92/9901/1a300416b13e.webp"
+  ],
+  "videos": [],
+  "productDetails": [
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "遥控之外，还能触摸互动",
+        "en": "Remote control and touch interaction"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/9901/b418ab526f2d.webp",
+      "text": {
+        "zh": "智能狗支持远程遥控、触摸感应与编程指令。可以先用遥控器熟悉基本动作，再把动作编成顺序，观察机器狗如何完成这一段指令。",
+        "en": "The dog supports remote control, touch sensing and programmable commands. Start with the controller, then arrange actions into a sequence and watch the dog perform them."
+      }
+    },
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "多关节动作与声光内容",
+        "en": "Jointed movement, lights and music"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/9901/de2c3e9e2cb3.webp",
+      "text": {
+        "zh": "资料列有多关节动作、百科早教内容、灯光和音乐。机身尺寸22 × 12 × 21 cm，盒面标注3岁及以上，点阵眼睛与关节位置可查看细节图。",
+        "en": "Listed functions include multi-joint actions, educational content, lights and music. The body measures 22 × 12 × 21 cm, and the package is marked ages 3+. Detail images show the pixel-style eyes and joints."
+      }
+    },
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "配遥控器和USB充电线",
+        "en": "Controller and USB cable"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/9901/1a300416b13e.webp",
+      "text": {
+        "zh": "套装包含智能狗一只、遥控器一个、USB充电线一条。颜色资料列有紫色、蓝色、黄色和青色，具体出货配色可按货号9901核对。",
+        "en": "The set includes one robot dog, one controller and one USB charging cable. Listed colors are purple, blue, yellow and cyan; confirm the supplied color against model 9901."
+      }
+    }
+  ],
+  "sourceData": {
+    "file": "挑样资料.xlsx",
+    "sha256": "30f47eb8405198bf6e92d33a2beecc7e62fb016f6bf26d476c79d2f816eefae0",
+    "sheet": "Blank_A4_Landscape_1019",
+    "row": 20,
+    "cells": {
+      "B": "9901",
+      "C": "遥控编程智能狗",
+      "D": "开窗盒",
+      "E": 0,
+      "F": 16,
+      "G": "50.6",
+      "H": "41",
+      "I": "15",
+      "J": "28",
+      "K": "69.5",
+      "L": "57.5",
+      "M": "84.5",
+      "N": "0.34",
+      "O": "11.92",
+      "P": "16",
+      "Q": "13",
+      "R": "\n颜色:紫色 蓝色 黄色 青色。功能：编程指令、触摸感应、远程遥控、多关节动作、百科早教、灯光、音乐。配付清单：智能狗*1 遥控器*1 USB充电线*1"
+    },
+    "priceAdjustment": {
+      "currency": "CNY",
+      "originalPrice": 50.6,
+      "markupRate": 0.3,
+      "adjustedPrice": 65.78,
+      "decimalPlaces": 2,
+      "rounding": "ROUND_HALF_UP"
+    },
+    "reviewNotes": [],
+    "attributeEnrichment": {
+      "sources": [
+        "title",
+        "description",
+        "sourceData.cells",
+        "productDetails.text",
+        "packagingPairs"
+      ],
+      "dimensionUnit": "cm",
+      "dimensionUnitBasis": "用户确认未注明单位的尺寸按厘米处理",
+      "packagingImage": "https://www.yaoshuntoys.com/media/products-q92/9901/b418ab526f2d.webp",
+      "imageAttributeKeys": [
+        "Age Range"
+      ],
+      "ageStatus": "packaging-label"
+    },
+    "originalDescription": {
+      "zh": [
+        "遥控编程智能狗",
+        "颜色:紫色 蓝色 黄色 青色。功能：编程指令、触摸感应、远程遥控、多关节动作、百科早教、灯光、音乐。配付清单：智能狗*1 遥控器*1 USB充电线*1"
+      ],
+      "en": [
+        "Remote Control Programmable Smart Dog",
+        "Available in purple, blue, yellow, and cyan. Programmable commands, touch sensing, remote control, articulated movements, educational content, lights, and music. Includes one smart dog, one remote, and one USB charging cable."
+      ]
+    },
+    "workbookReview": {
+      "file": "/Users/lukang.liu/Desktop/github/yaoshun/挑样资料.xlsx",
+      "sha256": "30f47eb8405198bf6e92d33a2beecc7e62fb016f6bf26d476c79d2f816eefae0",
+      "sheet": "Blank_A4_Landscape_1019",
+      "row": 20,
+      "imagePart": "xl/media/image18.jpeg"
+    },
+    "originalPackagingPairs": [
+      {
+        "key": {
+          "zh": "包装方式",
+          "en": "Packaging"
+        },
+        "value": {
+          "zh": "开窗盒",
+          "en": "Window box"
+        }
+      },
+      {
+        "key": {
+          "zh": "装箱量（E列）",
+          "en": "Packing Quantity (Column E)"
+        },
+        "value": {
+          "zh": "0",
+          "en": "0"
+        }
+      },
+      {
+        "key": {
+          "zh": "装箱量（F列）",
+          "en": "Packing Quantity (Column F)"
+        },
+        "value": {
+          "zh": "16",
+          "en": "16"
+        }
+      },
+      {
+        "key": {
+          "zh": "包装规格（原表单位）",
+          "en": "Package Dimensions (Source Units)"
+        },
+        "value": {
+          "zh": "41 × 15 × 28",
+          "en": "41 × 15 × 28"
+        }
+      },
+      {
+        "key": {
+          "zh": "外箱规格（原表单位）",
+          "en": "Carton Dimensions (Source Units)"
+        },
+        "value": {
+          "zh": "69.5 × 57.5 × 84.5",
+          "en": "69.5 × 57.5 × 84.5"
+        }
+      },
+      {
+        "key": {
+          "zh": "体积（原表单位）",
+          "en": "Volume (Source Units)"
+        },
+        "value": {
+          "zh": "0.34",
+          "en": "0.34"
+        }
+      },
+      {
+        "key": {
+          "zh": "材积（原表单位）",
+          "en": "Shipping Measurement (Source Units)"
+        },
+        "value": {
+          "zh": "11.92",
+          "en": "11.92"
+        }
+      },
+      {
+        "key": {
+          "zh": "毛重（原表单位）",
+          "en": "Gross Weight (Source Units)"
+        },
+        "value": {
+          "zh": "16",
+          "en": "16"
+        }
+      },
+      {
+        "key": {
+          "zh": "净重（原表单位）",
+          "en": "Net Weight (Source Units)"
+        },
+        "value": {
+          "zh": "13",
+          "en": "13"
+        }
+      }
+    ],
+    "contentReview": {
+      "status": "edited-individually",
+      "scope": [
+        "description",
+        "productDetails",
+        "attributePairs",
+        "customizationOptions",
+        "packagingAndShipping",
+        "leadTime"
+      ],
+      "copyStyle": "具体、简洁，按本款资料描述；未确认的配置不扩写为承诺",
+      "deliveryBasis": "未提供本款确认的天数，按样品、常规订单和定制订单说明确认节点",
+      "preservedImageUrls": true
+    }
+  },
+  "customizationOptions": [
+    {
+      "label": {
+        "zh": "彩盒与品牌版面",
+        "en": "Retail Box and Branding"
+      },
+      "minOrder": {
+        "zh": "可提交LOGO、条码与包装语言要求，按印刷方案确认费用和起订量。",
+        "en": "Submit logo artwork, barcodes and package languages. Costs and minimum quantities depend on the print specification."
+      }
+    },
+    {
+      "label": {
+        "zh": "说明书与语言版本核对",
+        "en": "Instructions and Language Version"
+      },
+      "minOrder": {
+        "zh": "可提出说明语言和版面需求；机内语言、APP或固件功能需另行核对。",
+        "en": "Request instruction languages and layouts. On-device languages, apps and firmware functions require separate confirmation."
+      }
+    },
+    {
+      "label": {
+        "zh": "配件与外观方案评估",
+        "en": "Accessory and Appearance Review"
+      },
+      "minOrder": {
+        "zh": "可提交配件清单或配色要求，电池、控制器与电子配置按本型号确认。",
+        "en": "Submit accessory or color requirements. Batteries, controllers and electronic specifications are confirmed for this model."
+      }
+    }
+  ],
+  "leadTime": {
+    "notes": [
+      {
+        "label": {
+          "zh": "样品订单",
+          "en": "Samples"
+        },
+        "value": {
+          "zh": "先确认9901样品和当前配色库存，再约定寄样日期。",
+          "en": "Confirm 9901 sample and color availability before agreeing a dispatch date."
+        }
+      },
+      {
+        "label": {
+          "zh": "常规订单",
+          "en": "Standard Orders"
+        },
+        "value": {
+          "zh": "按订单数量、包装备料和现有排产确认交期，国际运输时间另计。",
+          "en": "Confirm lead time against quantity, packing materials and the production schedule. International transit is additional."
+        }
+      },
+      {
+        "label": {
+          "zh": "定制订单",
+          "en": "Customized Orders"
+        },
+        "value": {
+          "zh": "先确认图稿、配件清单和样品，确认后再安排生产与出货排期。",
+          "en": "Approve artwork, contents and samples before scheduling production and dispatch."
+        }
+      }
+    ]
+  }
+}

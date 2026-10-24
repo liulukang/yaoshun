@@ -63,20 +63,20 @@ function copy(locale: "en" | "zh") {
       zh: "尧顺源头工厂产品",
     }),
     heroTitleLine1: t(locale, {
-      en: "Fort Building",
-      zh: "堡垒拼搭",
+      en: "Toy",
+      zh: "玩具",
     }),
     heroTitleLine2Blue: t(locale, {
-      en: "Kit",
-      zh: "套装",
+      en: "Product",
+      zh: "产品",
     }),
     heroTitleLine2Orange: t(locale, {
-      en: "Product Catalog",
-      zh: "产品目录",
+      en: "Catalog",
+      zh: "目录",
     }),
     heroText: t(locale, {
-      en: "Explore fort building kits for kids in multiple piece counts, colors and packaging options. Yaoshun supplies wholesale fort building kits with OEM/ODM, private-label packaging and custom configurations for toy brands, retailers and importers.",
-      zh: "浏览尧顺东莞源头工厂的搭建玩具、定制玩具、益智拼接套装与可定制产品系列，背后由安全材料方案、玩具 OEM/ODM、定制化开发能力和稳定制造体系提供支持。",
+      en: "Explore Yaoshun's complete toy range, from fort building and outdoor play to science kits, robots, play tents, drones and portable fans. Each product page brings together specifications, packaging details, use scenarios and OEM/ODM options for faster sourcing.",
+      zh: "浏览尧顺东莞源头工厂的成品玩具与可定制系列，涵盖堡垒拼搭、运动户外、科学实验、机器人遥控、儿童游戏帐篷、无人机和便携风扇。产品页集中呈现规格、包装、适用场景与 OEM/ODM 定制信息，方便采购选品与询价。",
     }),
     categories: t(locale, { en: "Categories", zh: "分类" }),
     allProducts: t(locale, { en: "All Products", zh: "全部产品" }),
@@ -86,8 +86,8 @@ function copy(locale: "en" | "zh") {
       zh: "正在寻找源头工厂定制玩具？",
     }),
     customText: t(locale, {
-      en: "Yaoshun provides custom fort building kit development tailored to your brand, target market, packaging plan and OEM/ODM delivery requirements.",
-      zh: "尧顺提供面向品牌、市场、包装方案与 OEM/ODM 交付要求的搭建玩具和定制玩具开发服务。",
+      en: "Yaoshun supports custom toy development tailored to your brand, target market, packaging plan and OEM/ODM delivery requirements.",
+      zh: "尧顺提供面向品牌、市场、包装方案与 OEM/ODM 交付要求的玩具定制开发服务。",
     }),
     customAction: t(locale, { en: "Learn More", zh: "了解更多" }),
     showingText: (start: number, end: number, total: number) =>
@@ -171,7 +171,7 @@ export default async function ProductsPage({
     label: item.label,
     summary: item.summary,
     collection: item.collection,
-    images: item.images,
+    images: item.images.slice(0, 1),
     piecesLabel: getProductPiecesLabel(item),
     priceLabel: getProductPriceLabel(item, locale),
     bestseller: item.bestseller,
@@ -267,8 +267,8 @@ export default async function ProductsPage({
                 >
                   <span>
                     {t(locale, {
-                      en: "Fort Building Kit Customization",
-                      zh: "堡垒拼搭套装定制服务",
+                      en: "Toy OEM/ODM Customization",
+                      zh: "玩具 OEM/ODM 定制服务",
                     })}
                   </span>
                   <span className="hero-secondary-dot" />

@@ -1,0 +1,819 @@
+{
+  "productId": "A444-18",
+  "module": "toys",
+  "priority": 1027,
+  "tags": [
+    {
+      "key": "tents",
+      "en": "Children's Play Tents",
+      "zh": "儿童游戏帐篷"
+    }
+  ],
+  "title": {
+    "zh": "卡其格子樱花游戏屋",
+    "en": "Khaki Check Sakura Playhouse"
+  },
+  "summary": {
+    "zh": "卡其色格子布艺游戏屋，尺寸120 × 100 × 130 cm。",
+    "en": "A fabric playhouse in khaki checks, measuring 120 × 100 × 130 cm."
+  },
+  "description": {
+    "zh": [
+      "卡其色格子布艺游戏屋，尺寸120 × 100 × 130 cm。",
+      "搭建后的尺寸为120 × 100 × 130 cm。",
+      "商品为布艺游戏屋，具体门帘、窗口和接缝可查看细节图。"
+    ],
+    "en": [
+      "A fabric playhouse in khaki checks, measuring 120 × 100 × 130 cm.",
+      "The assembled dimensions are 120 × 100 × 130 cm.",
+      "The detail images show the fabric, doorway, windows and seams."
+    ]
+  },
+  "categories": {
+    "zh": [
+      "儿童游戏帐篷"
+    ],
+    "en": [
+      "Children's Play Tents"
+    ]
+  },
+  "pricing": {
+    "display": {
+      "zh": "¥98.54",
+      "en": "¥98.54"
+    },
+    "currency": "CNY",
+    "min": 98.54,
+    "max": 98.54,
+    "isRange": false,
+    "tiers": [
+      {
+        "quantity": {
+          "zh": "价格",
+          "en": "Price"
+        },
+        "price": "¥98.54"
+      }
+    ]
+  },
+  "specifications": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "A444-18",
+        "en": "A444-18"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "儿童游戏帐篷",
+        "en": "Children's Play Tents"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    },
+    {
+      "key": {
+        "zh": "供应商备注（原文）",
+        "en": "Supplier Notes (Original Chinese)"
+      },
+      "value": {
+        "zh": "附带组装说明书"
+      }
+    }
+  ],
+  "productAttributes": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "A444-18",
+        "en": "A444-18"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "儿童游戏帐篷",
+        "en": "Children's Play Tents"
+      }
+    },
+    {
+      "key": {
+        "zh": "颜色与图案",
+        "en": "Color and Pattern"
+      },
+      "value": {
+        "zh": "卡其色格子",
+        "en": "Khaki check"
+      }
+    },
+    {
+      "key": {
+        "zh": "主题",
+        "en": "Theme"
+      },
+      "value": {
+        "zh": "樱花创意屋",
+        "en": "Sakura playhouse"
+      }
+    },
+    {
+      "key": {
+        "zh": "材质",
+        "en": "Material"
+      },
+      "value": {
+        "zh": "布艺",
+        "en": "Fabric"
+      }
+    },
+    {
+      "key": {
+        "zh": "玩法",
+        "en": "Play Mode"
+      },
+      "value": {
+        "zh": "儿童过家家游戏屋",
+        "en": "Children's pretend-play house"
+      }
+    },
+    {
+      "key": {
+        "zh": "组装说明",
+        "en": "Assembly Instructions"
+      },
+      "value": {
+        "zh": "随附组装说明书",
+        "en": "Assembly instructions included"
+      }
+    },
+    {
+      "key": {
+        "zh": "收纳方式",
+        "en": "Storage"
+      },
+      "value": {
+        "zh": "可组装及折叠",
+        "en": "Assembles and folds"
+      }
+    },
+    {
+      "key": {
+        "zh": "使用场景",
+        "en": "Application"
+      },
+      "value": {
+        "zh": "室内及户外游戏",
+        "en": "Indoor and outdoor play"
+      }
+    },
+    {
+      "key": {
+        "zh": "清洁方式",
+        "en": "Care"
+      },
+      "value": {
+        "zh": "易清洁面料",
+        "en": "Easy-to-clean fabric"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品系列",
+        "en": "Product Series"
+      },
+      "value": {
+        "zh": "Play House",
+        "en": "Play House"
+      }
+    },
+    {
+      "key": {
+        "zh": "商品尺寸",
+        "en": "Product Dimensions"
+      },
+      "value": {
+        "zh": "120 × 100 × 130 cm",
+        "en": "120 × 100 × 130 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "43 × 10 × 26 cm",
+        "en": "43 × 10 × 26 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "83 × 44 × 81 cm",
+        "en": "83 × 44 × 81 cm"
+      }
+    }
+  ],
+  "attributePairs": [
+    {
+      "key": {
+        "zh": "型号",
+        "en": "Model Number"
+      },
+      "value": {
+        "zh": "A444-18",
+        "en": "A444-18"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品类型",
+        "en": "Product Type"
+      },
+      "value": {
+        "zh": "儿童游戏帐篷",
+        "en": "Children's Play Tents"
+      }
+    },
+    {
+      "key": {
+        "zh": "颜色与图案",
+        "en": "Color and Pattern"
+      },
+      "value": {
+        "zh": "卡其色格子",
+        "en": "Khaki check"
+      }
+    },
+    {
+      "key": {
+        "zh": "主题",
+        "en": "Theme"
+      },
+      "value": {
+        "zh": "樱花创意屋",
+        "en": "Sakura playhouse"
+      }
+    },
+    {
+      "key": {
+        "zh": "材质",
+        "en": "Material"
+      },
+      "value": {
+        "zh": "布艺",
+        "en": "Fabric"
+      }
+    },
+    {
+      "key": {
+        "zh": "玩法",
+        "en": "Play Mode"
+      },
+      "value": {
+        "zh": "儿童过家家游戏屋",
+        "en": "Children's pretend-play house"
+      }
+    },
+    {
+      "key": {
+        "zh": "组装说明",
+        "en": "Assembly Instructions"
+      },
+      "value": {
+        "zh": "随附组装说明书",
+        "en": "Assembly instructions included"
+      }
+    },
+    {
+      "key": {
+        "zh": "收纳方式",
+        "en": "Storage"
+      },
+      "value": {
+        "zh": "可组装及折叠",
+        "en": "Assembles and folds"
+      }
+    },
+    {
+      "key": {
+        "zh": "使用场景",
+        "en": "Application"
+      },
+      "value": {
+        "zh": "室内及户外游戏",
+        "en": "Indoor and outdoor play"
+      }
+    },
+    {
+      "key": {
+        "zh": "清洁方式",
+        "en": "Care"
+      },
+      "value": {
+        "zh": "易清洁面料",
+        "en": "Easy-to-clean fabric"
+      }
+    },
+    {
+      "key": {
+        "zh": "产品系列",
+        "en": "Product Series"
+      },
+      "value": {
+        "zh": "Play House",
+        "en": "Play House"
+      }
+    },
+    {
+      "key": {
+        "zh": "商品尺寸",
+        "en": "Product Dimensions"
+      },
+      "value": {
+        "zh": "120 × 100 × 130 cm",
+        "en": "120 × 100 × 130 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "43 × 10 × 26 cm",
+        "en": "43 × 10 × 26 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "83 × 44 × 81 cm",
+        "en": "83 × 44 × 81 cm"
+      }
+    }
+  ],
+  "packagingAndShipping": {
+    "summary": {
+      "zh": "单品包装及外箱规格如下，运输费用另行核算。",
+      "en": "Individual packing and carton specifications are listed below. Shipping is quoted separately."
+    },
+    "blocks": [
+      {
+        "label": {
+          "zh": "包装方式",
+          "en": "Packaging"
+        },
+        "value": {
+          "zh": "彩盒",
+          "en": "Color box"
+        }
+      },
+      {
+        "label": {
+          "zh": "包装尺寸",
+          "en": "Package Dimensions"
+        },
+        "value": {
+          "zh": "43 × 10 × 26 cm",
+          "en": "43 × 10 × 26 cm"
+        }
+      },
+      {
+        "label": {
+          "zh": "外箱尺寸",
+          "en": "Carton Dimensions"
+        },
+        "value": {
+          "zh": "83 × 44 × 81 cm",
+          "en": "83 × 44 × 81 cm"
+        }
+      },
+      {
+        "label": {
+          "zh": "外箱体积（按尺寸计算）",
+          "en": "Carton Volume (Calculated)"
+        },
+        "value": {
+          "zh": "0.296 m³",
+          "en": "0.296 m³"
+        }
+      },
+      {
+        "label": {
+          "zh": "运输费用",
+          "en": "Shipping Cost"
+        },
+        "value": {
+          "zh": "按目的地、箱数及运输方式另行报价。",
+          "en": "Quoted separately by destination, carton quantity and shipping method."
+        }
+      }
+    ],
+    "unitSize": "43 × 10 × 26 cm"
+  },
+  "packagingPairs": [
+    {
+      "key": {
+        "zh": "包装方式",
+        "en": "Packaging"
+      },
+      "value": {
+        "zh": "彩盒",
+        "en": "Color box"
+      }
+    },
+    {
+      "key": {
+        "zh": "包装尺寸",
+        "en": "Package Dimensions"
+      },
+      "value": {
+        "zh": "43 × 10 × 26 cm",
+        "en": "43 × 10 × 26 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱尺寸",
+        "en": "Carton Dimensions"
+      },
+      "value": {
+        "zh": "83 × 44 × 81 cm",
+        "en": "83 × 44 × 81 cm"
+      }
+    },
+    {
+      "key": {
+        "zh": "外箱体积（按尺寸计算）",
+        "en": "Carton Volume (Calculated)"
+      },
+      "value": {
+        "zh": "0.296 m³",
+        "en": "0.296 m³"
+      }
+    },
+    {
+      "key": {
+        "zh": "运输费用",
+        "en": "Shipping Cost"
+      },
+      "value": {
+        "zh": "按目的地、箱数及运输方式另行报价。",
+        "en": "Quoted separately by destination, carton quantity and shipping method."
+      }
+    }
+  ],
+  "media": {
+    "main": [
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/A444-18/318dc0414711.webp"
+      }
+    ],
+    "detail": [
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/A444-18/3c4cc59c1f16.webp"
+      },
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/A444-18/f7420ddae734.webp"
+      }
+    ]
+  },
+  "images": [
+    "https://www.yaoshuntoys.com/media/products-q92/A444-18/318dc0414711.webp",
+    "https://www.yaoshuntoys.com/media/products-q92/A444-18/3c4cc59c1f16.webp",
+    "https://www.yaoshuntoys.com/media/products-q92/A444-18/f7420ddae734.webp"
+  ],
+  "videos": [],
+  "productDetails": [
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "卡其格子的樱花屋",
+        "en": "The khaki-check Sakura version"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/A444-18/318dc0414711.webp",
+      "text": {
+        "zh": "这款是卡其色格子的樱花屋造型，带布艺屋顶、门帘与房屋窗口。盒面说明可组装、折叠，并注明室内及户外游戏场景，方便按实际位置布置。",
+        "en": "This Sakura version has khaki checks, a fabric roof, doorway curtain and house-style windows. The box describes assembly and folding, with indoor and outdoor play shown as uses."
+      }
+    },
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "先量好位置，再搭建",
+        "en": "Measure the space before assembly"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/A444-18/3c4cc59c1f16.webp",
+      "text": {
+        "zh": "搭建后的尺寸为120 × 100 × 130 cm。摆放前先量好游戏区，给门口进出留出位置；套装随附组装说明书，可按说明核对部件和搭建顺序。",
+        "en": "The assembled dimensions are 120 × 100 × 130 cm. Measure the play area and leave room at the doorway. Assembly instructions are included for checking the parts and order of assembly."
+      }
+    },
+    {
+      "type": "image",
+      "sectionTitle": {
+        "zh": "布艺结构与彩盒包装",
+        "en": "Fabric construction and packing"
+      },
+      "image": "https://www.yaoshuntoys.com/media/products-q92/A444-18/f7420ddae734.webp",
+      "text": {
+        "zh": "商品为布艺游戏屋，具体门帘、窗口和接缝可查看细节图。采用43 × 10 × 26 cm彩盒包装；布置场景用到的玩偶或其他陈设不计入本款已列配件。",
+        "en": "The detail images show the fabric, doorway, windows and seams. The color box measures 43 × 10 × 26 cm. Dolls or other items used to style a scene are not listed accessories for this model."
+      }
+    }
+  ],
+  "sourceData": {
+    "file": "挑样资料.xlsx",
+    "sha256": "30f47eb8405198bf6e92d33a2beecc7e62fb016f6bf26d476c79d2f816eefae0",
+    "sheet": "Blank_A4_Landscape_1019",
+    "row": 30,
+    "cells": {
+      "B": "A444-18",
+      "C": "卡其色格子樱花创意屋儿童帐篷游戏过家家游戏帐篷精美彩盒装公主游戏城堡儿童专属游戏乐园精美彩盒装新款",
+      "D": "彩盒",
+      "E": 0,
+      "F": 24,
+      "G": "75.8",
+      "H": "43",
+      "I": "10",
+      "J": "26",
+      "K": "83",
+      "L": "44",
+      "M": "81",
+      "N": "0.3",
+      "O": "10.44",
+      "P": "31",
+      "Q": "30",
+      "R": "\n附带组装说明书"
+    },
+    "priceAdjustment": {
+      "currency": "CNY",
+      "originalPrice": 75.8,
+      "markupRate": 0.3,
+      "adjustedPrice": 98.54,
+      "decimalPlaces": 2,
+      "rounding": "ROUND_HALF_UP"
+    },
+    "reviewNotes": [],
+    "attributeEnrichment": {
+      "sources": [
+        "title",
+        "description",
+        "sourceData.cells",
+        "productDetails.text",
+        "packagingPairs"
+      ],
+      "dimensionUnit": "cm",
+      "dimensionUnitBasis": "用户确认未注明单位的尺寸按厘米处理",
+      "packagingImage": "https://www.yaoshuntoys.com/media/products-q92/A444-18/318dc0414711.webp",
+      "imageAttributeKeys": [
+        "Storage",
+        "Application",
+        "Care",
+        "Product Series"
+      ],
+      "ageStatus": "not-readable-or-not-shown"
+    },
+    "originalDescription": {
+      "zh": [
+        "卡其色格子樱花创意屋儿童帐篷游戏过家家游戏帐篷精美彩盒装公主游戏城堡儿童专属游戏乐园精美彩盒装新款",
+        "附带组装说明书"
+      ],
+      "en": [
+        "Khaki Check Sakura Children's Playhouse Tent",
+        "Assembly instructions are included."
+      ]
+    },
+    "workbookReview": {
+      "file": "/Users/lukang.liu/Desktop/github/yaoshun/挑样资料.xlsx",
+      "sha256": "30f47eb8405198bf6e92d33a2beecc7e62fb016f6bf26d476c79d2f816eefae0",
+      "sheet": "Blank_A4_Landscape_1019",
+      "row": 30,
+      "imagePart": "xl/media/image28.jpeg"
+    },
+    "originalPackagingPairs": [
+      {
+        "key": {
+          "zh": "包装方式",
+          "en": "Packaging"
+        },
+        "value": {
+          "zh": "彩盒",
+          "en": "Color box"
+        }
+      },
+      {
+        "key": {
+          "zh": "装箱量（E列）",
+          "en": "Packing Quantity (Column E)"
+        },
+        "value": {
+          "zh": "0",
+          "en": "0"
+        }
+      },
+      {
+        "key": {
+          "zh": "装箱量（F列）",
+          "en": "Packing Quantity (Column F)"
+        },
+        "value": {
+          "zh": "24",
+          "en": "24"
+        }
+      },
+      {
+        "key": {
+          "zh": "包装规格（原表单位）",
+          "en": "Package Dimensions (Source Units)"
+        },
+        "value": {
+          "zh": "43 × 10 × 26",
+          "en": "43 × 10 × 26"
+        }
+      },
+      {
+        "key": {
+          "zh": "外箱规格（原表单位）",
+          "en": "Carton Dimensions (Source Units)"
+        },
+        "value": {
+          "zh": "83 × 44 × 81",
+          "en": "83 × 44 × 81"
+        }
+      },
+      {
+        "key": {
+          "zh": "体积（原表单位）",
+          "en": "Volume (Source Units)"
+        },
+        "value": {
+          "zh": "0.3",
+          "en": "0.3"
+        }
+      },
+      {
+        "key": {
+          "zh": "材积（原表单位）",
+          "en": "Shipping Measurement (Source Units)"
+        },
+        "value": {
+          "zh": "10.44",
+          "en": "10.44"
+        }
+      },
+      {
+        "key": {
+          "zh": "毛重（原表单位）",
+          "en": "Gross Weight (Source Units)"
+        },
+        "value": {
+          "zh": "31",
+          "en": "31"
+        }
+      },
+      {
+        "key": {
+          "zh": "净重（原表单位）",
+          "en": "Net Weight (Source Units)"
+        },
+        "value": {
+          "zh": "30",
+          "en": "30"
+        }
+      }
+    ],
+    "contentReview": {
+      "status": "edited-individually",
+      "scope": [
+        "description",
+        "productDetails",
+        "attributePairs",
+        "customizationOptions",
+        "packagingAndShipping",
+        "leadTime"
+      ],
+      "copyStyle": "具体、简洁，按本款资料描述；未确认的配置不扩写为承诺",
+      "deliveryBasis": "未提供本款确认的天数，按样品、常规订单和定制订单说明确认节点",
+      "preservedImageUrls": true
+    }
+  },
+  "customizationOptions": [
+    {
+      "label": {
+        "zh": "彩盒与品牌版面",
+        "en": "Retail Box and Branding"
+      },
+      "minOrder": {
+        "zh": "可提交LOGO、盒面设计与条码要求，印刷方案及起订量另行确认。",
+        "en": "Submit logo artwork, box design and barcode requirements. Print specifications and minimum quantities are confirmed separately."
+      }
+    },
+    {
+      "label": {
+        "zh": "布面与配色方案评估",
+        "en": "Fabric and Color Review"
+      },
+      "minOrder": {
+        "zh": "可提出布面图案、配色和面料要求，先确认打样条件与费用。",
+        "en": "Request fabric prints, colors or materials for review of sampling requirements and costs."
+      }
+    },
+    {
+      "label": {
+        "zh": "组装说明语言",
+        "en": "Assembly Guide Language"
+      },
+      "minOrder": {
+        "zh": "可提交说明书语言和图示要求，按确认稿评估排版与印刷。",
+        "en": "Submit assembly-guide languages and illustrations for layout and print review."
+      }
+    }
+  ],
+  "leadTime": {
+    "notes": [
+      {
+        "label": {
+          "zh": "样品订单",
+          "en": "Samples"
+        },
+        "value": {
+          "zh": "先确认A444-18样品和当前配色库存，再约定寄样日期。",
+          "en": "Confirm A444-18 sample and color availability before agreeing a dispatch date."
+        }
+      },
+      {
+        "label": {
+          "zh": "常规订单",
+          "en": "Standard Orders"
+        },
+        "value": {
+          "zh": "按订单数量、包装备料和现有排产确认交期，国际运输时间另计。",
+          "en": "Confirm lead time against quantity, packing materials and the production schedule. International transit is additional."
+        }
+      },
+      {
+        "label": {
+          "zh": "定制订单",
+          "en": "Customized Orders"
+        },
+        "value": {
+          "zh": "先确认图稿、配件清单和样品，确认后再安排生产与出货排期。",
+          "en": "Approve artwork, contents and samples before scheduling production and dispatch."
+        }
+      }
+    ]
+  }
+}
