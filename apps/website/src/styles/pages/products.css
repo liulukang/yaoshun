@@ -768,6 +768,11 @@
   background: #f8fbff;
 }
 
+.products-grid-image-wrap[data-cover-layout="square"] {
+  aspect-ratio: 1;
+  min-height: 0;
+}
+
 .products-grid-body {
   display: grid;
   gap: 0.72rem;

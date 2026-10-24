@@ -295,7 +295,10 @@ export function ProductsCatalogClient({
               key={item.productId}
               prefetch={false}
             >
-              <div className="products-grid-image-wrap">
+              <div
+                className="products-grid-image-wrap"
+                data-cover-layout={item.images[0]?.includes("/site/products/") ? "square" : undefined}
+              >
                 <Image
                   alt={t(locale, item.label)}
                   className="products-grid-image"
