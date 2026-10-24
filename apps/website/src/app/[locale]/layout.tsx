@@ -45,15 +45,15 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: "/favicon-rounded.png",
+        url: "https://www.yaoshuntoys.com/media/favicon-rounded-6e857fa07902.png",
         type: "image/png",
         sizes: "64x64",
       },
     ],
-    shortcut: "/favicon-rounded.png",
+    shortcut: "https://www.yaoshuntoys.com/media/favicon-rounded-6e857fa07902.png",
     apple: [
       {
-        url: "/favicon-rounded-192.png",
+        url: "https://www.yaoshuntoys.com/media/favicon-rounded-192-74ffb8e67a67.png",
         type: "image/png",
         sizes: "192x192",
       },

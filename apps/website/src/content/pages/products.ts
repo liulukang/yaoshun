@@ -1,4 +1,4 @@
-const customSideImage = "/site/products/custom-sourcing-showcase.webp";
+const customSideImage = "https://www.yaoshuntoys.com/media/site/products/custom-sourcing-showcase-8ba251863d01.webp";
 
 import type {LocalizedText, ShowcaseProductSeed} from "@/content/types";
 

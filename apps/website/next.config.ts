@@ -1,4 +1,5 @@
 import type { NextConfig } from "next";
+import migratedLocalImages from "./src/content/migrated-local-images.json";
 
 const publicBlobOrigin =
   "https://7j7davvujdsmddan.public.blob.vercel-storage.com";
@@ -83,15 +84,6 @@ const nextConfig: NextConfig = {
         ],
       },
       {
-        source: "/favicon.svg",
-        headers: [
-          {
-            key: "Cache-Control",
-            value: "public, max-age=31536000, immutable",
-          },
-        ],
-      },
-      {
         source: "/site.webmanifest",
         headers: [
           {
@@ -163,6 +155,8 @@ const nextConfig: NextConfig = {
   },
   async rewrites() {
     return [
+      // Preserve published image URLs after moving the underlying files to Blob.
+      ...migratedLocalImages,
       {
         source: "/media/:path*",
         destination: `${publicBlobOrigin}/yaoshun-assets/:path*`,

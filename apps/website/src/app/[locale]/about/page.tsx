@@ -737,7 +737,7 @@ export default async function AboutPage({
             fill
             priority
             sizes="100vw"
-            src="/site/misc/about-bg-new.webp"
+            src="https://www.yaoshuntoys.com/media/site/misc/about-bg-new-651a9405ba2a.webp"
           />
         </div>
 

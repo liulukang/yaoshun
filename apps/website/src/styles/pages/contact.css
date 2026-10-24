@@ -103,7 +103,7 @@
   background:
     linear-gradient(135deg, rgba(243, 247, 255, 0.92) 0%, rgba(247, 250, 255, 0.84) 36%, rgba(255, 255, 255, 0.64) 100%),
     radial-gradient(circle at top left, rgba(37, 99, 255, 0.16), transparent 34%),
-    url("/site/contact/image.webp");
+    url("https://www.yaoshuntoys.com/media/site/contact/image-42772f24333b.webp");
   background-size: cover;
   background-position: center center;
   overflow: hidden;
@@ -418,7 +418,7 @@
   .contact-company-panel {
     background:
       linear-gradient(135deg, rgba(247, 250, 255, 0.97), rgba(247, 250, 255, 0.9)),
-      url("/site/contact/image.webp") center / cover;
+      url("https://www.yaoshuntoys.com/media/site/contact/image-42772f24333b.webp") center / cover;
   }
 
   .contact-company-stat-icon {

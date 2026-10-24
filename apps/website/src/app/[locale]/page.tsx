@@ -241,7 +241,7 @@ export default async function HomePage({
         <PageHero
           backgroundClassName="home-hero-background"
           backgroundImageClassName="home-section-image home-hero-background-image"
-          backgroundSrc="/site/misc/home-bg.webp"
+          backgroundSrc="https://www.yaoshuntoys.com/media/site/misc/home-bg-123f28519b49.webp"
           copyClassName="home-hero-copy"
           gridClassName="home-hero-grid"
           innerClassName="home-hero-inner"

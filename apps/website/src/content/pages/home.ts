@@ -1,7 +1,7 @@
 import type {LocalizedText, ShowcaseProductSeed} from "@/content/types";
 
-const whyImage = "/site/home/why-choose-yaoshun.webp";
-const aboutImage = "/site/home/about-factory.webp";
+const whyImage = "https://www.yaoshuntoys.com/media/site/home/why-choose-yaoshun-90b96715270c.webp";
+const aboutImage = "https://www.yaoshuntoys.com/media/site/home/about-factory-cf2e79b208dc.webp";
 
 export const homePageImages = {
   why: whyImage,
@@ -17,21 +17,21 @@ export const homeProductCollections: Array<{
   {
     key: "building",
     label: {en: "Fort Building Kits", zh: "堡垒拼搭"},
-    image: "/site/home/toy-type-building.webp",
+    image: "https://www.yaoshuntoys.com/media/site/home/toy-type-building-f0b39adab27c.webp",
   },
   {
     key: "sports",
     label: {en: "Sports & Outdoor Play", zh: "运动户外"},
-    image: "/site/home/toy-type-sports.webp",
+    image: "https://www.yaoshuntoys.com/media/site/home/toy-type-sports-1addb2e76a68.webp",
   },
   {
     key: "robots",
     label: {en: "Robots & RC Toys", zh: "机器人遥控"},
-    image: "/site/home/toy-type-robots.webp",
+    image: "https://www.yaoshuntoys.com/media/site/home/toy-type-robots-1806ac628dcf.webp",
   },
   {
     key: "drones",
     label: {en: "Drones", zh: "无人机"},
-    image: "/site/home/toy-type-drones.webp",
+    image: "https://www.yaoshuntoys.com/media/site/home/toy-type-drones-edec7092a160.webp",
   },
 ];

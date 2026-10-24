@@ -738,7 +738,7 @@ const reasonCards = [
   },
 ] as const;
 
-const heroImage = "/site/misc/solution-bg.webp";
+const heroImage = "https://www.yaoshuntoys.com/media/site/misc/solution-bg-1f06fa01d35d.webp";
 
 export async function generateMetadata({
   params,
@@ -1375,7 +1375,7 @@ export default async function SolutionsPage({
               className="solutions-ready-product-image"
               height={1088}
               sizes="(min-width: 1024px) 26vw, 62vw"
-              src="/site/solutions/ready-custom-project-showcase.webp"
+              src="https://www.yaoshuntoys.com/media/site/solutions/ready-custom-project-showcase-7f81224bd189.webp"
               width={1088}
             />
           </div>

@@ -4,7 +4,7 @@ const factoryImage2 =
   "https://www.yaoshuntoys.com/media/site/about/image-copy-8-optimized.webp";
 const factoryImage3 =
   "https://www.yaoshuntoys.com/media/site/solutions/extrusion-workshop-overview.webp";
-const factoryImage4 = "/site/home/about-factory.webp";
+const factoryImage4 = "https://www.yaoshuntoys.com/media/site/home/about-factory-cf2e79b208dc.webp";
 const factoryImage5 =
   "https://www.yaoshuntoys.com/media/site/about/warehouse.jpg";
 const factoryImage6 =
@@ -40,17 +40,17 @@ export const cooperationPartnersSectionCopy = {
 } as const;
 
 export const partnerItems = [
-  {label: {en: "VEVOR", zh: "VEVOR"}, image: "/site/partners/vevor-logo.png"},
-  {label: {en: "Dreame", zh: "追觅"}, image: "/site/partners/dreame-logo.svg"},
-  {label: {en: "Narwal", zh: "云鲸"}, image: "/site/partners/narwal-logo.png"},
+  {label: {en: "VEVOR", zh: "VEVOR"}, image: "https://www.yaoshuntoys.com/media/site/partners/vevor-logo-73f12b5434b3.webp"},
+  {label: {en: "Dreame", zh: "追觅"}, image: "https://www.yaoshuntoys.com/media/site/partners/dreame-logo-99f1de181ea0.webp"},
+  {label: {en: "Narwal", zh: "云鲸"}, image: "https://www.yaoshuntoys.com/media/site/partners/narwal-logo-767be146451d.webp"},
   {
     label: {en: "Guowin Optoelectronics", zh: "国盈光电"},
-    image: "/site/partners/guowin-logo.png",
+    image: "https://www.yaoshuntoys.com/media/site/partners/guowin-logo-12124d2a63c8.webp",
   },
   {
     label: {en: "Langxin Medical", zh: "朗信医疗"},
-    image: "/site/partners/langxin-medical-logo.png",
+    image: "https://www.yaoshuntoys.com/media/site/partners/langxin-medical-logo-3a664ec4d4f0.webp",
   },
-  {label: {en: "Baoxin Cable", zh: "宝新电缆"}, image: "/site/partners/baoxin-cable-logo.png"},
-  {label: {en: "OML", zh: "欧曼"}, image: "/site/partners/oml-logo.png"},
+  {label: {en: "Baoxin Cable", zh: "宝新电缆"}, image: "https://www.yaoshuntoys.com/media/site/partners/baoxin-cable-logo-dc5716180ca1.webp"},
+  {label: {en: "OML", zh: "欧曼"}, image: "https://www.yaoshuntoys.com/media/site/partners/oml-logo-4698d41bd9cc.webp"},
 ] as const;

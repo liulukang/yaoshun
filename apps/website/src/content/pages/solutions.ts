@@ -1,4 +1,3 @@
-const customImage = "/site/solutions/custom.webp";
 const coreFocusBase =
   "https://7j7davvujdsmddan.public.blob.vercel-storage.com/yaoshun-assets/site/solutions/core-focus-v2";
 const baseUrl =
@@ -8,7 +7,6 @@ const equipmentBase =
 const workshopBase =
   "https://www.yaoshuntoys.com/media/site/solutions/workshop";
 export const solutionsPageImages = {
-  custom: customImage,
   education: `${coreFocusBase}/stem-toy-rd-factory-review.webp`,
   retail: `${coreFocusBase}/interlocking-diy-toy-pilot-assembly.webp`,
   events: `${coreFocusBase}/plastic-rod-extrusion-production.webp`,
@@ -25,16 +23,16 @@ export const solutionsWorkshopImages = {
 } as const;
 
 export const solutionsEquipmentImages = {
-  pcbaServiceBoard: "/site/solutions/pcba-service-board.png",
-  pcbaServiceAngle: "/site/solutions/pcba-service-angle.png",
-  pcbaServiceInterface: "/site/solutions/pcba-service-interface.png",
-  pcbaServiceSmtDetail: "/site/solutions/pcba-service-smt-detail.png",
-  pcbaServiceCircuitDetail: "/site/solutions/pcba-service-circuit-detail.png",
-  pcbaDesignRd: "/site/solutions/pcba-design-rd.png",
-  pcbaBoardMaking: "/site/solutions/pcba-board-making.png",
-  pcbaSmtPlacement: "/site/solutions/pcba-smt-placement.png",
-  pcbaTailorMadeSolution: "/site/solutions/pcba-tailor-made-solution.png",
-  extrusionEquipmentDisplay: "/site/solutions/extrusion-equipment-display.png",
+  pcbaServiceBoard: "https://www.yaoshuntoys.com/media/site/solutions/pcba-service-board-ce20a8237517.webp",
+  pcbaServiceAngle: "https://www.yaoshuntoys.com/media/site/solutions/pcba-service-angle-141e61470389.webp",
+  pcbaServiceInterface: "https://www.yaoshuntoys.com/media/site/solutions/pcba-service-interface-369ac7da97d9.webp",
+  pcbaServiceSmtDetail: "https://www.yaoshuntoys.com/media/site/solutions/pcba-service-smt-detail-9d8bc3bd7b54.webp",
+  pcbaServiceCircuitDetail: "https://www.yaoshuntoys.com/media/site/solutions/pcba-service-circuit-detail-193fa3556671.webp",
+  pcbaDesignRd: "https://www.yaoshuntoys.com/media/site/solutions/pcba-design-rd-ce0933b94405.webp",
+  pcbaBoardMaking: "https://www.yaoshuntoys.com/media/site/solutions/pcba-board-making-168a4ad20564.webp",
+  pcbaSmtPlacement: "https://www.yaoshuntoys.com/media/site/solutions/pcba-smt-placement-ca9b41734fc4.webp",
+  pcbaTailorMadeSolution: "https://www.yaoshuntoys.com/media/site/solutions/pcba-tailor-made-solution-e1f37a87a0cf.webp",
+  extrusionEquipmentDisplay: "https://www.yaoshuntoys.com/media/site/solutions/extrusion-equipment-display-769246e77d12.webp",
   moldWorkshop: `${equipmentBase}/mold-machining-workshop-overview.webp`,
   c6140aLathe: `${equipmentBase}/mold-machining-c6140a-engine-lathe-main.webp`,
   c6140aLatheDetail1: `${equipmentBase}/mold-machining-c6140a-engine-lathe-main.webp`,

@@ -38,7 +38,7 @@ export function BrandMark({compact = false}: {compact?: boolean}) {
         decoding="async"
         height={iconSize}
         loading="lazy"
-        src="/favicon-rounded-192.png"
+        src="https://www.yaoshuntoys.com/media/favicon-rounded-192-74ffb8e67a67.png"
         width={iconSize}
       />
       <span className="text-[#2563ff]">yaoshun</span>

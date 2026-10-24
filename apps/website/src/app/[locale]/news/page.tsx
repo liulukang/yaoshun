@@ -201,7 +201,7 @@ export default async function NewsPage({
             fill
             priority
             sizes="100vw"
-            src="/site/misc/new-bg.jpg"
+            src="https://www.yaoshuntoys.com/media/site/misc/new-bg-a2479785a301.webp"
           />
         </div>
         <div className="news-hero-inner">

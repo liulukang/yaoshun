@@ -226,7 +226,7 @@ export default async function ProductsPage({
             fill
             priority
             sizes="100vw"
-            src="/site/misc/product-bg.webp"
+            src="https://www.yaoshuntoys.com/media/site/misc/product-bg-6bec6b68f450.webp"
           />
         </div>
         <div className="products-hero-inner">

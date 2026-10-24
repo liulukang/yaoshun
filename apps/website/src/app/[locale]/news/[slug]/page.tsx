@@ -383,7 +383,7 @@ export default async function NewsDetailPage({
       url: toAbsoluteUrl("/about"),
       logo: {
         "@type": "ImageObject",
-        url: toAbsoluteUrl("/favicon-rounded-192.png"),
+        url: toAbsoluteUrl("https://www.yaoshuntoys.com/media/favicon-rounded-192-74ffb8e67a67.png"),
       },
     },
   };

@@ -115,7 +115,7 @@ export default function GlobalError({
         <main style={wrapStyle}>
           <section style={panelStyle}>
             <div style={brandStyle} aria-label="yaoshun toys">
-              <Image alt="" height={34} quality={100} src="/favicon-rounded-192.png" style={{borderRadius: "9px"}} width={34} />
+              <Image alt="" height={34} quality={100} src="https://www.yaoshuntoys.com/media/favicon-rounded-192-74ffb8e67a67.png" style={{borderRadius: "9px"}} width={34} />
               <span style={{color: "#2563ff"}}>yaoshun</span>
               <span style={{color: "#ff9700"}}>toys</span>
             </div>

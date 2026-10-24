@@ -47,11 +47,11 @@ export function SiteStructuredData({locale}: {locale: Locale}) {
       '东莞市尧顺科技'
     ])),
     url: siteUrl,
-    logo: toAbsoluteUrl('/favicon-rounded-192.png'),
+    logo: toAbsoluteUrl('https://www.yaoshuntoys.com/media/favicon-rounded-192-74ffb8e67a67.png'),
     image: [
       toAbsoluteUrl(defaultOgImage),
-      toAbsoluteUrl('/site/misc/product-bg.webp'),
-      toAbsoluteUrl('/site/misc/solution-bg.webp')
+      toAbsoluteUrl('https://www.yaoshuntoys.com/media/site/misc/product-bg-6bec6b68f450.webp'),
+      toAbsoluteUrl('https://www.yaoshuntoys.com/media/site/misc/solution-bg-1f06fa01d35d.webp')
     ],
     description: t(locale, companyProfile.seoDescription),
     slogan: t(locale, companyProfile.tagline),
