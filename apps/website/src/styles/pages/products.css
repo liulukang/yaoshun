@@ -1339,3 +1339,22 @@
   }
 
 }
+.products-buying-guide {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 48px 24px 64px;
+  color: #17306e;
+}
+
+.products-buying-guide-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
+  gap: 32px;
+  margin: 24px 0;
+}
+
+.products-buying-guide h2 { font-size: clamp(24px, 3vw, 32px); }
+.products-buying-guide h3 { margin-bottom: 12px; font-size: 20px; }
+.products-buying-guide p { color: #475569; line-height: 1.8; }
+.products-buying-guide ul { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 16px; list-style: none; padding: 0; }
+.products-buying-guide a { color: #1856b5; text-decoration: underline; text-underline-offset: 3px; }

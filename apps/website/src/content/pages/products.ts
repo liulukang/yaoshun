@@ -131,3 +131,96 @@ export const productsPageAssets = {
   fallbackImage: "https://www.yaoshuntoys.com/media/products-q92/1601110728943/1.webp",
   lifestyleImage: customSideImage,
 } as const;
+
+type CategoryBuyingGuide = {
+  title: LocalizedText;
+  sections: Array<{
+    title: LocalizedText;
+    text: LocalizedText;
+    productIds?: string[];
+  }>;
+};
+
+export const categoryBuyingGuides: Partial<Record<ShowcaseProductSeed["collection"], CategoryBuyingGuide>> = {
+  fans: {
+    title: {en: "Choosing a portable fan for your sourcing program", zh: "便携风扇采购选型"},
+    sections: [
+      {
+        title: {en: "Compare cooling and carrying options", zh: "比较制冷方式与携带配置"},
+        text: {
+          en: "FC-6658 adds semiconductor cooling, while FC-6655B1 supports handheld use and includes a neck strap and USB cable. Both listings specify a brushless motor and an 1800 mAh 18650 lithium battery. Confirm the selected model's dimensions, weight and charging details before comparing offers.",
+          zh: "FC-6658 配有半导体制冷功能；FC-6655B1 支持手持使用，附挂绳与 USB 线。两款资料均列有无刷电机及 1800 mAh 18650 锂电池。比价前应核对所选型号的尺寸、重量与充电细节。",
+        },
+        productIds: ["FC-6658", "FC-6655B1"],
+      },
+      {
+        title: {en: "Confirm branding, packaging and battery documents", zh: "确认品牌包装与电池资料"},
+        text: {
+          en: "Send your logo artwork, color preference and retail-box requirements for a feasibility review. Confirm accessory contents, warning labels and the battery or transport documents needed for your destination and shipping method against the final configuration.",
+          zh: "提供 LOGO 图稿、配色与零售包装要求，以便评估可行范围。配件清单、警示标签，以及目的地和运输方式所需的电池或运输资料，应按最终配置逐项确认。",
+        },
+      },
+      {
+        title: {en: "What to include in a fan inquiry", zh: "风扇询价需要哪些资料"},
+        text: {
+          en: "Include the model, order quantity, target market, carrying style, packaging language and delivery destination. Ask for the unit and carton dimensions, sample configuration and applicable test documents with the quotation.",
+          zh: "询价时请提供型号、数量、目标市场、携带方式、包装语言与收货地，并随报价确认单品和外箱尺寸、样品配置及适用检测资料。",
+        },
+      },
+    ],
+  },
+  stem: {
+    title: {en: "Planning a science-kit assortment", zh: "科学实验套装采购要点"},
+    sections: [
+      {
+        title: {en: "Match activities, age grading and power supply", zh: "核对实验内容、年龄与供电"},
+        text: {
+          en: "D2008 lists 38 accessories for mist, rotating-projection and light-guide experiments. Its packaging indicates ages 7+ and three AA batteries, which are not included. Review the accessory list and instructions against your teaching or retail use case.",
+          zh: "D2008 资料列有 38 个配件，包含雾化、旋转投影和导光实验；包装标注适合 7 岁以上，使用 3 节 AA 电池且不含电池。请结合教学或零售用途核对配件清单与说明书。",
+        },
+        productIds: ["D2008"],
+      },
+      {
+        title: {en: "Review the instruction and packaging brief", zh: "评估说明书与包装需求"},
+        text: {
+          en: "Provide the required instruction language, activity sequence, warning-label requirements and box artwork for review. Changes to experiments, accessories or electrical parts need a separate feasibility and testing assessment.",
+          zh: "提供说明书语言、实验步骤安排、警示标签要求和包装图稿供评估。调整实验内容、配件或电子部件时，需要另外确认开发可行性与检测范围。",
+        },
+      },
+      {
+        title: {en: "Prepare a science-kit inquiry", zh: "准备科学套装询价资料"},
+        text: {
+          en: "State the target age, sales country, school or retail channel, quantity and packaging language. Request a sample to check assembly steps, component completeness and instructions, and confirm which reports cover the selected configuration.",
+          zh: "说明目标年龄、销售国家、学校或零售渠道、数量与包装语言。通过样品核对搭建步骤、零件完整性及说明书，并确认检测报告是否覆盖所选配置。",
+        },
+      },
+    ],
+  },
+  robots: {
+    title: {en: "Compare robot functions before requesting a quote", zh: "机器人玩具功能与采购确认"},
+    sections: [
+      {
+        title: {en: "Choose the interaction that fits your channel", zh: "按渠道选择交互方式"},
+        text: {
+          en: "X1 lists voice commands, programming, handshakes, dancing and stunts. Model 9901 lists remote control, touch sensing, programming, lights and music. The eight-wheel 599-51 uses a 2.4 GHz controller and includes lights and sounds. Compare each model's own function list and demonstration.",
+          zh: "X1 资料列有语音指令、编程、握手、跳舞与特技；9901 列有遥控、触摸感应、编程、灯光与音乐；八轮 599-51 使用 2.4 GHz 遥控，带灯光音效。应按各型号独立的功能清单和演示选型。",
+        },
+        productIds: ["X1", "9901", "599-51"],
+      },
+      {
+        title: {en: "Check language, power and customization scope", zh: "核对语言、供电与定制范围"},
+        text: {
+          en: "Confirm voice and instruction languages, the battery specification, charging cable and controller power requirements for the exact model. Send branding and packaging requests for review; voice, firmware or interaction changes require their own technical assessment and sample approval.",
+          zh: "按具体型号确认语音及说明书语言、电池规格、充电线与遥控器供电要求。品牌和包装需求可提交评估；语音、程序或交互功能调整需单独技术评估并确认样品。",
+        },
+      },
+      {
+        title: {en: "Send a clear robot sourcing brief", zh: "提供明确的机器人采购需求"},
+        text: {
+          en: "Include the model, required functions, language version, sales market, quantity and packaging brief. Ask for the complete accessory list, sample demonstration and configuration-specific safety or battery documents before confirming the order.",
+          zh: "提供型号、所需功能、语言版本、销售市场、数量与包装要求；下单前核对完整配件清单、样品演示，以及对应配置的安全或电池资料。",
+        },
+      },
+    ],
+  },
+};

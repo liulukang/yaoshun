@@ -437,7 +437,7 @@ export async function generateMetadata({
   return buildMetadata(
     locale,
     title,
-    description || productDescription,
+    localize(locale, product.seoDescription, "") || description || productDescription,
     `products/${slug}`,
     [
       ...getProductSeoKeywords(locale, product),

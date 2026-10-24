@@ -13,6 +13,10 @@
     "zh": "粉色格子樱花游戏屋",
     "en": "Pink Check Sakura Playhouse"
   },
+  "seoDescription": {
+    "en": "A444-20 is a foldable pink-check fabric playhouse in the Play House series, measuring 120 × 100 × 130 cm, for indoor and outdoor play.",
+    "zh": "A444-20 粉色格子布艺游戏屋属于 Play House 系列，支持搭建和折叠，尺寸为 120 × 100 × 130 cm，适合室内外玩耍。"
+  },
   "summary": {
     "zh": "粉色格子布艺游戏屋，尺寸120 × 100 × 130 cm。",
     "en": "A fabric playhouse in pink checks, measuring 120 × 100 × 130 cm."
@@ -516,10 +520,14 @@
     "main": [
       {
         "type": "image",
-        "url": "https://www.yaoshuntoys.com/media/products-q92/A444-20/7477348f46d6.webp"
+        "url": "https://www.yaoshuntoys.com/media/products-q92/A444-20/overview-900-9a6b398721d02c5f.webp"
       }
     ],
     "detail": [
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/A444-20/7477348f46d6.webp"
+      },
       {
         "type": "image",
         "url": "https://www.yaoshuntoys.com/media/products-q92/A444-20/029985835966.webp"
@@ -531,6 +539,7 @@
     ]
   },
   "images": [
+    "https://www.yaoshuntoys.com/media/products-q92/A444-20/overview-900-9a6b398721d02c5f.webp",
     "https://www.yaoshuntoys.com/media/products-q92/A444-20/7477348f46d6.webp",
     "https://www.yaoshuntoys.com/media/products-q92/A444-20/029985835966.webp",
     "https://www.yaoshuntoys.com/media/products-q92/A444-20/b5c8f17cd93c.webp"

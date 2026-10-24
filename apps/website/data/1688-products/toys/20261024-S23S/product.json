@@ -676,10 +676,14 @@
     "main": [
       {
         "type": "image",
-        "url": "https://www.yaoshuntoys.com/media/products-q92/S23S/ac201c367406.webp"
+        "url": "https://www.yaoshuntoys.com/media/products-q92/S23S/overview-900-51ba3b1ed189e00c.webp"
       }
     ],
     "detail": [
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/S23S/ac201c367406.webp"
+      },
       {
         "type": "image",
         "url": "https://www.yaoshuntoys.com/media/products-q92/S23S/f16e22887a65.webp"
@@ -691,6 +695,7 @@
     ]
   },
   "images": [
+    "https://www.yaoshuntoys.com/media/products-q92/S23S/overview-900-51ba3b1ed189e00c.webp",
     "https://www.yaoshuntoys.com/media/products-q92/S23S/ac201c367406.webp",
     "https://www.yaoshuntoys.com/media/products-q92/S23S/f16e22887a65.webp",
     "https://www.yaoshuntoys.com/media/products-q92/S23S/ea8ebbf77395.webp"

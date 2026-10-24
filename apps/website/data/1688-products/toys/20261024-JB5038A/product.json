@@ -627,10 +627,14 @@
     "main": [
       {
         "type": "image",
-        "url": "https://www.yaoshuntoys.com/media/products-q92/JB5038A/b9f8a2a69c61.webp"
+        "url": "https://www.yaoshuntoys.com/media/products-q92/JB5038A/overview-900-5d48c474eccdd566.webp"
       }
     ],
     "detail": [
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/JB5038A/b9f8a2a69c61.webp"
+      },
       {
         "type": "image",
         "url": "https://www.yaoshuntoys.com/media/products-q92/JB5038A/33853eb6d0c9.webp"
@@ -642,6 +646,7 @@
     ]
   },
   "images": [
+    "https://www.yaoshuntoys.com/media/products-q92/JB5038A/overview-900-5d48c474eccdd566.webp",
     "https://www.yaoshuntoys.com/media/products-q92/JB5038A/b9f8a2a69c61.webp",
     "https://www.yaoshuntoys.com/media/products-q92/JB5038A/33853eb6d0c9.webp",
     "https://www.yaoshuntoys.com/media/products-q92/JB5038A/06fa953c69cc.webp"

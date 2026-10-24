@@ -13,6 +13,10 @@
     "zh": "粉色格子悟空游戏屋",
     "en": "Pink Check Wukong Playhouse"
   },
+  "seoDescription": {
+    "en": "A999-531 is a pink-check fabric playhouse in the Funny House series, measuring 120 × 100 × 130 cm, with assembly instructions included.",
+    "zh": "A999-531 粉色格子布艺游戏屋属于 Funny House 系列，尺寸为 120 × 100 × 130 cm，附搭建说明。"
+  },
   "summary": {
     "zh": "粉色格子布艺游戏屋，尺寸120 × 100 × 130 cm。",
     "en": "A fabric playhouse in pink checks, measuring 120 × 100 × 130 cm."
@@ -456,10 +460,14 @@
     "main": [
       {
         "type": "image",
-        "url": "https://www.yaoshuntoys.com/media/products-q92/A999-531/1a4e9f39c9db.webp"
+        "url": "https://www.yaoshuntoys.com/media/products-q92/A999-531/overview-900-23a8ba751d9a1309.webp"
       }
     ],
     "detail": [
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/A999-531/1a4e9f39c9db.webp"
+      },
       {
         "type": "image",
         "url": "https://www.yaoshuntoys.com/media/products-q92/A999-531/67edf223137b.webp"
@@ -471,6 +479,7 @@
     ]
   },
   "images": [
+    "https://www.yaoshuntoys.com/media/products-q92/A999-531/overview-900-23a8ba751d9a1309.webp",
     "https://www.yaoshuntoys.com/media/products-q92/A999-531/1a4e9f39c9db.webp",
     "https://www.yaoshuntoys.com/media/products-q92/A999-531/67edf223137b.webp",
     "https://www.yaoshuntoys.com/media/products-q92/A999-531/13eb6c6ecd4a.webp"

@@ -8,6 +8,7 @@ import Link from "next/link";
 
 import {productCollections, productsPageAssets} from "@/content/pages/products";
 import {t, type Locale} from "@/lib/i18n";
+import {orderProductsForCatalog} from "@/lib/product-catalog-order";
 import {localizedPath, localizedUrlPath, productPath} from "@/lib/routes";
 
 const MOBILE_PRODUCTS_PAGE_SIZE = 6;
@@ -148,19 +149,9 @@ export function ProductsCatalogClient({
     });
   }, [query.category]);
 
-  const sortedCatalog = useMemo(
-    () =>
-      [...catalog].sort(
-        (a, b) => Number(b.bestseller) - Number(a.bestseller),
-      ),
-    [catalog],
-  );
   const filtered = useMemo(
-    () =>
-      sortedCatalog.filter(
-        (item) => !query.category || item.collection === query.category,
-      ),
-    [query.category, sortedCatalog],
+    () => orderProductsForCatalog(catalog, query.category),
+    [catalog, query.category],
   );
   const totalPages = Math.max(1, Math.ceil(filtered.length / pageSize));
   const productsHref = localizedPath(locale, "products");
@@ -234,9 +225,12 @@ export function ProductsCatalogClient({
                 data-track-event="filter_select"
                 data-track-label="all_products"
                 data-track-location="products_category_filter"
-                href={productsHref}
-                onClick={(event) =>
-                  navigate(event, {category: undefined, page: undefined})
+                href={`${productsHref}#products-catalog`}
+                onClick={
+                  paginationHref
+                    ? undefined
+                    : (event) =>
+                        navigate(event, {category: undefined, page: undefined})
                 }
               >
                 {text.allProducts}

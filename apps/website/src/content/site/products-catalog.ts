@@ -106,6 +106,7 @@ export type ProductJson = {
   structuredData?: Array<Record<string, unknown>>;
   title?: ProductJsonLocalizedText;
   summary?: ProductJsonLocalizedText;
+  seoDescription?: ProductJsonLocalizedText;
   description?: ProductJsonLocalizedList;
   sourceUrl?: string;
   categories?: ProductJsonLocalizedList;

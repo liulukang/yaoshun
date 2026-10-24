@@ -556,10 +556,14 @@
     "main": [
       {
         "type": "image",
-        "url": "https://www.yaoshuntoys.com/media/products-q92/S5X/f7227d03018b.webp"
+        "url": "https://www.yaoshuntoys.com/media/products-q92/S5X/overview-900-74788e01877019f2.webp"
       }
     ],
     "detail": [
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/S5X/f7227d03018b.webp"
+      },
       {
         "type": "image",
         "url": "https://www.yaoshuntoys.com/media/products-q92/S5X/aed491f1414a.webp"
@@ -571,6 +575,7 @@
     ]
   },
   "images": [
+    "https://www.yaoshuntoys.com/media/products-q92/S5X/overview-900-74788e01877019f2.webp",
     "https://www.yaoshuntoys.com/media/products-q92/S5X/f7227d03018b.webp",
     "https://www.yaoshuntoys.com/media/products-q92/S5X/aed491f1414a.webp",
     "https://www.yaoshuntoys.com/media/products-q92/S5X/85f5ffb9c651.webp"

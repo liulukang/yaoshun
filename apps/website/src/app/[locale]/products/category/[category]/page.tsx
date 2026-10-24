@@ -1,12 +1,13 @@
 import type {Metadata} from "next";
 import {notFound} from "next/navigation";
+import Link from "next/link";
 
 import "@/styles/pages/products.css";
 
 import {ProductsCatalogClient} from "@/components/products/products-catalog-client";
 import {Breadcrumbs} from "@/components/ui/marketing";
 import {StructuredData} from "@/components/seo/structured-data";
-import {productCategoryContent, productCollections} from "@/content/pages/products";
+import {categoryBuyingGuides, productCategoryContent, productCollections} from "@/content/pages/products";
 import {buildMetadata} from "@/lib/metadata";
 import {getLocaleFromParams, locales, t, type Locale} from "@/lib/i18n";
 import {
@@ -83,6 +84,7 @@ export default async function ProductCategoryPage({
   const catalog = getShowcaseCatalog().filter(
     (item) => item.collection === category.key,
   );
+  const buyingGuide = categoryBuyingGuides[category.key];
   const pageHref = localizedUrlPath(
     locale,
     `/products/category/${category.key}`,
@@ -184,6 +186,29 @@ export default async function ProductCategoryPage({
           categories: t(locale, {en: "Categories", zh: "分类"}),
         }}
       />
+      {buyingGuide ? (
+        <section className="products-buying-guide" aria-labelledby="buying-guide-title">
+          <h2 id="buying-guide-title">{t(locale, buyingGuide.title)}</h2>
+          <div className="products-buying-guide-grid">
+            {buyingGuide.sections.map((section) => (
+              <article key={section.title.en}>
+                <h3>{t(locale, section.title)}</h3>
+                <p>{t(locale, section.text)}</p>
+                {section.productIds ? (
+                  <ul>
+                    {section.productIds.map((id) => (
+                      <li key={id}><Link href={productPath(locale, id)}>{id}</Link></li>
+                    ))}
+                  </ul>
+                ) : null}
+              </article>
+            ))}
+          </div>
+          <Link className="products-buying-guide-contact" href={localizedPath(locale, "contact")}>
+            {t(locale, {en: "Discuss your sourcing requirements", zh: "咨询采购与定制需求"})}
+          </Link>
+        </section>
+      ) : null}
     </div>
   );
 }

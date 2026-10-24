@@ -427,10 +427,14 @@
     "main": [
       {
         "type": "image",
-        "url": "https://www.yaoshuntoys.com/media/products-q92/LYB008W/54286527ff57.webp"
+        "url": "https://www.yaoshuntoys.com/media/products-q92/LYB008W/overview-900-a70e3a7ee4b5e881.webp"
       }
     ],
     "detail": [
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/LYB008W/54286527ff57.webp"
+      },
       {
         "type": "image",
         "url": "https://www.yaoshuntoys.com/media/products-q92/LYB008W/305c4b2ad6e5.webp"
@@ -442,6 +446,7 @@
     ]
   },
   "images": [
+    "https://www.yaoshuntoys.com/media/products-q92/LYB008W/overview-900-a70e3a7ee4b5e881.webp",
     "https://www.yaoshuntoys.com/media/products-q92/LYB008W/54286527ff57.webp",
     "https://www.yaoshuntoys.com/media/products-q92/LYB008W/305c4b2ad6e5.webp",
     "https://www.yaoshuntoys.com/media/products-q92/LYB008W/d42502305450.webp"

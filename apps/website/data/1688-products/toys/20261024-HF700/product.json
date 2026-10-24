@@ -467,10 +467,14 @@
     "main": [
       {
         "type": "image",
-        "url": "https://www.yaoshuntoys.com/media/products-q92/HF700/c855be12737b.webp"
+        "url": "https://www.yaoshuntoys.com/media/products-q92/HF700/overview-900-379191f84a4556b9.webp"
       }
     ],
     "detail": [
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/HF700/c855be12737b.webp"
+      },
       {
         "type": "image",
         "url": "https://www.yaoshuntoys.com/media/products-q92/HF700/c0982445aed0.webp"
@@ -482,6 +486,7 @@
     ]
   },
   "images": [
+    "https://www.yaoshuntoys.com/media/products-q92/HF700/overview-900-379191f84a4556b9.webp",
     "https://www.yaoshuntoys.com/media/products-q92/HF700/c855be12737b.webp",
     "https://www.yaoshuntoys.com/media/products-q92/HF700/c0982445aed0.webp",
     "https://www.yaoshuntoys.com/media/products-q92/HF700/fa0d8b14413e.webp"

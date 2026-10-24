@@ -536,10 +536,14 @@
     "main": [
       {
         "type": "image",
-        "url": "https://www.yaoshuntoys.com/media/products-q92/HH3101YM/e1efd56d96d1.webp"
+        "url": "https://www.yaoshuntoys.com/media/products-q92/HH3101YM/overview-900-7f2581b26cae9e35.webp"
       }
     ],
     "detail": [
+      {
+        "type": "image",
+        "url": "https://www.yaoshuntoys.com/media/products-q92/HH3101YM/e1efd56d96d1.webp"
+      },
       {
         "type": "image",
         "url": "https://www.yaoshuntoys.com/media/products-q92/HH3101YM/2bc772e042b8.webp"
@@ -551,6 +555,7 @@
     ]
   },
   "images": [
+    "https://www.yaoshuntoys.com/media/products-q92/HH3101YM/overview-900-7f2581b26cae9e35.webp",
     "https://www.yaoshuntoys.com/media/products-q92/HH3101YM/e1efd56d96d1.webp",
     "https://www.yaoshuntoys.com/media/products-q92/HH3101YM/2bc772e042b8.webp",
     "https://www.yaoshuntoys.com/media/products-q92/HH3101YM/20ae01bef58e.webp"

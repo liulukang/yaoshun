@@ -15,6 +15,7 @@ import { StructuredData } from "@/components/seo/structured-data";
 import { productsPageContent } from "@/content/site";
 import { buildPageMetadata } from "@/lib/metadata";
 import { getLocaleFromParams, t } from "@/lib/i18n";
+import { orderProductsForCatalog } from "@/lib/product-catalog-order";
 import {
   getProductPiecesLabel,
   getProductPriceLabel,
@@ -153,12 +154,7 @@ export default async function ProductsPage({
   const catalog = getShowcaseCatalog();
   const query = getProductsQuery(await searchParams);
   const pageSize = PRODUCTS_PAGE_SIZE;
-  const sortedCatalog = [...catalog].sort(
-    (a, b) => Number(b.bestseller) - Number(a.bestseller),
-  );
-  const filteredCatalog = sortedCatalog.filter(
-    (item) => !query.category || item.collection === query.category,
-  );
+  const filteredCatalog = orderProductsForCatalog(catalog, query.category);
   const totalPages = Math.max(1, Math.ceil(filteredCatalog.length / pageSize));
   const currentPage = Math.min(getPageNumber(query.page), totalPages);
   const currentPageCatalog = filteredCatalog.slice(
@@ -238,7 +234,7 @@ export default async function ProductsPage({
             <div className="products-hero-copy">
               <p className="products-hero-eyebrow">{text.heroEyebrow}</p>
               <h1 className="products-hero-title">
-                <span>{text.heroTitleLine1}</span>
+                <span>{text.heroTitleLine1}</span>{locale === "en" ? " " : null}
                 <span>
                   <span className="hero-blue-word">{text.heroTitleLine2Blue}</span>{" "}
                   <span className="hero-orange-word">{text.heroTitleLine2Orange}</span>
