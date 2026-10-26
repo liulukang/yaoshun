@@ -1,8 +1,9 @@
 import {readFile, readdir, rename, stat, unlink, writeFile} from "node:fs/promises";
 import {basename, extname, resolve} from "node:path";
 import {fileURLToPath} from "node:url";
+import {createHash} from "node:crypto";
 
-import {put} from "@vercel/blob";
+import COS from "cos-nodejs-sdk-v5";
 import sharp from "sharp";
 
 const appDirectory = resolve(fileURLToPath(new URL("..", import.meta.url)));
@@ -12,8 +13,8 @@ const certificateContentPath = resolve(
   appDirectory,
   "src/content/pages/certificates.ts",
 );
-const blobDirectory = "yaoshun-assets/site/about/certificates";
-const publicMediaBaseUrl = "https://www.yaoshuntoys.com/media";
+const assetDirectory = "yaoshun-assets/site/about/certificates";
+const publicMediaBaseUrl = "https://static.yaoshuntoys.com/yaoshun-assets";
 const shouldUploadImages = process.argv.includes("--upload");
 const shouldUploadPdfs = shouldUploadImages || process.argv.includes("--upload-pdfs");
 const pdfDirectory = resolve(repositoryDirectory, "pdf");
@@ -36,6 +37,30 @@ const certificatePdfBySource = new Map([
 const MAX_WIDTH = 1600;
 const MAX_HEIGHT = 1800;
 const WEBP_QUALITY = 86;
+
+let cos;
+async function put(pathname, body, options) {
+  cos ??= new COS({
+    SecretId: process.env.TENCENT_COS_SECRET_ID,
+    SecretKey: process.env.TENCENT_COS_SECRET_KEY,
+    SecurityToken: process.env.TENCENT_COS_SECURITY_TOKEN,
+    Protocol: "https:",
+  });
+  const result = await new Promise((resolveUpload, rejectUpload) => {
+    cos.putObject({
+      Bucket: process.env.TENCENT_COS_BUCKET || "yaoshun-website-1255596634",
+      Region: process.env.TENCENT_COS_REGION || "ap-seoul",
+      Key: pathname,
+      Body: body,
+      ContentLength: body.length,
+      ContentMD5: createHash("md5").update(body).digest("base64"),
+      ContentType: options.contentType,
+      CacheControl: `public, max-age=${options.cacheControlMaxAge}`,
+      ACL: "public-read",
+    }, (error, data) => error ? rejectUpload(error) : resolveUpload(data));
+  });
+  return {pathname, etag: result.ETag};
+}
 
 const certificateConstantByFilename = new Map([
   ["uk-design-registration-6487034.webp", "ukDesignRegistration"],
@@ -89,12 +114,12 @@ function formatBytes(bytes) {
 }
 
 function toPublicMediaUrl(pathname, etag) {
-  const blobPrefix = "yaoshun-assets/";
-  if (!pathname.startsWith(blobPrefix)) {
-    throw new Error(`Unexpected Blob pathname: ${pathname}`);
+  const assetPrefix = "yaoshun-assets/";
+  if (!pathname.startsWith(assetPrefix)) {
+    throw new Error(`Unexpected asset pathname: ${pathname}`);
   }
 
-  const publicPathname = pathname.slice(blobPrefix.length);
+  const publicPathname = pathname.slice(assetPrefix.length);
   const url = new URL(`${publicMediaBaseUrl}/${publicPathname}`);
   url.searchParams.set("v", etag.replaceAll('"', ""));
   return url.toString();
@@ -231,21 +256,18 @@ if (!shouldUploadImages && !shouldUploadPdfs) {
   process.exit(0);
 }
 
-if (!process.env.BLOB_READ_WRITE_TOKEN) {
+if (!process.env.TENCENT_COS_SECRET_ID || !process.env.TENCENT_COS_SECRET_KEY) {
   throw new Error(
-    "BLOB_READ_WRITE_TOKEN is required. Load apps/website/.env.local before uploading.",
+    "TENCENT_COS_SECRET_ID and TENCENT_COS_SECRET_KEY are required. Load apps/website/.env.local before uploading.",
   );
 }
 
 const urlByFilename = new Map();
 if (shouldUploadImages) {
   for (const image of optimizedImages) {
-    const pathname = `${blobDirectory}/${image.filename}`;
+    const pathname = `${assetDirectory}/${image.filename}`;
     const body = await readFile(image.path);
     const blob = await put(pathname, body, {
-      access: "public",
-      addRandomSuffix: false,
-      allowOverwrite: true,
       contentType: "image/webp",
       // The public URL includes the ETag so overwrites receive a fresh cache key.
       cacheControlMaxAge: 60 * 60 * 24 * 30,
@@ -261,11 +283,8 @@ if (shouldUploadPdfs) {
   for (const [sourceFilename, publicFilename] of certificatePdfBySource) {
     const sourcePath = resolve(pdfDirectory, sourceFilename);
     const body = await readFile(sourcePath);
-    const pathname = `${blobDirectory}/${publicFilename}`;
+    const pathname = `${assetDirectory}/${publicFilename}`;
     const blob = await put(pathname, body, {
-      access: "public",
-      addRandomSuffix: false,
-      allowOverwrite: true,
       contentType: "application/pdf",
       cacheControlMaxAge: 60 * 60 * 24 * 30,
     });

@@ -3,11 +3,8 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import migratedLocalImages from "./src/content/migrated-local-images.json";
 
-const publicBlobOrigin =
-  "https://7j7davvujdsmddan.public.blob.vercel-storage.com";
-// Keep object keys unchanged when copying Blob objects to COS (or another store).
 const assetBaseUrl = new URL(
-  process.env.ASSET_BASE_URL || `${publicBlobOrigin}/yaoshun-assets`,
+  process.env.ASSET_BASE_URL || "https://static.yaoshuntoys.com/yaoshun-assets",
 );
 if (assetBaseUrl.protocol !== "https:" || assetBaseUrl.search || assetBaseUrl.hash) {
   throw new Error("ASSET_BASE_URL must be an HTTPS URL without a query or fragment.");
@@ -163,10 +160,10 @@ const nextConfig: NextConfig = {
   },
   async rewrites() {
     return [
-      // Preserve published image URLs after moving the underlying files to Blob.
+      // Preserve published image URLs while serving their files from COS.
       ...migratedLocalImages.map(({ source, destination }) => ({
         source,
-        destination: destination.replace(`${publicBlobOrigin}/yaoshun-assets`, assetBase),
+        destination: `${assetBase}${destination}`,
       })),
       {
         source: "/media/:path*",
@@ -191,10 +188,6 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "www.yaoshuntoys.com",
         pathname: "/media/**",
-      },
-      {
-        protocol: "https",
-        hostname: "7j7davvujdsmddan.public.blob.vercel-storage.com",
       },
       {
         protocol: "https",

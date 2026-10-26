@@ -1,7 +1,8 @@
 # 官网生产部署
 
 官网从 Vercel 迁移到腾讯云 Lighthouse `119.28.153.42`，SSH 用户为 `ubuntu`。
-域名仍由阿里云解析，图片暂时继续使用现有 Vercel Blob。此次部署不迁移 COS。
+域名由阿里云解析，图片和证书存放在腾讯云 COS `yaoshun-website-1255596634`（`ap-seoul`），
+绑定 HTTPS 域名 `static.yaoshuntoys.com`。
 
 流程与 Lucon 一致：GitHub Actions 检查代码、构建 Docker 镜像、冒烟验证后推送 GHCR，
 再通过 SSH 在服务器上拉取固定 digest，并用 Docker Compose 更新官网。
@@ -56,7 +57,8 @@ NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION
 Google 的配置沿用当前 `apps/website/.env.local` 中的公开值。
 `GOOGLE_SITE_VERIFICATION` 的旧服务端配置应复制到 `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION`。
 修改 `NEXT_PUBLIC_*` 后必须重新运行发布；仅修改服务器环境文件不会改变浏览器代码。
-`ASSET_BASE_URL` 暂时留空，继续读取原 Blob；以后迁移图片时再设置完整 HTTPS 图片根路径并重建。
+`ASSET_BASE_URL` 默认使用 `https://static.yaoshuntoys.com/yaoshun-assets`。
+变更图片源时修改该公开构建变量并重建。已有 `/media/` 和历史本地图片 URL 会继续代理到 COS。
 
 已经登录 GitHub CLI 且具有仓库写入权限时，可在仓库根目录一次性配置以上 Secrets 和公开 Variables：
 
@@ -87,7 +89,7 @@ RESEND_FROM_EMAIL=<原网站已验证的发件邮箱>
 RESEND_TO_EMAIL=info@yaoshuntoys.com
 ```
 
-网站只读取公开 Blob 图片，无需 `BLOB_READ_WRITE_TOKEN`；图片上传脚本仍可在本地使用。
+网站只读取公开 COS 图片，无需 COS 写入密钥；本地图片上传脚本使用 `TENCENT_COS_*` 凭据。
 运行时文件由服务器维护，工作流只上传 `infra/` 和 `deploy/`，不会覆盖该文件。
 
 确保部署用户可写 `/opt/lucon/infra/caddy/Caddyfile` 并能执行 Docker 命令。
@@ -111,7 +113,8 @@ RESEND_TO_EMAIL=info@yaoshuntoys.com
 根域名和 HTTP 请求都直接跳转到 `https://www.yaoshuntoys.com`，并保留原路径与参数。
 
 首次发布前完成解析切换，否则工作流最后的公网验收会访问旧 Vercel。
-先验证新站及图片可正常访问，再停用旧 Vercel 计算服务；保留 Blob 存储。
+`static` 的 CNAME 指向 `yaoshun-website-1255596634.cos.ap-seoul.myqcloud.com`，
+COS 源站域名已绑定 HTTPS 证书。原 Blob 可作为迁移后的回滚备份。
 
 ## 4. 验收与运维
 

@@ -27,13 +27,13 @@ pnpm build
 
 GitHub Actions 构建并验证官网镜像，推送 GHCR 后通过 SSH 部署到腾讯云 Lighthouse。
 `main` 分支相关变更和 `v*.*.*` 标签触发发布，也支持手动运行；Pull request 只执行验证。
-官网复用服务器上现有 Caddy 的 HTTPS 入口，图片暂时继续读取原 Vercel Blob。
+官网复用服务器上现有 Caddy 的 HTTPS 入口，图片由腾讯云 COS 和 `static.yaoshuntoys.com` 提供。
 
 首次配置、环境变量、阿里云 DNS 切换和回滚见 [官网部署手册](deploy/README.md)。
 
 ## 证书图片上传
 
-根目录 `images/` 中的证书图片需要先转换成 WebP，再上传到 Vercel Blob：
+根目录 `images/` 中的证书图片需要先转换成 WebP，再上传到腾讯云 COS：
 
 ```bash
 # 只在本地转换、压缩并规范文件名
@@ -43,7 +43,7 @@ pnpm images:certificates:prepare
 pnpm images:certificates:upload
 ```
 
-上传流程会把图片限制在 1600×1800 像素以内，使用 WebP 质量 86，并采用无随机后缀的英文短横线文件名。上传需要在 `apps/website/.env.local` 中配置 `BLOB_READ_WRITE_TOKEN`。
+上传流程会把图片限制在 1600×1800 像素以内，使用 WebP 质量 86，并采用无随机后缀的英文短横线文件名。上传需要在 `apps/website/.env.local` 中配置 `TENCENT_COS_SECRET_ID` 和 `TENCENT_COS_SECRET_KEY`；桶与地域默认使用 `yaoshun-website-1255596634`、`ap-seoul`。
 
 ## 技术基线
 

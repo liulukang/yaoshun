@@ -14,7 +14,6 @@
     "content:dates": "node scripts/update-content-dates.mjs"
   },
   "dependencies": {
-    "@vercel/blob": "^2.3.3",
     "lucide-react": "^0.542.0",
     "next": "16.2.6",
     "react": "19.2.4",
@@ -27,6 +26,7 @@
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "autoprefixer": "^10.4.27",
+    "cos-nodejs-sdk-v5": "3.0.0",
     "eslint": "^9.39.4",
     "eslint-config-next": "16.2.6",
     "playwright": "^1.59.1",

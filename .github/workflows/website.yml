@@ -108,7 +108,7 @@ jobs:
           cache-to: type=gha,mode=max,scope=website
           build-args: |
             NEXT_PUBLIC_SITE_URL=${{ vars.NEXT_PUBLIC_SITE_URL || 'https://www.yaoshuntoys.com' }}
-            ASSET_BASE_URL=${{ vars.ASSET_BASE_URL }}
+            ASSET_BASE_URL=${{ vars.ASSET_BASE_URL || 'https://static.yaoshuntoys.com/yaoshun-assets' }}
             NEXT_PUBLIC_ENABLE_THIRD_PARTY_TRACKING=${{ vars.NEXT_PUBLIC_ENABLE_THIRD_PARTY_TRACKING || 'true' }}
             NEXT_PUBLIC_GOOGLE_ANALYTICS_ID=${{ vars.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID }}
             NEXT_PUBLIC_GOOGLE_ADS_ID=${{ vars.NEXT_PUBLIC_GOOGLE_ADS_ID }}
@@ -125,7 +125,7 @@ jobs:
             if curl --fail --silent http://127.0.0.1:3000/api/health > /dev/null; then break; fi
             sleep 2
           done
-          node deploy/smoke.mjs http://127.0.0.1:3000
+          node deploy/smoke.mjs http://127.0.0.1:3000 --media
       - name: Publish tested image
         id: image
         if: github.event_name != 'pull_request'
