@@ -1,0 +1,198 @@
+name: Website CI and deploy
+
+on:
+  pull_request:
+    paths:
+      - apps/website/**
+      - infra/**
+      - deploy/**
+      - .github/workflows/website.yml
+      - .dockerignore
+      - package.json
+      - pnpm-lock.yaml
+      - pnpm-workspace.yaml
+      - .npmrc
+      - tsconfig.base.json
+  push:
+    branches: [main]
+    tags: ["v*.*.*"]
+    paths:
+      - apps/website/**
+      - infra/**
+      - deploy/**
+      - .github/workflows/website.yml
+      - .dockerignore
+      - package.json
+      - pnpm-lock.yaml
+      - pnpm-workspace.yaml
+      - .npmrc
+      - tsconfig.base.json
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: yaoshun-website-${{ github.event_name == 'pull_request' && github.ref || 'production' }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+env:
+  IMAGE: ghcr.io/yaoshuntoys/yaoshun/website
+
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+      - uses: pnpm/action-setup@f520eceda224fe1a4aed5a2a27a194379a409996 # v6
+        with:
+          version: 10.11.0
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7
+        with:
+          node-version: 24
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile --filter @yaoshun/website...
+      - run: pnpm --filter @yaoshun/website lint
+      - run: pnpm --filter @yaoshun/website typecheck
+      - name: Validate deployment scripts
+        run: |
+          bash -n deploy/release.sh deploy/configure-edge.sh
+          node --check deploy/smoke.mjs
+
+  build:
+    needs: verify
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    permissions:
+      contents: read
+      packages: write
+    outputs:
+      image: ${{ steps.image.outputs.ref }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+      - name: Restrict production releases to main history
+        if: github.event_name != 'pull_request'
+        env:
+          REF: ${{ github.ref }}
+        run: |
+          if [[ "$REF" != refs/heads/main && "$REF" != refs/tags/v* ]]; then
+            echo 'Only main or a version tag on main can deploy.' >&2
+            exit 1
+          fi
+          git merge-base --is-ancestor "$GITHUB_SHA" origin/main
+      - uses: docker/setup-buildx-action@f87e5991a6d7451dcb8d9637bfbc97413f497069 # v4
+      - name: Log in to GHCR
+        if: github.event_name != 'pull_request'
+        uses: docker/login-action@81c6f93d4bc991e510b342a00b419b3bb4efc5c6 # v4
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - name: Build website image
+        uses: docker/build-push-action@c3c9e263c25d99ce0380d002d59b67737d91b0dc # v7
+        with:
+          context: .
+          file: apps/website/Dockerfile
+          platforms: linux/amd64
+          load: true
+          push: false
+          tags: ${{ env.IMAGE }}:${{ github.sha }}
+          provenance: false
+          cache-from: type=gha,scope=website
+          cache-to: type=gha,mode=max,scope=website
+          build-args: |
+            NEXT_PUBLIC_SITE_URL=${{ vars.NEXT_PUBLIC_SITE_URL || 'https://www.yaoshuntoys.com' }}
+            ASSET_BASE_URL=${{ vars.ASSET_BASE_URL }}
+            NEXT_PUBLIC_ENABLE_THIRD_PARTY_TRACKING=${{ vars.NEXT_PUBLIC_ENABLE_THIRD_PARTY_TRACKING || 'true' }}
+            NEXT_PUBLIC_GOOGLE_ANALYTICS_ID=${{ vars.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID }}
+            NEXT_PUBLIC_GOOGLE_ADS_ID=${{ vars.NEXT_PUBLIC_GOOGLE_ADS_ID }}
+            NEXT_PUBLIC_GOOGLE_ADS_LEAD_CONVERSION_SEND_TO=${{ vars.NEXT_PUBLIC_GOOGLE_ADS_LEAD_CONVERSION_SEND_TO }}
+            NEXT_PUBLIC_GOOGLE_ADS_CONTACT_CONVERSION_SEND_TO=${{ vars.NEXT_PUBLIC_GOOGLE_ADS_CONTACT_CONVERSION_SEND_TO }}
+            NEXT_PUBLIC_GOOGLE_ADS_LEAD_CONVERSION_CURRENCY=${{ vars.NEXT_PUBLIC_GOOGLE_ADS_LEAD_CONVERSION_CURRENCY || 'USD' }}
+            NEXT_PUBLIC_GOOGLE_ADS_LEAD_CONVERSION_VALUE=${{ vars.NEXT_PUBLIC_GOOGLE_ADS_LEAD_CONVERSION_VALUE || '1' }}
+            NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION=${{ vars.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION }}
+      - name: Smoke test the production image
+        run: |
+          docker run -d --name website-smoke -p 127.0.0.1:3000:3000 "$IMAGE:$GITHUB_SHA"
+          trap 'docker logs website-smoke; docker rm -f website-smoke' EXIT
+          for _ in {1..30}; do
+            if curl --fail --silent http://127.0.0.1:3000/api/health > /dev/null; then break; fi
+            sleep 2
+          done
+          node deploy/smoke.mjs http://127.0.0.1:3000
+      - name: Publish tested image
+        id: image
+        if: github.event_name != 'pull_request'
+        run: |
+          docker push "$IMAGE:$GITHUB_SHA"
+          image_ref="$(docker image inspect "$IMAGE:$GITHUB_SHA" --format '{{index .RepoDigests 0}}')"
+          [[ "$image_ref" == "$IMAGE"@sha256:* ]]
+          printf 'ref=%s\n' "$image_ref" >> "$GITHUB_OUTPUT"
+
+  deploy:
+    needs: build
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    environment:
+      name: production
+      url: https://www.yaoshuntoys.com
+    permissions:
+      contents: read
+      packages: read
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+      - name: Deploy over SSH
+        env:
+          DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
+          DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
+          DEPLOY_SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_SSH_PRIVATE_KEY }}
+          DEPLOY_KNOWN_HOSTS: ${{ secrets.DEPLOY_KNOWN_HOSTS }}
+          GHCR_USERNAME: ${{ secrets.GHCR_USERNAME || github.actor }}
+          GHCR_PULL_TOKEN: ${{ secrets.GHCR_PULL_TOKEN || github.token }}
+          WEBSITE_IMAGE: ${{ needs.build.outputs.image }}
+        run: |
+          set -euo pipefail
+          for name in DEPLOY_HOST DEPLOY_USER DEPLOY_SSH_PRIVATE_KEY DEPLOY_KNOWN_HOSTS GHCR_PULL_TOKEN; do
+            [[ -n "${!name}" ]] || { echo "$name is required" >&2; exit 1; }
+          done
+          [[ "$DEPLOY_HOST" =~ ^[a-zA-Z0-9][a-zA-Z0-9.-]*$ ]]
+          [[ "$DEPLOY_USER" =~ ^[a-zA-Z_][a-zA-Z0-9_-]*$ ]]
+          [[ "$GHCR_USERNAME" =~ ^[a-zA-Z0-9_-]+(\[bot\])?$ ]]
+          [[ "$GITHUB_SHA" =~ ^[a-f0-9]{40}$ ]]
+          [[ "$WEBSITE_IMAGE" =~ ^ghcr\.io/yaoshuntoys/yaoshun/website@sha256:[a-f0-9]{64}$ ]]
+          ssh_dir="$(mktemp -d)"
+          trap 'rm -rf "$ssh_dir"' EXIT
+          printf '%s\n' "$DEPLOY_SSH_PRIVATE_KEY" > "$ssh_dir/key"
+          printf '%s\n' "$DEPLOY_KNOWN_HOSTS" > "$ssh_dir/known_hosts"
+          chmod 600 "$ssh_dir/key" "$ssh_dir/known_hosts"
+          opts=(-i "$ssh_dir/key" -o "UserKnownHostsFile=$ssh_dir/known_hosts" -o StrictHostKeyChecking=yes -o BatchMode=yes -o ConnectTimeout=15 -o ServerAliveInterval=30)
+          target="$DEPLOY_USER@$DEPLOY_HOST"
+          # Remote arguments are validated above; expand them on the runner.
+          # shellcheck disable=SC2029
+          remote() { ssh "${opts[@]}" "$target" "$@"; }
+          release="/opt/yaoshun/releases/$GITHUB_SHA"
+          remote "mkdir -p '$release'"
+          scp "${opts[@]}" -r infra deploy "$target:$release/"
+          # An isolated Docker config avoids replacing the existing Lucon login.
+          registry_dir="$(remote 'mktemp -d /tmp/yaoshun-registry.XXXXXX')"
+          [[ "$registry_dir" =~ ^/tmp/yaoshun-registry\.[a-zA-Z0-9]+$ ]]
+          cleanup() {
+            remote "rm -rf -- '$registry_dir'" || true
+            rm -rf "$ssh_dir"
+          }
+          trap cleanup EXIT
+          printf '%s' "$GHCR_PULL_TOKEN" | remote \
+            "docker --config '$registry_dir' login ghcr.io --username '$GHCR_USERNAME' --password-stdin"
+          remote \
+            "DOCKER_CONFIG='$registry_dir' bash '$release/deploy/release.sh' '$WEBSITE_IMAGE'"
+      - name: Verify public HTTPS and images
+        run: node deploy/smoke.mjs https://www.yaoshuntoys.com --media

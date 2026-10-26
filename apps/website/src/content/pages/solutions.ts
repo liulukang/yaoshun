@@ -1,5 +1,5 @@
 const coreFocusBase =
-  "https://7j7davvujdsmddan.public.blob.vercel-storage.com/yaoshun-assets/site/solutions/core-focus-v2";
+  "https://www.yaoshuntoys.com/media/site/solutions/core-focus-v2";
 const baseUrl =
   "https://www.yaoshuntoys.com/media/site/solutions";
 const equipmentBase =

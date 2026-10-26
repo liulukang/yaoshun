@@ -1,10 +1,22 @@
 import type { NextConfig } from "next";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
 import migratedLocalImages from "./src/content/migrated-local-images.json";
 
 const publicBlobOrigin =
   "https://7j7davvujdsmddan.public.blob.vercel-storage.com";
+// Keep object keys unchanged when copying Blob objects to COS (or another store).
+const assetBaseUrl = new URL(
+  process.env.ASSET_BASE_URL || `${publicBlobOrigin}/yaoshun-assets`,
+);
+if (assetBaseUrl.protocol !== "https:" || assetBaseUrl.search || assetBaseUrl.hash) {
+  throw new Error("ASSET_BASE_URL must be an HTTPS URL without a query or fragment.");
+}
+const assetBase = assetBaseUrl.href.replace(/\/$/, "");
 
 const nextConfig: NextConfig = {
+  output: "standalone",
+  outputFileTracingRoot: path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../.."),
   poweredByHeader: false,
   experimental: {
     staleTimes: {
@@ -58,10 +70,6 @@ const nextConfig: NextConfig = {
           {
             key: "CDN-Cache-Control",
             value: "public, max-age=2592000, stale-while-revalidate=604800",
-          },
-          {
-            key: "x-vercel-enable-rewrite-caching",
-            value: "1",
           },
         ],
       },
@@ -156,10 +164,13 @@ const nextConfig: NextConfig = {
   async rewrites() {
     return [
       // Preserve published image URLs after moving the underlying files to Blob.
-      ...migratedLocalImages,
+      ...migratedLocalImages.map(({ source, destination }) => ({
+        source,
+        destination: destination.replace(`${publicBlobOrigin}/yaoshun-assets`, assetBase),
+      })),
       {
         source: "/media/:path*",
-        destination: `${publicBlobOrigin}/yaoshun-assets/:path*`,
+        destination: `${assetBase}/:path*`,
       },
     ];
   },
@@ -170,6 +181,12 @@ const nextConfig: NextConfig = {
     imageSizes: [16, 24, 32, 48, 64, 96, 128, 256, 384],
     qualities: [75, 80, 85, 90, 100],
     remotePatterns: [
+      {
+        protocol: "https",
+        hostname: assetBaseUrl.hostname,
+        port: assetBaseUrl.port,
+        pathname: `${assetBaseUrl.pathname.replace(/\/$/, "")}/**`,
+      },
       {
         protocol: "https",
         hostname: "www.yaoshuntoys.com",

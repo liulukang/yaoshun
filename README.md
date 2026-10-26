@@ -23,6 +23,14 @@ pnpm typecheck
 pnpm build
 ```
 
+## 官网自动部署
+
+GitHub Actions 构建并验证官网镜像，推送 GHCR 后通过 SSH 部署到腾讯云 Lighthouse。
+`main` 分支相关变更和 `v*.*.*` 标签触发发布，也支持手动运行；Pull request 只执行验证。
+官网复用服务器上现有 Caddy 的 HTTPS 入口，图片暂时继续读取原 Vercel Blob。
+
+首次配置、环境变量、阿里云 DNS 切换和回滚见 [官网部署手册](deploy/README.md)。
+
 ## 证书图片上传
 
 根目录 `images/` 中的证书图片需要先转换成 WebP，再上传到 Vercel Blob：

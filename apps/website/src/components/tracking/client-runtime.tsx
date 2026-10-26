@@ -10,9 +10,7 @@ type LocalRuntimeComponents = {
 };
 
 type ThirdPartyRuntimeComponents = {
-  SpeedInsights: RuntimeComponent;
   TrackingScripts: RuntimeComponent;
-  VercelAnalytics: RuntimeComponent;
 };
 
 function scheduleIdle(callback: () => void, timeout: number) {
@@ -74,19 +72,13 @@ export function ClientRuntime() {
   useEffect(() => {
     let active = true;
     const cleanup = scheduleIdle(() => {
-      void Promise.all([
-        import('@/components/tracking/tracking-scripts'),
-        import('@vercel/analytics/next'),
-        import('@vercel/speed-insights/next'),
-      ]).then(([tracking, analytics, speedInsights]) => {
+      void import('@/components/tracking/tracking-scripts').then((tracking) => {
         if (!active) {
           return;
         }
 
         setThirdPartyRuntime({
-          SpeedInsights: speedInsights.SpeedInsights as RuntimeComponent,
           TrackingScripts: tracking.TrackingScripts as RuntimeComponent,
-          VercelAnalytics: analytics.Analytics as RuntimeComponent,
         });
       });
     }, 3500);
@@ -99,9 +91,7 @@ export function ClientRuntime() {
 
   const AnalyticsEvents = localRuntime?.AnalyticsEvents;
   const CookieConsentManager = localRuntime?.CookieConsentManager;
-  const SpeedInsights = thirdPartyRuntime?.SpeedInsights;
   const TrackingScripts = thirdPartyRuntime?.TrackingScripts;
-  const VercelAnalytics = thirdPartyRuntime?.VercelAnalytics;
 
   return (
     <>
@@ -113,13 +103,7 @@ export function ClientRuntime() {
           <CookieConsentManager />
         </>
       ) : null}
-      {SpeedInsights && TrackingScripts && VercelAnalytics ? (
-        <>
-          <TrackingScripts />
-          <VercelAnalytics />
-          <SpeedInsights />
-        </>
-      ) : null}
+      {TrackingScripts ? <TrackingScripts /> : null}
     </>
   );
 }

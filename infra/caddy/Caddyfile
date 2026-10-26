@@ -1,0 +1,16 @@
+# This fragment is added to the existing Lucon Caddy configuration by
+# deploy/configure-edge.sh. The host already uses auto_https disable_redirects.
+http://yaoshuntoys.com, http://www.yaoshuntoys.com, https://yaoshuntoys.com {
+	redir https://www.yaoshuntoys.com{uri} 308
+}
+
+https://www.yaoshuntoys.com {
+	encode zstd gzip
+	reverse_proxy yaoshun-website:3000 {
+		# Let the application use its conservative consent default when there is
+		# no trusted geolocation provider, ignoring caller-supplied headers.
+		header_up -X-Vercel-IP-Country
+		header_up -CF-IPCountry
+		header_up -X-Country-Code
+	}
+}
