@@ -108,7 +108,7 @@ jobs:
           cache-to: type=gha,mode=max,scope=website
           build-args: |
             NEXT_PUBLIC_SITE_URL=${{ vars.NEXT_PUBLIC_SITE_URL || 'https://www.yaoshuntoys.com' }}
-            ASSET_BASE_URL=${{ vars.ASSET_BASE_URL || 'https://7j7davvujdsmddan.public.blob.vercel-storage.com' }}
+            ASSET_BASE_URL=${{ vars.ASSET_BASE_URL || 'https://1jn72ysuhytzbsse.public.blob.vercel-storage.com' }}
             NEXT_PUBLIC_ENABLE_THIRD_PARTY_TRACKING=${{ vars.NEXT_PUBLIC_ENABLE_THIRD_PARTY_TRACKING || 'true' }}
             NEXT_PUBLIC_GOOGLE_ANALYTICS_ID=${{ vars.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID }}
             NEXT_PUBLIC_GOOGLE_ADS_ID=${{ vars.NEXT_PUBLIC_GOOGLE_ADS_ID }}

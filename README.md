@@ -25,11 +25,11 @@ pnpm build
 
 ## 官网自动部署
 
-GitHub Actions 构建并验证官网镜像，推送 GHCR 后通过 SSH 部署到腾讯云 Lighthouse。
-`main` 分支相关变更和 `v*.*.*` 标签触发发布，也支持手动运行；Pull request 只执行验证。
-官网图片默认由最早的 Vercel Blob 存储提供，也可通过 `ASSET_BASE_URL` 覆盖。
+生产项目为 [lukanglius-projects/yaoshun](https://vercel.com/lukanglius-projects/yaoshun)，
+连接 `liulukang/yaoshun` 的 `main` 分支，网站根目录为 `apps/website`，推送后由 Vercel 自动构建部署。
+官网图片默认由 `lukanglius-projects` 团队的 Vercel Blob 存储提供，也可通过 `ASSET_BASE_URL` 覆盖。
 
-首次配置、环境变量、阿里云 DNS 切换和回滚见 [官网部署手册](deploy/README.md)。
+仓库仍保留 GitHub Actions → GHCR → Lighthouse 的部署流程，配置见 [Lighthouse 部署手册](deploy/README.md)。
 
 ## 证书图片上传
 

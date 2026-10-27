@@ -4,7 +4,7 @@ import { fileURLToPath } from "node:url";
 import migratedLocalImages from "./src/content/migrated-local-images.json";
 
 const publicBlobOrigin =
-  "https://7j7davvujdsmddan.public.blob.vercel-storage.com";
+  "https://1jn72ysuhytzbsse.public.blob.vercel-storage.com";
 const configuredAssetBaseUrl = new URL(
   process.env.ASSET_BASE_URL || publicBlobOrigin,
 );
@@ -15,7 +15,7 @@ if (
 ) {
   throw new Error("ASSET_BASE_URL must be an HTTPS URL without a query or fragment.");
 }
-// The original Blob store keeps website files below this prefix. Accept both
+// The Blob store keeps website files below this prefix. Accept both
 // the origin and the full prefix in ASSET_BASE_URL while always generating a
 // working asset URL.
 const assetBasePath =

@@ -53,7 +53,7 @@ pnpm --filter @yaoshun/website build
 
 ```bash
 NEXT_PUBLIC_SITE_URL=https://www.yaoshuntoys.com
-ASSET_BASE_URL=https://7j7davvujdsmddan.public.blob.vercel-storage.com
+ASSET_BASE_URL=https://1jn72ysuhytzbsse.public.blob.vercel-storage.com
 NEXT_PUBLIC_ENABLE_THIRD_PARTY_TRACKING=
 NEXT_PUBLIC_GOOGLE_ANALYTICS_ID=
 NEXT_PUBLIC_GOOGLE_ADS_ID=
