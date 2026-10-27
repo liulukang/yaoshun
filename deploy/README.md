@@ -57,8 +57,9 @@ NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION
 Google 的配置沿用当前 `apps/website/.env.local` 中的公开值。
 `GOOGLE_SITE_VERIFICATION` 的旧服务端配置应复制到 `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION`。
 修改 `NEXT_PUBLIC_*` 后必须重新运行发布；仅修改服务器环境文件不会改变浏览器代码。
-`ASSET_BASE_URL` 默认使用 `https://static.yaoshuntoys.com/yaoshun-assets`。
-变更图片源时修改该公开构建变量并重建。已有 `/media/` 和历史本地图片 URL 会继续代理到 COS。
+`ASSET_BASE_URL` 默认使用最早的 Vercel Blob 图片存储：
+`https://7j7davvujdsmddan.public.blob.vercel-storage.com`。
+变更图片源时修改该公开构建变量并重建。Blob 文件位于 `/yaoshun-assets` 前缀下。
 
 已经登录 GitHub CLI 且具有仓库写入权限时，可在仓库根目录一次性配置以上 Secrets 和公开 Variables：
 

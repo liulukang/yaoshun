@@ -27,7 +27,7 @@ pnpm build
 
 GitHub Actions 构建并验证官网镜像，推送 GHCR 后通过 SSH 部署到腾讯云 Lighthouse。
 `main` 分支相关变更和 `v*.*.*` 标签触发发布，也支持手动运行；Pull request 只执行验证。
-官网复用服务器上现有 Caddy 的 HTTPS 入口，图片由腾讯云 COS 和 `static.yaoshuntoys.com` 提供。
+官网图片默认由最早的 Vercel Blob 存储提供，也可通过 `ASSET_BASE_URL` 覆盖。
 
 首次配置、环境变量、阿里云 DNS 切换和回滚见 [官网部署手册](deploy/README.md)。
 

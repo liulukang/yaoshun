@@ -3,13 +3,26 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import migratedLocalImages from "./src/content/migrated-local-images.json";
 
-const assetBaseUrl = new URL(
-  process.env.ASSET_BASE_URL || "https://static.yaoshuntoys.com/yaoshun-assets",
+const publicBlobOrigin =
+  "https://7j7davvujdsmddan.public.blob.vercel-storage.com";
+const configuredAssetBaseUrl = new URL(
+  process.env.ASSET_BASE_URL || publicBlobOrigin,
 );
-if (assetBaseUrl.protocol !== "https:" || assetBaseUrl.search || assetBaseUrl.hash) {
+if (
+  configuredAssetBaseUrl.protocol !== "https:" ||
+  configuredAssetBaseUrl.search ||
+  configuredAssetBaseUrl.hash
+) {
   throw new Error("ASSET_BASE_URL must be an HTTPS URL without a query or fragment.");
 }
-const assetBase = assetBaseUrl.href.replace(/\/$/, "");
+// The original Blob store keeps website files below this prefix. Accept both
+// the origin and the full prefix in ASSET_BASE_URL while always generating a
+// working asset URL.
+const assetBasePath =
+  configuredAssetBaseUrl.pathname === "/"
+    ? "/yaoshun-assets"
+    : configuredAssetBaseUrl.pathname.replace(/\/$/, "");
+const assetBase = `${configuredAssetBaseUrl.origin}${assetBasePath}`;
 
 const nextConfig: NextConfig = {
   output: "standalone",
@@ -160,7 +173,7 @@ const nextConfig: NextConfig = {
   },
   async rewrites() {
     return [
-      // Preserve published image URLs while serving their files from COS.
+      // Preserve published image URLs while serving their files from Blob.
       ...migratedLocalImages.map(({ source, destination }) => ({
         source,
         destination: `${assetBase}${destination}`,
@@ -180,9 +193,9 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: assetBaseUrl.hostname,
-        port: assetBaseUrl.port,
-        pathname: `${assetBaseUrl.pathname.replace(/\/$/, "")}/**`,
+        hostname: configuredAssetBaseUrl.hostname,
+        port: configuredAssetBaseUrl.port,
+        pathname: `${assetBasePath}/**`,
       },
       {
         protocol: "https",
